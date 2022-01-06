@@ -1,0 +1,997 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+
+.games-top {
+    padding:40px 40px;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-bottom:4px;
+    border-style:outset;
+    border-color:#595;
+    background-color:black;            
+}
+
+
+
+#underneath-div {
+    background-image: url("../imgs/deepsea.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;
+    
+    
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.underneath-div-extra {
+    background-image: url('../imgs/wavecut.png'); 
+    border: 3px; 
+    border-style: solid;
+    
+    padding-bottom: 20px;
+}
+
+.center-div {
+    width: 80%;
+    margin: auto;   
+    margin-top: 20px;
+    
+    opacity: 1;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+.center-div-bullet {   
+    background-color: white; 
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #ffe, white, white, white);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0), #ffe, white, white, white);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #ffe, white, white, white);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffe, white, white, white);
+    
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.not-coming-soon:hover {   
+    background-color: #ee8; 
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    
+    cursor:pointer;
+}
+
+.coming-soon {
+    opacity: .6;
+}
+
+.coming-soon-text {
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    font-size: 30px;
+    color: fuchsia;
+    z-index: 2;
+    opacity: 0;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.coming-soon:hover .coming-soon-text {
+    opacity: 1;
+}
+
+@media (max-width: 650px) {
+    .coming-soon-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .coming-soon-text {
+        font-size: 14px;
+    }
+}
+
+/*
+.center-div-bullet-reverse {  
+    background-color: #EEEEEE; 
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), white, white, white, #ffe);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0), white, white, white, #ffe);
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), white, white, white, #ffe);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white, white, white, #ffe);
+    
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+*/
+
+.center-div a:hover {
+    color: mediumblue;
+}
+
+
+#center-div-left {
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#center-div-right {
+    margin-top: 2%;
+}
+
+.center-div img {
+    /*margin: auto;*/
+    border-radius: 15px;
+}
+
+.doing {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.doingB {
+    color: black;
+    font-weight: normal;
+    font-size: smaller;
+}
+
+#doingA1 {
+    color: teal;
+    font-size: larger;
+} 
+
+#doingA2 {
+    color: red;   
+    font-size: larger;
+}
+
+#doingA3 {
+    color: darkmagenta;
+    font-size: larger;
+}
+
+#price-part {
+    padding-top: 5%;
+    padding-left: 15%;
+    font-size: smaller;
+}
+
+#price-part span {
+    visibility: hidden;
+}
+
+.center-div:hover #price-part span {
+    visibility: visible;
+}
+
+/*
+@media (max-width: 750px) {
+    #center-div {
+        font-size: 16px;
+    }
+}*/
+
+@media (max-width: 650px) {
+    .center-div {
+        /*bottom: 18%;*/
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .center-div {
+        font-size: 12px;
+        /*left: 12%;
+        width: 76%;
+        bottom: 15%;*/
+    } 
+    
+}
+
+@media (max-width: 450px) {
+    .center-div {
+        
+        /*left: 5%;
+        width: 90%;
+        bottom: 5%;*/
+    }
+    
+    #center-div-right {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 380px) {
+    
+    .doing {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    .center-div {
+        width: 90%;
+        font-size: 10px;
+    }
+    
+    /*#price-part {
+        display: none;
+    }*/
+    
+}
+
+
+
+
+     
+/* Rotating text */
+#image-message {
+    font-size: 60px;
+    color: white;
+    left: 19%;
+    position: absolute;
+    bottom: 20%;
+    font-weight: bold;
+    
+    /*text-shadow: 3px 3px 5px black;*/
+    text-shadow: 3px 3px 1px midnightblue, 3px -3px 1px midnightblue, -3px -3px 1px midnightblue, -3px 3px 1px midnightblue;
+    
+    display: none;
+    visibility: none;
+}
+
+/* Android hack, since the rotating text doesn't display properly on willfon */
+/*@media screen and (min-width:0\0) {
+    #image-message {display: none;}
+}*/
+
+.text {
+  position: absolute;
+  width: 680px;
+  left: 50%;
+  height: 40px;
+  top: 50%;
+  margin-top: -55px;
+}
+
+
+.text p {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0;
+}
+
+.word {
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+}
+
+.letter {
+  display: inline-block;
+  position: relative;
+  float: left;
+  transform: translateZ(25px);
+  transform-origin: 50% 50% 25px;
+}
+
+.letter.out {
+  transform: rotateX(90deg);
+  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.letter.behind {
+  transform: rotateX(-90deg);
+}
+
+.letter.in {
+  transform: rotateX(0deg);
+  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.color1 {
+  color: white;
+  font-size: 36px;
+}
+
+.color2 {
+  color: mediumvioletred;
+  font-family: 'verdana';
+  font-size: 40px;   
+}
+
+@media (max-width: 825px) {
+    #image-message {
+        font-size: 32px;
+        bottom: 10%;
+    }
+    
+    .color1 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 570px) {
+    #image-message {
+        visibility: hidden;
+    }
+}
+
+/* end of Rotating Text */
+
+
+/*#explanatory {
+  font-size: 30px;
+    color: black;
+    left: 33%;
+    position: absolute;
+    bottom: 7%;
+    font-weight: bold;
+    
+    text-shadow: 1px 1px 1px white, 1px -1px 1px white, -1px -1px 1px white, -1px 1px 1px white;
+    
+    font-family: "Palatino", serif;
+
+}
+
+@media (max-width: 850px) {
+    #explanatory {
+        font-size: 20px;
+        bottom: 2%;
+    }
+}
+
+@media (max-width: 700px) {
+    #explanatory {
+        visibility: hidden;
+    }
+}*/
+
+
+/*
+#bottom-container {
+    padding: 10px;
+    
+}*/
+
+/* position styling for this button. further styling is in common.css */
+/*#get-it-button {
+    position: absolute;
+    bottom:  60%;
+    left:   40%;
+    
+}*/
+
+/*
+@media (max-width: 900px) {
+    #get-it-button {
+        bottom: 30%;
+    }
+}*/
+
+/*
+@media (max-width: 900px) {
+    #get-it-button {
+        bottom: 30%;
+    }
+}
+
+@media (max-width: 520px) {
+    #get-it-button {
+        position: relative;
+        bottom: 0%;
+        left: 0%;
+    }
+}
+*/
+
+/* news display, used on the top page as well as on the news page */
+
+/* news-body is only used on the news page */
+#news-body {
+    margin: 5%;
+}
+
+
+
+/*#news-mother-box {
+    position: relative;
+     
+    height: 150px;
+    margin: 7px 0px;
+}
+
+#news-background-image {
+    position: relative;
+    left: 0;
+    top: 0;
+    opacity: .2;
+    width: inherit;
+    height: inherit;
+    
+    background-image: url("../imgs/tattoo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    
+   padding: 10px 18px; 
+    border: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-top-style: solid;
+    border-top-color: black;
+}*/
+
+#news-display-box {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 300;
+    width: 100%;
+    opacity: 1;
+    margin: 27px 0px;
+    padding-left: 27px;
+
+    
+    text-shadow: -2px -2px 1px white, 2px 2px 1px white, -2px 2px 1px white, 2px -2px 1px white, -1px -1px white, 1px 1px white, -1px 1px white, 1px -1px white, -3px -3px 3px white, 3px 3px 3px white, -3px 3px 3px white, 3px -3px 3px white, 4px 4px 6px white, -4px -4px 6px white, -4px 4px 6px white, 4px -4px 6px white;
+    
+    font-weight: bold;
+}
+
+
+
+.news-date {
+    font-size: initial;
+    font-weight: bold;
+    margin-right: 18px;
+    color: black;
+    
+}
+
+.news-title {
+    font-size: 20px;
+    color: mediumvioletred;
+    margin-right: 20px;
+    
+}
+
+.news-desc {
+    font-size: initial;
+    /* margin-left: 18px; */
+    color: black;
+    margin-left: 320px;
+    margin-right: 75px;  
+    padding-bottom: 80px;
+}
+
+#news-desc1 { 
+    margin-top: 0px;
+    
+}
+
+#news-desc2 {
+    margin-right: 75px;
+}
+
+@media (max-width: 750px) {
+    .secondary-news {
+        display: none;
+    }
+}
+
+.news-indented {
+    padding-left: 100px;
+    color: black;
+    font-size: 16px;
+    padding-top: 25px;
+}
+
+
+.news-image {
+    margin: 20px 50px 20px 30px;
+    float: right;
+    
+}
+
+.news-image img {
+    margin-left: 10%;
+    margin-bottom: 25px;
+    border: 2px;
+    border-style: solid;
+    max-height: 200px;
+}
+
+
+.news-desc a {
+    text-decoration: none;
+}
+
+.news-desc a:hover {
+    color: mediumblue;
+}
+
+@media (max-width: 880px) {
+    .news-desc { 
+        margin-left: 50px; 
+    }
+    
+
+}
+
+@media (max-width: 880px) {
+    .news-image img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 655px) {
+    .news-image img {
+        /*max-width: 320px;*/
+        max-width: 120px;
+    }
+}
+
+/* this is overridden in news.js */
+@media (max-width: 375px) {
+    .news-image img {
+        display: none;
+    }
+}
+
+
+
+/* this is only for the front page; it is overridden in news.html */
+@media (max-width: 520px) {
+    #no-display-on-tiny-screen {
+        display: none;
+    }
+}
+
+#news-link {
+    margin: 25px 60px 20px;
+    float: right;   
+
+}
+
+
+/*
+#news-link:hover {
+    text-decoration: none;
+    -ms-transform: scale(1.08); 
+    -webkit-transform: scale(1.08); 
+    transform: scale(1.08);
+    
+}*/
+
+
+
+#underneath-div {
+    /*background-image: url("../imgs/deepsea.jpg");
+    background-repeat: repeat;
+    background-position: center;
+    background-size: contain;*/
+    background-color: #222;
+    
+    
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.underneath-div-extra {
+    background-image: url('../imgs/wavecut.png'); 
+    border: 3px; 
+    border-style: solid;
+    
+    padding-bottom: 20px;
+}
+
+.center-div {
+    width: 80%;
+    margin: auto;   
+    margin-top: 20px;
+    
+    opacity: 1;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+}
+
+.center-div-bullet {   
+    background-color: white; 
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #ffe, white, white, white);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0), #ffe, white, white, white);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #ffe, white, white, white);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #ffe, white, white, white);
+    
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 90px;
+}
+
+.not-coming-soon:hover {   
+    background-color: #ee8; 
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    
+    cursor:pointer;
+}
+
+.coming-soon {
+    opacity: .6;
+}
+
+.coming-soon-text {
+    position: absolute;
+    bottom: 45%;
+    left: 30%;
+    font-size: 30px;
+    color: fuchsia;
+    z-index: 2;
+    opacity: 0;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.coming-soon:hover .coming-soon-text {
+    opacity: 1;
+}
+
+@media (max-width: 650px) {
+    .coming-soon-text {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .coming-soon-text {
+        font-size: 14px;
+    }
+}
+
+/*
+.center-div-bullet-reverse {  
+    background-color: #EEEEEE; 
+    background: -webkit-linear-gradient(right, rgba(255, 255, 255, 0), white, white, white, #ffe);
+    background: -o-linear-gradient(right, rgba(255, 255, 255, 0), white, white, white, #ffe);
+    background: -moz-linear-gradient(right, rgba(255, 255, 255, 0), white, white, white, #ffe);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white, white, white, #ffe);
+    
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+*/
+
+.center-div a:hover {
+    color: mediumblue;
+}
+
+
+#center-div-left {
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+#center-div-right {
+    margin-top: 2%;
+}
+
+.center-div img {
+    /*margin: auto;*/
+    border-radius: 15px;
+}
+
+.doing {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.doingB {
+    color: black;
+    font-weight: normal;
+    font-size: smaller;
+}
+
+#doingA1 {
+    color: teal;
+    font-size: larger;
+} 
+
+#doingA2 {
+    color: red;   
+    font-size: larger;
+}
+
+#doingA3 {
+    color: darkmagenta;
+    font-size: larger;
+}
+
+#price-part {
+    padding-top: 5%;
+    padding-left: 15%;
+    font-size: smaller;
+}
+
+#price-part span {
+    visibility: hidden;
+}
+
+.center-div:hover #price-part span {
+    visibility: visible;
+}
+
+/*
+@media (max-width: 750px) {
+    #center-div {
+        font-size: 16px;
+    }
+}*/
+
+@media (max-width: 650px) {
+    .center-div {
+        /*bottom: 18%;*/
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 550px) {
+    .center-div {
+        font-size: 12px;
+        /*left: 12%;
+        width: 76%;
+        bottom: 15%;*/
+    } 
+    
+}
+
+@media (max-width: 450px) {
+    .center-div {
+        
+        /*left: 5%;
+        width: 90%;
+        bottom: 5%;*/
+    }
+    
+    #center-div-right {
+        padding-left: 0px;
+    }
+}
+
+@media (max-width: 380px) {
+    
+    .doing {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    
+    .center-div {
+        width: 90%;
+        font-size: 10px;
+    }
+    
+    /*#price-part {
+        display: none;
+    }*/
+    
+}
+
+
+/* korokke-div at bottom of index-ja only */
+
+@media (min-width: 970px) {
+    #korokke-div6 {
+        
+        background-color: #002;
+        
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-right: 15px;
+        border-style: solid;
+        border-color: #224;
+    }
+
+    #korokke-div5 {
+        
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-right: 15px;
+        border-style: solid;
+        border-color: #448;
+    }
+    
+    #korokke-div4 {
+        
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-right: 15px;
+        border-style: solid;
+        border-color: #66a;
+    }
+    
+    #korokke-div3 {
+        
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-right: 15px;
+        border-style: solid;
+        border-color: #88e;
+    }
+    
+    #korokke-div2 {
+        
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 0px;
+        border-right: 15px;
+        border-style: solid;
+        border-color: #aaf;
+    }
+    
+    #korokke-div {
+
+        border-left: 0px;
+        border-top: 0px;
+        border-bottom: 1px;
+        border-right: 10px;
+        border-style: solid;
+        border-color: black;
+    }
+}
+
+
+
+/*
+@media (max-width: 768px) {
+    #news-desc {font-size: 14px;}
+}
+
+@media (max-width: 620px) {
+    #news-mother-box {height: 185px;}
+}
+
+@media (max-width: 480px) {
+    #news-mother-box {height: 215px;}
+}
+
+@media (max-width: 320px) {
+    #news-mother-box {height: 265px;}
+}
+*/
+
+
+
+
+/*
+#front-left .row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.front-img-heading {
+    margin: 20px 0px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px;
+    border-left-style: solid;
+    border-color: #000; 
+    padding-left: 15px;
+}
+
+.front-img-text {
+    margin: 20px 0px 20px;
+    font-family: mplus, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.row > div > div > img {
+    border: 1px;
+    border-style: solid;
+}
+
+
+.img-container {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    max-width: 100%;
+    
+    
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  background: #2098d1;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.img-container:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #e1e1e1;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  -webkit-transform-origin: 50%;
+  transform-origin: 50%;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.img-container:hover, .img-container:focus, .img-container:active {
+    color: white;
+    text-shadow: 0px 0px 2px #551188;
+}
+.img-container:hover:before, .img-container:focus:before, .img-container:active:before {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+}
+
+
+.additional-text {
+    opacity: .1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    -webkit-transition: all .25s; 
+    -moz-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    
+    margin: 0px 15px 10px 18px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+@media (max-width:  922px) {
+    .additional-text {font-size: 14px;}
+}
+
+@media (max-width: 767px) {
+    .additional-text {font-size: 22px;}
+}
+
+@media (max-width: 580px) {
+    .additional-text {font-size: 16px;}
+}
+
+@media (max-width: 450px) {
+    .additional-text {font-size: 12px;}
+}
+*/
+
+footer {
+    background-color:black;
+    min-height:30px;
+
+    color: white;
+}
