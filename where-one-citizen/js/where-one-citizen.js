@@ -44,7 +44,7 @@ $(document).ready(function () {
     };
 
     
-    var url = "/news/";
+    var url = "../news/";
     
     yohttp.open("GET", url + name, true);
     yohttp.send();

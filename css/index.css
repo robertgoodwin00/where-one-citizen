@@ -619,11 +619,11 @@
 }
 
 .not-coming-soon:hover {   
-    background-color: #ee8; 
-    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
-    background: -o-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
-    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), #ee8, #ee8, #ee8, #ee8);
+    background-color: #aea; 
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), #aea, #aea, #aea, #222);
+    background: -o-linear-gradient(left, rgba(255, 255, 255, 0), #aea, #aea, #aea, #222);
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 0), #aea, #aea, #aea, #222);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), #aea, #aea, #aea #222);
     
     cursor:pointer;
 }
@@ -679,12 +679,14 @@
 
 #center-div-left {
     padding-left: 10%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
 }
 
 #center-div-right {
     margin-top: 2%;
+    padding-right: 7%;
 }
 
 .center-div img {
@@ -693,15 +695,42 @@
 }
 
 .doing {
-    margin-top: 5%;
+    margin-top: 1%;
     margin-bottom: 5%;
+    margin-left: 18px;
 }
 
+/* game description */
 .doingB {
     color: black;
     font-weight: normal;
-    font-size: smaller;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+/* author note content */
+.doingC {
+    color: black;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+/* author note title */
+.robertnote {
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* release date */
+.doingD {
+    color: #444;
+    font-size: 12px;;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    margin-left: 18%;
+}
+
 
 #doingA1 {
     color: teal;
@@ -718,15 +747,27 @@
     font-size: larger;
 }
 
-#price-part {
-    padding-top: 5%;
-    padding-left: 15%;
-    font-size: smaller;
+#doingA4 {
+    color: #f3f;
+    font-size: larger;
 }
 
-#price-part span {
-    visibility: hidden;
+#doingA5 {
+    color:#66f;
+    font-size: larger;
 }
+
+#doingA6 {
+    color:maroon;
+    font-size: larger;
+}
+
+#doingA7 {
+    color: chocolate;
+    font-size: larger;
+}
+
+
 
 .center-div:hover #price-part span {
     visibility: visible;

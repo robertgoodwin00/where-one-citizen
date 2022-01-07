@@ -25,6 +25,7 @@
 
 #bootstrap-override {
     font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
 }
 
 /* The mplus font causes funny squares to appear when the <br> tag is used only on Microsoft Edge.
@@ -48,7 +49,7 @@
 
 
 body {
-    background-image: url("imgs/fancy-pants.jpg");
+    background-image: url("../imgs/fancy-pants.jpg");
 }
 
 h4 {font-size: 22px;}
