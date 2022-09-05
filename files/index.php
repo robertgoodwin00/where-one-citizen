@@ -163,10 +163,19 @@
 			}
   		}
 
-		  function hideOrShowHints() {
+		function hideOrShowHints() {
 			var item = document.getElementById("hints");
 			if (item.style.display=="none") {
 				item.style.display = "block";
+			} else {
+				item.style.display = "none";
+			}
+  		}
+
+		  function hideOrShowHowSmart() {
+			var item = document.getElementById("howsmart");
+			if (item.style.display=="none") {
+				item.style.display = "flex";
 			} else {
 				item.style.display = "none";
 			}
@@ -476,7 +485,10 @@
 
 	function processResponse(response) { // given the final CS text, converts the parsed response from the CS server into HTML code for adding to the response holder div
 		//var botSaid = '<strong>' + botName + ':</strong> ' + response + "<br>\n";
-		var botSaid = '<span style="color:brown;"><strong>' + botName + '</strong></span><span style="color:azure;"><strong>:</strong> ' + response + "</span><br>\n";
+		if (botName == "")
+			var botSaid = '<span style="color:azure;">' + response + "</span><br>\n";
+		else 
+			var botSaid = '<span style="color:brown;"><strong>' + botName + '</strong></span><span style="color:azure;"><strong>:</strong> ' + response + "</span><br>\n";
 		update(botSaid);
 	}
 
@@ -550,6 +562,22 @@
 			</div>
 		</div>
 
+	</div>
+
+	<br><br><br>
+
+	<div class="text-center">
+		<a onclick="hideOrShowHowSmart();" style="cursor:pointer; color:#ccccee; font-size:14px;">How smart is Madeline?</a>
+	</div>
+
+	<div id="howsmart" style="display:None; margin:15px 30px; align-items:center; justify-content:center;">
+		<div style="max-width:650px; color:white;">
+			<p>
+			Madeline has faculties beyond what are needed to complete the objective.
+			She can perform basic arithmetic (e.g. "What's 6 x 7?"), learn simple facts taught to her (e.g. "My car is new."), and has an extensive dictionary and knowledge about the world.
+			She can answer basic questions about the world (e.g. "Is a snake a mammal?", "Can you eat a boulder?") albeit sometimes imperfectly.
+			As with any AI, if you want to prove that Madeline is less intelligent than a human, it's not hard to do so.
+		</div>
 	</div>
 
 	<br><br><br><br>
