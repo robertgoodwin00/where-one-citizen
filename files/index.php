@@ -562,25 +562,25 @@
 			</div>
 		</div>
 
-	</div>
+		<br><br><br>
 
-	<br><br><br>
-
-	<div class="text-center">
-		<a onclick="hideOrShowHowSmart();" style="cursor:pointer; color:#ccccee; font-size:14px;">How smart is Madeline?</a>
-	</div>
-
-	<div id="howsmart" style="display:None; margin:15px 30px; align-items:center; justify-content:center;">
-		<div style="max-width:650px; color:white;">
-			<p>
-			Madeline has faculties beyond what are needed to complete the objective.
-			She can perform basic arithmetic (e.g. "What's 6 x 7?"), learn simple facts taught to her (e.g. "My car is new."), and has an extensive dictionary and knowledge about the world.
-			She can answer basic questions about the world (e.g. "Is a snake a mammal?", "Can you eat a boulder?") albeit sometimes imperfectly.
-			As with any AI, if you want to prove that Madeline is less intelligent than a human, it's not hard to do so.
+		<div class="text-center">
+			<a onclick="hideOrShowHowSmart();" style="cursor:pointer; color:#ccccee; font-size:14px;">How smart is Madeline?</a>
 		</div>
+
+		<div id="howsmart" style="display:None; margin:15px 30px; align-items:center; justify-content:center;">
+			<div style="max-width:650px; color:white;">
+				<p>
+				Madeline has faculties beyond what are needed to complete the objective.
+				She can perform basic arithmetic (e.g. "What's 6 x 7?"), learn simple facts taught to her (e.g. "My car is new."), and has an extensive dictionary and knowledge about the world.
+				She can answer basic questions about the world (e.g. "Is a snake a mammal?", "Can you eat a boulder?") albeit sometimes imperfectly.
+				As with any AI, if you want to prove that Madeline is less intelligent than a human, it's not hard to do so.
+			</div>
+		</div>
+
 	</div>
 
-	<br><br><br><br>
+	<br><br>
 
 	<div style="fontsize:10px; color:#aaaaaa; margin-bottom:8px;" class="text-center">
 		(if Madeline does not respond, the server may be down. Please try again later.)
