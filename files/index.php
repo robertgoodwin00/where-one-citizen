@@ -143,6 +143,11 @@
 		display: None;
 	}
 
+	#inputSpan {
+		min-width: 520px;
+		max-width: 95%;
+	}
+
 
 	
 	@media screen and (max-width: 1080px) {
@@ -183,6 +188,10 @@
 		#spacing {
 			display: block;
 			margin-bottom: 10px;
+		}
+
+		#inputSpan {
+			min-width: 300px;
 		}
 	}
 
@@ -326,7 +335,7 @@
 			<div class="toshow" style="display:None; margin-left:10px; margin-right:10px;">
 				<div style="display:flex; align-items:center; justify-content:center;">
 					
-					<span style="width:520px; max-width:95%; min-width:280px;">
+					<span id="inputSpan">
 						<input type="text" name="message" class="inputField" id="txtMessage"  />
 
 			<!--<table>
@@ -401,7 +410,7 @@
 		}
 		var chatLog = $('#responseHolder').html();
 		//var youSaid = '<strong>' + name + ':</strong> ' + $('#txtMessage').val() + "<br>\n";
-		var youSaid = '<div style="text-align:right;"><span style="color:lightgrey;"><strong>' + name + '</strong></span><span style="color:beige;"><strong>:</strong> ' + $('#txtMessage').val() + "</span></div><br>\n";
+		var youSaid = '<div style="text-align:right;"><span style="color:grey;"><strong>' + name + '</strong></span><span style="color:azure;"><strong>:</strong> ' + $('#txtMessage').val() + "</span></div><br>\n";
 		
 		if ($('#txtMessage').val() == ":reset") {
 			document.getElementById("back1").style.display = "None";
