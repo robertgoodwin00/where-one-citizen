@@ -144,9 +144,9 @@
 	}
 
 	#inputDiv {
-		width: 640px;
+		width: 500px;
 		max-width: 95%;
-		background-color:pink;
+		background-color:orange;
 	}
 
 	#txtMessage {
@@ -196,7 +196,7 @@
 		}
 
 		#inputDiv {
-			width: 300px;
+			width: 350px;
 		}
 	}
 
