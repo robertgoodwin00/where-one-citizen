@@ -106,8 +106,8 @@
 
 	#theform {
 		margin-top:20px;
-		margin-left:8px;
-		margin-right:8px;
+		margin-left:10px;
+		margin-right:10px;
 		padding-left:25px;
 		padding-right:25px;
 		display: flex;
