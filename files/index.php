@@ -144,7 +144,7 @@
 	}
 
 	#inputSpan {
-		min-width: 580px;
+		min-width: 640px;
 		max-width: 95%;
 	}
 
@@ -410,7 +410,7 @@
 		}
 		var chatLog = $('#responseHolder').html();
 		//var youSaid = '<strong>' + name + ':</strong> ' + $('#txtMessage').val() + "<br>\n";
-		var youSaid = '<div style="text-align:right;"><span style="color:#aaaaaa;"><strong>' + name + '</strong></span><span style="color:azure;"><strong>:</strong> ' + $('#txtMessage').val() + "</span></div><br>\n";
+		var youSaid = '<div style="text-align:right;"><span style="color:#cccccc;"><strong>' + name + '</strong></span><span style="color:azure;"><strong>:</strong> ' + $('#txtMessage').val() + "</span></div><br>\n";
 		
 		if ($('#txtMessage').val() == ":reset") {
 			document.getElementById("back1").style.display = "None";
