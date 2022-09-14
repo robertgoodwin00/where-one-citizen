@@ -132,6 +132,10 @@
 		margin-bottom:18px;
 	}
 
+	#spacing {
+		display: None;
+	}
+
 
 	
 	@media screen and (max-width: 1080px) {
@@ -162,11 +166,15 @@
 		}
 
 		#theform {
-			margin-top: 5px;
+			margin-top: 6px;
 		}
 
 		#image-div {
 			margin-bottom:8px;
+		}
+
+		#spacing {
+			display: block;
 		}
 	}
 
@@ -284,9 +292,12 @@
 		<div id="theform">
 			<form id="frmChat" action="#">
 			
-			<div style="display:flex; align-items:right; justify-content:right; margin-top:0px; margin-bottom:10px;" class="tohide">
+			<div style="display:flex; align-items:right; justify-content:right; margin-top:14px; margin-bottom:10px;" class="tohide">
 	  			<div>
 					<span id="whatisyourname">What is your name?</span> &nbsp;
+					
+					<div id="spacing"></div>
+
 					<!--<label for="txtUser" id="whatisyourname">What is yoru name</label> &nbsp;-->
 					<span style="color:black;">
 						<input type="text" class="inputField" id="txtUser" name="user" size="10" value="" autofocus />
@@ -308,7 +319,7 @@
 				<div style="display:flex; align-items:center; justify-content:center;">
 				
 					<span>
-						<input type="text" name="message" class="inputField" id="txtMessage" size="32"  />
+						<input type="text" name="message" class="inputField" id="txtMessage" size="28"  />
 
 			<!--<table>
 			<tr>
