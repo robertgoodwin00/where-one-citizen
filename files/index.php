@@ -87,7 +87,6 @@
 	}
 
 
-
 	#whatisyourname {
     	color:white;
 		font-size:16px;
@@ -124,13 +123,13 @@
 
 	.inputSubmit {
 		display:inline-block;
-    	padding:7px 10px;
+    	padding:7px 9px;
     	line-height: 16px;
 		font-size: 18px;
 	}
 
 	#image-div {
-		margin-bottom:15px;
+		margin-bottom:18px;
 	}
 
 
@@ -146,6 +145,8 @@
 
 		#responseHolderHolder {
 			margin-bottom: 0px;
+			width: 100%;
+			max-width: 650px;
 		}
 
 		#title {
@@ -161,7 +162,7 @@
 		}
 
 		#theform {
-			margin-top: 2px;
+			margin-top: 5px;
 		}
 
 		#image-div {
@@ -307,7 +308,7 @@
 				<div style="display:flex; align-items:center; justify-content:center;">
 				
 					<span>
-						<input type="text" name="message" class="inputField" id="txtMessage" size="36"  />
+						<input type="text" name="message" class="inputField" id="txtMessage" size="32"  />
 
 			<!--<table>
 			<tr>
