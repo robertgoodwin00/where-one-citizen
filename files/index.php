@@ -327,7 +327,7 @@
 				<div style="display:flex; align-items:center; justify-content:center; max-width:95%;">
 					
 					<span>
-						<input type="text" name="message" class="inputField" id="txtMessage" size="32"  />
+						<input type="text" name="message" class="inputField" id="txtMessage" size="36"  />
 
 			<!--<table>
 			<tr>
