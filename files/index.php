@@ -149,6 +149,10 @@
 		background-color:pink;
 	}
 
+	#txtMessage {
+		width: 80%;
+	}
+
 
 	
 	@media screen and (max-width: 1080px) {
@@ -192,7 +196,7 @@
 		}
 
 		#inputDiv {
-			width: 180px;
+			width: 300px;
 		}
 	}
 
