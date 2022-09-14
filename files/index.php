@@ -143,9 +143,10 @@
 		display: None;
 	}
 
-	#inputSpan {
+	#inputDiv {
 		width: 640px;
 		max-width: 95%;
+		background-color:pink;
 	}
 
 
@@ -190,7 +191,7 @@
 			margin-bottom: 10px;
 		}
 
-		#inputSpan {
+		#inputDiv {
 			width: 180px;
 		}
 	}
@@ -335,7 +336,7 @@
 			<div class="toshow" style="display:None; margin-left:10px; margin-right:10px;">
 				<div style="display:flex; align-items:center; justify-content:center;">
 					
-					<div id="inputSpan">
+					<div id="inputDiv">
 						<span>
 							<input type="text" name="message" class="inputField" id="txtMessage"  />
 
