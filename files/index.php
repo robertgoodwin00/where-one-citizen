@@ -119,6 +119,9 @@
     	padding:7px 10px;
     	line-height: 16px;
 		font-size: 18px;
+		margin-left:5px;
+		margin-right:5px;
+
 	}
 
 	.inputSubmit {
@@ -126,6 +129,8 @@
     	padding:7px 9px;
     	line-height: 16px;
 		font-size: 18px;
+		margin-left:5px;
+		margin-right:5px;
 	}
 
 	#image-div {
@@ -305,7 +310,7 @@
 					</span>
 
 					<input type="hidden" name="send" />
-					&nbsp; &nbsp; &nbsp;
+					&nbsp;
 					<!--<a style="cursor: pointer;" onclick="hideAndShow();">BEGIN</a>-->
 					
 					<span style="color:black; ">
