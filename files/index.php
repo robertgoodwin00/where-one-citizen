@@ -323,8 +323,8 @@
 			</div>
 
 
-			<div class="toshow" style="display:None;">
-				<div style="display:flex; align-items:center; justify-content:center; max-width:95%;">
+			<div class="toshow" style="display:None; margin-left:10px; margin-right:10px;">
+				<div style="display:flex; align-items:center; justify-content:center;">
 					
 					<span>
 						<input type="text" name="message" class="inputField" id="txtMessage" size="36"  />
