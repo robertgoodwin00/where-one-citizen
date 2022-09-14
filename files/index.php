@@ -144,7 +144,7 @@
 	}
 
 	#inputSpan {
-		min-width: 840px;
+		width: 640px;
 		max-width: 95%;
 	}
 
@@ -191,7 +191,7 @@
 		}
 
 		#inputSpan {
-			min-width: 120px;
+			width: 180px;
 		}
 	}
 
@@ -335,29 +335,31 @@
 			<div class="toshow" style="display:None; margin-left:10px; margin-right:10px;">
 				<div style="display:flex; align-items:center; justify-content:center;">
 					
-					<span id="inputSpan">
-						<input type="text" name="message" class="inputField" id="txtMessage"  />
+					<div id="inputSpan">
+						<span>
+							<input type="text" name="message" class="inputField" id="txtMessage"  />
 
-			<!--<table>
-			<tr>
-				<td>Your name:</td>
-				<td>
-				<input type="text" id="txtUser" name="user" size="10" value="" />
-				<input type="hidden" name="send" />
-				</td>
-			</tr>
+				<!--<table>
+				<tr>
+					<td>Your name:</td>
+					<td>
+					<input type="text" id="txtUser" name="user" size="10" value="" />
+					<input type="hidden" name="send" />
+					</td>
+				</tr>
 
-			<tr>
-				<td>Chat: &nbsp;</td>
-				<td><input type="text" name="message" id="txtMessage" size="40" /></td>
-			</tr>
-			<tr>
-				<td colspan="2"><input type="submit" name="send" value="Send Value" /></td>
-			</tr>
-			</table>-->
-						&nbsp;
-						<input type="submit" name="send" value="Say it" class="inputSubmit" />
-					</span>
+				<tr>
+					<td>Chat: &nbsp;</td>
+					<td><input type="text" name="message" id="txtMessage" size="40" /></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input type="submit" name="send" value="Send Value" /></td>
+				</tr>
+				</table>-->
+							&nbsp;
+							<input type="submit" name="send" value="Say it" class="inputSubmit" />
+						</span>
+					</div>
 				</div>
 			</div>
 			
