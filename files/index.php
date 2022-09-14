@@ -144,13 +144,13 @@
 	}
 
 	#inputDiv {
-		width: 500px;
+		width: 640px;
 		max-width: 95%;
-		background-color:orange;
+		background-color:yellow;
 	}
 
 	#txtMessage {
-		width: 80%;
+		width: 82%;
 	}
 
 
@@ -197,6 +197,10 @@
 
 		#inputDiv {
 			width: 350px;
+		}
+
+		#txtMessage {
+			width: 98%;
 		}
 	}
 
