@@ -146,7 +146,6 @@
 	#inputDiv {
 		width: 640px;
 		max-width: 92%;
-		background-color:green;
 	}
 
 	#txtMessage {
@@ -207,7 +206,7 @@
 
 	@media screen and (max-width: 500px) {
 		#inputDiv {
-			width: 420px;
+			width: 410px;
 		}
 
 		#txtMessage {
