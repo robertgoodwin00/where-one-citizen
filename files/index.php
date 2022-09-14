@@ -326,7 +326,7 @@
 			<div class="toshow" style="display:None; margin-left:10px; margin-right:10px;">
 				<div style="display:flex; align-items:center; justify-content:center;">
 					
-					<span style="max-width:95%; min-width:240px;">
+					<span style="width:520px; max-width:95%; min-width:280px;">
 						<input type="text" name="message" class="inputField" id="txtMessage"  />
 
 			<!--<table>
