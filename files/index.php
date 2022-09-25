@@ -702,7 +702,7 @@
                             
                 <div class="answer">
                     The first Detail is something that Madeline sees <span style="font-weight:bold;">now</span>.
-					You must ask her to describe a particular thing. 
+					You must have her tell you about a certain particular. 
                 </div>
 
 				<div class="question">
