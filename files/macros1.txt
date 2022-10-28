@@ -11,7 +11,7 @@
 ^whoisthere p 0 0 A( ) [ ( who is it *~2 { you see } *~2 > ) ( who *~1 do you see ) ( who *~1 be there *~2 > ) ( < who > ) ] `
 ^examine p 0 0 B( ^who ) ![ not never ] [ ( who * ^0 > ) ( what [ be do ] * ^0 [ look like ] ) ( ~to_look *~2 ^0 ) ] `
 ^examinething p 0 0 B( ^what ) ![ not never ] [ ( what be it ) ( what [ be do ] * ^0 [ look like ] ) ( ~to_look *~2 ^0 ) ] `
-^order p 0 0 B( ^what ) ![ not never ] [ ( [ give make order ] * ^0 ) ( [ can may ] I [ have eat drink ] * ^0 ) ( I * [ want would_like ] * ^0 ) ] `
+^order p 0 0 B( ^what ) ![ not never ] [ ( [ give make order ] * ^0 ) ( [ can may ] I [ have eat drink ] * ^0 ) ( I * [ want would_like ] * ^0 ) ( < { a } { some } ^0 please > ) ] `
 ^whatfavorite p 0 0 B( ^thing ) ![ not never ] [ ( [ what which who ] be you [ ~to_like favorite fave ] { thing } *~1 ^0 ) ( [ what which who ] ^0 *~3 you *~1 [ ~to_like favorite fave ] ) ( [ what which who ] ^0 *~3 do you ~to_like ) ( you [ have got ] *~1 [ favorite fave ~to_like ] { thing } *~1 ^0 ) ( you [ have got ] *~1 ^0 * [ favorite fave ~to_like ] ) ( be *~1 ^0 *~1 you [ favorite fave ~to_like ] ) ( be *~1 [ favorite fave ~to_like ] ^0 *~1 you ) ] `
 ^myfavorite p 0 0 C( ^category ^thing ) ![ not never ] [ ( < I *~1 ~to_like { the } ^1 > ) ( my favorite ^0 be ^1 > ) ( my *~1 [ ~to_like favorite ] *~1 ^0 { would } { must } { have to } be ^1 > ) ( < ^1 { would } { must } { have_to } be I [ ~to_like favorite ] ^0 ) ( < ^1 { would } { must } { have_to } be { a } ^0 * I [ ~to_like favorite ] ) ] `
 ^runaway p 0 0 A( ) ![ not never ] [ ( [ ~run go move get escape ] *~1 [ away back ] > ) ( [ ~run go move get escape ] { ~adverb } { back } { away } from *~1 [ ~figure him it ] ) ( < *~2 { try } { to } run_away *~2 > ) ] `
