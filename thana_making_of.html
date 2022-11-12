@@ -1,0 +1,435 @@
+<!--Where One Citizen website, by Robert Goodwin 2021-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The making of Thanatophobia and thoughts about NLP in games">
+    <meta name="author" content="Robert Goodwin">
+    <meta name="keywords" content="thanatophobia, chatbot, ai, game, nlp" />
+    <link rel="icon" href="../imgs/birdie.png">
+    
+    <title>The making of Thanatophobia</title>
+
+
+      
+    <!-- Bootstrap core CSS -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+      
+    <link href="../css/common.css" rel="stylesheet">
+    <link href="css/where-one-citizen.css" rel="stylesheet">
+     
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script> 
+
+    <!--<script src="js/ie-emulation-modes-warning.js"></script>-->
+      
+    
+    <script src="../js/common.js"></script>
+    <script src="js/where-one-citizen.js"></script>
+
+    <style type="text/css">
+        #title {
+            font-size:22px;
+            font-family:"Tahoma, san-serif";
+            margin-bottom:10px;
+            font-weight: bold;
+        }
+        #subtitle {
+            font-size:18px;
+            font-family:"Tahoma, san-serif";
+            margin-bottom:10px;
+        }
+        .paragraph-title {
+            font-size:20px;
+            font-family: "Tahoma, san-serif";
+            margin-bottom:18px;
+            margin-top:18px;
+        }
+        .paragraph {
+            font-size:16px;
+            font-family: "Tahoma, san-serif";
+            margin-bottom:10px;
+            margin-left:15px;
+            margin-right:15px;
+        }
+        p {
+            padding-bottom:12px;
+        }
+        li {
+            margin-bottom:12px;
+        }
+        .aican {
+            margin-bottom: 10px;
+            margin-top: 25px;
+        }
+
+    </style>
+
+
+
+      
+  </head>
+ 
+
+    <body role="document" id="bootstrap-override" style="background-image: url('imgs/fancy-pants.jpg');">
+        
+        <div style="position:relative;" class="normal-top">       
+            <div class="text-center">
+                    <p>
+                    </p>
+            </div>           
+        </div>
+
+
+        <div id="main-container" role="main" style="background-color:#fff; padding:10px 7%;">
+
+            <br><br>
+                <span style="font-size:14px;">Nov 2022 Robert Goodwin</span>
+            <br>
+
+            <div class="text-center" id="title">
+                The Making of Thanatophobia
+            </div>
+            <div class="text-center" id="subtitle">
+                and thoughts on NLP in games
+            </div>
+
+            <br><br>
+
+            <div class="paragraph">
+                This will likely not be of interest to anyone who hasn't both played <span style="font-style:italic;">Thanatophobia</span> and has some curiosity about natural language processing.
+                It focuses on the technical overview.
+            </div>
+            <br>
+
+            <div class="paragraph-title">
+                NATURAL LANGUAGE IN GAMES
+            </div>
+
+            <div class="paragraph">
+                <p>
+                    
+                    <span style="font-style:italic;">Thanatophobia</span> tries to be 3 things at once--a game, a story, and an open-ended conversational AI with natural language parser aka a "chatbot".
+                    If evaluated by any one of these alone, it is not very good at what it does.
+                    It is not a very fun game compared to many other games, 
+                    not a very good story compared to many other stories, 
+                    not a very smart AI compared to many other AIs.
+                </p>
+
+                <p>
+                    But flawed though <span style="font-style:italic;">Thanatophobia</span> is (and setting aside the shortness of the experience),
+                    I am not sure there has been any game, past or present, commerical or free, with a stronger natural language parser than its.
+                    Possibly <span style="font-style:italic;">Event[0]</span>.
+                </p>
+                
+                <p>
+                    That's not as bold a claim as it might sound. (and I promise I won't be tooting my own horn throughout all of this)
+                    Natural language parsing in games is seldom attempted.
+                    
+                </p>
+
+                <p>
+                    Some in recent memory that have tried:
+                </p>
+
+                <ul>
+                    <li>
+                        <span style="font-style:italic;">Event[0]</span> has a parser that <span style="font-style:italic;">Thanatophobia</span>'s somewhat resembles, and a lot more. It's a high end game with 3D graphics, perhaps the best example of NLP in a game to date.
+                    </li>
+                    
+                    <li>
+                        <span style="font-style:italic;">Bot Colony</span>, also high end, ambitiously attempts speech recognition on top of natural language parsing, but doesn't seem to succeed as well as one might hope.
+                    </li>
+
+                    <li>
+                        <span style="font-style:italic;">Façade</span>, while impressively in full audio, or *because* of that, is not able to have a parser as strong as it otherwise could.
+                        (<a href="https://github.com/ChatScript/ChatScript/blob/master/WIKI/PAPERS/Paper-Pattern-Matching-for-Natural-Language-Applications.md#fa%C3%87ade-2005">In-depth comparison</a> of Façade with Chatscript by the author of Chatscript) 
+                    </li>                   
+
+                    <li>
+                        <span style="font-style:italic;">LabLabLab</span> made a <a href="https://www.lablablab.net/?p=435">trio of quick online games</a> that use the same technology (Chatscript) as <span style="font-style:italic;">Thanatophobia</span>.
+                        
+                    </li>
+
+                </ul>
+
+                <br>
+
+                <p>
+                    I could list a few more I know which are harder to recommend.
+                </p>
+                
+                <p>
+                    To attempt natural language processing in a game is to pretend that AI can do something that is impossible for it to do--produce an
+                    intelligent-sounding response to the virtually infinite number of inputs a player could possibly type, understanding context like a human. 
+                    No matter how many man-hours you sink into its development, in practice sooner or later it will fail at this.
+                    Probably sooner.
+                </p>
+
+                <p>
+                    Worse, is that natural language AI in a game is doomed to appear hopelessly primitive in comparison to shiny machine-learning transformer-powered neurally-netty AI which actually *can* (when trained well) produce intelligent-sounding responses to anything you can throw at it.
+                    That will reflect unfavorably on the handcrafted game AI, since the human likely has in the past chatted with AI that was much more robust, a disparity that continues to grow as increased computing power leads to stronger and stronger ML systems.
+                     (and far greater investment going towards its advancement)
+                </p>
+
+            </div>
+
+
+            <div class="paragraph-title">
+                WHY NOT ML?
+            </div>
+            <div class="paragraph">
+                <p>
+                    That may raise the question in your mind, why not use machine learning in a game?
+                    <span style="font-style:italic;">Thanatophobia</span> does not use any machine learning.
+                    Unless I'm mistaken, none of the games mentioned above use machine learning. Why don't they? 
+                </p>
+
+                <p>
+                    <span style="font-weight:bold;">Because if they did, then the author/developer would lose control of the story.</span>
+                </p>
+
+                <p>
+                    ML when properly trained is highly impressive in its ability to field any possible input by "making stuff up" that even the developer didn't plan for.
+                    That strength is also its weakness.
+                    How can you stop the AI from saying things that work against the story the author has planned?
+                    How can you control what information has been revealed to the player and when?
+                    How do you keep it from being schizophrenic? 
+                </p>
+
+                <p>
+                    Another way to put it: Ask why authors of novels, short stories, film screenplays, tv shows, stage plays, etc don't just sit back in their comfy chairs and let ML do all the work of generating narratives.
+                    The answer to that question is the answer to why the author of game fiction can't let ML do all the work of generating chat. 
+                </p>
+
+                <p>
+                    When an author has a deliberate story to tell, the scripted/handcrafted/rule-based approach is the only approach.
+                </p>
+
+                <p>
+                    And I think there is a marketing lesson.
+                    A natural language parser in a game is going to produce some bad responses.
+                    It is inevitable.
+                    Its target audience has to be okay with this reality.
+                    The kind of person who gets easily frustrated when AI misunderstands them should not play a game like <span style="font-style:italic;">Thanatophobia</span>.
+                    Nor the other NLP parser games mentioned.
+                    <!--We don't have the tech to build the super robust chat AI they expect without the author giving up control of what gets said in the chat.-->
+                    Those who want AI that never flounders can go make up stories on the fly together with one, 
+                    but those who want narrative that is handcrafted by its author need to be okay with AI that is handcrafted, and the limitations that go with it.
+                </p>
+
+            </div>
+
+            <div class="paragraph-title">
+                CAPABILITIES
+            </div>
+            <div class="paragraph">
+                <p>
+                    Yet, there are nifty things that can be done with handcrafted AI.
+                    <span style="font-style:italic;">Thanatophobia</span>'s capabilities include the following:
+                    
+                    <div class="aican">1. Doesn't repeat itself, normally</div>
+                    Because humans don't repeat themselves.
+                    If you ask the exact same question to a human twice in a row, you won't get the exact same reply twice in a row. The chat AI not only has to be able to handle a vast number of inputs, but it should be able to give different replies to the same input.
+                    (Normally. Because it IS still a game and there may be occasions when repetition is called for)
+                
+                    <div class="aican">2. Pronoun resolution</div>
+                    This is a stickier problem than I initially would have guessed.
+                    Not only does resolving pronouns rely on multiple contexts (context of the world, context shared between the two speakers), the English language is chock-full of phrases that trip up systems which attempt to handle pronouns through simple replacement.
+                    Notably, the pronoun "it" sometimes refers to something important as in "I have it in my hands"  and sometimes does not refer to anything at all, as in "It's gonna be all right."
+                    <span style="font-style:italic;">Thanatophobia</span>'s pronoun resolution is imperfect.
+                    However, if Madeline gets a pronoun wrong, you can correct her by saying something like "No not your father, your brother".
+                    (And even humans resolve pronouns incorrectly sometimes)
+                    There is nothing in the game that I thought would warrant it at first, but hastily added support for the "they" pronoun when I realized how many players were referring to the hooded figure as "they".
+                
+                    <div class="aican">3. Memory</div>
+                    An AI appears intelligent when it can remember facts taught to it and demonstrate it still remembers them at a later time.
+                    Especially when they bring up those facts on their own.
+                    <!--, i.e.
+                    "So, you know how you were telling me yesterday that your brother likes poodles?"-->
+                    <span style="font-style:italic;">Thanatophobia</span> can do a tiny bit of this.
+                    It can record in memory certain facts gleaned from input before it decides how to respond to the whole sentence (even when it may ultimately fail to understand the entire sentence)  
+                    i.e. from "My brother Fred is coming over today" it can learn that the player has a brother and that that brother's name is Fred.
+                    Plenty of room for improvement and an opportunity to impress in an area that ML does not do well.
+                
+                    <div class="aican">4. Sentiment analysis</div>
+                    A good chat AI ideally will alter its speech or make remarks according to evaluation of the human's present mood.
+                    <span style="font-style:italic;">Thanatophobia</span> has a rudimentary form of this (possibly still buggy) 
+                    for instance, when the player has been changing the topic frequently, or his replies have been very short or very long, or he is making more statements than questions, or he is using overly negative or positive language.
+                
+                    <div class="aican">5. Basic smarts</div>
+                    It's rare for anyone to actually ask them, but I wanted Madeline to be able to answer some of those questions people might throw at AIs to test their intelligence.
+                    (She can also perform arithmetic, but not logic)
+                    There are several dozen rules for these and I'll likely add more.
+                    "What color is an x?" "Can you eat x?" "Is x a mammal?" "Is an x living?" "Is x hot?" "What would you use an x for?" "Can an x fly?" "Can you wear an x?"
+                    "What is the opposite of x?" "What rhymes with x?" "Is x a country?" "Is x a sport?" "Is x an author?" etc.  
+                    <span style="font-style:italic;">Replika</span>, one of the best chat AIs on the market, fails to give correct answers to input of this sort.
+                </p>
+
+            </div>
+
+            <div class="paragraph-title">
+                CHATSCRIPT
+            </div>
+            <div class="paragraph">
+                <p>
+                    Much of what <span style="font-style:italic;">Thanatophobia</span> can do owes to the power of <a href="https://github.com/ChatScript/ChatScript">Chatscript</a>, a programming language for designing and managing conversation for natural language processing.
+                    It's the most sophisticated system for building rule-based chat AI available and is open source.
+                    It was developed by Bruce Wilcox, a person with background in the gaming industry, who aware of the limitations of other approaches sought to create an alternative.
+                    Chatbots built with it can be used for conversation, business, games, and other applications such as ESL.
+                </p>
+
+                <p>
+                    The above-listed AI capabilities are all possible with Chatscript.
+                    It does full part-of-speech parsing, and extensive categorization, but provides such a myriad of tools for pattern-matching that you seldom actually need to use pos markings.
+                    It has built in the feature of self-erasing rules that have already been used in order to avoid output repetition, and also avoids any output that has appeared in recent volleys.
+                    It has self-introspection that allows you to write code to analyze outputs, which other frameworks lack. It can "remember" things by storing them as fact triplets and accesses large fact tables.
+                    Because of all the facts she knows, Madeline is able to remark when the player mentions the title of a famous book, game, movie, tv show, etc, or a famous actor/actress, comedian, scientist, corporation, politician, etc.
+                    (she's more geeky than she lets on) 
+                </p>
+
+                <p>
+                    Chatscript is not trivial to learn; I treated it like the Bible and read verses from the documentation every day.
+                </p>
+
+                <p>
+                    Nor is it trivial to deploy.
+                    <span style="font-style:italic;">Thanatophobia</span> required the setup of two servers, one to serve the public-facing web page, and one that is the brains of the AI itself.
+                    It cannot be deployed as client-only; that it needs to be able to access dictionaries and knowledge bases a user shouldn't have to download in their entirety is one of the reasons.
+                    
+                    
+                    
+                </p>
+
+                <p>
+                    But it is difficult to think of something you might want an AI to do that is not possible in Chatscript.
+                </p>
+
+                <p>
+                    The basic control scheme (which is more complex than the following explanation, but we'll keep this simple) is
+                    to first try to match patterns in the currently active topic; a topic serves as a contextual basis.
+                    If it fails to find one, it considers other topics that it can match keywords from.
+                    If that fails, it does general matching without keywords.
+                    If it fails to find one still, then it attempts quibbling.
+                    If quibbling fails, then it ignores what the player said and attempts to launch a topic of its own (called in Chatscript a "gambit").
+                    If that fails, it resorts to a few last-ditch efforts before finally admitting it can't understand by outputting "Um" or "Huh" or "Anyway".
+                    The strategy has so many Plan B's, C's, D's, and E's that it's uncommon to see more than the very occasional "Um" or "Huh" or "Anyway". 
+                </p>
+
+                <p>
+                    Quibbling is when the AI only matched a single word or phrase but fakes a reply intended to sound as if it understood the whole sentence.
+                    Coming from an interactive fiction background where parsers honestly tell you what they don't understand, I was initially averse to 
+                    quibbling--it can succeed marvelously at times or backfire horrendously at times--but I've come to accept quibbling in discreet moderation as a necessary evil.
+                    Players don't like it when direct questions are ignored, and too much honesty breaks the illusion of intelligence, so the risk is worth taking if you can be clever about it.
+                    There had better be thousands of smarter rules coming in ahead of any quibbles. 
+                    <!-- Ideally the player sees few of <span style="font-style:italic;">Thanatophobia</span>'s 1000 or so quibble rules. -->
+                </p>
+
+                <p>
+                    As for logging, the system combines a player's provided name with the first 4 digits of his IP address to create a username with which to store logs on the server. 
+                    This allows a player to return to the game on another day and have Madeline remember him, provided his name and IP are the same, no formal authentication needed.
+                    <!--(One of my casual testers got freaked out that the AI was remembering him even after page reloads)-->
+                    However, because I didn't want to pay money for a vps (I'm poor) I used the only free vps service I could find anywhere. Being IPv6, not everyone can access it.
+                    Players who use the Opera browser to circumvent this as explicitly recommended will always have an IP beginning in "2001", which can result in usernames being not so unique, 
+                    so I go in regularly to delete logs that are over 2-3 weeks old.
+                </p>
+
+            </div>
+
+
+            <div class="paragraph-title">
+                TESTING & RELEASE
+            </div>
+            <div class="paragraph">
+                <p>
+                    I had a difficult time trying to find testers for <span style="font-style:italic;">Thanatophobia</span>.
+                    People understandably don't want to give their time to half-baked AI.
+                </p>
+
+                <p>
+                    In October 2022, severely undertested, I entered it into the 2022 Interactive Fiction Competition.
+                    It had at that time 2 formal testers and a couple or so casual testers, when it needed more like 200.
+                    So the competition's judges became its testers. I read each log and made improvements accordingly.
+                    
+                    (For my next NLP project I accept that I'm going to have to pay people to be testers) 
+                </p>
+
+                <p>
+                    It's simply the nature of chat AI that different people have very different experiences with it, because we each approach conversation in our own way.
+                    Most players (more than I expected!) have approached Madeline the way most intended;
+                    asking reasonable questions one would ask.
+                    Some are more terse, expecting the AI to volunteer on its own the sort of wordy info-dumps that many other AIs and many other text games do--but <span style="font-style:italic;">Thanatophobia</span> isn't that type of game.
+                    The occasional player really puts the parser to the test with long sentence structure such as, "Maddie I understand why you would feel that way but you have to understand that in life blah blah blah."
+                    Some try to test her, hit on her, insult her, or just screw around a lot.
+                    (I enjoy reading those logs)
+                </p>
+                Around 40% of the people who try the game do go on to complete it.
+                There are numerous mechanisms in place to steer the player towards the ending, such that I think that anyone who understands English and gives it an honest shot will complete it.
+                Logs bear this out. Number of inputs in winnning games ranges between 60 and 350, but it has been the case so far that every player who has put in 60 or more inputs has gone on to win.
+                <p>
+
+                </p>
+
+            </div>
+
+            <div class="paragraph-title">
+                FINALLY
+            </div>
+            <div class="paragraph">
+
+                <p>
+                    The fact that a story-driven game has an objective surrounding which are topics a player is more likely to type about than others is mitigating compared to the completely open-ended conversational chatbot.
+                    Even still, I think the work load that authoring an NLP game requires is far out of proportion to 
+                    how much that work will be appreciated. Even players who greatly enjoy it only ever see 2% of the content prepared.
+                    
+                </p>
+
+                <p>
+                    I'm just a mad developer who makes games that I want to exist no matter how niche the audience.
+                    My forthcoming WIP will also be an NLP game. It will be larger and it will be graphical.
+                    I suggested here that <span style="font-style:italic;">Thanatophobia</span> *might* have the strongest NLP parser that can be found in a game.
+                    Might with a question mark.
+                    With my forthcoming project I want there to be no question.
+                </p>
+
+            </div>
+            
+            <br><br><br>
+
+            <div style="font-size:16px;">
+                <a href="https://chattyfiction.cyou/index.php">BACK to Thanatophobia</a>
+            </div>
+
+            <br><br><br>
+
+            <?php include('../php/foot.php'); ?>
+                  
+            
+       </div>    <!--main container--> 
+          
+       
+       <footer> 
+            <div class="container-fluid foot">
+                <div class="text-center" >
+                    Copyright © 2022, Robert Goodwin
+                </div> 
+            </div>
+        </footer>
+       
+        
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+    
+        <script src="../js/bootstrap.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <!--<script src="js/ie10-viewport-bug-workaround.js"></script>-->
+
+
+    </body>
+</html>
