@@ -102,7 +102,7 @@
 
             <div class="paragraph">
                 This will likely not be of interest to anyone who hasn't both played <span style="font-style:italic;">Thanatophobia</span> and has some curiosity about natural language processing.
-                It focuses on the technical overview.
+                It focuses on the technical.
             </div>
             <br>
 
@@ -121,14 +121,16 @@
                 </p>
 
                 <p>
-                    But flawed though <span style="font-style:italic;">Thanatophobia</span> is (and setting aside the shortness of the experience),
+                    But flawed though <span style="font-style:italic;">Thanatophobia</span> is (and ignoring the shortness of the experience),
                     I am not sure there has been any game, past or present, commerical or free, with a stronger natural language parser than its.
                     Possibly <span style="font-style:italic;">Event[0]</span>.
                 </p>
                 
                 <p>
-                    That's not as bold a claim as it might sound. (and I promise I won't be tooting my own horn throughout all of this)
+                    That's not as bold a claim as it might sound. 
+			(and I promise I won't be tooting my own horn throughout all of this)
                     Natural language parsing in games is seldom attempted.
+			
                     
                 </p>
 
@@ -160,7 +162,7 @@
                 <br>
 
                 <p>
-                    I could list a few more I know which are harder to recommend.
+                    The few others I know are harder to recommend.
                 </p>
                 
                 <p>
@@ -173,7 +175,7 @@
                 <p>
                     Worse, is that natural language AI in a game is doomed to appear hopelessly primitive in comparison to shiny machine-learning transformer-powered neurally-netty AI which actually *can* (when trained well) produce intelligent-sounding responses to anything you can throw at it.
                     That will reflect unfavorably on the handcrafted game AI, since the human likely has in the past chatted with AI that was much more robust, a disparity that continues to grow as increased computing power leads to stronger and stronger ML systems.
-                     (and far greater investment going towards its advancement)
+                     (not to mention far, far greater investment going towards its advancement)
                 </p>
 
             </div>
@@ -219,7 +221,7 @@
                     Nor the other NLP parser games mentioned.
                     <!--We don't have the tech to build the super robust chat AI they expect without the author giving up control of what gets said in the chat.-->
                     Those who want AI that never flounders can go make up stories on the fly together with one, 
-                    but those who want narrative that is handcrafted by its author need to be okay with AI that is handcrafted, and the limitations that go with it.
+                    but those who want narrative that is handcrafted by an author need to be okay with AI that is handcrafted, and the limitations that go with it.
                 </p>
 
             </div>
@@ -235,7 +237,7 @@
                     <div class="aican">1. Doesn't repeat itself, normally</div>
                     Because humans don't repeat themselves.
                     If you ask the exact same question to a human twice in a row, you won't get the exact same reply twice in a row. The chat AI not only has to be able to handle a vast number of inputs, but it should be able to give different replies to the same input.
-                    (Normally. Because it IS still a game and there may be occasions when repetition is called for)
+                    (Normally. Because it IS still a game and there may be occasions when repetition is necessary or very difficult to avoid)
                 
                     <div class="aican">2. Pronoun resolution</div>
                     This is a stickier problem than I initially would have guessed.
@@ -253,17 +255,17 @@
                     "So, you know how you were telling me yesterday that your brother likes poodles?"-->
                     <span style="font-style:italic;">Thanatophobia</span> can do a tiny bit of this.
                     It can record in memory certain facts gleaned from input before it decides how to respond to the whole sentence (even when it may ultimately fail to understand the entire sentence)  
-                    i.e. from "My brother Fred is coming over today" it can learn that the player has a brother and that that brother's name is Fred.
+                    From "My brother Fred is coming over today" it can learn that the player has a brother and that that brother's name is Fred.
                     Plenty of room for improvement and an opportunity to impress in an area that ML does not do well.
                 
                     <div class="aican">4. Sentiment analysis</div>
                     A good chat AI ideally will alter its speech or make remarks according to evaluation of the human's present mood.
-                    <span style="font-style:italic;">Thanatophobia</span> has a rudimentary form of this (possibly still buggy) 
-                    for instance, when the player has been changing the topic frequently, or his replies have been very short or very long, or he is making more statements than questions, or he is using overly negative or positive language.
+                    <span style="font-style:italic;">Thanatophobia</span> has a form of this, 
+                    for instance when the player has been changing the topic frequently, or his replies have been very short or very long, or he is making more statements than questions, or he is using overly negative or positive language. (The game's sentiment analysis has always been a little bit off, but I decided to leave it in the game in order to make refinements based on use)
                 
                     <div class="aican">5. Basic smarts</div>
                     It's rare for anyone to actually ask them, but I wanted Madeline to be able to answer some of those questions people might throw at AIs to test their intelligence.
-                    (She can also perform arithmetic, but not logic)
+                    (She can also perform simple arithmetic, but not logic)
                     There are several dozen rules for these and I'll likely add more.
                     "What color is an x?" "Can you eat x?" "Is x a mammal?" "Is an x living?" "Is x hot?" "What would you use an x for?" "Can an x fly?" "Can you wear an x?"
                     "What is the opposite of x?" "What rhymes with x?" "Is x a country?" "Is x a sport?" "Is x an author?" etc.  
@@ -279,8 +281,7 @@
                 <p>
                     Much of what <span style="font-style:italic;">Thanatophobia</span> can do owes to the power of <a href="https://github.com/ChatScript/ChatScript">Chatscript</a>, a programming language for designing and managing conversation for natural language processing.
                     It's the most sophisticated system for building rule-based chat AI available and is open source.
-                    It was developed by Bruce Wilcox, a person with background in the gaming industry, who aware of the limitations of other approaches sought to create an alternative.
-                    Chatbots built with it can be used for conversation, business, games, and other applications such as ESL.
+                    It was developed by a person with background in the gaming industry, and bots built with it can be used for conversation, business, and other applications such as ESL.
                 </p>
 
                 <p>
@@ -299,7 +300,7 @@
                 <p>
                     Nor is it trivial to deploy.
                     <span style="font-style:italic;">Thanatophobia</span> required the setup of two servers, one to serve the public-facing web page, and one that is the brains of the AI itself.
-                    It cannot be deployed as client-only; that it needs to be able to access dictionaries and knowledge bases a user shouldn't have to download in their entirety is one of the reasons.
+                    I cannot be deployed online as client-only; that it needs to be able to access dictionaries and knowledge bases a user shouldn't have to download in their entirety is one of the reasons.
                     
                     
                     
@@ -311,7 +312,7 @@
 
                 <p>
                     The basic control scheme (which is more complex than the following explanation, but we'll keep this simple) is
-                    to first try to match patterns in the currently active topic; a topic serves as a contextual basis.
+                    to first try to match patterns in the currently active topic, a topic serving as a contextual basis.
                     If it fails to find one, it considers other topics that it can match keywords from.
                     If that fails, it does general matching without keywords.
                     If it fails to find one still, then it attempts quibbling.
@@ -330,12 +331,12 @@
                 </p>
 
                 <p>
-                    As for logging, the system combines a player's provided name with the first 4 digits of his IP address to create a username with which to store logs on the server. 
-                    This allows a player to return to the game on another day and have Madeline remember him, provided his name and IP are the same, no formal authentication needed.
+                    As for user accounts, the system combines a player's provided name with the first 4 digits of his IP address to create a username with which to store logs on the server. 
+                    This allows a player to return to the game the next day and have Madeline remember him, provided his name and IP are the same, no formal authentication needed.
                     <!--(One of my casual testers got freaked out that the AI was remembering him even after page reloads)-->
                     However, because I didn't want to pay money for a vps (I'm poor) I used the only free vps service I could find anywhere. Being IPv6, not everyone can access it.
                     Players who use the Opera browser to circumvent this as explicitly recommended will always have an IP beginning in "2001", which can result in usernames being not so unique, 
-                    so I go in regularly to delete logs that are over 2-3 weeks old.
+                    so I regularly delete logs that are over 2-3 weeks old.
                 </p>
 
             </div>
@@ -351,11 +352,11 @@
                 </p>
 
                 <p>
-                    In October 2022, severely undertested, I entered it into the 2022 Interactive Fiction Competition.
-                    It had at that time 2 formal testers and a couple or so casual testers, when it needed more like 200.
+                    In October 2022, severely undertested, I entered it into the 2022 <a href="https://ifcomp.org/">Interactive Fiction Competition</a>.
+                    It had at that time 2 formal testers (who were excellent) and just a couple or so casual testers, when it needed more like 200.
                     So the competition's judges became its testers. I read each log and made improvements accordingly.
                     
-                    (For my next NLP project I accept that I'm going to have to pay people to be testers) 
+                    For my next NLP project I accept that I'm going to have to pay people to be testers.
                 </p>
 
                 <p>
@@ -384,7 +385,7 @@
                 <p>
                     The fact that a story-driven game has an objective surrounding which are topics a player is more likely to type about than others is mitigating compared to the completely open-ended conversational chatbot.
                     Even still, I think the work load that authoring an NLP game requires is far out of proportion to 
-                    how much that work will be appreciated. Even players who greatly enjoy it only ever see 2% of the content prepared.
+                    how much that work will be appreciated. Even players who greatly enjoy it only ever see 2% of the content prepared. One can understand why not many games of this sort ever get made.
                     
                 </p>
 
