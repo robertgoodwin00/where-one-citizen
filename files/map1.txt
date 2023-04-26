@@ -19024,8 +19024,8 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/01_Vall
           Complexity of rule ~location01.17.2- b: 1
         rule: 116  ~location01.18.0 t: 
           line: 116 0  # I wanted to come here with you
-          line: 117 96  # This is only one. Thanks to As
-          line: 118 216  # $astravel_k = true 
+          line: 117 86  # This is only one. Thanks to As
+          line: 118 206  # $astravel_k = true 
           Complexity of rule ~location01.18.0- t: 1
         rule: 119  ~location01.18.1 a: 
           line: 119 0  # You will see! ^gambit ( ~locat
@@ -19049,13 +19049,14 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/01_Vall
           line: 126 0  # You will see, you will see! 
           Complexity of rule ~location01.19.4- b: 1
         rule: 129  ~location01.20.0 t: 
-          line: 129 0  # Although I very much love bein
+          line: 129 0  # ^no_clues_here ( 01 ) 
           Complexity of rule ~location01.20.0- t: 1
-        rule: 130  ~location01.20.1 a: 
-          line: 130 0  # What I mean is that it may be 
-          Complexity of rule ~location01.20.1- a: 1
-        rule: 132  ~location01.21.0 t: 
+        rule: 131  ~location01.21.0 t: 
+          line: 131 0  # Although I very much love bein
           Complexity of rule ~location01.21.0- t: 1
+        rule: 132  ~location01.21.1 a: 
+          line: 132 0  # What I mean is that it may be 
+          Complexity of rule ~location01.21.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/02_Steadwell_Manse.top
     topic: 4  ~location02
         rule: 13  ~location02.0.0 ?: 
@@ -19126,7 +19127,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/02_Stea
           Complexity of rule ~location02.16.1- a: 1
         rule: 100  ~location02.17.0 t: 
           line: 100 0  # I've forgotten so much about m
-          line: 101 83  # Even if time has. As you can s
+          line: 101 83  # even if time has. As you can s
           Complexity of rule ~location02.17.0- t: 1
         rule: 102  ~location02.17.1 a: 
           line: 102 0  # Hmm, that's a good question. F
@@ -21816,14 +21817,15 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/21_Giza
           line: 126 0  # I just think that it may be ne
           Complexity of rule ~location21.25.1- a: 1
         rule: 134  ~location21.26.0 t: 
-          line: 134 0  # I have no more to say about th
-          line: 135 95  # tell me to go elsewhere. 
+          line: 134 0  # ^no_clues_here ( 21 ) 
           Complexity of rule ~location21.26.0- t: 1
-        rule: 136  ~location21.26.1 a: 
-          line: 136 0  # Because this is where I am! 
-          Complexity of rule ~location21.26.1- a: 1
-        rule: 138  ~location21.27.0 t: 
+        rule: 136  ~location21.27.0 t: 
+          line: 136 0  # I have no more to say about th
+          line: 137 95  # tell me to go elsewhere. 
           Complexity of rule ~location21.27.0- t: 1
+        rule: 138  ~location21.27.1 a: 
+          line: 138 0  # Because this is where I 
+          Complexity of rule ~location21.27.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/22_George_Yard.top
     topic: 4  ~location22
         rule: 13  ~location22.0.0 ?: 
