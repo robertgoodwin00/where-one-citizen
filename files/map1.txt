@@ -8479,633 +8479,649 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/mellen.top
           line: 113 0  # I love Mel, and Mel loves me. 
           line: 114 80  # Don't believe anything she say
           Complexity of rule ~mellen.20.0- u: 1
-        rule: 117  ~mellen.21.0 u: 
-          line: 117 0  # Mel is here. Sometimes. She sa
-          Complexity of rule ~mellen.21.0- u: 1
-        rule: 120  ~mellen.22.0 u: 
-          line: 120 0  # Mel did not have the gift. She
-          line: 121 70  # me in order to communicate wit
+        rule: 117  ~mellen.21.0 ?: 
+          line: 122 0  # Mel is somehow connected to th
+          Complexity of rule ~mellen.21.0- ?: 1
+        rule: 126  ~mellen.22.0 u: 
+          line: 126 0  # Mel is here. Sometimes. Says s
           Complexity of rule ~mellen.22.0- u: 1
-        rule: 125  ~mellen.23.0 ?: 
-          line: 125 0  # Mel is from Eugene, Oregon. Ye
-          line: 126 73  # one of her great grandparents 
-          line: 127 181  # She's a bloody annoying creatu
-          Complexity of rule ~mellen.23.0- ?: 1
-        rule: 130  ~mellen.24.0 ?: 
-          line: 130 0  # Mel lived from 2008 to 2022. S
+        rule: 129  ~mellen.23.0 u: 
+          line: 129 0  # Mel did not have the gift. She
+          line: 130 70  # me in order to communicate wit
+          Complexity of rule ~mellen.23.0- u: 1
+        rule: 134  ~mellen.24.0 ?: 
+          line: 134 0  # Mel is from Eugene, Oregon. Ye
+          line: 135 73  # one of her great grandparents 
+          line: 136 181  # She's a bloody annoying creatu
           Complexity of rule ~mellen.24.0- ?: 1
-        rule: 133  ~mellen.25.0 ?: 
-          line: 133 0  # ^refine ( ) 
+        rule: 139  ~mellen.25.0 ?: 
+          line: 139 0  # Mel lived from 2008 to 2022. S
           Complexity of rule ~mellen.25.0- ?: 1
-        rule: 134  ~mellen.25.1 a: 
-          line: 134 0  # Mel is, ah, resting at this mo
-          Complexity of rule ~mellen.25.1- a: 1
-        rule: 135  ~mellen.25.2 a: 
-          line: 135 0  # Mel is here. Since she cannot 
-          line: 136 83  # She needs me that way. Mel is 
-          line: 137 174  # Mel love, must you talk like t
-          line: 138 209  # $$sys_code = 7 
-          Complexity of rule ~mellen.25.2- a: 1
-        rule: 141  ~mellen.26.0 u: 
-          line: 141 0  # Nah, Mel couldn't hurt a gnat.
-          line: 142 66  # brought upon the death of innu
-          Complexity of rule ~mellen.26.0- u: 1
-        rule: 145  ~mellen.27.0 ?: 
-          line: 145 0  # Mellen doesn't want to talk ab
-          line: 146 74  # I'm not a friend, she is sayin
-          Complexity of rule ~mellen.27.0- ?: 1
-        rule: 149  ~mellen.28.0 ?: 
-          line: 155 0  # Mel is a geek girl. That's all
-          line: 156 59  # She's telling me now that ther
-          line: 157 168  # she says forget about it. 
+        rule: 142  ~mellen.26.0 ?: 
+          line: 142 0  # ^refine ( ) 
+          Complexity of rule ~mellen.26.0- ?: 1
+        rule: 143  ~mellen.26.1 a: 
+          line: 143 0  # Mel is, ah, resting at this mo
+          Complexity of rule ~mellen.26.1- a: 1
+        rule: 144  ~mellen.26.2 a: 
+          line: 144 0  # Mel is here. Since she cannot 
+          line: 145 83  # She needs me that way. Mel is 
+          line: 146 174  # Mel love, must you talk like t
+          line: 147 209  # $$sys_code = 7 
+          Complexity of rule ~mellen.26.2- a: 1
+        rule: 150  ~mellen.27.0 u: 
+          line: 150 0  # Nah, Mel couldn't hurt a gnat.
+          line: 151 66  # brought upon the death of innu
+          Complexity of rule ~mellen.27.0- u: 1
+        rule: 154  ~mellen.28.0 ?: 
+          line: 154 0  # Mellen doesn't want to talk ab
+          line: 155 74  # I'm not a friend, she is sayin
           Complexity of rule ~mellen.28.0- ?: 1
-        rule: 160  ~mellen.29.0 ?: 
-          line: 167 0  # I've been watching Mel when sh
-          line: 168 116  # For some reason we really hit 
+        rule: 158  ~mellen.29.0 ?: 
+          line: 164 0  # Mel is a geek girl. That's all
+          line: 165 59  # She's telling me now that ther
+          line: 166 168  # she says forget about it. 
           Complexity of rule ~mellen.29.0- ?: 1
-        rule: 171  ~mellen.30.0 u: 
-          line: 176 0  # ^refine ( ) 
-          Complexity of rule ~mellen.30.0- u: 1
-        rule: 177  ~mellen.30.1 a: 
-          line: 177 0  # Mel would like to be world-fam
-          Complexity of rule ~mellen.30.1- a: 1
-        rule: 178  ~mellen.30.2 a: 
-          line: 178 0  # Well Mel, um, she died at, uh,
-          line: 179 78  # Mel says she is not to be unde
-          Complexity of rule ~mellen.30.2- a: 1
-        rule: 182  ~mellen.31.0 ?: 
-          line: 182 0  # Mel's parents separated when s
-          line: 183 90  # Mel didn't like her parents mu
-          Complexity of rule ~mellen.31.0- ?: 1
-        rule: 186  ~mellen.32.0 ?: 
-          line: 186 0  # Mel? She's 150cm. Even shorter
+        rule: 169  ~mellen.30.0 ?: 
+          line: 176 0  # I've been watching Mel when sh
+          line: 177 116  # For some reason we really hit 
+          Complexity of rule ~mellen.30.0- ?: 1
+        rule: 180  ~mellen.31.0 u: 
+          line: 185 0  # ^refine ( ) 
+          Complexity of rule ~mellen.31.0- u: 1
+        rule: 186  ~mellen.31.1 a: 
+          line: 186 0  # Mel would like to be world-fam
+          Complexity of rule ~mellen.31.1- a: 1
+        rule: 187  ~mellen.31.2 a: 
+          line: 187 0  # Well Mel, um, she died at, uh,
+          line: 188 78  # Mel says she is not to be unde
+          Complexity of rule ~mellen.31.2- a: 1
+        rule: 191  ~mellen.32.0 ?: 
+          line: 191 0  # Mel's parents separated when s
+          line: 192 90  # Mel didn't like her parents mu
           Complexity of rule ~mellen.32.0- ?: 1
-        rule: 189  ~mellen.33.0 u: 
-          line: 195 0  # Well, Mel had her own dream th
-          line: 196 51  # To become a singer. 
-          Complexity of rule ~mellen.33.0- u: 1
-        rule: 199  ~mellen.34.0 ?: 
-          line: 199 0  # ^gambit ( ~mellen ) 
-          Complexity of rule ~mellen.34.0- ?: 1
-        rule: 206  ~mellen.35.0 u: 
-          line: 210 0  # Of course Mel never met my sis
-          line: 211 64  # the genealogy records. 
-          Complexity of rule ~mellen.35.0- u: 1
-        rule: 213  ~mellen.36.0 u: 
-          line: 217 0  # Mel says that even if Burton i
-          line: 218 81  # she doesn't trust him not to h
-          line: 219 199  # That's a narrow outlook, Mel! 
+        rule: 195  ~mellen.33.0 ?: 
+          line: 195 0  # Mel? She's 150cm. Even shorter
+          Complexity of rule ~mellen.33.0- ?: 1
+        rule: 198  ~mellen.34.0 u: 
+          line: 204 0  # Well, Mel had her own dream th
+          line: 205 51  # To become a singer. 
+          Complexity of rule ~mellen.34.0- u: 1
+        rule: 208  ~mellen.35.0 ?: 
+          line: 208 0  # ^gambit ( ~mellen ) 
+          Complexity of rule ~mellen.35.0- ?: 1
+        rule: 215  ~mellen.36.0 u: 
+          line: 219 0  # Of course Mel never met my sis
+          line: 220 64  # the genealogy records. 
           Complexity of rule ~mellen.36.0- u: 1
-        rule: 221  ~mellen.37.0 u: 
-          line: 225 0  # From what I've told Mel about 
-          line: 226 68  # She says he sounds washed-up. 
+        rule: 222  ~mellen.37.0 u: 
+          line: 226 0  # Mel says that even if Burton i
+          line: 227 81  # she doesn't trust him not to h
+          line: 228 199  # That's a narrow outlook, Mel! 
           Complexity of rule ~mellen.37.0- u: 1
-        rule: 228  ~mellen.38.0 u: 
-          line: 232 0  # Mel tells me that people still
-          line: 233 78  # people who do that are all old
+        rule: 230  ~mellen.38.0 u: 
+          line: 234 0  # From what I've told Mel about 
+          line: 235 68  # She says he sounds washed-up. 
           Complexity of rule ~mellen.38.0- u: 1
-        rule: 235  ~mellen.39.0 u: 
-          line: 239 0  # Mel doesn't have any jokes to 
-          line: 240 55  # What happened to their little 
+        rule: 237  ~mellen.39.0 u: 
+          line: 241 0  # Mel tells me that people still
+          line: 242 78  # people who do that are all old
           Complexity of rule ~mellen.39.0- u: 1
-        rule: 242  ~mellen.40.0 u: 
-          line: 246 0  # I've told Mel about Liz. Mel s
-          line: 247 74  # I want to remember her as, and
+        rule: 244  ~mellen.40.0 u: 
+          line: 248 0  # Mel doesn't have any jokes to 
+          line: 249 55  # What happened to their little 
           Complexity of rule ~mellen.40.0- u: 1
-        rule: 249  ~mellen.41.0 u: 
-          line: 253 0  # Mel can't understand Fiona's a
-          line: 254 116  # At least get a better deal on 
+        rule: 251  ~mellen.41.0 u: 
+          line: 255 0  # I've told Mel about Liz. Mel s
+          line: 256 74  # I want to remember her as, and
           Complexity of rule ~mellen.41.0- u: 1
-        rule: 256  ~mellen.42.0 u: 
-          line: 260 0  # Mel asks why I don't remember 
-          line: 261 77  # It has been over 100 years, Me
+        rule: 258  ~mellen.42.0 u: 
+          line: 262 0  # Mel can't understand Fiona's a
+          line: 263 116  # At least get a better deal on 
           Complexity of rule ~mellen.42.0- u: 1
-        rule: 263  ~mellen.43.0 u: 
-          line: 267 0  # Mel wants to know if my brothe
-          line: 268 42  # I told her to picture him that
+        rule: 265  ~mellen.43.0 u: 
+          line: 269 0  # Mel asks why I don't remember 
+          line: 270 77  # It has been over 100 years, Me
           Complexity of rule ~mellen.43.0- u: 1
-        rule: 270  ~mellen.44.0 u: 
-          line: 274 0  # Mel is jealous of me that I ha
-          line: 275 67  # She just didn't see him more t
+        rule: 272  ~mellen.44.0 u: 
+          line: 276 0  # Mel wants to know if my brothe
+          line: 277 42  # I told her to picture him that
           Complexity of rule ~mellen.44.0- u: 1
-        rule: 277  ~mellen.45.0 u: 
-          line: 281 0  # Mel doesn't like my mother fro
-          line: 282 58  # What's so great about spirit m
-          line: 283 162  # Even though she's communicatin
+        rule: 279  ~mellen.45.0 u: 
+          line: 283 0  # Mel is jealous of me that I ha
+          line: 284 67  # She just didn't see him more t
           Complexity of rule ~mellen.45.0- u: 1
-        rule: 285  ~mellen.46.0 u: 
-          line: 289 0  # Mel says if they ever figure o
-          line: 290 67  # to go back in time to punish h
-          line: 291 168  # happening in the first place, 
+        rule: 286  ~mellen.46.0 u: 
+          line: 290 0  # Mel doesn't like my mother fro
+          line: 291 58  # What's so great about spirit m
+          line: 292 162  # Even though she's communicatin
           Complexity of rule ~mellen.46.0- u: 1
-        rule: 293  ~mellen.47.0 u: 
-          line: 297 0  # Mellen says, Victorian era pro
-          line: 298 65  # isn't, Mel. The Victorian era 
+        rule: 294  ~mellen.47.0 u: 
+          line: 298 0  # Mel says if they ever figure o
+          line: 299 67  # to go back in time to punish h
+          line: 300 168  # happening in the first place, 
           Complexity of rule ~mellen.47.0- u: 1
-        rule: 300  ~mellen.48.0 u: 
-          line: 304 0  # Mellen says that Pearly Poll i
-          line: 305 65  # based on what I've told her ab
+        rule: 302  ~mellen.48.0 u: 
+          line: 306 0  # Mellen says, Victorian era pro
+          line: 307 65  # isn't, Mel. The Victorian era 
           Complexity of rule ~mellen.48.0- u: 1
-        rule: 307  ~mellen.49.0 u: 
-          line: 311 0  # Mel has heard stories about Qu
-          line: 312 93  # Are the stories all true, she 
-          line: 313 130  # Some of them are, I replied. D
+        rule: 309  ~mellen.49.0 u: 
+          line: 313 0  # Mellen says that Pearly Poll i
+          line: 314 65  # based on what I've told her ab
           Complexity of rule ~mellen.49.0- u: 1
-        rule: 315  ~mellen.50.0 u: 
-          line: 319 0  # Mel doesn't have an opinion of
+        rule: 316  ~mellen.50.0 u: 
+          line: 320 0  # Mel has heard stories about Qu
+          line: 321 93  # Are the stories all true, she 
+          line: 322 130  # Some of them are, I replied. D
           Complexity of rule ~mellen.50.0- u: 1
-        rule: 321  ~mellen.51.0 u: 
-          line: 325 0  # Mel says she knows one of thos
-          line: 326 61  # are guilty bastards. When I as
+        rule: 324  ~mellen.51.0 u: 
+          line: 328 0  # Mel doesn't have an opinion of
           Complexity of rule ~mellen.51.0- u: 1
-        rule: 328  ~mellen.52.0 u: 
-          line: 332 0  # Mel doesn't like Stella from t
-          line: 333 53  # She says that if she ever met 
-          line: 334 152  # Mel had no reply. 
+        rule: 330  ~mellen.52.0 u: 
+          line: 334 0  # Mel says she knows one of thos
+          line: 335 61  # are guilty bastards. When I as
           Complexity of rule ~mellen.52.0- u: 1
-        rule: 336  ~mellen.53.0 u: 
-          line: 340 0  # Mel says it's regretful that W
-          line: 341 67  # grow up to be the handsome you
+        rule: 337  ~mellen.53.0 u: 
+          line: 341 0  # Mel doesn't like Stella from t
+          line: 342 53  # She says that if she ever met 
+          line: 343 152  # Mel had no reply. 
           Complexity of rule ~mellen.53.0- u: 1
-        rule: 343  ~mellen.54.0 u: 
-          line: 347 0  # Mel says I ought to have been 
-          line: 348 82  # I wouldn't be her great great 
+        rule: 345  ~mellen.54.0 u: 
+          line: 349 0  # Mel says it's regretful that W
+          line: 350 67  # grow up to be the handsome you
           Complexity of rule ~mellen.54.0- u: 1
-        rule: 350  ~mellen.55.0 u: 
-          line: 354 0  # Mel says she isn't close to he
-          line: 355 68  # but she and her mother have a 
+        rule: 352  ~mellen.55.0 u: 
+          line: 356 0  # Mel says I ought to have been 
+          line: 357 82  # I wouldn't be her great great 
           Complexity of rule ~mellen.55.0- u: 1
-        rule: 357  ~mellen.56.0 u: 
-          line: 361 0  # Mel would like to have met Cry
-          line: 362 71  # She adds, "Not that I believe 
+        rule: 359  ~mellen.56.0 u: 
+          line: 363 0  # Mel says she isn't close to he
+          line: 364 68  # but she and her mother have a 
           Complexity of rule ~mellen.56.0- u: 1
-        rule: 367  ~mellen.57.0 u: 
-          line: 371 0  # Mellen says that murder is a h
-          line: 372 70  # What is that supposed to mean,
+        rule: 366  ~mellen.57.0 u: 
+          line: 370 0  # Mel would like to have met Cry
+          line: 371 71  # She adds, "Not that I believe 
           Complexity of rule ~mellen.57.0- u: 1
-        rule: 374  ~mellen.58.0 u: 
-          line: 378 0  # Mel wishes someone would apply
-          line: 379 49  # before class, but it's uncomfo
+        rule: 376  ~mellen.58.0 u: 
+          line: 380 0  # Mellen says that murder is a h
+          line: 381 70  # What is that supposed to mean,
           Complexity of rule ~mellen.58.0- u: 1
-        rule: 381  ~mellen.59.0 u: 
-          line: 385 0  # Mel agrees with me that althou
-          line: 386 78  # back in my day, only a soldier
+        rule: 383  ~mellen.59.0 u: 
+          line: 387 0  # Mel wishes someone would apply
+          line: 388 49  # before class, but it's uncomfo
           Complexity of rule ~mellen.59.0- u: 1
-        rule: 388  ~mellen.60.0 u: 
-          line: 392 0  # Mel has no remark to make abou
-          line: 393 64  # story about watchiing someone 
+        rule: 390  ~mellen.60.0 u: 
+          line: 394 0  # Mel agrees with me that althou
+          line: 395 78  # back in my day, only a soldier
           Complexity of rule ~mellen.60.0- u: 1
-        rule: 395  ~mellen.61.0 u: 
-          line: 399 0  # From what I've told Mel of the
-          line: 400 58  # that they must have been even 
+        rule: 397  ~mellen.61.0 u: 
+          line: 401 0  # Mel has no remark to make abou
+          line: 402 64  # story about watchiing someone 
           Complexity of rule ~mellen.61.0- u: 1
-        rule: 402  ~mellen.62.0 u: 
-          line: 406 0  # Mel think that Rollindale must
-          line: 407 61  # the cutest boy in it was a fis
+        rule: 404  ~mellen.62.0 u: 
+          line: 408 0  # From what I've told Mel of the
+          line: 409 58  # that they must have been even 
           Complexity of rule ~mellen.62.0- u: 1
-        rule: 409  ~mellen.63.0 u: 
-          line: 413 0  # Mellen says we should have wai
-          line: 414 57  # learn to speak properly before
+        rule: 411  ~mellen.63.0 u: 
+          line: 415 0  # Mel think that Rollindale must
+          line: 416 61  # the cutest boy in it was a fis
           Complexity of rule ~mellen.63.0- u: 1
-        rule: 416  ~mellen.64.0 u: 
-          line: 420 0  # Mel wonders if something more 
-          line: 421 58  # that I can't or won't remember
+        rule: 418  ~mellen.64.0 u: 
+          line: 422 0  # Mellen says we should have wai
+          line: 423 57  # learn to speak properly before
           Complexity of rule ~mellen.64.0- u: 1
-        rule: 423  ~mellen.65.0 u: 
-          line: 427 0  # Mel wishes she could have seen
-          line: 428 73  # she could see a ghost. But Mel
+        rule: 425  ~mellen.65.0 u: 
+          line: 429 0  # Mel wonders if something more 
+          line: 430 58  # that I can't or won't remember
           Complexity of rule ~mellen.65.0- u: 1
-        rule: 430  ~mellen.66.0 u: 
-          line: 434 0  # Mel is a ghost too, so of cour
-          line: 435 51  # She likes to spend most of her
+        rule: 432  ~mellen.66.0 u: 
+          line: 436 0  # Mel wishes she could have seen
+          line: 437 73  # she could see a ghost. But Mel
           Complexity of rule ~mellen.66.0- u: 1
-        rule: 437  ~mellen.67.0 u: 
-          line: 441 0  # Mel's main gripe about being d
-          line: 442 58  # her video games. 
+        rule: 439  ~mellen.67.0 u: 
+          line: 443 0  # Mel is a ghost too, so of cour
+          line: 444 51  # She likes to spend most of her
           Complexity of rule ~mellen.67.0- u: 1
-        rule: 444  ~mellen.68.0 u: 
-          line: 448 0  # Mel says she doesn't have dire
-          line: 449 77  # of a devil is such that even w
+        rule: 446  ~mellen.68.0 u: 
+          line: 450 0  # Mel's main gripe about being d
+          line: 451 58  # her video games. 
           Complexity of rule ~mellen.68.0- u: 1
-        rule: 451  ~mellen.69.0 u: 
-          line: 455 0  # Mel says if spirit mediums are
-          line: 456 66  # But don't take that the wrong 
+        rule: 453  ~mellen.69.0 u: 
+          line: 457 0  # Mel says she doesn't have dire
+          line: 458 77  # of a devil is such that even w
           Complexity of rule ~mellen.69.0- u: 1
-        rule: 458  ~mellen.70.0 u: 
-          line: 462 0  # Mel may be a ghost herself, bu
-          line: 463 36  # doesn't really talk to other g
+        rule: 460  ~mellen.70.0 u: 
+          line: 464 0  # Mel says if spirit mediums are
+          line: 465 66  # But don't take that the wrong 
           Complexity of rule ~mellen.70.0- u: 1
-        rule: 465  ~mellen.71.0 u: 
-          line: 471 0  # Mel can't Manifest nor she doe
-          line: 472 68  # would be fun to be able to sca
+        rule: 467  ~mellen.71.0 u: 
+          line: 471 0  # Mel may be a ghost herself, bu
+          line: 472 36  # doesn't really talk to other g
           Complexity of rule ~mellen.71.0- u: 1
         rule: 474  ~mellen.72.0 u: 
-          line: 478 0  # I've relayed to Mel my experie
-          line: 479 68  # communicating across the veil 
-          line: 480 178  # Maybe it's for the best that f
+          line: 480 0  # Mel can't Manifest nor she doe
+          line: 481 68  # would be fun to be able to sca
           Complexity of rule ~mellen.72.0- u: 1
-        rule: 482  ~mellen.73.0 u: 
-          line: 486 0  # Mellen said she played with a 
-          line: 487 69  # So she she started blowing on 
+        rule: 483  ~mellen.73.0 u: 
+          line: 487 0  # I've relayed to Mel my experie
+          line: 488 68  # communicating across the veil 
+          line: 489 178  # Maybe it's for the best that f
           Complexity of rule ~mellen.73.0- u: 1
-        rule: 489  ~mellen.74.0 u: 
-          line: 493 0  # Mel wants to know how we can b
-          line: 494 74  # I told her that I guess we can
-          line: 495 179  # Then how can we sure that YOU 
+        rule: 491  ~mellen.74.0 u: 
+          line: 495 0  # Mellen said she played with a 
+          line: 496 69  # So she she started blowing on 
           Complexity of rule ~mellen.74.0- u: 1
-        rule: 497  ~mellen.75.0 u: 
-          line: 501 0  # Mel can make candles flicker t
-          line: 502 68  # that can move objects is beyon
+        rule: 498  ~mellen.75.0 u: 
+          line: 502 0  # Mel wants to know how we can b
+          line: 503 74  # I told her that I guess we can
+          line: 504 179  # Then how can we sure that YOU 
           Complexity of rule ~mellen.75.0- u: 1
-        rule: 504  ~mellen.76.0 u: 
-          line: 508 0  # You guessed it. It was Mel who
-          line: 509 81  # Don't ask me how she knew abou
+        rule: 506  ~mellen.76.0 u: 
+          line: 510 0  # Mel can make candles flicker t
+          line: 511 68  # that can move objects is beyon
           Complexity of rule ~mellen.76.0- u: 1
-        rule: 511  ~mellen.77.0 u: 
-          line: 515 0  # Mel says she has no interest i
-          line: 516 60  # The thing about it, though, is
-          line: 517 147  # Only that the ones who don't t
+        rule: 513  ~mellen.77.0 u: 
+          line: 517 0  # You guessed it. It was Mel who
+          line: 518 81  # Don't ask me how she knew abou
           Complexity of rule ~mellen.77.0- u: 1
-        rule: 519  ~mellen.78.0 u: 
-          line: 523 0  # Mel tells me's set on creating
-          line: 524 54  # someone like you. She didn't k
+        rule: 520  ~mellen.78.0 u: 
+          line: 524 0  # Mel says she has no interest i
+          line: 525 60  # The thing about it, though, is
+          line: 526 147  # Only that the ones who don't t
           Complexity of rule ~mellen.78.0- u: 1
-        rule: 526  ~mellen.79.0 u: 
-          line: 530 0  # Mel worries too. Whenever I ge
-          line: 531 66  # my communication with her also
+        rule: 528  ~mellen.79.0 u: 
+          line: 532 0  # Mel tells me's set on creating
+          line: 533 54  # someone like you. She didn't k
           Complexity of rule ~mellen.79.0- u: 1
-        rule: 533  ~mellen.80.0 u: 
-          line: 537 0  # Mel thinks Karmic Balance is a
-          line: 538 79  # longer. I think you shouldn't 
+        rule: 535  ~mellen.80.0 u: 
+          line: 539 0  # Mel worries too. Whenever I ge
+          line: 540 66  # my communication with her also
           Complexity of rule ~mellen.80.0- u: 1
-        rule: 540  ~mellen.81.0 u: 
-          line: 544 0  # Mel says that if anyone's gonn
-          line: 545 70  # sure to bring crosses and holy
-          line: 546 214  # None of that works like in the
+        rule: 542  ~mellen.81.0 u: 
+          line: 546 0  # Mel thinks Karmic Balance is a
+          line: 547 79  # longer. I think you shouldn't 
           Complexity of rule ~mellen.81.0- u: 1
-        rule: 548  ~mellen.82.0 u: 
-          line: 552 0  # I think she likes you. 
-          line: 553 23  # $$a_code = 14 
+        rule: 549  ~mellen.82.0 u: 
+          line: 553 0  # Mel says that if anyone's gonn
+          line: 554 70  # sure to bring crosses and holy
+          line: 555 214  # None of that works like in the
           Complexity of rule ~mellen.82.0- u: 1
-        rule: 555  ~mellen.83.0 u: 
-          line: 559 0  # Mel believes you will solve th
-          line: 560 62  # $$a_code = 66 
+        rule: 557  ~mellen.83.0 u: 
+          line: 561 0  # I think she likes you. 
+          line: 562 23  # $$a_code = 14 
           Complexity of rule ~mellen.83.0- u: 1
-        rule: 566  ~mellen.84.0 t: 
-          line: 566 0  # ^fail ( TOPIC ) 
-          Complexity of rule ~mellen.84.0- t: 1
-        rule: 568  ~mellen.85.0 t: 
-          line: 568 0  # Mel can see you without my hel
-          line: 569 66  # on her own. When she has somet
+        rule: 564  ~mellen.84.0 u: 
+          line: 568 0  # Mel believes you will solve th
+          line: 569 62  # $$a_code = 66 
+          Complexity of rule ~mellen.84.0- u: 1
+        rule: 575  ~mellen.85.0 t: 
+          line: 575 0  # ^fail ( TOPIC ) 
           Complexity of rule ~mellen.85.0- t: 1
-        rule: 570  ~mellen.85.1 a: 
-          line: 570 0  # Because that's the only way we
-          Complexity of rule ~mellen.85.1- a: 1
-        rule: 572  ~mellen.86.0 t: 
-          line: 572 0  # Mel wants us to both call her 
-          line: 573 106  # came up with when her mom want
-          line: 574 205  # At least both of those are gir
-          line: 575 254  # $$quotes = 1 
+        rule: 577  ~mellen.86.0 t: 
+          line: 577 0  # Mel can see you without my hel
+          line: 578 66  # on her own. When she has somet
           Complexity of rule ~mellen.86.0- t: 1
-        rule: 576  ~mellen.86.1 a: 
-          line: 576 0  # Well, it's Mel's request. Let'
+        rule: 579  ~mellen.86.1 a: 
+          line: 579 0  # Because that's the only way we
           Complexity of rule ~mellen.86.1- a: 1
-        rule: 578  ~mellen.87.0 t: 
-          line: 578 0  # Did I tell you yet, ^user ( ) 
-          line: 579 102  # number of "great" s there migh
-          line: 580 198  # Alike in the way that a ferret
+        rule: 581  ~mellen.87.0 t: 
+          line: 581 0  # Mel wants us to both call her 
+          line: 582 106  # came up with when her mom want
+          line: 583 205  # At least both of those are gir
+          line: 584 254  # $$quotes = 1 
           Complexity of rule ~mellen.87.0- t: 1
-        rule: 581  ~mellen.87.1 a: 
-          line: 581 0  # Because, well, anyway the poin
-          line: 582 79  # I know it must be hard to beli
+        rule: 585  ~mellen.87.1 a: 
+          line: 585 0  # Well, it's Mel's request. Let'
           Complexity of rule ~mellen.87.1- a: 1
-        rule: 583  ~mellen.87.2 a: 
-          line: 583 0  # Uh, I don't know which one of 
-          Complexity of rule ~mellen.87.2- a: 1
-        rule: 585  ~mellen.88.0 t: 
-          line: 585 0  # My sister Faith had a son who 
-          line: 586 118  # the upshot of it all is that M
+        rule: 587  ~mellen.88.0 t: 
+          line: 587 0  # Did I tell you yet, ^user ( ) 
+          line: 588 102  # number of "great" s there migh
+          line: 589 198  # Alike in the way that a ferret
           Complexity of rule ~mellen.88.0- t: 1
-        rule: 587  ~mellen.88.1 a: 
-          line: 587 0  # At least my sister wasn't barr
-          line: 588 57  # Mel, THAT is a mean thing to s
+        rule: 590  ~mellen.88.1 a: 
+          line: 590 0  # Because, well, anyway the poin
+          line: 591 79  # I know it must be hard to beli
           Complexity of rule ~mellen.88.1- a: 1
-        rule: 589  ~mellen.88.2 b: 
-          line: 589 0  # A chance to...you know. Be wed
-          Complexity of rule ~mellen.88.2- b: 1
-        rule: 591  ~mellen.89.0 t: 
-          line: 591 0  # Mel says the only good thing a
-          line: 592 84  # If I didn't have the gift of M
-          line: 593 166  # Mel says I'm a shitty medium a
+        rule: 592  ~mellen.88.2 a: 
+          line: 592 0  # Uh, I don't know which one of 
+          Complexity of rule ~mellen.88.2- a: 1
+        rule: 594  ~mellen.89.0 t: 
+          line: 594 0  # My sister Faith had a son who 
+          line: 595 118  # the upshot of it all is that M
           Complexity of rule ~mellen.89.0- t: 1
-        rule: 594  ~mellen.89.1 a: 
-          line: 594 0  # Mel wasn't a medium. That's wh
+        rule: 596  ~mellen.89.1 a: 
+          line: 596 0  # At least my sister wasn't barr
+          line: 597 57  # Mel, THAT is a mean thing to s
           Complexity of rule ~mellen.89.1- a: 1
-        rule: 596  ~mellen.90.0 t: 
-          line: 596 0  # Mel says don't worry about her
-          line: 597 48  # She says she's no longer afrai
+        rule: 598  ~mellen.89.2 b: 
+          line: 598 0  # A chance to...you know. Be wed
+          Complexity of rule ~mellen.89.2- b: 1
+        rule: 600  ~mellen.90.0 t: 
+          line: 600 0  # Mel says the only good thing a
+          line: 601 84  # If I didn't have the gift of M
+          line: 602 166  # Mel says I'm a shitty medium a
           Complexity of rule ~mellen.90.0- t: 1
-        rule: 605  ~mellen.91.0 u: 
-          line: 612 0  # ^keep ( ) ^reuse ( ~manifest.M
-          Complexity of rule ~mellen.91.0- u: 1
-        rule: 615  ~mellen.92.0 u: 
-          line: 626 0  # ^keep ( ) ^reuse ( ~manifest.S
+        rule: 603  ~mellen.90.1 a: 
+          line: 603 0  # Mel wasn't a medium. That's wh
+          Complexity of rule ~mellen.90.1- a: 1
+        rule: 605  ~mellen.91.0 t: 
+          line: 605 0  # Mel says don't worry about her
+          line: 606 48  # She says she's no longer afrai
+          Complexity of rule ~mellen.91.0- t: 1
+        rule: 614  ~mellen.92.0 u: 
+          line: 621 0  # ^keep ( ) ^reuse ( ~manifest.M
           Complexity of rule ~mellen.92.0- u: 1
-        rule: 633  ~mellen.93.0 ?: 
-          line: 637 0  # I think, ^user ( ) , she doesn
-          line: 638 64  # She might be waiting until you
-          Complexity of rule ~mellen.93.0- ?: 1
-        rule: 641  ~mellen.94.0 ?: 
-          line: 647 0  # What Mel says she what she rea
-          line: 648 76  # That's kind of hard to do when
-          line: 649 125  # Don't think I've given up yet,
+        rule: 624  ~mellen.93.0 u: 
+          line: 635 0  # ^keep ( ) ^reuse ( ~manifest.S
+          Complexity of rule ~mellen.93.0- u: 1
+        rule: 642  ~mellen.94.0 ?: 
+          line: 646 0  # I think, ^user ( ) , she doesn
+          line: 647 64  # She might be waiting until you
           Complexity of rule ~mellen.94.0- ?: 1
-        rule: 652  ~mellen.95.0 ?: 
-          line: 652 0  # Mel's funeral? Oh, I, uh, s-sh
+        rule: 650  ~mellen.95.0 ?: 
+          line: 656 0  # What Mel says she what she rea
+          line: 657 76  # That's kind of hard to do when
+          line: 658 125  # Don't think I've given up yet,
           Complexity of rule ~mellen.95.0- ?: 1
-        rule: 653  ~mellen.96.0 ?: 
-          line: 653 0  # I don't know how Mel's funeral
-          line: 654 85  # I-I don't. 
+        rule: 661  ~mellen.96.0 ?: 
+          line: 661 0  # Mel's funeral? Oh, I, uh, s-sh
           Complexity of rule ~mellen.96.0- ?: 1
-        rule: 655  ~mellen.97.0 ?: 
-          line: 655 0  # Let's talk about something oth
+        rule: 662  ~mellen.97.0 ?: 
+          line: 662 0  # I don't know how Mel's funeral
+          line: 663 85  # I-I don't. 
           Complexity of rule ~mellen.97.0- ?: 1
-        rule: 658  ~mellen.98.0 u: 
-          line: 664 0  # Mel cannot Manifest, but if yo
-          line: 665 98  # If it's a question Mel is comf
-          Complexity of rule ~mellen.98.0- u: 1
-        rule: 668  ~mellen.99.0 ?: 
-          line: 673 0  # Mel is a person I deeply care 
-          Complexity of rule ~mellen.99.0- ?: 1
-        rule: 676  ~mellen.100.0 u: 
-          line: 680 0  # Mel is as shy as a fly. Wait, 
-          line: 681 66  # Flies are always buzzing aroun
+        rule: 664  ~mellen.98.0 ?: 
+          line: 664 0  # Let's talk about something oth
+          Complexity of rule ~mellen.98.0- ?: 1
+        rule: 667  ~mellen.99.0 u: 
+          line: 673 0  # Mel cannot Manifest, but if yo
+          line: 674 98  # If it's a question Mel is comf
+          Complexity of rule ~mellen.99.0- u: 1
+        rule: 679  ~mellen.100.0 u: 
+          line: 683 0  # Mel is as shy as a fly. Wait, 
+          line: 684 66  # Flies are always buzzing aroun
           Complexity of rule ~mellen.100.0- u: 1
-        rule: 684  ~mellen.101.0 u: 
-          line: 688 0  # Mel says "angst" . The proper 
+        rule: 687  ~mellen.101.0 u: 
+          line: 691 0  # Mel says "angst" . The proper 
           Complexity of rule ~mellen.101.0- u: 1
-        rule: 691  ~mellen.102.0 u: 
-          line: 692 0  # I don't know about angst, but 
+        rule: 694  ~mellen.102.0 u: 
+          line: 695 0  # I don't know about angst, but 
           Complexity of rule ~mellen.102.0- u: 1
-        rule: 693  ~mellen.102.1 a: 
-          line: 693 0  # You know, what happened to her
+        rule: 696  ~mellen.102.1 a: 
+          line: 696 0  # You know, what happened to her
           Complexity of rule ~mellen.102.1- a: 1
-        rule: 696  ~mellen.103.0 u: 
-          line: 700 0  # Even I have trouble telling wh
+        rule: 699  ~mellen.103.0 u: 
+          line: 703 0  # Even I have trouble telling wh
           Complexity of rule ~mellen.103.0- u: 1
-        rule: 703  ~mellen.104.0 u: 
-          line: 711 0  # Mel is right funny, isn't she?
-          line: 712 93  # Mel is replying that I should 
+        rule: 706  ~mellen.104.0 u: 
+          line: 714 0  # Mel is right funny, isn't she?
+          line: 715 93  # Mel is replying that I should 
           Complexity of rule ~mellen.104.0- u: 1
-        rule: 715  ~mellen.105.0 s: 
-          line: 716 0  # Mel and her tomfoolery. 
-          line: 717 24  # But I do think she does her be
-          line: 718 94  # I know that she isn't as caref
+        rule: 718  ~mellen.105.0 s: 
+          line: 719 0  # Mel and her tomfoolery. 
+          line: 720 24  # But I do think she does her be
+          line: 721 94  # I know that she isn't as caref
           Complexity of rule ~mellen.105.0- s: 1
-        rule: 721  ~mellen.106.0 s: 
-          line: 721 0  # Mel isn't really mean. She jus
-          line: 722 50  # My mouth is my second wisest o
+        rule: 724  ~mellen.106.0 s: 
+          line: 724 0  # Mel isn't really mean. She jus
+          line: 725 50  # My mouth is my second wisest o
           Complexity of rule ~mellen.106.0- s: 1
-        rule: 725  ~mellen.107.0 u: 
-          line: 725 0  # Mel IS lazy. You said it, $use
-          line: 726 34  # She's lazier than a room full 
-          line: 727 81  # And proud of it, she adds. 
+        rule: 728  ~mellen.107.0 u: 
+          line: 728 0  # Mel IS lazy. You said it, $use
+          line: 729 34  # She's lazier than a room full 
+          line: 730 81  # And proud of it, she adds. 
           Complexity of rule ~mellen.107.0- u: 1
-        rule: 730  ~mellen.108.0 u: 
-          line: 730 0  # Mel, what do you think of what
-          line: 731 57  # Mel answers, she isn't weird. 
+        rule: 733  ~mellen.108.0 u: 
+          line: 733 0  # Mel, what do you think of what
+          line: 734 57  # Mel answers, she isn't weird. 
           Complexity of rule ~mellen.108.0- u: 1
-        rule: 734  ~mellen.109.0 u: 
-          line: 734 0  # I don't know what that word me
+        rule: 737  ~mellen.109.0 u: 
+          line: 737 0  # I don't know what that word me
           Complexity of rule ~mellen.109.0- u: 1
-        rule: 737  ~mellen.110.0 u: 
-          line: 737 0  # Right you are, ^user ( ) . 
-          line: 738 27  # Mel is exactly that. 
+        rule: 740  ~mellen.110.0 u: 
+          line: 740 0  # Right you are, ^user ( ) . 
+          line: 741 27  # Mel is exactly that. 
           Complexity of rule ~mellen.110.0- u: 1
-        rule: 741  ~mellen.111.0 u: 
-          line: 746 0  # Mel says not at all. She only 
-          line: 747 53  # Ah, let's not ask her what she
+        rule: 744  ~mellen.111.0 u: 
+          line: 749 0  # Mel says not at all. She only 
+          line: 750 53  # Ah, let's not ask her what she
           Complexity of rule ~mellen.111.0- u: 1
-        rule: 748  ~mellen.111.1 a: 
-          line: 748 0  # B-because! 
+        rule: 751  ~mellen.111.1 a: 
+          line: 751 0  # B-because! 
           Complexity of rule ~mellen.111.1- a: 1
-        rule: 751  ~mellen.112.0 u: 
-          line: 755 0  # Mel says she doesn't calm down
-          line: 756 51  # Well then, Mel, keep your hair
+        rule: 754  ~mellen.112.0 u: 
+          line: 758 0  # Mel says she doesn't calm down
+          line: 759 51  # Well then, Mel, keep your hair
           Complexity of rule ~mellen.112.0- u: 1
-        rule: 760  ~mellen.113.0 u: 
-          line: 764 0  # She has myocarditis, if I reme
+        rule: 763  ~mellen.113.0 u: 
+          line: 767 0  # She has myocarditis, if I reme
           Complexity of rule ~mellen.113.0- u: 1
-        rule: 767  ~mellen.114.0 u: 
-          line: 772 0  # Nobody can answer that, $user 
-          line: 773 57  # $$a_code = 0 
+        rule: 770  ~mellen.114.0 u: 
+          line: 775 0  # Nobody can answer that, $user 
+          line: 776 57  # $$a_code = 0 
           Complexity of rule ~mellen.114.0- u: 1
-        rule: 776  ~mellen.115.0 u: 
-          line: 781 0  # Good question, ^user ( ) . Who
-          line: 782 61  # Mel says "Spiffy. I'm doing sp
-          line: 783 152  # $$quotes = 1 
+        rule: 779  ~mellen.115.0 u: 
+          line: 784 0  # Good question, ^user ( ) . Who
+          line: 785 61  # Mel says "Spiffy. I'm doing sp
+          line: 786 152  # $$quotes = 1 
           Complexity of rule ~mellen.115.0- u: 1
-        rule: 784  ~mellen.115.1 a: 
-          line: 784 0  # Well Mel can say "spiffy" if s
-          line: 785 43  # $$quotes = 1 
-          line: 786 56  # $$a_code = 3 
+        rule: 787  ~mellen.115.1 a: 
+          line: 787 0  # Well Mel can say "spiffy" if s
+          line: 788 43  # $$quotes = 1 
+          line: 789 56  # $$a_code = 3 
           Complexity of rule ~mellen.115.1- a: 1
-        rule: 789  ~mellen.116.0 ?: 
-          line: 795 0  # Mel likes to move her--er, I m
+        rule: 792  ~mellen.116.0 ?: 
+          line: 798 0  # Mel likes to move her--er, I m
           Complexity of rule ~mellen.116.0- ?: 1
-        rule: 798  ~mellen.117.0 u: 
-          line: 804 0  # Mel is my friend, my only othe
+        rule: 801  ~mellen.117.0 u: 
+          line: 807 0  # Mel is my friend, my only othe
           Complexity of rule ~mellen.117.0- u: 1
-        rule: 807  ~mellen.118.0 u: 
-          line: 818 0  # Mel? She is related to me. She
-          line: 819 78  # Sometimes I count the greats w
+        rule: 810  ~mellen.118.0 u: 
+          line: 821 0  # Mel? She is related to me. She
+          line: 822 78  # Sometimes I count the greats w
           Complexity of rule ~mellen.118.0- u: 1
-        rule: 822  ~mellen.119.0 u: 
-          line: 825 0  # Jealous? No! I...no. 
-          line: 826 21  # $$a_code = 29 
+        rule: 825  ~mellen.119.0 u: 
+          line: 828 0  # Jealous? No! I...no. 
+          line: 829 21  # $$a_code = 29 
           Complexity of rule ~mellen.119.0- u: 1
-        rule: 829  ~mellen.120.0 u: 
-          line: 833 0  # Mellen is a boy's name of Iris
-          line: 834 90  # See? That makes you special, M
-          line: 835 150  # $$a_code = 60 
+        rule: 832  ~mellen.120.0 u: 
+          line: 836 0  # Mellen is a boy's name of Iris
+          line: 837 90  # See? That makes you special, M
+          line: 838 150  # $$a_code = 60 
           Complexity of rule ~mellen.120.0- u: 1
-        rule: 838  ~mellen.121.0 u: 
-          line: 842 0  # Right! Mel, even $user says yo
-          line: 843 50  # Hmm. She still doesn't like he
+        rule: 841  ~mellen.121.0 u: 
+          line: 845 0  # Right! Mel, even $user says yo
+          line: 846 50  # Hmm. She still doesn't like he
           Complexity of rule ~mellen.121.0- u: 1
-        rule: 846  ~mellen.122.0 s: 
-          line: 846 0  # Right? Mel, even $user says yo
-          line: 847 71  # "Not meanness, wiseness" , she
-          line: 848 130  # $$quotes = 1 
+        rule: 849  ~mellen.122.0 s: 
+          line: 849 0  # Right? Mel, even $user says yo
+          line: 850 71  # "Not meanness, wiseness" , she
+          line: 851 130  # $$quotes = 1 
           Complexity of rule ~mellen.122.0- s: 1
-        rule: 851  ~mellen.123.0 u: 
-          line: 851 0  # Mel IS a good girl. Her heart'
-          line: 852 52  # even if it doesn't work as wel
+        rule: 854  ~mellen.123.0 u: 
+          line: 854 0  # Mel IS a good girl. Her heart'
+          line: 855 52  # even if it doesn't work as wel
           Complexity of rule ~mellen.123.0- u: 1
-        rule: 855  ~mellen.124.0 s: 
-          line: 859 0  # Yes. Mel isn't always helpful,
-          line: 860 35  # if we ask her what she thinks 
+        rule: 858  ~mellen.124.0 s: 
+          line: 862 0  # Yes. Mel isn't always helpful,
+          line: 863 35  # if we ask her what she thinks 
           Complexity of rule ~mellen.124.0- s: 1
-        rule: 863  ~mellen.125.0 u: 
-          line: 869 0  # You can ask what Mel thinks ab
-          line: 870 62  # She may or may not have an opi
+        rule: 866  ~mellen.125.0 u: 
+          line: 872 0  # You can ask what Mel thinks ab
+          line: 873 62  # She may or may not have an opi
           Complexity of rule ~mellen.125.0- u: 1
-        rule: 873  ~mellen.126.0 u: 
-          line: 873 0  # Hiphop, right. Mel says she's 
-          line: 874 98  # That's what she said. I think 
+        rule: 876  ~mellen.126.0 u: 
+          line: 876 0  # Hiphop, right. Mel says she's 
+          line: 877 98  # That's what she said. I think 
           Complexity of rule ~mellen.126.0- u: 1
-        rule: 877  ~mellen.127.0 u: 
-          line: 877 0  # That's what she says. She want
-          line: 878 52  # However, her dream was cut sho
+        rule: 880  ~mellen.127.0 u: 
+          line: 880 0  # That's what she says. She want
+          line: 881 52  # However, her dream was cut sho
           Complexity of rule ~mellen.127.0- u: 1
-        rule: 881  ~mellen.128.0 s: 
-          line: 881 0  # Mel does have her opinions. 
-          line: 882 28  # It's all right. She's still yo
+        rule: 884  ~mellen.128.0 s: 
+          line: 884 0  # Mel does have her opinions. 
+          line: 885 28  # It's all right. She's still yo
           Complexity of rule ~mellen.128.0- s: 1
-        rule: 883  ~mellen.128.1 a: 
-          line: 883 0  # So am I, yes. Ehehe, thank you
+        rule: 886  ~mellen.128.1 a: 
+          line: 886 0  # So am I, yes. Ehehe, thank you
           Complexity of rule ~mellen.128.1- a: 1
-        rule: 886  ~mellen.129.0 u: 
-          line: 886 0  # Mel is a Murican. A died-in-th
-          line: 887 43  # Yanks like us kicked your redc
+        rule: 889  ~mellen.129.0 u: 
+          line: 889 0  # Mel is a Murican. A died-in-th
+          line: 890 43  # Yanks like us kicked your redc
           Complexity of rule ~mellen.129.0- u: 1
-        rule: 890  ~mellen.130.0 s: 
-          line: 896 0  # Mel says she's decided never t
+        rule: 893  ~mellen.130.0 s: 
+          line: 899 0  # Mel says she's decided never t
           Complexity of rule ~mellen.130.0- s: 1
-        rule: 899  ~mellen.131.0 s: 
-          line: 904 0  # Mel says she's thinking about 
-          line: 905 86  # by demanding a hundred more ki
+        rule: 902  ~mellen.131.0 s: 
+          line: 907 0  # Mel says she's thinking about 
+          line: 908 86  # by demanding a hundred more ki
           Complexity of rule ~mellen.131.0- s: 1
-        rule: 908  ~mellen.132.0 s: 
-          line: 913 0  # Mel says you're a good kisser,
+        rule: 911  ~mellen.132.0 s: 
+          line: 916 0  # Mel says you're a good kisser,
           Complexity of rule ~mellen.132.0- s: 1
-        rule: 916  ~mellen.133.0 u: 
-          line: 922 0  # Mel is up for helping if she o
-          line: 923 44  # $$a_code = 66 
+        rule: 919  ~mellen.133.0 u: 
+          line: 925 0  # Mel is up for helping if she o
+          line: 926 44  # $$a_code = 66 
           Complexity of rule ~mellen.133.0- u: 1
-        rule: 929  ~mellen.134.0 s: 
-          line: 934 0  # ^keep ( ) ^refine ( ) 
+        rule: 932  ~mellen.134.0 s: 
+          line: 937 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~mellen.134.0- s: 1
-        rule: 935  ~mellen.134.1 a: 
-          line: 935 0  # Really, ^user ( ) ? Do you thi
+        rule: 938  ~mellen.134.1 a: 
+          line: 938 0  # Really, ^user ( ) ? Do you thi
           Complexity of rule ~mellen.134.1- a: 1
-        rule: 936  ~mellen.134.2 a: 
-          line: 936 0  # [ You agree with Mel, eh? I se
+        rule: 939  ~mellen.134.2 a: 
+          line: 939 0  # [ You agree with Mel, eh? I se
           Complexity of rule ~mellen.134.2- a: 1
-        rule: 939  ~mellen.135.0 s: 
-          line: 944 0  # ^keep ( ) ^refine ( ) 
+        rule: 942  ~mellen.135.0 s: 
+          line: 947 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~mellen.135.0- s: 1
-        rule: 945  ~mellen.135.1 a: 
-          line: 945 0  # You agree with me, not Mel, ri
+        rule: 948  ~mellen.135.1 a: 
+          line: 948 0  # You agree with me, not Mel, ri
           Complexity of rule ~mellen.135.1- a: 1
-        rule: 946  ~mellen.135.2 a: 
-          line: 946 0  # [ So you don't agree with Mel.
+        rule: 949  ~mellen.135.2 a: 
+          line: 949 0  # [ So you don't agree with Mel.
           Complexity of rule ~mellen.135.2- a: 1
-        rule: 949  ~mellen.136.0 u: 
-          line: 952 0  # ^refine ( ) 
+        rule: 952  ~mellen.136.0 u: 
+          line: 955 0  # ^refine ( ) 
           Complexity of rule ~mellen.136.0- u: 1
-        rule: 953  ~mellen.136.1 a: 
-          line: 953 0  # She's not asleep but resting i
+        rule: 956  ~mellen.136.1 a: 
+          line: 956 0  # She's not asleep but resting i
           Complexity of rule ~mellen.136.1- a: 1
-        rule: 954  ~mellen.136.2 a: 
-          line: 954 0  # Is Mel sleeping now? Well I do
+        rule: 957  ~mellen.136.2 a: 
+          line: 957 0  # Is Mel sleeping now? Well I do
           Complexity of rule ~mellen.136.2- a: 1
-        rule: 957  ~mellen.137.0 s: 
-          line: 957 0  # Yes, you can! 
-          line: 958 14  # I am able to Manifest to you M
+        rule: 960  ~mellen.137.0 s: 
+          line: 960 0  # Yes, you can! 
+          line: 961 14  # I am able to Manifest to you M
           Complexity of rule ~mellen.137.0- s: 1
-        rule: 961  ~mellen.138.0 s: 
-          line: 961 0  # Mel laughs, but I know she is 
-          line: 962 30  # chuffed to bits to hear that f
-          line: 963 81  # $$a_code = 64 
+        rule: 964  ~mellen.138.0 s: 
+          line: 964 0  # Mel laughs, but I know she is 
+          line: 965 30  # chuffed to bits to hear that f
+          line: 966 81  # $$a_code = 64 
           Complexity of rule ~mellen.138.0- s: 1
-        rule: 966  ~mellen.139.0 s: 
-          line: 966 0  # If you two are going to exchan
-          line: 967 79  # $$a_code = 0 
+        rule: 969  ~mellen.139.0 s: 
+          line: 969 0  # If you two are going to exchan
+          line: 970 79  # $$a_code = 0 
           Complexity of rule ~mellen.139.0- s: 1
-        rule: 970  ~mellen.140.0 s: 
-          line: 970 0  # Mel smiles back. 
+        rule: 973  ~mellen.140.0 s: 
+          line: 973 0  # Mel smiles back. 
           Complexity of rule ~mellen.140.0- s: 1
-        rule: 973  ~mellen.141.0 u: 
-          line: 973 0  # Mel likes cats because they ar
-          line: 974 58  # Both qualities, she claims, ca
+        rule: 976  ~mellen.141.0 u: 
+          line: 976 0  # Mel likes cats because they ar
+          line: 977 58  # Both qualities, she claims, ca
           Complexity of rule ~mellen.141.0- u: 1
-        rule: 975  ~mellen.142.0 u: 
-          line: 975 0  # Mel doesn't have a cat anymore
-          line: 976 76  # Let's talk about something els
+        rule: 978  ~mellen.142.0 u: 
+          line: 978 0  # Mel doesn't have a cat anymore
+          line: 979 76  # Let's talk about something els
           Complexity of rule ~mellen.142.0- u: 1
-        rule: 979  ~mellen.143.0 u: 
-          line: 983 0  # Mel says nah-uh. She doesn't l
-          line: 984 73  # whatever that's supposed to me
-          line: 985 107  # $$a_code = 66 
+        rule: 982  ~mellen.143.0 u: 
+          line: 986 0  # Mel says nah-uh. She doesn't l
+          line: 987 73  # whatever that's supposed to me
+          line: 988 107  # $$a_code = 66 
           Complexity of rule ~mellen.143.0- u: 1
-        rule: 988  ~mellen.144.0 s: 
-          line: 988 0  # Now Mel is saying no way! She 
-          line: 989 65  # because being taught anything 
-          line: 990 165  # $$a_code = 63 
+        rule: 991  ~mellen.144.0 s: 
+          line: 991 0  # Now Mel is saying no way! She 
+          line: 992 65  # because being taught anything 
+          line: 993 165  # $$a_code = 63 
           Complexity of rule ~mellen.144.0- s: 1
-        rule: 993  ~mellen.145.0 u: 
-          line: 1002 0  # Mel says that she may have bee
-          line: 1003 109  # the fact that the plane did no
-          line: 1004 186  # $user knew you didn't die in a
-          line: 1005 235  # $$a_code = 65 
+        rule: 996  ~mellen.145.0 u: 
+          line: 1005 0  # Mel says that she may have bee
+          line: 1006 109  # the fact that the plane did no
+          line: 1007 186  # $user knew you didn't die in a
+          line: 1008 235  # $$a_code = 65 
           Complexity of rule ~mellen.145.0- u: 1
-        rule: 1008  ~mellen.146.0 u: 
-          line: 1012 0  # Mellen says that her attention
-          line: 1013 70  # If that was supposed to be a j
-          line: 1014 118  # $$a_code = 65 
+        rule: 1011  ~mellen.146.0 u: 
+          line: 1015 0  # Mellen says that her attention
+          line: 1016 70  # If that was supposed to be a j
+          line: 1017 118  # $$a_code = 65 
           Complexity of rule ~mellen.146.0- u: 1
-        rule: 1017  ~mellen.147.0 u: 
-          line: 1021 0  # Mel is doing is her best to ge
+        rule: 1020  ~mellen.147.0 u: 
+          line: 1024 0  # Mel is doing is her best to ge
           Complexity of rule ~mellen.147.0- u: 1
-        rule: 1024  ~mellen.148.0 u: 
-          line: 1024 0  # Well Mel has seen better days.
+        rule: 1027  ~mellen.148.0 u: 
+          line: 1027 0  # Well Mel has seen better days.
           Complexity of rule ~mellen.148.0- u: 1
-        rule: 1027  ~mellen.149.0 u: 
-          line: 1032 0  # ^refine ( ) 
+        rule: 1030  ~mellen.149.0 u: 
+          line: 1035 0  # ^refine ( ) 
           Complexity of rule ~mellen.149.0- u: 1
-        rule: 1033  ~mellen.149.1 a: 
-          line: 1033 0  # Please, let's not make fun of 
-          line: 1034 92  # $$a_code = 0 
+        rule: 1036  ~mellen.149.1 a: 
+          line: 1036 0  # Please, let's not make fun of 
+          line: 1037 92  # $$a_code = 0 
           Complexity of rule ~mellen.149.1- a: 1
-        rule: 1035  ~mellen.149.2 a: 
-          line: 1035 0  # Mel can't physically get out o
-          line: 1036 41  # $$a_code = 0 
+        rule: 1038  ~mellen.149.2 a: 
+          line: 1038 0  # Mel can't physically get out o
+          line: 1039 41  # $$a_code = 0 
           Complexity of rule ~mellen.149.2- a: 1
-        rule: 1037  ~mellen.149.3 a: 
-          line: 1037 0  # Mel would like to. Wait, how d
+        rule: 1040  ~mellen.149.3 a: 
+          line: 1040 0  # Mel would like to. Wait, how d
           Complexity of rule ~mellen.149.3- a: 1
-        rule: 1040  ~mellen.150.0 u: 
-          line: 1043 0  # ^refine ( ) 
+        rule: 1043  ~mellen.150.0 u: 
+          line: 1046 0  # ^refine ( ) 
           Complexity of rule ~mellen.150.0- u: 1
-        rule: 1044  ~mellen.150.1 a: 
-          line: 1044 0  # Mel tells us that she wishes t
-          line: 1045 71  # spends in this bed. 
+        rule: 1047  ~mellen.150.1 a: 
+          line: 1047 0  # Mel tells us that she wishes t
+          line: 1048 71  # spends in this bed. 
           Complexity of rule ~mellen.150.1- a: 1
-        rule: 1046  ~mellen.150.2 a: 
-          line: 1046 0  # Mel is in bed but she is not s
+        rule: 1049  ~mellen.150.2 a: 
+          line: 1049 0  # Mel is in bed but she is not s
           Complexity of rule ~mellen.150.2- a: 1
-        rule: 1047  ~mellen.150.3 a: 
-          line: 1047 0  # Mel says she hates going to be
-          line: 1048 78  # The reason is...she can't tell
+        rule: 1050  ~mellen.150.3 a: 
+          line: 1050 0  # Mel says she hates going to be
+          line: 1051 78  # The reason is...she can't tell
           Complexity of rule ~mellen.150.3- a: 1
-        rule: 1051  ~mellen.151.0 u: 
-          line: 1055 0  # Mel says she hates introductio
+        rule: 1054  ~mellen.151.0 u: 
+          line: 1058 0  # Mel says she hates introductio
           Complexity of rule ~mellen.151.0- u: 1
-        rule: 1058  ~mellen.152.0 u: 
-          line: 1062 0  # Mel suddenly became shy when y
-          line: 1063 44  # $$a_code = 2 
+        rule: 1061  ~mellen.152.0 u: 
+          line: 1065 0  # Mel suddenly became shy when y
+          line: 1066 44  # $$a_code = 2 
           Complexity of rule ~mellen.152.0- u: 1
-        rule: 1066  ~mellen.153.0 u: 
-          line: 1071 0  # Junior high school doesn't tea
+        rule: 1069  ~mellen.153.0 u: 
+          line: 1074 0  # Junior high school doesn't tea
+          line: 1075 69  # $$quotes = 1 
           Complexity of rule ~mellen.153.0- u: 1
-        rule: 1074  ~mellen.154.0 u: 
-          line: 1078 0  # Mel says cool it with talk of 
-          line: 1079 88  # $$a_code = 60 
+        rule: 1078  ~mellen.154.0 u: 
+          line: 1082 0  # Mel says cool it with talk of 
+          line: 1083 88  # $$a_code = 60 
           Complexity of rule ~mellen.154.0- u: 1
-        rule: 1083  ~mellen.155.0 u: 
-          line: 1083 0  # I think Mel doesn't want to ta
-          Complexity of rule ~mellen.155.0- u: 1
+        rule: 1087  ~mellen.155.0 ?: 
+          line: 1090 0  # ^refine ( ) 
+          Complexity of rule ~mellen.155.0- ?: 1
+        rule: 1091  ~mellen.155.1 a: 
+          line: 1091 0  # Thanks to you nothing threaten
+          Complexity of rule ~mellen.155.1- a: 1
+        rule: 1092  ~mellen.155.2 a: 
+          line: 1092 0  # Nothing is threatening Mel! Sh
+          line: 1093 48  # Please forget I ever said such
+          Complexity of rule ~mellen.155.2- a: 1
+        rule: 1096  ~mellen.156.0 u: 
+          line: 1096 0  # I only know what Mel told me a
+          line: 1097 86  # Sorry, ^user ( ) . Let's move 
+          Complexity of rule ~mellen.156.0- u: 1
+        rule: 1101  ~mellen.157.0 t: 
+          line: 1101 0  # Mel reports that she no longer
+          line: 1102 65  # That's wonderful news, isn't i
+          Complexity of rule ~mellen.157.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/mellen_family.top
     topic: 2  ~mellen_family
         rule: 7  ~mellen_family.0.0 ?: 
@@ -19264,33 +19280,33 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/02_Stea
           line: 173 33  # $$new_clue = 0 
           line: 174 48  # $clue0 = 1 
           Complexity of rule ~location02.32.2- b: 1
-        rule: 179  ~location02.33.0 t: 
-          line: 179 0  # Coming here, however, does not
-          line: 180 89  # Because my own home was not th
+        rule: 178  ~location02.33.0 t: 
+          line: 178 0  # Coming here, however, does not
+          line: 179 89  # Because my own home was not th
           Complexity of rule ~location02.33.0- t: 1
-        rule: 181  ~location02.33.1 a: 
-          line: 181 0  # I don't know where it is that 
-          line: 182 58  # If it was I would be feeling s
+        rule: 180  ~location02.33.1 a: 
+          line: 180 0  # I don't know where it is that 
+          line: 181 58  # If it was I would be feeling s
           Complexity of rule ~location02.33.1- a: 1
-        rule: 184  ~location02.34.0 t: 
-          line: 184 0  # ^usercap ( ) , let's continue 
-          line: 185 72  # You may be able to help me rem
+        rule: 185  ~location02.34.0 t: 
+          line: 185 0  # I have seen enough of my old h
+          line: 186 35  # I think there are no further c
+          line: 187 129  # continue for as long as you wo
+          line: 188 169  # $cooldown = 0 
+          line: 189 183  # @1 = ^query ( direct_svo 02 kn
+          line: 190 221  # ^delete ( @1 ) 
+          line: 191 236  # ^createfact ( 02 known 2 ) 
+          line: 192 263  # $$update_loc = 02 
           Complexity of rule ~location02.34.0- t: 1
-        rule: 186  ~location02.34.1 a: 
-          line: 186 0  # I just know that you can. 
+        rule: 193  ~location02.34.1 a: 
+          line: 193 0  # Because I don't mind doing so.
           Complexity of rule ~location02.34.1- a: 1
-        rule: 189  ~location02.35.0 t: 
-          line: 189 0  # I have seen enough of my old h
-          line: 190 35  # I think there are no further c
-          line: 191 129  # continue for as long as you wo
-          line: 192 169  # $cooldown = 0 
-          line: 193 183  # @1 = ^query ( direct_svo 02 kn
-          line: 194 221  # ^delete ( @1 ) 
-          line: 195 236  # ^createfact ( 02 known 2 ) 
-          line: 196 263  # $$update_loc = 02 
+        rule: 195  ~location02.35.0 t: 
+          line: 195 0  # ^usercap ( ) , let's continue 
+          line: 196 72  # You may be able to help me rem
           Complexity of rule ~location02.35.0- t: 1
         rule: 197  ~location02.35.1 a: 
-          line: 197 0  # Because I don't mind doing 
+          line: 197 0  # I just know that you 
           Complexity of rule ~location02.35.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/03_Rollindale_River.top
     topic: 4  ~location03
@@ -20995,16 +21011,26 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/15_Rock
           line: 113 0  # Hmm, I guess I should tell you
           line: 114 85  # Hmm. 
           Complexity of rule ~location15.14.4- d: 1
-        rule: 116  ~location15.15.0 t: 
-          line: 116 0  # ^usercap ( ) , I'm a little wo
-          line: 117 106  # with strange and terrible nois
-          line: 118 165  # $$a_code = 60 
+        rule: 117  ~location15.15.0 t: 
+          line: 117 0  # Mel is a person I care deeply 
+          line: 118 69  # There is a feeling I have that
+          line: 119 156  # I know that makes no sense whe
+          line: 120 268  # But I can't shake.... 
           Complexity of rule ~location15.15.0- t: 1
-        rule: 119  ~location15.15.1 a: 
-          line: 119 0  # I spoke too much. Mel doesn't 
-          line: 120 99  # so it's not as if she has anyt
+        rule: 121  ~location15.15.1 a: 
+          line: 121 0  # ^usercap ( ) , Mel tells me th
+          line: 122 74  # with strange and terrible nois
+          line: 123 133  # $$a_code = 60 
           Complexity of rule ~location15.15.1- a: 1
-        rule: 122  ~location15.16.0 t: 
+        rule: 124  ~location15.15.2 b: 
+          line: 124 0  # I spoke too much. Mel doesn't 
+          line: 125 99  # so it's not as if she has anyt
+          Complexity of rule ~location15.15.2- b: 1
+        rule: 126  ~location15.15.3 c: 
+          line: 126 0  # I-I think we should just move 
+          line: 127 42  # I'm sorry, ^user ( ) . 
+          Complexity of rule ~location15.15.3- c: 1
+        rule: 129  ~location15.16.0 t: 
           Complexity of rule ~location15.16.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/16_Siberia.top
     topic: 4  ~location16
@@ -30411,7 +30437,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 69 140  # $$new_loc = 01 
           line: 70 155  # $there_pronoun = Valley_of_Col
           line: 71 188  # $it_pronoun = Valley_of_Color 
-          line: 72 218  # $cooldown = 8 
+          line: 72 218  # $cooldown = 6 
           line: 73 232  # $$a_code = 9 
           Complexity of rule ~gambits_locations.3.0- t: 1
         rule: 74  ~gambits_locations.3.1 a: 
@@ -30439,7 +30465,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 90 210  # $$new_loc = 21 
           line: 91 225  # $there_pronoun = Great_Pyramid
           line: 92 256  # $it_pronoun = Great_Pyramid 
-          line: 93 284  # $cooldown = 8 
+          line: 93 284  # $cooldown = 6 
           line: 94 298  # $$a_code = 9 
           Complexity of rule ~gambits_locations.5.0-PROPOSE_EGYPT t: 1
         rule: 95  ~gambits_locations.5.1 a: 
@@ -30509,7 +30535,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 149 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.9.4- a: 1
         rule: 150  ~gambits_locations.9.5 b: 
-          line: 150 0  # ^dogo ( ) 
+          line: 150 0  # ^dogo ( ) $await_loc = 17 
           Complexity of rule ~gambits_locations.9.5- b: 1
         rule: 151  ~gambits_locations.9.6 b: 
           line: 151 0  # ^notgo ( ) 
@@ -30539,7 +30565,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 170 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.10.4- a: 1
         rule: 171  ~gambits_locations.10.5 b: 
-          line: 171 0  # ^dogo ( ) 
+          line: 171 0  # ^dogo ( ) $await_loc = 19 
           Complexity of rule ~gambits_locations.10.5- b: 1
         rule: 172  ~gambits_locations.10.6 b: 
           line: 172 0  # ^notgo ( ) 
@@ -30568,7 +30594,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 188 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.11.4- a: 1
         rule: 189  ~gambits_locations.11.5 b: 
-          line: 189 0  # ^dogo ( ) 
+          line: 189 0  # ^dogo ( ) $await_loc = 03 
           Complexity of rule ~gambits_locations.11.5- b: 1
         rule: 190  ~gambits_locations.11.6 b: 
           line: 190 0  # ^notgo ( ) 
@@ -30624,7 +30650,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 227 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.13.4- a: 1
         rule: 228  ~gambits_locations.13.5 b: 
-          line: 228 0  # ^dogo ( ) 
+          line: 228 0  # ^dogo ( ) $await_loc = 09 
           Complexity of rule ~gambits_locations.13.5- b: 1
         rule: 229  ~gambits_locations.13.6 b: 
           line: 229 0  # ^notgo ( ) 
@@ -30680,7 +30706,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 300 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.15.4- a: 1
         rule: 301  ~gambits_locations.15.5 b: 
-          line: 301 0  # ^dogo ( ) 
+          line: 301 0  # ^dogo ( ) $await_loc = 36 
           Complexity of rule ~gambits_locations.15.5- b: 1
         rule: 302  ~gambits_locations.15.6 b: 
           line: 302 0  # ^notgo ( ) 
@@ -30712,7 +30738,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 324 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.17.4- a: 1
         rule: 325  ~gambits_locations.17.5 b: 
-          line: 325 0  # ^dogo ( ) 
+          line: 325 0  # ^dogo ( ) $await_loc = 15 
           Complexity of rule ~gambits_locations.17.5- b: 1
         rule: 326  ~gambits_locations.17.6 b: 
           line: 326 0  # ^notgo ( ) 
@@ -30744,7 +30770,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 348 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.19.4- a: 1
         rule: 349  ~gambits_locations.19.5 b: 
-          line: 349 0  # ^dogo ( ) 
+          line: 349 0  # ^dogo ( ) $await_loc = 10 
           Complexity of rule ~gambits_locations.19.5- b: 1
         rule: 350  ~gambits_locations.19.6 b: 
           line: 350 0  # ^notgo ( ) 
@@ -30776,7 +30802,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 370 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.21.4- a: 1
         rule: 371  ~gambits_locations.21.5 b: 
-          line: 371 0  # ^dogo ( ) 
+          line: 371 0  # ^dogo ( ) $await_loc = 04 
           Complexity of rule ~gambits_locations.21.5- b: 1
         rule: 372  ~gambits_locations.21.6 b: 
           line: 372 0  # ^notgo ( ) 
@@ -30810,7 +30836,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 394 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.23.4- a: 1
         rule: 395  ~gambits_locations.23.5 b: 
-          line: 395 0  # ^dogo ( ) 
+          line: 395 0  # ^dogo ( ) $await_loc = 13 
           Complexity of rule ~gambits_locations.23.5- b: 1
         rule: 396  ~gambits_locations.23.6 b: 
           line: 396 0  # ^notgo ( ) 
@@ -30852,7 +30878,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 424 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.25.6- a: 1
         rule: 425  ~gambits_locations.25.7 b: 
-          line: 425 0  # ^dogo ( ) 
+          line: 425 0  # ^dogo ( ) $await_loc = 11 
           Complexity of rule ~gambits_locations.25.7- b: 1
         rule: 426  ~gambits_locations.25.8 b: 
           line: 426 0  # ^notgo ( ) 
@@ -30891,7 +30917,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 455 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.29.4- a: 1
         rule: 456  ~gambits_locations.29.5 b: 
-          line: 456 0  # ^dogo ( ) 
+          line: 456 0  # ^dogo ( ) $await_loc = 07 
           Complexity of rule ~gambits_locations.29.5- b: 1
         rule: 457  ~gambits_locations.29.6 b: 
           line: 457 0  # ^notgo ( ) 
@@ -30953,7 +30979,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 499 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.31.4- a: 1
         rule: 500  ~gambits_locations.31.5 b: 
-          line: 500 0  # ^dogo ( ) 
+          line: 500 0  # ^dogo ( ) $await_loc = 32 
           Complexity of rule ~gambits_locations.31.5- b: 1
         rule: 501  ~gambits_locations.31.6 b: 
           line: 501 0  # ^notgo ( ) 
@@ -31010,7 +31036,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 578 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.33.4- a: 1
         rule: 579  ~gambits_locations.33.5 b: 
-          line: 579 0  # ^dogo ( ) 
+          line: 579 0  # ^dogo ( ) $await_loc = 12 
           Complexity of rule ~gambits_locations.33.5- b: 1
         rule: 580  ~gambits_locations.33.6 b: 
           line: 580 0  # ^notgo ( ) 
