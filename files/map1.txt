@@ -3067,8 +3067,15 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/mani
           Complexity of rule ~manifest.23.0- t: 2
         rule: 138  ~manifest.24.0 t: 
           line: 138 0  # Manifesting is, in a nutshell,
-          line: 139 83  # $$a_code = 
+          line: 139 83  # Up until now, at least. 
+          line: 140 107  # $$a_code = 3 
           Complexity of rule ~manifest.24.0- t: 1
+        rule: 141  ~manifest.24.1 a: 
+          line: 141 0  # I fear that I may be losing th
+          Complexity of rule ~manifest.24.1- a: 1
+        rule: 142  ~manifest.24.2 b: 
+          line: 142 0  # But we don't have to talk abou
+          Complexity of rule ~manifest.24.2- b: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/medium.top
     topic: 3  ~medium
         rule: 9  ~medium.0.0 ?: 
@@ -25326,25 +25333,24 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/45_East
           line: 107 0  # Am I wrong? Anyway. ^gambit ( 
           Complexity of rule ~location45.18.1- a: 1
         rule: 109  ~location45.19.0 t: 
-          line: 109 0  # As unpleasant as fingernails o
-          line: 110 80  # certain sounds I've heard in m
+          line: 109 0  # Mel says that if you thought F
+          line: 110 77  # they release their next single
+          line: 111 131  # $$a_code = 65 
           Complexity of rule ~location45.19.0- t: 1
-        rule: 111  ~location45.19.1 a: 
-          line: 111 0  # I somehow recall having heard 
+        rule: 112  ~location45.19.1 a: 
+          line: 112 0  # It was a joke, I think. 
           Complexity of rule ~location45.19.1- a: 1
-        rule: 112  ~location45.19.2 b: 
-          line: 112 0  # I can't seem to remember where
-          line: 113 57  # $$a_code = 3 
-          Complexity of rule ~location45.19.2- b: 1
-        rule: 115  ~location45.20.0 t: 
-          line: 115 0  # Mel says that if you thought F
-          line: 116 77  # they release their next single
-          line: 117 131  # $$a_code = 65 
+        rule: 114  ~location45.20.0 t: 
+          line: 114 0  # As unpleasant as fingernails o
+          line: 115 80  # certain sounds I've heard in m
           Complexity of rule ~location45.20.0- t: 1
-        rule: 118  ~location45.20.1 a: 
-          line: 118 0  # It was a joke, I think. 
+        rule: 116  ~location45.20.1 a: 
+          line: 116 0  # No, wait. That's Mel who heard
+          line: 117 73  # I thought for a moment that I 
+          line: 118 163  # But since I can't seem to plac
+          line: 119 217  # $$a_code = 3 
           Complexity of rule ~location45.20.1- a: 1
-        rule: 121  ~location45.21.0 t: 
+        rule: 126  ~location45.21.0 t: 
           Complexity of rule ~location45.21.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/46_Christmas_Parlour.top
     topic: 4  ~location46
@@ -29049,7 +29055,13 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
         rule: 319  ~keywordless_you.66.0 u: 
           line: 324 0  # I may have had my heart broken
           line: 325 71  # I don't ever think of him now.
+          line: 326 102  # ^addtopic ( ~fishing_boy ) 
           Complexity of rule ~keywordless_you.66.0- u: 1
+        rule: 329  ~keywordless_you.67.0 u: 
+          line: 329 0  # I almost feel as if I've heard
+          line: 330 76  # Just thinking about it gives m
+          line: 331 160  # But it's not a memory I'm able
+          Complexity of rule ~keywordless_you.67.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions.top
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_are.top
     topic: 4  ~questions_are
