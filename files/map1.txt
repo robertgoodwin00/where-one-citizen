@@ -19182,179 +19182,173 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/02_Stea
         rule: 95  ~location02.15.0 t: 
           line: 95 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~location02.15.0- t: 1
-        rule: 97  ~location02.16.0 t: 
-          line: 97 0  # Steadwell Manse. It's the plac
+        rule: 102  ~location02.16.0 t: 
+          line: 102 0  # Steadwell Manse. I've forgotte
+          line: 103 97  # even if time has. As you can s
           Complexity of rule ~location02.16.0- t: 1
-        rule: 98  ~location02.16.1 a: 
-          line: 98 0  # Because I lived here. ^gambit 
+        rule: 104  ~location02.16.1 a: 
+          line: 104 0  # Hmm, that's a good question. F
           Complexity of rule ~location02.16.1- a: 1
-        rule: 100  ~location02.17.0 t: 
-          line: 100 0  # I've forgotten so much about m
-          line: 101 83  # even if time has. As you can s
+        rule: 105  ~location02.16.2 a: 
+          line: 105 0  # Yes you can. ^gambit ( ~locati
+          Complexity of rule ~location02.16.2- a: 1
+        rule: 107  ~location02.17.0 t: 
+          line: 107 0  # This is the best-preserved are
+          line: 108 89  # along with whichever room was 
+          line: 109 130  # How many years would you say i
           Complexity of rule ~location02.17.0- t: 1
-        rule: 102  ~location02.17.1 a: 
-          line: 102 0  # Hmm, that's a good question. F
+        rule: 110  ~location02.17.1 a: 
+          line: 110 0  # ^refine ( ) 
           Complexity of rule ~location02.17.1- a: 1
-        rule: 103  ~location02.17.2 a: 
-          line: 103 0  # Yes you can. ^gambit ( ~locati
-          Complexity of rule ~location02.17.2- a: 1
-        rule: 105  ~location02.18.0 t: 
-          line: 105 0  # This is the best-preserved are
-          line: 106 89  # and whichever room was once mi
-          line: 107 131  # How many years would you say i
+        rule: 111  ~location02.17.2 b: 
+          line: 111 0  # That few? It's possible, I sup
+          Complexity of rule ~location02.17.2- b: 1
+        rule: 112  ~location02.17.3 b: 
+          line: 112 0  # '_0 ? Hmm, could be. I mean, s
+          line: 113 67  # That means they need to drop b
+          Complexity of rule ~location02.17.3- b: 1
+        rule: 114  ~location02.17.4 b: 
+          line: 114 0  # '_0 ? That's what I also think
+          Complexity of rule ~location02.17.4- b: 1
+        rule: 115  ~location02.17.5 b: 
+          line: 115 0  # So several decades? If so that
+          Complexity of rule ~location02.17.5- b: 1
+        rule: 116  ~location02.17.6 b: 
+          line: 116 0  # That long? Do you think so? It
+          Complexity of rule ~location02.17.6- b: 1
+        rule: 117  ~location02.17.7 b: 
+          line: 117 0  # Indeed it depends. Neither of 
+          Complexity of rule ~location02.17.7- b: 1
+        rule: 118  ~location02.17.8 b: 
+          line: 118 0  # Um ^user ( ) , MY family was l
+          Complexity of rule ~location02.17.8- b: 1
+        rule: 119  ~location02.17.9 a: 
+          line: 119 0  # That's okay. Neither of us kno
+          Complexity of rule ~location02.17.9- a: 1
+        rule: 124  ~location02.18.0 t: 
+          line: 124 0  # ^usercap ( ) , there is someth
+          line: 125 63  # Maybe you guessed it already..
           Complexity of rule ~location02.18.0- t: 1
-        rule: 108  ~location02.18.1 a: 
-          line: 108 0  # ^refine ( ) 
+        rule: 126  ~location02.18.1 a: 
+          line: 126 0  # Can you not guess? Is there no
           Complexity of rule ~location02.18.1- a: 1
-        rule: 109  ~location02.18.2 b: 
-          line: 109 0  # That few? It's possible, I sup
+        rule: 127  ~location02.18.2 b: 
+          line: 127 0  # Well I'm glad you think so. 
           Complexity of rule ~location02.18.2- b: 1
-        rule: 110  ~location02.18.3 b: 
-          line: 110 0  # '_0 ? Hmm, could be. I mean, s
-          line: 111 67  # That means they need to drop b
-          Complexity of rule ~location02.18.3- b: 1
-        rule: 112  ~location02.18.4 b: 
-          line: 112 0  # '_0 ? That's what I also think
-          Complexity of rule ~location02.18.4- b: 1
-        rule: 113  ~location02.18.5 b: 
-          line: 113 0  # So several decades? If so that
-          Complexity of rule ~location02.18.5- b: 1
-        rule: 114  ~location02.18.6 b: 
-          line: 114 0  # That long? Do you think so? It
-          Complexity of rule ~location02.18.6- b: 1
-        rule: 115  ~location02.18.7 b: 
-          line: 115 0  # Indeed it depends. Neither of 
-          Complexity of rule ~location02.18.7- b: 1
-        rule: 116  ~location02.18.8 b: 
-          line: 116 0  # Um ^user ( ) , MY family was l
-          Complexity of rule ~location02.18.8- b: 1
-        rule: 117  ~location02.18.9 a: 
-          line: 117 0  # That's okay. Neither of us kno
-          Complexity of rule ~location02.18.9- a: 1
-        rule: 122  ~location02.19.0 t: 
-          line: 122 0  # ^usercap ( ) , there is someth
-          line: 123 63  # Maybe you guessed it already..
+        rule: 129  ~location02.19.0 t: 
+          line: 129 0  # I don't seem a bit...ephemeral
           Complexity of rule ~location02.19.0- t: 1
-        rule: 124  ~location02.19.1 a: 
-          line: 124 0  # Can you not guess? Is there no
+        rule: 130  ~location02.19.1 a: 
+          line: 130 0  # I would have thought you would
           Complexity of rule ~location02.19.1- a: 1
-        rule: 125  ~location02.19.2 b: 
-          line: 125 0  # Well I'm glad you think so. 
-          Complexity of rule ~location02.19.2- b: 1
-        rule: 127  ~location02.20.0 t: 
-          line: 127 0  # I don't seem a bit...ephemeral
+        rule: 132  ~location02.20.0 t: 
+          line: 132 0  # Steadwell Manse...I don't live
+          line: 133 94  # You should know the reason why
           Complexity of rule ~location02.20.0- t: 1
-        rule: 128  ~location02.20.1 a: 
-          line: 128 0  # I would have thought you would
+        rule: 134  ~location02.20.1 a: 
+          line: 134 0  # Try to guess it! 
           Complexity of rule ~location02.20.1- a: 1
-        rule: 130  ~location02.21.0 t: 
-          line: 130 0  # Steadwell Manse...I don't live
-          line: 131 94  # You should know the reason why
+        rule: 136  ~location02.21.0 t: 
+          line: 136 0  # You don't know? Do I seem like
           Complexity of rule ~location02.21.0- t: 1
-        rule: 132  ~location02.21.1 a: 
-          line: 132 0  # Try to guess it! 
+        rule: 137  ~location02.21.1 a: 
+          line: 137 0  # I think you must know why. You
           Complexity of rule ~location02.21.1- a: 1
-        rule: 134  ~location02.22.0 t: 
-          line: 134 0  # You don't know? Do I seem like
+        rule: 138  ~location02.21.2 a: 
+          line: 138 0  # Really? Do I seem like a livin
+          Complexity of rule ~location02.21.2- a: 1
+        rule: 139  ~location02.21.3 b: 
+          line: 139 0  # But I shouldn't. 
+          Complexity of rule ~location02.21.3- b: 1
+        rule: 140  ~location02.21.4 b: 
+          line: 140 0  # Then what am I? You can say it
+          Complexity of rule ~location02.21.4- b: 1
+        rule: 142  ~location02.22.0 t: 
+          line: 142 0  # Do I seem like I'm still...liv
           Complexity of rule ~location02.22.0- t: 1
-        rule: 135  ~location02.22.1 a: 
-          line: 135 0  # I think you must know why. You
+        rule: 143  ~location02.22.1 a: 
+          line: 143 0  # Do I, ^user ( ) ? Are you jest
           Complexity of rule ~location02.22.1- a: 1
-        rule: 136  ~location02.22.2 a: 
-          line: 136 0  # Really? Do I seem like a livin
+        rule: 144  ~location02.22.2 a: 
+          line: 144 0  # You do realize it then. That m
+          line: 145 62  # $ghost_k = 1 
           Complexity of rule ~location02.22.2- a: 1
-        rule: 137  ~location02.22.3 b: 
-          line: 137 0  # But I shouldn't. 
-          Complexity of rule ~location02.22.3- b: 1
-        rule: 138  ~location02.22.4 b: 
-          line: 138 0  # Then what am I? You can say it
-          Complexity of rule ~location02.22.4- b: 1
-        rule: 140  ~location02.23.0 t: 
-          line: 140 0  # Do I seem like I'm still...liv
+        rule: 146  ~location02.22.3 a: 
+          line: 146 0  # You really still don't know? Y
+          Complexity of rule ~location02.22.3- a: 1
+        rule: 148  ~location02.23.0 t: 
+          line: 148 0  # Go ahead and say what you're t
+          line: 149 67  # $$a_code = 0 
           Complexity of rule ~location02.23.0- t: 1
-        rule: 141  ~location02.23.1 a: 
-          line: 141 0  # Do I, ^user ( ) ? Are you jest
-          Complexity of rule ~location02.23.1- a: 1
-        rule: 142  ~location02.23.2 a: 
-          line: 142 0  # You do realize it then. That m
-          line: 143 62  # $ghost_k = 1 
-          Complexity of rule ~location02.23.2- a: 1
-        rule: 144  ~location02.23.3 a: 
-          line: 144 0  # You really still don't know? Y
-          Complexity of rule ~location02.23.3- a: 1
-        rule: 146  ~location02.24.0 t: 
-          line: 146 0  # Go ahead and say what you're t
-          line: 147 67  # $$a_code = 0 
+        rule: 151  ~location02.24.0 t: 
+          line: 151 0  # What sort of girl am I who doe
           Complexity of rule ~location02.24.0- t: 1
-        rule: 149  ~location02.25.0 t: 
-          line: 149 0  # What sort of girl am I who doe
+        rule: 153  ~location02.25.0 t: 
+          line: 153 0  # You can say it outright. 
           Complexity of rule ~location02.25.0- t: 1
-        rule: 151  ~location02.26.0 t: 
-          line: 151 0  # You can say it outright. 
+        rule: 155  ~location02.26.0 t: 
+          line: 155 0  # ^user ( ) , we need to get thi
           Complexity of rule ~location02.26.0- t: 1
-        rule: 153  ~location02.27.0 t: 
-          line: 153 0  # ^user ( ) , we need to get thi
+        rule: 157  ~location02.27.0 t: 
+          line: 157 0  # Before I show you other places
           Complexity of rule ~location02.27.0- t: 1
-        rule: 155  ~location02.28.0 t: 
-          line: 155 0  # Before I show you other places
+        rule: 159  ~location02.28.0 t: 
+          line: 159 0  # Please say the reason, ^user (
           Complexity of rule ~location02.28.0- t: 1
-        rule: 157  ~location02.29.0 t: 
-          line: 157 0  # Please say the reason, ^user (
+        rule: 161  ~location02.29.0 t: 
+          line: 161 0  # Please, ^user ( ) . I...I won'
           Complexity of rule ~location02.29.0- t: 1
-        rule: 159  ~location02.30.0 t: 
-          line: 159 0  # Please, ^user ( ) . I...I won'
+        rule: 165  ~location02.30.0 t: 
+          line: 165 0  # I thought I would live here my
+          line: 166 70  # If I...if I didn't marry, then
           Complexity of rule ~location02.30.0- t: 1
-        rule: 163  ~location02.31.0 t: 
-          line: 163 0  # I thought I would live here my
-          line: 164 70  # If I...if I didn't marry, then
+        rule: 167  ~location02.30.1 a: 
+          line: 167 0  # Because, um...anyway. 
+          Complexity of rule ~location02.30.1- a: 1
+        rule: 168  ~location02.30.2 a: 
+          line: 168 0  # It was, you know, normal then 
+          Complexity of rule ~location02.30.2- a: 1
+        rule: 170  ~location02.31.0 t: 
+          line: 170 0  # But after 1891 even my brother
+          line: 171 93  # I remember something. 
           Complexity of rule ~location02.31.0- t: 1
-        rule: 165  ~location02.31.1 a: 
-          line: 165 0  # Because, um...anyway. 
+        rule: 172  ~location02.31.1 a: 
+          line: 172 0  # 1891 was not an ordinary year.
+          line: 173 85  # $$t_code = 3 
           Complexity of rule ~location02.31.1- a: 1
-        rule: 166  ~location02.31.2 a: 
-          line: 166 0  # It was, you know, normal then 
-          Complexity of rule ~location02.31.2- a: 1
-        rule: 168  ~location02.32.0 t: 
-          line: 168 0  # But after 1891 even my brother
-          line: 169 93  # I remember something. 
+        rule: 174  ~location02.31.2 b: 
+          line: 174 0  # Help me make sense of this clu
+          line: 175 33  # $$new_clue = 0 
+          line: 176 48  # $clue0 = 1 
+          Complexity of rule ~location02.31.2- b: 1
+        rule: 180  ~location02.32.0 t: 
+          line: 180 0  # Coming here, however, does not
+          line: 181 89  # Because my own home was not th
           Complexity of rule ~location02.32.0- t: 1
-        rule: 170  ~location02.32.1 a: 
-          line: 170 0  # 1891 was not an ordinary year.
-          line: 171 85  # $$t_code = 3 
+        rule: 182  ~location02.32.1 a: 
+          line: 182 0  # I don't know where it is that 
+          line: 183 58  # If it was I would be feeling s
           Complexity of rule ~location02.32.1- a: 1
-        rule: 172  ~location02.32.2 b: 
-          line: 172 0  # Help me make sense of this clu
-          line: 173 33  # $$new_clue = 0 
-          line: 174 48  # $clue0 = 1 
-          Complexity of rule ~location02.32.2- b: 1
-        rule: 178  ~location02.33.0 t: 
-          line: 178 0  # Coming here, however, does not
-          line: 179 89  # Because my own home was not th
+        rule: 187  ~location02.33.0 t: 
+          line: 187 0  # I have seen enough of my old h
+          line: 188 35  # I think there are no further c
+          line: 189 129  # continue for as long as you wo
+          line: 190 169  # $cooldown = 0 
+          line: 191 183  # @1 = ^query ( direct_svo 02 kn
+          line: 192 221  # ^delete ( @1 ) 
+          line: 193 236  # ^createfact ( 02 known 2 ) 
+          line: 194 263  # $$update_loc = 02 
           Complexity of rule ~location02.33.0- t: 1
-        rule: 180  ~location02.33.1 a: 
-          line: 180 0  # I don't know where it is that 
-          line: 181 58  # If it was I would be feeling s
+        rule: 195  ~location02.33.1 a: 
+          line: 195 0  # Because I don't mind doing so.
           Complexity of rule ~location02.33.1- a: 1
-        rule: 185  ~location02.34.0 t: 
-          line: 185 0  # I have seen enough of my old h
-          line: 186 35  # I think there are no further c
-          line: 187 129  # continue for as long as you wo
-          line: 188 169  # $cooldown = 0 
-          line: 189 183  # @1 = ^query ( direct_svo 02 kn
-          line: 190 221  # ^delete ( @1 ) 
-          line: 191 236  # ^createfact ( 02 known 2 ) 
-          line: 192 263  # $$update_loc = 02 
+        rule: 197  ~location02.34.0 t: 
+          line: 197 0  # ^usercap ( ) , let's continue 
+          line: 198 72  # You may be able to help me rem
           Complexity of rule ~location02.34.0- t: 1
-        rule: 193  ~location02.34.1 a: 
-          line: 193 0  # Because I don't mind doing so.
+        rule: 199  ~location02.34.1 a: 
+          line: 199 0  # I just know that you 
           Complexity of rule ~location02.34.1- a: 1
-        rule: 195  ~location02.35.0 t: 
-          line: 195 0  # ^usercap ( ) , let's continue 
-          line: 196 72  # You may be able to help me rem
-          Complexity of rule ~location02.35.0- t: 1
-        rule: 197  ~location02.35.1 a: 
-          line: 197 0  # I just know that you 
-          Complexity of rule ~location02.35.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/03_Rollindale_River.top
     topic: 4  ~location03
         rule: 13  ~location03.0.0 ?: 
@@ -19789,78 +19783,73 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/06_Phon
         rule: 64  ~location06.10.0 t: 
           line: 64 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location06.10.0- t: 1
-        rule: 66  ~location06.11.0 t: 
-          line: 66 0  # This is one of the caves in th
+        rule: 71  ~location06.11.0 t: 
+          line: 71 0  # There are over a hundred kilom
+          line: 72 50  # Even today, not all have been 
           Complexity of rule ~location06.11.0- t: 1
-        rule: 67  ~location06.11.1 a: 
-          line: 67 0  # It's famous! ^gambit ( ~locati
+        rule: 73  ~location06.11.1 a: 
+          line: 73 0  # It's a complicated cave system
           Complexity of rule ~location06.11.1- a: 1
-        rule: 69  ~location06.12.0 t: 
-          line: 69 0  # There are over a hundred kilom
-          line: 70 61  # Even today, not all have been 
+        rule: 75  ~location06.12.0 t: 
+          line: 75 0  # This is one of many caves in t
+          line: 76 60  # There are over 300 caves, and 
+          line: 77 144  # Do you know its name? 
           Complexity of rule ~location06.12.0- t: 1
-        rule: 71  ~location06.12.1 a: 
-          line: 71 0  # It's a complicated cave system
+        rule: 78  ~location06.12.1 a: 
+          line: 78 0  # Okay. ^gambit ( ~location06 ) 
           Complexity of rule ~location06.12.1- a: 1
-        rule: 73  ~location06.13.0 t: 
-          line: 73 0  # There are over 300 caves in th
-          line: 74 117  # Do you know its name? 
+        rule: 79  ~location06.12.2 a: 
+          line: 79 0  # Amazing, ^user ( ) ! You got i
+          line: 80 33  # $$r = 3 
+          line: 81 41  # ^gambit ( ~location06 ) 
+          Complexity of rule ~location06.12.2- a: 1
+        rule: 82  ~location06.12.3 a: 
+          line: 82 0  # ^gambit ( ~location06 ) 
+          Complexity of rule ~location06.12.3- a: 1
+        rule: 84  ~location06.13.0 t: 
+          line: 84 0  # It is the Son Doong cave. A tr
+          line: 85 86  # And it wasn't even discovered 
           Complexity of rule ~location06.13.0- t: 1
-        rule: 75  ~location06.13.1 a: 
-          line: 75 0  # Okay. ^gambit ( ~location06 ) 
+        rule: 86  ~location06.13.1 a: 
+          line: 86 0  # You can't underestimate how va
           Complexity of rule ~location06.13.1- a: 1
-        rule: 76  ~location06.13.2 a: 
-          line: 76 0  # Amazing, ^user ( ) ! You got i
-          line: 77 33  # $$r = 3 
-          line: 78 41  # ^gambit ( ~location06 ) 
-          Complexity of rule ~location06.13.2- a: 1
-        rule: 79  ~location06.13.3 a: 
-          line: 79 0  # ^gambit ( ~location06 ) 
-          Complexity of rule ~location06.13.3- a: 1
-        rule: 81  ~location06.14.0 t: 
-          line: 81 0  # It is the Son Doong cave. A tr
-          line: 82 86  # And it wasn't even discovered 
+        rule: 88  ~location06.14.0 t: 
+          line: 88 0  # A cave is a nice place to hide
+          line: 89 92  # I wish I could have hidden mys
           Complexity of rule ~location06.14.0- t: 1
-        rule: 83  ~location06.14.1 a: 
-          line: 83 0  # You can't underestimate how va
+        rule: 90  ~location06.14.1 a: 
+          line: 90 0  # Because had I done that, I mig
           Complexity of rule ~location06.14.1- a: 1
-        rule: 85  ~location06.15.0 t: 
-          line: 85 0  # A cave is a nice place to hide
-          line: 86 92  # I wish I could have hidden mys
+        rule: 91  ~location06.14.2 a: 
+          line: 91 0  # The day I went up to London to
+          Complexity of rule ~location06.14.2- a: 1
+        rule: 93  ~location06.15.0 t: 
+          line: 93 0  # ^usercap ( ) , have you ever w
+          line: 94 142  # But you're never serious about
+          line: 95 257  # head as you go over possible w
           Complexity of rule ~location06.15.0- t: 1
-        rule: 87  ~location06.15.1 a: 
-          line: 87 0  # Because had I done that, I mig
+        rule: 96  ~location06.15.1 a: 
+          line: 96 0  # Really? I'm frankly gobsmacked
           Complexity of rule ~location06.15.1- a: 1
-        rule: 88  ~location06.15.2 a: 
-          line: 88 0  # The day I went up to London to
+        rule: 97  ~location06.15.2 a: 
+          line: 97 0  # For instance, a student may fe
           Complexity of rule ~location06.15.2- a: 1
-        rule: 90  ~location06.16.0 t: 
-          line: 90 0  # ^usercap ( ) , have you ever w
-          line: 91 142  # But you're never serious about
-          line: 92 257  # head as you go over possible w
+        rule: 98  ~location06.15.3 a: 
+          line: 98 0  # Maybe you understand what I me
+          Complexity of rule ~location06.15.3- a: 1
+        rule: 100  ~location06.16.0 t: 
+          line: 100 0  # My father taught me that those
+          line: 101 86  # I have a faint memory of there
+          line: 102 200  # I can't remember who. 
+          line: 103 222  # Is it even a real memory? I do
+          line: 104 262  # ^addtopic ( ~suicide ) 
           Complexity of rule ~location06.16.0- t: 1
-        rule: 93  ~location06.16.1 a: 
-          line: 93 0  # Really? I'm frankly gobsmacked
+        rule: 105  ~location06.16.1 a: 
+          line: 105 0  # Hmm, maybe I don't know who or
+          line: 106 57  # There's naught to go on anyway
           Complexity of rule ~location06.16.1- a: 1
-        rule: 94  ~location06.16.2 a: 
-          line: 94 0  # For instance, a student may fe
-          Complexity of rule ~location06.16.2- a: 1
-        rule: 95  ~location06.16.3 a: 
-          line: 95 0  # Maybe you understand what I me
-          Complexity of rule ~location06.16.3- a: 1
-        rule: 97  ~location06.17.0 t: 
-          line: 97 0  # My father taught me that those
-          line: 98 86  # I have a faint memory of there
-          line: 99 200  # I can't remember who. 
-          line: 100 222  # Is it even a real memory? I do
-          line: 101 262  # ^addtopic ( ~suicide ) 
+        rule: 109  ~location06.17.0 t: 
           Complexity of rule ~location06.17.0- t: 1
-        rule: 102  ~location06.17.1 a: 
-          line: 102 0  # Hmm, maybe I don't know who or
-          line: 103 57  # There's naught to go on anyway
-          Complexity of rule ~location06.17.1- a: 1
-        rule: 106  ~location06.18.0 t: 
-          Complexity of rule ~location06.18.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/07_Doyle_Estate.top
     topic: 4  ~location07
         rule: 13  ~location07.0.0 ?: 
@@ -20004,8 +19993,8 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/07_Doyl
           Complexity of rule ~location07.19.1- a: 1
         rule: 124  ~location07.20.0 t: 
           line: 124 0  # I suppose if I had lived long 
-          line: 125 71  # I do not blame him for the thi
-          line: 126 138  # $$a_code = 3 
+          line: 125 71  # I could not blame him for the 
+          line: 126 141  # $$a_code = 3 
           Complexity of rule ~location07.20.0- t: 1
         rule: 127  ~location07.20.1 a: 
           line: 127 0  # ^usercap ( ) , I will get to a
@@ -20377,80 +20366,78 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/10_Will
           Complexity of rule ~location10.16.0- t: 1
         rule: 85  ~location10.17.0 t: 
           line: 85 0  # Willem's Bluff. So named after
-          line: 86 107  # $$he_pronoun = Willem 
+          line: 86 107  # He was never supposed to be he
+          line: 87 225  # And fell to his death. 
+          line: 88 248  # $$he_pronoun = Willem 
           Complexity of rule ~location10.17.0- t: 1
-        rule: 87  ~location10.17.1 a: 
-          line: 87 0  # ^gambit ( ~location10 ) 
+        rule: 89  ~location10.17.1 a: 
+          line: 89 0  # ^gambit ( ~location10 ) 
           Complexity of rule ~location10.17.1- a: 1
-        rule: 88  ~location10.17.2 a: 
-          line: 88 0  # It happened right here. ^gambi
-          line: 89 48  # $$a_code = 7 
+        rule: 90  ~location10.17.2 a: 
+          line: 90 0  # It happened right here. ^gambi
+          line: 91 48  # $$a_code = 7 
           Complexity of rule ~location10.17.2- a: 1
-        rule: 91  ~location10.18.0 t: 
-          line: 91 0  # He was never supposed to be he
-          line: 92 118  # And fell to his death. 
-          Complexity of rule ~location10.18.0- t: 1
-        rule: 93  ~location10.18.1 a: 
-          line: 93 0  # It's the story I'm trying to t
+        rule: 92  ~location10.17.3 a: 
+          line: 92 0  # It's the story I'm trying to t
+          Complexity of rule ~location10.17.3- a: 1
+        rule: 100  ~location10.18.0-SPOKE_TO_WILLEM t: 
+          line: 100 0  # I never knew the poor little b
+          line: 101 81  # Yes, after his death. And befo
+          line: 102 122  # $$he_pronoun = Willem 
+          Complexity of rule ~location10.18.0-SPOKE_TO_WILLEM t: 1
+        rule: 103  ~location10.18.1 a: 
+          line: 103 0  # ^gambit ( ~location10 ) 
           Complexity of rule ~location10.18.1- a: 1
-        rule: 95  ~location10.19.0-SPOKE_TO_WILLEM t: 
-          line: 95 0  # I never knew the poor little b
-          line: 96 81  # Yes, after his death. And befo
-          line: 97 122  # $$he_pronoun = Willem 
-          Complexity of rule ~location10.19.0-SPOKE_TO_WILLEM t: 1
-        rule: 98  ~location10.19.1 a: 
-          line: 98 0  # ^gambit ( ~location10 ) 
+        rule: 105  ~location10.19.0 t: 
+          line: 105 0  # I spoke to Willem as a spirit 
+          line: 106 69  # That's a story I will tell you
+          Complexity of rule ~location10.19.0- t: 1
+        rule: 107  ~location10.19.1 a: 
+          line: 107 0  # Please wait for me to tell tha
           Complexity of rule ~location10.19.1- a: 1
-        rule: 100  ~location10.20.0 t: 
-          line: 100 0  # I spoke to Willem as a spirit 
-          line: 101 69  # That's a story I will tell you
+        rule: 108  ~location10.19.2 a: 
+          line: 108 0  # Give me some time, ^user ( ) ,
+          Complexity of rule ~location10.19.2- a: 1
+        rule: 110  ~location10.20.0 t: 
+          line: 110 0  # Tell us now, Mel is demanding.
+          line: 111 89  # I can tell you another story i
+          line: 112 127  # $$a_code = 60 
           Complexity of rule ~location10.20.0- t: 1
-        rule: 102  ~location10.20.1 a: 
-          line: 102 0  # Please wait for me to tell tha
+        rule: 113  ~location10.20.1 a: 
+          line: 113 0  # ^gambit ( ~location10 ) 
           Complexity of rule ~location10.20.1- a: 1
-        rule: 103  ~location10.20.2 a: 
-          line: 103 0  # Give me some time, ^user ( ) ,
+        rule: 114  ~location10.20.2 a: 
+          line: 114 0  # It's a hard story to tell. But
           Complexity of rule ~location10.20.2- a: 1
-        rule: 105  ~location10.21.0 t: 
-          line: 105 0  # Tell us now, Mel is demanding.
-          line: 106 89  # I can tell you another story i
-          line: 107 127  # $$a_code = 60 
+        rule: 116  ~location10.21.0 t: 
+          line: 116 0  # The first spirit I ever spoke 
+          line: 117 68  # She showed me how to call fort
+          line: 118 170  # We Manifested him, asked him o
           Complexity of rule ~location10.21.0- t: 1
-        rule: 108  ~location10.21.1 a: 
-          line: 108 0  # ^gambit ( ~location10 ) 
+        rule: 119  ~location10.21.1 a: 
+          line: 119 0  # The question we asked the old 
+          line: 120 84  # To which he answered, "No." It
+          line: 121 186  # Thinking about it now, I belie
+          line: 122 283  # $$quotes = 1 
           Complexity of rule ~location10.21.1- a: 1
-        rule: 109  ~location10.21.2 a: 
-          line: 109 0  # It's a hard story to tell. But
-          Complexity of rule ~location10.21.2- a: 1
-        rule: 111  ~location10.22.0 t: 
-          line: 111 0  # The first spirit I ever spoke 
-          line: 112 68  # She showed me how to call fort
-          line: 113 170  # We Manifested him, asked him o
+        rule: 123  ~location10.21.2 b: 
+          line: 124 0  # My mother and father never row
+          Complexity of rule ~location10.21.2- b: 1
+        rule: 125  ~location10.21.3 b: 
+          line: 125 0  # Oh I certainly cannot remember
+          line: 126 51  # He was just an old man who had
+          Complexity of rule ~location10.21.3- b: 1
+        rule: 128  ~location10.22.0 t: 
+          line: 128 0  # It is normally only possible t
+          line: 129 88  # I asked my mother once if I co
+          line: 130 209  # Lucky for you, ^user ( ) , mos
+          line: 131 273  # $transcend_k = 1 
           Complexity of rule ~location10.22.0- t: 1
-        rule: 114  ~location10.22.1 a: 
-          line: 114 0  # The question we asked the old 
-          line: 115 84  # To which he answered, "No." It
-          line: 116 186  # Thinking about it now, I belie
-          line: 117 283  # $$quotes = 1 
+        rule: 132  ~location10.22.1 a: 
+          line: 132 0  # I mean that because I have not
           Complexity of rule ~location10.22.1- a: 1
-        rule: 118  ~location10.22.2 b: 
-          line: 119 0  # My mother and father never row
-          Complexity of rule ~location10.22.2- b: 1
-        rule: 120  ~location10.22.3 b: 
-          line: 120 0  # Oh I certainly cannot remember
-          line: 121 51  # He was just an old man who had
-          Complexity of rule ~location10.22.3- b: 1
-        rule: 123  ~location10.23.0 t: 
-          line: 123 0  # It is normally only possible t
-          line: 124 88  # I asked my mother once if I co
-          line: 125 209  # Lucky for you, ^user ( ) , mos
-          line: 126 273  # $transcend_k = 1 
+        rule: 135  ~location10.23.0 t: 
           Complexity of rule ~location10.23.0- t: 1
-        rule: 127  ~location10.23.1 a: 
-          line: 127 0  # I mean that because I have not
-          Complexity of rule ~location10.23.1- a: 1
-        rule: 130  ~location10.24.0 t: 
-          Complexity of rule ~location10.24.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/11_Devils_Tower.top
     topic: 4  ~location11
         rule: 13  ~location11.0.0 ?: 
@@ -20623,96 +20610,91 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/12_Atla
         rule: 73  ~location12.13.0 t: 
           line: 73 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location12.13.0- t: 1
-        rule: 75  ~location12.14.0 t: 
-          line: 75 0  # This, believe it or not, is At
+        rule: 80  ~location12.14.0 t: 
+          line: 80 0  # This, believe it or not, is At
+          line: 81 79  # No living person has seen Atla
+          line: 82 166  # It's not quite in any of the l
           Complexity of rule ~location12.14.0- t: 1
-        rule: 76  ~location12.14.1 a: 
-          line: 76 0  # ^gambit ( ~location12 ) 
+        rule: 83  ~location12.14.1 a: 
+          line: 84 0  # Well, countless chaps have bee
+          line: 85 77  # It is difficult to locate such
           Complexity of rule ~location12.14.1- a: 1
-        rule: 78  ~location12.15.0 t: 
-          line: 78 0  # Are you surprised that Atlanti
-          line: 79 106  # They don't even know where it 
+        rule: 87  ~location12.15.0 t: 
+          line: 87 0  # We're thousands of meters bene
+          line: 88 55  # Neither of us would be able to
+          line: 89 121  # That we can appreciate this in
           Complexity of rule ~location12.15.0- t: 1
-        rule: 80  ~location12.15.1 a: 
-          line: 81 0  # Well, countless chaps have bee
-          line: 82 77  # It is difficult to locate such
+        rule: 90  ~location12.15.1 a: 
+          line: 90 0  # What do you mean? ^gambit ( ~l
           Complexity of rule ~location12.15.1- a: 1
-        rule: 84  ~location12.16.0 t: 
-          line: 84 0  # We're thousands of meters bene
-          line: 85 55  # Neither of us would be able to
-          line: 86 121  # That we can appreciate this in
+        rule: 92  ~location12.16.0 t: 
+          line: 92 0  # One thing making the discovery
+          line: 93 130  # Maybe it used to be larger. I 
           Complexity of rule ~location12.16.0- t: 1
-        rule: 87  ~location12.16.1 a: 
-          line: 87 0  # What do you mean? ^gambit ( ~l
+        rule: 94  ~location12.16.1 a: 
+          line: 94 0  # It's hard for me to know. I on
           Complexity of rule ~location12.16.1- a: 1
-        rule: 89  ~location12.17.0 t: 
-          line: 89 0  # One thing making the discovery
-          line: 90 130  # Maybe it used to be larger. I 
+        rule: 96  ~location12.17.0 t: 
+          line: 96 0  # You may be wondering, am I sur
+          line: 97 133  # The answer is that I am not ce
+          line: 98 230  # This is the Mediterranean and 
           Complexity of rule ~location12.17.0- t: 1
-        rule: 91  ~location12.17.1 a: 
-          line: 91 0  # It's hard for me to know. I on
+        rule: 99  ~location12.17.1 a: 
+          line: 99 0  # I'm pretty sure of it, anyway!
           Complexity of rule ~location12.17.1- a: 1
-        rule: 93  ~location12.18.0 t: 
-          line: 93 0  # You may be wondering, am I sur
-          line: 94 133  # The answer is that I am not ce
-          line: 95 230  # This is the Mediterranean and 
+        rule: 101  ~location12.18.0 t: 
+          line: 101 0  # Mel is over the moon. She says
+          line: 102 101  # That's exactly the thing, Mel.
+          line: 103 194  # $$a_code = 63 
           Complexity of rule ~location12.18.0- t: 1
-        rule: 96  ~location12.18.1 a: 
-          line: 96 0  # I'm pretty sure of it, anyway!
+        rule: 104  ~location12.18.1 a: 
+          line: 104 0  # What exactly can a spirit do w
           Complexity of rule ~location12.18.1- a: 1
-        rule: 98  ~location12.19.0 t: 
-          line: 98 0  # Mel is over the moon. She says
-          line: 99 101  # That's exactly the thing, Mel.
-          line: 100 194  # $$a_code = 63 
+        rule: 106  ~location12.19.0 t: 
+          line: 106 0  # I do believe Mel likes it here
+          line: 107 92  # that gets Mel buzzing. 
+          line: 108 115  # Lost, hidden, or unusual locat
+          line: 109 172  # $$a_code = 64 
           Complexity of rule ~location12.19.0- t: 1
-        rule: 101  ~location12.19.1 a: 
-          line: 101 0  # What exactly can a spirit do w
+        rule: 110  ~location12.19.1 a: 
+          line: 110 0  # Mel simply likes this sort of 
           Complexity of rule ~location12.19.1- a: 1
-        rule: 103  ~location12.20.0 t: 
-          line: 103 0  # I do believe Mel likes it here
-          line: 104 92  # that gets Mel buzzing. 
-          line: 105 115  # Lost, hidden, or unusual locat
-          line: 106 172  # $$a_code = 64 
+        rule: 112  ~location12.20.0 t: 
+          line: 112 0  # While Mel is looking around, I
+          line: 113 72  # Are you ready? 
           Complexity of rule ~location12.20.0- t: 1
-        rule: 107  ~location12.20.1 a: 
-          line: 107 0  # Mel simply likes this sort of 
+        rule: 114  ~location12.20.1 a: 
+          line: 114 0  # Oh. I won't bother you with it
           Complexity of rule ~location12.20.1- a: 1
-        rule: 109  ~location12.21.0 t: 
-          line: 109 0  # While Mel is looking around, I
-          line: 110 72  # Are you ready? 
+        rule: 115  ~location12.20.2 a: 
+          line: 115 0  # ^gambit ( ~location12 ) 
+          Complexity of rule ~location12.20.2- a: 1
+        rule: 117  ~location12.21.0 t: 
+          line: 117 0  # Reincarnation is not something
+          line: 118 111  # But there is a prominent Ameri
+          line: 119 195  # people alive today had reincar
+          line: 120 269  # Can you name this person? 
           Complexity of rule ~location12.21.0- t: 1
-        rule: 111  ~location12.21.1 a: 
-          line: 111 0  # Oh. I won't bother you with it
+        rule: 121  ~location12.21.1 a: 
+          line: 121 0  # ^gambit ( ~location12 ) 
           Complexity of rule ~location12.21.1- a: 1
-        rule: 112  ~location12.21.2 a: 
-          line: 112 0  # ^gambit ( ~location12 ) 
+        rule: 122  ~location12.21.2 a: 
+          line: 122 0  # Get-in! You nailed it. 
+          line: 123 23  # $$r = 3 
+          line: 124 31  # ^gambit ( ~location12 ) 
           Complexity of rule ~location12.21.2- a: 1
-        rule: 114  ~location12.22.0 t: 
-          line: 114 0  # Reincarnation is not something
-          line: 115 111  # But there is a prominent Ameri
-          line: 116 195  # people alive today had reincar
-          line: 117 269  # Can you name this person? 
+        rule: 125  ~location12.21.3 a: 
+          line: 125 0  # Not quite. ^gambit ( ~location
+          Complexity of rule ~location12.21.3- a: 1
+        rule: 127  ~location12.22.0 t: 
+          line: 127 0  # It was Edgar Cayce, born only 
+          line: 128 54  # He lived, however, much longer
           Complexity of rule ~location12.22.0- t: 1
-        rule: 118  ~location12.22.1 a: 
-          line: 118 0  # ^gambit ( ~location12 ) 
+        rule: 129  ~location12.22.1 a: 
+          line: 129 0  # I believe he popped his clogs 
           Complexity of rule ~location12.22.1- a: 1
-        rule: 119  ~location12.22.2 a: 
-          line: 119 0  # Get-in! You nailed it. 
-          line: 120 23  # $$r = 3 
-          line: 121 31  # ^gambit ( ~location12 ) 
-          Complexity of rule ~location12.22.2- a: 1
-        rule: 122  ~location12.22.3 a: 
-          line: 122 0  # Not quite. ^gambit ( ~location
-          Complexity of rule ~location12.22.3- a: 1
-        rule: 124  ~location12.23.0 t: 
-          line: 124 0  # It was Edgar Cayce, born only 
-          line: 125 54  # He lived, however, much longer
+        rule: 132  ~location12.23.0 t: 
           Complexity of rule ~location12.23.0- t: 1
-        rule: 126  ~location12.23.1 a: 
-          line: 126 0  # I believe he popped his clogs 
-          Complexity of rule ~location12.23.1- a: 1
-        rule: 129  ~location12.24.0 t: 
-          Complexity of rule ~location12.24.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/13_Duggans_Residence.top
     topic: 4  ~location13
         rule: 13  ~location13.0.0 ?: 
@@ -21318,7 +21300,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/17_Matl
           Complexity of rule ~location17.18.2- a: 1
         rule: 111  ~location17.19.0 t: 
           line: 111 0  # But I'm certain my death did n
-          line: 112 92  # I'd be overwhelmed with negati
+          line: 112 92  # Ugly though this bog quite is,
           Complexity of rule ~location17.19.0- t: 1
         rule: 113  ~location17.19.1 a: 
           line: 113 0  # Because I'm sensitive to such 
@@ -21705,10 +21687,10 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/20_Brit
           line: 89 0  # Mel just says stuff. Anyway, w
           Complexity of rule ~location20.19.1- a: 1
         rule: 91  ~location20.20.0 t: 
-          line: 91 0  # "Britely" is such a British na
-          line: 92 49  # Mel love, you only think so be
-          line: 93 116  # And stop interrupting me. I'm 
-          line: 94 181  # $$quotes = 1 
+          line: 91 0  # The Britely Hotel in Westminst
+          line: 92 83  # Mel love, you only think so be
+          line: 93 150  # And stop interrupting me. I'm 
+          line: 94 215  # $$quotes = 1 
           Complexity of rule ~location20.20.0- t: 1
         rule: 95  ~location20.20.1 a: 
           line: 95 0  # ^gambit ( ~location20 ) 
@@ -22154,130 +22136,118 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/23_Kent
         rule: 71  ~location23.15.0 t: 
           line: 71 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location23.15.0- t: 1
-        rule: 73  ~location23.16.0 t: 
-          line: 73 0  # This is another of my favorite
-          line: 74 71  # Beautiful, don't you agree? 
+        rule: 81  ~location23.16.0 t: 
+          line: 81 0  # This is another of my favorite
+          line: 82 66  # Look at all this orange. I'm n
+          line: 83 190  # Have you, ^user ( ) ? 
           Complexity of rule ~location23.16.0- t: 1
-        rule: 75  ~location23.16.1 a: 
-          line: 75 0  # You're not sure? Hehe. 
+        rule: 84  ~location23.16.1 a: 
+          line: 84 0  # At the frigid wilderness, hehe
           Complexity of rule ~location23.16.1- a: 1
-        rule: 76  ~location23.16.2 a: 
-          line: 76 0  # Hmm, we don't need to stay her
+        rule: 85  ~location23.16.2 a: 
+          line: 85 0  # Not sure? Well that's fine. It
           Complexity of rule ~location23.16.2- a: 1
-        rule: 77  ~location23.16.3 a: 
-          line: 77 0  # Yes! I knew you'd agree. That'
+        rule: 86  ~location23.16.3 a: 
+          line: 86 0  # Right? And it's beautiful. Wel
           Complexity of rule ~location23.16.3- a: 1
-        rule: 80  ~location23.17.0 t: 
-          line: 80 0  # Look at all this orange. I'm n
-          line: 81 124  # Have you, ^user ( ) ? 
+        rule: 87  ~location23.16.4 b: 
+          line: 87 0  # Right? ^gambit ( ~location23 )
+          Complexity of rule ~location23.16.4- b: 1
+        rule: 88  ~location23.16.5 a: 
+          line: 88 0  # Really? You must have seen sig
+          line: 89 45  # Hmm, that's kind of embarrassi
+          Complexity of rule ~location23.16.5- a: 1
+        rule: 91  ~location23.17.0 t: 
+          line: 91 0  # This environment reminds me of
+          line: 92 110  # She had brought along a spinac
           Complexity of rule ~location23.17.0- t: 1
-        rule: 82  ~location23.17.1 a: 
-          line: 82 0  # At the frigid wilderness, hehe
+        rule: 93  ~location23.17.1 a: 
+          line: 93 0  # This location just brings back
           Complexity of rule ~location23.17.1- a: 1
-        rule: 83  ~location23.17.2 a: 
-          line: 83 0  # Not sure? Well that's fine. It
-          Complexity of rule ~location23.17.2- a: 1
-        rule: 84  ~location23.17.3 a: 
-          line: 84 0  # Right? And it's beautiful. Wel
-          Complexity of rule ~location23.17.3- a: 1
-        rule: 85  ~location23.17.4 b: 
-          line: 85 0  # Right? ^gambit ( ~location23 )
-          Complexity of rule ~location23.17.4- b: 1
-        rule: 86  ~location23.17.5 a: 
-          line: 86 0  # Really? You must have seen sig
-          line: 87 45  # Hmm, that's kind of embarrassi
-          Complexity of rule ~location23.17.5- a: 1
-        rule: 89  ~location23.18.0 t: 
-          line: 89 0  # This environment reminds me of
-          line: 90 110  # She had brought along a spinac
+        rule: 95  ~location23.18.0 t: 
+          line: 95 0  # I can almost taste it. Faith's
+          line: 96 42  # That was back when we were too
+          line: 97 117  # And I was always glad to get a
           Complexity of rule ~location23.18.0- t: 1
-        rule: 91  ~location23.18.1 a: 
-          line: 91 0  # This location just brings back
+        rule: 98  ~location23.18.1 a: 
+          line: 98 0  # Well, we were young, and it wa
+          line: 99 99  # It's almost funny that I do. 
           Complexity of rule ~location23.18.1- a: 1
-        rule: 93  ~location23.19.0 t: 
-          line: 93 0  # I can almost taste it. Faith's
-          line: 94 42  # That was back when we were too
-          line: 95 117  # And I was always glad to get a
+        rule: 101  ~location23.19.0 t: 
+          line: 101 0  # Oh, I remember there was a tim
+          line: 102 130  # But Faith ran into her friend 
           Complexity of rule ~location23.19.0- t: 1
-        rule: 96  ~location23.19.1 a: 
-          line: 96 0  # Well, we were young, and it wa
-          line: 97 99  # It's almost funny that I do. 
+        rule: 103  ~location23.19.1 a: 
+          line: 103 0  # I got lost on the way back. Th
+          line: 104 86  # I didn't find my way home unti
+          line: 105 169  # That happened when I was 10. F
           Complexity of rule ~location23.19.1- a: 1
-        rule: 99  ~location23.20.0 t: 
-          line: 99 0  # Oh, I remember there was a tim
-          line: 100 130  # But Faith ran into her friend 
+        rule: 106  ~location23.19.2 b: 
+          line: 106 0  # Hmm. It was a long time ago, t
+          Complexity of rule ~location23.19.2- b: 1
+        rule: 108  ~location23.20.0 t: 
+          line: 108 0  # People still use the phrase "t
+          line: 109 66  # I could never vocalise such wo
+          line: 110 153  # $$quotes = 1 
           Complexity of rule ~location23.20.0- t: 1
-        rule: 101  ~location23.20.1 a: 
-          line: 101 0  # I got lost on the way back. Th
-          line: 102 86  # I didn't find my way home unti
-          line: 103 169  # That happened when I was 10. F
+        rule: 111  ~location23.20.1 a: 
+          line: 111 0  # My father loathed all things t
           Complexity of rule ~location23.20.1- a: 1
-        rule: 104  ~location23.20.2 b: 
-          line: 104 0  # Hmm. It was a long time ago, t
-          Complexity of rule ~location23.20.2- b: 1
-        rule: 106  ~location23.21.0 t: 
-          line: 106 0  # People still use the phrase "t
-          line: 107 66  # I could never vocalise such wo
-          line: 108 153  # $$quotes = 1 
+        rule: 112  ~location23.20.2 a: 
+          line: 112 0  # No? I though that they still d
+          Complexity of rule ~location23.20.2- a: 1
+        rule: 114  ~location23.21.0 t: 
+          line: 114 0  # Did you know that Kentucky is 
+          line: 115 81  # There are four such commonweal
           Complexity of rule ~location23.21.0- t: 1
-        rule: 109  ~location23.21.1 a: 
-          line: 109 0  # My father loathed all things t
+        rule: 116  ~location23.21.1 a: 
+          line: 116 0  # Right you are! 
+          line: 117 15  # $$r = 3 
+          line: 118 23  # ^gambit ( ~location23 ) 
           Complexity of rule ~location23.21.1- a: 1
-        rule: 110  ~location23.21.2 a: 
-          line: 110 0  # No? I though that they still d
+        rule: 119  ~location23.21.2 a: 
+          line: 119 0  # You're kind of right! Vermont 
+          line: 120 70  # $$r = 1 
+          line: 121 78  # ^gambit ( ~location23 ) 
           Complexity of rule ~location23.21.2- a: 1
-        rule: 112  ~location23.22.0 t: 
-          line: 112 0  # Did you know that Kentucky is 
-          line: 113 81  # There are four such commonweal
+        rule: 122  ~location23.21.3 a: 
+          line: 122 0  # You're kind of right! Delaware
+          line: 123 88  # $$r = 1 
+          line: 124 96  # ^gambit ( ~location23 ) 
+          Complexity of rule ~location23.21.3- a: 1
+        rule: 125  ~location23.21.4 a: 
+          line: 125 0  # Yeah, we covered that one. ^ga
+          Complexity of rule ~location23.21.4- a: 1
+        rule: 126  ~location23.21.5 a: 
+          line: 126 0  # Sorry but that's not one of th
+          Complexity of rule ~location23.21.5- a: 1
+        rule: 127  ~location23.21.6 a: 
+          line: 127 0  # We were talking about states, 
+          Complexity of rule ~location23.21.6- a: 1
+        rule: 129  ~location23.22.0 t: 
+          line: 129 0  # The other three commonwealths 
+          line: 130 87  # It's a technicality that makes
           Complexity of rule ~location23.22.0- t: 1
-        rule: 114  ~location23.22.1 a: 
-          line: 114 0  # Right you are! 
-          line: 115 15  # $$r = 3 
-          line: 116 23  # ^gambit ( ~location23 ) 
+        rule: 131  ~location23.22.1 a: 
+          line: 131 0  # I don't know. The United State
           Complexity of rule ~location23.22.1- a: 1
-        rule: 117  ~location23.22.2 a: 
-          line: 117 0  # You're kind of right! Vermont 
-          line: 118 70  # $$r = 1 
-          line: 119 78  # ^gambit ( ~location23 ) 
-          Complexity of rule ~location23.22.2- a: 1
-        rule: 120  ~location23.22.3 a: 
-          line: 120 0  # You're kind of right! Delaware
-          line: 121 88  # $$r = 1 
-          line: 122 96  # ^gambit ( ~location23 ) 
-          Complexity of rule ~location23.22.3- a: 1
-        rule: 123  ~location23.22.4 a: 
-          line: 123 0  # Yeah, we covered that one. ^ga
-          Complexity of rule ~location23.22.4- a: 1
-        rule: 124  ~location23.22.5 a: 
-          line: 124 0  # Sorry but that's not one of th
-          Complexity of rule ~location23.22.5- a: 1
-        rule: 125  ~location23.22.6 a: 
-          line: 125 0  # We were talking about states, 
-          Complexity of rule ~location23.22.6- a: 1
-        rule: 127  ~location23.23.0 t: 
-          line: 127 0  # The other three commonwealths 
-          line: 128 87  # It's a technicality that makes
+        rule: 133  ~location23.23.0 t: 
+          line: 133 0  # Mel says she didn't know that 
+          line: 134 97  # Because I'm a west coast girl,
           Complexity of rule ~location23.23.0- t: 1
-        rule: 129  ~location23.23.1 a: 
-          line: 129 0  # I don't know. The United State
-          Complexity of rule ~location23.23.1- a: 1
-        rule: 131  ~location23.24.0 t: 
-          line: 131 0  # Mel says she didn't know that 
-          line: 132 97  # Because I'm a west coast girl,
+        rule: 136  ~location23.24.0 t: 
+          line: 136 0  # I suppose it's easy to forget 
+          line: 137 80  # The left hand doesn't know wha
+          line: 138 151  # $$a_code = 9 
           Complexity of rule ~location23.24.0- t: 1
-        rule: 134  ~location23.25.0 t: 
-          line: 134 0  # I suppose it's easy to forget 
-          line: 135 80  # The left hand doesn't know wha
-          line: 136 151  # $$a_code = 9 
+        rule: 140  ~location23.25.0 t: 
+          line: 140 0  # Fun fact! The turnip we ate in
           Complexity of rule ~location23.25.0- t: 1
-        rule: 138  ~location23.26.0 t: 
-          line: 138 0  # Fun fact! The turnip we ate in
+        rule: 142  ~location23.26.0 t: 
+          line: 142 0  # ^addtopic ( ~veggies ) ^gambit
           Complexity of rule ~location23.26.0- t: 1
-        rule: 140  ~location23.27.0 t: 
-          line: 140 0  # ^addtopic ( ~veggies ) ^gambit
+        rule: 144  ~location23.27.0 t: 
           Complexity of rule ~location23.27.0- t: 1
-        rule: 142  ~location23.28.0 t: 
-          Complexity of rule ~location23.28.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/24_Central_Lowlands.top
     topic: 4  ~location24
         rule: 13  ~location24.0.0 ?: 
@@ -22451,118 +22421,114 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/25_Skie
         rule: 71  ~location25.12.0 t: 
           line: 71 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location25.12.0- t: 1
-        rule: 73  ~location25.13.0 t: 
-          line: 73 0  # We're hundreds of meters in th
+        rule: 78  ~location25.13.0 t: 
+          line: 78 0  # We're hundreds of meters in th
+          line: 79 49  # I guess if you've been in an a
+          line: 80 121  # When I was alive we didn't hav
+          line: 81 158  # The invention of flight was ri
           Complexity of rule ~location25.13.0- t: 1
-        rule: 74  ~location25.13.1 a: 
-          line: 74 0  # I thought we'd fly the friendl
+        rule: 82  ~location25.13.1 a: 
+          line: 82 0  # The airplane was soon to be in
           Complexity of rule ~location25.13.1- a: 1
-        rule: 76  ~location25.14.0 t: 
-          line: 76 0  # Hmm, I guess if you've been in
-          line: 77 123  # The invention of flight was ri
+        rule: 84  ~location25.14.0 t: 
+          line: 84 0  # Is it true that cabin attendan
           Complexity of rule ~location25.14.0- t: 1
-        rule: 78  ~location25.14.1 a: 
-          line: 78 0  # The airplane was soon to be in
+        rule: 85  ~location25.14.1 a: 
+          line: 85 0  # Air pressure? That does make s
           Complexity of rule ~location25.14.1- a: 1
-        rule: 80  ~location25.15.0 t: 
-          line: 80 0  # Is it true that cabin attendan
+        rule: 86  ~location25.14.2 a: 
+          line: 86 0  # So they need something to swal
+          Complexity of rule ~location25.14.2- a: 1
+        rule: 87  ~location25.14.3 a: 
+          line: 87 0  # Just because they're cheap? Oh
+          Complexity of rule ~location25.14.3- a: 1
+        rule: 88  ~location25.14.4 a: 
+          line: 88 0  # Is that all it is? Hmmm. $$a_c
+          Complexity of rule ~location25.14.4- a: 1
+        rule: 89  ~location25.14.5 a: 
+          line: 89 0  # Hmm, is that why? I think peop
+          Complexity of rule ~location25.14.5- a: 1
+        rule: 90  ~location25.14.6 a: 
+          line: 90 0  # Oh, it isn't true? I was sure 
+          Complexity of rule ~location25.14.6- a: 1
+        rule: 91  ~location25.14.7 a: 
+          line: 91 0  # At least I know it is true. ^g
+          Complexity of rule ~location25.14.7- a: 1
+        rule: 93  ~location25.15.0 t: 
+          line: 93 0  # I like peanuts, hehe. But I ra
+          line: 94 54  # We were strictly prohibited fr
           Complexity of rule ~location25.15.0- t: 1
-        rule: 81  ~location25.15.1 a: 
-          line: 81 0  # Air pressure? That does make s
+        rule: 95  ~location25.15.1 a: 
+          line: 95 0  # That's just how it was in my f
           Complexity of rule ~location25.15.1- a: 1
-        rule: 82  ~location25.15.2 a: 
-          line: 82 0  # So they need something to swal
+        rule: 96  ~location25.15.2 a: 
+          line: 96 0  # Like a casserole. ^gambit ( ~l
           Complexity of rule ~location25.15.2- a: 1
-        rule: 83  ~location25.15.3 a: 
-          line: 83 0  # Just because they're cheap? Oh
-          Complexity of rule ~location25.15.3- a: 1
-        rule: 84  ~location25.15.4 a: 
-          line: 84 0  # Is that all it is? Hmmm. $$a_c
-          Complexity of rule ~location25.15.4- a: 1
-        rule: 85  ~location25.15.5 a: 
-          line: 85 0  # Hmm, is that why? I think peop
-          Complexity of rule ~location25.15.5- a: 1
-        rule: 86  ~location25.15.6 a: 
-          line: 86 0  # Oh, it isn't true? I was sure 
-          Complexity of rule ~location25.15.6- a: 1
-        rule: 87  ~location25.15.7 a: 
-          line: 87 0  # At least I know it is true. ^g
-          Complexity of rule ~location25.15.7- a: 1
-        rule: 89  ~location25.16.0 t: 
-          line: 89 0  # I like peanuts, hehe. But I ra
-          line: 90 54  # We were strictly prohibited fr
+        rule: 98  ~location25.16.0 t: 
+          line: 98 0  # Despite being the best chef in
+          line: 99 138  # And she never complimented me 
           Complexity of rule ~location25.16.0- t: 1
-        rule: 91  ~location25.16.1 a: 
-          line: 91 0  # That's just how it was in my f
+        rule: 100  ~location25.16.1 a: 
+          line: 100 0  # Because I had the stronger gif
           Complexity of rule ~location25.16.1- a: 1
-        rule: 92  ~location25.16.2 a: 
-          line: 92 0  # Like a casserole. ^gambit ( ~l
-          Complexity of rule ~location25.16.2- a: 1
-        rule: 94  ~location25.17.0 t: 
-          line: 94 0  # Despite being the best chef in
-          line: 95 138  # And she never complimented me 
+        rule: 102  ~location25.17.0 t: 
+          line: 102 0  # Faith also made me clean up af
+          line: 103 105  # My father and mother didn't in
           Complexity of rule ~location25.17.0- t: 1
-        rule: 96  ~location25.17.1 a: 
-          line: 96 0  # Because I had the stronger gif
+        rule: 104  ~location25.17.1 a: 
+          line: 104 0  # There were times my sister did
+          line: 105 69  # I'd go in the kitchen and she'
+          line: 106 157  # Maybe she really just forgot. 
+          line: 107 187  # $$quotes = 1 
           Complexity of rule ~location25.17.1- a: 1
-        rule: 98  ~location25.18.0 t: 
-          line: 98 0  # Faith also made me clean up af
-          line: 99 105  # My father and mother didn't in
+        rule: 108  ~location25.17.2 b: 
+          line: 108 0  # I don't know. My sister could 
+          Complexity of rule ~location25.17.2- b: 1
+        rule: 110  ~location25.18.0 t: 
+          line: 110 0  # Now it's my turn to offer some
+          line: 111 114  # and had I lived one more decad
           Complexity of rule ~location25.18.0- t: 1
-        rule: 100  ~location25.18.1 a: 
-          line: 100 0  # There were times my sister did
-          line: 101 69  # I'd go in the kitchen and she'
-          line: 102 157  # Maybe she really just forgot. 
-          line: 103 187  # $$quotes = 1 
+        rule: 112  ~location25.18.1 a: 
+          line: 112 0  # ^gambit ( ~location25 ) 
           Complexity of rule ~location25.18.1- a: 1
-        rule: 104  ~location25.18.2 b: 
-          line: 104 0  # I don't know. My sister could 
-          Complexity of rule ~location25.18.2- b: 1
-        rule: 106  ~location25.19.0 t: 
-          line: 106 0  # Now it's my turn to offer some
-          line: 107 114  # and had I lived one more decad
+        rule: 114  ~location25.19.0 t: 
+          line: 114 0  # Did you know that there is a c
+          line: 115 105  # Do you know its name? 
           Complexity of rule ~location25.19.0- t: 1
-        rule: 108  ~location25.19.1 a: 
-          line: 108 0  # ^gambit ( ~location25 ) 
+        rule: 116  ~location25.19.1 a: 
+          line: 116 0  # Okay. ^gambit ( ~location25 ) 
           Complexity of rule ~location25.19.1- a: 1
-        rule: 110  ~location25.20.0 t: 
-          line: 110 0  # Did you know that there is a c
-          line: 111 105  # Do you know its name? 
+        rule: 117  ~location25.19.2 a: 
+          line: 117 0  # Yes! Ace, ^user ( ) ! 
+          line: 118 22  # $$r = 3 
+          line: 119 30  # ^gambit ( ~location25 ) 
+          Complexity of rule ~location25.19.2- a: 1
+        rule: 120  ~location25.19.3 a: 
+          line: 120 0  # No, that airline came along la
+          Complexity of rule ~location25.19.3- a: 1
+        rule: 122  ~location25.20.0 t: 
+          line: 122 0  # The answer is KLM or the Royal
+          line: 123 66  # They've been flying for a cent
           Complexity of rule ~location25.20.0- t: 1
-        rule: 112  ~location25.20.1 a: 
-          line: 112 0  # Okay. ^gambit ( ~location25 ) 
+        rule: 124  ~location25.20.1 a: 
+          line: 124 0  # It was a right silly metaphor,
           Complexity of rule ~location25.20.1- a: 1
-        rule: 113  ~location25.20.2 a: 
-          line: 113 0  # Yes! Ace, ^user ( ) ! 
-          line: 114 22  # $$r = 3 
-          line: 115 30  # ^gambit ( ~location25 ) 
-          Complexity of rule ~location25.20.2- a: 1
-        rule: 116  ~location25.20.3 a: 
-          line: 116 0  # No, that airline came along la
-          Complexity of rule ~location25.20.3- a: 1
-        rule: 118  ~location25.21.0 t: 
-          line: 118 0  # The answer is KLM or the Royal
-          line: 119 66  # They've been flying for a cent
+        rule: 126  ~location25.21.0 t: 
+          line: 126 0  # Mel is trying to tell me somet
+          line: 127 88  # let you have lithium batteries
+          line: 128 184  # Also, she says that she hates 
+          line: 129 243  # $$a_code = 65 
           Complexity of rule ~location25.21.0- t: 1
-        rule: 120  ~location25.21.1 a: 
-          line: 120 0  # It was a right silly metaphor,
+        rule: 130  ~location25.21.1 a: 
+          line: 130 0  # Once again, it's just Mel bein
           Complexity of rule ~location25.21.1- a: 1
-        rule: 122  ~location25.22.0 t: 
-          line: 122 0  # Mel is trying to tell me somet
-          line: 123 88  # let you have lithium batteries
-          line: 124 184  # Also, she says that she hates 
-          line: 125 243  # $$a_code = 65 
+        rule: 132  ~location25.22.0 t: 
+          line: 132 0  # ^no_clues_here ( 25 ) 
           Complexity of rule ~location25.22.0- t: 1
-        rule: 126  ~location25.22.1 a: 
-          line: 126 0  # Once again, it's just Mel bein
-          Complexity of rule ~location25.22.1- a: 1
-        rule: 128  ~location25.23.0 t: 
-          line: 128 0  # ^no_clues_here ( 25 ) 
+        rule: 135  ~location25.23.0 t: 
+          line: 135 0  # Mel is suggesting you become t
+          line: 136 95  # airplane as a crutch. I don't 
           Complexity of rule ~location25.23.0- t: 1
-        rule: 131  ~location25.24.0 t: 
-          line: 131 0  # Mel is suggesting you become t
-          line: 132 95  # airplane as a crutch. I don't 
-          Complexity of rule ~location25.24.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/26_Kardec_Room.top
     topic: 4  ~location26
         rule: 13  ~location26.0.0 ?: 
@@ -22965,86 +22931,81 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/29_Samj
         rule: 67  ~location29.11.0 t: 
           line: 67 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location29.11.0- t: 1
-        rule: 69  ~location29.12.0 t: 
-          line: 69 0  # This is the Samjhauta Express,
+        rule: 74  ~location29.12.0 t: 
+          line: 74 0  # This is the Samjhauta Express,
+          line: 75 126  # Seeing railways always reminds
+          line: 76 198  # However, the ride to London is
           Complexity of rule ~location29.12.0- t: 1
-        rule: 70  ~location29.12.1 a: 
-          line: 70 0  # No others have been built, any
+        rule: 77  ~location29.12.1 a: 
+          line: 77 0  # Maybe it's simply more exotic 
           Complexity of rule ~location29.12.1- a: 1
-        rule: 72  ~location29.13.0 t: 
-          line: 72 0  # Seeing railways always reminds
-          line: 73 72  # However, the ride to London is
+        rule: 79  ~location29.13.0 t: 
+          line: 79 0  # Time hasn't quite diluted the 
+          line: 80 93  # Try to imagine, ^user ( ) , ho
+          line: 81 194  # own home would have felt visit
           Complexity of rule ~location29.13.0- t: 1
-        rule: 74  ~location29.13.1 a: 
-          line: 74 0  # Maybe it's simply more exotic 
+        rule: 82  ~location29.13.1 a: 
+          line: 82 0  # Ehehe, keep trying, ^user ( ) 
           Complexity of rule ~location29.13.1- a: 1
-        rule: 76  ~location29.14.0 t: 
-          line: 76 0  # Time hasn't quite diluted the 
-          line: 77 93  # Try to imagine, ^user ( ) , ho
-          line: 78 194  # own home would have felt visit
+        rule: 83  ~location29.13.2 a: 
+          line: 83 0  # I'm sure it would mean nothing
+          line: 84 39  # But up until that time I had n
+          Complexity of rule ~location29.13.2- a: 1
+        rule: 86  ~location29.14.0 t: 
+          line: 86 0  # Riding the train to London, I 
+          line: 87 60  # We had an appointment to meet 
+          line: 88 162  # $$quotes = 1 
           Complexity of rule ~location29.14.0- t: 1
-        rule: 79  ~location29.14.1 a: 
-          line: 79 0  # Ehehe, keep trying, ^user ( ) 
+        rule: 89  ~location29.14.1 a: 
+          line: 89 0  # I did agree to help him with h
           Complexity of rule ~location29.14.1- a: 1
-        rule: 80  ~location29.14.2 a: 
-          line: 80 0  # I'm sure it would mean nothing
-          line: 81 39  # But up until that time I had n
-          Complexity of rule ~location29.14.2- a: 1
-        rule: 83  ~location29.15.0 t: 
-          line: 83 0  # Riding that train to London, I
-          line: 84 61  # We had an appointment to meet 
-          line: 85 163  # $$quotes = 1 
+        rule: 91  ~location29.15.0 t: 
+          line: 91 0  # Chauncy wanted my help, and my
+          line: 92 79  # I couldn't have said no anyhow
           Complexity of rule ~location29.15.0- t: 1
-        rule: 86  ~location29.15.1 a: 
-          line: 86 0  # I did agree to help him with h
+        rule: 93  ~location29.15.1 a: 
+          line: 93 0  # I think I've always been that 
           Complexity of rule ~location29.15.1- a: 1
-        rule: 88  ~location29.16.0 t: 
-          line: 88 0  # Chauncy wanted my help, and my
-          line: 89 79  # I couldn't have said no anyhow
+        rule: 95  ~location29.16.0 t: 
+          line: 95 0  # The LB&SCR--that's the London,
+          line: 96 102  # make the journey. In my time i
           Complexity of rule ~location29.16.0- t: 1
-        rule: 90  ~location29.16.1 a: 
-          line: 90 0  # I think I've always been that 
+        rule: 97  ~location29.16.1 a: 
+          line: 97 0  # It's just an interesting bit o
           Complexity of rule ~location29.16.1- a: 1
-        rule: 92  ~location29.17.0 t: 
-          line: 92 0  # The LB&SCR--that's the London,
-          line: 93 102  # make the journey. In my time i
+        rule: 99  ~location29.17.0 t: 
+          line: 99 0  # Did you know, the world's firs
+          line: 100 102  # ran from London to Paddington?
+          line: 101 180  # Hey, do you know its name? 
           Complexity of rule ~location29.17.0- t: 1
-        rule: 94  ~location29.17.1 a: 
-          line: 94 0  # It's just an interesting bit o
+        rule: 102  ~location29.17.1 a: 
+          line: 102 0  # ^gambit ( ~location29 ) 
           Complexity of rule ~location29.17.1- a: 1
-        rule: 96  ~location29.18.0 t: 
-          line: 96 0  # Did you know, the world's firs
-          line: 97 102  # ran from London to Paddington?
-          line: 98 180  # Hey, do you know its name? 
+        rule: 103  ~location29.17.2 a: 
+          line: 103 0  # Incredible. You knew it! 
+          line: 104 25  # $$r = 3 
+          line: 105 33  # ^gambit ( ~location29 ) 
+          Complexity of rule ~location29.17.2- a: 1
+        rule: 106  ~location29.17.3 a: 
+          line: 106 0  # ^gambit ( ~location29 ) 
+          Complexity of rule ~location29.17.3- a: 1
+        rule: 108  ~location29.18.0 t: 
+          line: 108 0  # It was called the Flying Scots
           Complexity of rule ~location29.18.0- t: 1
-        rule: 99  ~location29.18.1 a: 
-          line: 99 0  # ^gambit ( ~location29 ) 
+        rule: 109  ~location29.18.1 a: 
+          line: 109 0  # Okay, not a blinding name for 
           Complexity of rule ~location29.18.1- a: 1
-        rule: 100  ~location29.18.2 a: 
-          line: 100 0  # Incredible. You knew it! 
-          line: 101 25  # $$r = 3 
-          line: 102 33  # ^gambit ( ~location29 ) 
+        rule: 110  ~location29.18.2 a: 
+          line: 110 0  # Is it really, though? Scotsmen
           Complexity of rule ~location29.18.2- a: 1
-        rule: 103  ~location29.18.3 a: 
-          line: 103 0  # ^gambit ( ~location29 ) 
-          Complexity of rule ~location29.18.3- a: 1
-        rule: 105  ~location29.19.0 t: 
-          line: 105 0  # It was called the Flying Scots
+        rule: 112  ~location29.19.0 t: 
+          line: 112 0  # Mel says she can't picture any
+          line: 113 76  # If he were to fly right overhe
+          line: 114 151  # Oh no, Mel, can we talk about 
+          line: 115 201  # $$a_code = 65 
           Complexity of rule ~location29.19.0- t: 1
-        rule: 106  ~location29.19.1 a: 
-          line: 106 0  # Okay, not a blinding name for 
-          Complexity of rule ~location29.19.1- a: 1
-        rule: 107  ~location29.19.2 a: 
-          line: 107 0  # Is it really, though? Scotsmen
-          Complexity of rule ~location29.19.2- a: 1
-        rule: 109  ~location29.20.0 t: 
-          line: 109 0  # Mel says she can't picture any
-          line: 110 76  # If he were to fly right overhe
-          line: 111 151  # Oh no, Mel, can we talk about 
-          line: 112 201  # $$a_code = 65 
+        rule: 118  ~location29.20.0 t: 
           Complexity of rule ~location29.20.0- t: 1
-        rule: 115  ~location29.21.0 t: 
-          Complexity of rule ~location29.21.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/30_Merlin_Lake.top
     topic: 4  ~location30
         rule: 13  ~location30.0.0 ?: 
@@ -23128,90 +23089,85 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/30_Merl
         rule: 88  ~location30.17.1 a: 
           line: 88 0  # ^gambit ( ~location30 ) 
           Complexity of rule ~location30.17.1- a: 1
-        rule: 90  ~location30.18.0 t: 
-          line: 90 0  # Maybe Merlin is the name of a 
+        rule: 95  ~location30.18.0 t: 
+          line: 95 0  # Maybe Merlin is the name of a 
+          line: 96 50  # Or maybe a monster could be un
+          line: 97 108  # There are dozens of lakes in t
           Complexity of rule ~location30.18.0- t: 1
-        rule: 91  ~location30.18.1 a: 
-          line: 91 0  # I'm just wondering. ^gambit ( 
+        rule: 98  ~location30.18.1 a: 
+          line: 98 0  # I mean, who hasn't heard of th
           Complexity of rule ~location30.18.1- a: 1
-        rule: 93  ~location30.19.0 t: 
-          line: 93 0  # Or maybe there could be a lake
-          line: 94 69  # There are dozens of lakes in t
+        rule: 99  ~location30.18.2 a: 
+          line: 99 0  # Well, let's talk about that! 
+          line: 100 29  # ^gambit ( ~location30 ) 
+          Complexity of rule ~location30.18.2- a: 1
+        rule: 102  ~location30.19.0 t: 
+          line: 102 0  # Speaking of lake monsters, I'm
+          line: 103 71  # There were sightings of Nessie
+          line: 104 193  # but he was known to make stuff
           Complexity of rule ~location30.19.0- t: 1
-        rule: 95  ~location30.19.1 a: 
-          line: 95 0  # I mean, who hasn't heard of th
+        rule: 105  ~location30.19.1 a: 
+          line: 105 0  # Oh, he's not important to this
           Complexity of rule ~location30.19.1- a: 1
-        rule: 96  ~location30.19.2 a: 
-          line: 96 0  # Well, let's talk about that! 
-          line: 97 29  # ^gambit ( ~location30 ) 
-          Complexity of rule ~location30.19.2- a: 1
-        rule: 99  ~location30.20.0 t: 
-          line: 99 0  # Speaking of lake monsters, I'm
-          line: 100 71  # There were sightings of Nessie
-          line: 101 193  # but he was known to make stuff
+        rule: 107  ~location30.20.0 t: 
+          line: 107 0  # Many other lake monsters aroun
+          line: 108 42  # that have supposedly been sigh
           Complexity of rule ~location30.20.0- t: 1
-        rule: 102  ~location30.20.1 a: 
-          line: 102 0  # Oh, he's not important to this
+        rule: 109  ~location30.20.1 a: 
+          line: 109 0  # ^gambit ( ~location30 ) 
           Complexity of rule ~location30.20.1- a: 1
-        rule: 104  ~location30.21.0 t: 
-          line: 104 0  # Many other lake monsters aroun
-          line: 105 42  # that have supposedly been sigh
+        rule: 110  ~location30.20.2 a: 
+          line: 111 0  # '_0 is indeed one! 
+          line: 112 19  # $$r = 3 
+          line: 113 27  # ^gambit ( ~location30 ) 
+          Complexity of rule ~location30.20.2- a: 1
+        rule: 114  ~location30.20.3 a: 
+          line: 114 0  # Yes, we already covered Nessie
+          Complexity of rule ~location30.20.3- a: 1
+        rule: 115  ~location30.20.4 a: 
+          line: 115 0  # ^gambit ( ~location30 ) 
+          Complexity of rule ~location30.20.4- a: 1
+        rule: 117  ~location30.21.0 t: 
+          line: 117 0  # Muckie of Muckross Lake in Ire
+          line: 118 72  # Champ of Lake Champlain, Manni
           Complexity of rule ~location30.21.0- t: 1
-        rule: 106  ~location30.21.1 a: 
-          line: 106 0  # ^gambit ( ~location30 ) 
+        rule: 119  ~location30.21.1 a: 
+          line: 119 0  # Those are some of the ones I'v
           Complexity of rule ~location30.21.1- a: 1
-        rule: 107  ~location30.21.2 a: 
-          line: 108 0  # '_0 is indeed one! 
-          line: 109 19  # $$r = 3 
-          line: 110 27  # ^gambit ( ~location30 ) 
-          Complexity of rule ~location30.21.2- a: 1
-        rule: 111  ~location30.21.3 a: 
-          line: 111 0  # Yes, we already covered Nessie
-          Complexity of rule ~location30.21.3- a: 1
-        rule: 112  ~location30.21.4 a: 
-          line: 112 0  # ^gambit ( ~location30 ) 
-          Complexity of rule ~location30.21.4- a: 1
-        rule: 114  ~location30.22.0 t: 
-          line: 114 0  # Muckie of Muckross Lake in Ire
-          line: 115 72  # Champ of Lake Champlain, Manni
+        rule: 121  ~location30.22.0 t: 
+          line: 121 0  # Mel says that in her state of 
+          line: 122 87  # The Yaquina Bay Monster, which
+          line: 123 140  # $$a_code = 65 
           Complexity of rule ~location30.22.0- t: 1
-        rule: 116  ~location30.22.1 a: 
-          line: 116 0  # Those are some of the ones I'v
+        rule: 124  ~location30.22.1 a: 
+          line: 124 0  # Mel doesn't know much about it
+          line: 125 79  # $$a_code = 3 
           Complexity of rule ~location30.22.1- a: 1
-        rule: 118  ~location30.23.0 t: 
-          line: 118 0  # Mel says that in her state of 
-          line: 119 87  # The Yaquina Bay Monster, which
-          line: 120 140  # $$a_code = 65 
+        rule: 127  ~location30.23.0 t: 
+          line: 127 0  # It's curious, though, that all
+          line: 128 78  # yet no one has captured defini
           Complexity of rule ~location30.23.0- t: 1
-        rule: 121  ~location30.23.1 a: 
-          line: 121 0  # Mel doesn't know much about it
-          line: 122 79  # $$a_code = 3 
+        rule: 129  ~location30.23.1 a: 
+          line: 129 0  # It's okay to admit that you're
           Complexity of rule ~location30.23.1- a: 1
-        rule: 124  ~location30.24.0 t: 
-          line: 124 0  # It's curious, though, that all
-          line: 125 78  # yet no one has captured defini
+        rule: 130  ~location30.23.2 a: 
+          line: 130 0  # You're skeptical too, huh? Wel
+          Complexity of rule ~location30.23.2- a: 1
+        rule: 131  ~location30.23.3 a: 
+          line: 131 0  # Do you really think so? I won'
+          Complexity of rule ~location30.23.3- a: 1
+        rule: 133  ~location30.24.0 t: 
+          line: 133 0  # Even if there really were a la
+          line: 134 108  # I probably would not be able t
           Complexity of rule ~location30.24.0- t: 1
-        rule: 126  ~location30.24.1 a: 
-          line: 126 0  # It's okay to admit that you're
+        rule: 135  ~location30.24.1 a: 
+          line: 135 0  # I can't normally Manifest thin
           Complexity of rule ~location30.24.1- a: 1
-        rule: 127  ~location30.24.2 a: 
-          line: 127 0  # You're skeptical too, huh? Wel
-          Complexity of rule ~location30.24.2- a: 1
-        rule: 128  ~location30.24.3 a: 
-          line: 128 0  # Do you really think so? I won'
-          Complexity of rule ~location30.24.3- a: 1
-        rule: 130  ~location30.25.0 t: 
-          line: 130 0  # Even if there really were a la
-          line: 131 108  # I probably would not be able t
+        rule: 137  ~location30.25.0 t: 
+          line: 137 0  # ^addtopic ( ~creatures ) ^gamb
           Complexity of rule ~location30.25.0- t: 1
-        rule: 132  ~location30.25.1 a: 
-          line: 132 0  # I can't normally Manifest thin
-          Complexity of rule ~location30.25.1- a: 1
-        rule: 134  ~location30.26.0 t: 
-          line: 134 0  # ^addtopic ( ~creatures ) ^gamb
+        rule: 139  ~location30.26.0 t: 
           Complexity of rule ~location30.26.0- t: 1
-        rule: 136  ~location30.27.0 t: 
-          Complexity of rule ~location30.27.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/31_Aegean_Cliffs.top
     topic: 4  ~location31
         rule: 13  ~location31.0.0 ?: 
@@ -25160,111 +25116,109 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/44_Abbo
           line: 62 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location44.8.0- u: 1
         rule: 64  ~location44.9.0 u: 
-          line: 64 0  # Mel is taking it all in. Think
+          line: 64 0  # Mel says being here makes her 
           Complexity of rule ~location44.9.0- u: 1
-        rule: 66  ~location44.10.0 u: 
-          line: 66 0  # Those are the flowers we're se
+        rule: 65  ~location44.9.1 a: 
+          line: 65 0  # Mel was making a silly joke. ^
+          Complexity of rule ~location44.9.1- a: 1
+        rule: 67  ~location44.10.0 u: 
+          line: 67 0  # Those are the flowers we're se
           Complexity of rule ~location44.10.0- u: 1
-        rule: 67  ~location44.11.0 u: 
-          line: 67 0  # Yes, this farm grew that and m
+        rule: 68  ~location44.11.0 u: 
+          line: 68 0  # Yes, this farm grew that and m
           Complexity of rule ~location44.11.0- u: 1
-        rule: 69  ~location44.12.0 u: 
-          line: 69 0  # It must be a French song. Mel 
+        rule: 70  ~location44.12.0 u: 
+          line: 70 0  # It must be a French song. Mel 
           Complexity of rule ~location44.12.0- u: 1
-        rule: 75  ~location44.13.0 t: 
-          line: 75 0  # ^fail ( TOPIC ) 
+        rule: 76  ~location44.13.0 t: 
+          line: 76 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location44.13.0- t: 1
-        rule: 77  ~location44.14.0 t: 
-          line: 77 0  # This is the region called Aude
-          line: 78 51  # It is here that my sister spen
-          line: 79 103  # ^refine ( ) 
+        rule: 85  ~location44.14.0 t: 
+          line: 85 0  # This is the region called Aude
+          line: 86 51  # It is here that my sister spen
+          line: 87 103  # Are you paying attention, Mel?
+          line: 88 134  # Your great great great great g
           Complexity of rule ~location44.14.0- t: 1
-        rule: 80  ~location44.14.1 a: 
-          line: 80 0  # Singing Au Clair De La Lune, a
+        rule: 89  ~location44.14.1 a: 
+          line: 89 0  # Faith. My sister. 
           Complexity of rule ~location44.14.1- a: 1
-        rule: 82  ~location44.15.0 t: 
-          line: 82 0  # Are you paying attention, Mel?
+        rule: 90  ~location44.14.2 a: 
+          line: 90 0  # My sister moved to France late
+          Complexity of rule ~location44.14.2- a: 1
+        rule: 91  ~location44.14.3 b: 
+          line: 91 0  # Why did she? Yes, I don't know
+          Complexity of rule ~location44.14.3- b: 1
+        rule: 93  ~location44.15.0 t: 
+          line: 93 0  # But ^user ( ) , are these lave
+          line: 94 83  # The farm also grew barley, oat
           Complexity of rule ~location44.15.0- t: 1
-        rule: 83  ~location44.15.1 a: 
-          line: 83 0  # Faith. My sister. 
+        rule: 95  ~location44.15.1 a: 
+          line: 95 0  # Such crops thrived in this are
           Complexity of rule ~location44.15.1- a: 1
-        rule: 84  ~location44.15.2 a: 
-          line: 84 0  # My sister moved to France late
+        rule: 96  ~location44.15.2 a: 
+          line: 96 0  # Ehehe! ^gambit ( ~location44 )
           Complexity of rule ~location44.15.2- a: 1
-        rule: 85  ~location44.15.3 b: 
-          line: 85 0  # Why did she? Yes, I don't know
-          Complexity of rule ~location44.15.3- b: 1
-        rule: 87  ~location44.16.0 t: 
-          line: 87 0  # But ^user ( ) , are these lave
-          line: 88 83  # The farm also grew barley, oat
+        rule: 98  ~location44.16.0 t: 
+          line: 98 0  # I'm glad for Faith that she ha
+          line: 99 93  # One need not have lived on a f
           Complexity of rule ~location44.16.0- t: 1
-        rule: 89  ~location44.16.1 a: 
-          line: 89 0  # Such crops thrived in this are
+        rule: 100  ~location44.16.1 a: 
+          line: 100 0  # Come to think of it, I recall 
+          line: 101 116  # I wonder why that was? Why not
           Complexity of rule ~location44.16.1- a: 1
-        rule: 90  ~location44.16.2 a: 
-          line: 90 0  # Ehehe! ^gambit ( ~location44 )
+        rule: 102  ~location44.16.2 a: 
+          line: 102 0  # Yes, I would like to know myse
           Complexity of rule ~location44.16.2- a: 1
-        rule: 92  ~location44.17.0 t: 
-          line: 92 0  # I'm glad for Faith that she ha
-          line: 93 93  # One need not have lived on a f
+        rule: 104  ~location44.17.0 t: 
+          line: 104 0  # Why did my sister's family mov
+          line: 105 80  # have witnessed it, but that do
           Complexity of rule ~location44.17.0- t: 1
-        rule: 94  ~location44.17.1 a: 
-          line: 94 0  # Come to think of it, I recall 
-          line: 95 116  # I wonder why that was? Why not
-          Complexity of rule ~location44.17.1- a: 1
-        rule: 96  ~location44.17.2 a: 
-          line: 96 0  # Yes, I would like to know myse
-          Complexity of rule ~location44.17.2- a: 1
-        rule: 98  ~location44.18.0 t: 
-          line: 98 0  # Why did my sister's family mov
-          line: 99 80  # have witnessed it, but that do
+        rule: 107  ~location44.18.0 t: 
+          line: 107 0  # Wait. There WAS a reason why m
+          line: 108 97  # And why he barely could walk a
           Complexity of rule ~location44.18.0- t: 1
-        rule: 101  ~location44.19.0 t: 
-          line: 101 0  # Wait. There WAS a reason why m
-          line: 102 97  # And why he barely could walk a
+        rule: 109  ~location44.18.1 a: 
+          line: 109 0  # Burton Abbott was crippled at 
+          line: 110 113  # Something had happened to his 
+          line: 111 233  # Was it some sort of accident? 
+          Complexity of rule ~location44.18.1- a: 1
+        rule: 112  ~location44.18.2 b: 
+          line: 112 0  # I don't know why. It's another
+          Complexity of rule ~location44.18.2- b: 1
+        rule: 114  ~location44.19.0 t: 
+          line: 114 0  # My sister became religious to 
+          line: 115 130  # I guess my father would have b
           Complexity of rule ~location44.19.0- t: 1
-        rule: 103  ~location44.19.1 a: 
-          line: 103 0  # Burton Abbott was crippled at 
-          line: 104 113  # Something had happened to his 
-          line: 105 233  # Was it some sort of accident? 
+        rule: 116  ~location44.19.1 a: 
+          line: 116 0  # My sister wasn't religious whe
           Complexity of rule ~location44.19.1- a: 1
-        rule: 106  ~location44.19.2 b: 
-          line: 106 0  # I don't know why. It's another
-          Complexity of rule ~location44.19.2- b: 1
-        rule: 108  ~location44.20.0 t: 
-          line: 108 0  # My sister became religious to 
-          line: 109 130  # I guess my father would have b
+        rule: 118  ~location44.20.0 t: 
+          line: 118 0  # Faith spent the rest of her ye
           Complexity of rule ~location44.20.0- t: 1
-        rule: 110  ~location44.20.1 a: 
-          line: 110 0  # My sister wasn't religious whe
+        rule: 119  ~location44.20.1 a: 
+          line: 119 0  # Hmm, there must have been a re
           Complexity of rule ~location44.20.1- a: 1
-        rule: 112  ~location44.21.0 t: 
-          line: 112 0  # Faith spent the rest of her ye
+        rule: 121  ~location44.21.0 t: 
+          line: 121 0  # I don't think I'm going to rem
+          line: 122 69  # $cooldown = 0 
+          line: 123 83  # @1 = ^query ( direct_svo 44 kn
+          line: 124 121  # ^delete ( @1 ) 
+          line: 125 136  # ^createfact ( 44 known 2 ) 
+          line: 126 163  # $$update_loc = 44 
           Complexity of rule ~location44.21.0- t: 1
-        rule: 113  ~location44.21.1 a: 
-          line: 113 0  # Hmm, there must have been a re
+        rule: 127  ~location44.21.1 a: 
+          line: 127 0  # Nothing else is springing to m
           Complexity of rule ~location44.21.1- a: 1
-        rule: 115  ~location44.22.0 t: 
-          line: 115 0  # I don't think I'm going to rem
-          line: 116 69  # $cooldown = 0 
-          line: 117 83  # @1 = ^query ( direct_svo 44 kn
-          line: 118 121  # ^delete ( @1 ) 
-          line: 119 136  # ^createfact ( 44 known 2 ) 
-          line: 120 163  # $$update_loc = 44 
+        rule: 129  ~location44.22.0 t: 
+          line: 129 0  # You know, ^user ( ) , I bet th
+          line: 130 109  # And you too, Mel. Well, if it'
+          line: 131 178  # $$a_code = 35 
           Complexity of rule ~location44.22.0- t: 1
-        rule: 121  ~location44.22.1 a: 
-          line: 121 0  # Nothing else is springing to m
+        rule: 132  ~location44.22.1 a: 
+          line: 132 0  # I guess not every fruit grows 
           Complexity of rule ~location44.22.1- a: 1
-        rule: 123  ~location44.23.0 t: 
-          line: 123 0  # You know, ^user ( ) , I bet th
-          line: 124 109  # And you too, Mel. Well, if it'
-          line: 125 178  # $$a_code = 35 
+        rule: 134  ~location44.23.0 t: 
           Complexity of rule ~location44.23.0- t: 1
-        rule: 126  ~location44.23.1 a: 
-          line: 126 0  # I guess not every fruit grows 
-          Complexity of rule ~location44.23.1- a: 1
-        rule: 128  ~location44.24.0 t: 
-          Complexity of rule ~location44.24.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/45_East_End.top
     topic: 4  ~location45
         rule: 13  ~location45.0.0 ?: 
@@ -25940,7 +25894,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/49_Grea
           Complexity of rule ~location49.14.3- a: 1
         rule: 85  ~location49.15.0 t: 
           line: 85 0  # $user wasn't born yesterday, a
-          line: 86 109  # That's Mel's less-than-kind wo
+          line: 86 99  # That's Mel's less-than-kind wo
           Complexity of rule ~location49.15.0- t: 1
         rule: 87  ~location49.15.1 a: 
           line: 87 0  # I normally cannot Manifest mov
@@ -25950,68 +25904,69 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/49_Grea
         rule: 90  ~location49.15.2 b: 
           line: 90 0  # Well, it's difficult enough to
           Complexity of rule ~location49.15.2- b: 1
-        rule: 92  ~location49.16.0 t: 
-          line: 92 0  # I guess this doesn't compare t
-          line: 93 71  # You can see a lot more fish an
+        rule: 93  ~location49.16.0 t: 
+          line: 93 0  # Okay, ^user ( ) , I have a tri
+          line: 94 100  # Seven Natural Wonders of the w
           Complexity of rule ~location49.16.0- t: 1
-        rule: 94  ~location49.16.1 a: 
-          line: 94 0  # Well am I wrong? I didn't thin
+        rule: 95  ~location49.16.1 a: 
+          line: 95 0  # ^gambit ( ~location49 ) 
           Complexity of rule ~location49.16.1- a: 1
-        rule: 96  ~location49.17.0 t: 
-          line: 96 0  # Okay, ^user ( ) , I have a tri
-          line: 97 100  # Seven Natural Wonders of the w
+        rule: 96  ~location49.16.2 a: 
+          line: 96 0  # Um, yeah, we already counted t
+          Complexity of rule ~location49.16.2- a: 1
+        rule: 97  ~location49.16.3 a: 
+          line: 97 0  # No, that's one of the seven wo
+          Complexity of rule ~location49.16.3- a: 1
+        rule: 98  ~location49.16.4 a: 
+          line: 99 0  # Get-in! So smart you are! 
+          line: 100 26  # $$r = 3 
+          line: 101 34  # ^gambit ( ~location49 ) 
+          Complexity of rule ~location49.16.4- a: 1
+        rule: 102  ~location49.16.5 a: 
+          line: 102 0  # Not quite. ^gambit ( ~location
+          Complexity of rule ~location49.16.5- a: 1
+        rule: 104  ~location49.17.0 t: 
+          line: 104 0  # The other six are the Aurora B
+          line: 105 166  # The last one is named after my
           Complexity of rule ~location49.17.0- t: 1
-        rule: 98  ~location49.17.1 a: 
-          line: 98 0  # ^gambit ( ~location49 ) 
+        rule: 106  ~location49.17.1 a: 
+          line: 106 0  # I know some trivia, hehe. I ca
           Complexity of rule ~location49.17.1- a: 1
-        rule: 99  ~location49.17.2 a: 
-          line: 99 0  # Um, yeah, we already counted t
+        rule: 107  ~location49.17.2 a: 
+          line: 107 0  # Yes, Victoria who was queen in
           Complexity of rule ~location49.17.2- a: 1
-        rule: 100  ~location49.17.3 a: 
-          line: 100 0  # No, that's one of the seven wo
-          Complexity of rule ~location49.17.3- a: 1
-        rule: 101  ~location49.17.4 a: 
-          line: 102 0  # Get-in! So smart you are! 
-          line: 103 26  # $$r = 3 
-          line: 104 34  # ^gambit ( ~location49 ) 
-          Complexity of rule ~location49.17.4- a: 1
-        rule: 105  ~location49.17.5 a: 
-          line: 105 0  # Not quite. ^gambit ( ~location
-          Complexity of rule ~location49.17.5- a: 1
-        rule: 107  ~location49.18.0 t: 
-          line: 107 0  # The other six are the Aurora B
-          line: 108 166  # The last one is named after my
+        rule: 109  ~location49.18.0 t: 
+          line: 109 0  # But you know what I think? The
+          line: 110 77  # You could say I've sort of bee
           Complexity of rule ~location49.18.0- t: 1
-        rule: 109  ~location49.18.1 a: 
-          line: 109 0  # I know some trivia, hehe. I ca
+        rule: 111  ~location49.18.1 a: 
+          line: 111 0  # The Earth is full of beauty. I
           Complexity of rule ~location49.18.1- a: 1
-        rule: 110  ~location49.18.2 a: 
-          line: 110 0  # Yes, Victoria who was queen in
-          Complexity of rule ~location49.18.2- a: 1
-        rule: 112  ~location49.19.0 t: 
-          line: 112 0  # But you know what I think? The
-          line: 113 77  # You could say I've sort of bee
+        rule: 112  ~location49.18.2 b: 
+          line: 112 0  # Right. So, anyway, we don't ha
+          Complexity of rule ~location49.18.2- b: 1
+        rule: 114  ~location49.19.0 t: 
+          line: 114 0  # Mel says, $user didn't ask to 
+          line: 115 66  # Speaking of that, we haven't t
+          line: 116 130  # $$a_code = 65 
           Complexity of rule ~location49.19.0- t: 1
-        rule: 114  ~location49.19.1 a: 
-          line: 114 0  # The Earth is full of beauty. I
+        rule: 117  ~location49.19.1 a: 
+          line: 117 0  # And...we could. If we wanted t
+          line: 118 33  # $$a_code = 3 
           Complexity of rule ~location49.19.1- a: 1
-        rule: 115  ~location49.19.2 b: 
-          line: 115 0  # Right. So, anyway, we don't ha
-          Complexity of rule ~location49.19.2- b: 1
-        rule: 117  ~location49.20.0 t: 
-          line: 117 0  # Mel says, $user didn't ask to 
-          line: 118 66  # Speaking of that, we haven't t
-          line: 119 130  # $$a_code = 65 
+        rule: 120  ~location49.20.0 t: 
+          line: 120 0  # ^addtopic ( ~her_sports ) ^gam
           Complexity of rule ~location49.20.0- t: 1
-        rule: 120  ~location49.20.1 a: 
-          line: 120 0  # And...we could. If we wanted t
-          line: 121 33  # $$a_code = 3 
-          Complexity of rule ~location49.20.1- a: 1
-        rule: 123  ~location49.21.0 t: 
-          line: 123 0  # ^addtopic ( ~her_sports ) ^gam
+        rule: 122  ~location49.21.0 t: 
+          line: 122 0  # ^no_clues_here ( 49 ) 
           Complexity of rule ~location49.21.0- t: 1
-        rule: 125  ~location49.22.0 t: 
+        rule: 124  ~location49.22.0 t: 
+          line: 124 0  # I guess this doesn't compare t
+          line: 125 71  # You can see a lot more fish an
           Complexity of rule ~location49.22.0- t: 1
+        rule: 126  ~location49.22.1 a: 
+          line: 126 0  # Well am I wrong? I didn't thin
+          Complexity of rule ~location49.22.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/50_Myeongdong_Rooftop.top
     topic: 4  ~location50
         rule: 13  ~location50.0.0 ?: 
@@ -26063,130 +26018,125 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/50_Myeo
         rule: 76  ~location50.13.0 t: 
           line: 76 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location50.13.0- t: 1
-        rule: 78  ~location50.14.0 t: 
-          line: 78 0  # Myeongdong is the most famous 
-          line: 79 60  # But there's bugger all that yo
+        rule: 84  ~location50.14.0 t: 
+          line: 84 0  # Myeongdong is the most famous 
+          line: 85 60  # But there's bugger all that yo
+          line: 86 106  # Modern-day young ladies are su
+          line: 87 173  # I never had the chance to even
           Complexity of rule ~location50.14.0- t: 1
-        rule: 80  ~location50.14.1 a: 
-          line: 80 0  # Surely you do not need to ask 
+        rule: 88  ~location50.14.1 a: 
+          line: 88 0  # I barely left my home. Only to
           Complexity of rule ~location50.14.1- a: 1
-        rule: 82  ~location50.15.0 t: 
-          line: 82 0  # Modern-day young ladies are su
-          line: 83 67  # I was never that way. I never 
+        rule: 90  ~location50.15.0 t: 
+          line: 90 0  # I never owned anything of valu
+          line: 91 88  # ever purchased? 
           Complexity of rule ~location50.15.0- t: 1
-        rule: 84  ~location50.15.1 a: 
-          line: 84 0  # I barely left my home. Only to
+        rule: 92  ~location50.15.1 a: 
+          line: 92 0  # You don't know? 
           Complexity of rule ~location50.15.1- a: 1
-        rule: 86  ~location50.16.0 t: 
-          line: 86 0  # I never owned anything of valu
-          line: 87 88  # ever purchased? 
+        rule: 93  ~location50.15.2 a: 
+          line: 93 0  # So you were poor yourself, I s
+          Complexity of rule ~location50.15.2- a: 1
+        rule: 94  ~location50.15.3 a: 
+          line: 94 0  # You're joking, right? Surely n
+          Complexity of rule ~location50.15.3- a: 1
+        rule: 95  ~location50.15.4 a: 
+          line: 95 0  # You have to be joking. How can
+          Complexity of rule ~location50.15.4- a: 1
+        rule: 96  ~location50.15.5 a: 
+          line: 96 0  # Wow! No joke, ^user ( ) ? I ca
+          line: 97 108  # was roughly as high in my time
+          line: 98 155  # $pc_expensive = house 
+          Complexity of rule ~location50.15.5- a: 1
+        rule: 99  ~location50.15.6 a: 
+          line: 99 0  # That's the answer I expected. 
+          line: 100 81  # expensive than their personal 
+          line: 101 126  # $pc_expensive = _0 
+          Complexity of rule ~location50.15.6- a: 1
+        rule: 102  ~location50.15.7 a: 
+          line: 102 0  # A bike costs a fair penny, doe
+          line: 103 39  # $pc_expensive = _0 
+          Complexity of rule ~location50.15.7- a: 1
+        rule: 104  ~location50.15.8 a: 
+          line: 104 0  # Oh, that's a nice answer. No m
+          line: 105 94  # $pc_expensive = _0 
+          Complexity of rule ~location50.15.8- a: 1
+        rule: 106  ~location50.15.9 a: 
+          line: 106 0  # The most expensive thing you o
+          line: 107 46  # I bet you get good mileage out
+          line: 108 92  # $pc_expensive = _0 
+          Complexity of rule ~location50.15.9- a: 1
+        rule: 109  ~location50.15.10 a: 
+          line: 109 0  # Well, that's an investment one
+          line: 110 76  # $pc_expensive = _0 
+          Complexity of rule ~location50.15.10- a: 1
+        rule: 111  ~location50.15.11 a: 
+          line: 111 0  # Great answer! A powerful blend
+          line: 112 58  # $pc_expensive = blender 
+          Complexity of rule ~location50.15.11- a: 1
+        rule: 113  ~location50.15.12 a: 
+          line: 113 0  # Oh yes, jewelry is a reasonabl
+          line: 114 57  # $pc_expensive = _0 
+          Complexity of rule ~location50.15.12- a: 1
+        rule: 115  ~location50.15.13 a: 
+          line: 115 0  # Are phones that expensive toda
+          line: 116 67  # $pc_expensive = phone 
+          Complexity of rule ~location50.15.13- a: 1
+        rule: 117  ~location50.15.14 a: 
+          line: 117 0  # Oh! I didn't expect you to say
+          Complexity of rule ~location50.15.14- a: 1
+        rule: 119  ~location50.16.0 t: 
+          line: 119 0  # Speaking of Korea, ^user ( ) ,
+          line: 120 74  # An international age and a lun
           Complexity of rule ~location50.16.0- t: 1
-        rule: 88  ~location50.16.1 a: 
-          line: 88 0  # You don't know? 
+        rule: 121  ~location50.16.1 a: 
+          line: 121 0  # Since my international age is 
           Complexity of rule ~location50.16.1- a: 1
-        rule: 89  ~location50.16.2 a: 
-          line: 89 0  # So you were poor yourself, I s
-          Complexity of rule ~location50.16.2- a: 1
-        rule: 90  ~location50.16.3 a: 
-          line: 90 0  # You're joking, right? Surely n
-          Complexity of rule ~location50.16.3- a: 1
-        rule: 91  ~location50.16.4 a: 
-          line: 91 0  # You have to be joking. How can
-          Complexity of rule ~location50.16.4- a: 1
-        rule: 92  ~location50.16.5 a: 
-          line: 92 0  # Wow! No joke, ^user ( ) ? I ca
-          line: 93 108  # was roughly as high in my time
-          line: 94 155  # $pc_expensive = house 
-          Complexity of rule ~location50.16.5- a: 1
-        rule: 95  ~location50.16.6 a: 
-          line: 95 0  # That's the answer I expected. 
-          line: 96 81  # expensive than their personal 
-          line: 97 126  # $pc_expensive = _0 
-          Complexity of rule ~location50.16.6- a: 1
-        rule: 98  ~location50.16.7 a: 
-          line: 98 0  # A bike costs a fair penny, doe
-          line: 99 39  # $pc_expensive = _0 
-          Complexity of rule ~location50.16.7- a: 1
-        rule: 100  ~location50.16.8 a: 
-          line: 100 0  # Oh, that's a nice answer. No m
-          line: 101 94  # $pc_expensive = _0 
-          Complexity of rule ~location50.16.8- a: 1
-        rule: 102  ~location50.16.9 a: 
-          line: 102 0  # The most expensive thing you o
-          line: 103 46  # I bet you get good mileage out
-          line: 104 92  # $pc_expensive = _0 
-          Complexity of rule ~location50.16.9- a: 1
-        rule: 105  ~location50.16.10 a: 
-          line: 105 0  # Well, that's an investment one
-          line: 106 76  # $pc_expensive = _0 
-          Complexity of rule ~location50.16.10- a: 1
-        rule: 107  ~location50.16.11 a: 
-          line: 107 0  # Great answer! A powerful blend
-          line: 108 58  # $pc_expensive = blender 
-          Complexity of rule ~location50.16.11- a: 1
-        rule: 109  ~location50.16.12 a: 
-          line: 109 0  # Oh yes, jewelry is a reasonabl
-          line: 110 57  # $pc_expensive = _0 
-          Complexity of rule ~location50.16.12- a: 1
-        rule: 111  ~location50.16.13 a: 
-          line: 111 0  # Are phones that expensive toda
-          line: 112 67  # $pc_expensive = phone 
-          Complexity of rule ~location50.16.13- a: 1
-        rule: 113  ~location50.16.14 a: 
-          line: 113 0  # Oh! I didn't expect you to say
-          Complexity of rule ~location50.16.14- a: 1
-        rule: 115  ~location50.17.0 t: 
-          line: 115 0  # Speaking of Korea, ^user ( ) ,
-          line: 116 74  # An international age and a lun
+        rule: 122  ~location50.16.2 b: 
+          line: 122 0  # ^gambit ( ~location50 ) 
+          Complexity of rule ~location50.16.2- b: 1
+        rule: 123  ~location50.16.3 b: 
+          line: 123 0  # That's right! 
+          line: 124 14  # $$r = 3 
+          line: 125 22  # ^gambit ( ~location50 ) 
+          Complexity of rule ~location50.16.3- b: 1
+        rule: 126  ~location50.16.4 b: 
+          line: 126 0  # You're close! 
+          line: 127 14  # $$r = 1 
+          line: 128 22  # ^gambit ( ~location50 ) 
+          Complexity of rule ~location50.16.4- b: 1
+        rule: 129  ~location50.16.5 b: 
+          line: 129 0  # Hmm, no. ^gambit ( ~location50
+          Complexity of rule ~location50.16.5- b: 1
+        rule: 131  ~location50.17.0 t: 
+          line: 131 0  # Your lunar or Korean age begin
+          line: 132 96  # That means we each become 2 ye
           Complexity of rule ~location50.17.0- t: 1
-        rule: 117  ~location50.17.1 a: 
-          line: 117 0  # Since my international age is 
+        rule: 133  ~location50.17.1 a: 
+          line: 133 0  # It's the way they do it here, 
           Complexity of rule ~location50.17.1- a: 1
-        rule: 118  ~location50.17.2 b: 
-          line: 118 0  # ^gambit ( ~location50 ) 
-          Complexity of rule ~location50.17.2- b: 1
-        rule: 119  ~location50.17.3 b: 
-          line: 119 0  # That's right! 
-          line: 120 14  # $$r = 3 
-          line: 121 22  # ^gambit ( ~location50 ) 
-          Complexity of rule ~location50.17.3- b: 1
-        rule: 122  ~location50.17.4 b: 
-          line: 122 0  # You're close! 
-          line: 123 14  # $$r = 1 
-          line: 124 22  # ^gambit ( ~location50 ) 
-          Complexity of rule ~location50.17.4- b: 1
-        rule: 125  ~location50.17.5 b: 
-          line: 125 0  # Hmm, no. ^gambit ( ~location50
-          Complexity of rule ~location50.17.5- b: 1
-        rule: 127  ~location50.18.0 t: 
-          line: 127 0  # Your lunar or Korean age begin
-          line: 128 96  # That means we each become 2 ye
+        rule: 135  ~location50.18.0 t: 
+          line: 135 0  # Of course, the calendar date i
+          line: 136 61  # time doesn't flow for a spirit
           Complexity of rule ~location50.18.0- t: 1
-        rule: 129  ~location50.18.1 a: 
-          line: 129 0  # It's the way they do it here, 
+        rule: 137  ~location50.18.1 a: 
+          line: 137 0  # Because I exist at the speed o
           Complexity of rule ~location50.18.1- a: 1
-        rule: 131  ~location50.19.0 t: 
-          line: 131 0  # Of course, the calendar date i
-          line: 132 61  # time doesn't flow for a spirit
+        rule: 139  ~location50.19.0 t: 
+          line: 139 0  # 18 is still too young to do an
+          line: 140 54  # 2 years off from being able to
+          line: 141 117  # You need to have 19 internatio
           Complexity of rule ~location50.19.0- t: 1
-        rule: 133  ~location50.19.1 a: 
-          line: 133 0  # Because I exist at the speed o
+        rule: 142  ~location50.19.1 a: 
+          line: 142 0  # Because of the laws. Anyhow, I
           Complexity of rule ~location50.19.1- a: 1
-        rule: 135  ~location50.20.0 t: 
-          line: 135 0  # 18 is still too young to do an
-          line: 136 54  # 2 years off from being able to
-          line: 137 117  # You need to have 19 internatio
+        rule: 144  ~location50.20.0 t: 
+          line: 144 0  # According to Mel, the age at w
+          line: 145 75  # age at which you discover wher
+          line: 146 158  # ^addtopic ( ~alcohol ) 
           Complexity of rule ~location50.20.0- t: 1
-        rule: 138  ~location50.20.1 a: 
-          line: 138 0  # Because of the laws. Anyhow, I
-          Complexity of rule ~location50.20.1- a: 1
-        rule: 140  ~location50.21.0 t: 
-          line: 140 0  # According to Mel, the age at w
-          line: 141 75  # age at which you discover wher
-          line: 142 158  # ^addtopic ( ~alcohol ) 
+        rule: 151  ~location50.21.0 t: 
           Complexity of rule ~location50.21.0- t: 1
-        rule: 147  ~location50.22.0 t: 
-          Complexity of rule ~location50.22.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/51_Wasteland.top
     topic: 4  ~location51
         rule: 13  ~location51.0.0 ?: 
