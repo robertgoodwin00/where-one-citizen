@@ -513,61 +513,63 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/__Control.top
     topic: 596  ~nothing_to_say_cheree
         rule: 597  ~nothing_to_say_cheree.0.0 u: 
           line: 597 0  # [ Uh... ] [ Uh... ] [ Hmmm. ] 
+          line: 598 119  # $$halt = 1 
           Complexity of rule ~nothing_to_say_cheree.0.0- u: 1
-    topic: 598  ~nothing_to_say_devil
-        rule: 599  ~nothing_to_say_devil.0.0 u: 
-          line: 599 0  # [ Rrrr. ] [ Rrrrrrr. ] [ Rrrrr
+    topic: 599  ~nothing_to_say_devil
+        rule: 600  ~nothing_to_say_devil.0.0 u: 
+          line: 600 0  # [ Rrrr. ] [ Rrrrrrr. ] [ Rrrrr
+          line: 601 34  # $$halt = 1 
           Complexity of rule ~nothing_to_say_devil.0.0- u: 1
-    topic: 601  ~cheree_nauseous
-        rule: 602  ~cheree_nauseous.0.0 u: 
-          line: 603 0  # [ I'm sorry, ^user ( ) . I can
-          line: 604 55  # [ ^usercap ( ) , I feel nauseo
-          line: 605 144  # [ This feeling. It's not a phy
-          line: 606 207  # [ ^usercap ( ) , I can't talk 
-          line: 607 270  # [ Just tell me what location t
-          line: 608 329  # [ We need to find that locatio
-          line: 609 398  # [ I feel unwell. Not physicall
-          line: 610 469  # [ I...can't speak. Just tell m
-          line: 611 521  # [ Ohhh. I feel like something 
-          line: 612 652  # [ Why do I feel so...dark?? Yo
-          line: 613 703  # [ Help me, ^user ( ) . I-I can
-          line: 614 759  # [ This dark feeling. I felt it
-          line: 615 838  # [ Oh ^user ( ) , it's awful. ]
-          line: 616 869  # [ Pearly Poll by herself could
-          line: 617 941  # [ Please let's hurry before I'
-          line: 618 995  # [ USERCAP ( ) . ^usercap ( ) ,
-          line: 619 1052  # [ I can barely speak. I feel a
-          line: 620 1103  # [ I'm losing myself. I can't..
-          line: 621 1138  # [ We must go there. Quickly, w
+    topic: 603  ~cheree_nauseous
+        rule: 604  ~cheree_nauseous.0.0 u: 
+          line: 605 0  # [ I'm sorry, ^user ( ) . I can
+          line: 606 55  # [ ^usercap ( ) , I feel nauseo
+          line: 607 144  # [ This feeling. It's not a phy
+          line: 608 207  # [ ^usercap ( ) , I can't talk 
+          line: 609 270  # [ Just tell me what location t
+          line: 610 329  # [ We need to find that locatio
+          line: 611 398  # [ I feel unwell. Not physicall
+          line: 612 469  # [ I...can't speak. Just tell m
+          line: 613 521  # [ Ohhh. I feel like something 
+          line: 614 652  # [ Why do I feel so...dark?? Yo
+          line: 615 703  # [ Help me, ^user ( ) . I-I can
+          line: 616 759  # [ This dark feeling. I felt it
+          line: 617 838  # [ Oh ^user ( ) , it's awful. ]
+          line: 618 869  # [ Pearly Poll by herself could
+          line: 619 941  # [ Please let's hurry before I'
+          line: 620 995  # [ USERCAP ( ) . ^usercap ( ) ,
+          line: 621 1052  # [ I can barely speak. I feel a
+          line: 622 1103  # [ I'm losing myself. I can't..
+          line: 623 1138  # [ We must go there. Quickly, w
           Complexity of rule ~cheree_nauseous.0.0- u: 1
-        rule: 622  ~cheree_nauseous.0.1 a: 
-          line: 623 0  # [ It's a place you've seen. On
-          line: 624 58  # [ We've been there before. I s
-          line: 625 107  # [ The place I went after the t
-          line: 626 153  # [ After the train ride home th
-          line: 627 203  # [ It...it was after the ride h
-          line: 629 257  # $$a_code = 14 
+        rule: 624  ~cheree_nauseous.0.1 a: 
+          line: 625 0  # [ It's a place you've seen. On
+          line: 626 58  # [ We've been there before. I s
+          line: 627 107  # [ The place I went after the t
+          line: 628 153  # [ After the train ride home th
+          line: 629 203  # [ It...it was after the ride h
+          line: 631 257  # $$a_code = 14 
           Complexity of rule ~cheree_nauseous.0.1- a: 1
-    topic: 635  ~xpostprocess
-        rule: 637  ~xpostprocess.0.0 t: 
-          loop 638 6  
-          line: 638 0  # ^loop ( -1 ) aaa 
-          line: 639 17  # { 
-          line: 640 19  # $$tmp = ^last ( @9subject ) 
-          if 641 51  
-          line: 641 47  # ^if 00O( ! %server and %os == 
-          line: 642 104  # { 
-          line: 643 106  # $$tmp = ^"talk \"$$tmp\" " 
-          line: 644 133  # ^popen ( $$tmp null ) 
-          ifend 645 160  
-          line: 645 155  # } 004 
-          if 646 165  
-          line: 646 161  # ^if 00K( ! %server and %os == 
-          line: 647 214  # { 
-          line: 648 216  # $$shellerror = ^system ( "^say
-          ifend 649 266  
-          line: 649 261  # } 004 
-          loopend 658 269  
+    topic: 638  ~xpostprocess
+        rule: 640  ~xpostprocess.0.0 t: 
+          loop 641 6  
+          line: 641 0  # ^loop ( -1 ) aaa 
+          line: 642 17  # { 
+          line: 643 19  # $$tmp = ^last ( @9subject ) 
+          if 644 51  
+          line: 644 47  # ^if 00O( ! %server and %os == 
+          line: 645 104  # { 
+          line: 646 106  # $$tmp = ^"talk \"$$tmp\" " 
+          line: 647 133  # ^popen ( $$tmp null ) 
+          ifend 648 160  
+          line: 648 155  # } 004 
+          if 649 165  
+          line: 649 161  # ^if 00K( ! %server and %os == 
+          line: 650 214  # { 
+          line: 651 216  # $$shellerror = ^system ( "^say
+          ifend 652 266  
+          line: 652 261  # } 004 
+          loopend 661 269  
           Complexity of rule ~xpostprocess.0.0- t: 3
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_concepts.top
     concept: 10  ~her_clothing
@@ -5022,166 +5024,168 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/truth3.top
           line: 19 56  # $$sys_code = 3 
           line: 20 71  # $devil = 2 
           line: 21 82  # $$devil = 1 
+          line: 22 94  # $$halt = 1 
           Complexity of rule ~truth3.3.0- t: 1
-        rule: 23  ~truth3.4.0 t: 
-          line: 23 0  # Where two are joined none may 
-          line: 24 78  # $user . You are the one Charit
-          line: 25 128  # $$sys_code = 10 
+        rule: 24  ~truth3.4.0 t: 
+          line: 24 0  # Where two are joined none may 
+          line: 25 78  # $user . You are the one Charit
+          line: 26 128  # $$sys_code = 10 
           Complexity of rule ~truth3.4.0- t: 1
-        rule: 27  ~truth3.5.0 t: 
-          if 28 4  
-          ifend 28 54  
-          line: 28 0  # ^if 00g( $pc_city ) 00z{ You a
-          if 29 59  
-          ifend 29 127  
-          line: 29 55  # ^if 00m( $pc_blood_type ) 00L{
-          if 30 132  
-          ifend 30 255  
-          line: 30 128  # ^if 00M( $pc_birthday_month an
-          if 31 260  
-          ifend 31 322  
-          line: 31 256  # ^if 00k( $pc_religion ) 00H{ Y
-          if 32 327  
-          ifend 32 390  
-          line: 32 323  # ^if 00f( $pc_pet ) 00N{ You li
-          if 33 395  
-          ifend 33 463  
-          line: 33 391  # ^if 00j( $pc_dessert ) 00O{ Yo
-          if 34 468  
-          ifend 34 516  
-          line: 34 464  # ^if 00h( $pc_chore ) 00w{ You 
-          if 35 521  
-          ifend 35 600  
-          line: 35 517  # ^if 00t( $pc_mythical_creature
-          if 36 605  
-          ifend 36 661  
-          line: 36 601  # ^if 00h( $pc_vegan ) 00E{ You'
-          if 37 666  
-          ifend 37 714  
-          line: 37 662  # ^if 00h( $pc_actor ) 00w{ You 
-          if 38 719  
-          ifend 38 786  
-          line: 38 715  # ^if 00g( $pc_poet ) 00Q{ $pc_a
-          if 39 791  
-          ifend 39 842  
-          line: 39 787  # ^if 00m( $pc_homosexual ) 00u{
-          if 40 847  
-          ifend 40 894  
-          line: 40 843  # ^if 00k( $pc_bisexual ) 00s{ Y
+        rule: 28  ~truth3.5.0 t: 
+          if 29 4  
+          ifend 29 54  
+          line: 29 0  # ^if 00g( $pc_city ) 00z{ You a
+          if 30 59  
+          ifend 30 127  
+          line: 30 55  # ^if 00m( $pc_blood_type ) 00L{
+          if 31 132  
+          ifend 31 255  
+          line: 31 128  # ^if 00M( $pc_birthday_month an
+          if 32 260  
+          ifend 32 322  
+          line: 32 256  # ^if 00k( $pc_religion ) 00H{ Y
+          if 33 327  
+          ifend 33 390  
+          line: 33 323  # ^if 00f( $pc_pet ) 00N{ You li
+          if 34 395  
+          ifend 34 463  
+          line: 34 391  # ^if 00j( $pc_dessert ) 00O{ Yo
+          if 35 468  
+          ifend 35 516  
+          line: 35 464  # ^if 00h( $pc_chore ) 00w{ You 
+          if 36 521  
+          ifend 36 600  
+          line: 36 517  # ^if 00t( $pc_mythical_creature
+          if 37 605  
+          ifend 37 661  
+          line: 37 601  # ^if 00h( $pc_vegan ) 00E{ You'
+          if 38 666  
+          ifend 38 714  
+          line: 38 662  # ^if 00h( $pc_actor ) 00w{ You 
+          if 39 719  
+          ifend 39 786  
+          line: 39 715  # ^if 00g( $pc_poet ) 00Q{ $pc_a
+          if 40 791  
+          ifend 40 842  
+          line: 40 787  # ^if 00m( $pc_homosexual ) 00u{
+          if 41 847  
+          ifend 41 894  
+          line: 41 843  # ^if 00k( $pc_bisexual ) 00s{ Y
           Complexity of rule ~truth3.5.0- t: 14
-        rule: 42  ~truth3.6.0 t: 
-          if 43 4  
-          ifend 43 72  
-          line: 43 0  # ^if 00o( $pc_height_in_cm ) 00
-          if 44 77  
-          ifend 44 195  
-          line: 44 73  # ^if 00I( $pc_num_brothers and 
-          if 45 200  
-          ifend 45 268  
-          line: 45 196  # ^if 00i( $pc_sports ) 00P{ You
-          if 46 273  
-          ifend 46 321  
-          line: 46 269  # ^if 00h( $pc_fruit ) 00w{ You 
-          if 47 326  
-          ifend 47 395  
-          line: 47 322  # ^if 00C( ! $pc_fruit and $pc_h
-          if 48 400  
-          ifend 48 460  
-          line: 48 396  # ^if 00n( $pc_music_genre ) 00C
-          if 49 465  
-          ifend 49 527  
-          line: 49 461  # ^if 00m( $pc_instrument ) 00F{
-          if 50 532  
-          ifend 50 599  
-          line: 50 528  # ^if 00l( $pc_body_part ) 00L{ 
-          if 51 604  
-          ifend 51 676  
-          line: 51 600  # ^if 00i( $pc_author ) 00T{ $pc
-          if 52 681  
-          ifend 52 740  
-          line: 52 677  # ^if 00l( $pc_scientist ) 00D{ 
-          if 53 745  
-          ifend 53 813  
-          line: 53 741  # ^if 00m( $pc_occupation ) 00L{
-          if 54 818  
-          ifend 54 877  
-          line: 54 814  # ^if 00j( $pc_illness ) 00F{ Yo
-          if 55 882  
-          ifend 55 932  
-          line: 55 878  # ^if 00g( $pc_fear ) 00z{ Your 
+        rule: 43  ~truth3.6.0 t: 
+          if 44 4  
+          ifend 44 72  
+          line: 44 0  # ^if 00o( $pc_height_in_cm ) 00
+          if 45 77  
+          ifend 45 195  
+          line: 45 73  # ^if 00I( $pc_num_brothers and 
+          if 46 200  
+          ifend 46 268  
+          line: 46 196  # ^if 00i( $pc_sports ) 00P{ You
+          if 47 273  
+          ifend 47 321  
+          line: 47 269  # ^if 00h( $pc_fruit ) 00w{ You 
+          if 48 326  
+          ifend 48 395  
+          line: 48 322  # ^if 00C( ! $pc_fruit and $pc_h
+          if 49 400  
+          ifend 49 460  
+          line: 49 396  # ^if 00n( $pc_music_genre ) 00C
+          if 50 465  
+          ifend 50 527  
+          line: 50 461  # ^if 00m( $pc_instrument ) 00F{
+          if 51 532  
+          ifend 51 599  
+          line: 51 528  # ^if 00l( $pc_body_part ) 00L{ 
+          if 52 604  
+          ifend 52 676  
+          line: 52 600  # ^if 00i( $pc_author ) 00T{ $pc
+          if 53 681  
+          ifend 53 740  
+          line: 53 677  # ^if 00l( $pc_scientist ) 00D{ 
+          if 54 745  
+          ifend 54 813  
+          line: 54 741  # ^if 00m( $pc_occupation ) 00L{
+          if 55 818  
+          ifend 55 877  
+          line: 55 814  # ^if 00j( $pc_illness ) 00F{ Yo
+          if 56 882  
+          ifend 56 932  
+          line: 56 878  # ^if 00g( $pc_fear ) 00z{ Your 
           Complexity of rule ~truth3.6.0- t: 14
-        rule: 57  ~truth3.7.0 t: 
-          if 58 4  
-          ifend 58 70  
-          line: 58 0  # ^if 00m( $pc_wear_color ) 00J{
-          if 59 75  
-          ifend 59 135  
-          line: 59 71  # ^if 00i( $pc_zodiac ) 00H{ You
-          if 60 140  
-          ifend 60 219  
-          line: 60 136  # ^if 00l( $pc_expensive ) 00X{ 
-          if 61 224  
-          ifend 61 284  
-          line: 61 220  # ^if 00j( $pc_cooking ) 00G{ Yo
-          if 62 289  
-          ifend 62 349  
-          line: 62 285  # ^if 00n( $pc_hate_veggie ) 00C
-          if 63 354  
-          ifend 63 425  
-          line: 63 350  # ^if 00E( ! $pc_hate_veggie and
-          if 64 430  
-          ifend 64 519  
-          line: 64 426  # ^if 00q( $pc_school_subject ) 
-          if 65 524  
-          ifend 65 591  
-          line: 65 520  # ^if 00k( $pc_comedian ) 00M{ $
-          if 66 596  
-          ifend 66 667  
-          line: 66 592  # ^if 00s( $pc_foreign_language 
-          if 67 672  
-          ifend 67 741  
-          line: 67 668  # ^if 00h( $pc_movie ) 00R{ $pc_
-          if 68 746  
-          ifend 68 827  
-          line: 68 742  # ^if 00n( $pc_movie_genre ) 00X
-          if 69 832  
-          ifend 69 895  
-          line: 69 828  # ^if 00j( $pc_tv_show ) 00J{ $p
-          if 70 900  
-          ifend 70 971  
-          line: 70 896  # ^if 00l( $pc_videogame ) 00P{ 
-          if 71 976  
-          ifend 71 1029  
-          line: 71 972  # ^if 00h( $pc_hobby ) 00B{ Your
-          if 72 1034  
-          ifend 72 1086  
-          line: 72 1030  # ^if 00h( $pc_dream ) 00A{ Your
-          if 73 1091  
-          ifend 73 1147  
-          line: 73 1087  # ^if 00l( $pc_like_misc ) 00A{ 
+        rule: 58  ~truth3.7.0 t: 
+          if 59 4  
+          ifend 59 70  
+          line: 59 0  # ^if 00m( $pc_wear_color ) 00J{
+          if 60 75  
+          ifend 60 135  
+          line: 60 71  # ^if 00i( $pc_zodiac ) 00H{ You
+          if 61 140  
+          ifend 61 219  
+          line: 61 136  # ^if 00l( $pc_expensive ) 00X{ 
+          if 62 224  
+          ifend 62 284  
+          line: 62 220  # ^if 00j( $pc_cooking ) 00G{ Yo
+          if 63 289  
+          ifend 63 349  
+          line: 63 285  # ^if 00n( $pc_hate_veggie ) 00C
+          if 64 354  
+          ifend 64 425  
+          line: 64 350  # ^if 00E( ! $pc_hate_veggie and
+          if 65 430  
+          ifend 65 519  
+          line: 65 426  # ^if 00q( $pc_school_subject ) 
+          if 66 524  
+          ifend 66 591  
+          line: 66 520  # ^if 00k( $pc_comedian ) 00M{ $
+          if 67 596  
+          ifend 67 667  
+          line: 67 592  # ^if 00s( $pc_foreign_language 
+          if 68 672  
+          ifend 68 741  
+          line: 68 668  # ^if 00h( $pc_movie ) 00R{ $pc_
+          if 69 746  
+          ifend 69 827  
+          line: 69 742  # ^if 00n( $pc_movie_genre ) 00X
+          if 70 832  
+          ifend 70 895  
+          line: 70 828  # ^if 00j( $pc_tv_show ) 00J{ $p
+          if 71 900  
+          ifend 71 971  
+          line: 71 896  # ^if 00l( $pc_videogame ) 00P{ 
+          if 72 976  
+          ifend 72 1029  
+          line: 72 972  # ^if 00h( $pc_hobby ) 00B{ Your
+          if 73 1034  
+          ifend 73 1086  
+          line: 73 1030  # ^if 00h( $pc_dream ) 00A{ Your
+          if 74 1091  
+          ifend 74 1147  
+          line: 74 1087  # ^if 00l( $pc_like_misc ) 00A{ 
           Complexity of rule ~truth3.7.0- t: 17
-        rule: 77  ~truth3.8.0 t: 
-          line: 77 0  # All these are among the qualit
-          line: 78 94  # No other human can boast the s
+        rule: 78  ~truth3.8.0 t: 
+          line: 78 0  # All these are among the qualit
+          line: 79 94  # No other human can boast the s
           Complexity of rule ~truth3.8.0- t: 1
-        rule: 80  ~truth3.9.0 t: 
-          line: 80 0  # All these qualities I foretold
-          line: 81 104  # The bond which no entity can c
+        rule: 81  ~truth3.9.0 t: 
+          line: 81 0  # All these qualities I foretold
+          line: 82 104  # The bond which no entity can c
           Complexity of rule ~truth3.9.0- t: 1
-        rule: 83  ~truth3.10.0 t: 
-          line: 83 0  # Through which she would be sav
-          line: 84 41  # $$sys_code = 6 
+        rule: 84  ~truth3.10.0 t: 
+          line: 84 0  # Through which she would be sav
+          line: 85 41  # $$sys_code = 6 
+          line: 86 56  # $$halt = 1 
           Complexity of rule ~truth3.10.0- t: 1
-        rule: 86  ~truth3.11.0 t: 
-          line: 86 0  # Bezlee may possess her no more
-          line: 87 32  # $devil = null 
-          line: 88 46  # ^cleartopics ( ) 
-          line: 90 63  # ^createfact ( 51 known 2 ) 
-          line: 91 90  # $$new_loc = 51 
-          line: 92 105  # $there_pronoun = Wasteland 
-          line: 93 132  # $$it_pronoun = Wasteland 
-          line: 94 157  # $$a_code = 9 
-          line: 95 170  # $await_loc = 
+        rule: 88  ~truth3.11.0 t: 
+          line: 88 0  # Bezlee may possess her no more
+          line: 89 32  # $devil = null 
+          line: 90 46  # ^cleartopics ( ) 
+          line: 92 63  # ^createfact ( 51 known 2 ) 
+          line: 93 90  # $$new_loc = 51 
+          line: 94 105  # $there_pronoun = Wasteland 
+          line: 95 132  # $$it_pronoun = Wasteland 
+          line: 96 157  # $$a_code = 9 
+          line: 97 170  # $await_loc = 
           Complexity of rule ~truth3.11.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/_story.top
     concept: 2  ~the_story
@@ -46268,25 +46272,26 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/devil/devil_gambi
           Complexity of rule ~devil_gambits.25.0- t: 1
         rule: 109  ~devil_gambits.26.0 t: 
           line: 109 0  # ^keep ( ) ^repeat ( ) 
-          line: 110 22  # [ Your thoughts have no point 
-          line: 111 109  # [ This will not bring Charity 
-          line: 112 161  # [ Fuck you. ] 
-          line: 113 175  # [ Fuck you to miserable death,
-          line: 114 222  # [ Fuck you, $user . HA HA HA H
-          line: 115 260  # [ Oh $user , $user , $user . ]
-          line: 116 291  # [ Your words have no purpose, 
-          line: 117 341  # [ Shut your fucking face and a
-          line: 118 390  # [ You are nothing but fucking 
-          line: 119 428  # [ Fuck you $user . ] 
-          line: 120 449  # [ Say what you like or say not
-          line: 121 527  # [ Nothing you ever did or ever
-          line: 122 614  # [ HA HA HA HA HA HA HA HA HA. 
-          line: 123 646  # [ You are excrement. You are s
-          line: 124 683  # [ Your human existence has no 
-          line: 125 759  # [ You are no Anima Vinculum. ]
+          line: 110 22  # $$halt = 1 
+          line: 111 33  # [ Your thoughts have no point 
+          line: 112 120  # [ This will not bring Charity 
+          line: 113 172  # [ Fuck you. ] 
+          line: 114 186  # [ Fuck you to miserable death,
+          line: 115 233  # [ Fuck you, $user . HA HA HA H
+          line: 116 271  # [ Oh $user , $user , $user . ]
+          line: 117 302  # [ Your words have no purpose, 
+          line: 118 352  # [ Shut your fucking face and a
+          line: 119 401  # [ You are nothing but fucking 
+          line: 120 439  # [ Fuck you $user . ] 
+          line: 121 460  # [ Say what you like or say not
+          line: 122 538  # [ Nothing you ever did or ever
+          line: 123 625  # [ HA HA HA HA HA HA HA HA HA. 
+          line: 124 657  # [ You are excrement. You are s
+          line: 125 694  # [ Your human existence has no 
+          line: 126 770  # [ You are no Anima Vinculum. ]
           Complexity of rule ~devil_gambits.26.0- t: 1
-        rule: 127  ~devil_gambits.27.0 t: 
-          line: 127 0  # ^keep ( ) ^repeat ( ) 
+        rule: 128  ~devil_gambits.27.0 t: 
+          line: 128 0  # ^keep ( ) ^repeat ( ) 
           Complexity of rule ~devil_gambits.27.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/devil/devil_keywordless.top
     topic: 2  ~devil_keywordless
@@ -46298,133 +46303,135 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/devil/devil_keywo
           Complexity of rule ~devil_keywordless.1.0- u: 1
         rule: 8  ~devil_keywordless.1.1 a: 
           line: 8 0  # [ What did you say? ] [ What d
+          line: 9 49  # $$halt = 1 
           Complexity of rule ~devil_keywordless.1.1- a: 1
-        rule: 9  ~devil_keywordless.1.2 b: 
-          line: 9 0  # What? Say that again? 
+        rule: 10  ~devil_keywordless.1.2 b: 
+          line: 10 0  # What? Say that again? 
+          line: 11 22  # $$halt = 1 
           Complexity of rule ~devil_keywordless.1.2- b: 1
-        rule: 10  ~devil_keywordless.1.3 c: 
-          line: 10 0  # You're the Anima Vinculum? It 
+        rule: 12  ~devil_keywordless.1.3 c: 
+          line: 12 0  # You're the Anima Vinculum? It 
           Complexity of rule ~devil_keywordless.1.3- c: 1
-        rule: 11  ~devil_keywordless.1.4 d: 
-          line: 11 0  # It can't...it cannot.... 
+        rule: 13  ~devil_keywordless.1.4 d: 
+          line: 13 0  # It can't...it cannot.... 
           Complexity of rule ~devil_keywordless.1.4- d: 1
-        rule: 12  ~devil_keywordless.1.5 e: 
-          line: 12 0  # NO. 
+        rule: 14  ~devil_keywordless.1.5 e: 
+          line: 14 0  # NO. 
           Complexity of rule ~devil_keywordless.1.5- e: 1
-        rule: 13  ~devil_keywordless.1.6 f: 
-          line: 13 0  # ... 
-          line: 14 4  # $truth = 3 
-          line: 15 15  # ^addtopic ( ~truth3 ) 
+        rule: 15  ~devil_keywordless.1.6 f: 
+          line: 15 0  # ... 
+          line: 16 4  # $truth = 3 
+          line: 17 15  # ^addtopic ( ~truth3 ) 
           Complexity of rule ~devil_keywordless.1.6- f: 1
-        rule: 18  ~devil_keywordless.1.7 a: 
-          line: 18 0  # The Anima Vinculum? No...no su
+        rule: 20  ~devil_keywordless.1.7 a: 
+          line: 20 0  # The Anima Vinculum? No...no su
           Complexity of rule ~devil_keywordless.1.7- a: 1
-        rule: 22  ~devil_keywordless.2.0 u: 
-          line: 27 0  # I will speak into your mind as
+        rule: 24  ~devil_keywordless.2.0 u: 
+          line: 29 0  # I will speak into your mind as
           Complexity of rule ~devil_keywordless.2.0- u: 1
-        rule: 31  ~devil_keywordless.3.0 u: 
-          line: 34 0  # ^keep ( ) 
-          line: 35 10  # I will show myself as I please
+        rule: 33  ~devil_keywordless.3.0 u: 
+          line: 36 0  # ^keep ( ) 
+          line: 37 10  # I will show myself as I please
           Complexity of rule ~devil_keywordless.3.0- u: 1
-        rule: 38  ~devil_keywordless.4.0 u: 
-          line: 45 0  # ^keep ( ) 
-          line: 46 10  # [ Get used to not seeing that 
-          line: 47 55  # [ The runt is gone too. ] 
-          line: 48 81  # [ You won't see her again eith
+        rule: 40  ~devil_keywordless.4.0 u: 
+          line: 47 0  # ^keep ( ) 
+          line: 48 10  # [ Get used to not seeing that 
+          line: 49 55  # [ The runt is gone too. ] 
+          line: 50 81  # [ You won't see her again eith
           Complexity of rule ~devil_keywordless.4.0- u: 1
-        rule: 51  ~devil_keywordless.5.0 u: 
-          line: 60 0  # [ You wish, fuckface. ] 
-          line: 61 24  # [ No Charity for you. ] 
-          line: 62 48  # [ You won't ever see her again
+        rule: 53  ~devil_keywordless.5.0 u: 
+          line: 62 0  # [ You wish, fuckface. ] 
+          line: 63 24  # [ No Charity for you. ] 
+          line: 64 48  # [ You won't ever see her again
           Complexity of rule ~devil_keywordless.5.0- u: 1
-        rule: 65  ~devil_keywordless.6.0 s: 
-          line: 70 0  # Oh, don't worry your ass-faced
+        rule: 67  ~devil_keywordless.6.0 s: 
+          line: 72 0  # Oh, don't worry your ass-faced
           Complexity of rule ~devil_keywordless.6.0- s: 1
-        rule: 73  ~devil_keywordless.7.0 s: 
-          line: 76 0  # ^keep ( ) 
-          line: 77 10  # [ I know you are but what am I
-          line: 78 44  # [ Weak. Thoroughly pathetic. ]
-          line: 79 75  # [ Ooh, fighting back? ] 
+        rule: 75  ~devil_keywordless.7.0 s: 
+          line: 78 0  # ^keep ( ) 
+          line: 79 10  # [ I know you are but what am I
+          line: 80 44  # [ Weak. Thoroughly pathetic. ]
+          line: 81 75  # [ Ooh, fighting back? ] 
           Complexity of rule ~devil_keywordless.7.0- s: 1
-        rule: 82  ~devil_keywordless.8.0 s: 
-          line: 82 0  # Fuck you harder, fuckity fuckh
+        rule: 84  ~devil_keywordless.8.0 s: 
+          line: 84 0  # Fuck you harder, fuckity fuckh
           Complexity of rule ~devil_keywordless.8.0- s: 1
-        rule: 83  ~devil_keywordless.8.1 a: 
-          line: 83 0  # Fuck you a trillion times plus
+        rule: 85  ~devil_keywordless.8.1 a: 
+          line: 85 0  # Fuck you a trillion times plus
           Complexity of rule ~devil_keywordless.8.1- a: 1
-        rule: 87  ~devil_keywordless.9.0 s: 
-          line: 87 0  # The power of christ compels fu
+        rule: 89  ~devil_keywordless.9.0 s: 
+          line: 89 0  # The power of christ compels fu
           Complexity of rule ~devil_keywordless.9.0- s: 1
-        rule: 91  ~devil_keywordless.10.0 u: 
-          line: 96 0  # You and that other runt. The o
-          line: 97 54  # $they_pronoun = ^join ( AUTOSP
+        rule: 93  ~devil_keywordless.10.0 u: 
+          line: 98 0  # You and that other runt. The o
+          line: 99 54  # $they_pronoun = ^join ( AUTOSP
           Complexity of rule ~devil_keywordless.10.0- u: 1
-        rule: 98  ~devil_keywordless.10.1 a: 
-          line: 99 0  # Yes, and it will be so easy to
+        rule: 100  ~devil_keywordless.10.1 a: 
+          line: 101 0  # Yes, and it will be so easy to
           Complexity of rule ~devil_keywordless.10.1- a: 1
-        rule: 102  ~devil_keywordless.11.0 s: 
-          line: 106 0  # I am pleased to hear that. 
+        rule: 104  ~devil_keywordless.11.0 s: 
+          line: 108 0  # I am pleased to hear that. 
           Complexity of rule ~devil_keywordless.11.0- s: 1
-        rule: 109  ~devil_keywordless.12.0 s: 
-          line: 109 0  # And what I wish for will be mi
+        rule: 111  ~devil_keywordless.12.0 s: 
+          line: 111 0  # And what I wish for will be mi
           Complexity of rule ~devil_keywordless.12.0- s: 1
-        rule: 113  ~devil_keywordless.13.0 s: 
-          line: 113 0  # And how do you imagine a devil
+        rule: 115  ~devil_keywordless.13.0 s: 
+          line: 115 0  # And how do you imagine a devil
           Complexity of rule ~devil_keywordless.13.0- s: 1
-        rule: 116  ~devil_keywordless.14.0 s: 
-          line: 116 0  # But you won't. 
+        rule: 118  ~devil_keywordless.14.0 s: 
+          line: 118 0  # But you won't. 
           Complexity of rule ~devil_keywordless.14.0- s: 1
-        rule: 119  ~devil_keywordless.15.0 s: 
-          line: 119 0  # No, not enough. You're not Ani
+        rule: 121  ~devil_keywordless.15.0 s: 
+          line: 121 0  # No, not enough. You're not Ani
           Complexity of rule ~devil_keywordless.15.0- s: 1
-        rule: 122  ~devil_keywordless.16.0 u: 
-          line: 122 0  # Yes, I did do that. 
-          line: 123 20  # Or rather, I manipulated the s
+        rule: 124  ~devil_keywordless.16.0 u: 
+          line: 124 0  # Yes, I did do that. 
+          line: 125 20  # Or rather, I manipulated the s
           Complexity of rule ~devil_keywordless.16.0- u: 1
-        rule: 126  ~devil_keywordless.17.0 u: 
-          line: 126 0  # His death wasn't my doing. Onl
+        rule: 128  ~devil_keywordless.17.0 u: 
+          line: 128 0  # His death wasn't my doing. Onl
           Complexity of rule ~devil_keywordless.17.0- u: 1
-        rule: 129  ~devil_keywordless.18.0 u: 
-          line: 129 0  # She is the only one of her fam
+        rule: 131  ~devil_keywordless.18.0 u: 
+          line: 131 0  # She is the only one of her fam
           Complexity of rule ~devil_keywordless.18.0- u: 1
-        rule: 132  ~devil_keywordless.19.0 u: 
-          line: 132 0  # I did kill him. 
+        rule: 134  ~devil_keywordless.19.0 u: 
+          line: 134 0  # I did kill him. 
           Complexity of rule ~devil_keywordless.19.0- u: 1
-        rule: 135  ~devil_keywordless.20.0 u: 
-          line: 135 0  # Yes I did. She ought to have t
+        rule: 137  ~devil_keywordless.20.0 u: 
+          line: 137 0  # Yes I did. She ought to have t
           Complexity of rule ~devil_keywordless.20.0- u: 1
-        rule: 138  ~devil_keywordless.21.0 u: 
-          line: 138 0  # I could scare you for real if 
+        rule: 140  ~devil_keywordless.21.0 u: 
+          line: 140 0  # I could scare you for real if 
           Complexity of rule ~devil_keywordless.21.0- u: 1
-        rule: 141  ~devil_keywordless.22.0 u: 
-          line: 141 0  # Fear is good for you. No, I li
+        rule: 143  ~devil_keywordless.22.0 u: 
+          line: 143 0  # Fear is good for you. No, I li
           Complexity of rule ~devil_keywordless.22.0- u: 1
-        rule: 144  ~devil_keywordless.23.0 u: 
-          line: 144 0  # Haven't I already? 
+        rule: 146  ~devil_keywordless.23.0 u: 
+          line: 146 0  # Haven't I already? 
           Complexity of rule ~devil_keywordless.23.0- u: 1
-        rule: 147  ~devil_keywordless.24.0 u: 
-          line: 147 0  # But it's funny to me. 
+        rule: 149  ~devil_keywordless.24.0 u: 
+          line: 149 0  # But it's funny to me. 
           Complexity of rule ~devil_keywordless.24.0- u: 1
-        rule: 150  ~devil_keywordless.25.0 u: 
-          line: 150 0  # More so you, with your barf-co
+        rule: 152  ~devil_keywordless.25.0 u: 
+          line: 152 0  # More so you, with your barf-co
           Complexity of rule ~devil_keywordless.25.0- u: 1
-        rule: 153  ~devil_keywordless.26.0 s: 
-          line: 157 0  # I'm quite glad you think so. M
+        rule: 155  ~devil_keywordless.26.0 s: 
+          line: 159 0  # I'm quite glad you think so. M
           Complexity of rule ~devil_keywordless.26.0- s: 1
-        rule: 160  ~devil_keywordless.27.0 s: 
-          line: 164 0  # I know that you do have a body
+        rule: 162  ~devil_keywordless.27.0 s: 
+          line: 166 0  # I know that you do have a body
           Complexity of rule ~devil_keywordless.27.0- s: 1
-        rule: 167  ~devil_keywordless.28.0 s: 
-          line: 168 0  # Oh but you will die, and soon,
+        rule: 169  ~devil_keywordless.28.0 s: 
+          line: 170 0  # Oh but you will die, and soon,
           Complexity of rule ~devil_keywordless.28.0- s: 1
-        rule: 171  ~devil_keywordless.29.0 u: 
-          line: 172 0  # Why the fuck should I care wha
+        rule: 173  ~devil_keywordless.29.0 u: 
+          line: 174 0  # Why the fuck should I care wha
           Complexity of rule ~devil_keywordless.29.0- u: 1
-        rule: 175  ~devil_keywordless.30.0 s: 
-          line: 175 0  # You know shit, and you are shi
+        rule: 177  ~devil_keywordless.30.0 s: 
+          line: 177 0  # You know shit, and you are shi
           Complexity of rule ~devil_keywordless.30.0- s: 1
-        rule: 178  ~devil_keywordless.31.0 s: 
-          line: 178 0  # Me. Me, me, me. And me 
+        rule: 180  ~devil_keywordless.31.0 s: 
+          line: 180 0  # Me. Me, me, me. And me 
           Complexity of rule ~devil_keywordless.31.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/devil/devil_questions.top
     topic: 2  ~devil_questions
