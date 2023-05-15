@@ -13,25 +13,26 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/__Control.top
     macro: 6  ^mmg
           line: 8 0  # $cs_token = 4096 | 255 | 512 |
           line: 9 51  # $cs_token += 67108864 | 65536 
-          line: 11 91  # $cs_token |= 8 
-          line: 12 106  # $cs_token |= 64 
-          line: 19 122  # ^addtopic ( ~opening ) 
-          line: 21 145  # $cs_control_main = ~control 
-          line: 22 173  # $cs_control_pre = ~preprocess 
-          line: 23 203  # $cs_control_post = ~postproces
-          line: 26 235  # $userprompt = ^"%user: >" 
-          line: 27 261  # $botprompt = ^"?: " 
-          line: 29 281  # $cs_wildcardseparator = _ 
-          line: 32 307  # $meter_chatty = 0 
-          line: 33 325  # $meter_quizzical = 0 
-          line: 34 346  # $meter_positivity = 0 
-          line: 35 368  # $meter_focus = 0 
-          line: 36 385  # $current_topic = null 
-          line: 37 407  # $volleys_in_current_topic = 0 
-          line: 57 437  # $rom_level = 0 
-          line: 58 452  # $rom_pts = 0 
-          line: 59 465  # $rom_next = 10 
-          line: 63 480  # $mood = 0 
+          line: 12 91  # $cs_token |= 64 
+          line: 19 107  # ^addtopic ( ~opening ) 
+          line: 21 130  # $cs_control_main = ~control 
+          line: 22 158  # $cs_control_pre = ~preprocess 
+          line: 23 188  # $cs_control_post = ~postproces
+          line: 26 220  # $userprompt = ^"%user: >" 
+          line: 27 246  # $botprompt = ^"?: " 
+          line: 29 266  # $cs_wildcardseparator = _ 
+          line: 32 292  # $meter_chatty = 0 
+          line: 33 310  # $meter_quizzical = 0 
+          line: 34 331  # $meter_positivity = 0 
+          line: 35 353  # $meter_focus = 0 
+          line: 36 370  # $current_topic = null 
+          line: 37 392  # $volleys_in_current_topic = 0 
+          line: 57 422  # $rom_level = 0 
+          line: 58 437  # $rom_pts = 0 
+          line: 59 450  # $rom_next = 10 
+          line: 63 465  # $mood = 0 
+          line: 74 475  # $singleresponse = 1 
+          line: 77 495  # $shutup = 1 
           Complexity of ^mmg: 1
     topic: 89  ~control
         rule: 92  ~control.0.0 u: 
@@ -777,8 +778,12 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_developer.top
           Complexity of rule ~developer.20.0- s: 1
         rule: 145  ~developer.21.0 s: 
           line: 145 0  # Test sys _0 . 
-          line: 146 14  # $$test_sys = 
+          line: 146 14  # $$test_sys = _0 
           Complexity of rule ~developer.21.0- s: 1
+        rule: 149  ~developer.22.0 s: 
+          line: 149 0  # Relationship points added 
+          line: 150 26  # $$r = $$rom_next - 
+          Complexity of rule ~developer.22.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_macros.top
     macro: 4  ^tellmeabout
           Complexity of ^tellmeabout: 1
@@ -2313,232 +2318,232 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/bein
           line: 20 0  # ^reuse ( ~manifest.WHAT_IS_MAN
           Complexity of rule ~being_dead.1.1- a: 1
         rule: 23  ~being_dead.2.0 u: 
-          line: 29 0  # You have guessed it. I am dead
-          line: 30 71  # $ghost_k = 1 
+          line: 30 0  # You have guessed it. I am dead
+          line: 31 71  # $ghost_k = 1 
           Complexity of rule ~being_dead.2.0- u: 1
-        rule: 33  ~being_dead.3.0 ?: 
-          line: 42 0  # $ghost_k = 1 
-          line: 43 13  # ^refine ( ) 
+        rule: 34  ~being_dead.3.0 ?: 
+          line: 43 0  # $ghost_k = 1 
+          line: 44 13  # ^refine ( ) 
           Complexity of rule ~being_dead.3.0- ?: 1
-        rule: 44  ~being_dead.3.1 a: 
-          line: 45 0  # It was the year 1891. I died, 
+        rule: 45  ~being_dead.3.1 a: 
+          line: 46 0  # It was the year 1891. I died, 
           Complexity of rule ~being_dead.3.1- a: 1
-        rule: 46  ~being_dead.3.2 a: 
-          line: 46 0  # I...I would like to tell you m
+        rule: 47  ~being_dead.3.2 a: 
+          line: 47 0  # I...I would like to tell you m
           Complexity of rule ~being_dead.3.2- a: 1
-        rule: 47  ~being_dead.3.3 b: 
-          line: 47 0  # ^reuse ( ~cheree.NO_LATER ) 
+        rule: 48  ~being_dead.3.3 b: 
+          line: 48 0  # ^reuse ( ~cheree.NO_LATER ) 
           Complexity of rule ~being_dead.3.3- b: 1
-        rule: 48  ~being_dead.3.4 b: 
-          line: 48 0  # ^reuse ( ~cheree.YES_LATER ) 
+        rule: 49  ~being_dead.3.4 b: 
+          line: 49 0  # ^reuse ( ~cheree.YES_LATER ) 
           Complexity of rule ~being_dead.3.4- b: 1
-        rule: 51  ~being_dead.4.0 ?: 
-          line: 64 0  # $ghost_k = 1 
-          line: 65 13  # ^keep ( ) ^refine ( ) 
+        rule: 52  ~being_dead.4.0 ?: 
+          line: 65 0  # $ghost_k = 1 
+          line: 66 13  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~being_dead.4.0- ?: 1
-        rule: 66  ~being_dead.4.1 a: 
-          line: 66 0  # I died in the vicinity of Port
+        rule: 67  ~being_dead.4.1 a: 
+          line: 67 0  # I died in the vicinity of Port
           Complexity of rule ~being_dead.4.1- a: 1
-        rule: 67  ~being_dead.4.2 a: 
-          line: 67 0  # I don't know, but my body was 
+        rule: 68  ~being_dead.4.2 a: 
+          line: 68 0  # I don't know, but my body was 
           Complexity of rule ~being_dead.4.2- a: 1
-        rule: 68  ~being_dead.4.3 a: 
-          line: 68 0  # I...I would like to tell you m
+        rule: 69  ~being_dead.4.3 a: 
+          line: 69 0  # I...I would like to tell you m
           Complexity of rule ~being_dead.4.3- a: 1
-        rule: 69  ~being_dead.4.4 b: 
-          line: 69 0  # ^reuse ( ~cheree.NO_LATER ) 
+        rule: 70  ~being_dead.4.4 b: 
+          line: 70 0  # ^reuse ( ~cheree.NO_LATER ) 
           Complexity of rule ~being_dead.4.4- b: 1
-        rule: 70  ~being_dead.4.5 b: 
-          line: 70 0  # ^reuse ( ~cheree.YES_LATER ) 
+        rule: 71  ~being_dead.4.5 b: 
+          line: 71 0  # ^reuse ( ~cheree.YES_LATER ) 
           Complexity of rule ~being_dead.4.5- b: 1
-        rule: 75  ~being_dead.5.0 u: 
-          line: 80 0  # I've been dead over 130 years 
-          line: 81 48  # $ghost_k = 1 
+        rule: 76  ~being_dead.5.0 u: 
+          line: 81 0  # I've been dead over 130 years 
+          line: 82 48  # $ghost_k = 1 
           Complexity of rule ~being_dead.5.0- u: 1
-        rule: 84  ~being_dead.6.0 ?: 
-          line: 91 0  # $ghost_k = 1 
-          line: 92 13  # That...that is the question of
-          line: 93 98  # But would it be all right if w
+        rule: 85  ~being_dead.6.0 ?: 
+          line: 92 0  # $ghost_k = 1 
+          line: 93 13  # That...that is the question of
+          line: 94 98  # But would it be all right if w
           Complexity of rule ~being_dead.6.0- ?: 1
-        rule: 94  ~being_dead.6.1 a: 
-          line: 94 0  # ^reuse ( ~cheree.NO_LATER ) 
+        rule: 95  ~being_dead.6.1 a: 
+          line: 95 0  # ^reuse ( ~cheree.NO_LATER ) 
           Complexity of rule ~being_dead.6.1- a: 1
-        rule: 95  ~being_dead.6.2 a: 
-          line: 95 0  # ^reuse ( ~cheree.YES_LATER ) 
+        rule: 96  ~being_dead.6.2 a: 
+          line: 96 0  # ^reuse ( ~cheree.YES_LATER ) 
           Complexity of rule ~being_dead.6.2- a: 1
-        rule: 98  ~being_dead.7.0-YOU_LIKE_BEING_DEAD u: 
-          line: 107 0  # $ghost_k = 1 
-          line: 108 13  # Being a spirit may have its pe
-          line: 109 74  # The joys of being alive are to
-          line: 110 120  # I miss the simple sensation of
+        rule: 99  ~being_dead.7.0-YOU_LIKE_BEING_DEAD u: 
+          line: 108 0  # $ghost_k = 1 
+          line: 109 13  # Being a spirit may have its pe
+          line: 110 74  # The joys of being alive are to
+          line: 111 120  # I miss the simple sensation of
           Complexity of rule ~being_dead.7.0-YOU_LIKE_BEING_DEAD u: 1
-        rule: 111  ~being_dead.7.1 a: 
-          line: 111 0  # You know, the flower. 
+        rule: 112  ~being_dead.7.1 a: 
+          line: 112 0  # You know, the flower. 
           Complexity of rule ~being_dead.7.1- a: 1
-        rule: 114  ~being_dead.8.0-PERKS_OF_BEING_DEAD ?: 
-          line: 120 0  # The main advantage of being a 
-          line: 121 96  # It originates from the term "A
-          line: 122 174  # It's how a spirit may travel l
-          line: 123 245  # $ghost_k = 1 
-          line: 124 258  # $astravel_k = 1 
+        rule: 115  ~being_dead.8.0-PERKS_OF_BEING_DEAD ?: 
+          line: 121 0  # The main advantage of being a 
+          line: 122 96  # It originates from the term "A
+          line: 123 174  # It's how a spirit may travel l
+          line: 124 245  # $ghost_k = 1 
+          line: 125 258  # $astravel_k = 1 
           Complexity of rule ~being_dead.8.0-PERKS_OF_BEING_DEAD ?: 1
-        rule: 128  ~being_dead.9.0 u: 
-          line: 133 0  # Oh, ^user ( ) , I don't want t
-          line: 134 71  # You have a lot to live for. Ne
+        rule: 129  ~being_dead.9.0 u: 
+          line: 134 0  # Oh, ^user ( ) , I don't want t
+          line: 135 71  # You have a lot to live for. Ne
           Complexity of rule ~being_dead.9.0- u: 1
-        rule: 138  ~being_dead.10.0 u: 
-          line: 138 0  # That's what I aim to find out.
-          line: 139 46  # Did somebody murder me? I need
+        rule: 139  ~being_dead.10.0 u: 
+          line: 139 0  # That's what I aim to find out.
+          line: 140 46  # Did somebody murder me? I need
           Complexity of rule ~being_dead.10.0- u: 1
-        rule: 142  ~being_dead.11.0 u: 
-          line: 142 0  # But I already am dead, so ther
-          line: 143 40  # $ghost_k = 1 
+        rule: 143  ~being_dead.11.0 u: 
+          line: 143 0  # But I already am dead, so ther
+          line: 144 40  # $ghost_k = 1 
           Complexity of rule ~being_dead.11.0- u: 1
-        rule: 146  ~being_dead.12.0 s: 
-          line: 146 0  # I'd say there is a zero percen
-          line: 147 81  # $ghost_k = 1 
+        rule: 147  ~being_dead.12.0 s: 
+          line: 147 0  # I'd say there is a zero percen
+          line: 148 81  # $ghost_k = 1 
           Complexity of rule ~being_dead.12.0- s: 1
-        rule: 150  ~being_dead.13.0 u: 
-          line: 152 0  # ^keep ( ) 
-          line: 153 10  # Die? I've already done that. 
-          line: 154 39  # $ghost_k = 1 
-          line: 155 52  # ^refine ( ) 
+        rule: 151  ~being_dead.13.0 u: 
+          line: 153 0  # ^keep ( ) 
+          line: 154 10  # Die? I've already done that. 
+          line: 155 39  # $ghost_k = 1 
+          line: 156 52  # ^refine ( ) 
           Complexity of rule ~being_dead.13.0- u: 1
-        rule: 156  ~being_dead.13.1 a: 
-          line: 156 0  # Me too, adds Mel. 
+        rule: 157  ~being_dead.13.1 a: 
+          line: 157 0  # Me too, adds Mel. 
           Complexity of rule ~being_dead.13.1- a: 1
-        rule: 159  ~being_dead.14.0 u: 
-          line: 165 0  # Well ain't that the truth? I m
+        rule: 160  ~being_dead.14.0 u: 
+          line: 166 0  # Well ain't that the truth? I m
           Complexity of rule ~being_dead.14.0- u: 1
-        rule: 168  ~being_dead.15.0 u: 
-          line: 169 0  # Well, I wouldn't say that. You
+        rule: 169  ~being_dead.15.0 u: 
+          line: 170 0  # Well, I wouldn't say that. You
           Complexity of rule ~being_dead.15.0- u: 1
-        rule: 171  ~being_dead.15.1 a: 
-          line: 171 0  # Being dead has its moments, sa
+        rule: 172  ~being_dead.15.1 a: 
+          line: 172 0  # Being dead has its moments, sa
           Complexity of rule ~being_dead.15.1- a: 1
-        rule: 174  ~being_dead.16.0 ?: 
-          line: 179 0  # ^gambit ( ~being_dead ) 
+        rule: 175  ~being_dead.16.0 ?: 
+          line: 180 0  # ^gambit ( ~being_dead ) 
           Complexity of rule ~being_dead.16.0- ?: 1
-        rule: 182  ~being_dead.17.0 u: 
-          line: 186 0  # Well, at least there is no cau
+        rule: 183  ~being_dead.17.0 u: 
+          line: 187 0  # Well, at least there is no cau
           Complexity of rule ~being_dead.17.0- u: 1
-        rule: 187  ~being_dead.17.1 a: 
-          line: 187 0  # Because I can't die twice! 
-          line: 188 27  # $ghost_k = 1 
+        rule: 188  ~being_dead.17.1 a: 
+          line: 188 0  # Because I can't die twice! 
+          line: 189 27  # $ghost_k = 1 
           Complexity of rule ~being_dead.17.1- a: 1
-        rule: 191  ~being_dead.18.0 u: 
-          line: 191 0  # If it helps you to think of it
+        rule: 192  ~being_dead.18.0 u: 
+          line: 192 0  # If it helps you to think of it
           Complexity of rule ~being_dead.18.0- u: 1
-        rule: 194  ~being_dead.19.0 u: 
-          line: 194 0  # When you die, well, you become
+        rule: 195  ~being_dead.19.0 u: 
+          line: 195 0  # When you die, well, you become
           Complexity of rule ~being_dead.19.0- u: 1
-        rule: 196  ~being_dead.20.0 u: 
-          line: 196 0  # If you die, and I hope that yo
+        rule: 197  ~being_dead.20.0 u: 
+          line: 197 0  # If you die, and I hope that yo
           Complexity of rule ~being_dead.20.0- u: 1
-        rule: 199  ~being_dead.21.0 u: 
-          line: 202 0  # ^usercap ( ) , nothing much ha
-          line: 203 89  # It would be an understatement 
+        rule: 200  ~being_dead.21.0 u: 
+          line: 203 0  # ^usercap ( ) , nothing much ha
+          line: 204 89  # It would be an understatement 
           Complexity of rule ~being_dead.21.0- u: 1
-        rule: 206  ~being_dead.22.0 u: 
-          line: 206 0  # I knew you would! I knew, ^use
+        rule: 207  ~being_dead.22.0 u: 
+          line: 207 0  # I knew you would! I knew, ^use
           Complexity of rule ~being_dead.22.0- u: 1
-        rule: 210  ~being_dead.23.0-DID_YOU_DIE_OF_DROWNING u: 
-          line: 211 0  # Did I die of drowning? Oh, I'v
+        rule: 211  ~being_dead.23.0-DID_YOU_DIE_OF_DROWNING u: 
+          line: 212 0  # Did I die of drowning? Oh, I'v
           Complexity of rule ~being_dead.23.0-DID_YOU_DIE_OF_DROWNING u: 1
-        rule: 214  ~being_dead.24.0-DID_YOU_DIE_OF_DISEASE u: 
-          line: 215 0  # Did I die of disease? I have n
+        rule: 215  ~being_dead.24.0-DID_YOU_DIE_OF_DISEASE u: 
+          line: 216 0  # Did I die of disease? I have n
           Complexity of rule ~being_dead.24.0-DID_YOU_DIE_OF_DISEASE u: 1
-        rule: 218  ~being_dead.25.0-DID_YOU_DIE_OF_SURGERY u: 
-          line: 219 0  # Hmm, I don't think I died in s
+        rule: 219  ~being_dead.25.0-DID_YOU_DIE_OF_SURGERY u: 
+          line: 220 0  # Hmm, I don't think I died in s
           Complexity of rule ~being_dead.25.0-DID_YOU_DIE_OF_SURGERY u: 1
-        rule: 222  ~being_dead.26.0-DID_YOU_DIE_OF_POISON u: 
-          line: 223 0  # I don't remember ever being po
+        rule: 223  ~being_dead.26.0-DID_YOU_DIE_OF_POISON u: 
+          line: 224 0  # I don't remember ever being po
           Complexity of rule ~being_dead.26.0-DID_YOU_DIE_OF_POISON u: 1
-        rule: 226  ~being_dead.27.0-DID_YOU_DIE_OF_OLD_AGE u: 
-          line: 227 0  # We can rule THAT out. 
+        rule: 227  ~being_dead.27.0-DID_YOU_DIE_OF_OLD_AGE u: 
+          line: 228 0  # We can rule THAT out. 
           Complexity of rule ~being_dead.27.0-DID_YOU_DIE_OF_OLD_AGE u: 1
-        rule: 230  ~being_dead.28.0-DID_YOU_DIE_OF_ACCIDENT u: 
-          line: 231 0  # Accident? It's not impossible,
+        rule: 231  ~being_dead.28.0-DID_YOU_DIE_OF_ACCIDENT u: 
+          line: 232 0  # Accident? It's not impossible,
           Complexity of rule ~being_dead.28.0-DID_YOU_DIE_OF_ACCIDENT u: 1
-        rule: 234  ~being_dead.29.0-DID_YOU_DIE_OF_SHOOTING u: 
-          line: 235 0  # But there's no evidence that I
+        rule: 235  ~being_dead.29.0-DID_YOU_DIE_OF_SHOOTING u: 
+          line: 236 0  # But there's no evidence that I
           Complexity of rule ~being_dead.29.0-DID_YOU_DIE_OF_SHOOTING u: 1
-        rule: 238  ~being_dead.30.0-DID_YOU_DIE_OF_HANGING u: 
-          line: 239 0  # I should think not! I shudder 
+        rule: 239  ~being_dead.30.0-DID_YOU_DIE_OF_HANGING u: 
+          line: 240 0  # I should think not! I shudder 
           Complexity of rule ~being_dead.30.0-DID_YOU_DIE_OF_HANGING u: 1
-        rule: 242  ~being_dead.31.0-DID_YOU_DIE_OF_STABBING u: 
-          line: 243 0  # I really I hope I was not. To 
+        rule: 243  ~being_dead.31.0-DID_YOU_DIE_OF_STABBING u: 
+          line: 244 0  # I really I hope I was not. To 
           Complexity of rule ~being_dead.31.0-DID_YOU_DIE_OF_STABBING u: 1
-        rule: 246  ~being_dead.32.0 u: 
-          line: 246 0  # I try to remind myself that dy
+        rule: 247  ~being_dead.32.0 u: 
+          line: 247 0  # I try to remind myself that dy
           Complexity of rule ~being_dead.32.0- u: 1
-        rule: 251  ~being_dead.33.0 t: 
-          line: 251 0  # ^keep ( ) ^fail ( topic ) 
+        rule: 252  ~being_dead.33.0 t: 
+          line: 252 0  # ^keep ( ) ^fail ( topic ) 
           Complexity of rule ~being_dead.33.0- t: 1
-        rule: 254  ~being_dead.34.0-I_NEED_HELP t: 
-          line: 254 0  # ^user ( ) . It is exactly the 
-          line: 255 99  # I...I would like you to help m
+        rule: 255  ~being_dead.34.0-I_NEED_HELP t: 
+          line: 255 0  # ^user ( ) . It is exactly the 
+          line: 256 99  # I...I would like you to help m
           Complexity of rule ~being_dead.34.0-I_NEED_HELP t: 1
-        rule: 256  ~being_dead.34.1 a: 
-          line: 256 0  # I do not remember how I died. 
-          line: 257 90  # Only do I have a faint sense t
+        rule: 257  ~being_dead.34.1 a: 
+          line: 257 0  # I do not remember how I died. 
+          line: 258 90  # Only do I have a faint sense t
           Complexity of rule ~being_dead.34.1- a: 1
-        rule: 258  ~being_dead.34.2 b: 
-          line: 258 0  # I don't know why. Only that I 
+        rule: 259  ~being_dead.34.2 b: 
+          line: 259 0  # I don't know why. Only that I 
           Complexity of rule ~being_dead.34.2- b: 1
-        rule: 260  ~being_dead.35.0 t: 
-          line: 260 0  # The answer will not come quick
-          line: 261 107  # All the details I've forgotten
-          line: 262 167  # $$halt = 1 
+        rule: 261  ~being_dead.35.0 t: 
+          line: 261 0  # The answer will not come quick
+          line: 262 107  # All the details I've forgotten
+          line: 263 167  # $$halt = 1 
           Complexity of rule ~being_dead.35.0- t: 1
-        rule: 263  ~being_dead.35.1 a: 
-          line: 263 0  # Well...please think about, ^us
+        rule: 264  ~being_dead.35.1 a: 
+          line: 264 0  # Well...please think about, ^us
           Complexity of rule ~being_dead.35.1- a: 1
-        rule: 264  ~being_dead.35.2 a: 
-          line: 264 0  # No? You will not help me? Hmm,
+        rule: 265  ~being_dead.35.2 a: 
+          line: 265 0  # No? You will not help me? Hmm,
           Complexity of rule ~being_dead.35.2- a: 1
-        rule: 265  ~being_dead.35.3 a: 
-          line: 265 0  # Thank you! I knew that you wou
+        rule: 266  ~being_dead.35.3 a: 
+          line: 266 0  # Thank you! I knew that you wou
           Complexity of rule ~being_dead.35.3- a: 1
-        rule: 266  ~being_dead.35.4 a: 
-          line: 266 0  # Which facts will become cleare
+        rule: 267  ~being_dead.35.4 a: 
+          line: 267 0  # Which facts will become cleare
           Complexity of rule ~being_dead.35.4- a: 1
-        rule: 267  ~being_dead.35.5 a: 
-          line: 267 0  # This is the reason I came to y
+        rule: 268  ~being_dead.35.5 a: 
+          line: 268 0  # This is the reason I came to y
           Complexity of rule ~being_dead.35.5- a: 1
-        rule: 269  ~being_dead.36.0 t: 
-          line: 269 0  # We will be looking for clues. 
-          line: 270 110  # As we go about this, sometimes
-          line: 271 196  # $$t_code = 2 
+        rule: 270  ~being_dead.36.0 t: 
+          line: 270 0  # We will be looking for clues. 
+          line: 271 110  # As we go about this, sometimes
+          line: 272 196  # $$t_code = 2 
           Complexity of rule ~being_dead.36.0- t: 1
-        rule: 272  ~being_dead.36.1 a: 
-          line: 272 0  # If we look for it the truth wi
+        rule: 273  ~being_dead.36.1 a: 
+          line: 273 0  # If we look for it the truth wi
           Complexity of rule ~being_dead.36.1- a: 1
-        rule: 274  ~being_dead.37.0 t: 
-          line: 274 0  # I have waited too long. I've a
-          line: 275 95  # of what happened then someone 
+        rule: 275  ~being_dead.37.0 t: 
+          line: 275 0  # I have waited too long. I've a
+          line: 276 95  # of what happened then someone 
           Complexity of rule ~being_dead.37.0- t: 1
-        rule: 276  ~being_dead.37.1 a: 
-          line: 277 0  # Someone close to me, but I can
-          line: 278 56  # I can sense it only. 
-          line: 279 77  # $$a_code = 0 
+        rule: 277  ~being_dead.37.1 a: 
+          line: 278 0  # Someone close to me, but I can
+          line: 279 56  # I can sense it only. 
+          line: 280 77  # $$a_code = 0 
           Complexity of rule ~being_dead.37.1- a: 1
-        rule: 280  ~being_dead.37.2 b: 
-          line: 280 0  # It's difficult for me to expla
+        rule: 281  ~being_dead.37.2 b: 
+          line: 281 0  # It's difficult for me to expla
           Complexity of rule ~being_dead.37.2- b: 1
-        rule: 281  ~being_dead.37.3 a: 
-          line: 281 0  # Oh! Did I already tell you abo
+        rule: 282  ~being_dead.37.3 a: 
+          line: 282 0  # Oh! Did I already tell you abo
           Complexity of rule ~being_dead.37.3- a: 1
-        rule: 283  ~being_dead.38.0 t: 
-          line: 283 0  # Even I don't know what happens
-          line: 284 116  # A ghost like myself can't say.
+        rule: 284  ~being_dead.38.0 t: 
+          line: 284 0  # Even I don't know what happens
+          line: 285 116  # A ghost like myself can't say.
           Complexity of rule ~being_dead.38.0- t: 1
-        rule: 285  ~being_dead.38.1 a: 
-          line: 285 0  # There is no way to come back f
+        rule: 286  ~being_dead.38.1 a: 
+          line: 286 0  # There is no way to come back f
           Complexity of rule ~being_dead.38.1- a: 1
-        rule: 287  ~being_dead.39.0 t: 
-          line: 287 0  # Mel says that when you Transce
-          line: 288 71  # I have to keep saying this, bu
+        rule: 288  ~being_dead.39.0 t: 
+          line: 288 0  # Mel says that when you Transce
+          line: 289 71  # I have to keep saying this, bu
           Complexity of rule ~being_dead.39.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/devil.top
     topic: 2  ~devil
@@ -19854,40 +19859,43 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/01_Vall
           line: 117 0  # What I'm trying to tell you is
           line: 118 75  # $ghost_k = 1 
           Complexity of rule ~location01.18.2- b: 1
-        rule: 120  ~location01.19.0 t: 
-          line: 120 0  # I wanted to come here with you
-          line: 121 86  # This is only one. Thanks to As
-          line: 122 206  # $astravel_k = true 
+        rule: 119  ~location01.18.3 a: 
+          line: 119 0  # I know, I know. ^gambit ( ~loc
+          Complexity of rule ~location01.18.3- a: 1
+        rule: 121  ~location01.19.0 t: 
+          line: 121 0  # I wanted to come here with you
+          line: 122 86  # This is only one. Thanks to As
+          line: 123 206  # $astravel_k = true 
           Complexity of rule ~location01.19.0- t: 1
-        rule: 123  ~location01.19.1 a: 
-          line: 123 0  # You will see! ^gambit ( ~locat
+        rule: 124  ~location01.19.1 a: 
+          line: 124 0  # You will see! ^gambit ( ~locat
           Complexity of rule ~location01.19.1- a: 1
-        rule: 124  ~location01.19.2 a: 
-          line: 124 0  # It's the nature of Astravel. ^
+        rule: 125  ~location01.19.2 a: 
+          line: 125 0  # It's the nature of Astravel. ^
           Complexity of rule ~location01.19.2- a: 1
-        rule: 126  ~location01.20.0 t: 
-          line: 126 0  # I'm in India this moment, but 
+        rule: 127  ~location01.20.0 t: 
+          line: 127 0  # I'm in India this moment, but 
           Complexity of rule ~location01.20.0- t: 1
-        rule: 127  ~location01.20.1 a: 
-          line: 127 0  # Because of the speed at which 
+        rule: 128  ~location01.20.1 a: 
+          line: 128 0  # Because of the speed at which 
           Complexity of rule ~location01.20.1- a: 1
-        rule: 128  ~location01.20.2 a: 
-          line: 128 0  # Hmm, you're less than easy to 
+        rule: 129  ~location01.20.2 a: 
+          line: 129 0  # Hmm, you're less than easy to 
           Complexity of rule ~location01.20.2- a: 1
-        rule: 129  ~location01.20.3 a: 
-          line: 129 0  # I knew you'd would appreciate 
+        rule: 130  ~location01.20.3 a: 
+          line: 130 0  # I knew you'd would appreciate 
           Complexity of rule ~location01.20.3- a: 1
-        rule: 130  ~location01.20.4 b: 
-          line: 130 0  # You will see, you will see! 
+        rule: 131  ~location01.20.4 b: 
+          line: 131 0  # You will see, you will see! 
           Complexity of rule ~location01.20.4- b: 1
-        rule: 133  ~location01.21.0 t: 
-          line: 133 0  # ^no_clues_here ( 01 ) 
+        rule: 134  ~location01.21.0 t: 
+          line: 134 0  # ^no_clues_here ( 01 ) 
           Complexity of rule ~location01.21.0- t: 1
-        rule: 135  ~location01.22.0 t: 
-          line: 135 0  # Although I very much love bein
+        rule: 136  ~location01.22.0 t: 
+          line: 136 0  # Although I very much love bein
           Complexity of rule ~location01.22.0- t: 1
-        rule: 136  ~location01.22.1 a: 
-          line: 136 0  # What I mean is that it may be 
+        rule: 137  ~location01.22.1 a: 
+          line: 137 0  # What I mean is that it may be 
           Complexity of rule ~location01.22.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/02_Steadwell_Manse.top
     topic: 4  ~location02
@@ -28910,40 +28918,47 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
         rule: 563  ~keywordless.126.0 s: 
           line: 566 0  # But not as glad as I am to hav
           Complexity of rule ~keywordless.126.0- s: 1
-        rule: 571  ~keywordless.127.0 u: 
-          line: 571 0  # Hola amigo. And...that's all t
+        rule: 569  ~keywordless.127.0 u: 
+          line: 572 0  # ^keep ( ) 
+          line: 573 10  # [ Yes, take all the time you n
+          line: 574 47  # [ Of course, do all thinking y
+          line: 575 88  # [ Take all the time you need, 
+          line: 576 128  # $$halt = 1 
           Complexity of rule ~keywordless.127.0- u: 1
-        rule: 572  ~keywordless.128.0 u: 
-          line: 572 0  # Bonjour. And...that's all the 
+        rule: 581  ~keywordless.128.0 u: 
+          line: 581 0  # Hola amigo. And...that's all t
           Complexity of rule ~keywordless.128.0- u: 1
-        rule: 573  ~keywordless.129.0 u: 
-          line: 573 0  # Guten tag. And...that's all th
+        rule: 582  ~keywordless.129.0 u: 
+          line: 582 0  # Bonjour. And...that's all the 
           Complexity of rule ~keywordless.129.0- u: 1
-        rule: 574  ~keywordless.130.0 u: 
-          line: 574 0  # Arigatou. And...that's all the
+        rule: 583  ~keywordless.130.0 u: 
+          line: 583 0  # Guten tag. And...that's all th
           Complexity of rule ~keywordless.130.0- u: 1
-        rule: 575  ~keywordless.131.0 u: 
-          line: 575 0  # Kamsamnida. And...that's all t
+        rule: 584  ~keywordless.131.0 u: 
+          line: 584 0  # Arigatou. And...that's all the
           Complexity of rule ~keywordless.131.0- u: 1
-        rule: 576  ~keywordless.132.0 u: 
-          line: 576 0  # Xin chao. And...that's all the
+        rule: 585  ~keywordless.132.0 u: 
+          line: 585 0  # Kamsamnida. And...that's all t
           Complexity of rule ~keywordless.132.0- u: 1
-        rule: 582  ~keywordless.133.0 u: 
-          line: 582 0  # It's one of Austen's most famo
-          line: 583 82  # and reading it by the Reading 
-          line: 584 183  # ^addtopic ( ~jane_austen ) 
+        rule: 586  ~keywordless.133.0 u: 
+          line: 586 0  # Xin chao. And...that's all the
           Complexity of rule ~keywordless.133.0- u: 1
-        rule: 591  ~keywordless.134.0 u: 
-          line: 591 0  # ^keep ( ) 
-          line: 592 10  # ^gambit ( $$currenttopic ) 
+        rule: 592  ~keywordless.134.0 u: 
+          line: 592 0  # It's one of Austen's most famo
+          line: 593 82  # and reading it by the Reading 
+          line: 594 183  # ^addtopic ( ~jane_austen ) 
           Complexity of rule ~keywordless.134.0- u: 1
-        rule: 594  ~keywordless.135.0 u: 
-          line: 595 0  # ^gambit ( $$currenttopic ) 
+        rule: 601  ~keywordless.135.0 u: 
+          line: 601 0  # ^keep ( ) 
+          line: 602 10  # ^gambit ( $$currenttopic ) 
           Complexity of rule ~keywordless.135.0- u: 1
-        rule: 602  ~keywordless.136.0 ?: 
-          line: 602 0  # ^keep ( ) 
-          line: 603 10  # '_0 . 
-          Complexity of rule ~keywordless.136.0- ?: 1
+        rule: 604  ~keywordless.136.0 u: 
+          line: 605 0  # ^gambit ( $$currenttopic ) 
+          Complexity of rule ~keywordless.136.0- u: 1
+        rule: 612  ~keywordless.137.0 ?: 
+          line: 612 0  # ^keep ( ) 
+          line: 613 10  # '_0 . 
+          Complexity of rule ~keywordless.137.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_commands.top
     topic: 7  ~keywordless_commands
         rule: 12  ~keywordless_commands.0.0 u: 
@@ -30338,182 +30353,185 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
           line: 149 0  # But I'm sure I'm not as funny 
           line: 150 38  # $$a_code = 0 
           Complexity of rule ~keywordless_you.32.0- s: 1
-        rule: 153  ~keywordless_you.33.0 s: 
-          line: 153 0  # Really? Ehehe, thank you, ^use
+        rule: 151  ~keywordless_you.32.1 a: 
+          line: 151 0  # That is...anyway. Let's talk a
+          Complexity of rule ~keywordless_you.32.1- a: 1
+        rule: 154  ~keywordless_you.33.0 s: 
+          line: 154 0  # Really? Ehehe, thank you, ^use
           Complexity of rule ~keywordless_you.33.0- s: 1
-        rule: 156  ~keywordless_you.34.0 s: 
-          line: 156 0  # For a ghost? Are other ghosts 
+        rule: 157  ~keywordless_you.34.0 s: 
+          line: 157 0  # For a ghost? Are other ghosts 
           Complexity of rule ~keywordless_you.34.0- s: 1
-        rule: 159  ~keywordless_you.35.0 s: 
-          line: 159 0  # THAT cannot possibly be true. 
+        rule: 160  ~keywordless_you.35.0 s: 
+          line: 160 0  # THAT cannot possibly be true. 
           Complexity of rule ~keywordless_you.35.0- s: 1
-        rule: 162  ~keywordless_you.36.0 u: 
-          line: 162 0  # I find the word "spiffy" to be
-          line: 163 84  # but started using it even more
-          line: 164 125  # $$quotes = 1 
+        rule: 163  ~keywordless_you.36.0 u: 
+          line: 163 0  # I find the word "spiffy" to be
+          line: 164 84  # but started using it even more
+          line: 165 125  # $$quotes = 1 
           Complexity of rule ~keywordless_you.36.0- u: 1
-        rule: 167  ~keywordless_you.37.0 u: 
-          line: 173 0  # Not any more. I can't get olde
-          line: 174 91  # that's what it means to be a s
+        rule: 168  ~keywordless_you.37.0 u: 
+          line: 174 0  # Not any more. I can't get olde
+          line: 175 91  # that's what it means to be a s
           Complexity of rule ~keywordless_you.37.0- u: 1
-        rule: 177  ~keywordless_you.38.0 s: 
-          line: 181 0  # Really? But I only seem to rem
-          line: 182 54  # Important things such as the c
+        rule: 178  ~keywordless_you.38.0 s: 
+          line: 182 0  # Really? But I only seem to rem
+          line: 183 54  # Important things such as the c
           Complexity of rule ~keywordless_you.38.0- s: 1
-        rule: 185  ~keywordless_you.39.0 u: 
-          line: 185 0  # ^reuse ( ~medium.ARE_YOU_A_MED
+        rule: 186  ~keywordless_you.39.0 u: 
+          line: 186 0  # ^reuse ( ~medium.ARE_YOU_A_MED
           Complexity of rule ~keywordless_you.39.0- u: 1
-        rule: 188  ~keywordless_you.40.0 u: 
-          line: 196 0  # That's right. Mel is my great 
-          line: 197 66  # Did I count the "great" s corr
-          line: 198 151  # $$quotes = 1 
+        rule: 189  ~keywordless_you.40.0 u: 
+          line: 197 0  # That's right. Mel is my great 
+          line: 198 66  # Did I count the "great" s corr
+          line: 199 151  # $$quotes = 1 
           Complexity of rule ~keywordless_you.40.0- u: 1
-        rule: 201  ~keywordless_you.41.0 s: 
-          line: 201 0  # There I am, ehehe. 
+        rule: 202  ~keywordless_you.41.0 s: 
+          line: 202 0  # There I am, ehehe. 
           Complexity of rule ~keywordless_you.41.0- s: 1
-        rule: 203  ~keywordless_you.42.0 s: 
-          line: 203 0  # Here I am, hehe. 
+        rule: 204  ~keywordless_you.42.0 s: 
+          line: 204 0  # Here I am, hehe. 
           Complexity of rule ~keywordless_you.42.0- s: 1
-        rule: 206  ~keywordless_you.43.0 s: 
-          line: 210 0  # Mel is charmed to be meeting y
+        rule: 207  ~keywordless_you.43.0 s: 
+          line: 211 0  # Mel is charmed to be meeting y
           Complexity of rule ~keywordless_you.43.0- s: 1
-        rule: 212  ~keywordless_you.44.0 s: 
-          line: 212 0  # ^usercap ( ) , I am delighted 
-          line: 213 57  # I mean to be meeting you at al
+        rule: 213  ~keywordless_you.44.0 s: 
+          line: 213 0  # ^usercap ( ) , I am delighted 
+          line: 214 57  # I mean to be meeting you at al
           Complexity of rule ~keywordless_you.44.0- s: 1
-        rule: 217  ~keywordless_you.45.0 u: 
-          line: 218 0  # That's exactly the thing. I ha
-          line: 219 84  # $transcend_k = 1 
+        rule: 218  ~keywordless_you.45.0 u: 
+          line: 219 0  # That's exactly the thing. I ha
+          line: 220 84  # $transcend_k = 1 
           Complexity of rule ~keywordless_you.45.0- u: 1
-        rule: 222  ~keywordless_you.46.0 s: 
-          line: 222 0  # Am I? I'm not trying to be. I'
+        rule: 223  ~keywordless_you.46.0 s: 
+          line: 223 0  # Am I? I'm not trying to be. I'
           Complexity of rule ~keywordless_you.46.0- s: 1
-        rule: 223  ~keywordless_you.47.0 s: 
-          line: 223 0  # That's good to hear, because I
-          line: 224 55  # There are enough...spirits who
+        rule: 224  ~keywordless_you.47.0 s: 
+          line: 224 0  # That's good to hear, because I
+          line: 225 55  # There are enough...spirits who
           Complexity of rule ~keywordless_you.47.0- s: 1
-        rule: 227  ~keywordless_you.48.0 s: 
-          line: 227 0  # ^usercap ( ) , I AM history. H
+        rule: 228  ~keywordless_you.48.0 s: 
+          line: 228 0  # ^usercap ( ) , I AM history. H
           Complexity of rule ~keywordless_you.48.0- s: 1
-        rule: 230  ~keywordless_you.49.0 u: 
-          line: 230 0  # Am I? It's not because I'm col
+        rule: 231  ~keywordless_you.49.0 u: 
+          line: 231 0  # Am I? It's not because I'm col
           Complexity of rule ~keywordless_you.49.0- u: 1
-        rule: 232  ~keywordless_you.50.0 u: 
-          line: 232 0  # Sorry! Even as a ghost I fidge
+        rule: 233  ~keywordless_you.50.0 u: 
+          line: 233 0  # Sorry! Even as a ghost I fidge
           Complexity of rule ~keywordless_you.50.0- u: 1
-        rule: 235  ~keywordless_you.51.0 u: 
-          line: 235 0  # Yes, ephemeral as in the oppos
+        rule: 236  ~keywordless_you.51.0 u: 
+          line: 236 0  # Yes, ephemeral as in the oppos
           Complexity of rule ~keywordless_you.51.0- u: 1
-        rule: 237  ~keywordless_you.52.0 u: 
-          line: 237 0  # If I were corporeal I would ha
+        rule: 238  ~keywordless_you.52.0 u: 
+          line: 238 0  # If I were corporeal I would ha
           Complexity of rule ~keywordless_you.52.0- u: 1
-        rule: 240  ~keywordless_you.53.0 s: 
-          line: 240 0  # Lamentably. $$a_code = 27 
+        rule: 241  ~keywordless_you.53.0 s: 
+          line: 241 0  # Lamentably. $$a_code = 27 
           Complexity of rule ~keywordless_you.53.0- s: 1
-        rule: 242  ~keywordless_you.54.0 s: 
-          line: 242 0  # Well that's a big relief. 
+        rule: 243  ~keywordless_you.54.0 s: 
+          line: 243 0  # Well that's a big relief. 
           Complexity of rule ~keywordless_you.54.0- s: 1
-        rule: 245  ~keywordless_you.55.0 u: 
-          line: 245 0  # I can't be good at everything,
-          line: 246 38  # $$a_code = 3 
+        rule: 246  ~keywordless_you.55.0 u: 
+          line: 246 0  # I can't be good at everything,
+          line: 247 38  # $$a_code = 3 
           Complexity of rule ~keywordless_you.55.0- u: 1
-        rule: 248  ~keywordless_you.56.0 u: 
-          line: 248 0  # I don't know but I like the id
-          line: 249 34  # $$a_code = 28 
+        rule: 249  ~keywordless_you.56.0 u: 
+          line: 249 0  # I don't know but I like the id
+          line: 250 34  # $$a_code = 28 
           Complexity of rule ~keywordless_you.56.0- u: 1
-        rule: 252  ~keywordless_you.57.0 s: 
-          line: 252 0  # Ehehe. A ghost is allowed to d
+        rule: 253  ~keywordless_you.57.0 s: 
+          line: 253 0  # Ehehe. A ghost is allowed to d
           Complexity of rule ~keywordless_you.57.0- s: 1
-        rule: 255  ~keywordless_you.58.0 u: 
-          line: 261 0  # Mellen says sure, she's flown 
+        rule: 256  ~keywordless_you.58.0 u: 
+          line: 262 0  # Mellen says sure, she's flown 
           Complexity of rule ~keywordless_you.58.0- u: 1
-        rule: 264  ~keywordless_you.59.0 u: 
-          line: 270 0  # Have I been in a plane? Only w
+        rule: 265  ~keywordless_you.59.0 u: 
+          line: 271 0  # Have I been in a plane? Only w
           Complexity of rule ~keywordless_you.59.0- u: 1
-        rule: 273  ~keywordless_you.60.0 s: 
-          line: 273 0  # Ehehe. I hope being silly is a
+        rule: 274  ~keywordless_you.60.0 s: 
+          line: 274 0  # Ehehe. I hope being silly is a
           Complexity of rule ~keywordless_you.60.0- s: 1
-        rule: 274  ~keywordless_you.60.1 a: 
-          line: 274 0  # Booo. 
+        rule: 275  ~keywordless_you.60.1 a: 
+          line: 275 0  # Booo. 
           Complexity of rule ~keywordless_you.60.1- a: 1
-        rule: 275  ~keywordless_you.60.2 a: 
-          line: 275 0  # Is it? Very gooood! 
+        rule: 276  ~keywordless_you.60.2 a: 
+          line: 276 0  # Is it? Very gooood! 
           Complexity of rule ~keywordless_you.60.2- a: 1
-        rule: 278  ~keywordless_you.61.0 u: 
-          line: 278 0  # I'm not one to adhere to ritua
-          line: 279 37  # My Gift works well enough with
+        rule: 279  ~keywordless_you.61.0 u: 
+          line: 279 0  # I'm not one to adhere to ritua
+          line: 280 37  # My Gift works well enough with
           Complexity of rule ~keywordless_you.61.0- u: 1
-        rule: 280  ~keywordless_you.61.1 a: 
-          line: 280 0  # The Gift. I speak of the Gift 
-          line: 281 46  # ^addtopic ( ~manifest ) 
+        rule: 281  ~keywordless_you.61.1 a: 
+          line: 281 0  # The Gift. I speak of the Gift 
+          line: 282 46  # ^addtopic ( ~manifest ) 
           Complexity of rule ~keywordless_you.61.1- a: 1
-        rule: 284  ~keywordless_you.62.0 u: 
-          line: 290 0  # We all have our favorite topic
+        rule: 285  ~keywordless_you.62.0 u: 
+          line: 291 0  # We all have our favorite topic
           Complexity of rule ~keywordless_you.62.0- u: 1
-        rule: 293  ~keywordless_you.63.0 u: 
-          line: 299 0  # I've ridden the London, Bright
-          line: 300 77  # That's part of my story. 
+        rule: 294  ~keywordless_you.63.0 u: 
+          line: 300 0  # I've ridden the London, Bright
+          line: 301 77  # That's part of my story. 
           Complexity of rule ~keywordless_you.63.0- u: 1
-        rule: 303  ~keywordless_you.64.0 u: 
-          line: 308 0  # I certainly did not become fam
+        rule: 304  ~keywordless_you.64.0 u: 
+          line: 309 0  # I certainly did not become fam
           Complexity of rule ~keywordless_you.64.0- u: 1
-        rule: 311  ~keywordless_you.65.0 u: 
-          line: 316 0  # Yes, free time is what I'm in 
+        rule: 312  ~keywordless_you.65.0 u: 
+          line: 317 0  # Yes, free time is what I'm in 
           Complexity of rule ~keywordless_you.65.0- u: 1
-        rule: 319  ~keywordless_you.66.0 u: 
-          line: 319 0  # Well I do have my own style of
-          line: 320 40  # ^addtopic ( ~her_fashion ) 
+        rule: 320  ~keywordless_you.66.0 u: 
+          line: 320 0  # Well I do have my own style of
+          line: 321 40  # ^addtopic ( ~her_fashion ) 
           Complexity of rule ~keywordless_you.66.0- u: 1
-        rule: 323  ~keywordless_you.67.0 s: 
-          line: 323 0  # I suppose I'm not. Who wants t
+        rule: 324  ~keywordless_you.67.0 s: 
+          line: 324 0  # I suppose I'm not. Who wants t
           Complexity of rule ~keywordless_you.67.0- s: 1
-        rule: 326  ~keywordless_you.68.0 s: 
-          line: 326 0  # I'm sorry. I try not to be jud
+        rule: 327  ~keywordless_you.68.0 s: 
+          line: 327 0  # I'm sorry. I try not to be jud
           Complexity of rule ~keywordless_you.68.0- s: 1
-        rule: 329  ~keywordless_you.69.0 u: 
-          line: 334 0  # I may have had my heart broken
-          line: 335 71  # I don't ever think of him now.
-          line: 336 102  # ^addtopic ( ~fishing_boy ) 
+        rule: 330  ~keywordless_you.69.0 u: 
+          line: 335 0  # I may have had my heart broken
+          line: 336 71  # I don't ever think of him now.
+          line: 337 102  # ^addtopic ( ~fishing_boy ) 
           Complexity of rule ~keywordless_you.69.0- u: 1
-        rule: 339  ~keywordless_you.70.0 u: 
-          line: 339 0  # I almost feel as if I've heard
-          line: 340 76  # Just thinking about it gives m
-          line: 341 160  # But it's not a memory I'm able
+        rule: 340  ~keywordless_you.70.0 u: 
+          line: 340 0  # I almost feel as if I've heard
+          line: 341 76  # Just thinking about it gives m
+          line: 342 160  # But it's not a memory I'm able
           Complexity of rule ~keywordless_you.70.0- u: 1
-        rule: 344  ~keywordless_you.71.0 s: 
-          line: 344 0  # I'll try not to drop more thin
+        rule: 345  ~keywordless_you.71.0 s: 
+          line: 345 0  # I'll try not to drop more thin
           Complexity of rule ~keywordless_you.71.0- s: 1
-        rule: 347  ~keywordless_you.72.0 s: 
-          line: 351 0  # Oh, am I talking too much? Sor
+        rule: 348  ~keywordless_you.72.0 s: 
+          line: 352 0  # Oh, am I talking too much? Sor
           Complexity of rule ~keywordless_you.72.0- s: 1
-        rule: 354  ~keywordless_you.73.0 ?: 
-          line: 358 0  # The only one I can ever rememb
-          line: 359 64  # and that only on rare occasion
+        rule: 355  ~keywordless_you.73.0 ?: 
+          line: 359 0  # The only one I can ever rememb
+          line: 360 64  # and that only on rare occasion
           Complexity of rule ~keywordless_you.73.0- ?: 1
-        rule: 362  ~keywordless_you.74.0 u: 
-          line: 368 0  # Would I h--I don't know. C-can
-          line: 369 61  # $$a_code = 26 
+        rule: 363  ~keywordless_you.74.0 u: 
+          line: 369 0  # Would I h--I don't know. C-can
+          line: 370 61  # $$a_code = 26 
           Complexity of rule ~keywordless_you.74.0- u: 1
-        rule: 372  ~keywordless_you.75.0 ?: 
-          line: 376 0  # W-well, I might have. I don't 
-          line: 377 73  # $$a_code = 26 
+        rule: 373  ~keywordless_you.75.0 ?: 
+          line: 377 0  # W-well, I might have. I don't 
+          line: 378 73  # $$a_code = 26 
           Complexity of rule ~keywordless_you.75.0- ?: 1
-        rule: 380  ~keywordless_you.76.0 ?: 
-          line: 386 0  # N-no one! I wouldn't hurt a mo
-          line: 387 64  # $$a_code = 26 
+        rule: 381  ~keywordless_you.76.0 ?: 
+          line: 387 0  # N-no one! I wouldn't hurt a mo
+          line: 388 64  # $$a_code = 26 
           Complexity of rule ~keywordless_you.76.0- ?: 1
-        rule: 390  ~keywordless_you.77.0 ?: 
-          line: 395 0  # If I could do or have anything
-          line: 396 70  # There is no need for me to con
+        rule: 391  ~keywordless_you.77.0 ?: 
+          line: 396 0  # If I could do or have anything
+          line: 397 70  # There is no need for me to con
           Complexity of rule ~keywordless_you.77.0- ?: 1
-        rule: 399  ~keywordless_you.78.0 u: 
-          line: 405 0  # Yes! I am glad I have Mel. And
+        rule: 400  ~keywordless_you.78.0 u: 
+          line: 406 0  # Yes! I am glad I have Mel. And
           Complexity of rule ~keywordless_you.78.0- u: 1
-        rule: 408  ~keywordless_you.79.0 s: 
-          line: 412 0  # Oh, ^user ( ) . That makes me 
+        rule: 409  ~keywordless_you.79.0 s: 
+          line: 413 0  # Oh, ^user ( ) . That makes me 
           Complexity of rule ~keywordless_you.79.0- s: 1
-        rule: 415  ~keywordless_you.80.0 ?: 
-          line: 415 0  # I would. ^usercap ( ) , I woul
+        rule: 416  ~keywordless_you.80.0 ?: 
+          line: 416 0  # I would. ^usercap ( ) , I woul
           Complexity of rule ~keywordless_you.80.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions.top
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_are.top
