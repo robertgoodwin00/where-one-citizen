@@ -25,7 +25,7 @@
 ^isdangerous p 0 0 B( ^thing ) [ ( ^0 * be *~2 ~lethality_words ) ( be { a } ^0 * ~lethality_words ) ] `
 ^whenis p 0 0 B( ^event ) [ ( < *~1 when [ be does do ] { a } *~1 ^0 ) ( ^0 [ be happen occur ] when > ) ] `
 ^whatremember p 0 0 B( ^thing ) [ ( what { do } you ~remember [ of about ] *~1 ^0 ) ( [ can do ] you ~remember { anything } { something } [ of about ] *~1 ^0 ) ] `
-^iloveyou p 0 0 A( ) ![ not never ] [ ( I { do } love 'you ) ( I be in { so } love with 'you ) ( I { be } { so } *~1 crazy about 'you ) ( { do } ~to_like 'you [ much a_lot ] ) ( I { have } fallen [ for in_love_with ] you ) ] `
+^iloveyou p 0 0 A( ) ![ not never ] [ ( I { do } love 'you ) ( I be in { so } love with 'you ) ( I { be } { so } *~1 crazy about 'you ) ( { do } ~to_like 'you [ much a_lot ] ) ( I { have } fallen [ for in_love_with ] you ) ( < love 'you *~2 > ) ] `
 ^showme p 0 0 B( ^whois ) ![ not never ] [ ( [ show introduce ] I { to } *~2 ^0 ) ( [ show introduce ] *~2 ^0 to I ) ( [ let allow ] I see *~2 ^0 ) ] `
 ^manifest p 0 0 B( ^whois ) [ ( you { ~can } [ manifest conjure summon ] { I } *~1 ^0 > ) ( you { ~can } [ manifest conjure summon ] * [ ghost spirit devil ] of *~1 ^0 ) ( you { ~can } [ manifest conjure summon ] * ^0 's [ ghost spirit devil ] ) ( < { try } { to } [ manifest conjure summon ] * ^0 *~3 { ghost } { spirit } { devil } > ) ] `
 ^do p 0 0 B( ^thing ) [ ( < { can } { you } { ~can } { try } { to } ^0 { ~adverb } { for } { me } { again } { one more time } > ) ( < { try } { to } { do } { ~any } { another } ^0 { ~adverb } { for } { me } { again } { some } { more } > ) ] `
