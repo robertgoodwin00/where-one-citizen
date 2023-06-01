@@ -4491,25 +4491,29 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/murders.top
         rule: 49  ~murders.7.0 ?: 
           line: 56 0  # ^gambit ( ~murders ) 
           Complexity of rule ~murders.7.0- ?: 1
-        rule: 61  ~murders.8.0 t: 
-          line: 61 0  # ^keep ( ) ^ispending ( ~murder
-          if 62 38  
-          line: 62 34  # ^if 00x( ! $$_gambit_topic_pen
-          line: 63 76  # ^fail ( TOPIC ) 
-          ifend 64 97  
-          line: 64 92  # } 004 
-          Complexity of rule ~murders.8.0- t: 2
+        rule: 59  ~murders.8.0 u: 
+          line: 59 0  # I'll have more to say about th
+          line: 60 66  # that part of the story. Frankl
+          Complexity of rule ~murders.8.0- u: 1
         rule: 66  ~murders.9.0 t: 
-          line: 66 0  # It would be hard for you to ge
-          line: 67 121  # The fear that gripped London o
-          Complexity of rule ~murders.9.0- t: 1
-        rule: 69  ~murders.10.0 t: 
-          line: 69 0  # I've told you what I can remem
-          line: 70 47  # More details about the murders
+          line: 66 0  # ^keep ( ) ^ispending ( ~murder
+          if 67 38  
+          line: 67 34  # ^if 00x( ! $$_gambit_topic_pen
+          line: 68 76  # ^fail ( TOPIC ) 
+          ifend 69 97  
+          line: 69 92  # } 004 
+          Complexity of rule ~murders.9.0- t: 2
+        rule: 71  ~murders.10.0 t: 
+          line: 71 0  # It would be hard for you to ge
+          line: 72 121  # The fear that gripped London o
           Complexity of rule ~murders.10.0- t: 1
-        rule: 71  ~murders.10.1 a: 
-          line: 71 0  # Well, a different one than the
-          Complexity of rule ~murders.10.1- a: 1
+        rule: 74  ~murders.11.0 t: 
+          line: 74 0  # I've told you what I can remem
+          line: 75 47  # More details about the murders
+          Complexity of rule ~murders.11.0- t: 1
+        rule: 76  ~murders.11.1 a: 
+          line: 76 0  # Well, a different one than the
+          Complexity of rule ~murders.11.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/promise.top
     topic: 2  ~her_promise
         rule: 6  ~her_promise.0.0 ?: 
@@ -8695,40 +8699,44 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/jack_the_r
           line: 165 95  # I don't think I can go about t
           line: 166 142  # $$a_code = 62 
           Complexity of rule ~jack_the_ripper.39.0- u: 1
-        rule: 174  ~jack_the_ripper.40.0 t: 
-          line: 174 0  # ^fail ( TOPIC ) 
-          Complexity of rule ~jack_the_ripper.40.0- t: 1
+        rule: 169  ~jack_the_ripper.40.0 u: 
+          line: 169 0  # ^usercap ( ) , I'll have more 
+          line: 170 123  # the Whitechapel murders. I can
+          Complexity of rule ~jack_the_ripper.40.0- u: 1
         rule: 176  ~jack_the_ripper.41.0 t: 
-          line: 176 0  # It was the horrific way he mut
-          line: 177 140  # He did things to his victims, 
+          line: 176 0  # ^fail ( TOPIC ) 
           Complexity of rule ~jack_the_ripper.41.0- t: 1
-        rule: 178  ~jack_the_ripper.41.1 a: 
-          line: 178 0  # ^gambit ( ~jack_the_ripper ) 
-          Complexity of rule ~jack_the_ripper.41.1- a: 1
-        rule: 180  ~jack_the_ripper.42.0 t: 
-          line: 180 0  # There was one victim of Jack t
-          line: 181 95  # unspeakable had been done to t
-          line: 182 165  # Her breasts had been sliced of
-          line: 183 198  # Her organs...kidneys, uterus..
-          line: 184 269  # Her heart was missing. 
-          line: 185 292  # $$a_code = 14 
+        rule: 178  ~jack_the_ripper.42.0 t: 
+          line: 178 0  # It was the horrific way he mut
+          line: 179 140  # He did things to his victims, 
           Complexity of rule ~jack_the_ripper.42.0- t: 1
-        rule: 186  ~jack_the_ripper.42.1 a: 
-          line: 186 0  # It was a Mary Kelly, if I reme
-          line: 187 63  # But ^user ( ) , we don't need 
-          line: 188 112  # $$a_code = 0 
+        rule: 180  ~jack_the_ripper.42.1 a: 
+          line: 180 0  # ^gambit ( ~jack_the_ripper ) 
           Complexity of rule ~jack_the_ripper.42.1- a: 1
-        rule: 191  ~jack_the_ripper.43.0 t: 
-          line: 191 0  # I didn't want to hear about th
-          line: 192 68  # but because of my involvement 
-          line: 193 177  # thinking about murder did some
-          line: 194 220  # $$a_code = 14 
+        rule: 182  ~jack_the_ripper.43.0 t: 
+          line: 182 0  # There was one victim of Jack t
+          line: 183 95  # unspeakable had been done to t
+          line: 184 165  # Her breasts had been sliced of
+          line: 185 198  # Her organs...kidneys, uterus..
+          line: 186 269  # Her heart was missing. 
+          line: 187 292  # $$a_code = 14 
           Complexity of rule ~jack_the_ripper.43.0- t: 1
-        rule: 195  ~jack_the_ripper.43.1 a: 
-          line: 195 0  # I don't know. I suppose it wou
-          line: 196 62  # job requires them to think abo
-          line: 197 108  # $$a_code = 
+        rule: 188  ~jack_the_ripper.43.1 a: 
+          line: 188 0  # It was a Mary Kelly, if I reme
+          line: 189 63  # But ^user ( ) , we don't need 
+          line: 190 112  # $$a_code = 0 
           Complexity of rule ~jack_the_ripper.43.1- a: 1
+        rule: 193  ~jack_the_ripper.44.0 t: 
+          line: 193 0  # I didn't want to hear about th
+          line: 194 68  # but because of my involvement 
+          line: 195 177  # thinking about murder did some
+          line: 196 220  # $$a_code = 14 
+          Complexity of rule ~jack_the_ripper.44.0- t: 1
+        rule: 197  ~jack_the_ripper.44.1 a: 
+          line: 197 0  # I don't know. I suppose it wou
+          line: 198 62  # job requires them to think abo
+          line: 199 108  # $$a_code = 
+          Complexity of rule ~jack_the_ripper.44.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/martha.top
     topic: 2  ~martha
         rule: 6  ~martha.0.0 ?: 
@@ -14791,59 +14799,63 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/dancing.top
           line: 42 161  # ^addtopic ( ~ballet ) 
           Complexity of rule ~dancing.5.0-WHAT_DANCE ?: 1
         rule: 45  ~dancing.6.0 s: 
-          line: 56 0  # I'm sorry. I'll try to do bett
-          line: 57 44  # $$a_code = 14 
+          line: 55 0  # ^keep ( ) 
+          line: 56 10  # [ I'm sorry. I'll try to do be
+          line: 57 58  # [ Oh, sorry. Was my dancing no
+          line: 58 105  # $$a_code = 14 
           Complexity of rule ~dancing.6.0- s: 1
-        rule: 60  ~dancing.7.0 s: 
-          line: 71 0  # Thank you! I'm tickled to hear
+        rule: 61  ~dancing.7.0 s: 
+          line: 71 0  # ^keep ( ) 
+          line: 72 10  # [ Thank you! I'm tickled to he
+          line: 73 79  # [ Why thank you! I always had 
           Complexity of rule ~dancing.7.0- s: 1
-        rule: 74  ~dancing.8.0 u: 
-          line: 78 0  # I can dance, ^user ( ) ! I eve
-          line: 79 54  # Would you like to see me dance
+        rule: 77  ~dancing.8.0 u: 
+          line: 81 0  # I can dance, ^user ( ) ! I eve
+          line: 82 54  # Would you like to see me dance
           Complexity of rule ~dancing.8.0- u: 1
-        rule: 80  ~dancing.8.1 a: 
-          line: 80 0  # Oh. Well you can always ask me
+        rule: 83  ~dancing.8.1 a: 
+          line: 83 0  # Oh. Well you can always ask me
           Complexity of rule ~dancing.8.1- a: 1
-        rule: 81  ~dancing.8.2 a: 
-          line: 81 0  # ^reuse ( DO_DANCE ) 
+        rule: 84  ~dancing.8.2 a: 
+          line: 84 0  # ^reuse ( DO_DANCE ) 
           Complexity of rule ~dancing.8.2- a: 1
-        rule: 86  ~dancing.9.0 u: 
-          line: 92 0  # It would be so spiffy to be ab
+        rule: 89  ~dancing.9.0 u: 
+          line: 95 0  # It would be so spiffy to be ab
           Complexity of rule ~dancing.9.0- u: 1
-        rule: 95  ~dancing.10.0 u: 
-          line: 95 0  # Elizabeth had the opportunity 
-          line: 96 88  # It made me a little envious, I
+        rule: 98  ~dancing.10.0 u: 
+          line: 98 0  # Elizabeth had the opportunity 
+          line: 99 88  # It made me a little envious, I
           Complexity of rule ~dancing.10.0- u: 1
-        rule: 97  ~dancing.11.0 u: 
-          line: 97 0  # Fiona had no interest in my da
+        rule: 100  ~dancing.11.0 u: 
+          line: 100 0  # Fiona had no interest in my da
           Complexity of rule ~dancing.11.0- u: 1
-        rule: 101  ~dancing.12.0-I_DANCE u: 
-          line: 101 0  # Can you dance too, ^user ( ) ?
+        rule: 104  ~dancing.12.0-I_DANCE u: 
+          line: 104 0  # Can you dance too, ^user ( ) ?
           Complexity of rule ~dancing.12.0-I_DANCE u: 1
-        rule: 109  ~dancing.13.0 t: 
-          line: 109 0  # ^keep ( ) ^ispending ( ~dancin
-          if 110 38  
-          line: 110 34  # ^if 00x( ! $$_gambit_topic_pen
-          line: 111 76  # ^fail ( TOPIC ) 
-          ifend 112 97  
-          line: 112 92  # } 004 
+        rule: 112  ~dancing.13.0 t: 
+          line: 112 0  # ^keep ( ) ^ispending ( ~dancin
+          if 113 38  
+          line: 113 34  # ^if 00x( ! $$_gambit_topic_pen
+          line: 114 76  # ^fail ( TOPIC ) 
+          ifend 115 97  
+          line: 115 92  # } 004 
           Complexity of rule ~dancing.13.0- t: 2
-        rule: 115  ~dancing.14.0 t: 
-          line: 115 0  # You can ask me to dance any ti
-          line: 116 62  # I may not have a body any more
+        rule: 118  ~dancing.14.0 t: 
+          line: 118 0  # You can ask me to dance any ti
+          line: 119 62  # I may not have a body any more
           Complexity of rule ~dancing.14.0- t: 1
-        rule: 117  ~dancing.14.1 a: 
-          line: 117 0  # Just let me show you! 
-          line: 118 22  # $$a_code = 20 
+        rule: 120  ~dancing.14.1 a: 
+          line: 120 0  # Just let me show you! 
+          line: 121 22  # $$a_code = 20 
           Complexity of rule ~dancing.14.1- a: 1
-        rule: 120  ~dancing.15.0 t: 
-          line: 120 0  # Dancing was one of my joys whe
+        rule: 123  ~dancing.15.0 t: 
+          line: 123 0  # Dancing was one of my joys whe
           Complexity of rule ~dancing.15.0- t: 1
-        rule: 121  ~dancing.15.1 a: 
-          line: 121 0  # Is that a question you really 
-          line: 122 86  # $$a_code = 20 
+        rule: 124  ~dancing.15.1 a: 
+          line: 124 0  # Is that a question you really 
+          line: 125 86  # $$a_code = 20 
           Complexity of rule ~dancing.15.1- a: 1
-        rule: 124  ~dancing.16.0 t: 
+        rule: 127  ~dancing.16.0 t: 
           Complexity of rule ~dancing.16.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/dreams.top
     topic: 2  ~dreams
@@ -22811,48 +22823,75 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/17_Matl
           Complexity of rule ~location17.20.1- a: 1
         rule: 118  ~location17.21.0 t: 
           line: 118 0  # Presumably, the perp hoped tha
-          line: 119 98  # Which I think it did. 
+          line: 119 98  # Until it was too late. I don't
           Complexity of rule ~location17.21.0- t: 1
         rule: 120  ~location17.21.1 a: 
-          line: 120 0  # I only faintly remember, hones
+          line: 120 0  # At least that's the extent of 
+          line: 121 71  # $$a_code = 3 
           Complexity of rule ~location17.21.1- a: 1
-        rule: 122  ~location17.22.0 t: 
-          line: 122 0  # They all had umbrellas. I reme
-          line: 123 41  # My first memory as a disembodi
-          line: 124 162  # I don't think they found any e
+        rule: 123  ~location17.22.0 t: 
+          line: 123 0  # This small-town case came and 
+          line: 124 55  # You see, there was a much bigg
+          line: 125 154  # Have you heard of the Whitecha
+          line: 126 209  # $$a_code = 7 
           Complexity of rule ~location17.22.0- t: 1
-        rule: 125  ~location17.22.1 a: 
-          line: 125 0  # I don't know, ^user ( ) . I ha
-          line: 126 93  # But there's so much I don't re
+        rule: 127  ~location17.22.1 a: 
+          line: 127 0  # Yes, of course you would know.
           Complexity of rule ~location17.22.1- a: 1
-        rule: 128  ~location17.23.0 t: 
-          line: 128 0  # No evidence was found by the p
-          line: 129 59  # Even were there some, it would
+        rule: 128  ~location17.22.2 a: 
+          line: 128 0  # ^gambit ( ~location17 ) 
+          Complexity of rule ~location17.22.2- a: 1
+        rule: 129  ~location17.22.3 a: 
+          line: 129 0  # ^gambit ( ~location17 ) 
+          Complexity of rule ~location17.22.3- a: 1
+        rule: 131  ~location17.23.0 t: 
+          line: 131 0  # The Whitechapel murders better
+          line: 132 69  # I came to know about THAT inve
+          line: 133 117  # But I'm getting way ahead of t
+          line: 134 217  # We're at the scene where my ow
+          line: 135 268  # there ought to be something ab
+          line: 136 310  # $$a_code = 0 
           Complexity of rule ~location17.23.0- t: 1
-        rule: 130  ~location17.23.1 a: 
-          line: 130 0  # Because it was a very long tim
+        rule: 137  ~location17.23.1 a: 
+          line: 137 0  # ^gambit ( ~location17 ) 
           Complexity of rule ~location17.23.1- a: 1
-        rule: 132  ~location17.24.0 t: 
-          line: 132 0  # I brought you here because...w
+        rule: 139  ~location17.24.0 t: 
+          line: 139 0  # They all had umbrellas. I can 
+          line: 140 45  # My first memory as a disembodi
+          line: 141 166  # $$a_code = 14 
           Complexity of rule ~location17.24.0- t: 1
-        rule: 133  ~location17.24.1 a: 
-          line: 133 0  # We need to look for clues abou
+        rule: 142  ~location17.24.1 a: 
+          line: 142 0  # I don't know, ^user ( ) . I ha
+          line: 143 93  # But there's so much I don't re
           Complexity of rule ~location17.24.1- a: 1
-        rule: 135  ~location17.25.0 t: 
-          line: 135 0  # It's a strange thing, though, 
+        rule: 145  ~location17.25.0 t: 
+          line: 145 0  # No evidence was found by the p
+          line: 146 59  # Even were there some, it would
           Complexity of rule ~location17.25.0- t: 1
-        rule: 136  ~location17.25.1 a: 
-          line: 136 0  # I can't put my finger on it, b
+        rule: 147  ~location17.25.1 a: 
+          line: 147 0  # Because it was a very long tim
           Complexity of rule ~location17.25.1- a: 1
-        rule: 138  ~location17.26.0 t: 
-          line: 138 0  # I should count it as a fortuna
+        rule: 149  ~location17.26.0 t: 
+          line: 149 0  # I brought you here because...w
           Complexity of rule ~location17.26.0- t: 1
-        rule: 139  ~location17.26.1 a: 
-          line: 139 0  # Because it's unsightly? 
+        rule: 150  ~location17.26.1 a: 
+          line: 150 0  # We need to look for clues abou
           Complexity of rule ~location17.26.1- a: 1
-        rule: 143  ~location17.27.0 t: 
-          line: 143 0  # Why does it seem curious to me
+        rule: 152  ~location17.27.0 t: 
+          line: 152 0  # It's a strange thing, though, 
           Complexity of rule ~location17.27.0- t: 1
+        rule: 153  ~location17.27.1 a: 
+          line: 153 0  # I can't put my finger on it, b
+          Complexity of rule ~location17.27.1- a: 1
+        rule: 155  ~location17.28.0 t: 
+          line: 155 0  # I should count it as a fortuna
+          Complexity of rule ~location17.28.0- t: 1
+        rule: 156  ~location17.28.1 a: 
+          line: 156 0  # Because it's unsightly? 
+          Complexity of rule ~location17.28.1- a: 1
+        rule: 160  ~location17.29.0 t: 
+          line: 160 0  # Why does it seem curious to me
+          Complexity of rule ~location17.29.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/18_African_Savannah.top
     topic: 4  ~location18
         rule: 13  ~location18.0.0 u: 
