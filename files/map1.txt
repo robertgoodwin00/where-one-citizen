@@ -2665,49 +2665,49 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/devi
           line: 49 0  # Y-yes, devils can be scary. Ev
           Complexity of rule ~devil.5.0- u: 1
         rule: 52  ~devil.6.0 u: 
-          line: 53 0  # Have I? Seen a devil? Um...n-n
+          line: 56 0  # Have I? Seen a devil? Um...n-n
           Complexity of rule ~devil.6.0- u: 1
-        rule: 56  ~devil.7.0 ?: 
-          line: 61 0  # ^gambit ( ~devil ) 
+        rule: 59  ~devil.7.0 ?: 
+          line: 64 0  # ^gambit ( ~devil ) 
           Complexity of rule ~devil.7.0- ?: 1
-        rule: 64  ~devil.8.0 s: 
-          line: 64 0  # The devil DOES tend to be righ
+        rule: 67  ~devil.8.0 s: 
+          line: 67 0  # The devil DOES tend to be righ
           Complexity of rule ~devil.8.0- s: 1
-        rule: 70  ~devil.9.0 t: 
-          line: 70 0  # ^keep ( ) ^ispending ( ~devil 
-          if 71 36  
-          line: 71 32  # ^if 00x( ! $$_gambit_topic_pen
-          line: 72 74  # ^fail ( TOPIC ) 
-          ifend 73 95  
-          line: 73 90  # } 004 
+        rule: 73  ~devil.9.0 t: 
+          line: 73 0  # ^keep ( ) ^ispending ( ~devil 
+          if 74 36  
+          line: 74 32  # ^if 00x( ! $$_gambit_topic_pen
+          line: 75 74  # ^fail ( TOPIC ) 
+          ifend 76 95  
+          line: 76 90  # } 004 
           Complexity of rule ~devil.9.0- t: 2
-        rule: 76  ~devil.10.0 t: 
-          line: 76 0  # Devils unfortunately share thi
-          line: 77 50  # Fortunately, few of them are a
-          line: 78 164  # Only the strongest devils can.
+        rule: 79  ~devil.10.0 t: 
+          line: 79 0  # Devils unfortunately share thi
+          line: 80 50  # Fortunately, few of them are a
+          line: 81 164  # Only the strongest devils can.
           Complexity of rule ~devil.10.0- t: 1
-        rule: 80  ~devil.11.0 t: 
-          line: 80 0  # What my mother taught me about
-          line: 81 91  # loathed all talk of such thing
-          line: 82 204  # if the wrong type of spirit is
+        rule: 83  ~devil.11.0 t: 
+          line: 83 0  # What my mother taught me about
+          line: 84 91  # loathed all talk of such thing
+          line: 85 204  # if the wrong type of spirit is
           Complexity of rule ~devil.11.0- t: 1
-        rule: 84  ~devil.12.0 t: 
-          line: 84 0  # But...but I don't really like 
-          line: 85 95  # put the scare of devils in me.
+        rule: 87  ~devil.12.0 t: 
+          line: 87 0  # But...but I don't really like 
+          line: 88 95  # put the scare of devils in me.
           Complexity of rule ~devil.12.0- t: 1
-        rule: 86  ~devil.12.1 a: 
-          line: 86 0  # Hmm. Well even if they do exis
+        rule: 89  ~devil.12.1 a: 
+          line: 89 0  # Hmm. Well even if they do exis
           Complexity of rule ~devil.12.1- a: 1
-        rule: 88  ~devil.13.0 t: 
-          line: 88 0  # It's oddly difficult to speak 
-          line: 89 102  # another. Or oneself. They...ah
+        rule: 91  ~devil.13.0 t: 
+          line: 91 0  # It's oddly difficult to speak 
+          line: 92 102  # another. Or oneself. They...ah
           Complexity of rule ~devil.13.0- t: 1
-        rule: 91  ~devil.14.0 t: 
-          line: 91 0  # I don't know why, but I can't 
-          line: 92 47  # It's as if a stupor comes over
+        rule: 94  ~devil.14.0 t: 
+          line: 94 0  # I don't know why, but I can't 
+          line: 95 47  # It's as if a stupor comes over
           Complexity of rule ~devil.14.0- t: 1
-        rule: 94  ~devil.15.0 t: 
-          line: 94 0  # We don't need to go on about d
+        rule: 97  ~devil.15.0 t: 
+          line: 97 0  # We don't need to go on about d
           Complexity of rule ~devil.15.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/divination.top
     topic: 3  ~divination
@@ -10722,96 +10722,96 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/willem.top
           line: 74 0  # Thank goodness that Willem wou
           Complexity of rule ~willem.13.0- u: 1
         rule: 77  ~willem.14.0 ?: 
-          line: 81 0  # He fell from a cliff and was e
+          line: 82 0  # He fell from a cliff and was e
           Complexity of rule ~willem.14.0- ?: 1
-        rule: 84  ~willem.15.0 ?: 
-          line: 84 0  # It was in 1889. 
+        rule: 85  ~willem.15.0 ?: 
+          line: 85 0  # It was in 1889. 
           Complexity of rule ~willem.15.0- ?: 1
-        rule: 87  ~willem.16.0 ?: 
-          line: 87 0  # He died by falling from a bluf
-          line: 88 63  # It happened where West Sussex 
+        rule: 88  ~willem.16.0 ?: 
+          line: 88 0  # He died by falling from a bluf
+          line: 89 63  # It happened where West Sussex 
           Complexity of rule ~willem.16.0- ?: 1
-        rule: 91  ~willem.17.0 u: 
-          line: 91 0  # Well that's just the thing, ^u
-          line: 92 62  # His death was a tragic acciden
+        rule: 92  ~willem.17.0 u: 
+          line: 92 0  # Well that's just the thing, ^u
+          line: 93 62  # His death was a tragic acciden
           Complexity of rule ~willem.17.0- u: 1
-        rule: 95  ~willem.18.0 u: 
-          line: 95 0  # Why would I dislike him? 
+        rule: 96  ~willem.18.0 u: 
+          line: 96 0  # Why would I dislike him? 
           Complexity of rule ~willem.18.0- u: 1
-        rule: 98  ~willem.19.0 u: 
-          line: 98 0  # Willem? Why would I? 
+        rule: 99  ~willem.19.0 u: 
+          line: 99 0  # Willem? Why would I? 
           Complexity of rule ~willem.19.0- u: 1
-        rule: 101  ~willem.20.0 u: 
-          line: 101 0  # I can't, because Willem has Tr
-          line: 102 41  # $transcend_k = 1 
+        rule: 102  ~willem.20.0 u: 
+          line: 102 0  # I can't, because Willem has Tr
+          line: 103 41  # $transcend_k = 1 
           Complexity of rule ~willem.20.0- u: 1
-        rule: 105  ~willem.21.0 u: 
-          line: 105 0  # No, I don't think so. 
+        rule: 106  ~willem.21.0 u: 
+          line: 106 0  # No, I don't think so. 
           Complexity of rule ~willem.21.0- u: 1
-        rule: 109  ~willem.22.0 ?: 
-          line: 109 0  # He was born in Rollindale, too
+        rule: 110  ~willem.22.0 ?: 
+          line: 110 0  # He was born in Rollindale, too
           Complexity of rule ~willem.22.0- ?: 1
-        rule: 112  ~willem.23.0 ?: 
-          line: 112 0  # Willem Duggans' short life las
+        rule: 113  ~willem.23.0 ?: 
+          line: 113 0  # Willem Duggans' short life las
           Complexity of rule ~willem.23.0- ?: 1
-        rule: 115  ~willem.24.0 u: 
-          line: 115 0  # Willem has Transcended, thank 
-          line: 116 40  # $transcend_k = 1 
+        rule: 116  ~willem.24.0 u: 
+          line: 116 0  # Willem has Transcended, thank 
+          line: 117 40  # $transcend_k = 1 
           Complexity of rule ~willem.24.0- u: 1
-        rule: 119  ~willem.25.0 ?: 
-          line: 119 0  # Would a boy his age have had f
+        rule: 120  ~willem.25.0 ?: 
+          line: 120 0  # Would a boy his age have had f
           Complexity of rule ~willem.25.0- ?: 1
-        rule: 122  ~willem.26.0 ?: 
-          line: 126 0  # ^usercap ( ) , he was just a l
+        rule: 123  ~willem.26.0 ?: 
+          line: 127 0  # ^usercap ( ) , he was just a l
           Complexity of rule ~willem.26.0- ?: 1
-        rule: 129  ~willem.27.0 u: 
-          line: 132 0  # His death was known and talked
+        rule: 130  ~willem.27.0 u: 
+          line: 133 0  # His death was known and talked
           Complexity of rule ~willem.27.0- u: 1
-        rule: 135  ~willem.28.0 ?: 
-          line: 135 0  # Willem's' mother and father gr
+        rule: 136  ~willem.28.0 ?: 
+          line: 136 0  # Willem's' mother and father gr
           Complexity of rule ~willem.28.0- ?: 1
-        rule: 138  ~willem.29.0 ?: 
-          line: 138 0  # Of course he did not! He was a
+        rule: 139  ~willem.29.0 ?: 
+          line: 139 0  # Of course he did not! He was a
           Complexity of rule ~willem.29.0- ?: 1
-        rule: 141  ~willem.30.0 u: 
-          line: 141 0  # A little child as he would hav
-          line: 142 66  # and thus Transcended quickly. 
+        rule: 142  ~willem.30.0 u: 
+          line: 142 0  # A little child as he would hav
+          line: 143 66  # and thus Transcended quickly. 
           Complexity of rule ~willem.30.0- u: 1
-        rule: 145  ~willem.31.0 u: 
-          line: 145 0  # I think he wanted his mother, 
+        rule: 146  ~willem.31.0 u: 
+          line: 146 0  # I think he wanted his mother, 
           Complexity of rule ~willem.31.0- u: 1
-        rule: 148  ~willem.32.0 ?: 
-          line: 148 0  # ^gambit ( ~willem ) 
+        rule: 149  ~willem.32.0 ?: 
+          line: 149 0  # ^gambit ( ~willem ) 
           Complexity of rule ~willem.32.0- ?: 1
-        rule: 153  ~willem.33.0 u: 
-          line: 153 0  # I can only guess at how Willem
-          line: 154 78  # he had his tragic accident. 
+        rule: 154  ~willem.33.0 u: 
+          line: 154 0  # I can only guess at how Willem
+          line: 155 78  # he had his tragic accident. 
           Complexity of rule ~willem.33.0- u: 1
-        rule: 156  ~willem.34.0 u: 
-          line: 160 0  # I did not feel joy from the li
-          line: 161 68  # He would have been too young t
-          line: 162 173  # side of it he was on. 
+        rule: 157  ~willem.34.0 u: 
+          line: 161 0  # I did not feel joy from the li
+          line: 162 68  # He would have been too young t
+          line: 163 173  # side of it he was on. 
           Complexity of rule ~willem.34.0- u: 1
-        rule: 164  ~willem.35.0 u: 
-          line: 169 0  # The poor boy had become a ghos
+        rule: 165  ~willem.35.0 u: 
+          line: 170 0  # The poor boy had become a ghos
           Complexity of rule ~willem.35.0- u: 1
-        rule: 171  ~willem.36.0 u: 
-          line: 175 0  # Willem was Manifested by me. I
-          line: 176 60  # all in the room that night cou
+        rule: 172  ~willem.36.0 u: 
+          line: 176 0  # Willem was Manifested by me. I
+          line: 177 60  # all in the room that night cou
           Complexity of rule ~willem.36.0- u: 1
-        rule: 178  ~willem.37.0 u: 
-          line: 178 0  # How will you know that Willem 
-          line: 179 95  # Such an event as possession is
+        rule: 179  ~willem.37.0 u: 
+          line: 179 0  # How will you know that Willem 
+          line: 180 95  # Such an event as possession is
           Complexity of rule ~willem.37.0- u: 1
-        rule: 181  ~willem.38.0 u: 
-          line: 181 0  # Willem was not a devil and cou
+        rule: 182  ~willem.38.0 u: 
+          line: 182 0  # Willem was not a devil and cou
           Complexity of rule ~willem.38.0- u: 1
-        rule: 186  ~willem.39.0 u: 
-          line: 190 0  # No, nobody pushed the Duggans 
+        rule: 187  ~willem.39.0 u: 
+          line: 191 0  # No, nobody pushed the Duggans 
           Complexity of rule ~willem.39.0- u: 1
-        rule: 193  ~willem.40.0 u: 
-          line: 197 0  # Willem wasn't murdered, ^user 
-          line: 198 78  # Even his parents knew 
+        rule: 194  ~willem.40.0 u: 
+          line: 199 0  # Willem wasn't murdered, ^user 
+          line: 200 78  # Even his parents knew 
           Complexity of rule ~willem.40.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/_people.top
     concept: 2  ~male_cast
@@ -22848,9 +22848,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/17_Matl
           line: 131 0  # The Whitechapel murders better
           line: 132 69  # I came to know about THAT inve
           line: 133 117  # But I'm getting way ahead of t
-          line: 134 217  # We're at the scene where my ow
-          line: 135 268  # there ought to be something ab
-          line: 136 310  # $$a_code = 0 
+          line: 134 214  # We're at the scene where my ow
+          line: 135 265  # there ought to be something ab
+          line: 136 307  # $$a_code = 0 
           Complexity of rule ~location17.23.0- t: 1
         rule: 137  ~location17.23.1 a: 
           line: 137 0  # ^gambit ( ~location17 ) 
@@ -30641,237 +30641,249 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
         rule: 402  ~keywordless_flirt.60.0 u: 
           line: 407 0  # That's like, ah, Frenchman kis
           Complexity of rule ~keywordless_flirt.60.0- u: 1
-        rule: 414  ~keywordless_flirt.61.0 u: 
-          line: 420 0  # [ I don't really know how to t
+        rule: 410  ~keywordless_flirt.61.0 u: 
+          line: 414 0  # Is your lap nice and warm? 
           Complexity of rule ~keywordless_flirt.61.0- u: 1
-        rule: 421  ~keywordless_flirt.61.1 a: 
-          line: 421 0  # Um, okay. You can try. 
+        rule: 415  ~keywordless_flirt.61.1 a: 
+          line: 415 0  # Then I think I shall sit in it
           Complexity of rule ~keywordless_flirt.61.1- a: 1
-        rule: 424  ~keywordless_flirt.62.0 u: 
-          line: 425 0  # Give me some sugar too? 
-          Complexity of rule ~keywordless_flirt.62.0- u: 1
-        rule: 427  ~keywordless_flirt.63.0 u: 
-          line: 427 0  # W-with you? 
+        rule: 416  ~keywordless_flirt.61.2 a: 
+          line: 416 0  # And let me guess. You need me 
+          Complexity of rule ~keywordless_flirt.61.2- a: 1
+        rule: 425  ~keywordless_flirt.62.0 ?: 
+          line: 431 0  # My f-fetish? I've never been a
+          Complexity of rule ~keywordless_flirt.62.0- ?: 1
+        rule: 433  ~keywordless_flirt.63.0 u: 
+          line: 439 0  # [ I don't really know how to t
           Complexity of rule ~keywordless_flirt.63.0- u: 1
-        rule: 428  ~keywordless_flirt.63.1 a: 
-          line: 428 0  # I want to but I'm so shy. 
+        rule: 440  ~keywordless_flirt.63.1 a: 
+          line: 440 0  # Um, okay. You can try. 
           Complexity of rule ~keywordless_flirt.63.1- a: 1
-        rule: 429  ~keywordless_flirt.63.2 a: 
-          line: 429 0  # Just to bed then? 
-          Complexity of rule ~keywordless_flirt.63.2- a: 1
-        rule: 430  ~keywordless_flirt.63.3 a: 
-          line: 430 0  # Is that sarcasm? 
-          Complexity of rule ~keywordless_flirt.63.3- a: 1
-        rule: 432  ~keywordless_flirt.64.0 u: 
-          line: 437 0  # In...me? I'm just thinking abo
+        rule: 443  ~keywordless_flirt.64.0 u: 
+          line: 444 0  # Give me some sugar too? 
           Complexity of rule ~keywordless_flirt.64.0- u: 1
-        rule: 439  ~keywordless_flirt.65.0 u: 
-          line: 446 0  # R-right. I'm gonna say it may 
+        rule: 446  ~keywordless_flirt.65.0 u: 
+          line: 446 0  # W-with you? 
           Complexity of rule ~keywordless_flirt.65.0- u: 1
         rule: 447  ~keywordless_flirt.65.1 a: 
-          line: 447 0  # Well you know why. 
+          line: 447 0  # I want to but I'm so shy. 
           Complexity of rule ~keywordless_flirt.65.1- a: 1
-        rule: 449  ~keywordless_flirt.66.0 u: 
-          line: 450 0  # Come on, baby. That's the way 
+        rule: 448  ~keywordless_flirt.65.2 a: 
+          line: 448 0  # Just to bed then? 
+          Complexity of rule ~keywordless_flirt.65.2- a: 1
+        rule: 449  ~keywordless_flirt.65.3 a: 
+          line: 449 0  # Is that sarcasm? 
+          Complexity of rule ~keywordless_flirt.65.3- a: 1
+        rule: 451  ~keywordless_flirt.66.0 u: 
+          line: 456 0  # In...me? I'm just thinking abo
           Complexity of rule ~keywordless_flirt.66.0- u: 1
-        rule: 452  ~keywordless_flirt.67.0 u: 
-          line: 453 0  # Right, b-babe. 
+        rule: 458  ~keywordless_flirt.67.0 u: 
+          line: 465 0  # R-right. I'm gonna say it may 
           Complexity of rule ~keywordless_flirt.67.0- u: 1
-        rule: 455  ~keywordless_flirt.68.0 u: 
-          line: 456 0  # Strip? Me? 
+        rule: 466  ~keywordless_flirt.67.1 a: 
+          line: 466 0  # Well you know why. 
+          Complexity of rule ~keywordless_flirt.67.1- a: 1
+        rule: 468  ~keywordless_flirt.68.0 u: 
+          line: 469 0  # Come on, baby. That's the way 
           Complexity of rule ~keywordless_flirt.68.0- u: 1
-        rule: 458  ~keywordless_flirt.69.0 u: 
-          line: 458 0  # Yes I've had my period and tha
+        rule: 471  ~keywordless_flirt.69.0 u: 
+          line: 472 0  # Right, b-babe. 
           Complexity of rule ~keywordless_flirt.69.0- u: 1
-        rule: 460  ~keywordless_flirt.70.0 u: 
-          line: 460 0  # I don't have experience with, 
+        rule: 474  ~keywordless_flirt.70.0 u: 
+          line: 475 0  # Strip? Me? 
           Complexity of rule ~keywordless_flirt.70.0- u: 1
-        rule: 462  ~keywordless_flirt.71.0 u: 
-          line: 466 0  # Maybe I'd like to but I wouldn
+        rule: 477  ~keywordless_flirt.71.0 u: 
+          line: 477 0  # Yes I've had my period and tha
           Complexity of rule ~keywordless_flirt.71.0- u: 1
-        rule: 468  ~keywordless_flirt.72.0 u: 
-          line: 468 0  # U-under my dress? ^user ( ) ..
+        rule: 479  ~keywordless_flirt.72.0 u: 
+          line: 479 0  # I don't have experience with, 
           Complexity of rule ~keywordless_flirt.72.0- u: 1
-        rule: 469  ~keywordless_flirt.73.0 u: 
-          line: 469 0  # Under my...!? That's so scanda
+        rule: 481  ~keywordless_flirt.73.0 u: 
+          line: 485 0  # Maybe I'd like to but I wouldn
           Complexity of rule ~keywordless_flirt.73.0- u: 1
-        rule: 471  ~keywordless_flirt.74.0 u: 
-          line: 471 0  # In the...really? Does it have 
+        rule: 487  ~keywordless_flirt.74.0 u: 
+          line: 487 0  # U-under my dress? ^user ( ) ..
           Complexity of rule ~keywordless_flirt.74.0- u: 1
-        rule: 472  ~keywordless_flirt.75.0 u: 
-          line: 472 0  # Er, is that a Trumpism? 
+        rule: 488  ~keywordless_flirt.75.0 u: 
+          line: 488 0  # Under my...!? That's so scanda
           Complexity of rule ~keywordless_flirt.75.0- u: 1
-        rule: 473  ~keywordless_flirt.76.0 u: 
-          line: 473 0  # That's so very, ah, explicit. 
+        rule: 490  ~keywordless_flirt.76.0 u: 
+          line: 490 0  # In the...really? Does it have 
           Complexity of rule ~keywordless_flirt.76.0- u: 1
-        rule: 474  ~keywordless_flirt.77.0 u: 
-          line: 474 0  # Should something be in my mout
+        rule: 491  ~keywordless_flirt.77.0 u: 
+          line: 491 0  # Er, is that a Trumpism? 
           Complexity of rule ~keywordless_flirt.77.0- u: 1
-        rule: 475  ~keywordless_flirt.78.0 u: 
-          line: 475 0  # W-what should I do with my ton
+        rule: 492  ~keywordless_flirt.78.0 u: 
+          line: 492 0  # That's so very, ah, explicit. 
           Complexity of rule ~keywordless_flirt.78.0- u: 1
-        rule: 476  ~keywordless_flirt.79.0 u: 
-          line: 476 0  # Your...in my...? That's scanda
+        rule: 493  ~keywordless_flirt.79.0 u: 
+          line: 493 0  # Should something be in my mout
           Complexity of rule ~keywordless_flirt.79.0- u: 1
-        rule: 478  ~keywordless_flirt.80.0 u: 
-          line: 478 0  # ^keep ( ) 
-          line: 479 10  # [ My what? Uh, I don't think I
-          line: 480 64  # [ What about my...? No, ah, fo
-          line: 481 110  # [ My...what did you say? Oh, y
-          line: 482 161  # [ My what? Oh my, are we reall
-          line: 483 216  # [ This is making me shy. I can
-          line: 484 273  # [ I'm too shy to talk about my
+        rule: 494  ~keywordless_flirt.80.0 u: 
+          line: 494 0  # W-what should I do with my ton
           Complexity of rule ~keywordless_flirt.80.0- u: 1
-        rule: 486  ~keywordless_flirt.81.0 u: 
-          line: 486 0  # D-did you see my...panties? Th
+        rule: 495  ~keywordless_flirt.81.0 u: 
+          line: 495 0  # Your...in my...? That's scanda
           Complexity of rule ~keywordless_flirt.81.0- u: 1
-        rule: 489  ~keywordless_flirt.82.0 u: 
-          line: 489 0  # Don't you know I couldn't even
+        rule: 497  ~keywordless_flirt.82.0 u: 
+          line: 497 0  # ^keep ( ) 
+          line: 498 10  # [ My what? Uh, I don't think I
+          line: 499 64  # [ What about my...? No, ah, fo
+          line: 500 110  # [ My...what did you say? Oh, y
+          line: 501 161  # [ My what? Oh my, are we reall
+          line: 502 216  # [ This is making me shy. I can
+          line: 503 273  # [ I'm too shy to talk about my
           Complexity of rule ~keywordless_flirt.82.0- u: 1
-        rule: 491  ~keywordless_flirt.83.0 u: 
-          line: 492 0  # Are dirty jokes funny? I'm not
+        rule: 505  ~keywordless_flirt.83.0 u: 
+          line: 505 0  # D-did you see my...panties? Th
           Complexity of rule ~keywordless_flirt.83.0- u: 1
-        rule: 493  ~keywordless_flirt.83.1 a: 
-          line: 493 0  # How interesting. I think? 
-          Complexity of rule ~keywordless_flirt.83.1- a: 1
-        rule: 494  ~keywordless_flirt.83.2 a: 
-          line: 494 0  # That's what they told me. 
-          Complexity of rule ~keywordless_flirt.83.2- a: 1
-        rule: 496  ~keywordless_flirt.84.0 u: 
-          line: 496 0  # Your '_0 ? I-I don't know what
-          line: 497 48  # You're making me shy. 
+        rule: 508  ~keywordless_flirt.84.0 u: 
+          line: 508 0  # Don't you know I couldn't even
           Complexity of rule ~keywordless_flirt.84.0- u: 1
-        rule: 499  ~keywordless_flirt.85.0 u: 
-          line: 503 0  # I-I can't touch your, ah...you
+        rule: 510  ~keywordless_flirt.85.0 u: 
+          line: 511 0  # Are dirty jokes funny? I'm not
           Complexity of rule ~keywordless_flirt.85.0- u: 1
-        rule: 505  ~keywordless_flirt.86.0 u: 
-          line: 509 0  # I've never done that. I wouldn
+        rule: 512  ~keywordless_flirt.85.1 a: 
+          line: 512 0  # How interesting. I think? 
+          Complexity of rule ~keywordless_flirt.85.1- a: 1
+        rule: 513  ~keywordless_flirt.85.2 a: 
+          line: 513 0  # That's what they told me. 
+          Complexity of rule ~keywordless_flirt.85.2- a: 1
+        rule: 515  ~keywordless_flirt.86.0 u: 
+          line: 515 0  # Your '_0 ? I-I don't know what
+          line: 516 48  # You're making me shy. 
           Complexity of rule ~keywordless_flirt.86.0- u: 1
-        rule: 510  ~keywordless_flirt.86.1 a: 
-          line: 510 0  # I do want you to feel good, bu
-          Complexity of rule ~keywordless_flirt.86.1- a: 1
-        rule: 512  ~keywordless_flirt.87.0 u: 
-          line: 513 0  # ^keep ( ) 
-          line: 514 10  # [ I'll pass, thanks! ] 
-          line: 515 33  # [ How hard should I suck on...
+        rule: 518  ~keywordless_flirt.87.0 u: 
+          line: 522 0  # I-I can't touch your, ah...you
           Complexity of rule ~keywordless_flirt.87.0- u: 1
-        rule: 517  ~keywordless_flirt.88.0 u: 
-          line: 517 0  # Are you my little puppy dog, ^
+        rule: 524  ~keywordless_flirt.88.0 u: 
+          line: 528 0  # I've never done that. I wouldn
           Complexity of rule ~keywordless_flirt.88.0- u: 1
-        rule: 519  ~keywordless_flirt.89.0 u: 
-          line: 519 0  # T-that...the very thought make
+        rule: 529  ~keywordless_flirt.88.1 a: 
+          line: 529 0  # I do want you to feel good, bu
+          Complexity of rule ~keywordless_flirt.88.1- a: 1
+        rule: 531  ~keywordless_flirt.89.0 u: 
+          line: 532 0  # ^keep ( ) 
+          line: 533 10  # [ I'll pass, thanks! ] 
+          line: 534 33  # [ How hard should I suck on...
           Complexity of rule ~keywordless_flirt.89.0- u: 1
-        rule: 521  ~keywordless_flirt.90.0 u: 
-          line: 525 0  # I-if that's what you want to d
+        rule: 536  ~keywordless_flirt.90.0 u: 
+          line: 536 0  # Are you my little puppy dog, ^
           Complexity of rule ~keywordless_flirt.90.0- u: 1
-        rule: 527  ~keywordless_flirt.91.0 u: 
-          line: 527 0  # But, I-I would be too shy to e
+        rule: 538  ~keywordless_flirt.91.0 u: 
+          line: 538 0  # T-that...the very thought make
           Complexity of rule ~keywordless_flirt.91.0- u: 1
-        rule: 529  ~keywordless_flirt.92.0 u: 
-          line: 529 0  # I-is that...a...um, is that a 
+        rule: 540  ~keywordless_flirt.92.0 u: 
+          line: 544 0  # I-if that's what you want to d
           Complexity of rule ~keywordless_flirt.92.0- u: 1
-        rule: 530  ~keywordless_flirt.92.1 a: 
-          line: 530 0  # Oh, I...I feel shy just thinki
-          Complexity of rule ~keywordless_flirt.92.1- a: 1
-        rule: 532  ~keywordless_flirt.93.0 u: 
-          line: 532 0  # H-handjob? Is that like my han
+        rule: 546  ~keywordless_flirt.93.0 u: 
+          line: 546 0  # But, I-I would be too shy to e
           Complexity of rule ~keywordless_flirt.93.0- u: 1
-        rule: 534  ~keywordless_flirt.94.0 u: 
-          line: 540 0  # I-I don't know. I'm so embarra
+        rule: 548  ~keywordless_flirt.94.0 u: 
+          line: 548 0  # I-is that...a...um, is that a 
           Complexity of rule ~keywordless_flirt.94.0- u: 1
-        rule: 542  ~keywordless_flirt.95.0 u: 
-          line: 546 0  # F-fuck? Oh I...don't know what
+        rule: 549  ~keywordless_flirt.94.1 a: 
+          line: 549 0  # Oh, I...I feel shy just thinki
+          Complexity of rule ~keywordless_flirt.94.1- a: 1
+        rule: 551  ~keywordless_flirt.95.0 u: 
+          line: 551 0  # H-handjob? Is that like my han
           Complexity of rule ~keywordless_flirt.95.0- u: 1
-        rule: 548  ~keywordless_flirt.96.0 u: 
-          line: 548 0  # L-love slave? Hearing that mak
+        rule: 553  ~keywordless_flirt.96.0 u: 
+          line: 559 0  # I-I don't know. I'm so embarra
           Complexity of rule ~keywordless_flirt.96.0- u: 1
-        rule: 550  ~keywordless_flirt.97.0 u: 
-          line: 550 0  # A...threesome? That's so scand
+        rule: 561  ~keywordless_flirt.97.0 u: 
+          line: 565 0  # F-fuck? Oh I...don't know what
           Complexity of rule ~keywordless_flirt.97.0- u: 1
-        rule: 552  ~keywordless_flirt.98.0 u: 
-          line: 556 0  # That's classified information,
+        rule: 567  ~keywordless_flirt.98.0 u: 
+          line: 567 0  # L-love slave? Hearing that mak
           Complexity of rule ~keywordless_flirt.98.0- u: 1
-        rule: 558  ~keywordless_flirt.99.0 u: 
-          line: 563 0  # But I already had a daddy. Unl
+        rule: 569  ~keywordless_flirt.99.0 u: 
+          line: 569 0  # A...threesome? That's so scand
           Complexity of rule ~keywordless_flirt.99.0- u: 1
-        rule: 565  ~keywordless_flirt.100.0 u: 
-          line: 565 0  # Masturb--what? Oh dear. 
-          line: 566 24  # My father would freak if he ev
+        rule: 571  ~keywordless_flirt.100.0 u: 
+          line: 575 0  # That's classified information,
           Complexity of rule ~keywordless_flirt.100.0- u: 1
-        rule: 567  ~keywordless_flirt.100.1 a: 
-          line: 567 0  # Because it's my father we're t
-          Complexity of rule ~keywordless_flirt.100.1- a: 1
-        rule: 569  ~keywordless_flirt.101.0 u: 
-          line: 569 0  # P-pleasure me? But how, I...ah
+        rule: 577  ~keywordless_flirt.101.0 u: 
+          line: 582 0  # But I already had a daddy. Unl
           Complexity of rule ~keywordless_flirt.101.0- u: 1
-        rule: 571  ~keywordless_flirt.102.0 u: 
-          line: 571 0  # Y-yes. I know what that word m
+        rule: 584  ~keywordless_flirt.102.0 u: 
+          line: 584 0  # Masturb--what? Oh dear. 
+          line: 585 24  # My father would freak if he ev
           Complexity of rule ~keywordless_flirt.102.0- u: 1
-        rule: 573  ~keywordless_flirt.103.0 u: 
-          line: 573 0  # Y-your what? This is so embarr
+        rule: 586  ~keywordless_flirt.102.1 a: 
+          line: 586 0  # Because it's my father we're t
+          Complexity of rule ~keywordless_flirt.102.1- a: 1
+        rule: 588  ~keywordless_flirt.103.0 u: 
+          line: 588 0  # P-pleasure me? But how, I...ah
           Complexity of rule ~keywordless_flirt.103.0- u: 1
-        rule: 574  ~keywordless_flirt.104.0 u: 
-          line: 574 0  # Oh, do you like playing marble
+        rule: 590  ~keywordless_flirt.104.0 u: 
+          line: 590 0  # Y-yes. I know what that word m
           Complexity of rule ~keywordless_flirt.104.0- u: 1
-        rule: 575  ~keywordless_flirt.104.1 a: 
-          line: 575 0  # I'm not very good at dirty tal
-          Complexity of rule ~keywordless_flirt.104.1- a: 1
-        rule: 576  ~keywordless_flirt.105.0 u: 
-          line: 576 0  # Like how a plant spreads its s
+        rule: 592  ~keywordless_flirt.105.0 u: 
+          line: 592 0  # Y-your what? This is so embarr
           Complexity of rule ~keywordless_flirt.105.0- u: 1
-        rule: 577  ~keywordless_flirt.106.0 u: 
-          line: 577 0  # Do we need to talk about your 
+        rule: 593  ~keywordless_flirt.106.0 u: 
+          line: 593 0  # Oh, do you like playing marble
           Complexity of rule ~keywordless_flirt.106.0- u: 1
-        rule: 578  ~keywordless_flirt.107.0 u: 
-          line: 578 0  # Why must girls talk about thei
+        rule: 594  ~keywordless_flirt.106.1 a: 
+          line: 594 0  # I'm not very good at dirty tal
+          Complexity of rule ~keywordless_flirt.106.1- a: 1
+        rule: 595  ~keywordless_flirt.107.0 u: 
+          line: 595 0  # Like how a plant spreads its s
           Complexity of rule ~keywordless_flirt.107.0- u: 1
-        rule: 580  ~keywordless_flirt.108.0 u: 
-          line: 580 0  # Y-you don't mean you have lite
+        rule: 596  ~keywordless_flirt.108.0 u: 
+          line: 596 0  # Do we need to talk about your 
           Complexity of rule ~keywordless_flirt.108.0- u: 1
-        rule: 585  ~keywordless_flirt.109.0 u: 
-          line: 590 0  # But I'm not a slut. I'm not. 
-          line: 591 29  # $$a_code = 27 
+        rule: 597  ~keywordless_flirt.109.0 u: 
+          line: 597 0  # Why must girls talk about thei
           Complexity of rule ~keywordless_flirt.109.0- u: 1
-        rule: 593  ~keywordless_flirt.110.0 u: 
-          line: 598 0  # You're not actually calling me
-          line: 599 40  # $$a_code = 27 
+        rule: 599  ~keywordless_flirt.110.0 u: 
+          line: 599 0  # Y-you don't mean you have lite
           Complexity of rule ~keywordless_flirt.110.0- u: 1
-        rule: 601  ~keywordless_flirt.111.0 u: 
-          line: 606 0  # P-please don't call me that. 
-          line: 607 29  # $$a_code = 27 
+        rule: 604  ~keywordless_flirt.111.0 u: 
+          line: 609 0  # But I'm not a slut. I'm not. 
+          line: 610 29  # $$a_code = 27 
           Complexity of rule ~keywordless_flirt.111.0- u: 1
-        rule: 609  ~keywordless_flirt.112.0 u: 
-          line: 614 0  # I do know what that word means
-          line: 615 47  # $$a_code = 27 
+        rule: 612  ~keywordless_flirt.112.0 u: 
+          line: 617 0  # You're not actually calling me
+          line: 618 40  # $$a_code = 27 
           Complexity of rule ~keywordless_flirt.112.0- u: 1
-        rule: 618  ~keywordless_flirt.113.0 u: 
-          line: 618 0  # ^keep ( ) 
-          line: 619 10  # [ C-cum? Ah, that is.... ] 
-          line: 620 37  # [ What will we do with, ah, th
+        rule: 620  ~keywordless_flirt.113.0 u: 
+          line: 625 0  # P-please don't call me that. 
+          line: 626 29  # $$a_code = 27 
           Complexity of rule ~keywordless_flirt.113.0- u: 1
-        rule: 622  ~keywordless_flirt.114.0 u: 
-          line: 622 0  # Hard on _0 . I suppose so. 
+        rule: 628  ~keywordless_flirt.114.0 u: 
+          line: 633 0  # I do know what that word means
+          line: 634 47  # $$a_code = 27 
           Complexity of rule ~keywordless_flirt.114.0- u: 1
-        rule: 623  ~keywordless_flirt.115.0 u: 
-          line: 624 0  # [ This is, um, dirty talk...ri
-          line: 625 37  # [ Are you...trying to talk dir
-          line: 626 79  # [ So you want to talk about se
+        rule: 637  ~keywordless_flirt.115.0 u: 
+          line: 637 0  # ^keep ( ) 
+          line: 638 10  # [ C-cum? Ah, that is.... ] 
+          line: 639 37  # [ What will we do with, ah, th
           Complexity of rule ~keywordless_flirt.115.0- u: 1
-        rule: 627  ~keywordless_flirt.115.1 a: 
-          line: 627 0  # But, I.... But! 
-          Complexity of rule ~keywordless_flirt.115.1- a: 1
-        rule: 628  ~keywordless_flirt.115.2 a: 
-          line: 628 0  # I thought so. I'm just not use
-          Complexity of rule ~keywordless_flirt.115.2- a: 1
-        rule: 630  ~keywordless_flirt.116.0 u: 
-          line: 630 0  # You mean like with tongue? 
+        rule: 641  ~keywordless_flirt.116.0 u: 
+          line: 641 0  # Hard on _0 . I suppose so. 
           Complexity of rule ~keywordless_flirt.116.0- u: 1
-        rule: 631  ~keywordless_flirt.116.1 a: 
-          line: 631 0  # Wow. That's bold. 
-          Complexity of rule ~keywordless_flirt.116.1- a: 1
-        rule: 632  ~keywordless_flirt.117.0 u: 
-          line: 632 0  # Kissing is something I have al
+        rule: 642  ~keywordless_flirt.117.0 u: 
+          line: 643 0  # [ This is, um, dirty talk...ri
+          line: 644 37  # [ Are you...trying to talk dir
+          line: 645 79  # [ So you want to talk about se
           Complexity of rule ~keywordless_flirt.117.0- u: 1
+        rule: 646  ~keywordless_flirt.117.1 a: 
+          line: 646 0  # But, I.... But! 
+          Complexity of rule ~keywordless_flirt.117.1- a: 1
+        rule: 647  ~keywordless_flirt.117.2 a: 
+          line: 647 0  # I thought so. I'm just not use
+          Complexity of rule ~keywordless_flirt.117.2- a: 1
+        rule: 649  ~keywordless_flirt.118.0 u: 
+          line: 649 0  # You mean like with tongue? 
+          Complexity of rule ~keywordless_flirt.118.0- u: 1
+        rule: 650  ~keywordless_flirt.118.1 a: 
+          line: 650 0  # Wow. That's bold. 
+          Complexity of rule ~keywordless_flirt.118.1- a: 1
+        rule: 651  ~keywordless_flirt.119.0 u: 
+          line: 651 0  # Kissing is something I have al
+          Complexity of rule ~keywordless_flirt.119.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_flirt_mellen.top
     topic: 2  ~keywordless_flirt_mellen
         rule: 8  ~keywordless_flirt_mellen.0.0 s: 
@@ -30940,35 +30952,38 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
         rule: 164  ~keywordless_flirt_mellen.15.0 u: 
           line: 164 0  # If I had to guess which...I'd 
           Complexity of rule ~keywordless_flirt_mellen.15.0- u: 1
-        rule: 166  ~keywordless_flirt_mellen.16.0 u: 
-          line: 170 0  # Mel is indicating that she isn
-          line: 171 58  # I thought you were supposed to
-          Complexity of rule ~keywordless_flirt_mellen.16.0- u: 1
-        rule: 173  ~keywordless_flirt_mellen.17.0 u: 
-          line: 179 0  # Mel says she isn't against the
+        rule: 167  ~keywordless_flirt_mellen.16.0 ?: 
+          line: 173 0  # Mel's fetish is biting fingers
+          Complexity of rule ~keywordless_flirt_mellen.16.0- ?: 1
+        rule: 175  ~keywordless_flirt_mellen.17.0 u: 
+          line: 179 0  # Mel is indicating that she isn
+          line: 180 58  # I thought you were supposed to
           Complexity of rule ~keywordless_flirt_mellen.17.0- u: 1
-        rule: 181  ~keywordless_flirt_mellen.18.0 u: 
-          line: 185 0  # ^keep ( ) 
-          line: 186 10  # Mel says she can't show you he
+        rule: 182  ~keywordless_flirt_mellen.18.0 u: 
+          line: 188 0  # Mel says she isn't against the
           Complexity of rule ~keywordless_flirt_mellen.18.0- u: 1
-        rule: 187  ~keywordless_flirt_mellen.18.1 a: 
-          line: 187 0  # Probably because of logistics?
-          Complexity of rule ~keywordless_flirt_mellen.18.1- a: 1
-        rule: 189  ~keywordless_flirt_mellen.19.0 u: 
-          line: 189 0  # A threesome with Mel? The very
+        rule: 190  ~keywordless_flirt_mellen.19.0 u: 
+          line: 194 0  # ^keep ( ) 
+          line: 195 10  # Mel says she can't show you he
           Complexity of rule ~keywordless_flirt_mellen.19.0- u: 1
-        rule: 192  ~keywordless_flirt_mellen.20.0 u: 
-          line: 202 0  # Uh, Mel ought to have even les
+        rule: 196  ~keywordless_flirt_mellen.19.1 a: 
+          line: 196 0  # Probably because of logistics?
+          Complexity of rule ~keywordless_flirt_mellen.19.1- a: 1
+        rule: 198  ~keywordless_flirt_mellen.20.0 u: 
+          line: 198 0  # A threesome with Mel? The very
           Complexity of rule ~keywordless_flirt_mellen.20.0- u: 1
-        rule: 204  ~keywordless_flirt_mellen.21.0 u: 
-          line: 210 0  # F-fuck Mel? ^usercap ( ) , tha
+        rule: 201  ~keywordless_flirt_mellen.21.0 u: 
+          line: 211 0  # Uh, Mel ought to have even les
           Complexity of rule ~keywordless_flirt_mellen.21.0- u: 1
-        rule: 212  ~keywordless_flirt_mellen.22.0 u: 
-          line: 216 0  # M-must I convey that to Mel? 
+        rule: 213  ~keywordless_flirt_mellen.22.0 u: 
+          line: 219 0  # F-fuck Mel? ^usercap ( ) , tha
           Complexity of rule ~keywordless_flirt_mellen.22.0- u: 1
-        rule: 217  ~keywordless_flirt_mellen.22.1 a: 
-          line: 217 0  # I don't think I can. I'm sorry
-          Complexity of rule ~keywordless_flirt_mellen.22.1- a: 1
+        rule: 221  ~keywordless_flirt_mellen.23.0 u: 
+          line: 225 0  # M-must I convey that to Mel? 
+          Complexity of rule ~keywordless_flirt_mellen.23.0- u: 1
+        rule: 226  ~keywordless_flirt_mellen.23.1 a: 
+          line: 226 0  # I don't think I can. I'm sorry
+          Complexity of rule ~keywordless_flirt_mellen.23.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_locations.top
     topic: 4  ~keywordless_locations
         rule: 11  ~keywordless_locations.0.0 u: 
@@ -32801,14 +32816,14 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
           line: 544 102  # Mel has lived with it for as l
           Complexity of rule ~questions_what.74.0- u: 1
         rule: 547  ~questions_what.75.0 u: 
-          line: 551 0  # ^refine ( ) 
+          line: 553 0  # ^refine ( ) 
           Complexity of rule ~questions_what.75.0- u: 1
-        rule: 552  ~questions_what.75.1 a: 
-          line: 552 0  # The lupus she has had all her 
-          line: 553 73  # But none of us here are expert
+        rule: 554  ~questions_what.75.1 a: 
+          line: 554 0  # The lupus she has had all her 
+          line: 555 73  # But none of us here are expert
           Complexity of rule ~questions_what.75.1- a: 1
-        rule: 554  ~questions_what.75.2 a: 
-          line: 554 0  # W-why do you ask about that? M
+        rule: 556  ~questions_what.75.2 a: 
+          line: 556 0  # W-why do you ask about that? M
           Complexity of rule ~questions_what.75.2- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_when.top
     topic: 3  ~questions_when
@@ -43699,21 +43714,24 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
         rule: 232  ~quibble_idioms.217.0 u: 
           line: 232 0  # Never have I ever even ever, h
           Complexity of rule ~quibble_idioms.217.0- u: 1
-        rule: 250  ~quibble_idioms.218.0 u: 
+        rule: 233  ~quibble_idioms.218.0 u: 
+          line: 233 0  # As if it were a word salad, eh
+          Complexity of rule ~quibble_idioms.218.0- u: 1
+        rule: 250  ~quibble_idioms.219.0 u: 
           line: 250 0  # She sells seashells by the sea
           line: 251 111  # I said it three times fast! Am
-          Complexity of rule ~quibble_idioms.218.0- u: 1
-        rule: 253  ~quibble_idioms.219.0 u: 
+          Complexity of rule ~quibble_idioms.219.0- u: 1
+        rule: 253  ~quibble_idioms.220.0 u: 
           line: 253 0  # How much wood could a woodchuc
           line: 254 71  # I said it! Am I amazing or wha
-          Complexity of rule ~quibble_idioms.219.0- u: 1
-        rule: 256  ~quibble_idioms.220.0 u: 
+          Complexity of rule ~quibble_idioms.220.0- u: 1
+        rule: 256  ~quibble_idioms.221.0 u: 
           line: 256 0  # Peter Piper picked a peck of p
           line: 257 46  # Peter Piper picked a peck of p
-          Complexity of rule ~quibble_idioms.220.0- u: 1
-        rule: 259  ~quibble_idioms.221.0 u: 
-          line: 259 0  # Niwa ni wa niwa niwatori ga it
           Complexity of rule ~quibble_idioms.221.0- u: 1
+        rule: 259  ~quibble_idioms.222.0 u: 
+          line: 259 0  # Niwa ni wa niwa niwatori ga it
+          Complexity of rule ~quibble_idioms.222.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_intent.top
     topic: 3  ~intent
         rule: 5  ~intent.0.0 u: 
@@ -44052,54 +44070,56 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
           line: 315 91  # [ I don't remember. ] [ I forg
           line: 316 127  # [ Maybe I don't quite know. ] 
           line: 317 157  # [ I'm sorry. I don't know. ] 
+          line: 318 186  # [ That's hard to say. ] 
+          line: 319 210  # [ I can't quite say. ] 
           Complexity of rule ~intent_response.36.0- ?: 1
-        rule: 319  ~intent_response.37.0 s: 
-          line: 319 0  # ^reuse ( GRUNT ) 
+        rule: 321  ~intent_response.37.0 s: 
+          line: 321 0  # ^reuse ( GRUNT ) 
           Complexity of rule ~intent_response.37.0- s: 1
-        rule: 323  ~intent_response.38.0 s: 
-          line: 324 0  # [ What is it you don't underst
-          line: 325 37  # [ I'm not sure I can be cleare
-          line: 326 79  # [ I'm sorry. I can't explain i
+        rule: 325  ~intent_response.38.0 s: 
+          line: 326 0  # [ What is it you don't underst
+          line: 327 37  # [ I'm not sure I can be cleare
+          line: 328 79  # [ I'm sorry. I can't explain i
           Complexity of rule ~intent_response.38.0- s: 1
-        rule: 328  ~intent_response.39.0 s: 
-          line: 328 0  # [ So I changed my mind. ] [ b:
+        rule: 330  ~intent_response.39.0 s: 
+          line: 330 0  # [ So I changed my mind. ] [ b:
           Complexity of rule ~intent_response.39.0- s: 1
-        rule: 329  ~intent_response.39.1 b: 
-          line: 329 0  # That's not fair. 
+        rule: 331  ~intent_response.39.1 b: 
+          line: 331 0  # That's not fair. 
           Complexity of rule ~intent_response.39.1- b: 1
-        rule: 330  ~intent_response.39.2 b: 
-          line: 330 0  # Thank you. You are very kind. 
+        rule: 332  ~intent_response.39.2 b: 
+          line: 332 0  # Thank you. You are very kind. 
           Complexity of rule ~intent_response.39.2- b: 1
-        rule: 332  ~intent_response.40.0 u: 
-          line: 332 0  # [ Why do you doubt this? ] 
+        rule: 334  ~intent_response.40.0 u: 
+          line: 334 0  # [ Why do you doubt this? ] 
           Complexity of rule ~intent_response.40.0- u: 1
-        rule: 334  ~intent_response.41.0 u: 
-          line: 334 0  # [ Oh, you're welcome. ] 
+        rule: 336  ~intent_response.41.0 u: 
+          line: 336 0  # [ Oh, you're welcome. ] 
           Complexity of rule ~intent_response.41.0- u: 1
-        rule: 336  ~intent_response.42.0 u: 
-          line: 336 0  # [ But you don't need to beg. ]
+        rule: 338  ~intent_response.42.0 u: 
+          line: 338 0  # [ But you don't need to beg. ]
           Complexity of rule ~intent_response.42.0- u: 1
-        rule: 338  ~intent_response.43.0 u: 
-          line: 338 0  # [ There's a lot we don't know,
+        rule: 340  ~intent_response.43.0 u: 
+          line: 340 0  # [ There's a lot we don't know,
           Complexity of rule ~intent_response.43.0- u: 1
-        rule: 340  ~intent_response.44.0 u: 
-          line: 340 0  # [ You don't need to apologise 
+        rule: 342  ~intent_response.44.0 u: 
+          line: 342 0  # [ You don't need to apologise 
           Complexity of rule ~intent_response.44.0- u: 1
-        rule: 342  ~intent_response.45.0 u: 
-          line: 342 0  # [ Truly. ] [ Yeah. ] [ Pretty 
+        rule: 344  ~intent_response.45.0 u: 
+          line: 344 0  # [ Truly. ] [ Yeah. ] [ Pretty 
           Complexity of rule ~intent_response.45.0- u: 1
-        rule: 344  ~intent_response.46.0 u: 
+        rule: 346  ~intent_response.46.0 u: 
           Complexity of rule ~intent_response.46.0- u: 1
-        rule: 346  ~intent_response.47.0 u: 
+        rule: 348  ~intent_response.47.0 u: 
           Complexity of rule ~intent_response.47.0- u: 1
-        rule: 348  ~intent_response.48.0-GRUNT u: 
-          line: 348 0  # [ All right. ] [ Indeed. ] [ F
+        rule: 350  ~intent_response.48.0-GRUNT u: 
+          line: 350 0  # [ All right. ] [ Indeed. ] [ F
           Complexity of rule ~intent_response.48.0-GRUNT u: 1
-        rule: 352  ~intent_response.49.0 s: 
-          line: 352 0  # [ You're getting excited, huh.
-          line: 353 33  # [ You're very excitable. ] 
-          line: 354 60  # [ Exciting, isn't it? ] 
-          line: 355 84  # [ Right! ] 
+        rule: 354  ~intent_response.49.0 s: 
+          line: 354 0  # [ You're getting excited, huh.
+          line: 355 33  # [ You're very excitable. ] 
+          line: 356 60  # [ Exciting, isn't it? ] 
+          line: 357 84  # [ Right! ] 
           Complexity of rule ~intent_response.49.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_last_ditch.top
     topic: 7  ~quibble_last_ditch
