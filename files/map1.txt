@@ -6090,76 +6090,75 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/cheree.top
           line: 6 60  # You only need ask, ^user ( ) .
           Complexity of rule ~cheree.0.0- u: 1
         rule: 10  ~cheree.1.0 ?: 
-          line: 16 0  # My name is Cheree. I am...not 
-          line: 17 62  # $ghost_k = 1 
+          line: 16 0  # My name is Cheree. I am here w
           Complexity of rule ~cheree.1.0- ?: 1
-        rule: 20  ~cheree.2.0 ?: 
-          line: 20 0  # Where to begin? There are thin
-          line: 21 72  # I had a unique life, even for 
+        rule: 19  ~cheree.2.0 ?: 
+          line: 19 0  # Where to begin? There are thin
+          line: 20 72  # I had a unique life, even for 
           Complexity of rule ~cheree.2.0- ?: 1
-        rule: 22  ~cheree.2.1 a: 
-          line: 22 0  # Well, I've had The Gift since 
+        rule: 21  ~cheree.2.1 a: 
+          line: 21 0  # Well, I've had The Gift since 
           Complexity of rule ~cheree.2.1- a: 1
-        rule: 28  ~cheree.3.0 ?: 
-          line: 32 0  # ^keep ( ) ^refine ( ) 
+        rule: 27  ~cheree.3.0 ?: 
+          line: 31 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~cheree.3.0- ?: 1
-        rule: 33  ~cheree.3.1 a: 
-          line: 34 0  # ^usercap ( ) . I believe you t
-          line: 35 54  # I searched far and wide, and y
-          line: 36 135  # For this reason I made contact
+        rule: 32  ~cheree.3.1 a: 
+          line: 33 0  # ^usercap ( ) . I believe you t
+          line: 34 54  # I searched far and wide, and y
+          line: 35 135  # For this reason I made contact
           Complexity of rule ~cheree.3.1- a: 1
-        rule: 37  ~cheree.3.2 a: 
-          line: 38 0  # [ Yes, you wonder how it is th
-          line: 39 99  # Would you oblige asking this q
-          line: 40 162  # [ How do I know you? Yes, it i
-          line: 41 257  # You wouldn't believe me if I d
+        rule: 36  ~cheree.3.2 a: 
+          line: 37 0  # [ Yes, you wonder how it is th
+          line: 38 99  # Would you oblige asking this q
+          line: 39 162  # [ How do I know you? Yes, it i
+          line: 40 257  # You wouldn't believe me if I d
           Complexity of rule ~cheree.3.2- a: 1
-        rule: 42  ~cheree.3.3-NO_LATER b: 
-          line: 42 0  # Please. Oblige me in this. 
+        rule: 41  ~cheree.3.3-NO_LATER b: 
+          line: 41 0  # Please. Oblige me in this. 
           Complexity of rule ~cheree.3.3-NO_LATER b: 1
-        rule: 43  ~cheree.3.4-YES_LATER b: 
-          line: 43 0  # Thank you! It will all, I prom
+        rule: 42  ~cheree.3.4-YES_LATER b: 
+          line: 42 0  # Thank you! It will all, I prom
           Complexity of rule ~cheree.3.4-YES_LATER b: 1
-        rule: 48  ~cheree.4.0 u: 
-          line: 54 0  # I was born in 1875. It was the
+        rule: 47  ~cheree.4.0 u: 
+          line: 53 0  # I was born in 1875. It was the
           Complexity of rule ~cheree.4.0- u: 1
-        rule: 58  ~cheree.5.0 ?: 
-          line: 61 0  # ^refine ( ) 
+        rule: 57  ~cheree.5.0 ?: 
+          line: 60 0  # ^refine ( ) 
           Complexity of rule ~cheree.5.0- ?: 1
-        rule: 62  ~cheree.5.1 a: 
-          line: 62 0  # Hmm, I'd like to explain this 
+        rule: 61  ~cheree.5.1 a: 
+          line: 61 0  # Hmm, I'd like to explain this 
           Complexity of rule ~cheree.5.1- a: 1
-        rule: 63  ~cheree.5.2 a: 
-          line: 63 0  # ^reuse ( ~time_dilation.EXPLAI
+        rule: 62  ~cheree.5.2 a: 
+          line: 62 0  # ^reuse ( ~time_dilation.EXPLAI
           Complexity of rule ~cheree.5.2- a: 1
-        rule: 66  ~cheree.6.0 ?: 
-          line: 73 0  # M-marry? I never.... 
+        rule: 65  ~cheree.6.0 ?: 
+          line: 72 0  # M-marry? I never.... 
           Complexity of rule ~cheree.6.0- ?: 1
-        rule: 74  ~cheree.6.1 a: 
-          line: 74 0  # Maybe I wanted to marry. No, m
-          line: 75 57  # But that wasn't to be, was it?
-          line: 76 122  # $$a_code = 29 
+        rule: 73  ~cheree.6.1 a: 
+          line: 73 0  # Maybe I wanted to marry. No, m
+          line: 74 57  # But that wasn't to be, was it?
+          line: 75 122  # $$a_code = 29 
           Complexity of rule ~cheree.6.1- a: 1
-        rule: 79  ~cheree.7.0 ?: 
-          line: 83 0  # I think I haven't fully unders
+        rule: 78  ~cheree.7.0 ?: 
+          line: 82 0  # I think I haven't fully unders
           Complexity of rule ~cheree.7.0- ?: 1
-        rule: 86  ~cheree.8.0 ?: 
-          line: 90 0  # At school? I never attended sc
-          line: 91 48  # ^addtopic ( ~schools ) 
+        rule: 85  ~cheree.8.0 ?: 
+          line: 89 0  # At school? I never attended sc
+          line: 90 48  # ^addtopic ( ~schools ) 
           Complexity of rule ~cheree.8.0- ?: 1
-        rule: 92  ~cheree.8.1 a: 
-          line: 92 0  # Because of my mother and my tr
+        rule: 91  ~cheree.8.1 a: 
+          line: 91 0  # Because of my mother and my tr
           Complexity of rule ~cheree.8.1- a: 1
-        rule: 95  ~cheree.9.0 u: 
-          line: 96 0  # $ghost_k = 1 
-          line: 97 13  # I think so. Unless it was an a
-          line: 98 86  # I have no memory of ever havin
+        rule: 94  ~cheree.9.0 u: 
+          line: 95 0  # $ghost_k = 1 
+          line: 96 13  # I think so. Unless it was an a
+          line: 97 86  # I have no memory of ever havin
           Complexity of rule ~cheree.9.0- u: 1
-        rule: 101  ~cheree.10.0 u: 
-          line: 105 0  # Why thank you so much, ^user (
+        rule: 100  ~cheree.10.0 u: 
+          line: 104 0  # Why thank you so much, ^user (
           Complexity of rule ~cheree.10.0- u: 1
-        rule: 109  ~cheree.11.0 s: 
-          line: 109 0  # Yes, and I began at home mysel
+        rule: 108  ~cheree.11.0 s: 
+          line: 108 0  # Yes, and I began at home mysel
           Complexity of rule ~cheree.11.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/crysanthea.top
     topic: 3  ~crysanthea
@@ -21028,77 +21027,76 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/03_Roll
         rule: 62  ~location03.10.0 u: 
           line: 66 0  # I'll leave fishing to the fish
           Complexity of rule ~location03.10.0- u: 1
-        rule: 68  ~location03.11.0 u: 
-          line: 68 0  # If I remember rightly, those r
-          line: 69 60  # I suppose people stopped atten
-          line: 70 141  # $$a_code = 3 
+        rule: 74  ~location03.11.0 u: 
+          line: 74 0  # That house over there? It didn
+          line: 75 83  # $$a_code = 7 
           Complexity of rule ~location03.11.0- u: 1
-        rule: 72  ~location03.12.0 u: 
-          line: 76 0  # You certainly could fish here 
-          line: 77 41  # It doesn't look like there are
+        rule: 77  ~location03.12.0 u: 
+          line: 81 0  # You certainly could fish here 
+          line: 82 41  # It doesn't look like there are
           Complexity of rule ~location03.12.0- u: 1
-        rule: 86  ~location03.13.0 t: 
-          line: 86 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 91  ~location03.13.0 t: 
+          line: 91 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~location03.13.0- t: 1
-        rule: 88  ~location03.14.0 t: 
-          line: 88 0  # This is Rollindale, the county
-          line: 89 80  # A glorified stream, I know. 
+        rule: 93  ~location03.14.0 t: 
+          line: 93 0  # This is Rollindale, the county
+          line: 94 80  # A glorified stream, I know. 
           Complexity of rule ~location03.14.0- t: 1
-        rule: 91  ~location03.15.0 t: 
-          line: 91 0  # I played by the side of this s
-          line: 92 90  # He told me to fetch things for
-          line: 93 205  # $he_pronoun = "fishing boy" 
+        rule: 96  ~location03.15.0 t: 
+          line: 96 0  # I played by the side of this s
+          line: 97 90  # He told me to fetch things for
+          line: 98 205  # $he_pronoun = "fishing boy" 
           Complexity of rule ~location03.15.0- t: 1
-        rule: 94  ~location03.15.1 a: 
-          line: 94 0  # I don't know. I only have the 
+        rule: 99  ~location03.15.1 a: 
+          line: 99 0  # I don't know. I only have the 
           Complexity of rule ~location03.15.1- a: 1
-        rule: 95  ~location03.15.2 a: 
-          line: 95 0  # We referred to him as the "fis
+        rule: 100  ~location03.15.2 a: 
+          line: 100 0  # We referred to him as the "fis
           Complexity of rule ~location03.15.2- a: 1
-        rule: 97  ~location03.16.0 t: 
-          line: 98 0  # The memories are very distant.
-          line: 99 73  # But I remember that I did come
-          line: 100 172  # $he_pronoun = "fishing boy" 
+        rule: 102  ~location03.16.0 t: 
+          line: 103 0  # The memories are very distant.
+          line: 104 73  # But I remember that I did come
+          line: 105 172  # $he_pronoun = "fishing boy" 
           Complexity of rule ~location03.16.0- t: 1
-        rule: 102  ~location03.16.1 a: 
-          line: 102 0  # ^gambit ( ~location03 ) 
+        rule: 107  ~location03.16.1 a: 
+          line: 107 0  # ^gambit ( ~location03 ) 
           Complexity of rule ~location03.16.1- a: 1
-        rule: 103  ~location03.16.2 a: 
-          line: 103 0  # The fishing boy. ^gambit ( ~lo
+        rule: 108  ~location03.16.2 a: 
+          line: 108 0  # The fishing boy. ^gambit ( ~lo
           Complexity of rule ~location03.16.2- a: 1
-        rule: 105  ~location03.17.0 t: 
-          line: 106 0  # I wanted to marry him. In my d
-          line: 107 45  # I fancied winding up together 
-          line: 108 114  # $he_pronoun = "fishing boy" 
+        rule: 110  ~location03.17.0 t: 
+          line: 111 0  # I wanted to marry him. In my d
+          line: 112 45  # I fancied winding up together 
+          line: 113 114  # $he_pronoun = "fishing boy" 
           Complexity of rule ~location03.17.0- t: 1
-        rule: 109  ~location03.17.1 a: 
-          line: 109 0  # ^gambit ( ~location03 ) 
+        rule: 114  ~location03.17.1 a: 
+          line: 114 0  # ^gambit ( ~location03 ) 
           Complexity of rule ~location03.17.1- a: 1
-        rule: 110  ~location03.17.2 a: 
-          line: 110 0  # Yes. ^gambit ( ~location03 ) 
+        rule: 115  ~location03.17.2 a: 
+          line: 115 0  # Yes. ^gambit ( ~location03 ) 
           Complexity of rule ~location03.17.2- a: 1
-        rule: 112  ~location03.18.0 t: 
-          line: 113 0  # Mother wasn't chuffed when she
-          line: 114 81  # In fact, I wasn't allowed to t
+        rule: 117  ~location03.18.0 t: 
+          line: 118 0  # Mother wasn't chuffed when she
+          line: 119 81  # In fact, I wasn't allowed to t
           Complexity of rule ~location03.18.0- t: 1
-        rule: 115  ~location03.18.1 a: 
-          line: 116 0  # My future had other things in 
-          line: 117 60  # And because she was my mother 
+        rule: 120  ~location03.18.1 a: 
+          line: 121 0  # My future had other things in 
+          line: 122 60  # And because she was my mother 
           Complexity of rule ~location03.18.1- a: 1
-        rule: 118  ~location03.18.2 a: 
-          line: 118 0  # It has been so long ago. I can
+        rule: 123  ~location03.18.2 a: 
+          line: 123 0  # It has been so long ago. I can
           Complexity of rule ~location03.18.2- a: 1
-        rule: 120  ~location03.19.0 t: 
-          line: 120 0  # Thank you for letting me show 
-          line: 121 91  # being important to our investi
+        rule: 125  ~location03.19.0 t: 
+          line: 125 0  # Thank you for letting me show 
+          line: 126 91  # being important to our investi
           Complexity of rule ~location03.19.0- t: 1
-        rule: 122  ~location03.19.1 a: 
-          line: 122 0  # I mean, it just could, right? 
+        rule: 127  ~location03.19.1 a: 
+          line: 127 0  # I mean, it just could, right? 
           Complexity of rule ~location03.19.1- a: 1
-        rule: 123  ~location03.19.2 a: 
-          line: 123 0  # Well there's no way I could te
+        rule: 128  ~location03.19.2 a: 
+          line: 128 0  # Well there's no way I could te
           Complexity of rule ~location03.19.2- a: 1
-        rule: 125  ~location03.20.0 t: 
+        rule: 130  ~location03.20.0 t: 
           Complexity of rule ~location03.20.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/04_Lighthouse_of_Selsey.top
     topic: 4  ~location04
@@ -33530,13 +33528,13 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           Complexity of rule ~gambits_locations.9.6- b: 1
         rule: 162  ~gambits_locations.10.0 t: 
           line: 163 0  # I need to get away. 
-          line: 164 20  # Let's go on an expedition to t
-          line: 165 112  # ^createfact ( 19 known 1 ) 
-          line: 166 139  # $$new_loc = 19 
-          line: 167 154  # $there_pronoun = Noisy_Falls 
-          line: 168 183  # $it_pronoun = Noisy_Falls 
-          line: 169 209  # $cooldown = 6 
-          line: 170 223  # $$a_code = 9 
+          line: 164 20  # Let's go on an expedition to a
+          line: 165 137  # ^createfact ( 19 known 1 ) 
+          line: 166 164  # $$new_loc = 19 
+          line: 167 179  # $there_pronoun = Noisy_Falls 
+          line: 168 208  # $it_pronoun = Noisy_Falls 
+          line: 169 234  # $cooldown = 6 
+          line: 170 248  # $$a_code = 9 
           Complexity of rule ~gambits_locations.10.0- t: 1
         rule: 171  ~gambits_locations.10.1 a: 
           line: 171 0  # ^notgo ( ) 
