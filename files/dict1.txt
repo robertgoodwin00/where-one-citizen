@@ -7,7 +7,6 @@
 ^ `lovely`   @     @     @   x00000004    `` 2
 ^ `okay`   @     @     @   0   `~yes` 2
 ^ `being`   @     @     @   0   `` 2
-^ `Bohemian`   @     @     @   0   `` 2
 ^ `talk`   @     @     @   x01100028    `` 5
 ^ `Gothic`   x01400000   a0004008      @     @   0   `` 
 ^ `smart`   @     @     @   x00000004    `` 2
@@ -32,6 +31,7 @@
 ^ `evil`   @     @     @   x00000004    `` 2
 ^ `gift`   @     @     @   0   `` 3
 ^ `Fez`   x01000000   80000008      @     @   0   `` 
+^ `general`   @     @     @   0   `` 2
 ^ `mum`   @     @     @   0   `` 3
 ^ `gaze`   @     @     @   0   `` 2
 ^ `Great_Pyramid`   x01000000   80000008      @     @   0   `` 
@@ -47,7 +47,6 @@
 ^ `inner`   @     @     @   0   `` 2
 ^ `illegal`   @     @     @   x00000004    `` 2
 ^ `intermittent`   @     @     @   0   `` 2
-^ `Merlin`   @     @     @   0   `` 3
 ^ `mythical`   @     @     @   0   `` 2
 ^ `maple`   @     @     @   0   `` 2
 ^ `mom`   @     @     @   0   `` 3
@@ -186,6 +185,7 @@
 ^ `okay_if`   0     P     0   0   `` 
 ^ `dev`   0     P     0   0   `` 
 ^ `mel_k`   0     P     0   0   `` 
+^ `govegan`   0     P     0   0   `` 
 ^ `roger`   0     P     0   0   `` 
 ^ `prob`   0     P     0   0   `` 
 ^ `rt`   0     P     0   0   `` 
@@ -901,21 +901,25 @@
 ^ `ChatGPT`   0     P     x00002000   0   `` 
 ^ `Sirri`   0     P     x00002000   0   `` 
 ^ `GPT`   0     P     x00002000   0   `` 
-^ `Valley_of_Color`   x01000000   80000008      0     x00002000   0   `` 
-^ `Valley_of_Colour`   0     P     x00002000   0   `` 
+^ `Sierra_Meadow`   0     P     x00002000   0   `` 
 ^ `Steadwell_Manse`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Rollindale_River`   x01000000   80000008      0     x00002000   0   `` 
+^ `Rollindale_Stream`   0     P     x00002000   0   `` 
 ^ `Lighthouse_of_Selsey`   x01000000   80000008      0     x00002000   0   `` 
 ^ `selsey`   0     P     0   0   `` 
 ^ `her_father`   0     P     0   0   `` 
-^ `Botanic_Room`   0     P     x00002000   0   `` 
+^ `Abandoned_Factory`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Steadwell_Gas`   0     0     x00002000   0   `` 
 ^ `Joseph_Swan`   0     P     x00002000   0   `` 
 ^ `Swan`   0     P     x00002000   0   `` 
 ^ `Phong_Nha_Ke_Bang`   x01000000   80000008      0     x00002000   0   `` 
 ^ `phong`   0     P     0   0   `` 
+^ `that_day`   0     P     0   0   `` 
+^ `spring_day`   0     P     0   0   `` 
 ^ `doong`   0     P     0   0   `` 
 ^ `Doyle_Estate`   x01000000   80000008      0     x00002000   0   `` 
+^ `Doyle_House`   0     P     x00002000   0   `` 
+^ `Doyle_'s_Estate`   0     P     x00002000   0   `` 
 ^ `james_bond`   0     P     0   0   `` 
 ^ `watson`   0     P     0   0   `` 
 ^ `politican`   0     P     0   0   `` 
@@ -941,6 +945,7 @@
 ^ `Matley_Bog`   x01000000   80000008      0     x00002000   0   `` 
 ^ `matley`   0     P     0   0   `` 
 ^ `African_Savannah`   x01000000   80000008      0     x00002000   0   `` 
+^ `Iguacu_Falls`   0     0     x00002000   0   `` 
 ^ `Noisy_Waterfall`   0     P     x00002000   0   `` 
 ^ `Noisy_Falls`   x01000000   80000008      0     x00002000   0   `` 
 ^ `the_amazon`   0     P     0   0   `` 
@@ -956,6 +961,7 @@
 ^ `pyramidion`   0     P     0   0   `` 
 ^ `George_Yard`   x01000000   80000008      0     x00002000   0   `` 
 ^ `stairs`   x00000000   80000010      x00000700   00000000      0   0   `` 
+^ `tabram_'s`   0     P     0   0   `` 
 ^ `Kentucky_Maple_Forest`   x01000000   80000008      0     x00002000   0   `` 
 ^ `maple_forest`   0     P     0   0   `` 
 ^ `lovely_forest`   0     P     0   0   `` 
@@ -970,25 +976,27 @@
 ^ `skies`   0     P     0   0   `` 2
 ^ `Kardec_Room`   x01000000   80000008      0     x00002000   0   `` 
 ^ `seance_room`   0     P     0   0   `` 
-^ `Bohemian_Grove`   x01000000   80000008      0     x00002000   0   `` 
-^ `Kingston_Range`   0     P     x00002000   0   `` 
-^ `redwoods`   x00000000   80000010      0     0   0   `` 
-^ `romani`   0     P     0   0   `` 
-^ `gitans`   0     P     0   0   `` 
-^ `tsiganes`   0     P     0   0   `` 
-^ `manouches`   0     P     0   0   `` 
-^ `punjab`   0     P     0   0   `` 
+^ `French_Home`   x01000000   80000008      0     x00002000   0   `` 
+^ `pragma`   0     P     0   0   `` 
+^ `storge`   0     P     0   0   `` 
+^ `ludus`   0     P     0   0   `` 
+^ `philautia`   0     P     0   0   `` 
+^ `meraki`   0     P     0   0   `` 
 ^ `Kilauea`   x01000000   80000008      0     x00002000   0   `` 
 ^ `kohala`   0     P     0   0   `` 
 ^ `Mauna`   0     P     x00002000   0   `` 
 ^ `Loa`   0     P     x00002000   0   `` 
 ^ `Hualalai`   0     P     x00002000   0   `` 
 ^ `Kohala`   0     P     x00002000   0   `` 
-^ `Samjhauta_Express`   x01000000   80000008      0     x00002000   0   `` 
-^ `samjhauta`   0     P     0   0   `` 
-^ `Merlin_'s_Lake`   0     P     x00002000   0   `` 
-^ `Merlin_Lake`   x01000000   80000008      0     x00002000   0   `` 
-^ `Merlin_'s`   0     0     x00002000   0   `` 
+^ `Himachal_Pradesh`   x01000000   80000008      0     x00002000   0   `` 
+^ `Hamachal`   0     P     x00002000   0   `` 
+^ `Pradesh`   0     P     x00002000   0   `` 
+^ `toy_train`   0     P     0   0   `` 
+^ `kalka`   0     P     0   0   `` 
+^ `shimla"`   0     P     0   0   `` 
+^ `Lake_Limides`   x01000000   80000008      0     x00002000   0   `` 
+^ `lago`   0     P     0   0   `` 
+^ `Dolomites`   0     P     x00002000   0   `` 
 ^ `yaquina`   0     P     0   0   `` 
 ^ `muckie`   0     P     0   0   `` 
 ^ `memphre`   0     P     0   0   `` 
@@ -1010,8 +1018,6 @@
 ^ `chessie`   0     P     0   0   `` 
 ^ `storsjoodjuret`   0     P     0   0   `` 
 ^ `nessie`   0     P     0   0   `` 
-^ `Aegean_Cliffs`   x01000000   80000008      0     x00002000   0   `` 
-^ `aegean`   0     P     0   0   `` 
 ^ `Minoa`   0     P     x00002000   0   `` 
 ^ `Crimes_Club`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Our_Society`   0     P     x00002000   0   `` 
@@ -1079,7 +1085,7 @@
 ^ `clair`   0     P     0   0   `` 
 ^ `lune`   0     P     0   0   `` 
 ^ `East_End`   x01000000   80000008      0     x00002000   0   `` 
-^ `Christmas_Parlour`   x01000000   80000008      0     x00002000   0   `` 
+^ `Yuletide_Parlour`   x01000000   80000008      0     x00002000   0   `` 
 ^ `christmas`   0     P     0   0   `` 
 ^ `St_Martin_Churchyard`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Portchester`   0     P     x00002000   0   `` 2
@@ -1087,12 +1093,13 @@
 ^ `Northern_Lights`   0     P     x00002000   0   `` 
 ^ `Borealis`   0     P     x00002000   0   `` 
 ^ `Paricutin`   0     P     x00002000   0   `` 
-^ `Myeongdong`   0     P     x00002000   0   `` 2
-^ `rooftops`   x00000000   80000010      0     0   0   `` 
+^ `Bukchon_Hanok`   x01000000   80000008      0     x00002000   0   `` 
+^ `Hanok_village`   0     P     x00002000   0   `` 
+^ `Korean_village`   0     P     x00002000   0   `` 
 ^ `Wasteland`   x01000000   80000008      0     x00002000   0   `` 
 ^ `South_Willamette_Infirmary`   x01000000   80000008      0     x00002000   0   `` 
 ^ `willamette`   0     P     0   0   `` 
-^ `Lower_Danube`   x01000000   80000008      0     x00002000   0   `` 
+^ `Decebalus_Rex`   x01000000   80000008      0     x00002000   0   `` 
 ^ `danube`   0     P     0   0   `` 
 ^ `Passau`   0     P     x00002000   0   `` 
 ^ `Durnstein`   0     P     x00002000   0   `` 
@@ -1101,24 +1108,16 @@
 ^ `Vukovar`   0     P     x00002000   0   `` 
 ^ `Vidin`   0     P     x00002000   0   `` 
 ^ `Osijek`   0     P     x00002000   0   `` 
-^ `Persian_Bath`   x01000000   80000008      0     x00002000   0   `` 
-^ `Hamadan`   0     P     x00002000   0   `` 
+^ `Khaju_Bridge`   x01000000   80000008      0     x00002000   0   `` 
+^ `khaju`   0     P     0   0   `` 
 ^ `aryans`   0     P     0   0   `` 
-^ `California_Coast`   x01000000   80000008      0     x00002000   0   `` 
-^ `california`   0     P     0   0   `` 
-^ `pragma`   0     P     0   0   `` 
-^ `storge`   0     P     0   0   `` 
-^ `ludus`   0     P     0   0   `` 
-^ `philautia`   0     P     0   0   `` 
-^ `meraki`   0     P     0   0   `` 
+^ `Valley_of_Color`   x01000000   80000008      0     x00002000   0   `` 
 ^ `numberof`   0     0     0   0   `` 
-^ `Botanic_Office`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Willem_Bluff`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Greenwich_Industrial_Sector`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Central_Lowlands`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Skies_Above`   x01000000   80000008      0     x00002000   0   `` 
 ^ `Portchester_Castle`   x01000000   80000008      0     x00002000   0   `` 
-^ `Myeongdong_Rooftop`   x01000000   80000008      0     x00002000   0   `` 
 ^ `como_estas`   0     P     0   0   `` 
 ^ `buenos_dias`   0     P     0   0   `` 
 ^ `buenas_tarde`   0     P     0   0   `` 
@@ -1952,7 +1951,7 @@
 ^ `willem_duggans`   0     P     0   0   `` 
 ^ `Lighthouse`   0     0     x00002000   0   `` 3
 ^ `steadwell_gas`   0     P     0   0   `` 
-^ `Botanic`   0     0     x00002000   0   `` 2
+^ `Abandoned`   0     0     x00002000   0   `` 2
 ^ `Phong`   0     0     x00002000   0   `` 4
 ^ `Nha`   0     P     x00002000   0   `` 
 ^ `Ke`   0     P     x00002000   0   `` 
@@ -1960,11 +1959,16 @@
 ^ `Medical`   0     0     x00002000   0   `` 2
 ^ `Heritage`   0     0     x00002000   0   `` 2
 ^ `Matley`   0     0     x00002000   0   `` 2
+^ `Iguacu`   0     P     x00002000   0   `` 2
+^ `iguacu_falls`   0     P     0   0   `` 
 ^ `Britely`   0     0     x00002000   0   `` 2
 ^ `irish_pastures`   0     P     0   0   `` 
-^ `Samjhauta`   0     0     x00002000   0   `` 2
-^ `merlin_'s`   0     P     0   0   `` 
+^ `Himachal`   0     P     x00002000   0   `` 2
+^ `Limides`   0     P     x00002000   0   `` 
 ^ `Wye`   0     0     x00002000   0   `` 2
 ^ `Kingley`   0     P     x00002000   0   `` 2
 ^ `Bassey`   0     P     x00002000   0   `` 2
-^ `Lower`   0     0     x00002000   0   `` 2
+^ `Hanok`   0     P     x00002000   0   `` 2
+^ `Bukchon`   0     P     x00002000   0   `` 2
+^ `Decebalus`   0     P     x00002000   0   `` 2
+^ `Khaju`   0     0     x00002000   0   `` 2
