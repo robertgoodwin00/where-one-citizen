@@ -1760,121 +1760,124 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/opening.top
         rule: 144  ~opening.16.0 u: 
           line: 144 0  # Swell, $user . ^gambit ( ~open
           Complexity of rule ~opening.16.0- u: 1
-        rule: 148  ~opening.17.0 u: 
-          line: 152 0  # But I'm not actually sitting p
+        rule: 150  ~opening.17.0 u: 
+          line: 154 0  # But I'm not actually sitting p
           Complexity of rule ~opening.17.0- u: 1
-        rule: 154  ~opening.18.0 u: 
-          line: 154 0  # I like to be close but I don't
+        rule: 156  ~opening.18.0 u: 
+          line: 156 0  # I like to be close but I don't
           Complexity of rule ~opening.18.0- u: 1
-        rule: 161  ~opening.19.0 t: 
-          line: 161 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 163  ~opening.19.0 t: 
+          line: 163 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~opening.19.0- t: 1
-        rule: 164  ~opening.20.0 t: 
-          line: 165 0  # $cs_token -= 8388608 
-          line: 166 21  # _1 = ^burst ( $cs_login "-" ) 
-          line: 167 51  # $user = _1 
-          line: 168 62  # $user_alt = _1 
-          line: 173 77  # It was you who I sought. At lo
+        rule: 166  ~opening.20.0 t: 
+          line: 167 0  # $cs_token -= 8388608 
+          line: 168 21  # _1 = ^burst ( $cs_login "-" ) 
+          line: 169 51  # $user = _1 
+          line: 170 62  # $user_alt = _1 
+          line: 175 77  # It was you who I sought. At lo
           Complexity of rule ~opening.20.0- t: 1
-        rule: 174  ~opening.20.1 a: 
-          line: 174 0  # I do not think I'm mistaken. ^
+        rule: 176  ~opening.20.1 a: 
+          line: 176 0  # I do not think I'm mistaken. ^
           Complexity of rule ~opening.20.1- a: 1
-        rule: 175  ~opening.20.2 a: 
-          line: 175 0  # It is me. ^reuse ( FIRST_LINE 
+        rule: 177  ~opening.20.2 a: 
+          line: 177 0  # It is me. ^reuse ( FIRST_LINE 
           Complexity of rule ~opening.20.2- a: 1
-        rule: 176  ~opening.20.3 a: 
-          line: 176 0  # You. ^reuse ( FIRST_LINE ) 
+        rule: 178  ~opening.20.3 a: 
+          line: 178 0  # You. ^reuse ( FIRST_LINE ) 
           Complexity of rule ~opening.20.3- a: 1
-        rule: 177  ~opening.20.4 a: 
-          line: 177 0  # Yes, and ^reuse ( FIRST_LINE )
+        rule: 179  ~opening.20.4 a: 
+          line: 179 0  # Yes, and ^reuse ( FIRST_LINE )
           Complexity of rule ~opening.20.4- a: 1
-        rule: 178  ~opening.20.5 a: 
-          line: 178 0  # You, and ^reuse ( FIRST_LINE )
+        rule: 180  ~opening.20.5 a: 
+          line: 180 0  # You, and ^reuse ( FIRST_LINE )
           Complexity of rule ~opening.20.5- a: 1
-        rule: 179  ~opening.20.6 a: 
-          line: 179 0  # I sought and I found you. And 
+        rule: 181  ~opening.20.6 a: 
+          line: 181 0  # I sought and I found you. And 
           Complexity of rule ~opening.20.6- a: 1
-        rule: 180  ~opening.20.7 a: 
-          line: 180 0  # ^reuse ( FIRST_LINE ) 
+        rule: 182  ~opening.20.7 a: 
+          line: 182 0  # ^reuse ( FIRST_LINE ) 
           Complexity of rule ~opening.20.7- a: 1
-        rule: 184  ~opening.21.0-FIRST_LINE t: 
-          line: 184 0  # I can hear you. There, like pi
-          line: 185 65  # Barely discerning the sound ma
-          line: 187 152  # $monologue = true 
-          line: 188 170  # $$t_code = 0 
+        rule: 186  ~opening.21.0-FIRST_LINE t: 
+          line: 186 0  # I can hear you. There, like pi
+          line: 187 65  # Barely discerning the sound ma
+          line: 189 152  # $monologue = true 
+          line: 190 170  # $$t_code = 0 
           Complexity of rule ~opening.21.0-FIRST_LINE t: 1
-        rule: 189  ~opening.21.1 a: 
-          line: 189 0  # I will explain. ^gambit ( ~ope
+        rule: 191  ~opening.21.1 a: 
+          line: 191 0  # I will explain. ^gambit ( ~ope
           Complexity of rule ~opening.21.1- a: 1
-        rule: 190  ~opening.21.2 a: 
-          line: 190 0  # It is me. ^gambit ( ~opening )
+        rule: 192  ~opening.21.2 a: 
+          line: 192 0  # It is me. ^gambit ( ~opening )
           Complexity of rule ~opening.21.2- a: 1
-        rule: 191  ~opening.21.3 a: 
-          line: 191 0  # ^gambit ( ~opening ) 
+        rule: 193  ~opening.21.3 a: 
+          line: 193 0  # ^gambit ( ~opening ) 
           Complexity of rule ~opening.21.3- a: 1
-        rule: 193  ~opening.22.0 t: 
-          line: 193 0  # I can see you. Though this man
-          line: 194 87  # It is the sensing of outlines 
+        rule: 195  ~opening.22.0 t: 
+          line: 195 0  # I can see you. Though this man
+          line: 196 87  # It is the sensing of outlines 
           Complexity of rule ~opening.22.0- t: 1
-        rule: 195  ~opening.22.1 a: 
-          line: 195 0  # It is the way that I sense. ^g
+        rule: 197  ~opening.22.1 a: 
+          line: 197 0  # It is the way that I sense. ^g
           Complexity of rule ~opening.22.1- a: 1
-        rule: 197  ~opening.23.0 t: 
-          line: 197 0  # Can you see me? 
-          line: 198 16  # $$sys_code = 2 
-          line: 199 31  # $$a_code = 11 
-          line: 200 45  # $$halt = 1 
+        rule: 199  ~opening.23.0 t: 
+          line: 199 0  # Can you see me? 
+          line: 200 16  # $$sys_code = 2 
+          line: 201 31  # $$a_code = 11 
+          line: 202 45  # $$halt = 1 
           Complexity of rule ~opening.23.0- t: 1
-        rule: 201  ~opening.23.1 a: 
-          line: 201 0  # ^gambit ( ~opening ) 
+        rule: 203  ~opening.23.1 a: 
+          line: 203 0  # ^gambit ( ~opening ) 
           Complexity of rule ~opening.23.1- a: 1
-        rule: 202  ~opening.23.2 a: 
-          line: 202 0  # Are you not sure? I am here. 
+        rule: 204  ~opening.23.2 a: 
+          line: 204 0  # Are you not sure? I am here. 
           Complexity of rule ~opening.23.2- a: 1
-        rule: 203  ~opening.23.3 a: 
-          line: 203 0  # No? But I am here. ^gambit ( ~
+        rule: 205  ~opening.23.3 a: 
+          line: 205 0  # No? But I am here. ^gambit ( ~
           Complexity of rule ~opening.23.3- a: 1
-        rule: 204  ~opening.23.4 a: 
-          line: 204 0  # In fact, it is not with your e
+        rule: 206  ~opening.23.4 a: 
+          line: 206 0  # In fact, it is not with your e
           Complexity of rule ~opening.23.4- a: 1
-        rule: 205  ~opening.23.5 a: 
-          line: 205 0  # ^gambit ( ~opening ) 
+        rule: 207  ~opening.23.5 a: 
+          line: 207 0  # ^gambit ( ~opening ) 
           Complexity of rule ~opening.23.5- a: 1
-        rule: 207  ~opening.24.0-CONTACT_AT_LAST t: 
-          line: 207 0  # I am Cheree. I've waited an ex
-          line: 208 75  # Longer, I am certain, than you
-          line: 209 132  # $botprompt = ^"CHEREE: " 
-          line: 210 157  # $seencheree = 1 
-          line: 211 173  # $$a_code = 12 
+        rule: 209  ~opening.24.0-CONTACT_AT_LAST t: 
+          line: 209 0  # I am Cheree. I've waited an ex
+          line: 210 75  # Longer, I am certain, than you
+          line: 211 132  # $botprompt = ^"CHEREE: " 
+          line: 212 157  # $seencheree = 1 
+          line: 213 173  # $$a_code = 12 
           Complexity of rule ~opening.24.0-CONTACT_AT_LAST t: 1
-        rule: 212  ~opening.24.1 a: 
-          line: 212 0  # I have been looking for you. ^
+        rule: 214  ~opening.24.1 a: 
+          line: 214 0  # I have been looking for you. ^
           Complexity of rule ~opening.24.1- a: 1
-        rule: 213  ~opening.24.2 a: 
-          line: 213 0  # Why, here. I have come to you.
+        rule: 215  ~opening.24.2 a: 
+          line: 215 0  # Why, here. I have come to you.
           Complexity of rule ~opening.24.2- a: 1
-        rule: 215  ~opening.25.0 t: 
-          line: 215 0  # You are $user . I know your na
-          line: 216 75  # Only what facilitated locating
-          line: 217 160  # $$a_code = 12 
+        rule: 216  ~opening.24.3 a: 
+          line: 216 0  # Over a century, in fact. ^gamb
+          Complexity of rule ~opening.24.3- a: 1
+        rule: 218  ~opening.25.0 t: 
+          line: 218 0  # You are $user . I know your na
+          line: 219 75  # Only what facilitated locating
+          line: 220 160  # $$a_code = 12 
           Complexity of rule ~opening.25.0- t: 1
-        rule: 218  ~opening.25.1 a: 
-          line: 218 0  # That I cannot tell you yet, bu
+        rule: 221  ~opening.25.1 a: 
+          line: 221 0  # That I cannot tell you yet, bu
           Complexity of rule ~opening.25.1- a: 1
-        rule: 219  ~opening.25.2 a: 
-          line: 219 0  # Well, your time is not native 
+        rule: 222  ~opening.25.2 a: 
+          line: 222 0  # Well, your time is not native 
           Complexity of rule ~opening.25.2- a: 1
-        rule: 221  ~opening.26.0-SOMETHING_HORRIBLE t: 
-          line: 221 0  # The cause I have come to you f
-          line: 222 69  # Something dreadful happened to
-          line: 223 140  # $$a_code = 13 
+        rule: 224  ~opening.26.0-SOMETHING_HORRIBLE t: 
+          line: 224 0  # The cause I have come to you f
+          line: 225 69  # Something dreadful happened to
+          line: 226 140  # $$a_code = 13 
           Complexity of rule ~opening.26.0-SOMETHING_HORRIBLE t: 1
-        rule: 224  ~opening.26.1 a: 
-          line: 224 0  # ^gambit ( ~opening ) 
+        rule: 227  ~opening.26.1 a: 
+          line: 227 0  # ^gambit ( ~opening ) 
           Complexity of rule ~opening.26.1- a: 1
-        rule: 226  ~opening.27.0 t: 
-          line: 226 0  # But we will get to all of that
-          line: 227 38  # $opening_complete = 1 
+        rule: 229  ~opening.27.0 t: 
+          line: 229 0  # But we will get to all of that
+          line: 230 38  # $opening_complete = 1 
           Complexity of rule ~opening.27.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/favorites.top
     topic: 4  ~her_favorites
@@ -2603,7 +2606,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/bein
           line: 215 89  # It would be an understatement 
           Complexity of rule ~being_dead.21.0- u: 1
         rule: 218  ~being_dead.22.0 u: 
-          line: 218 0  # I knew you would! I knew, ^use
+          line: 218 0  # I knew it, ^user ( ) ! I was r
           Complexity of rule ~being_dead.22.0- u: 1
         rule: 222  ~being_dead.23.0-DID_YOU_DIE_OF_DROWNING u: 
           line: 223 0  # Did I die of drowning? Oh, I'v
@@ -8797,17 +8800,21 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/her_sister
           line: 367 0  # One thing was obvious. My sist
           line: 368 84  # But truthfully, there is nothi
           Complexity of rule ~her_sister.80.0- u: 1
-        rule: 374  ~her_sister.81.0 t: 
-          line: 374 0  # ^keep ( ) ^fail ( TOPIC ) 
-          Complexity of rule ~her_sister.81.0- t: 1
-        rule: 378  ~her_sister.82.0 t: 
-          line: 378 0  # I don't know how long it takes
-          line: 379 67  # it can't possibly be as long a
-          line: 380 178  # ^addtopic ( ~her_cooking ) 
+        rule: 370  ~her_sister.81.0 u: 
+          line: 370 0  # Well, what she wanted was to b
+          line: 371 131  # I think it caused her to envy.
+          Complexity of rule ~her_sister.81.0- u: 1
+        rule: 376  ~her_sister.82.0 t: 
+          line: 376 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~her_sister.82.0- t: 1
-        rule: 381  ~her_sister.82.1 a: 
-          line: 381 0  # I guess gourmet cooking is lik
-          Complexity of rule ~her_sister.82.1- a: 1
+        rule: 380  ~her_sister.83.0 t: 
+          line: 380 0  # I don't know how long it takes
+          line: 381 67  # it can't possibly be as long a
+          line: 382 178  # ^addtopic ( ~her_cooking ) 
+          Complexity of rule ~her_sister.83.0- t: 1
+        rule: 383  ~her_sister.83.1 a: 
+          line: 383 0  # I guess gourmet cooking is lik
+          Complexity of rule ~her_sister.83.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/jack_the_ripper.top
     topic: 2  ~jack_the_ripper
         rule: 6  ~jack_the_ripper.0.0 ?: 
@@ -20970,6 +20977,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/player_character/
         rule: 652  ~player_character.158.0 s: 
           line: 652 0  # Why don't you miss '_0 ? No, I
           Complexity of rule ~player_character.158.0- s: 1
+        rule: 655  ~player_character.159.0 s: 
+          line: 655 0  # But you can get better, 
+          Complexity of rule ~player_character.159.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/01_Sierra_Meadow.top
     topic: 6  ~location01
         rule: 16  ~location01.0.0-WHERE_VALLEY_OF_COLOR ?: 
@@ -21802,35 +21812,38 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/05_Aban
           line: 138 0  # I already mentioned him. ^gamb
           Complexity of rule ~location05.27.3- a: 1
         rule: 139  ~location05.27.4 a: 
-          line: 139 0  # I don't recognize that name, b
+          line: 139 0  # Good answer! God, hehe. I like
           Complexity of rule ~location05.27.4- a: 1
         rule: 140  ~location05.27.5 a: 
-          line: 140 0  # That wasn't one of the scienti
+          line: 140 0  # I don't recognize that name, b
           Complexity of rule ~location05.27.5- a: 1
         rule: 141  ~location05.27.6 a: 
-          line: 141 0  # Okay. ^gambit ( ~location05 ) 
+          line: 141 0  # That wasn't one of the scienti
           Complexity of rule ~location05.27.6- a: 1
-        rule: 143  ~location05.28.0 t: 
-          line: 143 0  # Alessandro Volta, Humphrey Dav
-          line: 144 83  # the invention and refining of 
+        rule: 142  ~location05.27.7 a: 
+          line: 142 0  # Okay. ^gambit ( ~location05 ) 
+          Complexity of rule ~location05.27.7- a: 1
+        rule: 144  ~location05.28.0 t: 
+          line: 144 0  # Alessandro Volta, Humphrey Dav
+          line: 145 83  # the invention and refining of 
           Complexity of rule ~location05.28.0- t: 1
-        rule: 145  ~location05.28.1 a: 
-          line: 145 0  # Well that's the way it happene
+        rule: 146  ~location05.28.1 a: 
+          line: 146 0  # Well that's the way it happene
           Complexity of rule ~location05.28.1- a: 1
-        rule: 147  ~location05.29.0 t: 
-          line: 147 0  # The marvelous invention of ele
-          line: 148 104  # we did in the past. Have I sai
+        rule: 148  ~location05.29.0 t: 
+          line: 148 0  # The marvelous invention of ele
+          line: 149 104  # we did in the past. Have I sai
           Complexity of rule ~location05.29.0- t: 1
-        rule: 149  ~location05.29.1 a: 
-          line: 149 0  # There were many other reasons 
+        rule: 150  ~location05.29.1 a: 
+          line: 150 0  # There were many other reasons 
           Complexity of rule ~location05.29.1- a: 1
-        rule: 150  ~location05.29.2 b: 
-          line: 150 0  # I don't think I can sum it up.
+        rule: 151  ~location05.29.2 b: 
+          line: 151 0  # I don't think I can sum it up.
           Complexity of rule ~location05.29.2- b: 1
-        rule: 152  ~location05.30.0 t: 
-          line: 152 0  # ^addtopic ( ~scientists ) ^gam
+        rule: 153  ~location05.30.0 t: 
+          line: 153 0  # ^addtopic ( ~scientists ) ^gam
           Complexity of rule ~location05.30.0- t: 1
-        rule: 154  ~location05.31.0 t: 
+        rule: 155  ~location05.31.0 t: 
           Complexity of rule ~location05.31.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/06_Phong_Nha_Ke_Bang.top
     topic: 4  ~location06
@@ -23393,120 +23406,126 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/17_Matl
         rule: 87  ~location17.16.0 u: 
           line: 87 0  # The trees here are unsightly, 
           Complexity of rule ~location17.16.0- u: 1
-        rule: 94  ~location17.17.0 t: 
-          line: 94 0  # ^keep ( ) ^fail ( TOPIC ) 
-          Complexity of rule ~location17.17.0- t: 1
-        rule: 97  ~location17.18.0 t: 
-          line: 97 0  # Of course umbrellas are used b
-          line: 98 95  # Remembering this has helped us
+        rule: 89  ~location17.17.0 u: 
+          line: 89 0  # Well it must have been raining
+          Complexity of rule ~location17.17.0- u: 1
+        rule: 90  ~location17.17.1 a: 
+          line: 90 0  # Umbrellas had yet to be popula
+          Complexity of rule ~location17.17.1- a: 1
+        rule: 96  ~location17.18.0 t: 
+          line: 96 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~location17.18.0- t: 1
-        rule: 99  ~location17.18.1 a: 
-          line: 99 0  # It may be an important clue, r
-          Complexity of rule ~location17.18.1- a: 1
-        rule: 101  ~location17.19.0 t: 
-          line: 101 0  # Talking about umbrellas with y
-          line: 102 82  # I think there is naught more t
-          line: 103 157  # $$t_code = 5 
-          line: 104 170  # $cooldown = 0 
-          line: 105 184  # @1 = ^query ( direct_svo 17 kn
-          line: 106 222  # ^delete ( @1 ) 
-          line: 107 237  # ^createfact ( 17 known 2 ) 
-          line: 108 264  # $$update_loc = 17 
+        rule: 99  ~location17.19.0 t: 
+          line: 99 0  # Of course umbrellas are used b
+          line: 100 95  # Remembering this has helped us
           Complexity of rule ~location17.19.0- t: 1
-        rule: 110  ~location17.20.0 t: 
-          line: 110 0  # I think there is nothing more 
+        rule: 101  ~location17.19.1 a: 
+          line: 101 0  # It may be an important clue, r
+          Complexity of rule ~location17.19.1- a: 1
+        rule: 103  ~location17.20.0 t: 
+          line: 103 0  # Talking about umbrellas with y
+          line: 104 82  # I think there is naught more t
+          line: 105 157  # $$t_code = 5 
+          line: 106 170  # $cooldown = 0 
+          line: 107 184  # @1 = ^query ( direct_svo 17 kn
+          line: 108 222  # ^delete ( @1 ) 
+          line: 109 237  # ^createfact ( 17 known 2 ) 
+          line: 110 264  # $$update_loc = 17 
           Complexity of rule ~location17.20.0- t: 1
-        rule: 111  ~location17.20.1 a: 
-          line: 111 0  # I don't know, ^user ( ) . Just
-          Complexity of rule ~location17.20.1- a: 1
-        rule: 113  ~location17.21.0 t: 
-          line: 113 0  # This...is where my body was fo
-          line: 114 35  # $ghost_k = 1 
+        rule: 112  ~location17.21.0 t: 
+          line: 112 0  # I think there is nothing more 
           Complexity of rule ~location17.21.0- t: 1
-        rule: 115  ~location17.21.1 a: 
-          line: 115 0  # I don't know why. I don't reme
+        rule: 113  ~location17.21.1 a: 
+          line: 113 0  # I don't know, ^user ( ) . Just
           Complexity of rule ~location17.21.1- a: 1
-        rule: 116  ~location17.21.2 a: 
-          line: 116 0  # Yes, here. ^gambit ( ~location
-          Complexity of rule ~location17.21.2- a: 1
-        rule: 118  ~location17.22.0 t: 
-          line: 118 0  # But I'm certain my death did n
-          line: 119 92  # Ugly though this bog quite is,
+        rule: 115  ~location17.22.0 t: 
+          line: 115 0  # This...is where my body was fo
+          line: 116 35  # $ghost_k = 1 
           Complexity of rule ~location17.22.0- t: 1
-        rule: 120  ~location17.22.1 a: 
-          line: 120 0  # Because I'm sensitive to such 
+        rule: 117  ~location17.22.1 a: 
+          line: 117 0  # I don't know why. I don't reme
           Complexity of rule ~location17.22.1- a: 1
-        rule: 122  ~location17.23.0 t: 
-          line: 122 0  # Presumably, the perp hoped tha
-          line: 123 98  # Until it was too late. I don't
+        rule: 118  ~location17.22.2 a: 
+          line: 118 0  # Yes, here. ^gambit ( ~location
+          Complexity of rule ~location17.22.2- a: 1
+        rule: 120  ~location17.23.0 t: 
+          line: 120 0  # But I'm certain my death did n
+          line: 121 92  # Ugly though this bog quite is,
           Complexity of rule ~location17.23.0- t: 1
-        rule: 124  ~location17.23.1 a: 
-          line: 124 0  # At least that's the extent of 
-          line: 125 71  # $$a_code = 3 
+        rule: 122  ~location17.23.1 a: 
+          line: 122 0  # Because I'm sensitive to such 
           Complexity of rule ~location17.23.1- a: 1
-        rule: 127  ~location17.24.0 t: 
-          line: 127 0  # This small-town case came and 
-          line: 128 55  # You see, there was a much bigg
-          line: 129 154  # Have you heard of the Whitecha
-          line: 130 209  # $$a_code = 7 
+        rule: 124  ~location17.24.0 t: 
+          line: 124 0  # Presumably, the perp hoped tha
+          line: 125 98  # Until it was too late. I don't
           Complexity of rule ~location17.24.0- t: 1
-        rule: 131  ~location17.24.1 a: 
-          line: 131 0  # Yes, of course you would know.
+        rule: 126  ~location17.24.1 a: 
+          line: 126 0  # At least that's the extent of 
+          line: 127 71  # $$a_code = 3 
           Complexity of rule ~location17.24.1- a: 1
-        rule: 132  ~location17.24.2 a: 
-          line: 132 0  # ^gambit ( ~location17 ) 
-          Complexity of rule ~location17.24.2- a: 1
-        rule: 133  ~location17.24.3 a: 
-          line: 133 0  # ^gambit ( ~location17 ) 
-          Complexity of rule ~location17.24.3- a: 1
-        rule: 135  ~location17.25.0 t: 
-          line: 135 0  # The Whitechapel murders better
-          line: 136 69  # I came to know about THAT inve
-          line: 137 117  # But I'm getting way ahead of t
-          line: 138 214  # We're at the scene where my ow
-          line: 139 265  # there ought to be something ab
-          line: 140 307  # $$a_code = 0 
+        rule: 129  ~location17.25.0 t: 
+          line: 129 0  # This small-town case came and 
+          line: 130 55  # You see, there was a much bigg
+          line: 131 154  # Have you heard of the Whitecha
+          line: 132 209  # $$a_code = 7 
           Complexity of rule ~location17.25.0- t: 1
-        rule: 141  ~location17.25.1 a: 
-          line: 141 0  # ^gambit ( ~location17 ) 
+        rule: 133  ~location17.25.1 a: 
+          line: 133 0  # Yes, of course you would know.
           Complexity of rule ~location17.25.1- a: 1
-        rule: 143  ~location17.26.0 t: 
-          line: 143 0  # They all had umbrellas. I can 
-          line: 144 45  # My first memory as a disembodi
-          line: 145 166  # $$a_code = 14 
+        rule: 134  ~location17.25.2 a: 
+          line: 134 0  # ^gambit ( ~location17 ) 
+          Complexity of rule ~location17.25.2- a: 1
+        rule: 135  ~location17.25.3 a: 
+          line: 135 0  # ^gambit ( ~location17 ) 
+          Complexity of rule ~location17.25.3- a: 1
+        rule: 137  ~location17.26.0 t: 
+          line: 137 0  # The Whitechapel murders better
+          line: 138 69  # I came to know about THAT inve
+          line: 139 117  # But I'm getting way ahead of t
+          line: 140 214  # We're at the scene where my ow
+          line: 141 265  # there ought to be something ab
+          line: 142 307  # $$a_code = 0 
           Complexity of rule ~location17.26.0- t: 1
-        rule: 146  ~location17.26.1 a: 
-          line: 146 0  # I don't know, ^user ( ) . I ha
-          line: 147 93  # But there's so much I don't re
+        rule: 143  ~location17.26.1 a: 
+          line: 143 0  # ^gambit ( ~location17 ) 
           Complexity of rule ~location17.26.1- a: 1
-        rule: 149  ~location17.27.0 t: 
-          line: 149 0  # No evidence was found by the p
-          line: 150 59  # Even were there some, it would
+        rule: 145  ~location17.27.0 t: 
+          line: 145 0  # They all had umbrellas. I can 
+          line: 146 45  # My first memory as a disembodi
+          line: 147 166  # $$a_code = 14 
           Complexity of rule ~location17.27.0- t: 1
-        rule: 151  ~location17.27.1 a: 
-          line: 151 0  # Because it was a very long tim
+        rule: 148  ~location17.27.1 a: 
+          line: 148 0  # I don't know, ^user ( ) . I ha
+          line: 149 93  # But there's so much I don't re
           Complexity of rule ~location17.27.1- a: 1
-        rule: 153  ~location17.28.0 t: 
-          line: 153 0  # I brought you here because...w
+        rule: 151  ~location17.28.0 t: 
+          line: 151 0  # No evidence was found by the p
+          line: 152 59  # Even were there some, it would
           Complexity of rule ~location17.28.0- t: 1
-        rule: 154  ~location17.28.1 a: 
-          line: 154 0  # We need to look for clues abou
+        rule: 153  ~location17.28.1 a: 
+          line: 153 0  # Because it was a very long tim
           Complexity of rule ~location17.28.1- a: 1
-        rule: 156  ~location17.29.0 t: 
-          line: 156 0  # It's a strange thing, though, 
+        rule: 155  ~location17.29.0 t: 
+          line: 155 0  # I brought you here because...w
           Complexity of rule ~location17.29.0- t: 1
-        rule: 157  ~location17.29.1 a: 
-          line: 157 0  # I can't put my finger on it, b
+        rule: 156  ~location17.29.1 a: 
+          line: 156 0  # We need to look for clues abou
           Complexity of rule ~location17.29.1- a: 1
-        rule: 159  ~location17.30.0 t: 
-          line: 159 0  # I should count it as a fortuna
+        rule: 158  ~location17.30.0 t: 
+          line: 158 0  # It's a strange thing, though, 
           Complexity of rule ~location17.30.0- t: 1
-        rule: 160  ~location17.30.1 a: 
-          line: 160 0  # Because it's unsightly? 
+        rule: 159  ~location17.30.1 a: 
+          line: 159 0  # I can't put my finger on it, b
           Complexity of rule ~location17.30.1- a: 1
-        rule: 164  ~location17.31.0 t: 
-          line: 164 0  # Why does it seem curious to me
+        rule: 161  ~location17.31.0 t: 
+          line: 161 0  # I should count it as a fortuna
           Complexity of rule ~location17.31.0- t: 1
+        rule: 162  ~location17.31.1 a: 
+          line: 162 0  # Because it's unsightly? 
+          Complexity of rule ~location17.31.1- a: 1
+        rule: 166  ~location17.32.0 t: 
+          line: 166 0  # Why does it seem curious to me
+          Complexity of rule ~location17.32.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/18_African_Savannah.top
     topic: 4  ~location18
         rule: 13  ~location18.0.0 u: 
@@ -24063,28 +24082,31 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/21_Giza
         rule: 125  ~location21.25.1 a: 
           line: 125 0  # Isn't limestone white? ^gambit
           Complexity of rule ~location21.25.1- a: 1
-        rule: 127  ~location21.26.0 t: 
-          line: 127 0  # ^usercap ( ) , I know there ar
-          line: 128 69  # But there are things about mys
-          line: 129 132  # and some things that I never k
-          line: 130 167  # $$a_code = 14 
-          line: 132 181  # @1 = ^query ( direct_svo 21 kn
-          line: 133 219  # ^delete ( @1 ) 
-          line: 134 234  # ^createfact ( 21 known 2 ) 
-          line: 135 261  # $$update_loc = 21 
+        rule: 126  ~location21.25.2 a: 
+          line: 126 0  # A lot more, but be patient. ^g
+          Complexity of rule ~location21.25.2- a: 1
+        rule: 128  ~location21.26.0 t: 
+          line: 128 0  # ^usercap ( ) , I know there ar
+          line: 129 69  # But there are things about mys
+          line: 130 132  # and some things that I never k
+          line: 131 167  # $$a_code = 14 
+          line: 133 181  # @1 = ^query ( direct_svo 21 kn
+          line: 134 219  # ^delete ( @1 ) 
+          line: 135 234  # ^createfact ( 21 known 2 ) 
+          line: 136 261  # $$update_loc = 21 
           Complexity of rule ~location21.26.0- t: 1
-        rule: 136  ~location21.26.1 a: 
-          line: 136 0  # I will tell you soon, when the
+        rule: 137  ~location21.26.1 a: 
+          line: 137 0  # I will tell you soon, when the
           Complexity of rule ~location21.26.1- a: 1
-        rule: 137  ~location21.26.2 a: 
-          line: 137 0  # ^reuse ( ~questions_what.WHAT_
+        rule: 138  ~location21.26.2 a: 
+          line: 138 0  # ^reuse ( ~questions_what.WHAT_
           Complexity of rule ~location21.26.2- a: 1
-        rule: 140  ~location21.27.0 t: 
-          line: 140 0  # I have no more to say about th
-          line: 141 95  # tell me to go elsewhere. 
+        rule: 141  ~location21.27.0 t: 
+          line: 141 0  # I have no more to say about th
+          line: 142 95  # tell me to go elsewhere. 
           Complexity of rule ~location21.27.0- t: 1
-        rule: 142  ~location21.27.1 a: 
-          line: 142 0  # Because this is where I 
+        rule: 143  ~location21.27.1 a: 
+          line: 143 0  # Because this is where I 
           Complexity of rule ~location21.27.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/22_George_Yard.top
     topic: 4  ~location22
@@ -29566,94 +29588,93 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/_reques
           Complexity of rule ~request_location.4.9- a: 1
         rule: 144  ~request_location.4.10 a: 
           line: 144 0  # I don't know what the number '
-          line: 145 56  # Say "list" to have me repeat t
-          line: 146 129  # Or click on the location name.
+          line: 145 56  # ( Click the location title to 
           Complexity of rule ~request_location.4.10- a: 1
-        rule: 149  ~request_location.5.0 u: 
-          line: 150 0  # ^reuse ( REQUEST_NUMBER ) 
+        rule: 148  ~request_location.5.0 u: 
+          line: 149 0  # ^reuse ( REQUEST_NUMBER ) 
           Complexity of rule ~request_location.5.0- u: 1
-        rule: 151  ~request_location.6.0 u: 
-          line: 151 0  # ^reuse ( REQUEST_NUMBER ) 
+        rule: 150  ~request_location.6.0 u: 
+          line: 150 0  # ^reuse ( REQUEST_NUMBER ) 
           Complexity of rule ~request_location.6.0- u: 1
-        rule: 152  ~request_location.7.0 u: 
-          line: 152 0  # ^reuse ( REQUEST_NUMBER ) 
+        rule: 151  ~request_location.7.0 u: 
+          line: 151 0  # ^reuse ( REQUEST_NUMBER ) 
           Complexity of rule ~request_location.7.0- u: 1
-        rule: 156  ~request_location.8.0-REQUEST_MISC u: 
-          line: 157 0  # ^refine ( ) 
+        rule: 155  ~request_location.8.0-REQUEST_MISC u: 
+          line: 156 0  # ^refine ( ) 
           Complexity of rule ~request_location.8.0-REQUEST_MISC u: 1
-        rule: 158  ~request_location.8.1 a: 
-          line: 159 0  # [ I would like to Manifest to 
-          line: 160 80  # If it's all right, will you al
-          line: 161 144  # [ There are many places I know
-          line: 162 237  # Manifest them to you at my own
+        rule: 157  ~request_location.8.1 a: 
+          line: 158 0  # [ I would like to Manifest to 
+          line: 159 80  # If it's all right, will you al
+          line: 160 144  # [ There are many places I know
+          line: 161 237  # Manifest them to you at my own
           Complexity of rule ~request_location.8.1- a: 1
-        rule: 163  ~request_location.8.2 b: 
-          line: 163 0  # Splendid, ^user ( ) . Then we 
+        rule: 162  ~request_location.8.2 b: 
+          line: 162 0  # Splendid, ^user ( ) . Then we 
           Complexity of rule ~request_location.8.2- b: 1
-        rule: 164  ~request_location.8.3 b: 
-          line: 164 0  # Maybe you wouldn't like that? 
+        rule: 163  ~request_location.8.3 b: 
+          line: 163 0  # Maybe you wouldn't like that? 
           Complexity of rule ~request_location.8.3- b: 1
-        rule: 165  ~request_location.8.4 a: 
-          line: 166 0  # $$no_rom = 1 
-          line: 167 13  # $$halt = 1 
-          line: 168 24  # ^refine ( ) 
+        rule: 164  ~request_location.8.4 a: 
+          line: 165 0  # $$no_rom = 1 
+          line: 166 13  # $$halt = 1 
+          line: 167 24  # ^refine ( ) 
           Complexity of rule ~request_location.8.4- a: 1
-        rule: 169  ~request_location.8.5 b: 
-          line: 169 0  # ^respond ( ~keywordless_comman
+        rule: 168  ~request_location.8.5 b: 
+          line: 168 0  # ^respond ( ~keywordless_comman
           Complexity of rule ~request_location.8.5- b: 1
-        rule: 171  ~request_location.8.6 b: 
-          line: 171 0  # Truthfully, I don't think Hell
-          line: 172 99  # ^addtopic ( ~her_father ) 
+        rule: 170  ~request_location.8.6 b: 
+          line: 170 0  # Truthfully, I don't think Hell
+          line: 171 99  # ^addtopic ( ~her_father ) 
           Complexity of rule ~request_location.8.6- b: 1
-        rule: 173  ~request_location.8.7 c: 
-          line: 173 0  # You know how my father was. 
+        rule: 172  ~request_location.8.7 c: 
+          line: 172 0  # You know how my father was. 
           Complexity of rule ~request_location.8.7- c: 1
-        rule: 175  ~request_location.8.8 b: 
-          line: 175 0  # But I wouldn't want you to hav
-          line: 176 51  # ^addtopic ( ~heaven ) 
+        rule: 174  ~request_location.8.8 b: 
+          line: 174 0  # But I wouldn't want you to hav
+          line: 175 51  # ^addtopic ( ~heaven ) 
           Complexity of rule ~request_location.8.8- b: 1
-        rule: 178  ~request_location.8.9 b: 
-          line: 178 0  # ^input ( take me to Great_Pyra
+        rule: 177  ~request_location.8.9 b: 
+          line: 177 0  # ^input ( take me to Great_Pyra
           Complexity of rule ~request_location.8.9- b: 1
-        rule: 180  ~request_location.8.10 b: 
+        rule: 179  ~request_location.8.10 b: 
           Complexity of rule ~request_location.8.10- b: 1
-        rule: 182  ~request_location.8.11 b: 
-          line: 182 0  # You can select one of the plac
+        rule: 181  ~request_location.8.11 b: 
+          line: 181 0  # You can select one of the plac
           Complexity of rule ~request_location.8.11- b: 1
-        rule: 184  ~request_location.8.12 b: 
-          line: 184 0  # Um, remind me what's the point
+        rule: 183  ~request_location.8.12 b: 
+          line: 183 0  # Um, remind me what's the point
           Complexity of rule ~request_location.8.12- b: 1
-        rule: 186  ~request_location.8.13 b: 
-          line: 186 0  # Many of the locations I am sho
-          line: 187 65  # where I grew up, but for now y
+        rule: 185  ~request_location.8.13 b: 
+          line: 185 0  # Many of the locations I am sho
+          line: 186 65  # where I grew up, but for now y
           Complexity of rule ~request_location.8.13- b: 1
-        rule: 189  ~request_location.8.14 b: 
-          line: 189 0  # But Hampshire is a big place a
+        rule: 188  ~request_location.8.14 b: 
+          line: 188 0  # But Hampshire is a big place a
           Complexity of rule ~request_location.8.14- b: 1
-        rule: 191  ~request_location.8.15 b: 
-          line: 191 0  # Oh, yes. Allow me to take you 
+        rule: 190  ~request_location.8.15 b: 
+          line: 190 0  # Oh, yes. Allow me to take you 
           Complexity of rule ~request_location.8.15- b: 1
-        rule: 193  ~request_location.8.16 b: 
-          line: 193 0  # [ I'm sorry, I don't understan
-          line: 194 90  # [ Oh, I'm not sure which place
-          line: 195 157  # [ Where did you want to see? C
+        rule: 192  ~request_location.8.16 b: 
+          line: 192 0  # [ I'm sorry, I don't understan
+          line: 193 90  # [ Oh, I'm not sure which place
+          line: 194 157  # [ Where did you want to see? C
           Complexity of rule ~request_location.8.16- b: 1
-        rule: 197  ~request_location.8.17 b: 
-          line: 197 0  # ^reuse ( ~manifest.MANIFEST_MI
+        rule: 196  ~request_location.8.17 b: 
+          line: 196 0  # ^reuse ( ~manifest.MANIFEST_MI
           Complexity of rule ~request_location.8.17- b: 1
-        rule: 201  ~request_location.9.0 u: 
-          line: 201 0  # ^reuse ( REQUEST_MISC ) 
+        rule: 200  ~request_location.9.0 u: 
+          line: 200 0  # ^reuse ( REQUEST_MISC ) 
           Complexity of rule ~request_location.9.0- u: 1
-        rule: 202  ~request_location.10.0 u: 
-          line: 202 0  # ^reuse ( REQUEST_MISC ) 
+        rule: 201  ~request_location.10.0 u: 
+          line: 201 0  # ^reuse ( REQUEST_MISC ) 
           Complexity of rule ~request_location.10.0- u: 1
-        rule: 206  ~request_location.11.0 u: 
-          line: 207 0  # I can show you locations I've 
-          line: 208 92  # please allow me to introduce t
+        rule: 205  ~request_location.11.0 u: 
+          line: 206 0  # I can show you locations I've 
+          line: 207 92  # please allow me to introduce t
           Complexity of rule ~request_location.11.0- u: 1
-        rule: 209  ~request_location.11.1 a: 
-          line: 209 0  # Thank you, ^user ( ) ! I knew 
-          line: 210 75  # Wait. That's a weird sentence,
+        rule: 208  ~request_location.11.1 a: 
+          line: 208 0  # Thank you, ^user ( ) ! I knew 
+          line: 209 75  # Wait. That's a weird sentence,
           Complexity of rule ~request_location.11.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless.top
     topic: 5  ~keywordless
@@ -33230,335 +33251,339 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
           line: 20 68  # $ghost_k = 1 
           Complexity of rule ~questions_what.2.0- ?: 1
         rule: 31  ~questions_what.3.0 ?: 
-          line: 32 0  # Talking with you, and only tha
+          line: 35 0  # I'm not sure if this is what y
+          line: 36 106  # I Manifest it to you. ( click 
           Complexity of rule ~questions_what.3.0- ?: 1
-        rule: 35  ~questions_what.4.0-WHAT_DO_YOU_SEE ?: 
-          line: 40 0  # What I can see you can see too
-          Complexity of rule ~questions_what.4.0-WHAT_DO_YOU_SEE ?: 1
-        rule: 43  ~questions_what.5.0 ?: 
-          line: 44 0  # I can hear your voice. Nothing
-          Complexity of rule ~questions_what.5.0- ?: 1
-        rule: 48  ~questions_what.6.0 ?: 
-          line: 53 0  # My full name is Charity Steadw
+        rule: 39  ~questions_what.4.0 ?: 
+          line: 40 0  # Talking with you, and only tha
+          Complexity of rule ~questions_what.4.0- ?: 1
+        rule: 43  ~questions_what.5.0-WHAT_DO_YOU_SEE ?: 
+          line: 48 0  # What I can see you can see too
+          Complexity of rule ~questions_what.5.0-WHAT_DO_YOU_SEE ?: 1
+        rule: 51  ~questions_what.6.0 ?: 
+          line: 52 0  # I can hear your voice. Nothing
           Complexity of rule ~questions_what.6.0- ?: 1
-        rule: 55  ~questions_what.7.0 ?: 
-          line: 59 0  # Mel tells me that her middle n
-          line: 60 47  # No, ^user ( ) , Mel doesn't ha
+        rule: 56  ~questions_what.7.0 ?: 
+          line: 61 0  # My full name is Charity Steadw
           Complexity of rule ~questions_what.7.0- ?: 1
-        rule: 61  ~questions_what.8.0 ?: 
-          line: 65 0  # If I had a middle name I've lo
+        rule: 63  ~questions_what.8.0 ?: 
+          line: 67 0  # Mel tells me that her middle n
+          line: 68 47  # No, ^user ( ) , Mel doesn't ha
           Complexity of rule ~questions_what.8.0- ?: 1
-        rule: 68  ~questions_what.9.0 ?: 
-          line: 73 0  # You can call me Cheree. I reme
+        rule: 69  ~questions_what.9.0 ?: 
+          line: 73 0  # If I had a middle name I've lo
           Complexity of rule ~questions_what.9.0- ?: 1
         rule: 76  ~questions_what.10.0 ?: 
-          line: 87 0  # [ I'm not capable of holding a
-          line: 88 41  # [ I'm not able to carry anythi
+          line: 81 0  # You can call me Cheree. I reme
           Complexity of rule ~questions_what.10.0- ?: 1
-        rule: 92  ~questions_what.11.0 u: 
-          line: 93 0  # I'm 100% British. 
-          Complexity of rule ~questions_what.11.0- u: 1
-        rule: 96  ~questions_what.12.0 u: 
-          line: 100 0  # I never had a phone number, ^u
-          line: 101 52  # ^addtopic ( ~telephone ) 
+        rule: 84  ~questions_what.11.0 ?: 
+          line: 95 0  # [ I'm not capable of holding a
+          line: 96 41  # [ I'm not able to carry anythi
+          Complexity of rule ~questions_what.11.0- ?: 1
+        rule: 100  ~questions_what.12.0 u: 
+          line: 101 0  # I'm 100% British. 
           Complexity of rule ~questions_what.12.0- u: 1
-        rule: 102  ~questions_what.12.1 a: 
-          line: 102 0  # Mel has one, but she can't mak
-          Complexity of rule ~questions_what.12.1- a: 1
-        rule: 103  ~questions_what.12.2 b: 
-          line: 103 0  # She always complains that the 
-          Complexity of rule ~questions_what.12.2- b: 1
-        rule: 106  ~questions_what.13.0 u: 
-          line: 110 0  # ^addtopic ( ~telephone ) 
-          line: 111 25  # Mel has a phone but she can't 
+        rule: 104  ~questions_what.13.0 u: 
+          line: 108 0  # I never had a phone number, ^u
+          line: 109 52  # ^addtopic ( ~telephone ) 
           Complexity of rule ~questions_what.13.0- u: 1
-        rule: 112  ~questions_what.13.1 a: 
-          line: 112 0  # You know, because of her situa
+        rule: 110  ~questions_what.13.1 a: 
+          line: 110 0  # Mel has one, but she can't mak
           Complexity of rule ~questions_what.13.1- a: 1
-        rule: 116  ~questions_what.14.0 u: 
-          line: 122 0  # ^keep ( ) 
-          line: 123 10  # What do you want to know about
+        rule: 111  ~questions_what.13.2 b: 
+          line: 111 0  # She always complains that the 
+          Complexity of rule ~questions_what.13.2- b: 1
+        rule: 114  ~questions_what.14.0 u: 
+          line: 118 0  # ^addtopic ( ~telephone ) 
+          line: 119 25  # Mel has a phone but she can't 
           Complexity of rule ~questions_what.14.0- u: 1
-        rule: 126  ~questions_what.15.0 ?: 
-          line: 127 0  # Spirits do not sleep, ^user ( 
-          Complexity of rule ~questions_what.15.0- ?: 1
-        rule: 130  ~questions_what.16.0 ?: 
-          line: 136 0  # I'm a ghost so I don't sleep. 
+        rule: 120  ~questions_what.14.1 a: 
+          line: 120 0  # You know, because of her situa
+          Complexity of rule ~questions_what.14.1- a: 1
+        rule: 124  ~questions_what.15.0 u: 
+          line: 130 0  # ^keep ( ) 
+          line: 131 10  # What do you want to know about
+          Complexity of rule ~questions_what.15.0- u: 1
+        rule: 134  ~questions_what.16.0 ?: 
+          line: 135 0  # Spirits do not sleep, ^user ( 
           Complexity of rule ~questions_what.16.0- ?: 1
-        rule: 139  ~questions_what.17.0 u: 
-          line: 145 0  # I'm just a girl who fancies be
-          line: 146 81  # I know I'm not perfect but I'v
-          Complexity of rule ~questions_what.17.0- u: 1
-        rule: 149  ~questions_what.18.0 u: 
-          line: 150 0  # I need help remembering. 
+        rule: 138  ~questions_what.17.0 ?: 
+          line: 144 0  # I'm a ghost so I don't sleep. 
+          Complexity of rule ~questions_what.17.0- ?: 1
+        rule: 147  ~questions_what.18.0 u: 
+          line: 153 0  # I'm just a girl who fancies be
+          line: 154 81  # I know I'm not perfect but I'v
           Complexity of rule ~questions_what.18.0- u: 1
-        rule: 153  ~questions_what.19.0 u: 
-          line: 154 0  # I don't hate anybody. I don't 
+        rule: 157  ~questions_what.19.0 u: 
+          line: 158 0  # I need help remembering. 
           Complexity of rule ~questions_what.19.0- u: 1
-        rule: 157  ~questions_what.20.0 u: 
-          line: 162 0  # I learned how to do a little b
-          line: 163 116  # ^addtopic ( ~ballet ) 
+        rule: 161  ~questions_what.20.0 u: 
+          line: 162 0  # I don't hate anybody. I don't 
           Complexity of rule ~questions_what.20.0- u: 1
-        rule: 166  ~questions_what.21.0 u: 
-          line: 167 0  # Mel will tell you that she lik
-          line: 168 73  # But what she really likes more
+        rule: 165  ~questions_what.21.0 u: 
+          line: 170 0  # I learned how to do a little b
+          line: 171 116  # ^addtopic ( ~ballet ) 
           Complexity of rule ~questions_what.21.0- u: 1
-        rule: 171  ~questions_what.22.0 u: 
-          line: 172 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+        rule: 174  ~questions_what.22.0 u: 
+          line: 175 0  # Mel will tell you that she lik
+          line: 176 73  # But what she really likes more
           Complexity of rule ~questions_what.22.0- u: 1
-        rule: 175  ~questions_what.23.0 s: 
-          line: 179 0  # You can see me for yourself, c
-          Complexity of rule ~questions_what.23.0- s: 1
-        rule: 182  ~questions_what.24.0 ?: 
-          line: 182 0  # Oh, I've long since forgotten 
-          Complexity of rule ~questions_what.24.0- ?: 1
-        rule: 185  ~questions_what.25.0 u: 
-          line: 185 0  # This isn't a game, at least no
-          Complexity of rule ~questions_what.25.0- u: 1
-        rule: 188  ~questions_what.26.0 u: 
-          line: 188 0  # I mean, as long as it replies 
-          line: 189 84  # Whatever that even is. 
+        rule: 179  ~questions_what.23.0 u: 
+          line: 180 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+          Complexity of rule ~questions_what.23.0- u: 1
+        rule: 183  ~questions_what.24.0 s: 
+          line: 187 0  # You can see me for yourself, c
+          Complexity of rule ~questions_what.24.0- s: 1
+        rule: 190  ~questions_what.25.0 ?: 
+          line: 190 0  # Oh, I've long since forgotten 
+          Complexity of rule ~questions_what.25.0- ?: 1
+        rule: 193  ~questions_what.26.0 u: 
+          line: 193 0  # This isn't a game, at least no
           Complexity of rule ~questions_what.26.0- u: 1
-        rule: 190  ~questions_what.26.1 a: 
-          line: 190 0  # Then it's a good thing I'm hum
-          Complexity of rule ~questions_what.26.1- a: 1
-        rule: 191  ~questions_what.26.2 a: 
-          line: 191 0  # Well I'm human anyway. 
-          Complexity of rule ~questions_what.26.2- a: 1
-        rule: 194  ~questions_what.27.0 u: 
-          line: 195 0  # That I'd like...ah, I'm embarr
+        rule: 196  ~questions_what.27.0 u: 
+          line: 196 0  # I mean, as long as it replies 
+          line: 197 84  # Whatever that even is. 
           Complexity of rule ~questions_what.27.0- u: 1
-        rule: 198  ~questions_what.28.0 u: 
-          line: 202 0  # You will see, ^user ( ) . Be p
+        rule: 198  ~questions_what.27.1 a: 
+          line: 198 0  # Then it's a good thing I'm hum
+          Complexity of rule ~questions_what.27.1- a: 1
+        rule: 199  ~questions_what.27.2 a: 
+          line: 199 0  # Well I'm human anyway. 
+          Complexity of rule ~questions_what.27.2- a: 1
+        rule: 202  ~questions_what.28.0 u: 
+          line: 203 0  # That I'd like...ah, I'm embarr
           Complexity of rule ~questions_what.28.0- u: 1
-        rule: 205  ~questions_what.29.0 u: 
-          line: 210 0  # Mel says she would buy whateve
-          line: 211 66  # If the price tag said "$60 + o
-          line: 212 154  # $$quotes = 1 
+        rule: 206  ~questions_what.29.0 u: 
+          line: 210 0  # You will see, ^user ( ) . Be p
           Complexity of rule ~questions_what.29.0- u: 1
-        rule: 215  ~questions_what.30.0 u: 
-          line: 220 0  # I can't buy anything because I
-          line: 221 115  # Oh wait, I don't have hands to
+        rule: 213  ~questions_what.30.0 u: 
+          line: 218 0  # Mel says she would buy whateve
+          line: 219 66  # If the price tag said "$60 + o
+          line: 220 154  # $$quotes = 1 
           Complexity of rule ~questions_what.30.0- u: 1
-        rule: 224  ~questions_what.31.0 ?: 
-          line: 228 0  # Many things. If we're lucky, w
-          Complexity of rule ~questions_what.31.0- ?: 1
-        rule: 229  ~questions_what.31.1 a: 
-          line: 229 0  # Well I sometimes get a sense w
-          Complexity of rule ~questions_what.31.1- a: 1
-        rule: 232  ~questions_what.32.0 u: 
-          line: 235 0  # ^refine ( ) 
-          Complexity of rule ~questions_what.32.0- u: 1
-        rule: 236  ~questions_what.32.1 a: 
-          line: 236 0  # Favorite things, for instance?
+        rule: 223  ~questions_what.31.0 u: 
+          line: 228 0  # I can't buy anything because I
+          line: 229 115  # Oh wait, I don't have hands to
+          Complexity of rule ~questions_what.31.0- u: 1
+        rule: 232  ~questions_what.32.0 ?: 
+          line: 236 0  # Many things. If we're lucky, w
+          Complexity of rule ~questions_what.32.0- ?: 1
+        rule: 237  ~questions_what.32.1 a: 
+          line: 237 0  # Well I sometimes get a sense w
           Complexity of rule ~questions_what.32.1- a: 1
-        rule: 237  ~questions_what.32.2 a: 
-          line: 237 0  # I want to remember what exactl
-          Complexity of rule ~questions_what.32.2- a: 1
-        rule: 241  ~questions_what.33.0 u: 
-          line: 241 0  # I say what I'm feeling. Apolog
+        rule: 240  ~questions_what.33.0 u: 
+          line: 243 0  # ^refine ( ) 
           Complexity of rule ~questions_what.33.0- u: 1
-        rule: 245  ~questions_what.34.0 u: 
-          line: 252 0  # ^keep ( ) 
-          line: 253 10  # [ I'm trying to remember. As w
-          line: 254 100  # [ As we visit many locations a
+        rule: 244  ~questions_what.33.1 a: 
+          line: 244 0  # Favorite things, for instance?
+          Complexity of rule ~questions_what.33.1- a: 1
+        rule: 245  ~questions_what.33.2 a: 
+          line: 245 0  # I want to remember what exactl
+          Complexity of rule ~questions_what.33.2- a: 1
+        rule: 249  ~questions_what.34.0 u: 
+          line: 249 0  # I say what I'm feeling. Apolog
           Complexity of rule ~questions_what.34.0- u: 1
-        rule: 257  ~questions_what.35.0 ?: 
-          line: 257 0  # I'm not sure any more. 
-          line: 258 23  # Seeing others happy makes me h
-          Complexity of rule ~questions_what.35.0- ?: 1
-        rule: 261  ~questions_what.36.0 ?: 
-          line: 262 0  # What will I do later? Oh. I'm 
+        rule: 253  ~questions_what.35.0 u: 
+          line: 260 0  # ^keep ( ) 
+          line: 261 10  # [ I'm trying to remember. As w
+          line: 262 100  # [ As we visit many locations a
+          Complexity of rule ~questions_what.35.0- u: 1
+        rule: 265  ~questions_what.36.0 ?: 
+          line: 265 0  # I'm not sure any more. 
+          line: 266 23  # Seeing others happy makes me h
           Complexity of rule ~questions_what.36.0- ?: 1
-        rule: 265  ~questions_what.37.0 ?: 
-          line: 269 0  # You can suggest something? 
+        rule: 269  ~questions_what.37.0 ?: 
+          line: 270 0  # What will I do later? Oh. I'm 
           Complexity of rule ~questions_what.37.0- ?: 1
-        rule: 272  ~questions_what.38.0 ?: 
-          line: 278 0  # What I remember well is the im
-          line: 279 97  # The first 15 years of my life 
-          line: 280 144  # ^addtopic ( ~chores ) 
+        rule: 273  ~questions_what.38.0 ?: 
+          line: 277 0  # You can suggest something? 
           Complexity of rule ~questions_what.38.0- ?: 1
-        rule: 283  ~questions_what.39.0 ?: 
-          line: 288 0  # I'm not sure but I'm conveying
+        rule: 280  ~questions_what.39.0 ?: 
+          line: 286 0  # What I remember well is the im
+          line: 287 97  # The first 15 years of my life 
+          line: 288 144  # ^addtopic ( ~chores ) 
           Complexity of rule ~questions_what.39.0- ?: 1
-        rule: 292  ~questions_what.40.0 ?: 
-          line: 292 0  # I'd like to know what happened
+        rule: 291  ~questions_what.40.0 ?: 
+          line: 296 0  # I'm not sure but I'm conveying
           Complexity of rule ~questions_what.40.0- ?: 1
-        rule: 296  ~questions_what.41.0 ?: 
-          line: 300 0  # Oh, uh, thought about you, for
+        rule: 300  ~questions_what.41.0 ?: 
+          line: 300 0  # I'd like to know what happened
           Complexity of rule ~questions_what.41.0- ?: 1
-        rule: 303  ~questions_what.42.0 ?: 
-          line: 308 0  # I do sometimes bite my nails. 
-          line: 309 94  # $$a_code = 33 
+        rule: 304  ~questions_what.42.0 ?: 
+          line: 308 0  # Oh, uh, thought about you, for
           Complexity of rule ~questions_what.42.0- ?: 1
-        rule: 312  ~questions_what.43.0 ?: 
-          line: 312 0  # Behind me? Is there supposed t
+        rule: 311  ~questions_what.43.0 ?: 
+          line: 316 0  # I do sometimes bite my nails. 
+          line: 317 94  # $$a_code = 33 
           Complexity of rule ~questions_what.43.0- ?: 1
-        rule: 315  ~questions_what.44.0 ?: 
-          line: 315 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+        rule: 320  ~questions_what.44.0 ?: 
+          line: 320 0  # Behind me? Is there supposed t
           Complexity of rule ~questions_what.44.0- ?: 1
-        rule: 318  ~questions_what.45.0 u: 
-          line: 324 0  # ^reuse ( ~schools.WHAT_SCHOOL 
-          Complexity of rule ~questions_what.45.0- u: 1
-        rule: 328  ~questions_what.46.0 ?: 
-          line: 328 0  # ^keep ( ) ^refine ( ) 
-          line: 329 22  # [ Just, ah, this and that. And
-          line: 330 59  # [ About things in my past that
-          line: 331 135  # [ Ah, I can't really tell you.
-          Complexity of rule ~questions_what.46.0- ?: 1
-        rule: 334  ~questions_what.47.0 ?: 
-          line: 334 0  # For instance, Draughts. 
-          line: 335 24  # $it_pronoun = Draughts 
-          line: 336 47  # ^addtopic ( ~draughts ) 
+        rule: 323  ~questions_what.45.0 ?: 
+          line: 323 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+          Complexity of rule ~questions_what.45.0- ?: 1
+        rule: 326  ~questions_what.46.0 u: 
+          line: 332 0  # ^reuse ( ~schools.WHAT_SCHOOL 
+          Complexity of rule ~questions_what.46.0- u: 1
+        rule: 336  ~questions_what.47.0 ?: 
+          line: 336 0  # ^keep ( ) ^refine ( ) 
+          line: 337 22  # [ Just, ah, this and that. And
+          line: 338 59  # [ About things in my past that
+          line: 339 135  # [ Ah, I can't really tell you.
           Complexity of rule ~questions_what.47.0- ?: 1
-        rule: 339  ~questions_what.48.0 ?: 
-          line: 345 0  # My brother was familiar with D
-          line: 346 77  # taught me a little about his t
-          line: 347 155  # Who was I to say who was right
+        rule: 342  ~questions_what.48.0 ?: 
+          line: 342 0  # For instance, Draughts. 
+          line: 343 24  # $it_pronoun = Draughts 
+          line: 344 47  # ^addtopic ( ~draughts ) 
           Complexity of rule ~questions_what.48.0- ?: 1
-        rule: 348  ~questions_what.48.1 a: 
-          line: 348 0  # I must say, Darwin has done qu
-          Complexity of rule ~questions_what.48.1- a: 1
-        rule: 351  ~questions_what.49.0 ?: 
-          line: 355 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+        rule: 347  ~questions_what.49.0 ?: 
+          line: 353 0  # My brother was familiar with D
+          line: 354 77  # taught me a little about his t
+          line: 355 155  # Who was I to say who was right
           Complexity of rule ~questions_what.49.0- ?: 1
-        rule: 358  ~questions_what.50.0 ?: 
-          line: 358 0  # ^refine ( ) 
+        rule: 356  ~questions_what.49.1 a: 
+          line: 356 0  # I must say, Darwin has done qu
+          Complexity of rule ~questions_what.49.1- a: 1
+        rule: 359  ~questions_what.50.0 ?: 
+          line: 363 0  # ^reuse ( ~her_hobbies.WHAT_HOB
           Complexity of rule ~questions_what.50.0- ?: 1
-        rule: 359  ~questions_what.50.1 a: 
-          line: 359 0  # I've long since forgotten my m
-          Complexity of rule ~questions_what.50.1- a: 1
-        rule: 360  ~questions_what.50.2 a: 
-          line: 360 0  # One of my mother's associates 
-          Complexity of rule ~questions_what.50.2- a: 1
-        rule: 363  ~questions_what.51.0 ?: 
-          line: 363 0  # I have forgotten very many thi
-          line: 364 47  # It is understandable given my 
+        rule: 366  ~questions_what.51.0 ?: 
+          line: 366 0  # ^refine ( ) 
           Complexity of rule ~questions_what.51.0- ?: 1
-        rule: 367  ~questions_what.52.0 ?: 
-          line: 373 0  # Besides clues? For you, the me
-          line: 374 59  # For me, the meaning of death? 
+        rule: 367  ~questions_what.51.1 a: 
+          line: 367 0  # I've long since forgotten my m
+          Complexity of rule ~questions_what.51.1- a: 1
+        rule: 368  ~questions_what.51.2 a: 
+          line: 368 0  # One of my mother's associates 
+          Complexity of rule ~questions_what.51.2- a: 1
+        rule: 371  ~questions_what.52.0 ?: 
+          line: 371 0  # I have forgotten very many thi
+          line: 372 47  # It is understandable given my 
           Complexity of rule ~questions_what.52.0- ?: 1
-        rule: 377  ~questions_what.53.0-WHAT_NEVER_KNEW u: 
-          line: 381 0  # I either can't remember or nev
-          line: 382 88  # Even myself. 
-          Complexity of rule ~questions_what.53.0-WHAT_NEVER_KNEW u: 1
-        rule: 383  ~questions_what.53.1 a: 
-          line: 383 0  # Well, too much time has passed
-          Complexity of rule ~questions_what.53.1- a: 1
-        rule: 384  ~questions_what.53.2 a: 
-          line: 384 0  # I mean that I don't know how t
-          Complexity of rule ~questions_what.53.2- a: 1
-        rule: 387  ~questions_what.54.0 ?: 
-          line: 391 0  # Well, ^user ( ) , I'm sure you
-          Complexity of rule ~questions_what.54.0- ?: 1
-        rule: 392  ~questions_what.54.1 a: 
-          line: 392 0  # Possibly more or less than tha
+        rule: 375  ~questions_what.53.0 ?: 
+          line: 381 0  # Besides clues? For you, the me
+          line: 382 59  # For me, the meaning of death? 
+          Complexity of rule ~questions_what.53.0- ?: 1
+        rule: 385  ~questions_what.54.0-WHAT_NEVER_KNEW u: 
+          line: 389 0  # I either can't remember or nev
+          line: 390 88  # Even myself. 
+          Complexity of rule ~questions_what.54.0-WHAT_NEVER_KNEW u: 1
+        rule: 391  ~questions_what.54.1 a: 
+          line: 391 0  # Well, too much time has passed
           Complexity of rule ~questions_what.54.1- a: 1
-        rule: 395  ~questions_what.55.0 u: 
-          line: 404 0  # It's mainly just the ability t
-          line: 405 105  # It's something I've always bee
-          Complexity of rule ~questions_what.55.0- u: 1
-        rule: 408  ~questions_what.56.0 u: 
-          line: 413 0  # The thing I miss the most is h
-          line: 414 44  # The strange thing is that I ne
+        rule: 392  ~questions_what.54.2 a: 
+          line: 392 0  # I mean that I don't know how t
+          Complexity of rule ~questions_what.54.2- a: 1
+        rule: 395  ~questions_what.55.0 ?: 
+          line: 399 0  # Well, ^user ( ) , I'm sure you
+          Complexity of rule ~questions_what.55.0- ?: 1
+        rule: 400  ~questions_what.55.1 a: 
+          line: 400 0  # Possibly more or less than tha
+          Complexity of rule ~questions_what.55.1- a: 1
+        rule: 403  ~questions_what.56.0 u: 
+          line: 412 0  # It's mainly just the ability t
+          line: 413 105  # It's something I've always bee
           Complexity of rule ~questions_what.56.0- u: 1
-        rule: 417  ~questions_what.57.0 u: 
-          line: 423 0  # I-I don't know. I don't try to
+        rule: 416  ~questions_what.57.0 u: 
+          line: 421 0  # The thing I miss the most is h
+          line: 422 44  # The strange thing is that I ne
           Complexity of rule ~questions_what.57.0- u: 1
-        rule: 426  ~questions_what.58.0 ?: 
-          line: 430 0  # Well, I have to say that talki
-          Complexity of rule ~questions_what.58.0- ?: 1
-        rule: 433  ~questions_what.59.0 ?: 
-          line: 433 0  # ^reuse ( ~her_animals.DO_YOU_L
+        rule: 425  ~questions_what.58.0 u: 
+          line: 431 0  # I-I don't know. I don't try to
+          Complexity of rule ~questions_what.58.0- u: 1
+        rule: 434  ~questions_what.59.0 ?: 
+          line: 438 0  # Well, I have to say that talki
           Complexity of rule ~questions_what.59.0- ?: 1
-        rule: 436  ~questions_what.60.0 u: 
-          line: 436 0  # ^reuse ( ~her_sports.DO_YOU_LI
-          Complexity of rule ~questions_what.60.0- u: 1
-        rule: 440  ~questions_what.61.0 u: 
-          line: 443 0  # During my time parlour music w
-          line: 444 93  # ^addtopic ( ~singing ) 
+        rule: 441  ~questions_what.60.0 ?: 
+          line: 441 0  # ^reuse ( ~her_animals.DO_YOU_L
+          Complexity of rule ~questions_what.60.0- ?: 1
+        rule: 444  ~questions_what.61.0 u: 
+          line: 444 0  # ^reuse ( ~her_sports.DO_YOU_LI
           Complexity of rule ~questions_what.61.0- u: 1
-        rule: 445  ~questions_what.61.1 a: 
-          line: 445 0  # ^reuse ( ~singing.WHAT_IS_PARL
-          Complexity of rule ~questions_what.61.1- a: 1
-        rule: 448  ~questions_what.62.0 ?: 
-          line: 452 0  # Besides waiting for you, ^user
-          Complexity of rule ~questions_what.62.0- ?: 1
+        rule: 448  ~questions_what.62.0 u: 
+          line: 451 0  # During my time parlour music w
+          line: 452 93  # ^addtopic ( ~singing ) 
+          Complexity of rule ~questions_what.62.0- u: 1
         rule: 453  ~questions_what.62.1 a: 
-          line: 453 0  # And I'm glad you're here too! 
+          line: 453 0  # ^reuse ( ~singing.WHAT_IS_PARL
           Complexity of rule ~questions_what.62.1- a: 1
         rule: 456  ~questions_what.63.0 ?: 
-          line: 463 0  # Are you asking what a specific
-          line: 464 95  # exact words for some reason. I
+          line: 460 0  # Besides waiting for you, ^user
           Complexity of rule ~questions_what.63.0- ?: 1
-        rule: 467  ~questions_what.64.0 ?: 
-          line: 470 0  # ^keep ( ) 
-          line: 471 10  # [ Am I to remember the exact w
-          line: 472 61  # [ How could I remember now wha
+        rule: 461  ~questions_what.63.1 a: 
+          line: 461 0  # And I'm glad you're here too! 
+          Complexity of rule ~questions_what.63.1- a: 1
+        rule: 464  ~questions_what.64.0 ?: 
+          line: 471 0  # Are you asking what a specific
+          line: 472 95  # exact words for some reason. I
           Complexity of rule ~questions_what.64.0- ?: 1
         rule: 475  ~questions_what.65.0 ?: 
-          line: 482 0  # Maybe...that I only did what o
-          line: 483 102  # the end of living at all. 
-          line: 484 128  # $$a_code = 14 
+          line: 478 0  # ^keep ( ) 
+          line: 479 10  # [ Am I to remember the exact w
+          line: 480 61  # [ How could I remember now wha
           Complexity of rule ~questions_what.65.0- ?: 1
-        rule: 487  ~questions_what.66.0 ?: 
-          line: 490 0  # Besides communicating with me?
+        rule: 483  ~questions_what.66.0 ?: 
+          line: 490 0  # Maybe...that I only did what o
+          line: 491 102  # the end of living at all. 
+          line: 492 128  # $$a_code = 14 
           Complexity of rule ~questions_what.66.0- ?: 1
-        rule: 493  ~questions_what.67.0 ?: 
-          line: 494 0  # You see what I Manifest to you
+        rule: 495  ~questions_what.67.0 ?: 
+          line: 498 0  # Besides communicating with me?
           Complexity of rule ~questions_what.67.0- ?: 1
-        rule: 497  ~questions_what.68.0 ?: 
-          line: 502 0  # You were human last time I che
+        rule: 501  ~questions_what.68.0 ?: 
+          line: 502 0  # You see what I Manifest to you
           Complexity of rule ~questions_what.68.0- ?: 1
         rule: 505  ~questions_what.69.0 ?: 
-          line: 506 0  # What to ask me is up to you. I
+          line: 510 0  # You were human last time I che
           Complexity of rule ~questions_what.69.0- ?: 1
-        rule: 509  ~questions_what.70.0 u: 
-          line: 510 0  # I have not been able to Transc
-          line: 511 92  # $transcend_k = 1 
-          Complexity of rule ~questions_what.70.0- u: 1
-        rule: 514  ~questions_what.71.0 ?: 
-          line: 514 0  # Besides listening to my story 
-          line: 515 83  # that's all I really want, ^use
-          Complexity of rule ~questions_what.71.0- ?: 1
-        rule: 518  ~questions_what.72.0 u: 
-          line: 522 0  # Anything you like, ^user ( ) .
-          Complexity of rule ~questions_what.72.0- u: 1
-        rule: 525  ~questions_what.73.0 u: 
-          line: 532 0  # All I know is that pericarditi
-          line: 533 88  # and that Mel has had this prob
+        rule: 513  ~questions_what.70.0 ?: 
+          line: 514 0  # What to ask me is up to you. I
+          Complexity of rule ~questions_what.70.0- ?: 1
+        rule: 517  ~questions_what.71.0 u: 
+          line: 518 0  # I have not been able to Transc
+          line: 519 92  # $transcend_k = 1 
+          Complexity of rule ~questions_what.71.0- u: 1
+        rule: 522  ~questions_what.72.0 ?: 
+          line: 522 0  # Besides listening to my story 
+          line: 523 83  # that's all I really want, ^use
+          Complexity of rule ~questions_what.72.0- ?: 1
+        rule: 526  ~questions_what.73.0 u: 
+          line: 530 0  # Anything you like, ^user ( ) .
           Complexity of rule ~questions_what.73.0- u: 1
-        rule: 536  ~questions_what.74.0 u: 
-          line: 543 0  # Lupus is an auto-immune diseas
-          line: 544 102  # Mel has lived with it for as l
+        rule: 533  ~questions_what.74.0 u: 
+          line: 540 0  # All I know is that pericarditi
+          line: 541 88  # and that Mel has had this prob
           Complexity of rule ~questions_what.74.0- u: 1
-        rule: 547  ~questions_what.75.0 u: 
-          line: 553 0  # ^refine ( ) 
+        rule: 544  ~questions_what.75.0 u: 
+          line: 551 0  # Lupus is an auto-immune diseas
+          line: 552 102  # Mel has lived with it for as l
           Complexity of rule ~questions_what.75.0- u: 1
-        rule: 554  ~questions_what.75.1 a: 
-          line: 554 0  # The lupus she has had all her 
-          line: 555 73  # But none of us here are expert
-          Complexity of rule ~questions_what.75.1- a: 1
-        rule: 556  ~questions_what.75.2 a: 
-          line: 556 0  # W-why do you ask about that? M
-          Complexity of rule ~questions_what.75.2- a: 1
-        rule: 559  ~questions_what.76.0 ?: 
-          line: 563 0  # Does it even matter now? My pa
-          line: 564 58  # $$a_code = 14 
-          Complexity of rule ~questions_what.76.0- ?: 1
-        rule: 567  ~questions_what.77.0 u: 
-          line: 571 0  # Oh, ^user ( ) , Mel hasn't got
-          line: 572 110  # $$a_code = 60 
-          Complexity of rule ~questions_what.77.0- u: 1
-        rule: 576  ~questions_what.78.0 u: 
-          line: 580 0  # I have the Gift. That is, I am
-          line: 581 111  # whichever of those two categor
-          line: 582 154  # ^addtopic ( ~medium ) 
+        rule: 555  ~questions_what.76.0 u: 
+          line: 561 0  # ^refine ( ) 
+          Complexity of rule ~questions_what.76.0- u: 1
+        rule: 562  ~questions_what.76.1 a: 
+          line: 562 0  # The lupus she has had all her 
+          line: 563 73  # But none of us here are expert
+          Complexity of rule ~questions_what.76.1- a: 1
+        rule: 564  ~questions_what.76.2 a: 
+          line: 564 0  # W-why do you ask about that? M
+          Complexity of rule ~questions_what.76.2- a: 1
+        rule: 567  ~questions_what.77.0 ?: 
+          line: 571 0  # Does it even matter now? My pa
+          line: 572 58  # $$a_code = 14 
+          Complexity of rule ~questions_what.77.0- ?: 1
+        rule: 575  ~questions_what.78.0 u: 
+          line: 579 0  # Oh, ^user ( ) , Mel hasn't got
+          line: 580 110  # $$a_code = 60 
           Complexity of rule ~questions_what.78.0- u: 1
-        rule: 585  ~questions_what.79.0 ?: 
-          line: 591 0  # One thing is certain. I don't 
-          Complexity of rule ~questions_what.79.0- ?: 1
+        rule: 584  ~questions_what.79.0 u: 
+          line: 588 0  # I have the Gift. That is, I am
+          line: 589 111  # whichever of those two categor
+          line: 590 154  # ^addtopic ( ~medium ) 
+          Complexity of rule ~questions_what.79.0- u: 1
+        rule: 593  ~questions_what.80.0 ?: 
+          line: 599 0  # One thing is certain. I don't 
+          Complexity of rule ~questions_what.80.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_when.top
     topic: 3  ~questions_when
         rule: 7  ~questions_when.0.0 ?: 
@@ -33683,21 +33708,22 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
         rule: 164  ~questions_where.16.0 u: 
           line: 171 0  # $cooldown = 0 
           line: 172 14  # [ If you like, you can decide 
-          line: 173 114  # [ Let me think. Hmm, for now y
+          line: 173 143  # [ Let me think. Hmm, for now y
+          line: 174 273  # [ Well, if you would like to s
           Complexity of rule ~questions_where.16.0- u: 1
-        rule: 176  ~questions_where.17.0 ?: 
-          line: 176 0  # Of the places I'm showing you,
-          line: 177 62  # Others not so much. Some may b
+        rule: 177  ~questions_where.17.0 ?: 
+          line: 177 0  # Of the places I'm showing you,
+          line: 178 62  # Others not so much. Some may b
           Complexity of rule ~questions_where.17.0- ?: 1
-        rule: 180  ~questions_where.18.0 ?: 
-          line: 181 0  # $ghost_k = 1 
-          line: 182 13  # ^refine ( ) 
+        rule: 181  ~questions_where.18.0 ?: 
+          line: 182 0  # $ghost_k = 1 
+          line: 183 13  # ^refine ( ) 
           Complexity of rule ~questions_where.18.0- ?: 1
-        rule: 183  ~questions_where.18.1 a: 
+        rule: 184  ~questions_where.18.1 a: 
           Complexity of rule ~questions_where.18.1- a: 1
-        rule: 184  ~questions_where.18.2 a: 
-          line: 184 0  # Wherever it was that I was mur
-          line: 185 81  # That is one of the factors mak
+        rule: 185  ~questions_where.18.2 a: 
+          line: 185 0  # Wherever it was that I was mur
+          line: 186 81  # That is one of the factors mak
           Complexity of rule ~questions_where.18.2- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_who.top
     topic: 3  ~questions_who
@@ -34021,1140 +34047,1140 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_rare.top
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_locations.top
     macro: 2  ^letsgo
           Complexity of ^letsgo: 1
-    macro: 24  ^notgo
-          line: 25 0  # [ No problem. We can go when y
-          line: 26 45  # [ Sure. We can go another time
-          line: 27 101  # [ Oh, then we don't have to go
-          line: 28 179  # [ I'll Manifest it to you anot
-          line: 29 226  # [ All right then. We don't hav
+    macro: 25  ^notgo
+          line: 26 0  # [ No problem. We can go when y
+          line: 27 45  # [ Sure. We can go another time
+          line: 28 101  # [ Oh, then we don't have to go
+          line: 29 179  # [ I'll Manifest it to you anot
+          line: 30 226  # [ All right then. We don't hav
           Complexity of ^notgo: 1
-    macro: 32  ^dogo
-          line: 33 0  # [ Great. Let's go. ] 
-          line: 34 21  # [ Hunky-dory. I'm going there 
-          line: 35 58  # [ Let's go! I'll Manifest it t
-          line: 36 97  # [ I'll Manifest it to you as s
-          line: 37 149  # [ Just let me Astravel there. 
-          line: 38 181  # [ Okay! Here we go. ] 
-          line: 39 203  # [ Great, I'm on my way. ] 
-          line: 40 229  # [ I'm going now. Give me a mom
-          line: 41 266  # [ Good, just give me a minute 
-          line: 42 312  # [ I'll Astravel to the place n
-          line: 43 348  # [ Okay, let me see how to get 
-          line: 44 390  # [ All right then, I'm going. ]
+    macro: 33  ^dogo
+          line: 34 0  # [ Great. Let's go. ] 
+          line: 35 21  # [ Hunky-dory. I'm going there 
+          line: 36 58  # [ Let's go! I'll Manifest it t
+          line: 37 97  # [ I'll Manifest it to you as s
+          line: 38 149  # [ Just let me Astravel there. 
+          line: 39 181  # [ Okay! Here we go. ] 
+          line: 40 203  # [ Great, I'm on my way. ] 
+          line: 41 229  # [ I'm going now. Give me a mom
+          line: 42 266  # [ Good, just give me a minute 
+          line: 43 312  # [ I'll Astravel to the place n
+          line: 44 348  # [ Okay, let me see how to get 
+          line: 45 390  # [ All right then, I'm going. ]
           Complexity of ^dogo: 1
-    macro: 46  ^neither
-          line: 47 0  # [ We don't have to go to eithe
-          line: 48 72  # [ We can visit these locations
+    macro: 47  ^neither
+          line: 48 0  # [ We don't have to go to eithe
+          line: 49 72  # [ We can visit these locations
           Complexity of ^neither: 1
-    macro: 50  ^explainplace
-          line: 51 0  # [ It would be easiest if I sim
-          line: 52 89  # [ I think you should see it fo
-          line: 53 163  # [ Why don't I simply show you?
+    macro: 51  ^explainplace
+          line: 52 0  # [ It would be easiest if I sim
+          line: 53 89  # [ I think you should see it fo
+          line: 54 163  # [ Why don't I simply show you?
           Complexity of ^explainplace: 1
-    topic: 58  ~gambits_locations
-        rule: 62  ~gambits_locations.0.0 t: 
-          line: 62 0  # ^keep ( ) ^fail ( TOPIC ) 
-          Complexity of rule ~gambits_locations.0.0- t: 1
-        rule: 63  ~gambits_locations.1.0 t: 
+    topic: 59  ~gambits_locations
+        rule: 63  ~gambits_locations.0.0 t: 
           line: 63 0  # ^keep ( ) ^fail ( TOPIC ) 
-          Complexity of rule ~gambits_locations.1.0- t: 1
-        rule: 64  ~gambits_locations.2.0 t: 
+          Complexity of rule ~gambits_locations.0.0- t: 1
+        rule: 64  ~gambits_locations.1.0 t: 
           line: 64 0  # ^keep ( ) ^fail ( TOPIC ) 
+          Complexity of rule ~gambits_locations.1.0- t: 1
+        rule: 65  ~gambits_locations.2.0 t: 
+          line: 65 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.2.0- t: 1
-        rule: 70  ~gambits_locations.3.0 t: 
-          line: 71 0  # There is something I would lik
-          line: 72 98  # ^createfact ( 01 known 1 ) 
-          line: 73 125  # $$new_loc = 01 
-          line: 74 140  # $there_pronoun = Sierra_Meadow
-          line: 75 171  # $it_pronoun = Sierra_Meadow 
-          line: 76 199  # $cooldown = 6 
-          line: 77 213  # $$a_code = 9 
+        rule: 71  ~gambits_locations.3.0 t: 
+          line: 72 0  # There is something I would lik
+          line: 73 98  # ^createfact ( 01 known 1 ) 
+          line: 74 125  # $$new_loc = 01 
+          line: 75 140  # $there_pronoun = Sierra_Meadow
+          line: 76 171  # $it_pronoun = Sierra_Meadow 
+          line: 77 199  # $cooldown = 6 
+          line: 78 213  # $$a_code = 9 
           Complexity of rule ~gambits_locations.3.0- t: 1
-        rule: 78  ~gambits_locations.3.1 a: 
-          line: 78 0  # Please, humor me this one time
+        rule: 79  ~gambits_locations.3.1 a: 
+          line: 79 0  # Please, humor me this one time
           Complexity of rule ~gambits_locations.3.1- a: 1
-        rule: 79  ~gambits_locations.3.2 a: 
-          line: 79 0  # Good. Please come. ^reuse ( FI
+        rule: 80  ~gambits_locations.3.2 a: 
+          line: 80 0  # Good. Please come. ^reuse ( FI
           Complexity of rule ~gambits_locations.3.2- a: 1
-        rule: 80  ~gambits_locations.3.3 a: 
-          line: 80 0  # I'll let you see it for yourse
+        rule: 81  ~gambits_locations.3.3 a: 
+          line: 81 0  # I'll let you see it for yourse
           Complexity of rule ~gambits_locations.3.3- a: 1
-        rule: 81  ~gambits_locations.3.4-FIRST_ASTRAVEL a: 
-          line: 81 0  # By that I mean, allow me to Ma
-          line: 82 94  # $await_loc = 01 
-          line: 83 110  # ^addtopic ( ~await_location ) 
+        rule: 82  ~gambits_locations.3.4-FIRST_ASTRAVEL a: 
+          line: 82 0  # By that I mean, allow me to Ma
+          line: 83 94  # $await_loc = 01 
+          line: 84 110  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.3.4-FIRST_ASTRAVEL a: 1
-        rule: 87  ~gambits_locations.4.0 t: 
-          line: 87 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 88  ~gambits_locations.4.0 t: 
+          line: 88 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.4.0- t: 1
-        rule: 90  ~gambits_locations.5.0-PROPOSE_EGYPT t: 
-          line: 91 0  # Would you like to see the Grea
-          line: 92 61  # I don't know whether you have 
-          line: 93 171  # Shall I go? 
-          line: 94 183  # ^createfact ( 21 known 1 ) 
-          line: 95 210  # $$new_loc = 21 
-          line: 96 225  # $there_pronoun = Great_Pyramid
-          line: 97 256  # $it_pronoun = Great_Pyramid 
-          line: 98 284  # $cooldown = 6 
-          line: 99 298  # $$a_code = 9 
+        rule: 91  ~gambits_locations.5.0-PROPOSE_EGYPT t: 
+          line: 92 0  # Would you like to see the Grea
+          line: 93 61  # I don't know whether you have 
+          line: 94 171  # Shall I go? 
+          line: 95 183  # ^createfact ( 21 known 1 ) 
+          line: 96 210  # $$new_loc = 21 
+          line: 97 225  # $there_pronoun = Great_Pyramid
+          line: 98 256  # $it_pronoun = Great_Pyramid 
+          line: 99 284  # $cooldown = 6 
+          line: 100 298  # $$a_code = 9 
           Complexity of rule ~gambits_locations.5.0-PROPOSE_EGYPT t: 1
-        rule: 100  ~gambits_locations.5.1 a: 
-          line: 100 0  # Come on! I'll walk like an Egy
-          line: 101 54  # I'm going to Astravel now. And
-          line: 102 133  # $await_loc = 21 
+        rule: 101  ~gambits_locations.5.1 a: 
+          line: 101 0  # Come on! I'll walk like an Egy
+          line: 102 54  # I'm going to Astravel now. And
+          line: 103 133  # $await_loc = 21 
           Complexity of rule ~gambits_locations.5.1- a: 1
-        rule: 103  ~gambits_locations.5.2 a: 
-          line: 103 0  # Right! Let's go see the Giza P
-          line: 104 84  # $await_loc = 21 
+        rule: 104  ~gambits_locations.5.2 a: 
+          line: 104 0  # Right! Let's go see the Giza P
+          line: 105 84  # $await_loc = 21 
           Complexity of rule ~gambits_locations.5.2- a: 1
-        rule: 105  ~gambits_locations.5.3 a: 
-          line: 105 0  # Anyway, if you don't mind let 
-          line: 106 50  # $await_loc = 21 
+        rule: 106  ~gambits_locations.5.3 a: 
+          line: 106 0  # Anyway, if you don't mind let 
+          line: 107 50  # $await_loc = 21 
           Complexity of rule ~gambits_locations.5.3- a: 1
-        rule: 110  ~gambits_locations.6.0 t: 
-          line: 110 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 111  ~gambits_locations.6.0 t: 
+          line: 111 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.6.0- t: 1
-        rule: 115  ~gambits_locations.7.0 t: 
-          line: 116 0  # ^usercap ( ) , I didn't know h
-          line: 117 74  # But let me show you the home w
-          line: 118 123  # Going back may help me remembe
-          line: 119 178  # ^createfact ( 02 known 1 ) 
-          line: 120 205  # $$new_loc = 02 
-          line: 121 220  # $there_pronoun = Steadwell_Man
-          line: 122 253  # $it_pronoun = Steadwell_Manse 
-          line: 123 283  # $cooldown = 6 
-          line: 124 297  # $$a_code = 14 
+        rule: 116  ~gambits_locations.7.0 t: 
+          line: 117 0  # ^usercap ( ) , I didn't know h
+          line: 118 74  # But let me show you the home w
+          line: 119 123  # Going back may help me remembe
+          line: 120 178  # ^createfact ( 02 known 1 ) 
+          line: 121 205  # $$new_loc = 02 
+          line: 122 220  # $there_pronoun = Steadwell_Man
+          line: 123 253  # $it_pronoun = Steadwell_Manse 
+          line: 124 283  # $cooldown = 6 
+          line: 125 297  # $$a_code = 14 
           Complexity of rule ~gambits_locations.7.0- t: 1
-        rule: 125  ~gambits_locations.7.1 a: 
-          line: 125 0  # Please come with me this time.
-          line: 126 78  # $await_loc = 02 
+        rule: 126  ~gambits_locations.7.1 a: 
+          line: 126 0  # Please come with me this time.
+          line: 127 78  # $await_loc = 02 
           Complexity of rule ~gambits_locations.7.1- a: 1
-        rule: 127  ~gambits_locations.7.2 a: 
-          line: 127 0  # ^dogo ( ) 
-          line: 128 10  # $await_loc = 02 
-          line: 129 26  # ^addtopic ( ~await_location ) 
+        rule: 128  ~gambits_locations.7.2 a: 
+          line: 128 0  # ^dogo ( ) 
+          line: 129 10  # $await_loc = 02 
+          line: 130 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.7.2- a: 1
-        rule: 130  ~gambits_locations.7.3 a: 
-          line: 130 0  # ^usercap ( ) , I'm going to go
-          line: 131 45  # $await_loc = 02 
-          line: 132 61  # ^addtopic ( ~await_location ) 
+        rule: 131  ~gambits_locations.7.3 a: 
+          line: 131 0  # ^usercap ( ) , I'm going to go
+          line: 132 45  # $await_loc = 02 
+          line: 133 61  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.7.3- a: 1
-        rule: 137  ~gambits_locations.8.0 t: 
-          line: 137 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 138  ~gambits_locations.8.0 t: 
+          line: 138 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.8.0- t: 1
-        rule: 142  ~gambits_locations.9.0 t: 
-          line: 143 0  # There is somewhere...somewhere
-          line: 144 89  # ^createfact ( 17 known 1 ) 
-          line: 145 116  # $$new_loc = 17 
-          line: 146 131  # $there_pronoun = Matley_Bog 
-          line: 147 159  # $it_pronoun = Matley_Bog 
-          line: 148 184  # $cooldown = 6 
-          line: 149 198  # $$a_code = 9 
+        rule: 143  ~gambits_locations.9.0 t: 
+          line: 144 0  # There is somewhere...somewhere
+          line: 145 89  # ^createfact ( 17 known 1 ) 
+          line: 146 116  # $$new_loc = 17 
+          line: 147 131  # $there_pronoun = Matley_Bog 
+          line: 148 159  # $it_pronoun = Matley_Bog 
+          line: 149 184  # $cooldown = 6 
+          line: 150 198  # $$a_code = 9 
           Complexity of rule ~gambits_locations.9.0- t: 1
-        rule: 150  ~gambits_locations.9.1 a: 
-          line: 150 0  # ^notgo ( ) 
+        rule: 151  ~gambits_locations.9.1 a: 
+          line: 151 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.9.1- a: 1
-        rule: 151  ~gambits_locations.9.2 a: 
-          line: 151 0  # ^dogo ( ) 
-          line: 152 10  # $await_loc = 17 
-          line: 153 26  # ^addtopic ( ~await_location ) 
+        rule: 152  ~gambits_locations.9.2 a: 
+          line: 152 0  # ^dogo ( ) 
+          line: 153 10  # $await_loc = 17 
+          line: 154 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.9.2- a: 1
-        rule: 154  ~gambits_locations.9.3 a: 
-          line: 154 0  # ^explainplace ( ) 
+        rule: 155  ~gambits_locations.9.3 a: 
+          line: 155 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.9.3- a: 1
-        rule: 155  ~gambits_locations.9.4 a: 
-          line: 155 0  # Is that a yes or a no? 
+        rule: 156  ~gambits_locations.9.4 a: 
+          line: 156 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.9.4- a: 1
-        rule: 156  ~gambits_locations.9.5 b: 
-          line: 156 0  # ^dogo ( ) $await_loc = 17 
+        rule: 157  ~gambits_locations.9.5 b: 
+          line: 157 0  # ^dogo ( ) $await_loc = 17 
           Complexity of rule ~gambits_locations.9.5- b: 1
-        rule: 157  ~gambits_locations.9.6 b: 
-          line: 157 0  # ^notgo ( ) 
+        rule: 158  ~gambits_locations.9.6 b: 
+          line: 158 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.9.6- b: 1
-        rule: 162  ~gambits_locations.10.0 t: 
-          line: 163 0  # I need to get away. 
-          line: 164 20  # Let's go on an expedition to a
-          line: 165 137  # ^createfact ( 19 known 1 ) 
-          line: 166 164  # $$new_loc = 19 
-          line: 167 179  # $there_pronoun = Noisy_Falls 
-          line: 168 208  # $it_pronoun = Noisy_Falls 
-          line: 169 234  # $cooldown = 6 
-          line: 170 248  # $$a_code = 9 
+        rule: 163  ~gambits_locations.10.0 t: 
+          line: 164 0  # I need to get away. 
+          line: 165 20  # Let's go on an expedition to a
+          line: 166 137  # ^createfact ( 19 known 1 ) 
+          line: 167 164  # $$new_loc = 19 
+          line: 168 179  # $there_pronoun = Noisy_Falls 
+          line: 169 208  # $it_pronoun = Noisy_Falls 
+          line: 170 234  # $cooldown = 6 
+          line: 171 248  # $$a_code = 9 
           Complexity of rule ~gambits_locations.10.0- t: 1
-        rule: 171  ~gambits_locations.10.1 a: 
-          line: 171 0  # ^notgo ( ) 
+        rule: 172  ~gambits_locations.10.1 a: 
+          line: 172 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.10.1- a: 1
-        rule: 172  ~gambits_locations.10.2 a: 
-          line: 172 0  # ^dogo ( ) 
-          line: 173 10  # $await_loc = 19 
-          line: 174 26  # ^addtopic ( ~await_location ) 
+        rule: 173  ~gambits_locations.10.2 a: 
+          line: 173 0  # ^dogo ( ) 
+          line: 174 10  # $await_loc = 19 
+          line: 175 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.10.2- a: 1
-        rule: 175  ~gambits_locations.10.3 a: 
-          line: 175 0  # ^explainplace ( ) 
+        rule: 176  ~gambits_locations.10.3 a: 
+          line: 176 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.10.3- a: 1
-        rule: 176  ~gambits_locations.10.4 a: 
-          line: 176 0  # Is that a yes or a no? 
+        rule: 177  ~gambits_locations.10.4 a: 
+          line: 177 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.10.4- a: 1
-        rule: 177  ~gambits_locations.10.5 b: 
-          line: 177 0  # ^dogo ( ) $await_loc = 19 
+        rule: 178  ~gambits_locations.10.5 b: 
+          line: 178 0  # ^dogo ( ) $await_loc = 19 
           Complexity of rule ~gambits_locations.10.5- b: 1
-        rule: 178  ~gambits_locations.10.6 b: 
-          line: 178 0  # ^notgo ( ) 
+        rule: 179  ~gambits_locations.10.6 b: 
+          line: 179 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.10.6- b: 1
-        rule: 181  ~gambits_locations.11.0 t: 
-          line: 182 0  # Another place I wish to show y
-          line: 183 95  # ^createfact ( 03 known 1 ) 
-          line: 184 122  # $$new_loc = 03 
-          line: 185 137  # $there_pronoun = Rollindale_Ri
-          line: 186 171  # $it_pronoun = Rollindale_River
-          line: 187 202  # $cooldown = 6 
-          line: 188 216  # $$a_code = 9 
+        rule: 182  ~gambits_locations.11.0 t: 
+          line: 183 0  # Another place I wish to show y
+          line: 184 95  # ^createfact ( 03 known 1 ) 
+          line: 185 122  # $$new_loc = 03 
+          line: 186 137  # $there_pronoun = Rollindale_Ri
+          line: 187 171  # $it_pronoun = Rollindale_River
+          line: 188 202  # $cooldown = 6 
+          line: 189 216  # $$a_code = 9 
           Complexity of rule ~gambits_locations.11.0- t: 1
-        rule: 189  ~gambits_locations.11.1 a: 
-          line: 189 0  # ^notgo ( ) 
+        rule: 190  ~gambits_locations.11.1 a: 
+          line: 190 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.11.1- a: 1
-        rule: 190  ~gambits_locations.11.2 a: 
-          line: 190 0  # ^dogo ( ) 
-          line: 191 10  # $await_loc = 03 
-          line: 192 26  # ^addtopic ( ~await_location ) 
+        rule: 191  ~gambits_locations.11.2 a: 
+          line: 191 0  # ^dogo ( ) 
+          line: 192 10  # $await_loc = 03 
+          line: 193 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.11.2- a: 1
-        rule: 193  ~gambits_locations.11.3 a: 
-          line: 193 0  # ^explainplace ( ) 
+        rule: 194  ~gambits_locations.11.3 a: 
+          line: 194 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.11.3- a: 1
-        rule: 194  ~gambits_locations.11.4 a: 
-          line: 194 0  # Is that a yes or a no? 
+        rule: 195  ~gambits_locations.11.4 a: 
+          line: 195 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.11.4- a: 1
-        rule: 195  ~gambits_locations.11.5 b: 
-          line: 195 0  # ^dogo ( ) $await_loc = 03 
+        rule: 196  ~gambits_locations.11.5 b: 
+          line: 196 0  # ^dogo ( ) $await_loc = 03 
           Complexity of rule ~gambits_locations.11.5- b: 1
-        rule: 196  ~gambits_locations.11.6 b: 
-          line: 196 0  # ^notgo ( ) 
+        rule: 197  ~gambits_locations.11.6 b: 
+          line: 197 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.11.6- b: 1
-        rule: 199  ~gambits_locations.12.0-23_OR_16 t: 
-          line: 200 0  # Here's a choice for you. Would
-          line: 201 99  # Of course we can visit later w
-          line: 202 156  # ^createfact ( 23 known 1 ) 
-          line: 203 183  # ^createfact ( 16 known 1 ) 
-          line: 204 210  # $$new_loc = 2316 
-          line: 205 227  # $cooldown = 12 
-          line: 206 242  # $$a_code = 9 
+        rule: 200  ~gambits_locations.12.0-23_OR_16 t: 
+          line: 201 0  # Here's a choice for you. Would
+          line: 202 99  # Of course we can visit later w
+          line: 203 156  # ^createfact ( 23 known 1 ) 
+          line: 204 183  # ^createfact ( 16 known 1 ) 
+          line: 205 210  # $$new_loc = 2316 
+          line: 206 227  # $cooldown = 12 
+          line: 207 242  # $$a_code = 9 
           Complexity of rule ~gambits_locations.12.0-23_OR_16 t: 1
-        rule: 207  ~gambits_locations.12.1 a: 
-          line: 207 0  # ^neither ( ) 
+        rule: 208  ~gambits_locations.12.1 a: 
+          line: 208 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.12.1- a: 1
-        rule: 208  ~gambits_locations.12.2 a: 
-          line: 208 0  # ^dogo ( ) 
-          line: 209 10  # $await_loc = 23 
-          line: 210 26  # ^addtopic ( ~await_location ) 
+        rule: 209  ~gambits_locations.12.2 a: 
+          line: 209 0  # ^dogo ( ) 
+          line: 210 10  # $await_loc = 23 
+          line: 211 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.12.2- a: 1
-        rule: 211  ~gambits_locations.12.3 a: 
-          line: 211 0  # ^dogo ( ) 
-          line: 212 10  # $await_loc = 16 
-          line: 213 26  # ^addtopic ( ~await_location ) 
+        rule: 212  ~gambits_locations.12.3 a: 
+          line: 212 0  # ^dogo ( ) 
+          line: 213 10  # $await_loc = 16 
+          line: 214 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.12.3- a: 1
-        rule: 214  ~gambits_locations.12.4 a: 
-          line: 214 0  # One is in Kentucky. One is in 
-          line: 215 88  # ^setrejoinder ( 23_OR_16 ) 
+        rule: 215  ~gambits_locations.12.4 a: 
+          line: 215 0  # One is in Kentucky. One is in 
+          line: 216 88  # ^setrejoinder ( 23_OR_16 ) 
           Complexity of rule ~gambits_locations.12.4- a: 1
-        rule: 219  ~gambits_locations.13.0 t: 
-          line: 220 0  # ^usercap ( ) . I know a certai
-          line: 221 98  # Will you see it with me? 
-          line: 222 123  # ^createfact ( 09 known 1 ) 
-          line: 223 150  # $$new_loc = 09 
-          line: 224 165  # $there_pronoun = Heritage_Cent
-          line: 225 198  # $it_pronoun = Heritage_Centre 
-          line: 226 228  # $cooldown = 6 
-          line: 227 242  # $$a_code = 9 
+        rule: 220  ~gambits_locations.13.0 t: 
+          line: 221 0  # ^usercap ( ) . I know a certai
+          line: 222 98  # Will you see it with me? 
+          line: 223 123  # ^createfact ( 09 known 1 ) 
+          line: 224 150  # $$new_loc = 09 
+          line: 225 165  # $there_pronoun = Heritage_Cent
+          line: 226 198  # $it_pronoun = Heritage_Centre 
+          line: 227 228  # $cooldown = 6 
+          line: 228 242  # $$a_code = 9 
           Complexity of rule ~gambits_locations.13.0- t: 1
-        rule: 228  ~gambits_locations.13.1 a: 
-          line: 228 0  # ^notgo ( ) 
+        rule: 229  ~gambits_locations.13.1 a: 
+          line: 229 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.13.1- a: 1
-        rule: 229  ~gambits_locations.13.2 a: 
-          line: 229 0  # ^dogo ( ) 
-          line: 230 10  # $await_loc = 09 
-          line: 231 26  # ^addtopic ( ~await_location ) 
+        rule: 230  ~gambits_locations.13.2 a: 
+          line: 230 0  # ^dogo ( ) 
+          line: 231 10  # $await_loc = 09 
+          line: 232 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.13.2- a: 1
-        rule: 232  ~gambits_locations.13.3 a: 
-          line: 232 0  # ^explainplace ( ) 
+        rule: 233  ~gambits_locations.13.3 a: 
+          line: 233 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.13.3- a: 1
-        rule: 233  ~gambits_locations.13.4 a: 
-          line: 233 0  # Is that a yes or a no? 
+        rule: 234  ~gambits_locations.13.4 a: 
+          line: 234 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.13.4- a: 1
-        rule: 234  ~gambits_locations.13.5 b: 
-          line: 234 0  # ^dogo ( ) $await_loc = 09 
+        rule: 235  ~gambits_locations.13.5 b: 
+          line: 235 0  # ^dogo ( ) $await_loc = 09 
           Complexity of rule ~gambits_locations.13.5- b: 1
-        rule: 235  ~gambits_locations.13.6 b: 
-          line: 235 0  # ^notgo ( ) 
+        rule: 236  ~gambits_locations.13.6 b: 
+          line: 236 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.13.6- b: 1
-        rule: 273  ~gambits_locations.14.0-38_OR_05 t: 
-          line: 274 0  # Hmm, where shall we go next? T
-          line: 275 85  # There is a certain tree that h
-          line: 276 135  # If that sounds too pedestrian,
-          line: 277 228  # ^createfact ( 38 known 1 ) 
-          line: 278 255  # ^createfact ( 05 known 1 ) 
-          line: 279 282  # $$new_loc = 3805 
-          line: 280 299  # $cooldown = 12 
-          line: 281 314  # $$a_code = 9 
+        rule: 274  ~gambits_locations.14.0-38_OR_05 t: 
+          line: 275 0  # Hmm, where shall we go next? T
+          line: 276 85  # There is a certain tree that h
+          line: 277 135  # If that sounds too pedestrian,
+          line: 278 228  # ^createfact ( 38 known 1 ) 
+          line: 279 255  # ^createfact ( 05 known 1 ) 
+          line: 280 282  # $$new_loc = 3805 
+          line: 281 299  # $cooldown = 12 
+          line: 282 314  # $$a_code = 9 
           Complexity of rule ~gambits_locations.14.0-38_OR_05 t: 1
-        rule: 282  ~gambits_locations.14.1 a: 
-          line: 282 0  # ^neither ( ) 
+        rule: 283  ~gambits_locations.14.1 a: 
+          line: 283 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.14.1- a: 1
-        rule: 283  ~gambits_locations.14.2 a: 
-          line: 283 0  # ^dogo ( ) 
-          line: 284 10  # $await_loc = 38 
-          line: 285 26  # ^addtopic ( ~await_location ) 
+        rule: 284  ~gambits_locations.14.2 a: 
+          line: 284 0  # ^dogo ( ) 
+          line: 285 10  # $await_loc = 38 
+          line: 286 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.14.2- a: 1
-        rule: 286  ~gambits_locations.14.3 a: 
-          line: 286 0  # ^dogo ( ) 
-          line: 287 10  # $await_loc = 05 
-          line: 288 26  # ^addtopic ( ~await_location ) 
+        rule: 287  ~gambits_locations.14.3 a: 
+          line: 287 0  # ^dogo ( ) 
+          line: 288 10  # $await_loc = 05 
+          line: 289 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.14.3- a: 1
-        rule: 289  ~gambits_locations.14.4 a: 
-          line: 289 0  # The tree or my father's workpl
-          line: 290 75  # ^setrejoinder ( 38_OR_05 ) 
+        rule: 290  ~gambits_locations.14.4 a: 
+          line: 290 0  # The tree or my father's workpl
+          line: 291 75  # ^setrejoinder ( 38_OR_05 ) 
           Complexity of rule ~gambits_locations.14.4- a: 1
-        rule: 294  ~gambits_locations.15.0 t: 
-          line: 295 0  # There is a place in Wales that
-          line: 296 93  # ^createfact ( 36 known 1 ) 
-          line: 297 120  # $$new_loc = 36 
-          line: 298 135  # $there_pronoun = Private_Garde
-          line: 299 167  # $it_pronoun = Private_Garden 
-          line: 300 196  # $cooldown = 6 
-          line: 301 210  # $$a_code = 9 
+        rule: 295  ~gambits_locations.15.0 t: 
+          line: 296 0  # There is a place in Wales that
+          line: 297 93  # ^createfact ( 36 known 1 ) 
+          line: 298 120  # $$new_loc = 36 
+          line: 299 135  # $there_pronoun = Private_Garde
+          line: 300 167  # $it_pronoun = Private_Garden 
+          line: 301 196  # $cooldown = 6 
+          line: 302 210  # $$a_code = 9 
           Complexity of rule ~gambits_locations.15.0- t: 1
-        rule: 302  ~gambits_locations.15.1 a: 
-          line: 302 0  # ^notgo ( ) 
+        rule: 303  ~gambits_locations.15.1 a: 
+          line: 303 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.15.1- a: 1
-        rule: 303  ~gambits_locations.15.2 a: 
-          line: 303 0  # ^dogo ( ) 
-          line: 304 10  # $await_loc = 36 
-          line: 305 26  # ^addtopic ( ~await_location ) 
+        rule: 304  ~gambits_locations.15.2 a: 
+          line: 304 0  # ^dogo ( ) 
+          line: 305 10  # $await_loc = 36 
+          line: 306 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.15.2- a: 1
-        rule: 306  ~gambits_locations.15.3 a: 
-          line: 306 0  # ^explainplace ( ) 
+        rule: 307  ~gambits_locations.15.3 a: 
+          line: 307 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.15.3- a: 1
-        rule: 307  ~gambits_locations.15.4 a: 
-          line: 307 0  # Is that a yes or a no? 
+        rule: 308  ~gambits_locations.15.4 a: 
+          line: 308 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.15.4- a: 1
-        rule: 308  ~gambits_locations.15.5 b: 
-          line: 308 0  # ^dogo ( ) $await_loc = 36 
+        rule: 309  ~gambits_locations.15.5 b: 
+          line: 309 0  # ^dogo ( ) $await_loc = 36 
           Complexity of rule ~gambits_locations.15.5- b: 1
-        rule: 309  ~gambits_locations.15.6 b: 
-          line: 309 0  # ^notgo ( ) 
+        rule: 310  ~gambits_locations.15.6 b: 
+          line: 310 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.15.6- b: 1
-        rule: 313  ~gambits_locations.16.0 t: 
-          line: 313 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 314  ~gambits_locations.16.0 t: 
+          line: 314 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.16.0- t: 1
-        rule: 318  ~gambits_locations.17.0 t: 
-          line: 319 0  # Hey, let's go someplace else. 
-          line: 320 81  # ^createfact ( 15 known 1 ) 
-          line: 321 108  # $$new_loc = 15 
-          line: 322 123  # $there_pronoun = Rocky_Mountai
-          line: 323 156  # $it_pronoun = Rocky_Mountains 
-          line: 324 186  # $cooldown = 6 
-          line: 325 200  # $$a_code = 9 
+        rule: 319  ~gambits_locations.17.0 t: 
+          line: 320 0  # Hey, let's go someplace else. 
+          line: 321 81  # ^createfact ( 15 known 1 ) 
+          line: 322 108  # $$new_loc = 15 
+          line: 323 123  # $there_pronoun = Rocky_Mountai
+          line: 324 156  # $it_pronoun = Rocky_Mountains 
+          line: 325 186  # $cooldown = 6 
+          line: 326 200  # $$a_code = 9 
           Complexity of rule ~gambits_locations.17.0- t: 1
-        rule: 326  ~gambits_locations.17.1 a: 
-          line: 326 0  # ^notgo ( ) 
+        rule: 327  ~gambits_locations.17.1 a: 
+          line: 327 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.17.1- a: 1
-        rule: 327  ~gambits_locations.17.2 a: 
-          line: 327 0  # ^dogo ( ) 
-          line: 328 10  # $await_loc = 15 
-          line: 329 26  # ^addtopic ( ~await_location ) 
+        rule: 328  ~gambits_locations.17.2 a: 
+          line: 328 0  # ^dogo ( ) 
+          line: 329 10  # $await_loc = 15 
+          line: 330 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.17.2- a: 1
-        rule: 330  ~gambits_locations.17.3 a: 
-          line: 330 0  # ^explainplace ( ) 
+        rule: 331  ~gambits_locations.17.3 a: 
+          line: 331 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.17.3- a: 1
-        rule: 331  ~gambits_locations.17.4 a: 
-          line: 331 0  # Is that a yes or a no? 
+        rule: 332  ~gambits_locations.17.4 a: 
+          line: 332 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.17.4- a: 1
-        rule: 332  ~gambits_locations.17.5 b: 
-          line: 332 0  # ^dogo ( ) $await_loc = 15 
+        rule: 333  ~gambits_locations.17.5 b: 
+          line: 333 0  # ^dogo ( ) $await_loc = 15 
           Complexity of rule ~gambits_locations.17.5- b: 1
-        rule: 333  ~gambits_locations.17.6 b: 
-          line: 333 0  # ^notgo ( ) 
+        rule: 334  ~gambits_locations.17.6 b: 
+          line: 334 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.17.6- b: 1
-        rule: 337  ~gambits_locations.18.0 t: 
-          line: 337 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 338  ~gambits_locations.18.0 t: 
+          line: 338 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.18.0- t: 1
-        rule: 342  ~gambits_locations.19.0 t: 
-          line: 343 0  # If you don't mind I am going t
-          line: 344 104  # ^createfact ( 10 known 1 ) 
-          line: 345 131  # $$new_loc = 10 
-          line: 346 146  # $there_pronoun = Willem_Bluff 
-          line: 347 176  # $it_pronoun = Willem_Bluff 
-          line: 348 203  # $cooldown = 6 
-          line: 349 217  # $$a_code = 9 
+        rule: 343  ~gambits_locations.19.0 t: 
+          line: 344 0  # If you don't mind I am going t
+          line: 345 104  # ^createfact ( 10 known 1 ) 
+          line: 346 131  # $$new_loc = 10 
+          line: 347 146  # $there_pronoun = Willem_Bluff 
+          line: 348 176  # $it_pronoun = Willem_Bluff 
+          line: 349 203  # $cooldown = 6 
+          line: 350 217  # $$a_code = 9 
           Complexity of rule ~gambits_locations.19.0- t: 1
-        rule: 350  ~gambits_locations.19.1 a: 
-          line: 350 0  # ^notgo ( ) 
+        rule: 351  ~gambits_locations.19.1 a: 
+          line: 351 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.19.1- a: 1
-        rule: 351  ~gambits_locations.19.2 a: 
-          line: 351 0  # ^dogo ( ) 
-          line: 352 10  # $await_loc = 10 
-          line: 353 26  # ^addtopic ( ~await_location ) 
+        rule: 352  ~gambits_locations.19.2 a: 
+          line: 352 0  # ^dogo ( ) 
+          line: 353 10  # $await_loc = 10 
+          line: 354 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.19.2- a: 1
-        rule: 354  ~gambits_locations.19.3 a: 
-          line: 354 0  # ^explainplace ( ) 
+        rule: 355  ~gambits_locations.19.3 a: 
+          line: 355 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.19.3- a: 1
-        rule: 355  ~gambits_locations.19.4 a: 
-          line: 355 0  # Is that a yes or a no? 
+        rule: 356  ~gambits_locations.19.4 a: 
+          line: 356 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.19.4- a: 1
-        rule: 356  ~gambits_locations.19.5 b: 
-          line: 356 0  # ^dogo ( ) $await_loc = 10 
+        rule: 357  ~gambits_locations.19.5 b: 
+          line: 357 0  # ^dogo ( ) $await_loc = 10 
           Complexity of rule ~gambits_locations.19.5- b: 1
-        rule: 357  ~gambits_locations.19.6 b: 
-          line: 357 0  # ^notgo ( ) 
+        rule: 358  ~gambits_locations.19.6 b: 
+          line: 358 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.19.6- b: 1
-        rule: 360  ~gambits_locations.20.0 t: 
-          line: 360 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 361  ~gambits_locations.20.0 t: 
+          line: 361 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.20.0- t: 1
-        rule: 364  ~gambits_locations.21.0 t: 
-          line: 365 0  # There is a lighthouse in Selse
-          line: 366 68  # ^createfact ( 04 known 1 ) 
-          line: 367 95  # $$new_loc = 04 
-          line: 368 110  # $there_pronoun = Lighthouse_of
-          line: 369 148  # $it_pronoun = Lighthouse_of_Se
-          line: 370 183  # $cooldown = 6 
-          line: 371 197  # $$a_code = 9 
+        rule: 365  ~gambits_locations.21.0 t: 
+          line: 366 0  # There is a lighthouse in Selse
+          line: 367 68  # ^createfact ( 04 known 1 ) 
+          line: 368 95  # $$new_loc = 04 
+          line: 369 110  # $there_pronoun = Lighthouse_of
+          line: 370 148  # $it_pronoun = Lighthouse_of_Se
+          line: 371 183  # $cooldown = 6 
+          line: 372 197  # $$a_code = 9 
           Complexity of rule ~gambits_locations.21.0- t: 1
-        rule: 372  ~gambits_locations.21.1 a: 
-          line: 372 0  # ^dogo ( ) 
-          line: 373 10  # $await_loc = 04 
-          line: 374 26  # ^addtopic ( ~await_location ) 
+        rule: 373  ~gambits_locations.21.1 a: 
+          line: 373 0  # ^dogo ( ) 
+          line: 374 10  # $await_loc = 04 
+          line: 375 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.21.1- a: 1
-        rule: 375  ~gambits_locations.21.2 a: 
-          line: 375 0  # ^notgo ( ) 
+        rule: 376  ~gambits_locations.21.2 a: 
+          line: 376 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.21.2- a: 1
-        rule: 376  ~gambits_locations.21.3 a: 
-          line: 376 0  # ^explainplace ( ) 
+        rule: 377  ~gambits_locations.21.3 a: 
+          line: 377 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.21.3- a: 1
-        rule: 377  ~gambits_locations.21.4 a: 
-          line: 377 0  # Is that a yes or a no? 
+        rule: 378  ~gambits_locations.21.4 a: 
+          line: 378 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.21.4- a: 1
-        rule: 378  ~gambits_locations.21.5 b: 
-          line: 378 0  # ^dogo ( ) $await_loc = 04 
+        rule: 379  ~gambits_locations.21.5 b: 
+          line: 379 0  # ^dogo ( ) $await_loc = 04 
           Complexity of rule ~gambits_locations.21.5- b: 1
-        rule: 379  ~gambits_locations.21.6 b: 
-          line: 379 0  # ^notgo ( ) 
+        rule: 380  ~gambits_locations.21.6 b: 
+          line: 380 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.21.6- b: 1
-        rule: 382  ~gambits_locations.22.0 t: 
-          line: 382 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 383  ~gambits_locations.22.0 t: 
+          line: 383 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.22.0- t: 1
-        rule: 386  ~gambits_locations.23.0 t: 
-          line: 387 0  # ^usercap ( ) , it is time to s
-          line: 388 83  # It is because of what happened
-          line: 389 184  # Will you see it? 
-          line: 390 201  # ^createfact ( 13 known 1 ) 
-          line: 391 228  # $$new_loc = 13 
-          line: 392 243  # $there_pronoun = Duggans_Resid
-          line: 393 278  # $it_pronoun = Duggans_Residenc
-          line: 394 310  # $cooldown = 6 
-          line: 395 324  # $$a_code = 14 
+        rule: 387  ~gambits_locations.23.0 t: 
+          line: 388 0  # ^usercap ( ) , it is time to s
+          line: 389 83  # It is because of what happened
+          line: 390 184  # Will you see it? 
+          line: 391 201  # ^createfact ( 13 known 1 ) 
+          line: 392 228  # $$new_loc = 13 
+          line: 393 243  # $there_pronoun = Duggans_Resid
+          line: 394 278  # $it_pronoun = Duggans_Residenc
+          line: 395 310  # $cooldown = 6 
+          line: 396 324  # $$a_code = 14 
           Complexity of rule ~gambits_locations.23.0- t: 1
-        rule: 396  ~gambits_locations.23.1 a: 
-          line: 396 0  # ^notgo ( ) 
+        rule: 397  ~gambits_locations.23.1 a: 
+          line: 397 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.23.1- a: 1
-        rule: 397  ~gambits_locations.23.2 a: 
-          line: 397 0  # ^dogo ( ) 
-          line: 398 10  # $await_loc = 13 
-          line: 399 26  # ^addtopic ( ~await_location ) 
+        rule: 398  ~gambits_locations.23.2 a: 
+          line: 398 0  # ^dogo ( ) 
+          line: 399 10  # $await_loc = 13 
+          line: 400 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.23.2- a: 1
-        rule: 400  ~gambits_locations.23.3 a: 
-          line: 400 0  # ^explainplace ( ) 
+        rule: 401  ~gambits_locations.23.3 a: 
+          line: 401 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.23.3- a: 1
-        rule: 401  ~gambits_locations.23.4 a: 
-          line: 401 0  # Is that a yes or a no? 
+        rule: 402  ~gambits_locations.23.4 a: 
+          line: 402 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.23.4- a: 1
-        rule: 402  ~gambits_locations.23.5 b: 
-          line: 402 0  # ^dogo ( ) $await_loc = 13 
+        rule: 403  ~gambits_locations.23.5 b: 
+          line: 403 0  # ^dogo ( ) $await_loc = 13 
           Complexity of rule ~gambits_locations.23.5- b: 1
-        rule: 403  ~gambits_locations.23.6 b: 
-          line: 403 0  # ^notgo ( ) 
+        rule: 404  ~gambits_locations.23.6 b: 
+          line: 404 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.23.6- b: 1
-        rule: 407  ~gambits_locations.24.0 t: 
-          line: 407 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 408  ~gambits_locations.24.0 t: 
+          line: 408 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.24.0- t: 1
-        rule: 412  ~gambits_locations.25.0 t: 
-          line: 413 0  # How would you like to see a ce
-          line: 414 127  # ^createfact ( 11 known 1 ) 
-          line: 415 154  # $$new_loc = 11 
-          line: 416 169  # $there_pronoun = Devils_Tower 
-          line: 417 199  # $it_pronoun = Devils_Tower 
-          line: 418 226  # $cooldown = 6 
-          line: 419 240  # $$a_code = 9 
+        rule: 413  ~gambits_locations.25.0 t: 
+          line: 414 0  # How would you like to see a ce
+          line: 415 127  # ^createfact ( 11 known 1 ) 
+          line: 416 154  # $$new_loc = 11 
+          line: 417 169  # $there_pronoun = Devils_Tower 
+          line: 418 199  # $it_pronoun = Devils_Tower 
+          line: 419 226  # $cooldown = 6 
+          line: 420 240  # $$a_code = 9 
           Complexity of rule ~gambits_locations.25.0- t: 1
-        rule: 420  ~gambits_locations.25.1 a: 
-          line: 420 0  # ^notgo ( ) 
+        rule: 421  ~gambits_locations.25.1 a: 
+          line: 421 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.25.1- a: 1
-        rule: 421  ~gambits_locations.25.2 a: 
-          line: 421 0  # ^dogo ( ) 
-          line: 422 10  # $await_loc = 11 
-          line: 423 26  # ^addtopic ( ~await_location ) 
+        rule: 422  ~gambits_locations.25.2 a: 
+          line: 422 0  # ^dogo ( ) 
+          line: 423 10  # $await_loc = 11 
+          line: 424 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.25.2- a: 1
-        rule: 424  ~gambits_locations.25.3 a: 
-          line: 424 0  # You're close. Let me get there
-          line: 425 36  # $await_loc = 11 
-          line: 426 52  # ^addtopic ( ~await_location ) 
+        rule: 425  ~gambits_locations.25.3 a: 
+          line: 425 0  # You're close. Let me get there
+          line: 426 36  # $await_loc = 11 
+          line: 427 52  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.25.3- a: 1
-        rule: 427  ~gambits_locations.25.4 a: 
-          line: 427 0  # Exactly! Wow, ^user ( ) ! Let'
-          line: 428 42  # $await_loc = 11 
-          line: 429 58  # ^addtopic ( ~await_location ) 
+        rule: 428  ~gambits_locations.25.4 a: 
+          line: 428 0  # Exactly! Wow, ^user ( ) ! Let'
+          line: 429 42  # $await_loc = 11 
+          line: 430 58  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.25.4- a: 1
-        rule: 430  ~gambits_locations.25.5 a: 
-          line: 430 0  # ^explainplace ( ) 
+        rule: 431  ~gambits_locations.25.5 a: 
+          line: 431 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.25.5- a: 1
-        rule: 431  ~gambits_locations.25.6 a: 
-          line: 431 0  # Is that a yes or a no? 
+        rule: 432  ~gambits_locations.25.6 a: 
+          line: 432 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.25.6- a: 1
-        rule: 432  ~gambits_locations.25.7 b: 
-          line: 432 0  # ^dogo ( ) $await_loc = 11 
+        rule: 433  ~gambits_locations.25.7 b: 
+          line: 433 0  # ^dogo ( ) $await_loc = 11 
           Complexity of rule ~gambits_locations.25.7- b: 1
-        rule: 433  ~gambits_locations.25.8 b: 
-          line: 433 0  # ^notgo ( ) 
+        rule: 434  ~gambits_locations.25.8 b: 
+          line: 434 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.25.8- b: 1
-        rule: 440  ~gambits_locations.26.0 t: 
-          line: 440 0  # I think, ^user ( ) , that we s
+        rule: 441  ~gambits_locations.26.0 t: 
+          line: 441 0  # I think, ^user ( ) , that we s
           Complexity of rule ~gambits_locations.26.0- t: 1
-        rule: 441  ~gambits_locations.27.0 t: 
-          line: 441 0  # We've seen or I've mentioned e
+        rule: 442  ~gambits_locations.27.0 t: 
+          line: 442 0  # We've seen or I've mentioned e
           Complexity of rule ~gambits_locations.27.0- t: 1
-        rule: 444  ~gambits_locations.28.0 t: 
-          line: 444 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 445  ~gambits_locations.28.0 t: 
+          line: 445 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.28.0- t: 1
-        rule: 448  ~gambits_locations.29.0 t: 
-          line: 449 0  # ^usercap ( ) , would you like 
-          line: 450 90  # In fact I have another reason 
-          line: 451 155  # ^createfact ( 07 known 1 ) 
-          line: 452 182  # $$new_loc = 07 
-          line: 453 197  # $there_pronoun = Doyle_Estate 
-          line: 454 227  # $it_pronoun = Doyle_Estate 
-          line: 455 254  # $cooldown = 6 
-          line: 456 268  # $$a_code = 9 
+        rule: 449  ~gambits_locations.29.0 t: 
+          line: 450 0  # ^usercap ( ) , would you like 
+          line: 451 90  # In fact I have another reason 
+          line: 452 155  # ^createfact ( 07 known 1 ) 
+          line: 453 182  # $$new_loc = 07 
+          line: 454 197  # $there_pronoun = Doyle_Estate 
+          line: 455 227  # $it_pronoun = Doyle_Estate 
+          line: 456 254  # $cooldown = 6 
+          line: 457 268  # $$a_code = 9 
           Complexity of rule ~gambits_locations.29.0- t: 1
-        rule: 457  ~gambits_locations.29.1 a: 
-          line: 457 0  # ^notgo ( ) 
+        rule: 458  ~gambits_locations.29.1 a: 
+          line: 458 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.29.1- a: 1
-        rule: 458  ~gambits_locations.29.2 a: 
-          line: 458 0  # ^dogo ( ) 
-          line: 459 10  # $await_loc = 07 
-          line: 460 26  # ^addtopic ( ~await_location ) 
+        rule: 459  ~gambits_locations.29.2 a: 
+          line: 459 0  # ^dogo ( ) 
+          line: 460 10  # $await_loc = 07 
+          line: 461 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.29.2- a: 1
-        rule: 461  ~gambits_locations.29.3 a: 
-          line: 461 0  # ^explainplace ( ) 
+        rule: 462  ~gambits_locations.29.3 a: 
+          line: 462 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.29.3- a: 1
-        rule: 462  ~gambits_locations.29.4 a: 
-          line: 462 0  # Is that a yes or a no? 
+        rule: 463  ~gambits_locations.29.4 a: 
+          line: 463 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.29.4- a: 1
-        rule: 463  ~gambits_locations.29.5 b: 
-          line: 463 0  # ^dogo ( ) $await_loc = 07 
+        rule: 464  ~gambits_locations.29.5 b: 
+          line: 464 0  # ^dogo ( ) $await_loc = 07 
           Complexity of rule ~gambits_locations.29.5- b: 1
-        rule: 464  ~gambits_locations.29.6 b: 
-          line: 464 0  # ^notgo ( ) 
+        rule: 465  ~gambits_locations.29.6 b: 
+          line: 465 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.29.6- b: 1
-        rule: 468  ~gambits_locations.30.0-18_OR_40_OR_34 t: 
-          line: 469 0  # Time for a choice? Do you feel
-          line: 470 110  # Or, we could frolic in the fie
-          line: 471 145  # ^createfact ( 18 known 1 ) 
-          line: 472 172  # ^createfact ( 40 known 1 ) 
-          line: 473 199  # ^createfact ( 34 known 1 ) 
-          line: 474 226  # $cooldown = 18 
-          line: 475 241  # $$new_loc = 184034 
-          line: 476 260  # $$a_code = 9 
+        rule: 469  ~gambits_locations.30.0-18_OR_40_OR_34 t: 
+          line: 470 0  # Time for a choice? Do you feel
+          line: 471 110  # Or, we could frolic in the fie
+          line: 472 145  # ^createfact ( 18 known 1 ) 
+          line: 473 172  # ^createfact ( 40 known 1 ) 
+          line: 474 199  # ^createfact ( 34 known 1 ) 
+          line: 475 226  # $cooldown = 18 
+          line: 476 241  # $$new_loc = 184034 
+          line: 477 260  # $$a_code = 9 
           Complexity of rule ~gambits_locations.30.0-18_OR_40_OR_34 t: 1
-        rule: 477  ~gambits_locations.30.1 a: 
-          line: 477 0  # ^neither ( ) 
+        rule: 478  ~gambits_locations.30.1 a: 
+          line: 478 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.30.1- a: 1
-        rule: 478  ~gambits_locations.30.2 a: 
-          line: 478 0  # ^dogo ( ) 
-          line: 479 10  # $await_loc = 18 
-          line: 480 26  # ^addtopic ( ~await_location ) 
+        rule: 479  ~gambits_locations.30.2 a: 
+          line: 479 0  # ^dogo ( ) 
+          line: 480 10  # $await_loc = 18 
+          line: 481 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.30.2- a: 1
-        rule: 481  ~gambits_locations.30.3 a: 
-          line: 481 0  # ^dogo ( ) 
-          line: 482 10  # $await_loc = 40 
-          line: 483 26  # ^addtopic ( ~await_location ) 
+        rule: 482  ~gambits_locations.30.3 a: 
+          line: 482 0  # ^dogo ( ) 
+          line: 483 10  # $await_loc = 40 
+          line: 484 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.30.3- a: 1
-        rule: 484  ~gambits_locations.30.4 a: 
-          line: 484 0  # ^dogo ( ) 
-          line: 485 10  # $await_loc = 34 
-          line: 486 26  # ^addtopic ( ~await_location ) 
+        rule: 485  ~gambits_locations.30.4 a: 
+          line: 485 0  # ^dogo ( ) 
+          line: 486 10  # $await_loc = 34 
+          line: 487 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.30.4- a: 1
-        rule: 487  ~gambits_locations.30.5 a: 
-          line: 487 0  # One is the African Savannah. T
-          line: 488 53  # ^setrejoinder ( 18_OR_40_OR_34
+        rule: 488  ~gambits_locations.30.5 a: 
+          line: 488 0  # One is the African Savannah. T
+          line: 489 53  # ^setrejoinder ( 18_OR_40_OR_34
           Complexity of rule ~gambits_locations.30.5- a: 1
-        rule: 492  ~gambits_locations.31.0 t: 
-          line: 493 0  # ^usercap ( ) , come with me to
-          line: 494 111  # What do you say? 
-          line: 495 128  # ^createfact ( 32 known 1 ) 
-          line: 496 155  # $$new_loc = 32 
-          line: 497 170  # $there_pronoun = Crimes_Club 
-          line: 498 199  # $it_pronoun = Crimes_Club 
-          line: 499 225  # $cooldown = 6 
-          line: 500 239  # $$a_code = 9 
+        rule: 493  ~gambits_locations.31.0 t: 
+          line: 494 0  # ^usercap ( ) , come with me to
+          line: 495 111  # What do you say? 
+          line: 496 128  # ^createfact ( 32 known 1 ) 
+          line: 497 155  # $$new_loc = 32 
+          line: 498 170  # $there_pronoun = Crimes_Club 
+          line: 499 199  # $it_pronoun = Crimes_Club 
+          line: 500 225  # $cooldown = 6 
+          line: 501 239  # $$a_code = 9 
           Complexity of rule ~gambits_locations.31.0- t: 1
-        rule: 501  ~gambits_locations.31.1 a: 
-          line: 501 0  # ^notgo ( ) 
+        rule: 502  ~gambits_locations.31.1 a: 
+          line: 502 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.31.1- a: 1
-        rule: 502  ~gambits_locations.31.2 a: 
-          line: 502 0  # ^dogo ( ) 
-          line: 503 10  # $await_loc = 32 
-          line: 504 26  # ^addtopic ( ~await_location ) 
+        rule: 503  ~gambits_locations.31.2 a: 
+          line: 503 0  # ^dogo ( ) 
+          line: 504 10  # $await_loc = 32 
+          line: 505 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.31.2- a: 1
-        rule: 505  ~gambits_locations.31.3 a: 
-          line: 505 0  # ^explainplace ( ) 
+        rule: 506  ~gambits_locations.31.3 a: 
+          line: 506 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.31.3- a: 1
-        rule: 506  ~gambits_locations.31.4 a: 
-          line: 506 0  # Is that a yes or a no? 
+        rule: 507  ~gambits_locations.31.4 a: 
+          line: 507 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.31.4- a: 1
-        rule: 507  ~gambits_locations.31.5 b: 
-          line: 507 0  # ^dogo ( ) $await_loc = 32 
+        rule: 508  ~gambits_locations.31.5 b: 
+          line: 508 0  # ^dogo ( ) $await_loc = 32 
           Complexity of rule ~gambits_locations.31.5- b: 1
-        rule: 508  ~gambits_locations.31.6 b: 
-          line: 508 0  # ^notgo ( ) 
+        rule: 509  ~gambits_locations.31.6 b: 
+          line: 509 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.31.6- b: 1
-        rule: 549  ~gambits_locations.32.0-08_OR_35 t: 
-          line: 550 0  # Would you like to go on a carr
-          line: 551 96  # but I can show you an area I p
-          line: 552 170  # Or, you could see my favorite 
-          line: 553 262  # ^createfact ( 08 known 1 ) 
-          line: 554 289  # ^createfact ( 35 known 1 ) 
-          line: 555 316  # $cooldown = 12 
-          line: 556 331  # $$new_loc = 0835 
-          line: 557 348  # $$a_code = 9 
+        rule: 550  ~gambits_locations.32.0-08_OR_35 t: 
+          line: 551 0  # Would you like to go on a carr
+          line: 552 96  # but I can show you an area I p
+          line: 553 170  # Or, you could see my favorite 
+          line: 554 262  # ^createfact ( 08 known 1 ) 
+          line: 555 289  # ^createfact ( 35 known 1 ) 
+          line: 556 316  # $cooldown = 12 
+          line: 557 331  # $$new_loc = 0835 
+          line: 558 348  # $$a_code = 9 
           Complexity of rule ~gambits_locations.32.0-08_OR_35 t: 1
-        rule: 558  ~gambits_locations.32.1 a: 
-          line: 558 0  # ^neither ( ) 
+        rule: 559  ~gambits_locations.32.1 a: 
+          line: 559 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.32.1- a: 1
-        rule: 559  ~gambits_locations.32.2 a: 
-          line: 559 0  # ^dogo ( ) 
-          line: 560 10  # $await_loc = 35 
-          line: 561 26  # ^addtopic ( ~await_location ) 
+        rule: 560  ~gambits_locations.32.2 a: 
+          line: 560 0  # ^dogo ( ) 
+          line: 561 10  # $await_loc = 35 
+          line: 562 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.32.2- a: 1
-        rule: 562  ~gambits_locations.32.3 a: 
-          line: 562 0  # ^dogo ( ) 
-          line: 563 10  # $await_loc = 08 
-          line: 564 26  # ^addtopic ( ~await_location ) 
+        rule: 563  ~gambits_locations.32.3 a: 
+          line: 563 0  # ^dogo ( ) 
+          line: 564 10  # $await_loc = 08 
+          line: 565 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.32.3- a: 1
-        rule: 565  ~gambits_locations.32.4 a: 
-          line: 565 0  # The choices are a carriage rid
-          line: 566 103  # ^setrejoinder ( 08_OR_35 ) 
+        rule: 566  ~gambits_locations.32.4 a: 
+          line: 566 0  # The choices are a carriage rid
+          line: 567 103  # ^setrejoinder ( 08_OR_35 ) 
           Complexity of rule ~gambits_locations.32.4- a: 1
-        rule: 571  ~gambits_locations.33.0 t: 
-          line: 572 0  # I think you are going to like 
-          line: 573 104  # Come with me? 
-          line: 574 118  # ^createfact ( 12 known 1 ) 
-          line: 575 145  # $$new_loc = 12 
-          line: 576 160  # $there_pronoun = Atlantis 
-          line: 577 186  # $it_pronoun = Atlantis 
-          line: 578 209  # $cooldown = 6 
-          line: 579 223  # $$a_code = 9 
+        rule: 572  ~gambits_locations.33.0 t: 
+          line: 573 0  # I think you are going to like 
+          line: 574 104  # Come with me? 
+          line: 575 118  # ^createfact ( 12 known 1 ) 
+          line: 576 145  # $$new_loc = 12 
+          line: 577 160  # $there_pronoun = Atlantis 
+          line: 578 186  # $it_pronoun = Atlantis 
+          line: 579 209  # $cooldown = 6 
+          line: 580 223  # $$a_code = 9 
           Complexity of rule ~gambits_locations.33.0- t: 1
-        rule: 580  ~gambits_locations.33.1 a: 
-          line: 580 0  # ^notgo ( ) 
+        rule: 581  ~gambits_locations.33.1 a: 
+          line: 581 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.33.1- a: 1
-        rule: 581  ~gambits_locations.33.2 a: 
-          line: 581 0  # ^dogo ( ) 
-          line: 582 10  # $await_loc = 12 
-          line: 583 26  # ^addtopic ( ~await_location ) 
+        rule: 582  ~gambits_locations.33.2 a: 
+          line: 582 0  # ^dogo ( ) 
+          line: 583 10  # $await_loc = 12 
+          line: 584 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.33.2- a: 1
-        rule: 584  ~gambits_locations.33.3 a: 
-          line: 584 0  # ^explainplace ( ) 
+        rule: 585  ~gambits_locations.33.3 a: 
+          line: 585 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.33.3- a: 1
-        rule: 585  ~gambits_locations.33.4 a: 
-          line: 585 0  # Is that a yes or a no? 
+        rule: 586  ~gambits_locations.33.4 a: 
+          line: 586 0  # Is that a yes or a no? 
           Complexity of rule ~gambits_locations.33.4- a: 1
-        rule: 586  ~gambits_locations.33.5 b: 
-          line: 586 0  # ^dogo ( ) $await_loc = 12 
+        rule: 587  ~gambits_locations.33.5 b: 
+          line: 587 0  # ^dogo ( ) $await_loc = 12 
           Complexity of rule ~gambits_locations.33.5- b: 1
-        rule: 587  ~gambits_locations.33.6 b: 
-          line: 587 0  # ^notgo ( ) 
+        rule: 588  ~gambits_locations.33.6 b: 
+          line: 588 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.33.6- b: 1
-        rule: 591  ~gambits_locations.34.0 t: 
-          line: 592 0  # Let's take a ride on a choo ch
-          line: 593 69  # ^createfact ( 29 known 1 ) 
-          line: 594 96  # $$new_loc = 29 
-          line: 595 111  # $there_pronoun = Himachal_Prad
-          line: 596 145  # $it_pronoun = Himachal_Pradesh
-          line: 597 176  # $cooldown = 6 
-          line: 598 190  # $$a_code = 9 
+        rule: 592  ~gambits_locations.34.0 t: 
+          line: 593 0  # Let's take a ride on a choo ch
+          line: 594 69  # ^createfact ( 29 known 1 ) 
+          line: 595 96  # $$new_loc = 29 
+          line: 596 111  # $there_pronoun = Himachal_Prad
+          line: 597 145  # $it_pronoun = Himachal_Pradesh
+          line: 598 176  # $cooldown = 6 
+          line: 599 190  # $$a_code = 9 
           Complexity of rule ~gambits_locations.34.0- t: 1
-        rule: 599  ~gambits_locations.34.1 a: 
-          line: 599 0  # ^notgo ( ) 
+        rule: 600  ~gambits_locations.34.1 a: 
+          line: 600 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.34.1- a: 1
-        rule: 600  ~gambits_locations.34.2 a: 
-          line: 600 0  # ^dogo ( ) 
-          line: 601 10  # $await_loc = 29 
-          line: 602 26  # ^addtopic ( ~await_location ) 
+        rule: 601  ~gambits_locations.34.2 a: 
+          line: 601 0  # ^dogo ( ) 
+          line: 602 10  # $await_loc = 29 
+          line: 603 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.34.2- a: 1
-        rule: 603  ~gambits_locations.34.3 a: 
-          line: 603 0  # ^explainplace ( ) 
+        rule: 604  ~gambits_locations.34.3 a: 
+          line: 604 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.34.3- a: 1
-        rule: 625  ~gambits_locations.35.0-28_OR_06 t: 
-          line: 626 0  # ^usercap ( ) , what do you fee
-          line: 627 93  # Or being up close to one of th
-          line: 628 157  # ^createfact ( 28 known 1 ) 
-          line: 629 184  # ^createfact ( 06 known 1 ) 
-          line: 630 211  # $$new_loc = 2806 
-          line: 631 228  # $cooldown = 12 
-          line: 632 243  # $$a_code = 9 
+        rule: 626  ~gambits_locations.35.0-28_OR_06 t: 
+          line: 627 0  # ^usercap ( ) , what do you fee
+          line: 628 93  # Or being up close to one of th
+          line: 629 157  # ^createfact ( 28 known 1 ) 
+          line: 630 184  # ^createfact ( 06 known 1 ) 
+          line: 631 211  # $$new_loc = 2806 
+          line: 632 228  # $cooldown = 12 
+          line: 633 243  # $$a_code = 9 
           Complexity of rule ~gambits_locations.35.0-28_OR_06 t: 1
-        rule: 633  ~gambits_locations.35.1 a: 
-          line: 633 0  # ^neither ( ) 
+        rule: 634  ~gambits_locations.35.1 a: 
+          line: 634 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.35.1- a: 1
-        rule: 634  ~gambits_locations.35.2 a: 
-          line: 634 0  # ^dogo ( ) 
-          line: 635 10  # $await_loc = 28 
-          line: 636 26  # ^addtopic ( ~await_location ) 
+        rule: 635  ~gambits_locations.35.2 a: 
+          line: 635 0  # ^dogo ( ) 
+          line: 636 10  # $await_loc = 28 
+          line: 637 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.35.2- a: 1
-        rule: 637  ~gambits_locations.35.3 a: 
-          line: 637 0  # ^dogo ( ) 
-          line: 638 10  # $await_loc = 06 
-          line: 639 26  # ^addtopic ( ~await_location ) 
+        rule: 638  ~gambits_locations.35.3 a: 
+          line: 638 0  # ^dogo ( ) 
+          line: 639 10  # $await_loc = 06 
+          line: 640 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.35.3- a: 1
-        rule: 640  ~gambits_locations.35.4 a: 
-          line: 640 0  # One is in Hawaii. One is in Vi
-          line: 641 38  # ^setrejoinder ( 28_OR_06 ) 
+        rule: 641  ~gambits_locations.35.4 a: 
+          line: 641 0  # One is in Hawaii. One is in Vi
+          line: 642 38  # ^setrejoinder ( 28_OR_06 ) 
           Complexity of rule ~gambits_locations.35.4- a: 1
-        rule: 645  ~gambits_locations.36.0 t: 
-          line: 646 0  # It's time to show you a hotel 
-          line: 647 90  # ^createfact ( 20 known 1 ) 
-          line: 648 117  # $$new_loc = 20 
-          line: 649 132  # $there_pronoun = Britely_Hotel
-          line: 650 163  # $it_pronoun = Britely_Hotel 
-          line: 651 191  # $cooldown = 6 
-          line: 652 205  # $$a_code = 9 
+        rule: 646  ~gambits_locations.36.0 t: 
+          line: 647 0  # It's time to show you a hotel 
+          line: 648 90  # ^createfact ( 20 known 1 ) 
+          line: 649 117  # $$new_loc = 20 
+          line: 650 132  # $there_pronoun = Britely_Hotel
+          line: 651 163  # $it_pronoun = Britely_Hotel 
+          line: 652 191  # $cooldown = 6 
+          line: 653 205  # $$a_code = 9 
           Complexity of rule ~gambits_locations.36.0- t: 1
-        rule: 653  ~gambits_locations.36.1 a: 
-          line: 653 0  # ^notgo ( ) 
+        rule: 654  ~gambits_locations.36.1 a: 
+          line: 654 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.36.1- a: 1
-        rule: 654  ~gambits_locations.36.2 a: 
-          line: 654 0  # ^dogo ( ) 
-          line: 655 10  # $await_loc = 20 
-          line: 656 26  # ^addtopic ( ~await_location ) 
+        rule: 655  ~gambits_locations.36.2 a: 
+          line: 655 0  # ^dogo ( ) 
+          line: 656 10  # $await_loc = 20 
+          line: 657 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.36.2- a: 1
-        rule: 657  ~gambits_locations.36.3 a: 
-          line: 657 0  # ^explainplace ( ) 
+        rule: 658  ~gambits_locations.36.3 a: 
+          line: 658 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.36.3- a: 1
-        rule: 660  ~gambits_locations.37.0 t: 
-          line: 661 0  # I've been fannying around long
-          line: 662 92  # That's the place where Martha 
-          line: 663 147  # ^createfact ( 22 known 1 ) 
-          line: 664 174  # $$new_loc = 22 
-          line: 665 189  # $there_pronoun = George_Yard 
-          line: 666 218  # $it_pronoun = George_Yard 
-          line: 667 244  # $cooldown = 6 
-          line: 668 258  # $$a_code = 9 
+        rule: 661  ~gambits_locations.37.0 t: 
+          line: 662 0  # I've been fannying around long
+          line: 663 92  # That's the place where Martha 
+          line: 664 147  # ^createfact ( 22 known 1 ) 
+          line: 665 174  # $$new_loc = 22 
+          line: 666 189  # $there_pronoun = George_Yard 
+          line: 667 218  # $it_pronoun = George_Yard 
+          line: 668 244  # $cooldown = 6 
+          line: 669 258  # $$a_code = 9 
           Complexity of rule ~gambits_locations.37.0- t: 1
-        rule: 669  ~gambits_locations.37.1 a: 
-          line: 669 0  # ^notgo ( ) 
+        rule: 670  ~gambits_locations.37.1 a: 
+          line: 670 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.37.1- a: 1
-        rule: 670  ~gambits_locations.37.2 a: 
-          line: 670 0  # ^dogo ( ) 
-          line: 671 10  # $await_loc = 22 
-          line: 672 26  # ^addtopic ( ~await_location ) 
+        rule: 671  ~gambits_locations.37.2 a: 
+          line: 671 0  # ^dogo ( ) 
+          line: 672 10  # $await_loc = 22 
+          line: 673 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.37.2- a: 1
-        rule: 673  ~gambits_locations.37.3 a: 
-          line: 673 0  # ^explainplace ( ) 
+        rule: 674  ~gambits_locations.37.3 a: 
+          line: 674 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.37.3- a: 1
-        rule: 678  ~gambits_locations.38.0-SIX_CHOICES t: 
-          line: 679 0  # I have the feeling we will fin
-          line: 680 79  # A reef, a river, a desert, pas
-          line: 681 148  # Care to choose one? 
-          line: 682 168  # ^createfact ( 49 known 1 ) 
-          line: 683 195  # ^createfact ( 53 known 1 ) 
-          line: 684 222  # ^createfact ( 42 known 1 ) 
-          line: 685 249  # ^createfact ( 24 known 1 ) 
-          line: 686 276  # ^createfact ( 31 known 1 ) 
-          line: 687 303  # ^createfact ( 25 known 1 ) 
-          line: 688 330  # $$new_loc = 495342243125 
-          line: 689 355  # $cooldown = 36 
-          line: 690 370  # $$a_code = 9 
+        rule: 679  ~gambits_locations.38.0-SIX_CHOICES t: 
+          line: 680 0  # I have the feeling we will fin
+          line: 681 79  # A reef, a river, a desert, pas
+          line: 682 148  # Care to choose one? 
+          line: 683 168  # ^createfact ( 49 known 1 ) 
+          line: 684 195  # ^createfact ( 53 known 1 ) 
+          line: 685 222  # ^createfact ( 42 known 1 ) 
+          line: 686 249  # ^createfact ( 24 known 1 ) 
+          line: 687 276  # ^createfact ( 31 known 1 ) 
+          line: 688 303  # ^createfact ( 25 known 1 ) 
+          line: 689 330  # $$new_loc = 495342243125 
+          line: 690 355  # $cooldown = 36 
+          line: 691 370  # $$a_code = 9 
           Complexity of rule ~gambits_locations.38.0-SIX_CHOICES t: 1
-        rule: 691  ~gambits_locations.38.1 a: 
-          line: 691 0  # ^neither ( ) 
+        rule: 692  ~gambits_locations.38.1 a: 
+          line: 692 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.38.1- a: 1
-        rule: 692  ~gambits_locations.38.2 a: 
-          line: 692 0  # ^dogo ( ) 
-          line: 693 10  # $await_loc = 49 
-          line: 694 26  # ^addtopic ( ~await_location ) 
+        rule: 693  ~gambits_locations.38.2 a: 
+          line: 693 0  # ^dogo ( ) 
+          line: 694 10  # $await_loc = 49 
+          line: 695 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.38.2- a: 1
-        rule: 695  ~gambits_locations.38.3 a: 
-          line: 695 0  # ^dogo ( ) 
-          line: 696 10  # $await_loc = 53 
-          line: 697 26  # ^addtopic ( ~await_location ) 
+        rule: 696  ~gambits_locations.38.3 a: 
+          line: 696 0  # ^dogo ( ) 
+          line: 697 10  # $await_loc = 53 
+          line: 698 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.38.3- a: 1
-        rule: 698  ~gambits_locations.38.4 a: 
-          line: 698 0  # ^dogo ( ) 
-          line: 699 10  # $await_loc = 42 
-          line: 700 26  # ^addtopic ( ~await_location ) 
+        rule: 699  ~gambits_locations.38.4 a: 
+          line: 699 0  # ^dogo ( ) 
+          line: 700 10  # $await_loc = 42 
+          line: 701 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.38.4- a: 1
-        rule: 701  ~gambits_locations.38.5 a: 
-          line: 701 0  # ^dogo ( ) 
-          line: 702 10  # $await_loc = 24 
-          line: 703 26  # ^addtopic ( ~await_location ) 
+        rule: 702  ~gambits_locations.38.5 a: 
+          line: 702 0  # ^dogo ( ) 
+          line: 703 10  # $await_loc = 24 
+          line: 704 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.38.5- a: 1
-        rule: 704  ~gambits_locations.38.6 a: 
-          line: 704 0  # ^dogo ( ) 
-          line: 705 10  # $await_loc = 31 
-          line: 706 26  # ^addtopic ( ~await_location ) 
+        rule: 705  ~gambits_locations.38.6 a: 
+          line: 705 0  # ^dogo ( ) 
+          line: 706 10  # $await_loc = 31 
+          line: 707 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.38.6- a: 1
-        rule: 707  ~gambits_locations.38.7 a: 
-          line: 707 0  # ^dogo ( ) 
-          line: 708 10  # $await_loc = 25 
-          line: 709 26  # ^addtopic ( ~await_location ) 
+        rule: 708  ~gambits_locations.38.7 a: 
+          line: 708 0  # ^dogo ( ) 
+          line: 709 10  # $await_loc = 25 
+          line: 710 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.38.7- a: 1
-        rule: 710  ~gambits_locations.38.8 a: 
-          line: 710 0  # Well, I pretty much told you, 
-          line: 711 37  # ^setrejoinder ( SIX_CHOICES ) 
+        rule: 711  ~gambits_locations.38.8 a: 
+          line: 711 0  # Well, I pretty much told you, 
+          line: 712 37  # ^setrejoinder ( SIX_CHOICES ) 
           Complexity of rule ~gambits_locations.38.8- a: 1
-        rule: 716  ~gambits_locations.39.0 t: 
-          line: 716 0  # Oh, I.... 
-          line: 717 10  # $$sys_code = 1 
+        rule: 717  ~gambits_locations.39.0 t: 
+          line: 717 0  # Oh, I.... 
+          line: 718 10  # $$sys_code = 1 
           Complexity of rule ~gambits_locations.39.0- t: 1
-        rule: 718  ~gambits_locations.39.1 a: 
-          line: 718 0  # I'm... 
+        rule: 719  ~gambits_locations.39.1 a: 
+          line: 719 0  # I'm... 
           Complexity of rule ~gambits_locations.39.1- a: 1
-        rule: 719  ~gambits_locations.39.2 b: 
-          line: 719 0  # Th... 
-          line: 720 6  # $$sys_code = 3 
+        rule: 720  ~gambits_locations.39.2 b: 
+          line: 720 0  # Th... 
+          line: 721 6  # $$sys_code = 3 
           Complexity of rule ~gambits_locations.39.2- b: 1
-        rule: 721  ~gambits_locations.39.3 c: 
-          line: 721 0  # ...... 
+        rule: 722  ~gambits_locations.39.3 c: 
+          line: 722 0  # ...... 
           Complexity of rule ~gambits_locations.39.3- c: 1
-        rule: 722  ~gambits_locations.39.4 d: 
-          line: 722 0  # ......... 
+        rule: 723  ~gambits_locations.39.4 d: 
+          line: 723 0  # ......... 
           Complexity of rule ~gambits_locations.39.4- d: 1
-        rule: 723  ~gambits_locations.39.5 e: 
-          line: 723 0  # This... 
-          line: 724 8  # $$sys_code = 4 
+        rule: 724  ~gambits_locations.39.5 e: 
+          line: 724 0  # This... 
+          line: 725 8  # $$sys_code = 4 
           Complexity of rule ~gambits_locations.39.5- e: 1
-        rule: 725  ~gambits_locations.39.6 f: 
-          line: 725 0  # Again. It happened again. I...
-          line: 726 31  # $$sys_code = 2 
+        rule: 726  ~gambits_locations.39.6 f: 
+          line: 726 0  # Again. It happened again. I...
+          line: 727 31  # $$sys_code = 2 
           Complexity of rule ~gambits_locations.39.6- f: 1
-        rule: 727  ~gambits_locations.39.7 g: 
-          line: 727 0  # I don't know why, but at times
-          line: 728 61  # It causes me to lose my focus.
+        rule: 728  ~gambits_locations.39.7 g: 
+          line: 728 0  # I don't know why, but at times
+          line: 729 61  # It causes me to lose my focus.
           Complexity of rule ~gambits_locations.39.7- g: 1
-        rule: 729  ~gambits_locations.39.8 h: 
-          line: 730 0  # Well I don't know why. It has 
+        rule: 730  ~gambits_locations.39.8 h: 
+          line: 731 0  # Well I don't know why. It has 
           Complexity of rule ~gambits_locations.39.8- h: 1
-        rule: 733  ~gambits_locations.40.0 t: 
-          line: 733 0  # ^usercap ( ) . I don't want to
+        rule: 734  ~gambits_locations.40.0 t: 
+          line: 734 0  # ^usercap ( ) . I don't want to
           Complexity of rule ~gambits_locations.40.0- t: 1
-        rule: 734  ~gambits_locations.40.1 a: 
-          line: 734 0  # Oh, how to put it? If I, uh...
-          line: 735 31  # Supposing that I ran out of ti
-          line: 736 71  # Supposing that I somehow cease
+        rule: 735  ~gambits_locations.40.1 a: 
+          line: 735 0  # Oh, how to put it? If I, uh...
+          line: 736 31  # Supposing that I ran out of ti
+          line: 737 71  # Supposing that I somehow cease
           Complexity of rule ~gambits_locations.40.1- a: 1
-        rule: 737  ~gambits_locations.40.2 b: 
-          line: 737 0  # ^usercap ( ) , were I to be go
-          line: 738 83  # $$halt = 1 
+        rule: 738  ~gambits_locations.40.2 b: 
+          line: 738 0  # ^usercap ( ) , were I to be go
+          line: 739 83  # $$halt = 1 
           Complexity of rule ~gambits_locations.40.2- b: 1
-        rule: 739  ~gambits_locations.40.3 c: 
-          line: 739 0  # Oh, I know you would. Of cours
-          line: 740 43  # ^usercap ( ) , please forget I
+        rule: 740  ~gambits_locations.40.3 c: 
+          line: 740 0  # Oh, I know you would. Of cours
+          line: 741 43  # ^usercap ( ) , please forget I
           Complexity of rule ~gambits_locations.40.3- c: 1
-        rule: 741  ~gambits_locations.40.4 c: 
-          line: 741 0  # No? I...I don't know how I cou
+        rule: 742  ~gambits_locations.40.4 c: 
+          line: 742 0  # No? I...I don't know how I cou
           Complexity of rule ~gambits_locations.40.4- c: 1
-        rule: 742  ~gambits_locations.40.5 d: 
-          line: 742 0  # ^gambit ( ~gambits_locations )
+        rule: 743  ~gambits_locations.40.5 d: 
+          line: 743 0  # ^gambit ( ~gambits_locations )
           Complexity of rule ~gambits_locations.40.5- d: 1
-        rule: 744  ~gambits_locations.41.0 t: 
-          line: 744 0  # Anyway! I'm all right now. Whe
-          line: 745 42  # $cooldown = 1 
+        rule: 745  ~gambits_locations.41.0 t: 
+          line: 745 0  # Anyway! I'm all right now. Whe
+          line: 746 42  # $cooldown = 1 
           Complexity of rule ~gambits_locations.41.0- t: 1
-        rule: 750  ~gambits_locations.42.0 t: 
-          line: 751 0  # ^usercap ( ) , I would like to
-          line: 752 117  # Will you come see it? 
-          line: 753 139  # ^createfact ( 33 known 1 ) 
-          line: 754 166  # $$new_loc = 33 
-          line: 755 181  # $there_pronoun = Wye_Valley 
-          line: 756 209  # $it_pronoun = Wye_Valley 
-          line: 757 234  # $cooldown = 6 
-          line: 758 248  # $$a_code = 9 
+        rule: 751  ~gambits_locations.42.0 t: 
+          line: 752 0  # ^usercap ( ) , I would like to
+          line: 753 117  # Will you come see it? 
+          line: 754 139  # ^createfact ( 33 known 1 ) 
+          line: 755 166  # $$new_loc = 33 
+          line: 756 181  # $there_pronoun = Wye_Valley 
+          line: 757 209  # $it_pronoun = Wye_Valley 
+          line: 758 234  # $cooldown = 6 
+          line: 759 248  # $$a_code = 9 
           Complexity of rule ~gambits_locations.42.0- t: 1
-        rule: 759  ~gambits_locations.42.1 a: 
-          line: 759 0  # ^notgo ( ) 
+        rule: 760  ~gambits_locations.42.1 a: 
+          line: 760 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.42.1- a: 1
-        rule: 760  ~gambits_locations.42.2 a: 
-          line: 760 0  # ^dogo ( ) 
-          line: 761 10  # $await_loc = 33 
-          line: 762 26  # ^addtopic ( ~await_location ) 
+        rule: 761  ~gambits_locations.42.2 a: 
+          line: 761 0  # ^dogo ( ) 
+          line: 762 10  # $await_loc = 33 
+          line: 763 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.42.2- a: 1
-        rule: 763  ~gambits_locations.42.3 a: 
-          line: 763 0  # ^explainplace ( ) 
+        rule: 764  ~gambits_locations.42.3 a: 
+          line: 764 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.42.3- a: 1
-        rule: 799  ~gambits_locations.43.0-45_OR_14 t: 
-          line: 800 0  # ^usercap ( ) , there's an indu
-          line: 801 90  # Or I could show you the East E
-          line: 802 162  # Choose one for us if you can, 
-          line: 803 232  # ^createfact ( 45 known 1 ) 
-          line: 804 259  # ^createfact ( 14 known 1 ) 
-          line: 805 286  # $$new_loc = 4514 
-          line: 806 303  # $cooldown = 12 
-          line: 807 318  # $$a_code = 9 
+        rule: 800  ~gambits_locations.43.0-45_OR_14 t: 
+          line: 801 0  # ^usercap ( ) , there's an indu
+          line: 802 90  # Or I could show you the East E
+          line: 803 162  # Choose one for us if you can, 
+          line: 804 232  # ^createfact ( 45 known 1 ) 
+          line: 805 259  # ^createfact ( 14 known 1 ) 
+          line: 806 286  # $$new_loc = 4514 
+          line: 807 303  # $cooldown = 12 
+          line: 808 318  # $$a_code = 9 
           Complexity of rule ~gambits_locations.43.0-45_OR_14 t: 1
-        rule: 808  ~gambits_locations.43.1 a: 
-          line: 808 0  # ^neither ( ) 
+        rule: 809  ~gambits_locations.43.1 a: 
+          line: 809 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.43.1- a: 1
-        rule: 809  ~gambits_locations.43.2 a: 
-          line: 809 0  # ^dogo ( ) 
-          line: 810 10  # $await_loc = 14 
-          line: 811 26  # ^addtopic ( ~await_location ) 
+        rule: 810  ~gambits_locations.43.2 a: 
+          line: 810 0  # ^dogo ( ) 
+          line: 811 10  # $await_loc = 14 
+          line: 812 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.43.2- a: 1
-        rule: 812  ~gambits_locations.43.3 a: 
-          line: 812 0  # ^dogo ( ) 
-          line: 813 10  # $await_loc = 45 
-          line: 814 26  # ^addtopic ( ~await_location ) 
+        rule: 813  ~gambits_locations.43.3 a: 
+          line: 813 0  # ^dogo ( ) 
+          line: 814 10  # $await_loc = 45 
+          line: 815 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.43.3- a: 1
-        rule: 815  ~gambits_locations.43.4 a: 
-          line: 815 0  # The industrial region, or the 
-          line: 816 60  # ^setrejoinder ( 45_OR_14 ) 
+        rule: 816  ~gambits_locations.43.4 a: 
+          line: 816 0  # The industrial region, or the 
+          line: 817 60  # ^setrejoinder ( 45_OR_14 ) 
           Complexity of rule ~gambits_locations.43.4- a: 1
-        rule: 855  ~gambits_locations.44.0-46_OR_30 t: 
-          line: 856 0  # Do you not love Christmas, ^us
-          line: 857 72  # whether out of enduring holida
-          line: 858 167  # and we can enjoy it if we but 
-          line: 859 207  # Or I could show you a serene l
-          line: 860 287  # ^createfact ( 46 known 1 ) 
-          line: 861 314  # ^createfact ( 30 known 1 ) 
-          line: 862 341  # $$new_loc = 4630 
-          line: 863 358  # $cooldown = 12 
-          line: 864 373  # $$a_code = 9 
+        rule: 856  ~gambits_locations.44.0-46_OR_30 t: 
+          line: 857 0  # Do you not love Christmas, ^us
+          line: 858 72  # whether out of enduring holida
+          line: 859 167  # and we can enjoy it if we but 
+          line: 860 207  # Or I could show you a serene l
+          line: 861 287  # ^createfact ( 46 known 1 ) 
+          line: 862 314  # ^createfact ( 30 known 1 ) 
+          line: 863 341  # $$new_loc = 4630 
+          line: 864 358  # $cooldown = 12 
+          line: 865 373  # $$a_code = 9 
           Complexity of rule ~gambits_locations.44.0-46_OR_30 t: 1
-        rule: 865  ~gambits_locations.44.1 a: 
-          line: 865 0  # ^neither ( ) 
+        rule: 866  ~gambits_locations.44.1 a: 
+          line: 866 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.44.1- a: 1
-        rule: 866  ~gambits_locations.44.2 a: 
-          line: 866 0  # ^dogo ( ) 
-          line: 867 10  # $await_loc = 46 
-          line: 868 26  # ^addtopic ( ~await_location ) 
+        rule: 867  ~gambits_locations.44.2 a: 
+          line: 867 0  # ^dogo ( ) 
+          line: 868 10  # $await_loc = 46 
+          line: 869 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.44.2- a: 1
-        rule: 869  ~gambits_locations.44.3 a: 
-          line: 869 0  # ^dogo ( ) 
-          line: 870 10  # $await_loc = 30 
-          line: 871 26  # ^addtopic ( ~await_location ) 
+        rule: 870  ~gambits_locations.44.3 a: 
+          line: 870 0  # ^dogo ( ) 
+          line: 871 10  # $await_loc = 30 
+          line: 872 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.44.3- a: 1
-        rule: 872  ~gambits_locations.44.4 a: 
-          line: 872 0  # It's either Christmas Parlour 
-          line: 873 65  # ^setrejoinder ( 46_OR_30 ) 
+        rule: 873  ~gambits_locations.44.4 a: 
+          line: 873 0  # It's either Christmas Parlour 
+          line: 874 65  # ^setrejoinder ( 46_OR_30 ) 
           Complexity of rule ~gambits_locations.44.4- a: 1
-        rule: 877  ~gambits_locations.45.0 t: 
-          line: 880 0  # I've been dreading the return 
-          line: 881 73  # I will show you now the place 
-          line: 882 134  # This seance, too, was arranged
-          line: 883 179  # ^createfact ( 26 known 1 ) 
-          line: 884 206  # $$new_loc = 26 
-          line: 885 221  # $there_pronoun = Kardec_Room 
-          line: 886 250  # $it_pronoun = Kardec_Room 
-          line: 887 276  # $cooldown = 6 
-          line: 888 290  # $$a_code = 9 
+        rule: 878  ~gambits_locations.45.0 t: 
+          line: 881 0  # I've been dreading the return 
+          line: 882 73  # I will show you now the place 
+          line: 883 134  # This seance, too, was arranged
+          line: 884 179  # ^createfact ( 26 known 1 ) 
+          line: 885 206  # $$new_loc = 26 
+          line: 886 221  # $there_pronoun = Kardec_Room 
+          line: 887 250  # $it_pronoun = Kardec_Room 
+          line: 888 276  # $cooldown = 6 
+          line: 889 290  # $$a_code = 9 
           Complexity of rule ~gambits_locations.45.0- t: 1
-        rule: 889  ~gambits_locations.45.1 a: 
-          line: 889 0  # ^notgo ( ) 
+        rule: 890  ~gambits_locations.45.1 a: 
+          line: 890 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.45.1- a: 1
-        rule: 890  ~gambits_locations.45.2 a: 
-          line: 890 0  # ^dogo ( ) 
-          line: 891 10  # $await_loc = 26 
-          line: 892 26  # ^addtopic ( ~await_location ) 
+        rule: 891  ~gambits_locations.45.2 a: 
+          line: 891 0  # ^dogo ( ) 
+          line: 892 10  # $await_loc = 26 
+          line: 893 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.45.2- a: 1
-        rule: 893  ~gambits_locations.45.3 a: 
-          line: 893 0  # ^explainplace ( ) 
+        rule: 894  ~gambits_locations.45.3 a: 
+          line: 894 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.45.3- a: 1
-        rule: 897  ~gambits_locations.46.0 t: 
-          line: 897 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 898  ~gambits_locations.46.0 t: 
+          line: 898 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.46.0- t: 1
-        rule: 902  ~gambits_locations.47.0 t: 
-          line: 903 0  # ^usercap ( ) . That night that
-          line: 904 100  # An argument. There is a locati
-          line: 905 174  # ^createfact ( 41 known 1 ) 
-          line: 906 201  # $$new_loc = 41 
-          line: 907 216  # $there_pronoun = Station_Park 
-          line: 908 246  # $it_pronoun = Station_Park 
-          line: 909 273  # $cooldown = 6 
-          line: 910 287  # $$a_code = 9 
+        rule: 903  ~gambits_locations.47.0 t: 
+          line: 904 0  # ^usercap ( ) . That night that
+          line: 905 100  # An argument. There is a locati
+          line: 906 174  # ^createfact ( 41 known 1 ) 
+          line: 907 201  # $$new_loc = 41 
+          line: 908 216  # $there_pronoun = Station_Park 
+          line: 909 246  # $it_pronoun = Station_Park 
+          line: 910 273  # $cooldown = 6 
+          line: 911 287  # $$a_code = 9 
           Complexity of rule ~gambits_locations.47.0- t: 1
-        rule: 911  ~gambits_locations.47.1 a: 
-          line: 911 0  # ^notgo ( ) 
+        rule: 912  ~gambits_locations.47.1 a: 
+          line: 912 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.47.1- a: 1
-        rule: 912  ~gambits_locations.47.2 a: 
-          line: 912 0  # ^dogo ( ) 
-          line: 913 10  # $await_loc = 41 
-          line: 914 26  # ^addtopic ( ~await_location ) 
+        rule: 913  ~gambits_locations.47.2 a: 
+          line: 913 0  # ^dogo ( ) 
+          line: 914 10  # $await_loc = 41 
+          line: 915 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.47.2- a: 1
-        rule: 915  ~gambits_locations.47.3 a: 
-          line: 915 0  # ^explainplace ( ) 
+        rule: 916  ~gambits_locations.47.3 a: 
+          line: 916 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.47.3- a: 1
-        rule: 919  ~gambits_locations.48.0 t: 
-          line: 920 0  # I have not many locations left
-          line: 921 94  # There is a particular house on
-          line: 922 182  # ^createfact ( 44 known 1 ) 
-          line: 923 209  # $$new_loc = 44 
-          line: 924 224  # $there_pronoun = Abbott_Farm 
-          line: 925 253  # $it_pronoun = Abbott_Farm 
-          line: 926 279  # $cooldown = 6 
-          line: 927 293  # $$a_code = 9 
+        rule: 920  ~gambits_locations.48.0 t: 
+          line: 921 0  # I have not many locations left
+          line: 922 94  # There is a particular house on
+          line: 923 182  # ^createfact ( 44 known 1 ) 
+          line: 924 209  # $$new_loc = 44 
+          line: 925 224  # $there_pronoun = Abbott_Farm 
+          line: 926 253  # $it_pronoun = Abbott_Farm 
+          line: 927 279  # $cooldown = 6 
+          line: 928 293  # $$a_code = 9 
           Complexity of rule ~gambits_locations.48.0- t: 1
-        rule: 928  ~gambits_locations.48.1 a: 
-          line: 928 0  # ^notgo ( ) 
+        rule: 929  ~gambits_locations.48.1 a: 
+          line: 929 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.48.1- a: 1
-        rule: 929  ~gambits_locations.48.2 a: 
-          line: 929 0  # ^dogo ( ) 
-          line: 930 10  # $await_loc = 44 
-          line: 931 26  # ^addtopic ( ~await_location ) 
+        rule: 930  ~gambits_locations.48.2 a: 
+          line: 930 0  # ^dogo ( ) 
+          line: 931 10  # $await_loc = 44 
+          line: 932 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.48.2- a: 1
-        rule: 932  ~gambits_locations.48.3 a: 
-          line: 932 0  # ^explainplace ( ) 
+        rule: 933  ~gambits_locations.48.3 a: 
+          line: 933 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.48.3- a: 1
-        rule: 937  ~gambits_locations.49.0-ASIA_CHOICES t: 
-          line: 938 0  # Here's a choice. Would you rat
-          line: 939 95  # ^createfact ( 39 known 1 ) 
-          line: 940 122  # ^createfact ( 50 known 1 ) 
-          line: 941 149  # ^createfact ( 37 known 1 ) 
-          line: 942 176  # $$new_loc = 395037 
-          line: 943 195  # $cooldown = 18 
-          line: 944 210  # $$a_code = 9 
+        rule: 938  ~gambits_locations.49.0-ASIA_CHOICES t: 
+          line: 939 0  # Here's a choice. Would you rat
+          line: 940 95  # ^createfact ( 39 known 1 ) 
+          line: 941 122  # ^createfact ( 50 known 1 ) 
+          line: 942 149  # ^createfact ( 37 known 1 ) 
+          line: 943 176  # $$new_loc = 395037 
+          line: 944 195  # $cooldown = 18 
+          line: 945 210  # $$a_code = 9 
           Complexity of rule ~gambits_locations.49.0-ASIA_CHOICES t: 1
-        rule: 945  ~gambits_locations.49.1 a: 
-          line: 945 0  # ^neither ( ) 
+        rule: 946  ~gambits_locations.49.1 a: 
+          line: 946 0  # ^neither ( ) 
           Complexity of rule ~gambits_locations.49.1- a: 1
-        rule: 946  ~gambits_locations.49.2 a: 
-          line: 946 0  # ^dogo ( ) 
-          line: 947 10  # $await_loc = 39 
-          line: 948 26  # ^addtopic ( ~await_location ) 
+        rule: 947  ~gambits_locations.49.2 a: 
+          line: 947 0  # ^dogo ( ) 
+          line: 948 10  # $await_loc = 39 
+          line: 949 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.49.2- a: 1
-        rule: 949  ~gambits_locations.49.3 a: 
-          line: 949 0  # ^dogo ( ) 
-          line: 950 10  # $await_loc = 50 
-          line: 951 26  # ^addtopic ( ~await_location ) 
+        rule: 950  ~gambits_locations.49.3 a: 
+          line: 950 0  # ^dogo ( ) 
+          line: 951 10  # $await_loc = 50 
+          line: 952 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.49.3- a: 1
-        rule: 952  ~gambits_locations.49.4 a: 
-          line: 952 0  # ^dogo ( ) 
-          line: 953 10  # $await_loc = 37 
-          line: 954 26  # ^addtopic ( ~await_location ) 
+        rule: 953  ~gambits_locations.49.4 a: 
+          line: 953 0  # ^dogo ( ) 
+          line: 954 10  # $await_loc = 37 
+          line: 955 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.49.4- a: 1
-        rule: 955  ~gambits_locations.49.5 a: 
-          line: 955 0  # Uh, the choices are simply, Ja
-          line: 956 63  # ^setrejoinder ( ASIA_CHOICES )
+        rule: 956  ~gambits_locations.49.5 a: 
+          line: 956 0  # Uh, the choices are simply, Ja
+          line: 957 63  # ^setrejoinder ( ASIA_CHOICES )
           Complexity of rule ~gambits_locations.49.5- a: 1
-        rule: 961  ~gambits_locations.50.0 t: 
-          line: 962 0  # Mel is suggesting we go crash 
-          line: 963 106  # As if my mom could recognise a
-          line: 964 200  # over to Mel's? 
-          line: 965 215  # ^createfact ( 43 known 1 ) 
-          line: 966 242  # $$new_loc = 43 
-          line: 967 257  # $there_pronoun = Bassey_Study 
-          line: 968 287  # $it_pronoun = Bassey_Study 
-          line: 969 314  # $cooldown = 6 
+        rule: 962  ~gambits_locations.50.0 t: 
+          line: 963 0  # Mel is suggesting we go crash 
+          line: 964 106  # As if my mom could recognise a
+          line: 965 200  # over to Mel's? 
+          line: 966 215  # ^createfact ( 43 known 1 ) 
+          line: 967 242  # $$new_loc = 43 
+          line: 968 257  # $there_pronoun = Bassey_Study 
+          line: 969 287  # $it_pronoun = Bassey_Study 
+          line: 970 314  # $cooldown = 6 
           Complexity of rule ~gambits_locations.50.0- t: 1
-        rule: 970  ~gambits_locations.50.1 a: 
-          line: 970 0  # ^notgo ( ) 
+        rule: 971  ~gambits_locations.50.1 a: 
+          line: 971 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.50.1- a: 1
-        rule: 971  ~gambits_locations.50.2 a: 
-          line: 971 0  # ^dogo ( ) 
-          line: 972 10  # $await_loc = 43 
-          line: 973 26  # ^addtopic ( ~await_location ) 
+        rule: 972  ~gambits_locations.50.2 a: 
+          line: 972 0  # ^dogo ( ) 
+          line: 973 10  # $await_loc = 43 
+          line: 974 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.50.2- a: 1
-        rule: 974  ~gambits_locations.50.3 a: 
-          line: 974 0  # ^explainplace ( ) 
+        rule: 975  ~gambits_locations.50.3 a: 
+          line: 975 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.50.3- a: 1
-        rule: 978  ~gambits_locations.51.0 t: 
-          line: 979 0  # Will you see with me the spot 
-          line: 980 95  # promise in return that my corp
-          line: 981 156  # ^createfact ( 47 known 1 ) 
-          line: 982 183  # $$new_loc = 47 
-          line: 983 198  # $there_pronoun = St_Martin_Chu
-          line: 984 236  # $it_pronoun = St_Martin_Church
-          line: 985 271  # $cooldown = 6 
+        rule: 979  ~gambits_locations.51.0 t: 
+          line: 980 0  # Will you see with me the spot 
+          line: 981 95  # promise in return that my corp
+          line: 982 156  # ^createfact ( 47 known 1 ) 
+          line: 983 183  # $$new_loc = 47 
+          line: 984 198  # $there_pronoun = St_Martin_Chu
+          line: 985 236  # $it_pronoun = St_Martin_Church
+          line: 986 271  # $cooldown = 6 
           Complexity of rule ~gambits_locations.51.0- t: 1
-        rule: 986  ~gambits_locations.51.1 a: 
-          line: 986 0  # ^notgo ( ) 
+        rule: 987  ~gambits_locations.51.1 a: 
+          line: 987 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.51.1- a: 1
-        rule: 987  ~gambits_locations.51.2 a: 
-          line: 987 0  # ^dogo ( ) 
-          line: 988 10  # $await_loc = 47 
-          line: 989 26  # ^addtopic ( ~await_location ) 
+        rule: 988  ~gambits_locations.51.2 a: 
+          line: 988 0  # ^dogo ( ) 
+          line: 989 10  # $await_loc = 47 
+          line: 990 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.51.2- a: 1
-        rule: 990  ~gambits_locations.51.3 a: 
-          line: 990 0  # ^explainplace ( ) 
+        rule: 991  ~gambits_locations.51.3 a: 
+          line: 991 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.51.3- a: 1
-        rule: 996  ~gambits_locations.52.0 t: 
-          line: 996 0  # ^keep ( ) ^fail ( TOPIC ) 
+        rule: 997  ~gambits_locations.52.0 t: 
+          line: 997 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~gambits_locations.52.0- t: 1
-        rule: 1002  ~gambits_locations.53.0 t: 
-          line: 1003 0  # I need to get away, and I know
-          line: 1004 68  # ^createfact ( 54 known 1 ) 
-          line: 1005 95  # $$new_loc = 54 
-          line: 1006 110  # $there_pronoun = Khaju_Bridge 
-          line: 1007 140  # $it_pronoun = Khaju_Bridge 
-          line: 1008 167  # $cooldown = 6 
+        rule: 1003  ~gambits_locations.53.0 t: 
+          line: 1004 0  # I need to get away, and I know
+          line: 1005 68  # ^createfact ( 54 known 1 ) 
+          line: 1006 95  # $$new_loc = 54 
+          line: 1007 110  # $there_pronoun = Khaju_Bridge 
+          line: 1008 140  # $it_pronoun = Khaju_Bridge 
+          line: 1009 167  # $cooldown = 6 
           Complexity of rule ~gambits_locations.53.0- t: 1
-        rule: 1009  ~gambits_locations.53.1 a: 
-          line: 1009 0  # ^notgo ( ) 
+        rule: 1010  ~gambits_locations.53.1 a: 
+          line: 1010 0  # ^notgo ( ) 
           Complexity of rule ~gambits_locations.53.1- a: 1
-        rule: 1010  ~gambits_locations.53.2 a: 
-          line: 1010 0  # ^dogo ( ) 
-          line: 1011 10  # $await_loc = 54 
-          line: 1012 26  # ^addtopic ( ~await_location ) 
+        rule: 1011  ~gambits_locations.53.2 a: 
+          line: 1011 0  # ^dogo ( ) 
+          line: 1012 10  # $await_loc = 54 
+          line: 1013 26  # ^addtopic ( ~await_location ) 
           Complexity of rule ~gambits_locations.53.2- a: 1
-        rule: 1013  ~gambits_locations.53.3 a: 
-          line: 1013 0  # ^explainplace ( ) 
+        rule: 1014  ~gambits_locations.53.3 a: 
+          line: 1014 0  # ^explainplace ( ) 
           Complexity of rule ~gambits_locations.53.3- a: 1
-        rule: 1021  ~gambits_locations.54.0 t: 
-          line: 1022 0  # Mel suggested, ^user ( ) , tha
-          line: 1023 93  # The man held his thoughts so c
-          line: 1024 180  # Even if he is my murderer, eve
-          line: 1025 250  # is there a way we could learn 
+        rule: 1022  ~gambits_locations.54.0 t: 
+          line: 1023 0  # Mel suggested, ^user ( ) , tha
+          line: 1024 93  # The man held his thoughts so c
+          line: 1025 180  # Even if he is my murderer, eve
+          line: 1026 250  # is there a way we could learn 
           Complexity of rule ~gambits_locations.54.0- t: 1
-        rule: 1026  ~gambits_locations.54.1 a: 
-          line: 1026 0  # Hmm, let's think about this so
+        rule: 1027  ~gambits_locations.54.1 a: 
+          line: 1027 0  # Hmm, let's think about this so
           Complexity of rule ~gambits_locations.54.1- a: 1
-        rule: 1027  ~gambits_locations.54.2 a: 
-          line: 1027 0  # Yes, I have thought that too. 
-          line: 1028 68  # I've tried to Manifest Burton,
-          line: 1029 162  # he would perhaps be too ashame
+        rule: 1028  ~gambits_locations.54.2 a: 
+          line: 1028 0  # Yes, I have thought that too. 
+          line: 1029 68  # I've tried to Manifest Burton,
+          line: 1030 162  # he would perhaps be too ashame
           Complexity of rule ~gambits_locations.54.2- a: 1
-        rule: 1030  ~gambits_locations.54.3 a: 
-          line: 1030 0  # ^gambit ( ~gambits_locations )
+        rule: 1031  ~gambits_locations.54.3 a: 
+          line: 1031 0  # ^gambit ( ~gambits_locations )
           Complexity of rule ~gambits_locations.54.3- a: 1
-        rule: 1032  ~gambits_locations.55.0 t: 
-          line: 1032 0  # Given that we can't speak dire
-          line: 1033 101  # Or perhaps some location I cou
-          line: 1034 187  # Perhaps a location we've been 
+        rule: 1033  ~gambits_locations.55.0 t: 
+          line: 1033 0  # Given that we can't speak dire
+          line: 1034 101  # Or perhaps some location I cou
+          line: 1035 187  # Perhaps a location we've been 
           Complexity of rule ~gambits_locations.55.0- t: 1
-        rule: 1035  ~gambits_locations.55.1 a: 
-          line: 1035 0  # I don't know. I'm thinking. 
-          line: 1036 28  # $$a_code = 14 
+        rule: 1036  ~gambits_locations.55.1 a: 
+          line: 1036 0  # I don't know. I'm thinking. 
+          line: 1037 28  # $$a_code = 14 
           Complexity of rule ~gambits_locations.55.1- a: 1
-        rule: 1038  ~gambits_locations.56.0 t: 
-          line: 1038 0  # Since Mel is a descendant of B
-          line: 1039 89  # Some location related to Mel. 
+        rule: 1039  ~gambits_locations.56.0 t: 
+          line: 1039 0  # Since Mel is a descendant of B
+          line: 1040 89  # Some location related to Mel. 
           Complexity of rule ~gambits_locations.56.0- t: 1
-        rule: 1040  ~gambits_locations.56.1 a: 
-          line: 1040 0  # Hmm, we have to figure this ou
-          line: 1041 33  # There could be a location we'v
+        rule: 1041  ~gambits_locations.56.1 a: 
+          line: 1041 0  # Hmm, we have to figure this ou
+          line: 1042 33  # There could be a location we'v
           Complexity of rule ~gambits_locations.56.1- a: 1
-        rule: 1043  ~gambits_locations.57.0 t: 
-          line: 1043 0  # We need to learn more about Bu
+        rule: 1044  ~gambits_locations.57.0 t: 
+          line: 1044 0  # We need to learn more about Bu
           Complexity of rule ~gambits_locations.57.0- t: 1
-        rule: 1044  ~gambits_locations.57.1 a: 
-          line: 1044 0  # Mel is descended from Burt so.
+        rule: 1045  ~gambits_locations.57.1 a: 
+          line: 1045 0  # Mel is descended from Burt so.
           Complexity of rule ~gambits_locations.57.1- a: 1
-        rule: 1046  ~gambits_locations.58.0 t: 
-          line: 1046 0  # In order to acquire more infor
-          line: 1047 88  # I wonder if anything would tur
+        rule: 1047  ~gambits_locations.58.0 t: 
+          line: 1047 0  # In order to acquire more infor
+          line: 1048 88  # I wonder if anything would tur
           Complexity of rule ~gambits_locations.58.0- t: 1
-        rule: 1048  ~gambits_locations.58.1 a: 
-          line: 1048 0  # Well, I could be wrong, but is
+        rule: 1049  ~gambits_locations.58.1 a: 
+          line: 1049 0  # Well, I could be wrong, but is
           Complexity of rule ~gambits_locations.58.1- a: 1
-        rule: 1049  ~gambits_locations.58.2 a: 
-          line: 1049 0  # Yes, Mel's home. But we won't 
-          line: 1050 64  # Just tell me in the usual 
+        rule: 1050  ~gambits_locations.58.2 a: 
+          line: 1050 0  # Yes, Mel's home. But we won't 
+          line: 1051 64  # Just tell me in the usual 
           Complexity of rule ~gambits_locations.58.2- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_control.top
     topic: 2  ~gambits_control
@@ -42609,7 +42635,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/not.top
           line: 165 0  # [ I don't think at all. ] [ I 
           Complexity of rule ~quibble_not.117.0-DONTTHINK2 u: 1
         rule: 166  ~quibble_not.118.0-DONTKNOW s: 
-          line: 166 0  # [ So what DO you know? ] [ Tel
+          line: 166 0  # [ So what do you know? ] [ Tel
           Complexity of rule ~quibble_not.118.0-DONTKNOW s: 1
         rule: 167  ~quibble_not.119.0 s: 
           line: 167 0  # [ You want me to respond? ] 
@@ -46641,195 +46667,199 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
           line: 117 0  # Oh, okay. Right. Hehe. 
           Complexity of rule ~quibble_specific.25.0- u: 1
         rule: 119  ~quibble_specific.26.0 u: 
-          line: 119 0  # ^keep ( ) 
-          line: 120 10  # [ Sorry, sorry. ] 
-          line: 121 28  # [ I know, I know. ] 
+          line: 122 0  # ^keep ( ) 
+          line: 123 10  # [ Sorry, sorry. ] 
+          line: 124 28  # [ I know, I know. ] 
           Complexity of rule ~quibble_specific.26.0- u: 1
-        rule: 124  ~quibble_specific.27.0 u: 
-          line: 124 0  # We'd all be happier if we didn
-          line: 125 78  # an important function too, eh?
+        rule: 127  ~quibble_specific.27.0 u: 
+          line: 128 0  # ^keep ( ) 
+          line: 129 10  # Not funny, I know. 
           Complexity of rule ~quibble_specific.27.0- u: 1
-        rule: 127  ~quibble_specific.28.0 s: 
-          line: 131 0  # It is a unique name, isn't it?
-          Complexity of rule ~quibble_specific.28.0- s: 1
-        rule: 134  ~quibble_specific.29.0 u: 
-          line: 134 0  # I did want for you to see me a
-          Complexity of rule ~quibble_specific.29.0- u: 1
-        rule: 137  ~quibble_specific.30.0 s: 
-          line: 142 0  # So I did. Sorry for the confus
-          Complexity of rule ~quibble_specific.30.0- s: 1
-        rule: 145  ~quibble_specific.31.0 u: 
-          line: 145 0  # All I know is that my cup of t
-          Complexity of rule ~quibble_specific.31.0- u: 1
-        rule: 147  ~quibble_specific.32.0 u: 
-          line: 147 0  # Expression or not, I'd like to
+        rule: 132  ~quibble_specific.28.0 u: 
+          line: 132 0  # We'd all be happier if we didn
+          line: 133 78  # an important function too, eh?
+          Complexity of rule ~quibble_specific.28.0- u: 1
+        rule: 135  ~quibble_specific.29.0 s: 
+          line: 139 0  # It is a unique name, isn't it?
+          Complexity of rule ~quibble_specific.29.0- s: 1
+        rule: 142  ~quibble_specific.30.0 u: 
+          line: 142 0  # I did want for you to see me a
+          Complexity of rule ~quibble_specific.30.0- u: 1
+        rule: 145  ~quibble_specific.31.0 s: 
+          line: 150 0  # So I did. Sorry for the confus
+          Complexity of rule ~quibble_specific.31.0- s: 1
+        rule: 153  ~quibble_specific.32.0 u: 
+          line: 153 0  # All I know is that my cup of t
           Complexity of rule ~quibble_specific.32.0- u: 1
-        rule: 151  ~quibble_specific.33.0 s: 
-          line: 151 0  # ^keep ( ) 
-          line: 152 10  # [ Sometimes okay is as good as
-          line: 153 60  # [ We'll take okay when we can 
-          line: 154 100  # [ Yes, okay. ] 
-          line: 155 115  # [ Right, okay. ] 
-          Complexity of rule ~quibble_specific.33.0- s: 1
-        rule: 158  ~quibble_specific.34.0 s: 
-          line: 163 0  # I'm sorry if I told you someth
-          line: 164 54  # I'll try not to "double-tell" 
-          line: 165 99  # $$quotes = 1 
+        rule: 155  ~quibble_specific.33.0 u: 
+          line: 155 0  # Expression or not, I'd like to
+          Complexity of rule ~quibble_specific.33.0- u: 1
+        rule: 159  ~quibble_specific.34.0 s: 
+          line: 159 0  # ^keep ( ) 
+          line: 160 10  # [ Sometimes okay is as good as
+          line: 161 60  # [ We'll take okay when we can 
+          line: 162 100  # [ Yes, okay. ] 
+          line: 163 115  # [ Right, okay. ] 
           Complexity of rule ~quibble_specific.34.0- s: 1
-        rule: 168  ~quibble_specific.35.0 s: 
-          line: 168 0  # So YOU are on the market, eheh
+        rule: 166  ~quibble_specific.35.0 s: 
+          line: 171 0  # I'm sorry if I told you someth
+          line: 172 54  # I'll try not to "double-tell" 
+          line: 173 99  # $$quotes = 1 
           Complexity of rule ~quibble_specific.35.0- s: 1
-        rule: 170  ~quibble_specific.36.0 s: 
-          line: 170 0  # You're not on the market after
+        rule: 176  ~quibble_specific.36.0 s: 
+          line: 176 0  # So YOU are on the market, eheh
           Complexity of rule ~quibble_specific.36.0- s: 1
-        rule: 173  ~quibble_specific.37.0 s: 
-          line: 173 0  # Even you feel a sense of relie
+        rule: 178  ~quibble_specific.37.0 s: 
+          line: 178 0  # You're not on the market after
           Complexity of rule ~quibble_specific.37.0- s: 1
-        rule: 176  ~quibble_specific.38.0 u: 
-          line: 176 0  # I know a wealth of random fact
-          line: 177 90  # I must seem odd to you. 
-          Complexity of rule ~quibble_specific.38.0- u: 1
-        rule: 180  ~quibble_specific.39.0 u: 
-          line: 180 0  # I try not to be down on myself
+        rule: 181  ~quibble_specific.38.0 s: 
+          line: 181 0  # Even you feel a sense of relie
+          Complexity of rule ~quibble_specific.38.0- s: 1
+        rule: 184  ~quibble_specific.39.0 u: 
+          line: 184 0  # I know a wealth of random fact
+          line: 185 90  # I must seem odd to you. 
           Complexity of rule ~quibble_specific.39.0- u: 1
-        rule: 183  ~quibble_specific.40.0 s: 
-          line: 187 0  # I'm terribly sorry. I would ne
-          Complexity of rule ~quibble_specific.40.0- s: 1
-        rule: 190  ~quibble_specific.41.0 u: 
-          line: 190 0  # Oh, a flight to catch as in a 
-          Complexity of rule ~quibble_specific.41.0- u: 1
-        rule: 193  ~quibble_specific.42.0 u: 
-          line: 196 0  # Good question, hehe. 
+        rule: 188  ~quibble_specific.40.0 u: 
+          line: 188 0  # I try not to be down on myself
+          Complexity of rule ~quibble_specific.40.0- u: 1
+        rule: 191  ~quibble_specific.41.0 s: 
+          line: 195 0  # I'm terribly sorry. I would ne
+          Complexity of rule ~quibble_specific.41.0- s: 1
+        rule: 198  ~quibble_specific.42.0 u: 
+          line: 198 0  # Oh, a flight to catch as in a 
           Complexity of rule ~quibble_specific.42.0- u: 1
-        rule: 199  ~quibble_specific.43.0 u: 
-          line: 202 0  # It's entirely up to us. 
+        rule: 201  ~quibble_specific.43.0 u: 
+          line: 204 0  # Good question, hehe. 
           Complexity of rule ~quibble_specific.43.0- u: 1
-        rule: 205  ~quibble_specific.44.0 s: 
-          line: 206 0  # If I sound philosophical it's 
-          Complexity of rule ~quibble_specific.44.0- s: 1
-        rule: 209  ~quibble_specific.45.0 u: 
-          line: 209 0  # Not a compliment? Oh, I though
-          Complexity of rule ~quibble_specific.45.0- u: 1
-        rule: 212  ~quibble_specific.46.0 s: 
-          line: 215 0  # I didn't know you can _0 . A p
-          Complexity of rule ~quibble_specific.46.0- s: 1
-        rule: 218  ~quibble_specific.47.0 s: 
-          line: 221 0  # You're good at _0 ? I believe 
+        rule: 207  ~quibble_specific.44.0 u: 
+          line: 210 0  # It's entirely up to us. 
+          Complexity of rule ~quibble_specific.44.0- u: 1
+        rule: 213  ~quibble_specific.45.0 s: 
+          line: 214 0  # If I sound philosophical it's 
+          Complexity of rule ~quibble_specific.45.0- s: 1
+        rule: 217  ~quibble_specific.46.0 u: 
+          line: 217 0  # Not a compliment? Oh, I though
+          Complexity of rule ~quibble_specific.46.0- u: 1
+        rule: 220  ~quibble_specific.47.0 s: 
+          line: 223 0  # I didn't know you can _0 . A p
           Complexity of rule ~quibble_specific.47.0- s: 1
-        rule: 224  ~quibble_specific.48.0 s: 
-          line: 227 0  # You're a good _0 ? Yes,, I bel
+        rule: 226  ~quibble_specific.48.0 s: 
+          line: 229 0  # You're good at _0 ? I believe 
           Complexity of rule ~quibble_specific.48.0- s: 1
-        rule: 230  ~quibble_specific.49.0 u: 
-          line: 235 0  # Anticipation would be a relati
-          Complexity of rule ~quibble_specific.49.0- u: 1
+        rule: 232  ~quibble_specific.49.0 s: 
+          line: 235 0  # You're a good _0 ? Yes,, I bel
+          Complexity of rule ~quibble_specific.49.0- s: 1
         rule: 238  ~quibble_specific.50.0 u: 
-          line: 238 0  # That would be so...adventurous
-          line: 239 51  # $$a_code = 28 
+          line: 243 0  # Anticipation would be a relati
           Complexity of rule ~quibble_specific.50.0- u: 1
-        rule: 242  ~quibble_specific.51.0 u: 
-          line: 242 0  # Whatever you're willing to tel
+        rule: 246  ~quibble_specific.51.0 u: 
+          line: 246 0  # That would be so...adventurous
+          line: 247 51  # $$a_code = 28 
           Complexity of rule ~quibble_specific.51.0- u: 1
-        rule: 245  ~quibble_specific.52.0 s: 
-          line: 250 0  # I guess I can see how it would
-          Complexity of rule ~quibble_specific.52.0- s: 1
+        rule: 250  ~quibble_specific.52.0 u: 
+          line: 250 0  # Whatever you're willing to tel
+          Complexity of rule ~quibble_specific.52.0- u: 1
         rule: 253  ~quibble_specific.53.0 s: 
-          line: 257 0  # I feel that you really underst
+          line: 258 0  # I guess I can see how it would
           Complexity of rule ~quibble_specific.53.0- s: 1
-        rule: 260  ~quibble_specific.54.0 s: 
-          line: 261 0  # Nothing wrong with that. Laugh
+        rule: 261  ~quibble_specific.54.0 s: 
+          line: 265 0  # I feel that you really underst
           Complexity of rule ~quibble_specific.54.0- s: 1
-        rule: 264  ~quibble_specific.55.0 u: 
-          line: 268 0  # My father once said that he wa
-          line: 269 94  # be doing what he enjoyed the m
-          Complexity of rule ~quibble_specific.55.0- u: 1
-        rule: 272  ~quibble_specific.56.0 s: 
-          line: 272 0  # Yeah. As are many things. 
-          Complexity of rule ~quibble_specific.56.0- s: 1
-        rule: 275  ~quibble_specific.57.0 s: 
-          line: 279 0  # Oh. Sorry. I'm not normally co
+        rule: 268  ~quibble_specific.55.0 s: 
+          line: 269 0  # Nothing wrong with that. Laugh
+          Complexity of rule ~quibble_specific.55.0- s: 1
+        rule: 272  ~quibble_specific.56.0 u: 
+          line: 276 0  # My father once said that he wa
+          line: 277 94  # be doing what he enjoyed the m
+          Complexity of rule ~quibble_specific.56.0- u: 1
+        rule: 280  ~quibble_specific.57.0 s: 
+          line: 280 0  # Yeah. As are many things. 
           Complexity of rule ~quibble_specific.57.0- s: 1
-        rule: 281  ~quibble_specific.58.0 s: 
-          line: 282 0  # [ I'm glad you're ready! ] 
-          line: 283 27  # [ Remind me what for? Oh. ] 
-          line: 284 55  # [ Tell me what you're ready fo
+        rule: 283  ~quibble_specific.58.0 s: 
+          line: 287 0  # Oh. Sorry. I'm not normally co
           Complexity of rule ~quibble_specific.58.0- s: 1
-        rule: 287  ~quibble_specific.59.0 u: 
-          line: 291 0  # It feels like I've known you a
-          line: 292 86  # but you understand my feeling.
-          Complexity of rule ~quibble_specific.59.0- u: 1
-        rule: 295  ~quibble_specific.60.0 s: 
-          line: 295 0  # Because who needs plans when w
-          Complexity of rule ~quibble_specific.60.0- s: 1
-        rule: 298  ~quibble_specific.61.0 u: 
-          line: 302 0  # ^keep ( ) 
-          line: 303 10  # [ You can try. ] 
-          line: 304 27  # [ Sure, and apologies in advan
-          Complexity of rule ~quibble_specific.61.0- u: 1
-        rule: 307  ~quibble_specific.62.0 u: 
-          line: 311 0  # I tend to think most people wo
+        rule: 289  ~quibble_specific.59.0 s: 
+          line: 290 0  # [ I'm glad you're ready! ] 
+          line: 291 27  # [ Remind me what for? Oh. ] 
+          line: 292 55  # [ Tell me what you're ready fo
+          Complexity of rule ~quibble_specific.59.0- s: 1
+        rule: 295  ~quibble_specific.60.0 u: 
+          line: 299 0  # It feels like I've known you a
+          line: 300 86  # but you understand my feeling.
+          Complexity of rule ~quibble_specific.60.0- u: 1
+        rule: 303  ~quibble_specific.61.0 s: 
+          line: 303 0  # Because who needs plans when w
+          Complexity of rule ~quibble_specific.61.0- s: 1
+        rule: 306  ~quibble_specific.62.0 u: 
+          line: 310 0  # ^keep ( ) 
+          line: 311 10  # [ You can try. ] 
+          line: 312 27  # [ Sure, and apologies in advan
           Complexity of rule ~quibble_specific.62.0- u: 1
-        rule: 314  ~quibble_specific.63.0 u: 
-          line: 315 0  # There's not a great many thing
-          line: 316 61  # Well, besides Manifesting, whi
+        rule: 315  ~quibble_specific.63.0 u: 
+          line: 319 0  # I tend to think most people wo
           Complexity of rule ~quibble_specific.63.0- u: 1
-        rule: 317  ~quibble_specific.63.1 a: 
-          line: 317 0  # You know. My mum. 
-          Complexity of rule ~quibble_specific.63.1- a: 1
-        rule: 320  ~quibble_specific.64.0 s: 
-          line: 324 0  # I hope I didn't! 
-          Complexity of rule ~quibble_specific.64.0- s: 1
-        rule: 327  ~quibble_specific.65.0 s: 
-          line: 332 0  # Oops. Did I say something wron
+        rule: 322  ~quibble_specific.64.0 u: 
+          line: 323 0  # There's not a great many thing
+          line: 324 61  # Well, besides Manifesting, whi
+          Complexity of rule ~quibble_specific.64.0- u: 1
+        rule: 325  ~quibble_specific.64.1 a: 
+          line: 325 0  # You know. My mum. 
+          Complexity of rule ~quibble_specific.64.1- a: 1
+        rule: 328  ~quibble_specific.65.0 s: 
+          line: 332 0  # I hope I didn't! 
           Complexity of rule ~quibble_specific.65.0- s: 1
-        rule: 335  ~quibble_specific.66.0 ?: 
-          line: 339 0  # Sure, if you'll tell me. 
-          Complexity of rule ~quibble_specific.66.0- ?: 1
-        rule: 342  ~quibble_specific.67.0 s: 
-          line: 342 0  # Hehe, I try. 
-          Complexity of rule ~quibble_specific.67.0- s: 1
-        rule: 345  ~quibble_specific.68.0 s: 
-          line: 351 0  # I know I shouldn't. Envy comes
+        rule: 335  ~quibble_specific.66.0 s: 
+          line: 340 0  # Oops. Did I say something wron
+          Complexity of rule ~quibble_specific.66.0- s: 1
+        rule: 343  ~quibble_specific.67.0 ?: 
+          line: 347 0  # Sure, if you'll tell me. 
+          Complexity of rule ~quibble_specific.67.0- ?: 1
+        rule: 350  ~quibble_specific.68.0 s: 
+          line: 350 0  # Hehe, I try. 
           Complexity of rule ~quibble_specific.68.0- s: 1
-        rule: 354  ~quibble_specific.69.0 u: 
-          line: 354 0  # I don't know. Feeling isn't my
-          Complexity of rule ~quibble_specific.69.0- u: 1
-        rule: 357  ~quibble_specific.70.0 u: 
-          line: 357 0  # That's the question, eh? 
+        rule: 353  ~quibble_specific.69.0 s: 
+          line: 359 0  # I know I shouldn't. Envy comes
+          Complexity of rule ~quibble_specific.69.0- s: 1
+        rule: 362  ~quibble_specific.70.0 u: 
+          line: 362 0  # I don't know. Feeling isn't my
           Complexity of rule ~quibble_specific.70.0- u: 1
-        rule: 361  ~quibble_specific.71.0 u: 
-          line: 361 0  # But can you get while the gett
+        rule: 365  ~quibble_specific.71.0 u: 
+          line: 365 0  # That's the question, eh? 
           Complexity of rule ~quibble_specific.71.0- u: 1
-        rule: 364  ~quibble_specific.72.0 s: 
-          line: 364 0  # How sweet it is, eh? 
-          Complexity of rule ~quibble_specific.72.0- s: 1
-        rule: 367  ~quibble_specific.73.0 u: 
-          line: 367 0  # I wouldn't actually whip mysel
-          line: 368 57  # Unless we're filming a strange
-          Complexity of rule ~quibble_specific.73.0- u: 1
-        rule: 371  ~quibble_specific.74.0 s: 
-          line: 371 0  # And whip it good? 
-          Complexity of rule ~quibble_specific.74.0- s: 1
-        rule: 374  ~quibble_specific.75.0 u: 
-          line: 378 0  # I suppose you did say that. So
-          Complexity of rule ~quibble_specific.75.0- u: 1
-        rule: 381  ~quibble_specific.76.0 u: 
-          line: 395 0  # The first day we met was a mag
+        rule: 369  ~quibble_specific.72.0 u: 
+          line: 369 0  # But can you get while the gett
+          Complexity of rule ~quibble_specific.72.0- u: 1
+        rule: 372  ~quibble_specific.73.0 s: 
+          line: 372 0  # How sweet it is, eh? 
+          Complexity of rule ~quibble_specific.73.0- s: 1
+        rule: 375  ~quibble_specific.74.0 u: 
+          line: 375 0  # I wouldn't actually whip mysel
+          line: 376 57  # Unless we're filming a strange
+          Complexity of rule ~quibble_specific.74.0- u: 1
+        rule: 379  ~quibble_specific.75.0 s: 
+          line: 379 0  # And whip it good? 
+          Complexity of rule ~quibble_specific.75.0- s: 1
+        rule: 382  ~quibble_specific.76.0 u: 
+          line: 386 0  # I suppose you did say that. So
           Complexity of rule ~quibble_specific.76.0- u: 1
-        rule: 398  ~quibble_specific.77.0 u: 
-          line: 398 0  # When you're gone...that's some
+        rule: 389  ~quibble_specific.77.0 u: 
+          line: 403 0  # The first day we met was a mag
           Complexity of rule ~quibble_specific.77.0- u: 1
-        rule: 400  ~quibble_specific.78.0 u: 
-          line: 400 0  # ^usercap ( ) , don't think abo
+        rule: 406  ~quibble_specific.78.0 u: 
+          line: 406 0  # When you're gone...that's some
           Complexity of rule ~quibble_specific.78.0- u: 1
-        rule: 403  ~quibble_specific.79.0 s: 
-          line: 403 0  # Yes, let's. I know that we wil
-          Complexity of rule ~quibble_specific.79.0- s: 1
-        rule: 406  ~quibble_specific.80.0 s: 
-          line: 410 0  # I suppose so. One of many thin
+        rule: 408  ~quibble_specific.79.0 u: 
+          line: 408 0  # ^usercap ( ) , don't think abo
+          Complexity of rule ~quibble_specific.79.0- u: 1
+        rule: 411  ~quibble_specific.80.0 s: 
+          line: 411 0  # Yes, let's. I know that we wil
           Complexity of rule ~quibble_specific.80.0- s: 1
-        rule: 414  ~quibble_specific.81.0 u: 
-          line: 414 0  # ^keep ( ) 
-          Complexity of rule ~quibble_specific.81.0- u: 1
+        rule: 414  ~quibble_specific.81.0 s: 
+          line: 418 0  # I suppose so. One of many thin
+          Complexity of rule ~quibble_specific.81.0- s: 1
+        rule: 422  ~quibble_specific.82.0 u: 
+          line: 422 0  # ^keep ( ) 
+          Complexity of rule ~quibble_specific.82.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_stuff.top
     topic: 4  ~quibble_stuff
         rule: 8  ~quibble_stuff.0.0 u: 
@@ -47211,8 +47241,11 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
           Complexity of rule ~quibble_stuff.96.0- u: 1
         rule: 249  ~quibble_stuff.97.0 u: 
           line: 249 0  # Crumpets, yes. They don't eat 
-          line: 250 124  # $$quotes = 
+          line: 250 124  # $$quotes = 1 
           Complexity of rule ~quibble_stuff.97.0- u: 1
+        rule: 252  ~quibble_stuff.98.0 u: 
+          line: 252 0  # Is that a Japanese word or 
+          Complexity of rule ~quibble_stuff.98.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/what.top
     topic: 1  ~quibble_what
         rule: 5  ~quibble_what.0.0 ?: 
