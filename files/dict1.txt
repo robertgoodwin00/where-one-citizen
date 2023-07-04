@@ -133,6 +133,7 @@
 ^ `Rogue`   x01000000   80000008      @     @   0   `` 3
 ^ `Good`   @     P     @   0   `` 5
 ^ `Worms`   x01000000   80000008      @     @   0   `` 4
+^ `Cities`   x00000000   80000004      @     @   0   `` 5
 ^ `Pirates`   x01000000   80000008      @     @   0   `` 11
 ^ `Labyrinth`   @     P     @   0   `` 3
 ^ `You`   @     P     @   0   `` 9
@@ -405,11 +406,14 @@
 ^ `your_sister`   0     P     0   0   `` 
 ^ `your_sis`   0     P     0   0   `` 
 ^ `cheree_'s_sister`   0     P     0   0   `` 
+^ `her_sister`   0     P     0   0   `` 
 ^ `Ripper`   0     0     x00002000   0   `` 
 ^ `Leather_Apron`   0     P     x00002000   0   `` 
 ^ `Martha_Tabram`   0     P     x00002000   0   `` 
 ^ `martha`   0     P     0   0   `` 
 ^ `Tabram`   0     P     x00002000   0   `` 
+^ `the_prostitute`   0     P     0   0   `` 
+^ `the_hooker`   0     P     0   0   `` 
 ^ `mellen`   0     P     0   0   `` 
 ^ `mel`   0     P     0   0   `` 
 ^ `weeb`   0     P     0   0   `` 
@@ -510,7 +514,6 @@
 ^ `vinci`   0     P     0   0   `` 
 ^ `turing`   0     P     0   0   `` 
 ^ `copernicus`   0     P     0   0   `` 
-^ `bohr`   0     P     0   0   `` 
 ^ `planck`   0     P     0   0   `` 
 ^ `feynman`   0     P     0   0   `` 
 ^ `dawkins`   0     P     0   0   `` 
@@ -518,6 +521,7 @@
 ^ `goodall`   0     P     0   0   `` 
 ^ `sagan`   0     P     0   0   `` 
 ^ `descartes`   0     P     0   0   `` 
+^ `bohr`   0     P     0   0   `` 
 ^ `Carl_Friedrich_Gauss`   0     P     x00002000   0   `` 
 ^ `hoops`   x00002000   c0000010      0     0   0   `` 
 ^ `veggies`   x00000000   80000010      0     0   0   `` 
@@ -683,7 +687,6 @@
 ^ `Prejudice`   0     P     x00002000   0   `` 
 ^ `Hobbit`   0     P     x00002000   0   `` 
 ^ `improv`   0     P     0   0   `` 
-^ `her_sister`   0     P     0   0   `` 
 ^ `dancing~n`   0     P     0   0   `` 
 ^ `bad_dream`   0     P     0   0   `` 
 ^ `mma`   0     P     0   0   `` 
@@ -965,6 +968,7 @@
 ^ `duggans_home`   0     P     0   0   `` 
 ^ `Greenwich_Industrial`   0     P     x00002000   0   `` 
 ^ `industrial_sector`   0     P     0   0   `` 
+^ `Manifestation`   0     P     x00002000   0   `` 
 ^ `arnold`   0     P     0   0   `` 
 ^ `frigid_wilderness`   0     P     0   0   `` 
 ^ `Matley_Bog`   x01000000   80000008      0     x00002000   0   `` 
@@ -1344,6 +1348,7 @@
 ^ `how_much`   0     P     0   0   `` 
 ^ `which_be`   0     P     0   0   `` 
 ^ `fly~v`   0     P     0   0   `` 
+^ `move~v`   0     P     0   0   `` 
 ^ `saw~v`   0     P     0   0   `` 
 ^ `nikola`   0     P     0   0   `` 
 ^ `die~v`   0     P     0   0   `` 
@@ -1382,6 +1387,7 @@
 ^ `thanat`   0     P     0   0   `` 
 ^ `robbity`   0     P     0   0   `` 
 ^ `Bangles`   0     P     x00002000   0   `` 
+^ `cities`   0     P     0   0   `` 
 ^ `mulder`   0     P     0   0   `` 
 ^ `scully`   0     P     0   0   `` 
 ^ `x-files`   0     P     0   0   `` 
