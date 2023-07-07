@@ -3231,423 +3231,430 @@
 "complexity" : 1
 },
 {
+"rule" : "3.2",
+"kind" : "a:",
+"line" : 40,
+"complexity" : 1
+},
+{
 "rule" : "4.0",
 "kind" : "?:",
-"line" : 42,
+"label" : "WHEN_DID_YOU_DIE",
+"line" : 43,
 "complexity" : 1
 },
 {
 "rule" : "4.1",
 "kind" : "a:",
-"line" : 57,
+"line" : 58,
 "complexity" : 1
 },
 {
 "rule" : "4.2",
 "kind" : "a:",
-"line" : 59,
+"line" : 60,
 "complexity" : 1
 },
 {
 "rule" : "4.3",
 "kind" : "b:",
-"line" : 60,
+"line" : 61,
 "complexity" : 1
 },
 {
 "rule" : "4.4",
 "kind" : "b:",
-"line" : 61,
+"line" : 62,
 "complexity" : 1
 },
 {
 "rule" : "5.0",
 "kind" : "?:",
-"line" : 64,
+"line" : 65,
 "complexity" : 1
 },
 {
 "rule" : "5.1",
 "kind" : "a:",
-"line" : 79,
+"line" : 80,
 "complexity" : 1
 },
 {
 "rule" : "5.2",
 "kind" : "a:",
-"line" : 80,
+"line" : 81,
 "complexity" : 1
 },
 {
 "rule" : "5.3",
 "kind" : "a:",
-"line" : 81,
+"line" : 82,
 "complexity" : 1
 },
 {
 "rule" : "5.4",
 "kind" : "b:",
-"line" : 82,
+"line" : 83,
 "complexity" : 1
 },
 {
 "rule" : "5.5",
 "kind" : "b:",
-"line" : 83,
+"line" : 84,
 "complexity" : 1
 },
 {
 "rule" : "6.0",
 "kind" : "u:",
-"line" : 88,
+"line" : 89,
 "complexity" : 1
 },
 {
 "rule" : "7.0",
 "kind" : "?:",
-"line" : 97,
+"line" : 98,
 "complexity" : 1
 },
 {
 "rule" : "7.1",
 "kind" : "a:",
-"line" : 108,
+"line" : 109,
 "complexity" : 1
 },
 {
 "rule" : "7.2",
 "kind" : "a:",
-"line" : 109,
+"line" : 110,
 "complexity" : 1
 },
 {
 "rule" : "8.0",
 "kind" : "u:",
 "label" : "YOU_LIKE_BEING_DEAD",
-"line" : 112,
+"line" : 113,
 "complexity" : 1
 },
 {
 "rule" : "8.1",
 "kind" : "a:",
-"line" : 125,
+"line" : 126,
 "complexity" : 1
 },
 {
 "rule" : "9.0",
 "kind" : "?:",
 "label" : "PERKS_OF_BEING_DEAD",
-"line" : 128,
+"line" : 129,
 "complexity" : 1
 },
 {
 "rule" : "10.0",
 "kind" : "u:",
-"line" : 143,
+"line" : 144,
 "complexity" : 1
 },
 {
 "rule" : "11.0",
 "kind" : "u:",
-"line" : 153,
+"line" : 154,
 "complexity" : 1
 },
 {
 "rule" : "12.0",
 "kind" : "u:",
-"line" : 157,
+"line" : 158,
 "complexity" : 1
 },
 {
 "rule" : "13.0",
 "kind" : "u:",
-"line" : 163,
+"line" : 164,
 "complexity" : 1
 },
 {
 "rule" : "13.1",
 "kind" : "a:",
-"line" : 169,
+"line" : 170,
 "complexity" : 1
 },
 {
 "rule" : "14.0",
 "kind" : "u:",
-"line" : 172,
+"line" : 173,
 "complexity" : 1
 },
 {
 "rule" : "15.0",
 "kind" : "u:",
-"line" : 181,
+"line" : 182,
 "complexity" : 1
 },
 {
 "rule" : "15.1",
 "kind" : "a:",
-"line" : 184,
+"line" : 185,
 "complexity" : 1
 },
 {
 "rule" : "16.0",
 "kind" : "?:",
-"line" : 187,
+"line" : 188,
 "complexity" : 1
 },
 {
 "rule" : "17.0",
 "kind" : "u:",
-"line" : 195,
+"line" : 196,
 "complexity" : 1
 },
 {
 "rule" : "17.1",
 "kind" : "a:",
-"line" : 200,
+"line" : 201,
 "complexity" : 1
 },
 {
 "rule" : "18.0",
 "kind" : "u:",
-"line" : 204,
+"line" : 205,
 "complexity" : 1
 },
 {
 "rule" : "19.0",
 "kind" : "u:",
-"line" : 207,
+"line" : 208,
 "complexity" : 1
 },
 {
 "rule" : "20.0",
 "kind" : "u:",
-"line" : 209,
+"line" : 210,
 "complexity" : 1
 },
 {
 "rule" : "21.0",
 "kind" : "u:",
-"line" : 212,
+"line" : 213,
 "complexity" : 1
 },
 {
 "rule" : "22.0",
 "kind" : "s:",
-"line" : 220,
+"line" : 221,
 "complexity" : 1
 },
 {
 "rule" : "23.0",
 "kind" : "u:",
-"line" : 227,
+"line" : 228,
 "complexity" : 1
 },
 {
 "rule" : "24.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_DROWNING",
-"line" : 231,
+"line" : 232,
 "complexity" : 1
 },
 {
 "rule" : "25.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_DISEASE",
-"line" : 235,
+"line" : 236,
 "complexity" : 1
 },
 {
 "rule" : "26.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_SURGERY",
-"line" : 239,
+"line" : 240,
 "complexity" : 1
 },
 {
 "rule" : "27.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_POISON",
-"line" : 243,
+"line" : 244,
 "complexity" : 1
 },
 {
 "rule" : "28.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_OLD_AGE",
-"line" : 247,
+"line" : 248,
 "complexity" : 1
 },
 {
 "rule" : "29.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_ACCIDENT",
-"line" : 251,
+"line" : 252,
 "complexity" : 1
 },
 {
 "rule" : "30.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_SHOOTING",
-"line" : 255,
+"line" : 256,
 "complexity" : 1
 },
 {
 "rule" : "31.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_HANGING",
-"line" : 259,
+"line" : 260,
 "complexity" : 1
 },
 {
 "rule" : "32.0",
 "kind" : "u:",
 "label" : "DID_YOU_DIE_OF_STABBING",
-"line" : 263,
+"line" : 264,
 "complexity" : 1
 },
 {
 "rule" : "33.0",
 "kind" : "s:",
-"line" : 267,
+"line" : 268,
 "complexity" : 1
 },
 {
 "rule" : "34.0",
 "kind" : "u:",
-"line" : 270,
+"line" : 271,
 "complexity" : 1
 },
 {
 "rule" : "35.0",
 "kind" : "s:",
-"line" : 273,
+"line" : 274,
 "complexity" : 1
 },
 {
 "rule" : "36.0",
 "kind" : "u:",
-"line" : 276,
+"line" : 277,
 "complexity" : 1
 },
 {
 "rule" : "37.0",
 "kind" : "t:",
-"line" : 281,
+"line" : 282,
 "complexity" : 1
 },
 {
 "rule" : "38.0",
 "kind" : "t:",
 "label" : "I_NEED_HELP",
-"line" : 284,
+"line" : 285,
 "complexity" : 1
 },
 {
 "rule" : "38.1",
 "kind" : "a:",
-"line" : 286,
+"line" : 287,
 "complexity" : 1
 },
 {
 "rule" : "38.2",
 "kind" : "b:",
-"line" : 288,
+"line" : 289,
 "complexity" : 1
 },
 {
 "rule" : "38.3",
 "kind" : "b:",
-"line" : 289,
+"line" : 290,
 "complexity" : 1
 },
 {
 "rule" : "39.0",
 "kind" : "t:",
-"line" : 291,
+"line" : 292,
 "complexity" : 1
 },
 {
 "rule" : "39.1",
 "kind" : "a:",
-"line" : 294,
+"line" : 295,
 "complexity" : 1
 },
 {
 "rule" : "39.2",
 "kind" : "a:",
-"line" : 295,
+"line" : 296,
 "complexity" : 1
 },
 {
 "rule" : "39.3",
 "kind" : "a:",
-"line" : 296,
+"line" : 297,
 "complexity" : 1
 },
 {
 "rule" : "39.4",
 "kind" : "a:",
-"line" : 297,
+"line" : 298,
 "complexity" : 1
 },
 {
 "rule" : "39.5",
 "kind" : "a:",
-"line" : 298,
+"line" : 299,
 "complexity" : 1
 },
 {
 "rule" : "40.0",
 "kind" : "t:",
-"line" : 300,
+"line" : 301,
 "complexity" : 1
 },
 {
 "rule" : "40.1",
 "kind" : "a:",
-"line" : 304,
+"line" : 305,
 "complexity" : 1
 },
 {
 "rule" : "41.0",
 "kind" : "t:",
-"line" : 306,
+"line" : 307,
 "complexity" : 1
 },
 {
 "rule" : "41.1",
 "kind" : "a:",
-"line" : 308,
+"line" : 309,
 "complexity" : 1
 },
 {
 "rule" : "41.2",
 "kind" : "b:",
-"line" : 312,
+"line" : 313,
 "complexity" : 1
 },
 {
 "rule" : "41.3",
 "kind" : "a:",
-"line" : 313,
+"line" : 314,
 "complexity" : 1
 },
 {
 "rule" : "42.0",
 "kind" : "t:",
-"line" : 315,
+"line" : 316,
 "complexity" : 1
 },
 {
 "rule" : "42.1",
 "kind" : "a:",
-"line" : 317,
+"line" : 318,
 "complexity" : 1
 },
 {
 "rule" : "43.0",
 "kind" : "t:",
-"line" : 319,
+"line" : 320,
 "complexity" : 1
 }]
 }
@@ -42061,88 +42068,94 @@
 "complexity" : 1
 },
 {
+"rule" : "22.7",
+"kind" : "a:",
+"line" : 108,
+"complexity" : 1
+},
+{
 "rule" : "23.0",
 "kind" : "t:",
-"line" : 109,
+"line" : 110,
 "complexity" : 1
 },
 {
 "rule" : "23.1",
 "kind" : "a:",
-"line" : 111,
+"line" : 112,
 "complexity" : 1
 },
 {
 "rule" : "24.0",
 "kind" : "t:",
 "label" : "TRIVIA_21",
-"line" : 113,
+"line" : 114,
 "complexity" : 1
 },
 {
 "rule" : "24.1",
 "kind" : "a:",
-"line" : 116,
+"line" : 117,
 "complexity" : 1
 },
 {
 "rule" : "24.2",
 "kind" : "a:",
-"line" : 117,
+"line" : 118,
 "complexity" : 1
 },
 {
 "rule" : "24.3",
 "kind" : "a:",
-"line" : 120,
+"line" : 121,
 "complexity" : 1
 },
 {
 "rule" : "25.0",
 "kind" : "t:",
-"line" : 122,
+"line" : 123,
 "complexity" : 1
 },
 {
 "rule" : "25.1",
 "kind" : "a:",
-"line" : 125,
+"line" : 126,
 "complexity" : 1
 },
 {
 "rule" : "25.2",
 "kind" : "a:",
-"line" : 126,
+"line" : 127,
 "complexity" : 1
 },
 {
 "rule" : "26.0",
 "kind" : "t:",
-"line" : 128,
+"line" : 129,
 "complexity" : 1
 },
 {
 "rule" : "26.1",
 "kind" : "a:",
-"line" : 137,
+"line" : 138,
 "complexity" : 1
 },
 {
 "rule" : "26.2",
 "kind" : "a:",
-"line" : 138,
+"line" : 139,
 "complexity" : 1
 },
 {
 "rule" : "27.0",
 "kind" : "t:",
-"line" : 141,
+"line" : 142,
 "complexity" : 1
 },
 {
 "rule" : "27.1",
 "kind" : "a:",
-"line" : 143,
+"line" : 144,
 "complexity" : 1
 }]
 }
@@ -58270,6 +58283,12 @@
 "rule" : "65.0",
 "kind" : "u:",
 "line" : 438,
+"complexity" : 1
+},
+{
+"rule" : "66.0",
+"kind" : "u:",
+"line" : 445,
 "complexity" : 1
 }]
 }
@@ -84313,6 +84332,24 @@
 "rule" : "100.0",
 "kind" : "u:",
 "line" : 259,
+"complexity" : 1
+},
+{
+"rule" : "101.0",
+"kind" : "u:",
+"line" : 261,
+"complexity" : 1
+},
+{
+"rule" : "101.1",
+"kind" : "a:",
+"line" : 262,
+"complexity" : 1
+},
+{
+"rule" : "102.0",
+"kind" : "u:",
+"line" : 264,
 "complexity" : 1
 }]
 }
