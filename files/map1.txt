@@ -5152,96 +5152,99 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/scrapbook.t
         rule: 141  ~scrapbook.27.0 t: 
           line: 141 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~scrapbook.27.0- t: 1
-        rule: 143  ~scrapbook.28.0 t: 
-          line: 144 0  # ^usercap ( ) , ^user ( ) ! Mel
-          line: 145 123  # that contained writings of her
-          line: 146 243  # $$a_code = 28 
+        rule: 142  ~scrapbook.28.0 t: 
+          line: 142 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~scrapbook.28.0- t: 1
-        rule: 147  ~scrapbook.28.1 a: 
-          line: 147 0  # Mel says the scrapbook ought t
-          Complexity of rule ~scrapbook.28.1- a: 1
-        rule: 148  ~scrapbook.28.2 b: 
-          line: 148 0  # I think that's it! That tan sc
-          line: 149 85  # scrapbook she means. Oh, if on
-          line: 150 167  # $$a_code = 28 
-          Complexity of rule ~scrapbook.28.2- b: 1
-        rule: 151  ~scrapbook.28.3 c: 
-          line: 151 0  # Well this is a bit of a sticky
-          line: 152 88  # You could if you were here, ^u
-          line: 153 201  # $$halt = 1 
-          Complexity of rule ~scrapbook.28.3- c: 1
-        rule: 154  ~scrapbook.28.4 d: 
-          line: 154 0  # Do you not have any ideas eith
-          Complexity of rule ~scrapbook.28.4- d: 1
-        rule: 158  ~scrapbook.29.0 t: 
-          line: 158 0  # We have to try something. What
-          line: 159 80  # $$halt = 1 
+        rule: 145  ~scrapbook.29.0 t: 
+          line: 146 0  # ^usercap ( ) , ^user ( ) ! Mel
+          line: 147 123  # that contained writings of her
+          line: 148 243  # $$a_code = 28 
           Complexity of rule ~scrapbook.29.0- t: 1
-        rule: 160  ~scrapbook.29.1 a: 
-          line: 160 0  # I don't know either. Should I 
+        rule: 149  ~scrapbook.29.1 a: 
+          line: 149 0  # Mel says the scrapbook ought t
           Complexity of rule ~scrapbook.29.1- a: 1
-        rule: 161  ~scrapbook.29.2 a: 
-          line: 161 0  # So that we can read it! 
-          Complexity of rule ~scrapbook.29.2- a: 1
-        rule: 163  ~scrapbook.30.0 t: 
-          line: 163 0  # A devil would have no problem 
-          line: 164 53  # But the Phantakine energy in n
-          line: 165 125  # Nor is the gift of Manifesting
-          line: 166 174  # $$it_pronoun = Phantakine 
+        rule: 150  ~scrapbook.29.2 b: 
+          line: 150 0  # I think that's it! That tan sc
+          line: 151 85  # scrapbook she means. Oh, if on
+          line: 152 167  # $$a_code = 28 
+          Complexity of rule ~scrapbook.29.2- b: 1
+        rule: 153  ~scrapbook.29.3 c: 
+          line: 153 0  # Well this is a bit of a sticky
+          line: 154 88  # You could if you were here, ^u
+          line: 155 201  # $$halt = 1 
+          Complexity of rule ~scrapbook.29.3- c: 1
+        rule: 156  ~scrapbook.29.4 d: 
+          line: 156 0  # Do you not have any ideas eith
+          Complexity of rule ~scrapbook.29.4- d: 1
+        rule: 160  ~scrapbook.30.0 t: 
+          line: 160 0  # We have to try something. What
+          line: 161 80  # $$halt = 1 
           Complexity of rule ~scrapbook.30.0- t: 1
-        rule: 167  ~scrapbook.30.1 a: 
-          line: 167 0  # A devil can wield stronger Pha
+        rule: 162  ~scrapbook.30.1 a: 
+          line: 162 0  # I don't know either. Should I 
           Complexity of rule ~scrapbook.30.1- a: 1
-        rule: 169  ~scrapbook.31.0 t: 
-          line: 169 0  # How to get that scrapbook down
-          line: 170 72  # $$halt = 1 
+        rule: 163  ~scrapbook.30.2 a: 
+          line: 163 0  # So that we can read it! 
+          Complexity of rule ~scrapbook.30.2- a: 1
+        rule: 165  ~scrapbook.31.0 t: 
+          line: 165 0  # A devil would have no problem 
+          line: 166 53  # But the Phantakine energy in n
+          line: 167 125  # Nor is the gift of Manifesting
+          line: 168 174  # $$it_pronoun = Phantakine 
           Complexity of rule ~scrapbook.31.0- t: 1
-        rule: 171  ~scrapbook.31.1 a: 
-          line: 171 0  # Yes, that is the question. Hmm
+        rule: 169  ~scrapbook.31.1 a: 
+          line: 169 0  # A devil can wield stronger Pha
           Complexity of rule ~scrapbook.31.1- a: 1
-        rule: 173  ~scrapbook.32.0 t: 
-          line: 173 0  # A devil could do it but as for
+        rule: 171  ~scrapbook.32.0 t: 
+          line: 171 0  # How to get that scrapbook down
+          line: 172 72  # $$halt = 1 
           Complexity of rule ~scrapbook.32.0- t: 1
+        rule: 173  ~scrapbook.32.1 a: 
+          line: 173 0  # Yes, that is the question. Hmm
+          Complexity of rule ~scrapbook.32.1- a: 1
         rule: 175  ~scrapbook.33.0 t: 
-          line: 175 0  # We have to get that scrapbook 
+          line: 175 0  # A devil could do it but as for
           Complexity of rule ~scrapbook.33.0- t: 1
         rule: 177  ~scrapbook.34.0 t: 
-          line: 177 0  # A certain type of force or ene
+          line: 177 0  # We have to get that scrapbook 
           Complexity of rule ~scrapbook.34.0- t: 1
         rule: 179  ~scrapbook.35.0 t: 
-          line: 179 0  # Phantakine couldn't possibly w
-          line: 180 46  # $$halt = 1 
+          line: 179 0  # A certain type of force or ene
           Complexity of rule ~scrapbook.35.0- t: 1
-        rule: 181  ~scrapbook.35.1 a: 
-          line: 181 0  # Could it? 
-          Complexity of rule ~scrapbook.35.1- a: 1
-        rule: 182  ~scrapbook.35.2 a: 
-          line: 182 0  # I wouldn't think that it could
-          Complexity of rule ~scrapbook.35.2- a: 1
-        rule: 184  ~scrapbook.36.0 t: 
-          line: 184 0  # What energy could I use. 
+        rule: 181  ~scrapbook.36.0 t: 
+          line: 181 0  # Phantakine couldn't possibly w
+          line: 182 46  # $$halt = 1 
           Complexity of rule ~scrapbook.36.0- t: 1
+        rule: 183  ~scrapbook.36.1 a: 
+          line: 183 0  # Could it? 
+          Complexity of rule ~scrapbook.36.1- a: 1
+        rule: 184  ~scrapbook.36.2 a: 
+          line: 184 0  # I wouldn't think that it could
+          Complexity of rule ~scrapbook.36.2- a: 1
         rule: 186  ~scrapbook.37.0 t: 
-          line: 186 0  # Mel is saying I should try to 
+          line: 186 0  # What energy could I use. 
           Complexity of rule ~scrapbook.37.0- t: 1
         rule: 188  ~scrapbook.38.0 t: 
-          line: 188 0  # I don't know of any other type
+          line: 188 0  # Mel is saying I should try to 
           Complexity of rule ~scrapbook.38.0- t: 1
         rule: 190  ~scrapbook.39.0 t: 
-          line: 190 0  # Hmm. ^usercap ( ) , do you hav
+          line: 190 0  # I don't know of any other type
           Complexity of rule ~scrapbook.39.0- t: 1
-        rule: 191  ~scrapbook.39.1 a: 
-          line: 191 0  # Nothing comes to mind? Hmm. 
-          Complexity of rule ~scrapbook.39.1- a: 1
-        rule: 193  ~scrapbook.40.0 t: 
-          line: 193 0  # There's only one energy that c
+        rule: 192  ~scrapbook.40.0 t: 
+          line: 192 0  # Hmm. ^usercap ( ) , do you hav
           Complexity of rule ~scrapbook.40.0- t: 1
+        rule: 193  ~scrapbook.40.1 a: 
+          line: 193 0  # Nothing comes to mind? Hmm. 
+          Complexity of rule ~scrapbook.40.1- a: 1
         rule: 195  ~scrapbook.41.0 t: 
-          line: 195 0  # But only a devil has access to
+          line: 195 0  # There's only one energy that c
           Complexity of rule ~scrapbook.41.0- t: 1
         rule: 197  ~scrapbook.42.0 t: 
-          line: 197 0  # It's got to be that then. But 
+          line: 197 0  # But only a devil has access to
           Complexity of rule ~scrapbook.42.0- t: 1
+        rule: 199  ~scrapbook.43.0 t: 
+          line: 199 0  # It's got to be that then. But 
+          Complexity of rule ~scrapbook.43.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/truth0.top
     topic: 4  ~truth0
         rule: 8  ~truth0.0.0-FIRST_CLUE t: 
@@ -5655,6 +5658,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/truth1.top
         rule: 256  ~truth1.13.1 a: 
           line: 256 0  # If I lose the ability to Manif
           Complexity of rule ~truth1.13.1- a: 1
+        rule: 258  ~truth1.14.0 t: 
+          line: 258 0  # Anyway, if we missed a clue so
+          Complexity of rule ~truth1.14.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/truth2.top
     topic: 4  ~truth2
         rule: 6  ~truth2.0.0 u: 
@@ -5877,11 +5883,11 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/truth3.top
           ifend 76 1036  
           line: 76 979  # ^if 00h( $pc_hobby ) 00B{ Your
           if 77 1041  
-          ifend 77 1093  
-          line: 77 1037  # ^if 00h( $pc_dream ) 00A{ Your
-          if 78 1098  
-          ifend 78 1154  
-          line: 78 1094  # ^if 00l( $pc_like_misc ) 00A{ 
+          ifend 77 1094  
+          line: 77 1037  # ^if 00h( $pc_dream ) 00B{ Your
+          if 78 1099  
+          ifend 78 1155  
+          line: 78 1095  # ^if 00l( $pc_like_misc ) 00A{ 
           Complexity of rule ~truth3.7.0- t: 17
         rule: 82  ~truth3.8.0 t: 
           line: 82 0  # All these are among the qualit
@@ -13102,54 +13108,55 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/qualities/musical
           Complexity of rule ~instruments.4.8- c: 1
         rule: 55  ~instruments.4.9 b: 
           line: 55 0  # You can drum? That's ace. It l
+          line: 56 80  # $pc_instrument = drums 
           Complexity of rule ~instruments.4.9- b: 1
-        rule: 56  ~instruments.4.10 b: 
-          line: 56 0  # How smashing! You can wake you
+        rule: 57  ~instruments.4.10 b: 
+          line: 57 0  # How smashing! You can wake you
           Complexity of rule ~instruments.4.10- b: 1
-        rule: 57  ~instruments.4.11 b: 
-          line: 57 0  # Wow. Trombones are so long and
+        rule: 58  ~instruments.4.11 b: 
+          line: 58 0  # Wow. Trombones are so long and
           Complexity of rule ~instruments.4.11- b: 1
-        rule: 58  ~instruments.4.12 b: 
-          line: 58 0  # That's a hefty instrument! If 
+        rule: 59  ~instruments.4.12 b: 
+          line: 59 0  # That's a hefty instrument! If 
           Complexity of rule ~instruments.4.12- b: 1
-        rule: 59  ~instruments.4.13 b: 
-          line: 59 0  # Now THAT's an instrument. Fren
+        rule: 60  ~instruments.4.13 b: 
+          line: 60 0  # Now THAT's an instrument. Fren
           Complexity of rule ~instruments.4.13- b: 1
-        rule: 60  ~instruments.4.14 b: 
-          line: 60 0  # Alto or tenor, did you say? No
+        rule: 61  ~instruments.4.14 b: 
+          line: 61 0  # Alto or tenor, did you say? No
           Complexity of rule ~instruments.4.14- b: 1
-        rule: 61  ~instruments.4.15 c: 
-          line: 61 0  # Alto sax? Okay. Spiffy! 
+        rule: 62  ~instruments.4.15 c: 
+          line: 62 0  # Alto sax? Okay. Spiffy! 
           Complexity of rule ~instruments.4.15- c: 1
-        rule: 62  ~instruments.4.16 c: 
-          line: 62 0  # Tenor sax? Okay. Spiffy! 
+        rule: 63  ~instruments.4.16 c: 
+          line: 63 0  # Tenor sax? Okay. Spiffy! 
           Complexity of rule ~instruments.4.16- c: 1
-        rule: 63  ~instruments.4.17 b: 
-          line: 63 0  # Spiffy! Violin has a very fami
+        rule: 64  ~instruments.4.17 b: 
+          line: 64 0  # Spiffy! Violin has a very fami
           Complexity of rule ~instruments.4.17- b: 1
-        rule: 64  ~instruments.4.18 b: 
-          line: 64 0  # Cello, wow! Such a girthy inst
+        rule: 65  ~instruments.4.18 b: 
+          line: 65 0  # Cello, wow! Such a girthy inst
           Complexity of rule ~instruments.4.18- b: 1
-        rule: 65  ~instruments.4.19 b: 
-          line: 65 0  # You can play the harp, really?
+        rule: 66  ~instruments.4.19 b: 
+          line: 66 0  # You can play the harp, really?
           Complexity of rule ~instruments.4.19- b: 1
-        rule: 66  ~instruments.4.20 b: 
-          line: 66 0  # Oboe is nice. Kind of similar 
+        rule: 67  ~instruments.4.20 b: 
+          line: 67 0  # Oboe is nice. Kind of similar 
           Complexity of rule ~instruments.4.20- b: 1
-        rule: 67  ~instruments.4.21 b: 
-          line: 67 0  # Oh. Watch out for the Curse of
+        rule: 68  ~instruments.4.21 b: 
+          line: 68 0  # Oh. Watch out for the Curse of
           Complexity of rule ~instruments.4.21- b: 1
-        rule: 68  ~instruments.4.22 c: 
-          line: 68 0  # ^reuse ( ~violin.CURSE_OF_CLAR
+        rule: 69  ~instruments.4.22 c: 
+          line: 69 0  # ^reuse ( ~violin.CURSE_OF_CLAR
           Complexity of rule ~instruments.4.22- c: 1
-        rule: 69  ~instruments.4.23 b: 
-          line: 69 0  # So you ARE Scottish? 
+        rule: 70  ~instruments.4.23 b: 
+          line: 70 0  # So you ARE Scottish? 
           Complexity of rule ~instruments.4.23- b: 1
-        rule: 70  ~instruments.4.24 b: 
-          line: 70 0  # That's so spiffy! Is it a magi
+        rule: 71  ~instruments.4.24 b: 
+          line: 71 0  # That's so spiffy! Is it a magi
           Complexity of rule ~instruments.4.24- b: 1
-        rule: 71  ~instruments.4.25 b: 
-          line: 71 0  # You can play the $pc_instrumen
+        rule: 72  ~instruments.4.25 b: 
+          line: 72 0  # You can play the $pc_instrumen
           Complexity of rule ~instruments.4.25- b: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/qualities/mythical_creatures.top
     topic: 2  ~creatures
@@ -15909,13 +15916,13 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/dreams.top
           line: 77 0  # $pc_dream = '_0 
           line: 78 16  # Is '_0 your dream, ^user ( ) ?
           Complexity of rule ~dreams.9.4- a: 1
-        rule: 79  ~dreams.9.5 a: 
+        rule: 79  ~dreams.9.5 b: 
           line: 79 0  # Oh. So it's not then. 
           line: 80 22  # $pc_dream = null 
-          Complexity of rule ~dreams.9.5- a: 1
-        rule: 81  ~dreams.9.6 a: 
+          Complexity of rule ~dreams.9.5- b: 1
+        rule: 81  ~dreams.9.6 b: 
           line: 81 0  # What a wonderful dream! I hope
-          Complexity of rule ~dreams.9.6- a: 1
+          Complexity of rule ~dreams.9.6- b: 1
         rule: 83  ~dreams.10.0 s: 
           line: 83 0  # ^reuse ( PC_DREAM ) 
           Complexity of rule ~dreams.10.0- s: 1
@@ -27652,7 +27659,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/40_Hong
         rule: 78  ~location40.14.0 t: 
           line: 78 0  # Hong Kong may not be free in t
           line: 79 90  # Or, the Hong Kong Special Admi
-          line: 80 188  # Whew, what a hefty a name. 
+          line: 80 188  # Whew, what a hefty name. 
           Complexity of rule ~location40.14.0- t: 1
         rule: 81  ~location40.14.1 a: 
           line: 81 0  # ^gambit ( ~location40 ) 
@@ -30100,63 +30107,109 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/_await_
           Complexity of rule ~await_location.0.27- a: 1
         rule: 124  ~await_location.0.28 b: 
           line: 124 0  # This is where I recalled that 
-          line: 125 66  # $$he_pronoun = ^join ( AUTOSPA
-          line: 126 113  # $$it_pronoun = ^join ( AUTOSPA
-          Complexity of rule ~await_location.0.28- b: 1
-        rule: 127  ~await_location.0.29 b: 
-          line: 127 0  # This is where they found my bo
-          line: 128 82  # $$they_pronoun = umbrellas 
-          Complexity of rule ~await_location.0.29- b: 1
-        rule: 129  ~await_location.0.30 b: 
-          line: 129 0  # This is where we got on the to
-          Complexity of rule ~await_location.0.30- b: 1
-        rule: 130  ~await_location.0.31 b: 
-          line: 130 0  # This is where Martha Tabram wa
-          line: 131 95  # $$she_pronoun = ^join ( AUTOSP
-          Complexity of rule ~await_location.0.31- b: 1
-        rule: 132  ~await_location.0.32 b: 
-          line: 132 0  # This is where I was telling yo
-          Complexity of rule ~await_location.0.32- b: 1
-        rule: 133  ~await_location.0.33 b: 
-          line: 133 0  # This is where I walked home th
-          line: 134 139  # $$it_pronoun = ^join ( AUTOSPA
-          Complexity of rule ~await_location.0.33- b: 1
-        rule: 135  ~await_location.0.34 b: 
-          line: 135 0  # This is where I told you about
-          line: 136 71  # $$he_pronoun = Burton 
-          Complexity of rule ~await_location.0.34- b: 1
-        rule: 137  ~await_location.0.35 b: 
-          line: 137 0  # This is where I remember takin
-          line: 138 64  # $$she_pronoun = Faith 
-          Complexity of rule ~await_location.0.35- b: 1
-        rule: 139  ~await_location.0.36 b: 
-          line: 139 0  # Here we are again in the study
-          line: 140 95  # What could it be? 
-          line: 141 113  # $$halt = 1 
-          Complexity of rule ~await_location.0.36- b: 1
-        rule: 142  ~await_location.0.37 c: 
-          line: 142 0  # There IS something here, isn't
-          Complexity of rule ~await_location.0.37- c: 1
-        rule: 143  ~await_location.0.38 b: 
-          line: 144 0  # [ Here we are again at $$alrea
-          line: 145 85  # [ Well here we are. $$already_
+          line: 125 133  # $$he_pronoun = ^join ( AUTOSPA
+          line: 126 180  # $$it_pronoun = ^join ( AUTOSPA
+          if 127 243  
+          line: 127 239  # ^if 00l( $cooldown < 8 ) aaa{ 
+          line: 128 269  # $cooldown = 8 
+          ifend 129 288  
+          line: 129 283  # } 004 
+          Complexity of rule ~await_location.0.28- b: 2
+        rule: 130  ~await_location.0.29 c: 
+          line: 130 0  # Yes, what should I remember ab
+          Complexity of rule ~await_location.0.29- c: 1
+        rule: 131  ~await_location.0.30 b: 
+          line: 131 0  # This is where they found my bo
+          line: 132 82  # $$they_pronoun = umbrellas 
+          if 133 113  
+          line: 133 109  # ^if 00l( $cooldown < 8 ) aaa{ 
+          line: 134 139  # $cooldown = 8 
+          ifend 135 158  
+          line: 135 153  # } 004 
+          Complexity of rule ~await_location.0.30- b: 2
+        rule: 136  ~await_location.0.31 b: 
+          line: 136 0  # This is where we got on the to
+          if 137 54  
+          line: 137 50  # ^if 00l( $cooldown < 8 ) aaa{ 
+          line: 138 80  # $cooldown = 8 
+          ifend 139 99  
+          line: 139 94  # } 004 
+          Complexity of rule ~await_location.0.31- b: 2
+        rule: 140  ~await_location.0.32 b: 
+          line: 140 0  # This is where Martha Tabram wa
+          line: 141 95  # $$she_pronoun = ^join ( AUTOSP
+          if 142 149  
+          line: 142 145  # ^if 00l( $cooldown < 8 ) aaa{ 
+          line: 143 175  # $cooldown = 8 
+          ifend 144 194  
+          line: 144 189  # } 004 
+          Complexity of rule ~await_location.0.32- b: 2
+        rule: 145  ~await_location.0.33 b: 
+          line: 145 0  # This is where I was telling yo
+          if 146 121  
+          line: 146 117  # ^if 00l( $cooldown < 8 ) aaa{ 
+          line: 147 147  # $cooldown = 8 
+          ifend 148 166  
+          line: 148 161  # } 004 
+          Complexity of rule ~await_location.0.33- b: 2
+        rule: 149  ~await_location.0.34 c: 
+          line: 149 0  # Ah, I'm trying to remember. So
+          Complexity of rule ~await_location.0.34- c: 1
+        rule: 150  ~await_location.0.35 b: 
+          line: 150 0  # This is where I walked home th
+          line: 151 139  # $$it_pronoun = ^join ( AUTOSPA
+          if 152 194  
+          line: 152 190  # ^if 00l( $cooldown < 8 ) aaa{ 
+          line: 153 220  # $cooldown = 8 
+          ifend 154 239  
+          line: 154 234  # } 004 
+          Complexity of rule ~await_location.0.35- b: 2
+        rule: 155  ~await_location.0.36 b: 
+          line: 155 0  # This is where I told you about
+          line: 156 111  # $$he_pronoun = Burton 
+          if 157 137  
+          line: 157 133  # ^if 00l( $cooldown < 8 ) aaa{ 
+          line: 158 163  # $cooldown = 8 
+          ifend 159 182  
+          line: 159 177  # } 004 
+          Complexity of rule ~await_location.0.36- b: 2
+        rule: 160  ~await_location.0.37 b: 
+          line: 160 0  # This is where I remember takin
+          line: 161 87  # $$she_pronoun = Faith 
+          if 162 113  
+          line: 162 109  # ^if 00l( $cooldown < 8 ) aaa{ 
+          line: 163 139  # $cooldown = 8 
+          ifend 164 158  
+          line: 164 153  # } 004 
+          Complexity of rule ~await_location.0.37- b: 2
+        rule: 165  ~await_location.0.38 b: 
+          line: 165 0  # Here we are again in the study
+          line: 166 95  # What could it be? 
+          line: 167 113  # $$halt = 1 
           Complexity of rule ~await_location.0.38- b: 1
-        rule: 148  ~await_location.0.39 a: 
-          if 149 4  
-          line: 149 0  # ^if 00h( $loc = 52 ) aaa{ 
-          line: 150 26  # $$a_code = 14 
-          elseif 151 51  
-          line: 151 40  # } aaa else 00h( $loc = 53 ) aa
-          line: 152 73  # $$a_code = 66 
-          elseif 153 98  
-          line: 153 87  # } aaa else 00i( %rand > 66 ) a
-          line: 154 121  # $$a_code = 8 
-          else 155 145  
-          line: 155 134  # } aaa else ( 1 ) aaa { 
-          line: 156 157  # $$a_code = 10 
-          ifend 157 176  
-          line: 157 171  # } 004 
-          Complexity of rule ~await_location.0.39- a: 4
+        rule: 168  ~await_location.0.39 c: 
+          line: 168 0  # There IS something here, isn't
+          Complexity of rule ~await_location.0.39- c: 1
+        rule: 169  ~await_location.0.40 b: 
+          line: 170 0  # [ Here we are again at $$alrea
+          line: 171 85  # [ Well here we are. $$already_
+          Complexity of rule ~await_location.0.40- b: 1
+        rule: 174  ~await_location.0.41 a: 
+          if 175 4  
+          line: 175 0  # ^if 00h( $loc = 52 ) aaa{ 
+          line: 176 26  # $$a_code = 14 
+          elseif 177 51  
+          line: 177 40  # } aaa else 00h( $loc = 53 ) aa
+          line: 178 73  # $$a_code = 66 
+          elseif 179 98  
+          line: 179 87  # } aaa else 00i( %rand > 66 ) a
+          line: 180 121  # $$a_code = 8 
+          else 181 145  
+          line: 181 134  # } aaa else ( 1 ) aaa { 
+          line: 182 157  # $$a_code = 10 
+          ifend 183 176  
+          line: 183 171  # } 004 
+          Complexity of rule ~await_location.0.41- a: 4
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/_facts_locations.top
           if 6 4  
           if 10 102  
@@ -30293,262 +30346,292 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/_locati
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/_request_location.top
     topic: 2  ~request_location
         rule: 8  ~request_location.0.0 u: 
-          line: 15 0  # ^repeat ( ) 
-          line: 16 12  # $$no_rom = 1 
-          line: 17 25  # I haven't taken you to any loc
+          line: 19 0  # ^repeat ( ) 
+          line: 20 12  # $$no_rom = 1 
+          line: 21 25  # I haven't taken you to any loc
           Complexity of rule ~request_location.0.0- u: 1
-        rule: 19  ~request_location.1.0 u: 
-          line: 26 0  # ^repeat ( ) 
-          line: 27 12  # These are the locations I've t
-          line: 28 119  # $$no_rom = 1 
-          line: 29 132  # ^query ( direct_v ? known ? 10
-          loop 30 172  
-          line: 30 166  # ^loop ( -1 ) aaa { 
-          line: 31 185  # $_tmp = ^last ( @0subject ) 
-          line: 32 213  # @1 = ^query ( direct_sv $_tmp 
-          line: 33 256  # $_tmp : 
-          line: 34 264  # $_tmp2 = ^join ( ^join ( @1obj
-          line: 35 308  # $_tmp2 
-          loopend 36 317  
-          line: 36 315  # } 
+        rule: 23  ~request_location.1.0 u: 
+          line: 34 0  # ^repeat ( ) 
+          line: 35 12  # These are the locations I've t
+          line: 36 142  # $$no_rom = 1 
+          line: 37 155  # ^query ( direct_v ? known ? 10
+          loop 38 195  
+          line: 38 189  # ^loop ( -1 ) aaa { 
+          line: 39 208  # $_tmp = ^last ( @0subject ) 
+          line: 40 236  # @1 = ^query ( direct_sv $_tmp 
+          line: 41 279  # $_tmp : 
+          line: 42 287  # $_tmp2 = ^join ( ^join ( @1obj
+          line: 43 331  # $_tmp2 
+          loopend 44 340  
+          line: 44 338  # } 
           Complexity of rule ~request_location.1.0- u: 1
-        rule: 42  ~request_location.2.0-TAKE_ME_TO_NUMBER u: 
-          line: 49 0  # $remember_num = '_0 
-          line: 50 20  # @0 = ^query ( direct_sv '_0 nu
-          line: 51 61  # $_tmp = @0object 
-          line: 53 78  # $$halt = 1 
-          line: 54 89  # $$no_rom = 1 
-          line: 55 102  # ^refine ( ) 
+        rule: 50  ~request_location.2.0-TAKE_ME_TO_NUMBER u: 
+          line: 57 0  # $remember_num = '_0 
+          line: 58 20  # @0 = ^query ( direct_sv '_0 nu
+          line: 59 61  # $_tmp = @0object 
+          line: 61 78  # $$halt = 1 
+          line: 62 89  # $$no_rom = 1 
+          line: 63 102  # ^refine ( ) 
           Complexity of rule ~request_location.2.0-TAKE_ME_TO_NUMBER u: 1
-        rule: 56  ~request_location.2.1 a: 
-          if 57 4  
-          line: 57 0  # ^if 00d( $_tmp ) 00I{ $_tmp ? 
-          else 58 66  
-          ifend 58 108  
-          line: 58 61  # else ( 1 ) 00A { Um, we're alr
+        rule: 64  ~request_location.2.1 a: 
+          if 65 4  
+          line: 65 0  # ^if 00d( $_tmp ) 00I{ $_tmp ? 
+          else 66 66  
+          ifend 66 108  
+          line: 66 61  # else ( 1 ) 00A { Um, we're alr
           Complexity of rule ~request_location.2.1- a: 2
-        rule: 59  ~request_location.2.2 a: 
-          line: 59 0  # Before we go someplace else I 
+        rule: 67  ~request_location.2.2 a: 
+          line: 67 0  # Before we go someplace else I 
           Complexity of rule ~request_location.2.2- a: 1
-        rule: 60  ~request_location.2.3 a: 
-          line: 60 0  # ^usercap ( ) , I don't think w
+        rule: 68  ~request_location.2.3 a: 
+          line: 68 0  # ^usercap ( ) , I don't think w
           Complexity of rule ~request_location.2.3- a: 1
-        rule: 61  ~request_location.2.4 a: 
-          line: 61 0  # Before we go elsewhere I feel 
+        rule: 69  ~request_location.2.4 a: 
+          line: 69 0  # Before we go elsewhere I feel 
           Complexity of rule ~request_location.2.4- a: 1
-        rule: 62  ~request_location.2.5 a: 
-          line: 62 0  # Before we go anywhere else I o
+        rule: 70  ~request_location.2.5 a: 
+          line: 70 0  # Before we go anywhere else I o
           Complexity of rule ~request_location.2.5- a: 1
-        rule: 63  ~request_location.2.6 a: 
-          line: 63 0  # Before we move on I think I sh
+        rule: 71  ~request_location.2.6 a: 
+          line: 71 0  # Before we move on I think I sh
           Complexity of rule ~request_location.2.6- a: 1
-        rule: 65  ~request_location.2.7 a: 
-          line: 66 0  # [ $remember_num ? I'm not sure
-          line: 67 61  # [ I'm sorry, I'm not sure what
-          line: 68 130  # [ $remember_num ? But I don't 
+        rule: 72  ~request_location.2.7 a: 
+          line: 72 0  # Before we go elsewhere may we 
           Complexity of rule ~request_location.2.7- a: 1
-        rule: 69  ~request_location.2.8 a: 
-          line: 69 0  # Yes! It was there! I need to g
-          line: 70 43  # $$a_code = 26 
-          line: 71 57  # $await_loc = 02 
-          line: 72 73  # ^addtopic ( ~await_location ) 
+        rule: 73  ~request_location.2.8 a: 
+          line: 73 0  # Before we leave Mel I think we
           Complexity of rule ~request_location.2.8- a: 1
-        rule: 75  ~request_location.2.9 a: 
-          if 76 4  
-          ifend 76 38  
-          line: 76 0  # ^if 00d( $_tmp ) 00m{ To $_tmp
-          line: 77 39  # [ All right, I'm going ] [ I'l
-          line: 78 152  # [ I'm on my way now. ] [ Give 
-          line: 79 238  # $await_loc = $remember_num 
-          line: 80 265  # ^addtopic ( ~await_location ) 
-          Complexity of rule ~request_location.2.9- a: 2
-        rule: 83  ~request_location.2.10 a: 
-          if 84 4  
-          line: 84 0  # ^if 00d( $_tmp ) 00O{ To $_tmp
-          else 85 72  
-          ifend 85 117  
-          line: 85 67  # else ( 1 ) 00D { Would you lik
-          line: 86 118  # $$a_code = 7 
-          line: 87 131  # $$halt = 1 
-          Complexity of rule ~request_location.2.10- a: 2
-        rule: 89  ~request_location.2.11 b: 
-          line: 89 0  # Take as much time as you need 
-          Complexity of rule ~request_location.2.11- b: 1
-        rule: 90  ~request_location.2.12 b: 
-          line: 90 0  # It's fine, we don't have to go
-          Complexity of rule ~request_location.2.12- b: 1
-        rule: 91  ~request_location.2.13 b: 
-          line: 92 0  # [ Very well then, let's go. ] 
-          line: 93 30  # [ All right then. Let's go. ] 
-          line: 94 60  # [ Then let's go. ] 
-          line: 95 79  # [ I'm on my way. ] 
-          line: 96 98  # $await_loc = $remember_num 
-          line: 97 125  # ^addtopic ( ~await_location ) 
-          Complexity of rule ~request_location.2.13- b: 1
-        rule: 101  ~request_location.3.0 u: 
-          line: 108 0  # @0 = ^query ( direct_vo ? numb
-          line: 109 40  # $remember_num = @0subject 
-          line: 116 66  # $$halt = 1 
-          line: 117 77  # $$no_rom = 1 
-          line: 118 90  # ^refine ( ) 
+        rule: 74  ~request_location.2.9 a: 
+          line: 74 0  # Before we Astravel again I wou
+          Complexity of rule ~request_location.2.9- a: 1
+        rule: 76  ~request_location.2.10 a: 
+          line: 77 0  # [ $remember_num ? I'm not sure
+          line: 78 61  # [ I'm sorry, I'm not sure what
+          line: 79 130  # [ $remember_num ? But I don't 
+          Complexity of rule ~request_location.2.10- a: 1
+        rule: 80  ~request_location.2.11 a: 
+          line: 80 0  # Yes! It was there! I need to g
+          line: 81 43  # $$a_code = 26 
+          line: 82 57  # $await_loc = 02 
+          line: 83 73  # ^addtopic ( ~await_location ) 
+          Complexity of rule ~request_location.2.11- a: 1
+        rule: 86  ~request_location.2.12 a: 
+          if 87 4  
+          ifend 87 38  
+          line: 87 0  # ^if 00d( $_tmp ) 00m{ To $_tmp
+          line: 88 39  # [ All right, I'm going ] [ I'l
+          line: 89 152  # [ I'm on my way now. ] [ Give 
+          line: 90 238  # $await_loc = $remember_num 
+          line: 91 265  # ^addtopic ( ~await_location ) 
+          Complexity of rule ~request_location.2.12- a: 2
+        rule: 94  ~request_location.2.13 a: 
+          if 95 4  
+          line: 95 0  # ^if 00d( $_tmp ) 00O{ To $_tmp
+          else 96 72  
+          ifend 96 117  
+          line: 96 67  # else ( 1 ) 00D { Would you lik
+          line: 97 118  # $$a_code = 7 
+          line: 98 131  # $$halt = 1 
+          Complexity of rule ~request_location.2.13- a: 2
+        rule: 100  ~request_location.2.14 b: 
+          line: 100 0  # Take as much time as you need 
+          Complexity of rule ~request_location.2.14- b: 1
+        rule: 101  ~request_location.2.15 b: 
+          line: 101 0  # It's fine, we don't have to go
+          Complexity of rule ~request_location.2.15- b: 1
+        rule: 102  ~request_location.2.16 b: 
+          line: 103 0  # [ Very well then, let's go. ] 
+          line: 104 30  # [ All right then. Let's go. ] 
+          line: 105 60  # [ Then let's go. ] 
+          line: 106 79  # [ I'm on my way. ] 
+          line: 107 98  # $await_loc = $remember_num 
+          line: 108 125  # ^addtopic ( ~await_location ) 
+          Complexity of rule ~request_location.2.16- b: 1
+        rule: 112  ~request_location.3.0 u: 
+          line: 119 0  # @0 = ^query ( direct_vo ? numb
+          line: 120 40  # $remember_num = @0subject 
+          line: 127 66  # $$halt = 1 
+          line: 128 77  # $$no_rom = 1 
+          line: 129 90  # ^refine ( ) 
           Complexity of rule ~request_location.3.0- u: 1
-        rule: 119  ~request_location.3.1 a: 
-          line: 119 0  # '_0 ? Er, we're already there.
+        rule: 130  ~request_location.3.1 a: 
+          line: 130 0  # '_0 ? Er, we're already there.
           Complexity of rule ~request_location.3.1- a: 1
-        rule: 120  ~request_location.3.2 a: 
-          line: 120 0  # But before we go elsewhere I t
+        rule: 131  ~request_location.3.2 a: 
+          line: 131 0  # But before we go elsewhere I t
           Complexity of rule ~request_location.3.2- a: 1
-        rule: 121  ~request_location.3.3 a: 
-          line: 121 0  # '_0 ? That's not a place I've 
+        rule: 132  ~request_location.3.3 a: 
+          line: 132 0  # ^usercap ( ) , I don't think w
           Complexity of rule ~request_location.3.3- a: 1
-        rule: 122  ~request_location.3.4 a: 
-          line: 122 0  # Yes! It was there! I need to g
-          line: 123 43  # $$a_code = 26 
-          line: 124 57  # $await_loc = 02 
-          line: 125 73  # ^addtopic ( ~await_location ) 
+        rule: 133  ~request_location.3.4 a: 
+          line: 133 0  # Before we go elsewhere I feel 
           Complexity of rule ~request_location.3.4- a: 1
-        rule: 126  ~request_location.3.5 a: 
-          line: 127 0  # To '_0 ? Would you like to go 
-          line: 128 37  # $$a_code = 7 
-          line: 129 50  # $$halt = 1 
+        rule: 134  ~request_location.3.5 a: 
+          line: 134 0  # Before we go anywhere else I o
           Complexity of rule ~request_location.3.5- a: 1
-        rule: 132  ~request_location.3.6 b: 
-          line: 132 0  # Take as much time as you need 
-          Complexity of rule ~request_location.3.6- b: 1
-        rule: 133  ~request_location.3.7 b: 
-          line: 133 0  # It's fine. We don't have to go
-          Complexity of rule ~request_location.3.7- b: 1
-        rule: 134  ~request_location.3.8 b: 
-          line: 135 0  # [ Very well then, let's go. ] 
-          line: 136 30  # [ All right then. Let's go. ] 
-          line: 137 60  # [ Then let's go. ] 
-          line: 138 79  # [ I'm on my way. ] 
-          line: 139 98  # $await_loc = $remember_num 
-          line: 140 125  # ^addtopic ( ~await_location ) 
-          Complexity of rule ~request_location.3.8- b: 1
-        rule: 141  ~request_location.3.9 a: 
-          line: 142 0  # Could you tell me the number? 
+        rule: 135  ~request_location.3.6 a: 
+          line: 135 0  # Before we move on I think I sh
+          Complexity of rule ~request_location.3.6- a: 1
+        rule: 136  ~request_location.3.7 a: 
+          line: 136 0  # Before we go elsewhere may we 
+          Complexity of rule ~request_location.3.7- a: 1
+        rule: 137  ~request_location.3.8 a: 
+          line: 137 0  # Before we leave Mel I think we
+          Complexity of rule ~request_location.3.8- a: 1
+        rule: 138  ~request_location.3.9 a: 
+          line: 138 0  # Before we Astravel again I wou
           Complexity of rule ~request_location.3.9- a: 1
-        rule: 147  ~request_location.4.0-REQUEST_NUMBER u: 
-          line: 148 0  # $$no_rom = 1 
-          line: 149 13  # ^refine ( ) 
+        rule: 140  ~request_location.3.10 a: 
+          line: 140 0  # '_0 ? That's not a place I've 
+          Complexity of rule ~request_location.3.10- a: 1
+        rule: 141  ~request_location.3.11 a: 
+          line: 141 0  # Yes! It was there! I need to g
+          line: 142 43  # $$a_code = 26 
+          line: 143 57  # $await_loc = 02 
+          line: 144 73  # ^addtopic ( ~await_location ) 
+          Complexity of rule ~request_location.3.11- a: 1
+        rule: 145  ~request_location.3.12 a: 
+          line: 146 0  # To '_0 ? Would you like to go 
+          line: 147 37  # $$a_code = 7 
+          line: 148 50  # $$halt = 1 
+          Complexity of rule ~request_location.3.12- a: 1
+        rule: 151  ~request_location.3.13 b: 
+          line: 151 0  # Take as much time as you need 
+          Complexity of rule ~request_location.3.13- b: 1
+        rule: 152  ~request_location.3.14 b: 
+          line: 152 0  # It's fine. We don't have to go
+          Complexity of rule ~request_location.3.14- b: 1
+        rule: 153  ~request_location.3.15 b: 
+          line: 154 0  # [ Very well then, let's go. ] 
+          line: 155 30  # [ All right then. Let's go. ] 
+          line: 156 60  # [ Then let's go. ] 
+          line: 157 79  # [ I'm on my way. ] 
+          line: 158 98  # $await_loc = $remember_num 
+          line: 159 125  # ^addtopic ( ~await_location ) 
+          Complexity of rule ~request_location.3.15- b: 1
+        rule: 160  ~request_location.3.16 a: 
+          line: 161 0  # Could you tell me the number? 
+          Complexity of rule ~request_location.3.16- a: 1
+        rule: 166  ~request_location.4.0-REQUEST_NUMBER u: 
+          line: 167 0  # $$no_rom = 1 
+          line: 168 13  # ^refine ( ) 
           Complexity of rule ~request_location.4.0-REQUEST_NUMBER u: 1
-        rule: 150  ~request_location.4.1 a: 
-          line: 150 0  # ^input ( 01 ) ^fail ( SENTENCE
+        rule: 169  ~request_location.4.1 a: 
+          line: 169 0  # ^input ( 01 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.1- a: 1
-        rule: 151  ~request_location.4.2 a: 
-          line: 151 0  # ^input ( 02 ) ^fail ( SENTENCE
+        rule: 170  ~request_location.4.2 a: 
+          line: 170 0  # ^input ( 02 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.2- a: 1
-        rule: 152  ~request_location.4.3 a: 
-          line: 152 0  # ^input ( 03 ) ^fail ( SENTENCE
+        rule: 171  ~request_location.4.3 a: 
+          line: 171 0  # ^input ( 03 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.3- a: 1
-        rule: 153  ~request_location.4.4 a: 
-          line: 153 0  # ^input ( 04 ) ^fail ( SENTENCE
+        rule: 172  ~request_location.4.4 a: 
+          line: 172 0  # ^input ( 04 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.4- a: 1
-        rule: 154  ~request_location.4.5 a: 
-          line: 154 0  # ^input ( 05 ) ^fail ( SENTENCE
+        rule: 173  ~request_location.4.5 a: 
+          line: 173 0  # ^input ( 05 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.5- a: 1
-        rule: 155  ~request_location.4.6 a: 
-          line: 155 0  # ^input ( 06 ) ^fail ( SENTENCE
+        rule: 174  ~request_location.4.6 a: 
+          line: 174 0  # ^input ( 06 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.6- a: 1
-        rule: 156  ~request_location.4.7 a: 
-          line: 156 0  # ^input ( 07 ) ^fail ( SENTENCE
+        rule: 175  ~request_location.4.7 a: 
+          line: 175 0  # ^input ( 07 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.7- a: 1
-        rule: 157  ~request_location.4.8 a: 
-          line: 157 0  # ^input ( 08 ) ^fail ( SENTENCE
+        rule: 176  ~request_location.4.8 a: 
+          line: 176 0  # ^input ( 08 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.8- a: 1
-        rule: 158  ~request_location.4.9 a: 
-          line: 158 0  # ^input ( 09 ) ^fail ( SENTENCE
+        rule: 177  ~request_location.4.9 a: 
+          line: 177 0  # ^input ( 09 ) ^fail ( SENTENCE
           Complexity of rule ~request_location.4.9- a: 1
-        rule: 159  ~request_location.4.10 a: 
-          line: 159 0  # I don't know what the number '
-          line: 160 56  # ( Click the location title to 
+        rule: 178  ~request_location.4.10 a: 
+          line: 178 0  # I don't know what the number '
+          line: 179 56  # ( Click the location title to 
           Complexity of rule ~request_location.4.10- a: 1
-        rule: 163  ~request_location.5.0 u: 
-          line: 164 0  # ^reuse ( REQUEST_NUMBER ) 
+        rule: 182  ~request_location.5.0 u: 
+          line: 183 0  # ^reuse ( REQUEST_NUMBER ) 
           Complexity of rule ~request_location.5.0- u: 1
-        rule: 165  ~request_location.6.0 u: 
-          line: 165 0  # ^reuse ( REQUEST_NUMBER ) 
+        rule: 184  ~request_location.6.0 u: 
+          line: 184 0  # ^reuse ( REQUEST_NUMBER ) 
           Complexity of rule ~request_location.6.0- u: 1
-        rule: 166  ~request_location.7.0 u: 
-          line: 166 0  # ^reuse ( REQUEST_NUMBER ) 
+        rule: 185  ~request_location.7.0 u: 
+          line: 185 0  # ^reuse ( REQUEST_NUMBER ) 
           Complexity of rule ~request_location.7.0- u: 1
-        rule: 170  ~request_location.8.0-REQUEST_MISC u: 
-          line: 171 0  # ^refine ( ) 
+        rule: 189  ~request_location.8.0-REQUEST_MISC u: 
+          line: 190 0  # ^refine ( ) 
           Complexity of rule ~request_location.8.0-REQUEST_MISC u: 1
-        rule: 172  ~request_location.8.1 a: 
-          line: 173 0  # [ I would like to Manifest to 
-          line: 174 80  # If it's all right, will you al
-          line: 175 144  # [ There are many places I know
-          line: 176 237  # Manifest them to you at my own
+        rule: 191  ~request_location.8.1 a: 
+          line: 192 0  # [ I would like to Manifest to 
+          line: 193 80  # If it's all right, will you al
+          line: 194 144  # [ There are many places I know
+          line: 195 237  # Manifest them to you at my own
           Complexity of rule ~request_location.8.1- a: 1
-        rule: 177  ~request_location.8.2 b: 
-          line: 177 0  # Splendid, ^user ( ) . Then we 
+        rule: 196  ~request_location.8.2 b: 
+          line: 196 0  # Splendid, ^user ( ) . Then we 
           Complexity of rule ~request_location.8.2- b: 1
-        rule: 178  ~request_location.8.3 b: 
-          line: 178 0  # Maybe you wouldn't like that? 
+        rule: 197  ~request_location.8.3 b: 
+          line: 197 0  # Maybe you wouldn't like that? 
           Complexity of rule ~request_location.8.3- b: 1
-        rule: 179  ~request_location.8.4 a: 
-          line: 180 0  # $$no_rom = 1 
-          line: 181 13  # $$halt = 1 
-          line: 182 24  # ^refine ( ) 
+        rule: 198  ~request_location.8.4 a: 
+          line: 199 0  # $$no_rom = 1 
+          line: 200 13  # $$halt = 1 
+          line: 201 24  # ^refine ( ) 
           Complexity of rule ~request_location.8.4- a: 1
-        rule: 183  ~request_location.8.5 b: 
-          line: 183 0  # ^respond ( ~keywordless_comman
+        rule: 202  ~request_location.8.5 b: 
+          line: 202 0  # ^respond ( ~keywordless_comman
           Complexity of rule ~request_location.8.5- b: 1
-        rule: 185  ~request_location.8.6 b: 
-          line: 185 0  # Truthfully, I don't think Hell
-          line: 186 99  # ^addtopic ( ~her_father ) 
+        rule: 204  ~request_location.8.6 b: 
+          line: 204 0  # Truthfully, I don't think Hell
+          line: 205 99  # ^addtopic ( ~her_father ) 
           Complexity of rule ~request_location.8.6- b: 1
-        rule: 187  ~request_location.8.7 c: 
-          line: 187 0  # You know how my father was. 
+        rule: 206  ~request_location.8.7 c: 
+          line: 206 0  # You know how my father was. 
           Complexity of rule ~request_location.8.7- c: 1
-        rule: 189  ~request_location.8.8 b: 
-          line: 189 0  # But I wouldn't want you to hav
-          line: 190 51  # ^addtopic ( ~heaven ) 
+        rule: 208  ~request_location.8.8 b: 
+          line: 208 0  # But I wouldn't want you to hav
+          line: 209 51  # ^addtopic ( ~heaven ) 
           Complexity of rule ~request_location.8.8- b: 1
-        rule: 192  ~request_location.8.9 b: 
-          line: 192 0  # ^input ( take me to Great_Pyra
+        rule: 211  ~request_location.8.9 b: 
+          line: 211 0  # ^input ( take me to Great_Pyra
           Complexity of rule ~request_location.8.9- b: 1
-        rule: 194  ~request_location.8.10 b: 
+        rule: 213  ~request_location.8.10 b: 
           Complexity of rule ~request_location.8.10- b: 1
-        rule: 196  ~request_location.8.11 b: 
-          line: 196 0  # You can select one of the plac
+        rule: 215  ~request_location.8.11 b: 
+          line: 215 0  # You can select one of the plac
           Complexity of rule ~request_location.8.11- b: 1
-        rule: 198  ~request_location.8.12 b: 
-          line: 198 0  # Um, remind me what's the point
+        rule: 217  ~request_location.8.12 b: 
+          line: 217 0  # Um, remind me what's the point
           Complexity of rule ~request_location.8.12- b: 1
-        rule: 200  ~request_location.8.13 b: 
-          line: 200 0  # Many of the locations I am sho
-          line: 201 65  # where I grew up, but for now y
+        rule: 219  ~request_location.8.13 b: 
+          line: 219 0  # Many of the locations I am sho
+          line: 220 65  # where I grew up, but for now y
           Complexity of rule ~request_location.8.13- b: 1
-        rule: 203  ~request_location.8.14 b: 
-          line: 203 0  # But Hampshire is a big place a
+        rule: 222  ~request_location.8.14 b: 
+          line: 222 0  # But Hampshire is a big place a
           Complexity of rule ~request_location.8.14- b: 1
-        rule: 205  ~request_location.8.15 b: 
-          line: 205 0  # Oh, yes. Allow me to take you 
+        rule: 224  ~request_location.8.15 b: 
+          line: 224 0  # Oh, yes. Allow me to take you 
           Complexity of rule ~request_location.8.15- b: 1
-        rule: 207  ~request_location.8.16 b: 
-          line: 207 0  # [ I'm sorry, I don't understan
-          line: 208 90  # [ Oh, I'm not sure which place
-          line: 209 157  # [ Where did you want to see? C
+        rule: 226  ~request_location.8.16 b: 
+          line: 226 0  # [ I'm sorry, I don't understan
+          line: 227 90  # [ Oh, I'm not sure which place
+          line: 228 157  # [ Where did you want to see? C
           Complexity of rule ~request_location.8.16- b: 1
-        rule: 211  ~request_location.8.17 b: 
-          line: 211 0  # ^reuse ( ~manifest.MANIFEST_MI
+        rule: 230  ~request_location.8.17 b: 
+          line: 230 0  # ^reuse ( ~manifest.MANIFEST_MI
           Complexity of rule ~request_location.8.17- b: 1
-        rule: 215  ~request_location.9.0 u: 
-          line: 215 0  # ^reuse ( REQUEST_MISC ) 
+        rule: 234  ~request_location.9.0 u: 
+          line: 234 0  # ^reuse ( REQUEST_MISC ) 
           Complexity of rule ~request_location.9.0- u: 1
-        rule: 216  ~request_location.10.0 u: 
-          line: 216 0  # ^reuse ( REQUEST_MISC ) 
+        rule: 235  ~request_location.10.0 u: 
+          line: 235 0  # ^reuse ( REQUEST_MISC ) 
           Complexity of rule ~request_location.10.0- u: 1
-        rule: 220  ~request_location.11.0 u: 
-          line: 221 0  # I can show you locations I've 
-          line: 222 92  # please allow me to introduce t
+        rule: 239  ~request_location.11.0 u: 
+          line: 240 0  # I can show you locations I've 
+          line: 241 92  # please allow me to introduce t
           Complexity of rule ~request_location.11.0- u: 1
-        rule: 223  ~request_location.11.1 a: 
-          line: 223 0  # Thank you, ^user ( ) ! I knew 
-          line: 224 75  # Wait. That's a weird sentence,
+        rule: 242  ~request_location.11.1 a: 
+          line: 242 0  # Thank you, ^user ( ) ! I knew 
+          line: 243 75  # Wait. That's a weird sentence,
           Complexity of rule ~request_location.11.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless.top
     topic: 5  ~keywordless
@@ -34697,6 +34780,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
         rule: 628  ~questions_what.85.0 ?: 
           line: 633 0  # I suppose I would not have min
           Complexity of rule ~questions_what.85.0- ?: 1
+        rule: 636  ~questions_what.86.0 ?: 
+          line: 642 0  # Are you asking what the meanin
+          Complexity of rule ~questions_what.86.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_when.top
     topic: 3  ~questions_when
         rule: 7  ~questions_when.0.0 ?: 
@@ -35279,7 +35365,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 121 205  # $$new_loc = 02 
           line: 122 220  # $there_pronoun = Steadwell_Man
           line: 123 253  # $it_pronoun = Steadwell_Manse 
-          line: 124 283  # $cooldown = 6 
+          line: 124 283  # $cooldown = 8 
           line: 125 297  # $$a_code = 14 
           Complexity of rule ~gambits_locations.7.0- t: 1
         rule: 126  ~gambits_locations.7.1 a: 
@@ -35305,7 +35391,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 146 116  # $$new_loc = 17 
           line: 147 131  # $there_pronoun = Matley_Bog 
           line: 148 159  # $it_pronoun = Matley_Bog 
-          line: 149 184  # $cooldown = 6 
+          line: 149 184  # $cooldown = 8 
           line: 150 198  # $$a_code = 9 
           Complexity of rule ~gambits_locations.9.0- t: 1
         rule: 151  ~gambits_locations.9.1 a: 
@@ -35420,7 +35506,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 224 150  # $$new_loc = 09 
           line: 225 165  # $there_pronoun = Heritage_Cent
           line: 226 198  # $it_pronoun = Heritage_Centre 
-          line: 227 228  # $cooldown = 6 
+          line: 227 228  # $cooldown = 8 
           line: 228 242  # $$a_code = 9 
           Complexity of rule ~gambits_locations.13.0- t: 1
         rule: 229  ~gambits_locations.13.1 a: 
@@ -35572,7 +35658,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 368 95  # $$new_loc = 04 
           line: 369 110  # $there_pronoun = Lighthouse_of
           line: 370 148  # $it_pronoun = Lighthouse_of_Se
-          line: 371 183  # $cooldown = 6 
+          line: 371 183  # $cooldown = 8 
           line: 372 197  # $$a_code = 9 
           Complexity of rule ~gambits_locations.21.0- t: 1
         rule: 373  ~gambits_locations.21.1 a: 
@@ -35902,7 +35988,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 665 174  # $$new_loc = 22 
           line: 666 189  # $there_pronoun = George_Yard 
           line: 667 218  # $it_pronoun = George_Yard 
-          line: 668 244  # $cooldown = 6 
+          line: 668 244  # $cooldown = 8 
           line: 669 258  # $$a_code = 9 
           Complexity of rule ~gambits_locations.37.0- t: 1
         rule: 670  ~gambits_locations.37.1 a: 
@@ -35927,7 +36013,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 687 276  # ^createfact ( 31 known 1 ) 
           line: 688 303  # ^createfact ( 25 known 1 ) 
           line: 689 330  # $$new_loc = 495342243125 
-          line: 690 355  # $cooldown = 36 
+          line: 690 355  # $cooldown = 38 
           line: 691 370  # $$a_code = 9 
           Complexity of rule ~gambits_locations.38.0-SIX_CHOICES t: 1
         rule: 692  ~gambits_locations.38.1 a: 
@@ -36081,7 +36167,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 861 287  # ^createfact ( 46 known 1 ) 
           line: 862 314  # ^createfact ( 30 known 1 ) 
           line: 863 341  # $$new_loc = 4630 
-          line: 864 358  # $cooldown = 12 
+          line: 864 358  # $cooldown = 14 
           line: 865 373  # $$a_code = 9 
           Complexity of rule ~gambits_locations.44.0-46_OR_30 t: 1
         rule: 866  ~gambits_locations.44.1 a: 
@@ -36133,7 +36219,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_location
           line: 907 201  # $$new_loc = 41 
           line: 908 216  # $there_pronoun = Station_Park 
           line: 909 246  # $it_pronoun = Station_Park 
-          line: 910 273  # $cooldown = 6 
+          line: 910 273  # $cooldown = 8 
           line: 911 287  # $$a_code = 9 
           Complexity of rule ~gambits_locations.47.0- t: 1
         rule: 912  ~gambits_locations.47.1 a: 
