@@ -2834,48 +2834,54 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/devi
         rule: 99  ~devil.14.0 u: 
           line: 99 0  # If a devil is the ultimate evi
           Complexity of rule ~devil.14.0- u: 1
-        rule: 106  ~devil.15.0 t: 
-          line: 106 0  # ^keep ( ) ^ispending ( ~devil 
-          if 107 36  
-          line: 107 32  # ^if 00x( ! $$_gambit_topic_pen
-          line: 108 74  # ^fail ( TOPIC ) 
-          ifend 109 95  
-          line: 109 90  # } 004 
-          Complexity of rule ~devil.15.0- t: 2
-        rule: 112  ~devil.16.0 t: 
-          line: 112 0  # Devils unfortunately share thi
-          line: 113 50  # Fortunately, few of them are a
-          line: 114 164  # Only the strongest devils can.
-          Complexity of rule ~devil.16.0- t: 1
+        rule: 102  ~devil.15.0 u: 
+          line: 102 0  # How does one find a devil? At 
+          Complexity of rule ~devil.15.0- u: 1
+        rule: 105  ~devil.16.0 u: 
+          line: 110 0  # Help from a d-devil?? That's m
+          Complexity of rule ~devil.16.0- u: 1
         rule: 116  ~devil.17.0 t: 
-          line: 116 0  # What my mother taught me about
-          line: 117 91  # loathed all talk of such thing
-          line: 118 204  # if the wrong type of spirit is
-          Complexity of rule ~devil.17.0- t: 1
-        rule: 120  ~devil.18.0 t: 
-          line: 120 0  # But...but I don't really like 
-          line: 121 95  # put the scare of devils in me.
+          line: 116 0  # ^keep ( ) ^ispending ( ~devil 
+          if 117 36  
+          line: 117 32  # ^if 00x( ! $$_gambit_topic_pen
+          line: 118 74  # ^fail ( TOPIC ) 
+          ifend 119 95  
+          line: 119 90  # } 004 
+          Complexity of rule ~devil.17.0- t: 2
+        rule: 122  ~devil.18.0 t: 
+          line: 122 0  # Devils unfortunately share thi
+          line: 123 50  # Fortunately, few of them are a
+          line: 124 164  # Only the strongest devils can.
           Complexity of rule ~devil.18.0- t: 1
-        rule: 122  ~devil.18.1 a: 
-          line: 122 0  # Hmm. Well even if they do exis
-          Complexity of rule ~devil.18.1- a: 1
-        rule: 123  ~devil.18.2 b: 
-          line: 123 0  # Right! ^gambit ( ~devil ) 
-          Complexity of rule ~devil.18.2- b: 1
-        rule: 124  ~devil.18.3 b: 
-          line: 124 0  # Anyway. ^gambit ( ~devil ) 
-          Complexity of rule ~devil.18.3- b: 1
         rule: 126  ~devil.19.0 t: 
-          line: 126 0  # It's oddly difficult to speak 
-          line: 127 102  # another. Or oneself. They...ah
+          line: 126 0  # What my mother taught me about
+          line: 127 91  # loathed all talk of such thing
+          line: 128 204  # if the wrong type of spirit is
           Complexity of rule ~devil.19.0- t: 1
-        rule: 129  ~devil.20.0 t: 
-          line: 129 0  # I don't know why, but I can't 
-          line: 130 47  # It's as if a stupor comes over
+        rule: 130  ~devil.20.0 t: 
+          line: 130 0  # But...but I don't really like 
+          line: 131 95  # put the scare of devils in me.
           Complexity of rule ~devil.20.0- t: 1
-        rule: 132  ~devil.21.0 t: 
-          line: 132 0  # We don't need to go on about d
+        rule: 132  ~devil.20.1 a: 
+          line: 132 0  # Hmm. Well even if they do exis
+          Complexity of rule ~devil.20.1- a: 1
+        rule: 133  ~devil.20.2 b: 
+          line: 133 0  # Right! ^gambit ( ~devil ) 
+          Complexity of rule ~devil.20.2- b: 1
+        rule: 134  ~devil.20.3 b: 
+          line: 134 0  # Anyway. ^gambit ( ~devil ) 
+          Complexity of rule ~devil.20.3- b: 1
+        rule: 136  ~devil.21.0 t: 
+          line: 136 0  # It's oddly difficult to speak 
+          line: 137 102  # another. Or oneself. They...ah
           Complexity of rule ~devil.21.0- t: 1
+        rule: 139  ~devil.22.0 t: 
+          line: 139 0  # I don't know why, but I can't 
+          line: 140 47  # It's as if a stupor comes over
+          Complexity of rule ~devil.22.0- t: 1
+        rule: 142  ~devil.23.0 t: 
+          line: 142 0  # We don't need to go on about d
+          Complexity of rule ~devil.23.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/divination.top
     topic: 3  ~divination
         rule: 7  ~divination.0.0 ?: 
@@ -3761,25 +3767,28 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/poss
           line: 46 0  # Have I ever seen a possession?
           Complexity of rule ~possession.6.0- ?: 1
         rule: 49  ~possession.7.0 u: 
-          line: 49 0  # ^addtopic ( ~possession ) ^gam
+          line: 49 0  # Let's dearly hope you never be
           Complexity of rule ~possession.7.0- u: 1
-        rule: 54  ~possession.8.0 t: 
-          line: 54 0  # ^keep ( ) ^ispending ( ~posses
-          if 55 41  
-          line: 55 37  # ^if 00x( ! $$_gambit_topic_pen
-          line: 56 79  # ^fail ( TOPIC ) 
-          ifend 57 100  
-          line: 57 95  # } 004 
-          Complexity of rule ~possession.8.0- t: 2
-        rule: 60  ~possession.9.0 t: 
-          line: 60 0  # My father did ask my mother on
-          line: 61 91  # ever took. I remember that my 
-          line: 62 200  # But my father drew his own con
-          Complexity of rule ~possession.9.0- t: 1
-        rule: 63  ~possession.9.1 a: 
-          line: 63 0  # He made it his mission to put 
-          line: 64 59  # Whether it had the effect he d
-          Complexity of rule ~possession.9.1- a: 1
+        rule: 52  ~possession.8.0 u: 
+          line: 52 0  # ^addtopic ( ~possession ) ^gam
+          Complexity of rule ~possession.8.0- u: 1
+        rule: 59  ~possession.9.0 t: 
+          line: 59 0  # ^keep ( ) ^ispending ( ~posses
+          if 60 41  
+          line: 60 37  # ^if 00x( ! $$_gambit_topic_pen
+          line: 61 79  # ^fail ( TOPIC ) 
+          ifend 62 100  
+          line: 62 95  # } 004 
+          Complexity of rule ~possession.9.0- t: 2
+        rule: 65  ~possession.10.0 t: 
+          line: 65 0  # My father did ask my mother on
+          line: 66 91  # ever took. I remember that my 
+          line: 67 200  # But my father drew his own con
+          Complexity of rule ~possession.10.0- t: 1
+        rule: 68  ~possession.10.1 a: 
+          line: 68 0  # He made it his mission to put 
+          line: 69 59  # Whether it had the effect he d
+          Complexity of rule ~possession.10.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/seance.top
     topic: 2  ~seance
         rule: 7  ~seance.0.0 u: 
@@ -5952,38 +5961,38 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/story/truth3.top
           ifend 67 356  
           line: 67 292  # ^if 00n( $pc_hate_veggie ) 00C
           if 68 361  
-          ifend 68 432  
+          ifend 68 433  
           line: 68 357  # ^if 00E( ! $pc_hate_veggie and
-          if 69 437  
-          ifend 69 526  
-          line: 69 433  # ^if 00q( $pc_school_subject ) 
-          if 70 531  
-          ifend 70 598  
-          line: 70 527  # ^if 00k( $pc_comedian ) 00M{ $
-          if 71 603  
-          ifend 71 674  
-          line: 71 599  # ^if 00s( $pc_foreign_language 
-          if 72 679  
-          ifend 72 748  
-          line: 72 675  # ^if 00h( $pc_movie ) 00R{ $pc_
-          if 73 753  
-          ifend 73 834  
-          line: 73 749  # ^if 00n( $pc_movie_genre ) 00X
-          if 74 839  
-          ifend 74 902  
-          line: 74 835  # ^if 00j( $pc_tv_show ) 00J{ $p
-          if 75 907  
-          ifend 75 978  
-          line: 75 903  # ^if 00l( $pc_videogame ) 00P{ 
-          if 76 983  
-          ifend 76 1036  
-          line: 76 979  # ^if 00h( $pc_hobby ) 00B{ Your
-          if 77 1041  
-          ifend 77 1094  
-          line: 77 1037  # ^if 00h( $pc_dream ) 00B{ Your
-          if 78 1099  
-          ifend 78 1155  
-          line: 78 1095  # ^if 00l( $pc_like_misc ) 00A{ 
+          if 69 438  
+          ifend 69 527  
+          line: 69 434  # ^if 00q( $pc_school_subject ) 
+          if 70 532  
+          ifend 70 599  
+          line: 70 528  # ^if 00k( $pc_comedian ) 00M{ $
+          if 71 604  
+          ifend 71 675  
+          line: 71 600  # ^if 00s( $pc_foreign_language 
+          if 72 680  
+          ifend 72 749  
+          line: 72 676  # ^if 00h( $pc_movie ) 00R{ $pc_
+          if 73 754  
+          ifend 73 835  
+          line: 73 750  # ^if 00n( $pc_movie_genre ) 00X
+          if 74 840  
+          ifend 74 903  
+          line: 74 836  # ^if 00j( $pc_tv_show ) 00J{ $p
+          if 75 908  
+          ifend 75 979  
+          line: 75 904  # ^if 00l( $pc_videogame ) 00P{ 
+          if 76 984  
+          ifend 76 1037  
+          line: 76 980  # ^if 00h( $pc_hobby ) 00B{ Your
+          if 77 1042  
+          ifend 77 1095  
+          line: 77 1038  # ^if 00h( $pc_dream ) 00B{ Your
+          if 78 1100  
+          ifend 78 1156  
+          line: 78 1096  # ^if 00l( $pc_like_misc ) 00A{ 
           Complexity of rule ~truth3.7.0- t: 17
         rule: 82  ~truth3.8.0 t: 
           line: 82 0  # All these are among the qualit
@@ -6581,47 +6590,47 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/chauncy.to
           line: 267 67  # Please allow me to tell it in 
           Complexity of rule ~chauncy.65.0- ?: 1
         rule: 270  ~chauncy.66.0 ?: 
-          line: 278 0  # I did what I could for Chauncy
+          line: 279 0  # I did what I could for Chauncy
           Complexity of rule ~chauncy.66.0- ?: 1
-        rule: 281  ~chauncy.67.0 ?: 
-          line: 285 0  # Well. He called me a blighter,
-          line: 286 86  # $$a_code = 0 
+        rule: 282  ~chauncy.67.0 ?: 
+          line: 286 0  # Well. He called me a blighter,
+          line: 287 86  # $$a_code = 0 
           Complexity of rule ~chauncy.67.0- ?: 1
-        rule: 289  ~chauncy.68.0 u: 
-          line: 293 0  # It sort of seemed to me, thoug
-          line: 294 66  # Perhaps it was just me. 
-          line: 295 90  # $$a_code = 3 
+        rule: 290  ~chauncy.68.0 u: 
+          line: 294 0  # It sort of seemed to me, thoug
+          line: 295 66  # Perhaps it was just me. 
+          line: 296 90  # $$a_code = 3 
           Complexity of rule ~chauncy.68.0- u: 1
-        rule: 298  ~chauncy.69.0 u: 
-          line: 298 0  # Chauncy did speak a bad word f
-          line: 299 90  # It's just who he was. 
+        rule: 299  ~chauncy.69.0 u: 
+          line: 299 0  # Chauncy did speak a bad word f
+          line: 300 90  # It's just who he was. 
           Complexity of rule ~chauncy.69.0- u: 1
-        rule: 302  ~chauncy.70.0 u: 
-          line: 302 0  # He was more bad than good. At 
-          line: 303 47  # The chap was all right otherwi
+        rule: 303  ~chauncy.70.0 u: 
+          line: 303 0  # He was more bad than good. At 
+          line: 304 47  # The chap was all right otherwi
           Complexity of rule ~chauncy.70.0- u: 1
-        rule: 306  ~chauncy.71.0 u: 
-          line: 309 0  # Chauncy was one of Scotland Ya
+        rule: 307  ~chauncy.71.0 u: 
+          line: 310 0  # Chauncy was one of Scotland Ya
           Complexity of rule ~chauncy.71.0- u: 1
-        rule: 317  ~chauncy.72.0 t: 
-          line: 317 0  # ^fail ( TOPIC ) 
+        rule: 318  ~chauncy.72.0 t: 
+          line: 318 0  # ^fail ( TOPIC ) 
           Complexity of rule ~chauncy.72.0- t: 1
-        rule: 319  ~chauncy.73.0 t: 
-          line: 319 0  # I remember when I first met hi
-          line: 320 101  # But I went back to calling him
-          line: 321 212  # $$quotes = 1 
+        rule: 320  ~chauncy.73.0 t: 
+          line: 320 0  # I remember when I first met hi
+          line: 321 101  # But I went back to calling him
+          line: 322 212  # $$quotes = 1 
           Complexity of rule ~chauncy.73.0- t: 1
-        rule: 322  ~chauncy.73.1 a: 
-          line: 322 0  # He was a different type of fel
-          line: 323 59  # $$a_code = 14 
+        rule: 323  ~chauncy.73.1 a: 
+          line: 323 0  # He was a different type of fel
+          line: 324 59  # $$a_code = 14 
           Complexity of rule ~chauncy.73.1- a: 1
-        rule: 325  ~chauncy.74.0 t: 
-          line: 325 0  # Chauncy...it's not so much tha
-          line: 326 92  # When someone says that they ne
+        rule: 326  ~chauncy.74.0 t: 
+          line: 326 0  # Chauncy...it's not so much tha
+          line: 327 92  # When someone says that they ne
           Complexity of rule ~chauncy.74.0- t: 1
-        rule: 327  ~chauncy.74.1 a: 
-          line: 327 0  # Doesn't everyone deserve one? 
-          line: 328 30  # $$a_code = 
+        rule: 328  ~chauncy.74.1 a: 
+          line: 328 0  # Doesn't everyone deserve one? 
+          line: 329 30  # $$a_code = 
           Complexity of rule ~chauncy.74.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/cheree.top
     topic: 2  ~cheree
@@ -10615,63 +10624,63 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/mellen.top
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/mellen_family.top
     topic: 2  ~mellen_family
         rule: 8  ~mellen_family.0.0 ?: 
-          line: 20 0  # Mellen lived with her mother a
-          line: 21 83  # She has no siblings. 
+          line: 22 0  # Mellen lived with her mother a
+          line: 23 83  # She has no siblings. 
           Complexity of rule ~mellen_family.0.0- ?: 1
-        rule: 24  ~mellen_family.1.0 u: 
-          line: 32 0  # Mel's parents divorced when sh
+        rule: 26  ~mellen_family.1.0 u: 
+          line: 34 0  # Mel's parents divorced when sh
           Complexity of rule ~mellen_family.1.0- u: 1
-        rule: 35  ~mellen_family.2.0 ?: 
-          line: 35 0  # Mel's family is descended from
-          line: 36 79  # States. 
+        rule: 37  ~mellen_family.2.0 ?: 
+          line: 37 0  # Mel's family is descended from
+          line: 38 79  # States. 
           Complexity of rule ~mellen_family.2.0- ?: 1
-        rule: 39  ~mellen_family.3.0 ?: 
-          line: 39 0  # Mel's mother is a case worker 
-          line: 40 71  # her father...she doesn't remem
-          line: 41 148  # $$a_code = 3 
+        rule: 41  ~mellen_family.3.0 ?: 
+          line: 41 0  # Mel's mother is a case worker 
+          line: 42 71  # her father...she doesn't remem
+          line: 43 148  # $$a_code = 3 
           Complexity of rule ~mellen_family.3.0- ?: 1
-        rule: 44  ~mellen_family.4.0 u: 
-          line: 44 0  # Mellen's mother is usually at 
+        rule: 46  ~mellen_family.4.0 u: 
+          line: 46 0  # Mellen's mother is usually at 
           Complexity of rule ~mellen_family.4.0- u: 1
-        rule: 47  ~mellen_family.5.0 ?: 
-          line: 47 0  # Mel's parents are alive and we
+        rule: 49  ~mellen_family.5.0 ?: 
+          line: 49 0  # Mel's parents are alive and we
           Complexity of rule ~mellen_family.5.0- ?: 1
-        rule: 50  ~mellen_family.6.0 u: 
-          line: 50 0  # No, Mel's immediate family isn
+        rule: 52  ~mellen_family.6.0 u: 
+          line: 52 0  # No, Mel's immediate family isn
           Complexity of rule ~mellen_family.6.0- u: 1
-        rule: 53  ~mellen_family.7.0 u: 
-          line: 56 0  # No one in Mel's family has the
-          line: 57 60  # Mel says the so-called gift se
-          line: 58 156  # However, it would be fun to sc
+        rule: 55  ~mellen_family.7.0 u: 
+          line: 58 0  # No one in Mel's family has the
+          line: 59 60  # Mel says the so-called gift se
+          line: 60 156  # However, it would be fun to sc
           Complexity of rule ~mellen_family.7.0- u: 1
-        rule: 62  ~mellen_family.8.0 ?: 
-          line: 66 0  # I'm not sure what relationship
-          line: 67 91  # family she ever knew. Her moth
+        rule: 64  ~mellen_family.8.0 ?: 
+          line: 68 0  # I'm not sure what relationship
+          line: 69 91  # family she ever knew. Her moth
           Complexity of rule ~mellen_family.8.0- ?: 1
-        rule: 70  ~mellen_family.9.0 u: 
-          line: 70 0  # ^addtopic ( ~mellen_family ) ^
+        rule: 72  ~mellen_family.9.0 u: 
+          line: 72 0  # ^addtopic ( ~mellen_family ) ^
           Complexity of rule ~mellen_family.9.0- u: 1
-        rule: 73  ~mellen_family.10.0 u: 
-          line: 73 0  # My sister Faith is a distant a
+        rule: 75  ~mellen_family.10.0 u: 
+          line: 75 0  # My sister Faith is a distant a
           Complexity of rule ~mellen_family.10.0- u: 1
-        rule: 75  ~mellen_family.11.0 u: 
-          line: 75 0  # Burton is a distant ancestor o
+        rule: 77  ~mellen_family.11.0 u: 
+          line: 77 0  # Burton is a distant ancestor o
           Complexity of rule ~mellen_family.11.0- u: 1
-        rule: 78  ~mellen_family.12.0 u: 
-          line: 78 0  # Even if Mel's family parents b
-          line: 79 69  # means to show herself as one t
+        rule: 80  ~mellen_family.12.0 u: 
+          line: 80 0  # Even if Mel's family parents b
+          line: 81 69  # means to show herself as one t
           Complexity of rule ~mellen_family.12.0- u: 1
-        rule: 84  ~mellen_family.13.0 u: 
-          line: 84 0  # Mel hasn't told me much about 
+        rule: 86  ~mellen_family.13.0 u: 
+          line: 86 0  # Mel hasn't told me much about 
           Complexity of rule ~mellen_family.13.0- u: 1
-        rule: 85  ~mellen_family.14.0 u: 
-          line: 85 0  # I don't know what I can say ab
+        rule: 87  ~mellen_family.14.0 u: 
+          line: 87 0  # I don't know what I can say ab
           Complexity of rule ~mellen_family.14.0- u: 1
-        rule: 88  ~mellen_family.15.0 u: 
-          line: 88 0  # There's even less we can say a
+        rule: 90  ~mellen_family.15.0 u: 
+          line: 90 0  # There's even less we can say a
           Complexity of rule ~mellen_family.15.0- u: 1
-        rule: 89  ~mellen_family.16.0 u: 
-          line: 89 0  # I can't think of anything to s
+        rule: 91  ~mellen_family.16.0 u: 
+          line: 91 0  # I can't think of anything to s
           Complexity of rule ~mellen_family.16.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/other_people.top
     topic: 2  ~mary_todd_lincoln
@@ -15453,119 +15462,123 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/actors.top
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/animals.top
     topic: 2  ~her_animals
         rule: 6  ~her_animals.0.0 u: 
-          line: 6 0  # Mel likes cats. She says that 
-          line: 7 70  # a cat lady in her old age, but
+          line: 6 0  # That famous Sherlock Holmes no
+          line: 7 45  # ^addtopic ( ~sherlock_holmes )
           Complexity of rule ~her_animals.0.0- u: 1
-        rule: 11  ~her_animals.1.0-WHAT_ANIMAL ?: 
-          line: 17 0  # I don't think I have a favorit
-          line: 18 102  # Animal cruelty does bothers me
-          Complexity of rule ~her_animals.1.0-WHAT_ANIMAL ?: 1
-        rule: 21  ~her_animals.2.0-DO_YOU_LIKE_ANIMAL ?: 
-          line: 23 0  # ^keep ( ) ^refine ( ) 
-          Complexity of rule ~her_animals.2.0-DO_YOU_LIKE_ANIMAL ?: 1
-        rule: 24  ~her_animals.2.1 a: 
-          line: 24 0  # I do love horses! I winced eve
-          Complexity of rule ~her_animals.2.1- a: 1
-        rule: 25  ~her_animals.2.2 a: 
-          line: 25 0  # I never had any beef with cats
-          Complexity of rule ~her_animals.2.2- a: 1
-        rule: 26  ~her_animals.2.3 a: 
-          line: 26 0  # I love dogs! Except when they 
-          Complexity of rule ~her_animals.2.3- a: 1
-        rule: 27  ~her_animals.2.4 a: 
-          line: 27 0  # _0 ? I don't have any reason t
-          Complexity of rule ~her_animals.2.4- a: 1
-        rule: 29  ~her_animals.3.0 ?: 
-          line: 29 0  # ^reuse ( DO_YOU_LIKE_ANIMAL ) 
-          Complexity of rule ~her_animals.3.0- ?: 1
-        rule: 38  ~her_animals.4.0 s: 
-          line: 42 0  # Is it because you get sick whi
-          Complexity of rule ~her_animals.4.0- s: 1
-        rule: 45  ~her_animals.5.0-PC_ANIMAL s: 
-          line: 49 0  # $pc_animal = ^pos ( NOUN _0 PL
-          line: 50 37  # Oh! Are $pc_animal your favori
-          Complexity of rule ~her_animals.5.0-PC_ANIMAL s: 1
-        rule: 51  ~her_animals.5.1 a: 
-          line: 51 0  # But you do like them, right? 
-          line: 52 29  # $pc_animal = null 
-          Complexity of rule ~her_animals.5.1- a: 1
-        rule: 53  ~her_animals.5.2 a: 
-          line: 53 0  # Wow! Myself, I don't really ha
-          Complexity of rule ~her_animals.5.2- a: 1
-        rule: 57  ~her_animals.6.0-PC_HATE_ANIMAL s: 
-          line: 60 0  # $pc_hate_animal = ^pos ( NOUN 
-          line: 61 42  # Do you not like $pc_hate_anima
-          Complexity of rule ~her_animals.6.0-PC_HATE_ANIMAL s: 1
-        rule: 62  ~her_animals.6.1 a: 
-          line: 62 0  # But you hate them anyway. 
+        rule: 11  ~her_animals.1.0 u: 
+          line: 11 0  # Mel likes cats. She says that 
+          line: 12 70  # a cat lady in her old age, but
+          Complexity of rule ~her_animals.1.0- u: 1
+        rule: 16  ~her_animals.2.0-WHAT_ANIMAL ?: 
+          line: 22 0  # I don't think I have a favorit
+          line: 23 102  # Animal cruelty does bothers me
+          Complexity of rule ~her_animals.2.0-WHAT_ANIMAL ?: 1
+        rule: 26  ~her_animals.3.0-DO_YOU_LIKE_ANIMAL ?: 
+          line: 28 0  # ^keep ( ) ^refine ( ) 
+          Complexity of rule ~her_animals.3.0-DO_YOU_LIKE_ANIMAL ?: 1
+        rule: 29  ~her_animals.3.1 a: 
+          line: 29 0  # I do love horses! I winced eve
+          Complexity of rule ~her_animals.3.1- a: 1
+        rule: 30  ~her_animals.3.2 a: 
+          line: 30 0  # I never had any beef with cats
+          Complexity of rule ~her_animals.3.2- a: 1
+        rule: 31  ~her_animals.3.3 a: 
+          line: 31 0  # I love dogs! Except when they 
+          Complexity of rule ~her_animals.3.3- a: 1
+        rule: 32  ~her_animals.3.4 a: 
+          line: 32 0  # _0 ? I don't have any reason t
+          Complexity of rule ~her_animals.3.4- a: 1
+        rule: 34  ~her_animals.4.0 ?: 
+          line: 34 0  # ^reuse ( DO_YOU_LIKE_ANIMAL ) 
+          Complexity of rule ~her_animals.4.0- ?: 1
+        rule: 43  ~her_animals.5.0 s: 
+          line: 47 0  # Is it because you get sick whi
+          Complexity of rule ~her_animals.5.0- s: 1
+        rule: 50  ~her_animals.6.0-PC_ANIMAL s: 
+          line: 54 0  # $pc_animal = ^pos ( NOUN _0 PL
+          line: 55 37  # Oh! Are $pc_animal your favori
+          Complexity of rule ~her_animals.6.0-PC_ANIMAL s: 1
+        rule: 56  ~her_animals.6.1 a: 
+          line: 56 0  # But you do like them, right? 
+          line: 57 29  # $pc_animal = null 
           Complexity of rule ~her_animals.6.1- a: 1
-        rule: 63  ~her_animals.6.2 a: 
-          line: 63 0  # Then that makes sense! 
+        rule: 58  ~her_animals.6.2 a: 
+          line: 58 0  # Wow! Myself, I don't really ha
           Complexity of rule ~her_animals.6.2- a: 1
-        rule: 66  ~her_animals.7.0 u: 
-          line: 66 0  # ^refine ( ) 
-          Complexity of rule ~her_animals.7.0- u: 1
+        rule: 62  ~her_animals.7.0-PC_HATE_ANIMAL s: 
+          line: 65 0  # $pc_hate_animal = ^pos ( NOUN 
+          line: 66 42  # Do you not like $pc_hate_anima
+          Complexity of rule ~her_animals.7.0-PC_HATE_ANIMAL s: 1
         rule: 67  ~her_animals.7.1 a: 
-          line: 67 0  # Don't you like $pc_animal ? 
+          line: 67 0  # But you hate them anyway. 
           Complexity of rule ~her_animals.7.1- a: 1
         rule: 68  ~her_animals.7.2 a: 
-          line: 68 0  # If you told your favorite anim
+          line: 68 0  # Then that makes sense! 
           Complexity of rule ~her_animals.7.2- a: 1
         rule: 71  ~her_animals.8.0 u: 
           line: 71 0  # ^refine ( ) 
           Complexity of rule ~her_animals.8.0- u: 1
         rule: 72  ~her_animals.8.1 a: 
-          line: 72 0  # Don't you hate $pc_hate_animal
+          line: 72 0  # Don't you like $pc_animal ? 
           Complexity of rule ~her_animals.8.1- a: 1
         rule: 73  ~her_animals.8.2 a: 
-          line: 73 0  # If you told me your hated anim
+          line: 73 0  # If you told your favorite anim
           Complexity of rule ~her_animals.8.2- a: 1
-        rule: 76  ~her_animals.9.0-MENTION_ANIMAL u: 
-          line: 76 0  # ^keep ( ) ^refine ( ) 
-          Complexity of rule ~her_animals.9.0-MENTION_ANIMAL u: 1
+        rule: 76  ~her_animals.9.0 u: 
+          line: 76 0  # ^refine ( ) 
+          Complexity of rule ~her_animals.9.0- u: 1
         rule: 77  ~her_animals.9.1 a: 
-          line: 77 0  # ^fail ( SENTENCE ) 
+          line: 77 0  # Don't you hate $pc_hate_animal
           Complexity of rule ~her_animals.9.1- a: 1
         rule: 78  ~her_animals.9.2 a: 
-          line: 78 0  # Nothing much is scarier than a
+          line: 78 0  # If you told me your hated anim
           Complexity of rule ~her_animals.9.2- a: 1
-        rule: 79  ~her_animals.9.3 a: 
-          line: 79 0  # Mel wasn't really going to bec
-          Complexity of rule ~her_animals.9.3- a: 1
-        rule: 80  ~her_animals.9.4 a: 
-          line: 80 0  # I'm glad I didn't become a cat
-          Complexity of rule ~her_animals.9.4- a: 1
-        rule: 81  ~her_animals.9.5 a: 
-          line: 81 0  # It's peculiar to think of huma
-          Complexity of rule ~her_animals.9.5- a: 1
-        rule: 82  ~her_animals.9.6 a: 
-          line: 82 0  # Jellyfish make me shiver. 
-          Complexity of rule ~her_animals.9.6- a: 1
-        rule: 83  ~her_animals.9.7 a: 
-          line: 83 0  # It is funny when parrots curse
-          Complexity of rule ~her_animals.9.7- a: 1
-        rule: 84  ~her_animals.9.8 a: 
-          line: 84 0  # The mosquito is literally the 
-          Complexity of rule ~her_animals.9.8- a: 1
-        rule: 85  ~her_animals.9.9 a: 
-          line: 85 0  # Koalas are right cute and no o
-          Complexity of rule ~her_animals.9.9- a: 1
-        rule: 86  ~her_animals.9.10 a: 
-          line: 87 0  # [ What about ^pos ( NOUN _0 PL
-          line: 88 88  # [ Animals such as ^pos ( NOUN 
-          line: 89 210  # [ As in the animal? What might
-          line: 90 281  # [ You don't mean ^pos ( NOUN _
-          line: 91 342  # [ Do you mean ^pos ( NOUN _0 P
-          line: 92 409  # $$a_code = 3 
-          Complexity of rule ~her_animals.9.10- a: 1
-        rule: 93  ~her_animals.9.11 b: 
-          line: 93 0  # Sorry for misunderstanding aga
-          Complexity of rule ~her_animals.9.11- b: 1
-        rule: 100  ~her_animals.10.0 t: 
-          line: 100 0  # ^fail ( TOPIC ) 
-          Complexity of rule ~her_animals.10.0- t: 1
-        rule: 103  ~her_animals.11.0 t: 
+        rule: 81  ~her_animals.10.0-MENTION_ANIMAL u: 
+          line: 81 0  # ^keep ( ) ^refine ( ) 
+          Complexity of rule ~her_animals.10.0-MENTION_ANIMAL u: 1
+        rule: 82  ~her_animals.10.1 a: 
+          line: 82 0  # ^fail ( SENTENCE ) 
+          Complexity of rule ~her_animals.10.1- a: 1
+        rule: 83  ~her_animals.10.2 a: 
+          line: 83 0  # Nothing much is scarier than a
+          Complexity of rule ~her_animals.10.2- a: 1
+        rule: 84  ~her_animals.10.3 a: 
+          line: 84 0  # Mel wasn't really going to bec
+          Complexity of rule ~her_animals.10.3- a: 1
+        rule: 85  ~her_animals.10.4 a: 
+          line: 85 0  # I'm glad I didn't become a cat
+          Complexity of rule ~her_animals.10.4- a: 1
+        rule: 86  ~her_animals.10.5 a: 
+          line: 86 0  # It's peculiar to think of huma
+          Complexity of rule ~her_animals.10.5- a: 1
+        rule: 87  ~her_animals.10.6 a: 
+          line: 87 0  # Jellyfish make me shiver. 
+          Complexity of rule ~her_animals.10.6- a: 1
+        rule: 88  ~her_animals.10.7 a: 
+          line: 88 0  # It is funny when parrots curse
+          Complexity of rule ~her_animals.10.7- a: 1
+        rule: 89  ~her_animals.10.8 a: 
+          line: 89 0  # The mosquito is literally the 
+          Complexity of rule ~her_animals.10.8- a: 1
+        rule: 90  ~her_animals.10.9 a: 
+          line: 90 0  # Koalas are right cute and no o
+          Complexity of rule ~her_animals.10.9- a: 1
+        rule: 91  ~her_animals.10.10 a: 
+          line: 92 0  # [ What about ^pos ( NOUN _0 PL
+          line: 93 88  # [ Animals such as ^pos ( NOUN 
+          line: 94 210  # [ As in the animal? What might
+          line: 95 281  # [ You don't mean ^pos ( NOUN _
+          line: 96 342  # [ Do you mean ^pos ( NOUN _0 P
+          line: 97 409  # $$a_code = 3 
+          Complexity of rule ~her_animals.10.10- a: 1
+        rule: 98  ~her_animals.10.11 b: 
+          line: 98 0  # Sorry for misunderstanding aga
+          Complexity of rule ~her_animals.10.11- b: 1
+        rule: 105  ~her_animals.11.0 t: 
+          line: 105 0  # ^fail ( TOPIC ) 
           Complexity of rule ~her_animals.11.0- t: 1
+        rule: 108  ~her_animals.12.0 t: 
+          Complexity of rule ~her_animals.12.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/art.top
     topic: 2  ~her_art
         rule: 5  ~her_art.0.0 u: 
@@ -15806,84 +15819,90 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/books.top
           line: 142 0  # You want to read me a book? Ca
           Complexity of rule ~her_books.19.0- u: 1
         rule: 144  ~her_books.20.0 u: 
-          line: 144 0  # Read which book now? Uh... 
+          line: 144 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~her_books.20.0- u: 1
-        rule: 151  ~her_books.21.0-MENTION_BOOK u: 
-          line: 151 0  # ^keep ( ) ^refine ( ) 
+        rule: 145  ~her_books.20.1 a: 
+          line: 145 0  # ^gambit ( ~scrapbook ) 
+          Complexity of rule ~her_books.20.1- a: 1
+        rule: 146  ~her_books.20.2 a: 
+          line: 146 0  # Read which book now? Uh... 
+          Complexity of rule ~her_books.20.2- a: 1
+        rule: 153  ~her_books.21.0-MENTION_BOOK u: 
+          line: 153 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~her_books.21.0-MENTION_BOOK u: 1
-        rule: 152  ~her_books.21.1 a: 
-          line: 152 0  # Well, Pride and Prejudice is a
-          line: 153 119  # That is, during the late Victo
+        rule: 154  ~her_books.21.1 a: 
+          line: 154 0  # Well, Pride and Prejudice is a
+          line: 155 119  # That is, during the late Victo
           Complexity of rule ~her_books.21.1- a: 1
-        rule: 154  ~her_books.21.2 a: 
-          line: 154 0  # Don't panic, they say. Good ad
+        rule: 156  ~her_books.21.2 a: 
+          line: 156 0  # Don't panic, they say. Good ad
           Complexity of rule ~her_books.21.2- a: 1
-        rule: 155  ~her_books.21.3 a: 
-          line: 155 0  # One ring to rule them all. Isn
+        rule: 157  ~her_books.21.3 a: 
+          line: 157 0  # One ring to rule them all. Isn
           Complexity of rule ~her_books.21.3- a: 1
-        rule: 157  ~her_books.21.4 a: 
-          line: 157 0  # ^fail ( TOPIC ) 
+        rule: 159  ~her_books.21.4 a: 
+          line: 159 0  # ^fail ( TOPIC ) 
           Complexity of rule ~her_books.21.4- a: 1
-        rule: 159  ~her_books.21.5 a: 
-          line: 159 0  # [ _0 ? It was @0object who wro
-          line: 160 55  # [ _0 the book? I think that wa
+        rule: 161  ~her_books.21.5 a: 
+          line: 161 0  # [ _0 ? It was @0object who wro
+          line: 162 55  # [ _0 the book? I think that wa
           Complexity of rule ~her_books.21.5- a: 1
-        rule: 161  ~her_books.21.6 b: 
-          line: 162 0  # Never mind, heh. I remember st
+        rule: 163  ~her_books.21.6 b: 
+          line: 164 0  # Never mind, heh. I remember st
           Complexity of rule ~her_books.21.6- b: 1
-        rule: 163  ~her_books.21.7 a: 
-          line: 163 0  # The @0subject book, I think yo
+        rule: 165  ~her_books.21.7 a: 
+          line: 165 0  # The @0subject book, I think yo
           Complexity of rule ~her_books.21.7- a: 1
-        rule: 164  ~her_books.21.8 a: 
-          line: 164 0  # [ '_0 is a book that I haven't
-          line: 165 39  # [ '_0 ? I've heard of that boo
-          line: 166 74  # [ _0 ? You mean the book, righ
+        rule: 166  ~her_books.21.8 a: 
+          line: 166 0  # [ '_0 is a book that I haven't
+          line: 167 39  # [ '_0 ? I've heard of that boo
+          line: 168 74  # [ _0 ? You mean the book, righ
           Complexity of rule ~her_books.21.8- a: 1
-        rule: 169  ~her_books.22.0-MENTION_AUTHOR u: 
-          line: 169 0  # ^keep ( ) ^refine ( ) 
+        rule: 171  ~her_books.22.0-MENTION_AUTHOR u: 
+          line: 171 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~her_books.22.0-MENTION_AUTHOR u: 1
-        rule: 170  ~her_books.22.1 a: 
-          line: 171 0  # [ That's the author of @0subje
-          line: 172 44  # [ That's who wrote @0subject ,
-          line: 173 86  # ^addtopic ( ~her_books ) 
+        rule: 172  ~her_books.22.1 a: 
+          line: 173 0  # [ That's the author of @0subje
+          line: 174 44  # [ That's who wrote @0subject ,
+          line: 175 86  # ^addtopic ( ~her_books ) 
           Complexity of rule ~her_books.22.1- a: 1
-        rule: 174  ~her_books.22.2 b: 
-          line: 174 0  # Oh, never mind. I brought up u
+        rule: 176  ~her_books.22.2 b: 
+          line: 176 0  # Oh, never mind. I brought up u
           Complexity of rule ~her_books.22.2- b: 1
-        rule: 175  ~her_books.22.3 a: 
-          line: 175 0  # [ That's an author, huh. ] [ O
+        rule: 177  ~her_books.22.3 a: 
+          line: 177 0  # [ That's an author, huh. ] [ O
           Complexity of rule ~her_books.22.3- a: 1
-        rule: 179  ~her_books.23.0 u: 
-          line: 179 0  # I do know a lot of book titles
+        rule: 181  ~her_books.23.0 u: 
+          line: 181 0  # I do know a lot of book titles
           Complexity of rule ~her_books.23.0- u: 1
-        rule: 182  ~her_books.24.0 u: 
-          line: 182 0  # The good book or the best book
+        rule: 184  ~her_books.24.0 u: 
+          line: 184 0  # The good book or the best book
           Complexity of rule ~her_books.24.0- u: 1
-        rule: 189  ~her_books.25.0 t: 
-          line: 189 0  # ^keep ( ) ^ispending ( ~her_bo
-          if 190 40  
-          line: 190 36  # ^if 00x( ! $$_gambit_topic_pen
-          line: 191 78  # ^fail ( TOPIC ) 
-          ifend 192 99  
-          line: 192 94  # } 004 
+        rule: 191  ~her_books.25.0 t: 
+          line: 191 0  # ^keep ( ) ^ispending ( ~her_bo
+          if 192 40  
+          line: 192 36  # ^if 00x( ! $$_gambit_topic_pen
+          line: 193 78  # ^fail ( TOPIC ) 
+          ifend 194 99  
+          line: 194 94  # } 004 
           Complexity of rule ~her_books.25.0- t: 2
-        rule: 194  ~her_books.26.0 t: 
-          line: 194 0  # I'm sure that I would have had
+        rule: 196  ~her_books.26.0 t: 
+          line: 196 0  # I'm sure that I would have had
           Complexity of rule ~her_books.26.0- t: 1
-        rule: 195  ~her_books.26.1 a: 
-          line: 195 0  # My brother was a hungry reader
+        rule: 197  ~her_books.26.1 a: 
+          line: 197 0  # My brother was a hungry reader
           Complexity of rule ~her_books.26.1- a: 1
-        rule: 196  ~her_books.26.2 a: 
-          line: 196 0  # For example, murder mysteries.
+        rule: 198  ~her_books.26.2 a: 
+          line: 198 0  # For example, murder mysteries.
           Complexity of rule ~her_books.26.2- a: 1
-        rule: 197  ~her_books.26.3 a: 
-          line: 197 0  # Yes, it was a good thing. 
+        rule: 199  ~her_books.26.3 a: 
+          line: 199 0  # Yes, it was a good thing. 
           Complexity of rule ~her_books.26.3- a: 1
-        rule: 199  ~her_books.27.0 t: 
-          line: 199 0  # My father liked books too. Non
+        rule: 201  ~her_books.27.0 t: 
+          line: 201 0  # My father liked books too. Non
           Complexity of rule ~her_books.27.0- t: 1
-        rule: 200  ~her_books.27.1 a: 
-          line: 200 0  # Because my father was devoutly
+        rule: 202  ~her_books.27.1 a: 
+          line: 202 0  # Because my father was devoutly
           Complexity of rule ~her_books.27.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/comedians.top
     topic: 2  ~comedians
@@ -20239,35 +20258,35 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat_subtopics/tr
           line: 25 62  # sucked dry out of me from the 
           Complexity of rule ~trivia.3.0- u: 1
         rule: 28  ~trivia.4.0 ?: 
-          line: 34 0  # I will toss a trivia question 
+          line: 37 0  # I will toss a trivia question 
           Complexity of rule ~trivia.4.0- ?: 1
-        rule: 37  ~trivia.5.0 s: 
-          line: 37 0  # No wonder we get along so sple
+        rule: 40  ~trivia.5.0 s: 
+          line: 40 0  # No wonder we get along so sple
           Complexity of rule ~trivia.5.0- s: 1
-        rule: 40  ~trivia.6.0 s: 
-          line: 40 0  # Oh. You do? I'm sorry that I k
+        rule: 43  ~trivia.6.0 s: 
+          line: 43 0  # Oh. You do? I'm sorry that I k
           Complexity of rule ~trivia.6.0- s: 1
-        rule: 48  ~trivia.7.0 t: 
-          line: 48 0  # ^keep ( ) ^ispending ( ~trivia
-          if 49 37  
-          line: 49 33  # ^if 00x( ! $$_gambit_topic_pen
-          line: 50 75  # ^fail ( TOPIC ) 
-          ifend 51 96  
-          line: 51 91  # } 004 
+        rule: 51  ~trivia.7.0 t: 
+          line: 51 0  # ^keep ( ) ^ispending ( ~trivia
+          if 52 37  
+          line: 52 33  # ^if 00x( ! $$_gambit_topic_pen
+          line: 53 75  # ^fail ( TOPIC ) 
+          ifend 54 96  
+          line: 54 91  # } 004 
           Complexity of rule ~trivia.7.0- t: 2
-        rule: 53  ~trivia.8.0 t: 
-          line: 53 0  # Don't people today like trivia
-          line: 54 103  # contestants answer trivia ques
-          line: 55 140  # It would be fun to go on such 
+        rule: 56  ~trivia.8.0 t: 
+          line: 56 0  # Don't people today like trivia
+          line: 57 103  # contestants answer trivia ques
+          line: 58 140  # It would be fun to go on such 
           Complexity of rule ~trivia.8.0- t: 1
-        rule: 56  ~trivia.8.1 a: 
-          line: 56 0  # Just because I like a thing do
+        rule: 59  ~trivia.8.1 a: 
+          line: 59 0  # Just because I like a thing do
           Complexity of rule ~trivia.8.1- a: 1
-        rule: 58  ~trivia.9.0 t: 
-          line: 58 0  # Trivia is one of my few pleasu
-          line: 59 78  # I did accumulate a fair lot of
-          line: 60 174  # totally dandy. 
-          line: 61 189  # $$quotes = 
+        rule: 61  ~trivia.9.0 t: 
+          line: 61 0  # Trivia is one of my few pleasu
+          line: 62 78  # I did accumulate a fair lot of
+          line: 63 174  # totally dandy. 
+          line: 64 189  # $$quotes = 
           Complexity of rule ~trivia.9.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat_subtopics/violin.top
     topic: 2  ~violin
@@ -26058,88 +26077,94 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/25_Skie
           line: 94 0  # You need protein while airborn
           Complexity of rule ~location25.14.8- a: 1
         rule: 95  ~location25.14.9 a: 
-          line: 95 0  # Oh, it isn't true? I was sure 
+          line: 95 0  # Not any more? I see. ^gambit (
           Complexity of rule ~location25.14.9- a: 1
         rule: 96  ~location25.14.10 a: 
-          line: 96 0  # At least I know it is true. ^g
+          line: 96 0  # Oh, it isn't true? I was sure 
           Complexity of rule ~location25.14.10- a: 1
-        rule: 98  ~location25.15.0 t: 
-          line: 98 0  # I like peanuts, hehe. But I ra
-          line: 99 54  # We were strictly prohibited fr
+        rule: 97  ~location25.14.11 a: 
+          line: 97 0  # At least I know it is true. ^g
+          Complexity of rule ~location25.14.11- a: 1
+        rule: 99  ~location25.15.0 t: 
+          line: 99 0  # I like peanuts, hehe. But I ra
+          line: 100 54  # We were strictly prohibited fr
           Complexity of rule ~location25.15.0- t: 1
-        rule: 100  ~location25.15.1 a: 
-          line: 100 0  # That's just how it was in my f
+        rule: 101  ~location25.15.1 a: 
+          line: 101 0  # That's just how it was in my f
           Complexity of rule ~location25.15.1- a: 1
-        rule: 101  ~location25.15.2 a: 
-          line: 101 0  # Like a casserole. ^gambit ( ~l
+        rule: 102  ~location25.15.2 a: 
+          line: 102 0  # Like a casserole. ^gambit ( ~l
           Complexity of rule ~location25.15.2- a: 1
-        rule: 103  ~location25.16.0 t: 
-          line: 103 0  # Despite being the best chef in
-          line: 104 138  # And she never complimented me 
+        rule: 104  ~location25.16.0 t: 
+          line: 104 0  # Despite being the best chef in
+          line: 105 138  # And she never complimented me 
           Complexity of rule ~location25.16.0- t: 1
-        rule: 105  ~location25.16.1 a: 
-          line: 105 0  # Because I had the stronger gif
+        rule: 106  ~location25.16.1 a: 
+          line: 106 0  # Because I had the stronger gif
           Complexity of rule ~location25.16.1- a: 1
-        rule: 107  ~location25.17.0 t: 
-          line: 107 0  # Faith also made me clean up af
-          line: 108 105  # My father and mother didn't in
+        rule: 108  ~location25.17.0 t: 
+          line: 108 0  # Faith also made me clean up af
+          line: 109 105  # My father and mother didn't in
           Complexity of rule ~location25.17.0- t: 1
-        rule: 109  ~location25.17.1 a: 
-          line: 109 0  # There were times my sister did
-          line: 110 69  # I'd go in the kitchen and she'
-          line: 111 157  # Maybe she really just forgot. 
-          line: 112 187  # $$quotes = 1 
+        rule: 110  ~location25.17.1 a: 
+          line: 110 0  # There were times my sister did
+          line: 111 69  # I'd go in the kitchen and she'
+          line: 112 157  # Maybe she really just forgot. 
+          line: 113 187  # $$quotes = 1 
           Complexity of rule ~location25.17.1- a: 1
-        rule: 113  ~location25.17.2 b: 
-          line: 113 0  # I don't know. My sister could 
+        rule: 114  ~location25.17.2 b: 
+          line: 114 0  # I don't know. My sister could 
           Complexity of rule ~location25.17.2- b: 1
-        rule: 115  ~location25.18.0 t: 
-          line: 115 0  # Now it's my turn to offer some
-          line: 116 114  # and had I lived one more decad
+        rule: 116  ~location25.18.0 t: 
+          line: 116 0  # Now it's my turn to offer some
+          line: 117 114  # and had I lived one more decad
           Complexity of rule ~location25.18.0- t: 1
-        rule: 117  ~location25.18.1 a: 
-          line: 117 0  # ^gambit ( ~location25 ) 
+        rule: 118  ~location25.18.1 a: 
+          line: 118 0  # ^gambit ( ~location25 ) 
           Complexity of rule ~location25.18.1- a: 1
-        rule: 119  ~location25.19.0 t: 
-          line: 119 0  # Did you know that there is a c
-          line: 120 105  # Do you know its name? 
+        rule: 120  ~location25.19.0 t: 
+          line: 120 0  # Did you know that there is a c
+          line: 121 105  # Do you know its name? 
           Complexity of rule ~location25.19.0- t: 1
-        rule: 121  ~location25.19.1 a: 
-          line: 121 0  # Okay. ^gambit ( ~location25 ) 
+        rule: 122  ~location25.19.1 a: 
+          line: 122 0  # Okay. ^gambit ( ~location25 ) 
           Complexity of rule ~location25.19.1- a: 1
-        rule: 122  ~location25.19.2 a: 
-          line: 122 0  # Not that one. ^gambit ( ~locat
+        rule: 123  ~location25.19.2 a: 
+          line: 123 0  # Not that one. ^gambit ( ~locat
           Complexity of rule ~location25.19.2- a: 1
-        rule: 123  ~location25.19.3 a: 
-          line: 123 0  # Yes! Ace, ^user ( ) ! 
-          line: 124 22  # $$r = 3 
-          line: 125 30  # ^gambit ( ~location25 ) 
+        rule: 124  ~location25.19.3 a: 
+          line: 124 0  # Yes! Ace, ^user ( ) ! 
+          line: 125 22  # $$r = 3 
+          line: 126 30  # ^gambit ( ~location25 ) 
           Complexity of rule ~location25.19.3- a: 1
-        rule: 126  ~location25.19.4 a: 
-          line: 126 0  # No, that airline came along la
+        rule: 127  ~location25.19.4 a: 
+          line: 127 0  # No, that airline came along la
           Complexity of rule ~location25.19.4- a: 1
-        rule: 128  ~location25.20.0 t: 
-          line: 128 0  # The answer is KLM or the Royal
-          line: 129 66  # They've been flying for a cent
+        rule: 128  ~location25.19.5 a: 
+          line: 128 0  # ^gambit ( ~location25 ) 
+          Complexity of rule ~location25.19.5- a: 1
+        rule: 130  ~location25.20.0 t: 
+          line: 130 0  # The answer is KLM or the Royal
+          line: 131 66  # They've been flying for a cent
           Complexity of rule ~location25.20.0- t: 1
-        rule: 130  ~location25.20.1 a: 
-          line: 130 0  # It was a right silly metaphor,
+        rule: 132  ~location25.20.1 a: 
+          line: 132 0  # It was a right silly metaphor,
           Complexity of rule ~location25.20.1- a: 1
-        rule: 132  ~location25.21.0 t: 
-          line: 132 0  # Mel is trying to tell me somet
-          line: 133 88  # let you have lithium batteries
-          line: 134 184  # Also, she says that she hates 
-          line: 135 243  # $$a_code = 65 
+        rule: 134  ~location25.21.0 t: 
+          line: 134 0  # Mel is trying to tell me somet
+          line: 135 88  # let you have lithium batteries
+          line: 136 184  # Also, she says that she hates 
+          line: 137 243  # $$a_code = 65 
           Complexity of rule ~location25.21.0- t: 1
-        rule: 136  ~location25.21.1 a: 
-          line: 136 0  # Once again, it's just Mel bein
+        rule: 138  ~location25.21.1 a: 
+          line: 138 0  # Once again, it's just Mel bein
           Complexity of rule ~location25.21.1- a: 1
-        rule: 138  ~location25.22.0 t: 
-          line: 138 0  # ^no_clues_here ( 25 ) 
+        rule: 140  ~location25.22.0 t: 
+          line: 140 0  # ^no_clues_here ( 25 ) 
           Complexity of rule ~location25.22.0- t: 1
-        rule: 141  ~location25.23.0 t: 
-          line: 141 0  # Mel is suggesting you become t
-          line: 142 95  # airplane as a crutch. I don't 
+        rule: 143  ~location25.23.0 t: 
+          line: 143 0  # Mel is suggesting you become t
+          line: 144 95  # airplane as a crutch. I don't 
           Complexity of rule ~location25.23.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/26_Kardec_Room.top
     topic: 4  ~location26
@@ -28443,124 +28468,133 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/41_Stat
           line: 98 59  # Why was I was feeling so out o
           Complexity of rule ~location41.15.0- u: 1
         rule: 100  ~location41.16.0 u: 
-          line: 100 0  # Yes, the argument that they ha
+          line: 100 0  # Something happened to me, but 
           Complexity of rule ~location41.16.0- u: 1
         rule: 102  ~location41.17.0 u: 
-          line: 102 0  # I don't like these trees. Don'
-          line: 103 48  # $$a_code = 0 
+          line: 102 0  # Yes, the argument that they ha
           Complexity of rule ~location41.17.0- u: 1
-        rule: 105  ~location41.18.0 ?: 
-          line: 109 0  # I cannot remember but tiny bit
-          Complexity of rule ~location41.18.0- ?: 1
-        rule: 111  ~location41.19.0 u: 
-          line: 115 0  # I suppose I would have been sc
-          Complexity of rule ~location41.19.0- u: 1
-        rule: 117  ~location41.20.0 u: 
-          line: 117 0  # Dreadful, no? I can remember t
+        rule: 104  ~location41.18.0 u: 
+          line: 104 0  # I don't like these trees. Don'
+          line: 105 48  # $$a_code = 0 
+          Complexity of rule ~location41.18.0- u: 1
+        rule: 107  ~location41.19.0 ?: 
+          line: 111 0  # I cannot remember but tiny bit
+          Complexity of rule ~location41.19.0- ?: 1
+        rule: 113  ~location41.20.0 u: 
+          line: 117 0  # I suppose I would have been sc
           Complexity of rule ~location41.20.0- u: 1
         rule: 119  ~location41.21.0 u: 
-          line: 119 0  # If I could remember a particul
-          line: 120 96  # Where were we sitting again...
+          line: 119 0  # Dreadful, no? I can remember t
           Complexity of rule ~location41.21.0- u: 1
-        rule: 122  ~location41.22.0 u: 
-          line: 122 0  # Rather scary, yes. ^gambit ( ~
+        rule: 121  ~location41.22.0 u: 
+          line: 121 0  # If I could remember a particul
+          line: 122 96  # Where were we sitting again...
           Complexity of rule ~location41.22.0- u: 1
-        rule: 130  ~location41.23.0 t: 
-          line: 130 0  # ^fail ( TOPIC ) 
-          Complexity of rule ~location41.23.0- t: 1
-        rule: 132  ~location41.24.0 t: 
-          line: 132 0  # That's it about the picnic tab
-          line: 133 68  # Chauncy did go on to walk us t
-          line: 134 137  # my mother remained cross with 
-          Complexity of rule ~location41.24.0- t: 1
-        rule: 135  ~location41.24.1 a: 
-          line: 135 0  # My mother didn't like it when 
-          Complexity of rule ~location41.24.1- a: 1
-        rule: 137  ~location41.25.0 t: 
-          line: 137 0  # I'd like to forget about this 
-          line: 138 40  # There's naught new to be learn
-          line: 139 100  # $cooldown = 0 
-          line: 140 114  # @1 = ^query ( direct_svo 41 kn
-          line: 141 152  # ^delete ( @1 ) 
-          line: 142 167  # ^createfact ( 41 known 2 ) 
-          line: 143 194  # $$update_loc = 41 
-          Complexity of rule ~location41.25.0- t: 1
-        rule: 144  ~location41.25.1 a: 
-          line: 144 0  # I merely have that feeling. 
-          Complexity of rule ~location41.25.1- a: 1
-        rule: 146  ~location41.26.0 t: 
-          line: 146 0  # Station Park isn't the real na
-          line: 147 83  # The night that I walked throug
+        rule: 124  ~location41.23.0 u: 
+          line: 124 0  # Rather scary, yes. ^gambit ( ~
+          Complexity of rule ~location41.23.0- u: 1
+        rule: 126  ~location41.24.0 u: 
+          line: 126 0  # Anyway, I suppose this would n
+          Complexity of rule ~location41.24.0- u: 1
+        rule: 127  ~location41.25.0 u: 
+          line: 127 0  # It's not the park as a whole t
+          Complexity of rule ~location41.25.0- u: 1
+        rule: 134  ~location41.26.0 t: 
+          line: 134 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location41.26.0- t: 1
-        rule: 148  ~location41.26.1 a: 
-          line: 148 0  # ^gambit ( ~location41 ) 
-          Complexity of rule ~location41.26.1- a: 1
-        rule: 150  ~location41.27.0 t: 
-          line: 150 0  # There was a row between my mot
-          line: 151 61  # persuade us to stay in London 
-          line: 152 150  # Feeling dizzy myself, I could 
-          line: 153 205  # $they_pronoun = ^join ( AUTOSP
+        rule: 136  ~location41.27.0 t: 
+          line: 136 0  # That's it about the picnic tab
+          line: 137 68  # Chauncy did go on to walk us t
+          line: 138 137  # my mother remained cross with 
           Complexity of rule ~location41.27.0- t: 1
-        rule: 154  ~location41.27.1 a: 
-          line: 154 0  # I was feeling a dark and oppre
+        rule: 139  ~location41.27.1 a: 
+          line: 139 0  # My mother didn't like it when 
           Complexity of rule ~location41.27.1- a: 1
-        rule: 155  ~location41.27.2 b: 
-          line: 155 0  # It's...a feeling I've felt bef
-          Complexity of rule ~location41.27.2- b: 1
-        rule: 156  ~location41.27.3 c: 
-          line: 156 0  # When was it? I... ^gambit ( ~l
-          Complexity of rule ~location41.27.3- c: 1
-        rule: 158  ~location41.28.0 t: 
-          line: 158 0  # Right by this tree...there was
-          line: 159 119  # the griminess. 
-          line: 160 134  # And there was a point where Ch
+        rule: 141  ~location41.28.0 t: 
+          line: 141 0  # I'd like to forget about this 
+          line: 142 40  # There's naught new to be learn
+          line: 143 100  # $cooldown = 0 
+          line: 144 114  # @1 = ^query ( direct_svo 41 kn
+          line: 145 152  # ^delete ( @1 ) 
+          line: 146 167  # ^createfact ( 41 known 2 ) 
+          line: 147 194  # $$update_loc = 41 
           Complexity of rule ~location41.28.0- t: 1
-        rule: 161  ~location41.28.1 a: 
-          line: 161 0  # Because he and my mother were 
+        rule: 148  ~location41.28.1 a: 
+          line: 148 0  # I merely have that feeling. 
           Complexity of rule ~location41.28.1- a: 1
-        rule: 163  ~location41.29.0 t: 
-          line: 163 0  # I remember my mother proclaimi
-          line: 164 124  # That was the moment I became f
+        rule: 150  ~location41.29.0 t: 
+          line: 150 0  # Station Park isn't the real na
+          line: 151 83  # The night that I walked throug
           Complexity of rule ~location41.29.0- t: 1
-        rule: 165  ~location41.29.1 a: 
-          line: 165 0  # Because Jack the Ripper was st
+        rule: 152  ~location41.29.1 a: 
+          line: 152 0  # ^gambit ( ~location41 ) 
           Complexity of rule ~location41.29.1- a: 1
-        rule: 167  ~location41.30.0 t: 
-          line: 167 0  # And my dark, uneasy feeling...
-          line: 168 57  # But what happened afterwards? 
+        rule: 154  ~location41.30.0 t: 
+          line: 154 0  # There was a row between my mot
+          line: 155 61  # persuade us to stay in London 
+          line: 156 150  # Feeling dizzy myself, I could 
+          line: 157 205  # $they_pronoun = ^join ( AUTOSP
           Complexity of rule ~location41.30.0- t: 1
-        rule: 169  ~location41.30.1 a: 
-          line: 169 0  # Hmm... ^gambit ( ~location41 )
+        rule: 158  ~location41.30.1 a: 
+          line: 158 0  # I was feeling a dark and oppre
           Complexity of rule ~location41.30.1- a: 1
-        rule: 171  ~location41.31.0 t: 
-          line: 171 0  # Why can't I remember what it w
-          line: 172 96  # we finally sat down it was a r
+        rule: 159  ~location41.30.2 b: 
+          line: 159 0  # It's...a feeling I've felt bef
+          Complexity of rule ~location41.30.2- b: 1
+        rule: 160  ~location41.30.3 c: 
+          line: 160 0  # When was it? I... ^gambit ( ~l
+          Complexity of rule ~location41.30.3- c: 1
+        rule: 162  ~location41.31.0 t: 
+          line: 162 0  # Right by this tree...there was
+          line: 163 119  # the griminess. 
+          line: 164 134  # And there was a point where Ch
           Complexity of rule ~location41.31.0- t: 1
-        rule: 173  ~location41.31.1 a: 
-          line: 173 0  # ^gambit ( ~location34 ) 
+        rule: 165  ~location41.31.1 a: 
+          line: 165 0  # Because he and my mother were 
           Complexity of rule ~location41.31.1- a: 1
-        rule: 175  ~location41.32.0 t: 
-          line: 175 0  # We passed that bench and then.
-          line: 176 47  # Why was I feeling so out of so
+        rule: 167  ~location41.32.0 t: 
+          line: 167 0  # I remember my mother proclaimi
+          line: 168 124  # That was the moment I became f
           Complexity of rule ~location41.32.0- t: 1
-        rule: 177  ~location41.32.1 a: 
-          line: 177 0  # I don't know, ^user ( ) . ^gam
+        rule: 169  ~location41.32.1 a: 
+          line: 169 0  # Because Jack the Ripper was st
           Complexity of rule ~location41.32.1- a: 1
-        rule: 179  ~location41.33.0 t: 
-          line: 179 0  # There is definitely a clue abo
+        rule: 171  ~location41.33.0 t: 
+          line: 171 0  # And my dark, uneasy feeling...
+          line: 172 57  # But what happened afterwards? 
           Complexity of rule ~location41.33.0- t: 1
-        rule: 180  ~location41.33.1 a: 
-          line: 180 0  # I just know it. There is somet
+        rule: 173  ~location41.33.1 a: 
+          line: 173 0  # Hmm... ^gambit ( ~location41 )
           Complexity of rule ~location41.33.1- a: 1
-        rule: 182  ~location41.34.0 t: 
-          line: 182 0  # Perhaps some detail would help
+        rule: 175  ~location41.34.0 t: 
+          line: 175 0  # Why can't I remember what it w
+          line: 176 96  # we finally sat down it was a r
           Complexity of rule ~location41.34.0- t: 1
-        rule: 183  ~location41.34.1 a: 
-          line: 183 0  # Yes. About this place, perhaps
+        rule: 177  ~location41.34.1 a: 
+          line: 177 0  # ^gambit ( ~location34 ) 
           Complexity of rule ~location41.34.1- a: 1
-        rule: 187  ~location41.35.0 t: 
-          line: 187 0  # Am I misremembering it? Chauny
+        rule: 179  ~location41.35.0 t: 
+          line: 179 0  # We passed that bench and then.
+          line: 180 47  # Why was I feeling so out of so
           Complexity of rule ~location41.35.0- t: 1
+        rule: 181  ~location41.35.1 a: 
+          line: 181 0  # I don't know, ^user ( ) . ^gam
+          Complexity of rule ~location41.35.1- a: 1
+        rule: 183  ~location41.36.0 t: 
+          line: 183 0  # There is definitely a clue abo
+          Complexity of rule ~location41.36.0- t: 1
+        rule: 184  ~location41.36.1 a: 
+          line: 184 0  # I just know it. There is somet
+          Complexity of rule ~location41.36.1- a: 1
+        rule: 186  ~location41.37.0 t: 
+          line: 186 0  # Perhaps some detail would help
+          Complexity of rule ~location41.37.0- t: 1
+        rule: 187  ~location41.37.1 a: 
+          line: 187 0  # Yes. About this place, perhaps
+          Complexity of rule ~location41.37.1- a: 1
+        rule: 191  ~location41.38.0 t: 
+          line: 191 0  # Am I misremembering it? Chauny
+          Complexity of rule ~location41.38.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/42_Gobi_Desert.top
     topic: 4  ~location42
         rule: 13  ~location42.0.0 u: 
@@ -28836,72 +28870,76 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/43_Bass
         rule: 101  ~location43.20.0 u: 
           line: 101 0  # There are a lot of books here.
           Complexity of rule ~location43.20.0- u: 1
-        rule: 108  ~location43.21.0 t: 
-          line: 108 0  # ^fail ( TOPIC ) 
-          Complexity of rule ~location43.21.0- t: 1
-        rule: 111  ~location43.22.0 t: 
-          line: 111 0  # ^gambit ( ~scrapbook ) 
+        rule: 103  ~location43.21.0 u: 
+          line: 103 0  # IS there a secret passage in t
+          line: 104 58  # $$a_code = 64 
+          Complexity of rule ~location43.21.0- u: 1
+        rule: 112  ~location43.22.0 t: 
+          line: 112 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location43.22.0- t: 1
-        rule: 114  ~location43.23.0 t: 
-          line: 114 0  # This is the small study in Mel
-          line: 115 116  # when her mom wasn't allowing h
+        rule: 115  ~location43.23.0 t: 
+          line: 115 0  # ^gambit ( ~scrapbook ) 
           Complexity of rule ~location43.23.0- t: 1
-        rule: 116  ~location43.23.1 a: 
-          line: 116 0  # Isn't that what one does in a 
-          Complexity of rule ~location43.23.1- a: 1
         rule: 118  ~location43.24.0 t: 
-          line: 118 0  # There's a whole lot of ancient
-          line: 119 93  # First Age of Middle-Earth, she
-          line: 120 180  # but clearly her grandparents k
+          line: 118 0  # This is the small study in Mel
+          line: 119 116  # when her mom wasn't allowing h
           Complexity of rule ~location43.24.0- t: 1
-        rule: 121  ~location43.24.1 a: 
-          line: 121 0  # Anyway, that's what Mel says. 
+        rule: 120  ~location43.24.1 a: 
+          line: 120 0  # Isn't that what one does in a 
           Complexity of rule ~location43.24.1- a: 1
-        rule: 123  ~location43.25.0 t: 
-          line: 123 0  # Oh, look! There's "The Hound o
-          line: 124 118  # Have you read it, Mel? Mel say
+        rule: 122  ~location43.25.0 t: 
+          line: 122 0  # There's a whole lot of ancient
+          line: 123 93  # First Age of Middle-Earth, she
+          line: 124 180  # but clearly her grandparents k
           Complexity of rule ~location43.25.0- t: 1
         rule: 125  ~location43.25.1 a: 
-          line: 125 0  # ^gambit ( ~location43 ) 
+          line: 125 0  # Anyway, that's what Mel says. 
           Complexity of rule ~location43.25.1- a: 1
-        rule: 126  ~location43.25.2 a: 
-          line: 126 0  # You've read it, ^user ( ) ? Wo
-          Complexity of rule ~location43.25.2- a: 1
-        rule: 128  ~location43.26.0 t: 
-          line: 128 0  # Unless someone leaves a book l
-          line: 129 66  # Mel says she's thankful for th
-          line: 130 167  # Does it please you to never ha
+        rule: 127  ~location43.26.0 t: 
+          line: 127 0  # Oh, look! There's "The Hound o
+          line: 128 118  # Have you read it, Mel? Mel say
           Complexity of rule ~location43.26.0- t: 1
-        rule: 131  ~location43.26.1 a: 
-          line: 131 0  # Mel was unable to attend schoo
+        rule: 129  ~location43.26.1 a: 
+          line: 129 0  # ^gambit ( ~location43 ) 
           Complexity of rule ~location43.26.1- a: 1
-        rule: 132  ~location43.26.2 b: 
-          line: 132 0  # You know, Mel's heart issues. 
-          Complexity of rule ~location43.26.2- b: 1
-        rule: 134  ~location43.27.0 t: 
-          line: 134 0  # Her mother rarely comes in thi
-          line: 135 119  # Her mother was, apparently, al
+        rule: 130  ~location43.26.2 a: 
+          line: 130 0  # You've read it, ^user ( ) ? Wo
+          Complexity of rule ~location43.26.2- a: 1
+        rule: 132  ~location43.27.0 t: 
+          line: 132 0  # Unless someone leaves a book l
+          line: 133 66  # Mel says she's thankful for th
+          line: 134 167  # Does it please you to never ha
           Complexity of rule ~location43.27.0- t: 1
-        rule: 136  ~location43.27.1 a: 
-          line: 136 0  # Because Mel was raised by a si
+        rule: 135  ~location43.27.1 a: 
+          line: 135 0  # Mel was unable to attend schoo
           Complexity of rule ~location43.27.1- a: 1
+        rule: 136  ~location43.27.2 b: 
+          line: 136 0  # You know, Mel's heart issues. 
+          Complexity of rule ~location43.27.2- b: 1
         rule: 138  ~location43.28.0 t: 
-          line: 138 0  # Mel says she would show her de
-          line: 139 93  # I tried to explain to her that
+          line: 138 0  # Her mother rarely comes in thi
+          line: 139 119  # Her mother was, apparently, al
           Complexity of rule ~location43.28.0- t: 1
         rule: 140  ~location43.28.1 a: 
-          line: 141 0  # So it's always the woman's fau
+          line: 140 0  # Because Mel was raised by a si
           Complexity of rule ~location43.28.1- a: 1
-        rule: 142  ~location43.28.2 b: 
-          line: 142 0  # ^gambit ( ~location43 ) 
-          Complexity of rule ~location43.28.2- b: 1
-        rule: 144  ~location43.29.0 t: 
-          line: 144 0  # I told Mel about her geneaolog
-          line: 145 103  # I guess that's normal. I never
+        rule: 142  ~location43.29.0 t: 
+          line: 142 0  # Mel says she would show her de
+          line: 143 93  # I tried to explain to her that
           Complexity of rule ~location43.29.0- t: 1
-        rule: 146  ~location43.29.1 a: 
-          line: 146 0  # It's too far back, don't you t
+        rule: 144  ~location43.29.1 a: 
+          line: 145 0  # So it's always the woman's fau
           Complexity of rule ~location43.29.1- a: 1
+        rule: 146  ~location43.29.2 b: 
+          line: 146 0  # ^gambit ( ~location43 ) 
+          Complexity of rule ~location43.29.2- b: 1
+        rule: 148  ~location43.30.0 t: 
+          line: 148 0  # I told Mel about her geneaolog
+          line: 149 103  # I guess that's normal. I never
+          Complexity of rule ~location43.30.0- t: 1
+        rule: 150  ~location43.30.1 a: 
+          line: 150 0  # It's too far back, don't you t
+          Complexity of rule ~location43.30.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/44_Abbott_Farm.top
     topic: 4  ~location44
         rule: 13  ~location44.0.0 u: 
@@ -29280,124 +29318,127 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/46_Yule
         rule: 122  ~location46.25.1 a: 
           line: 122 0  # Burton is somehow tied up in t
           Complexity of rule ~location46.25.1- a: 1
-        rule: 124  ~location46.26.0 t: 
-          line: 124 0  # ^user ( ) , all I remember of 
-          line: 125 92  # Burton was normally a close-li
-          line: 126 169  # more than he did normally did.
+        rule: 123  ~location46.25.2 a: 
+          line: 123 0  # That Burton had? General milit
+          Complexity of rule ~location46.25.2- a: 1
+        rule: 125  ~location46.26.0 t: 
+          line: 125 0  # ^user ( ) , all I remember of 
+          line: 126 92  # Burton was normally a close-li
+          line: 127 169  # more than he did normally did.
           Complexity of rule ~location46.26.0- t: 1
-        rule: 127  ~location46.26.1 a: 
-          line: 127 0  # The spirit of the holidays, I 
+        rule: 128  ~location46.26.1 a: 
+          line: 128 0  # The spirit of the holidays, I 
           Complexity of rule ~location46.26.1- a: 1
-        rule: 131  ~location46.27.0 t: 
-          line: 131 0  # I think we've found all the cl
-          line: 132 77  # Not that I have any problem at
-          line: 133 170  # $cooldown = 0 
-          line: 134 184  # @1 = ^query ( direct_svo 46 kn
-          line: 135 222  # ^delete ( @1 ) 
-          line: 136 237  # ^createfact ( 46 known 2 ) 
-          line: 137 264  # $$update_loc = 46 
+        rule: 132  ~location46.27.0 t: 
+          line: 132 0  # I think we've found all the cl
+          line: 133 77  # Not that I have any problem at
+          line: 134 170  # $cooldown = 0 
+          line: 135 184  # @1 = ^query ( direct_svo 46 kn
+          line: 136 222  # ^delete ( @1 ) 
+          line: 137 237  # ^createfact ( 46 known 2 ) 
+          line: 138 264  # $$update_loc = 46 
           Complexity of rule ~location46.27.0- t: 1
-        rule: 138  ~location46.27.1 a: 
-          line: 138 0  # Just how I feel. It's up to yo
+        rule: 139  ~location46.27.1 a: 
+          line: 139 0  # Just how I feel. It's up to yo
           Complexity of rule ~location46.27.1- a: 1
-        rule: 140  ~location46.28.0 t: 
-          line: 140 0  # In this cozy living room, ^use
-          line: 141 58  # Even a spirit can feel the Chr
+        rule: 141  ~location46.28.0 t: 
+          line: 141 0  # In this cozy living room, ^use
+          line: 142 58  # Even a spirit can feel the Chr
           Complexity of rule ~location46.28.0- t: 1
-        rule: 142  ~location46.28.1 a: 
-          line: 142 0  # That second use of spirit was 
+        rule: 143  ~location46.28.1 a: 
+          line: 143 0  # That second use of spirit was 
           Complexity of rule ~location46.28.1- a: 1
-        rule: 143  ~location46.28.2 a: 
-          line: 143 0  # You should. ^gambit ( ~locatio
+        rule: 144  ~location46.28.2 a: 
+          line: 144 0  # You should. ^gambit ( ~locatio
           Complexity of rule ~location46.28.2- a: 1
-        rule: 145  ~location46.29.0 t: 
-          line: 145 0  # You know that numerous modern-
-          line: 146 101  # the Christmas stocking, the Ch
-          line: 147 228  # and of course there is the fam
-          line: 148 284  # $$it_pronoun = book 
+        rule: 146  ~location46.29.0 t: 
+          line: 146 0  # You know that numerous modern-
+          line: 147 101  # the Christmas stocking, the Ch
+          line: 148 228  # and of course there is the fam
+          line: 149 284  # $$it_pronoun = book 
           Complexity of rule ~location46.29.0- t: 1
-        rule: 149  ~location46.29.1 a: 
-          line: 149 0  # A Christmas Carol, right! 
-          line: 150 26  # $$r = 2 
-          line: 151 34  # ^gambit ( ~location46 ) 
+        rule: 150  ~location46.29.1 a: 
+          line: 150 0  # A Christmas Carol, right! 
+          line: 151 26  # $$r = 2 
+          line: 152 34  # ^gambit ( ~location46 ) 
           Complexity of rule ~location46.29.1- a: 1
-        rule: 152  ~location46.29.2 a: 
-          line: 152 0  # Surely you know of these thing
+        rule: 153  ~location46.29.2 a: 
+          line: 153 0  # Surely you know of these thing
           Complexity of rule ~location46.29.2- a: 1
-        rule: 153  ~location46.29.3 a: 
-          line: 153 0  # Charles Dickens, who wrote A C
+        rule: 154  ~location46.29.3 a: 
+          line: 154 0  # Charles Dickens, who wrote A C
           Complexity of rule ~location46.29.3- a: 1
-        rule: 154  ~location46.29.4 a: 
-          line: 154 0  # Surely you have heard of the s
+        rule: 155  ~location46.29.4 a: 
+          line: 155 0  # Surely you have heard of the s
           Complexity of rule ~location46.29.4- a: 1
-        rule: 157  ~location46.30.0 t: 
-          line: 158 0  # Watch this, ^user ( ) . I can 
-          line: 159 93  # for you to see it. It works be
-          line: 160 188  # Any ghost can do that much. Ph
-          line: 161 253  # $$a_code = 28 
+        rule: 158  ~location46.30.0 t: 
+          line: 159 0  # Watch this, ^user ( ) . I can 
+          line: 160 93  # for you to see it. It works be
+          line: 161 188  # Any ghost can do that much. Ph
+          line: 162 253  # $$a_code = 28 
           Complexity of rule ~location46.30.0- t: 1
-        rule: 162  ~location46.30.1 a: 
-          line: 162 0  # Are you interested in Phantaki
+        rule: 163  ~location46.30.1 a: 
+          line: 163 0  # Are you interested in Phantaki
           Complexity of rule ~location46.30.1- a: 1
-        rule: 164  ~location46.31.0 t: 
-          line: 164 0  # But being here takes me back. 
-          line: 165 145  # spend a few days with us at th
+        rule: 165  ~location46.31.0 t: 
+          line: 165 0  # But being here takes me back. 
+          line: 166 145  # spend a few days with us at th
           Complexity of rule ~location46.31.0- t: 1
-        rule: 166  ~location46.31.1 a: 
-          line: 166 0  # ^gambit ( ~location46 ) 
+        rule: 167  ~location46.31.1 a: 
+          line: 167 0  # ^gambit ( ~location46 ) 
           Complexity of rule ~location46.31.1- a: 1
-        rule: 168  ~location46.32.0 t: 
-          line: 168 0  # I remember...on that Christmas
-          line: 169 129  # Burton was a veteran of the Fi
+        rule: 169  ~location46.32.0 t: 
+          line: 169 0  # I remember...on that Christmas
+          line: 170 129  # Burton was a veteran of the Fi
           Complexity of rule ~location46.32.0- t: 1
-        rule: 170  ~location46.32.1 a: 
-          line: 170 0  # That was just Burton, you see.
+        rule: 171  ~location46.32.1 a: 
+          line: 171 0  # That was just Burton, you see.
           Complexity of rule ~location46.32.1- a: 1
-        rule: 172  ~location46.33.0 t: 
-          line: 172 0  # My family was not what you wou
-          line: 173 100  # traditions that we always look
+        rule: 173  ~location46.33.0 t: 
+          line: 173 0  # My family was not what you wou
+          line: 174 100  # traditions that we always look
           Complexity of rule ~location46.33.0- t: 1
-        rule: 174  ~location46.33.1 a: 
-          line: 174 0  # Every child did, I thought. ^g
+        rule: 175  ~location46.33.1 a: 
+          line: 175 0  # Every child did, I thought. ^g
           Complexity of rule ~location46.33.1- a: 1
-        rule: 175  ~location46.33.2 a: 
-          line: 175 0  # Christmas traditions, ^user ( 
+        rule: 176  ~location46.33.2 a: 
+          line: 176 0  # Christmas traditions, ^user ( 
           Complexity of rule ~location46.33.2- a: 1
-        rule: 177  ~location46.34.0 t: 
-          line: 177 0  # For my sister's part she was r
-          line: 178 84  # risking his life in any future
+        rule: 178  ~location46.34.0 t: 
+          line: 178 0  # For my sister's part she was r
+          line: 179 84  # risking his life in any future
           Complexity of rule ~location46.34.0- t: 1
-        rule: 179  ~location46.34.1 a: 
-          line: 179 0  # I mean, we can understand how 
+        rule: 180  ~location46.34.1 a: 
+          line: 180 0  # I mean, we can understand how 
           Complexity of rule ~location46.34.1- a: 1
-        rule: 180  ~location46.34.2 a: 
-          line: 180 0  # Conflicts meaning wars. ^gambi
+        rule: 181  ~location46.34.2 a: 
+          line: 181 0  # Conflicts meaning wars. ^gambi
           Complexity of rule ~location46.34.2- a: 1
-        rule: 182  ~location46.35.0 t: 
-          line: 182 0  # But it's strange. I have a fai
-          line: 183 115  # that, ah.... 
+        rule: 183  ~location46.35.0 t: 
+          line: 183 0  # But it's strange. I have a fai
+          line: 184 115  # that, ah.... 
           Complexity of rule ~location46.35.0- t: 1
-        rule: 184  ~location46.35.1 a: 
-          line: 184 0  # ^gambit ( ~location46 ) 
+        rule: 185  ~location46.35.1 a: 
+          line: 185 0  # ^gambit ( ~location46 ) 
           Complexity of rule ~location46.35.1- a: 1
-        rule: 186  ~location46.36.0 t: 
-          line: 186 0  # It's on the tip of my memory? 
-          line: 187 90  # that last Christmas I shared w
+        rule: 187  ~location46.36.0 t: 
+          line: 187 0  # It's on the tip of my memory? 
+          line: 188 90  # that last Christmas I shared w
           Complexity of rule ~location46.36.0- t: 1
-        rule: 188  ~location46.36.1 a: 
-          line: 188 0  # It's just a feeling I have, bu
+        rule: 189  ~location46.36.1 a: 
+          line: 189 0  # It's just a feeling I have, bu
           Complexity of rule ~location46.36.1- a: 1
-        rule: 190  ~location46.37.0 t: 
-          line: 190 0  # Anyway, we all got to know Bur
+        rule: 191  ~location46.37.0 t: 
+          line: 191 0  # Anyway, we all got to know Bur
           Complexity of rule ~location46.37.0- t: 1
-        rule: 191  ~location46.37.1 a: 
-          line: 191 0  # Because we were interested in 
+        rule: 192  ~location46.37.1 a: 
+          line: 192 0  # Because we were interested in 
           Complexity of rule ~location46.37.1- a: 1
-        rule: 192  ~location46.37.2 a: 
-          line: 192 0  # His war stories, ^user ( ) . T
+        rule: 193  ~location46.37.2 a: 
+          line: 193 0  # His war stories, ^user ( ) . T
           Complexity of rule ~location46.37.2- a: 1
-        rule: 196  ~location46.38.0 t: 
-          line: 196 0  # Burton had stories to tell us 
+        rule: 197  ~location46.38.0 t: 
+          line: 197 0  # Burton had stories to tell us 
           Complexity of rule ~location46.38.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/47_St_Martin_Churchyard.top
     topic: 4  ~location47
@@ -30565,38 +30606,41 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/54_Khaj
         rule: 109  ~location54.17.1 a: 
           line: 109 0  # ^gambit ( ~location54 ) 
           Complexity of rule ~location54.17.1- a: 1
-        rule: 111  ~location54.18.0 t: 
-          line: 111 0  # Mel says I have to go wherever
-          line: 112 79  # I don't know. Maybe...could it
+        rule: 110  ~location54.17.2 a: 
+          line: 110 0  # Hmm. ^gambit ( ~location54 ) 
+          Complexity of rule ~location54.17.2- a: 1
+        rule: 112  ~location54.18.0 t: 
+          line: 112 0  # Mel says I have to go wherever
+          line: 113 79  # I don't know. Maybe...could it
           Complexity of rule ~location54.18.0- t: 1
-        rule: 113  ~location54.18.1 a: 
-          line: 113 0  # Maybe we haven't solved the wh
-          line: 114 88  # Something that might cast ever
-          line: 115 161  # $$halt = 1 
+        rule: 114  ~location54.18.1 a: 
+          line: 114 0  # Maybe we haven't solved the wh
+          line: 115 88  # Something that might cast ever
+          line: 116 161  # $$halt = 1 
           Complexity of rule ~location54.18.1- a: 1
-        rule: 116  ~location54.18.2 b: 
-          line: 116 0  # Just a thought I had. ^gambit 
+        rule: 117  ~location54.18.2 b: 
+          line: 117 0  # Just a thought I had. ^gambit 
           Complexity of rule ~location54.18.2- b: 1
-        rule: 117  ~location54.18.3 b: 
-          line: 117 0  # ^gambit ( ~location54 ) 
+        rule: 118  ~location54.18.3 b: 
+          line: 118 0  # ^gambit ( ~location54 ) 
           Complexity of rule ~location54.18.3- b: 1
-        rule: 119  ~location54.19.0 t: 
-          line: 119 0  # What do you think, ^user ( ) ?
-          line: 120 77  # $$halt = 1 
+        rule: 120  ~location54.19.0 t: 
+          line: 120 0  # What do you think, ^user ( ) ?
+          line: 121 77  # $$halt = 1 
           Complexity of rule ~location54.19.0- t: 1
-        rule: 121  ~location54.19.1 a: 
-          line: 121 0  # No? So we know everything? Hmm
+        rule: 122  ~location54.19.1 a: 
+          line: 122 0  # No? So we know everything? Hmm
           Complexity of rule ~location54.19.1- a: 1
-        rule: 122  ~location54.19.2 a: 
-          line: 123 0  # Yes, it could be that we are n
+        rule: 123  ~location54.19.2 a: 
+          line: 124 0  # Yes, it could be that we are n
           Complexity of rule ~location54.19.2- a: 1
-        rule: 125  ~location54.20.0 t: 
-          line: 125 0  # At any rate, there can be no c
-          line: 126 41  # $cooldown = 0 
-          line: 127 55  # @1 = ^query ( direct_svo 54 kn
-          line: 128 93  # ^delete ( @1 ) 
-          line: 129 108  # ^createfact ( 54 known 2 ) 
-          line: 130 135  # $$update_loc = 
+        rule: 126  ~location54.20.0 t: 
+          line: 126 0  # At any rate, there can be no c
+          line: 127 41  # $cooldown = 0 
+          line: 128 55  # @1 = ^query ( direct_svo 54 kn
+          line: 129 93  # ^delete ( @1 ) 
+          line: 130 108  # ^createfact ( 54 known 2 ) 
+          line: 131 135  # $$update_loc = 
           Complexity of rule ~location54.20.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/_await_location.top
     topic: 2  ~await_location
@@ -33458,87 +33502,87 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
           line: 67 0  # Mel says that she has crushed 
           Complexity of rule ~keywordless_flirt_mellen.6.0- u: 1
         rule: 70  ~keywordless_flirt_mellen.7.0 u: 
-          line: 79 0  # I'm sure Mel wouldn't turn tha
+          line: 80 0  # I'm sure Mel wouldn't turn tha
           Complexity of rule ~keywordless_flirt_mellen.7.0- u: 1
-        rule: 82  ~keywordless_flirt_mellen.8.0 u: 
-          line: 91 0  # Mel wouldn't say no to that. 
+        rule: 83  ~keywordless_flirt_mellen.8.0 u: 
+          line: 93 0  # Mel wouldn't say no to that. 
           Complexity of rule ~keywordless_flirt_mellen.8.0- u: 1
-        rule: 94  ~keywordless_flirt_mellen.9.0 s: 
-          line: 99 0  # Mel is a sweetheart at heart, 
+        rule: 96  ~keywordless_flirt_mellen.9.0 s: 
+          line: 101 0  # Mel is a sweetheart at heart, 
           Complexity of rule ~keywordless_flirt_mellen.9.0- s: 1
-        rule: 102  ~keywordless_flirt_mellen.10.0 s: 
-          line: 106 0  # Do you find Mel sexy, ^user ( 
+        rule: 104  ~keywordless_flirt_mellen.10.0 s: 
+          line: 108 0  # Do you find Mel sexy, ^user ( 
           Complexity of rule ~keywordless_flirt_mellen.10.0- s: 1
-        rule: 109  ~keywordless_flirt_mellen.11.0 u: 
-          line: 118 0  # Mel is right pretty, isn't she
-          line: 119 86  # At least I don't have stabismu
-          line: 120 129  # ^refine ( ) 
+        rule: 111  ~keywordless_flirt_mellen.11.0 u: 
+          line: 120 0  # Mel is right pretty, isn't she
+          line: 121 86  # At least I don't have stabismu
+          line: 122 129  # ^refine ( ) 
           Complexity of rule ~keywordless_flirt_mellen.11.0- u: 1
-        rule: 121  ~keywordless_flirt_mellen.11.1 a: 
-          line: 121 0  # In the right place but not wor
+        rule: 123  ~keywordless_flirt_mellen.11.1 a: 
+          line: 123 0  # In the right place but not wor
           Complexity of rule ~keywordless_flirt_mellen.11.1- a: 1
-        rule: 122  ~keywordless_flirt_mellen.11.2 a: 
-          line: 122 0  # Don't ask me. Mel takes the bi
+        rule: 124  ~keywordless_flirt_mellen.11.2 a: 
+          line: 124 0  # Don't ask me. Mel takes the bi
           Complexity of rule ~keywordless_flirt_mellen.11.2- a: 1
-        rule: 126  ~keywordless_flirt_mellen.12.0 ?: 
-          line: 126 0  # ^reuse ( ~her_sex.WHAT_MEL_TYP
+        rule: 128  ~keywordless_flirt_mellen.12.0 ?: 
+          line: 128 0  # ^reuse ( ~her_sex.WHAT_MEL_TYP
           Complexity of rule ~keywordless_flirt_mellen.12.0- ?: 1
-        rule: 130  ~keywordless_flirt_mellen.13.0 u: 
-          line: 140 0  # R-right. You and Mellen. 
+        rule: 132  ~keywordless_flirt_mellen.13.0 u: 
+          line: 142 0  # R-right. You and Mellen. 
           Complexity of rule ~keywordless_flirt_mellen.13.0- u: 1
-        rule: 143  ~keywordless_flirt_mellen.14.0 u: 
-          line: 153 0  # You and Mellen? That...would b
+        rule: 145  ~keywordless_flirt_mellen.14.0 u: 
+          line: 155 0  # You and Mellen? That...would b
           Complexity of rule ~keywordless_flirt_mellen.14.0- u: 1
-        rule: 156  ~keywordless_flirt_mellen.15.0 u: 
-          line: 160 0  # Mel says it's a century too ea
+        rule: 158  ~keywordless_flirt_mellen.15.0 u: 
+          line: 162 0  # Mel says it's a century too ea
           Complexity of rule ~keywordless_flirt_mellen.15.0- u: 1
-        rule: 163  ~keywordless_flirt_mellen.16.0 u: 
-          line: 167 0  # Mel says that's a fabulous ide
+        rule: 165  ~keywordless_flirt_mellen.16.0 u: 
+          line: 169 0  # Mel says that's a fabulous ide
           Complexity of rule ~keywordless_flirt_mellen.16.0- u: 1
-        rule: 168  ~keywordless_flirt_mellen.16.1 a: 
-          line: 168 0  # I mean, it's just not gonna wo
-          line: 169 34  # $$a_code = 29 
+        rule: 170  ~keywordless_flirt_mellen.16.1 a: 
+          line: 170 0  # I mean, it's just not gonna wo
+          line: 171 34  # $$a_code = 29 
           Complexity of rule ~keywordless_flirt_mellen.16.1- a: 1
-        rule: 172  ~keywordless_flirt_mellen.17.0 u: 
-          line: 177 0  # Mel's...lover? Oh, I don't thi
+        rule: 174  ~keywordless_flirt_mellen.17.0 u: 
+          line: 179 0  # Mel's...lover? Oh, I don't thi
           Complexity of rule ~keywordless_flirt_mellen.17.0- u: 1
-        rule: 181  ~keywordless_flirt_mellen.18.0 u: 
-          line: 190 0  # I think I'm not gonna tell her
+        rule: 183  ~keywordless_flirt_mellen.18.0 u: 
+          line: 192 0  # I think I'm not gonna tell her
           Complexity of rule ~keywordless_flirt_mellen.18.0- u: 1
-        rule: 194  ~keywordless_flirt_mellen.19.0 u: 
-          line: 194 0  # If I had to guess which...I'd 
+        rule: 196  ~keywordless_flirt_mellen.19.0 u: 
+          line: 196 0  # If I had to guess which...I'd 
           Complexity of rule ~keywordless_flirt_mellen.19.0- u: 1
-        rule: 197  ~keywordless_flirt_mellen.20.0 ?: 
-          line: 203 0  # Mel's fetish is biting fingers
+        rule: 199  ~keywordless_flirt_mellen.20.0 ?: 
+          line: 205 0  # Mel's fetish is biting fingers
           Complexity of rule ~keywordless_flirt_mellen.20.0- ?: 1
-        rule: 205  ~keywordless_flirt_mellen.21.0 u: 
-          line: 209 0  # Mel is indicating that she isn
-          line: 210 58  # I thought you were supposed to
+        rule: 207  ~keywordless_flirt_mellen.21.0 u: 
+          line: 211 0  # Mel is indicating that she isn
+          line: 212 58  # I thought you were supposed to
           Complexity of rule ~keywordless_flirt_mellen.21.0- u: 1
-        rule: 212  ~keywordless_flirt_mellen.22.0 u: 
-          line: 218 0  # Mel says she isn't against the
+        rule: 214  ~keywordless_flirt_mellen.22.0 u: 
+          line: 220 0  # Mel says she isn't against the
           Complexity of rule ~keywordless_flirt_mellen.22.0- u: 1
-        rule: 220  ~keywordless_flirt_mellen.23.0 u: 
-          line: 224 0  # ^keep ( ) 
-          line: 225 10  # Mel says she can't show you he
+        rule: 222  ~keywordless_flirt_mellen.23.0 u: 
+          line: 226 0  # ^keep ( ) 
+          line: 227 10  # Mel says she can't show you he
           Complexity of rule ~keywordless_flirt_mellen.23.0- u: 1
-        rule: 226  ~keywordless_flirt_mellen.23.1 a: 
-          line: 226 0  # Probably because of logistics?
+        rule: 228  ~keywordless_flirt_mellen.23.1 a: 
+          line: 228 0  # Probably because of logistics?
           Complexity of rule ~keywordless_flirt_mellen.23.1- a: 1
-        rule: 228  ~keywordless_flirt_mellen.24.0 u: 
-          line: 228 0  # A threesome with Mel? The very
+        rule: 230  ~keywordless_flirt_mellen.24.0 u: 
+          line: 230 0  # A threesome with Mel? The very
           Complexity of rule ~keywordless_flirt_mellen.24.0- u: 1
-        rule: 231  ~keywordless_flirt_mellen.25.0 u: 
-          line: 241 0  # Uh, Mel ought to have even les
+        rule: 233  ~keywordless_flirt_mellen.25.0 u: 
+          line: 243 0  # Uh, Mel ought to have even les
           Complexity of rule ~keywordless_flirt_mellen.25.0- u: 1
-        rule: 243  ~keywordless_flirt_mellen.26.0 u: 
-          line: 249 0  # F-fuck Mel? ^usercap ( ) , tha
+        rule: 245  ~keywordless_flirt_mellen.26.0 u: 
+          line: 251 0  # F-fuck Mel? ^usercap ( ) , tha
           Complexity of rule ~keywordless_flirt_mellen.26.0- u: 1
-        rule: 251  ~keywordless_flirt_mellen.27.0 u: 
-          line: 255 0  # M-must I convey that to Mel? 
+        rule: 253  ~keywordless_flirt_mellen.27.0 u: 
+          line: 257 0  # M-must I convey that to Mel? 
           Complexity of rule ~keywordless_flirt_mellen.27.0- u: 1
-        rule: 256  ~keywordless_flirt_mellen.27.1 a: 
-          line: 256 0  # I don't think I can. I'm sorry
+        rule: 258  ~keywordless_flirt_mellen.27.1 a: 
+          line: 258 0  # I don't think I can. I'm sorry
           Complexity of rule ~keywordless_flirt_mellen.27.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_locations.top
     topic: 4  ~keywordless_locations
@@ -34264,8 +34308,11 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
           line: 640 0  # Am I a kind soul? Thank you! I
           Complexity of rule ~keywordless_you.120.0- s: 1
         rule: 641  ~keywordless_you.120.1 a: 
-          line: 641 0  # Oh, ^user ( ) ! You're the 
+          line: 641 0  # Oh, ^user ( ) ! You're the bes
           Complexity of rule ~keywordless_you.120.1- a: 1
+        rule: 644  ~keywordless_you.121.0 u: 
+          line: 648 0  # It's not because I'm Jesus, ^u
+          Complexity of rule ~keywordless_you.121.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_you_two.top
     topic: 4  ~keywordless_you_two
         rule: 7  ~keywordless_you_two.0.0 u: 
@@ -34921,6 +34968,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
         rule: 190  ~questions_can.26.0 u: 
           line: 190 0  # Probably not. I'm bad at readi
           Complexity of rule ~questions_can.26.0- u: 1
+        rule: 193  ~questions_can.27.0 u: 
+          line: 193 0  # P-possess? Not like a devil po
+          Complexity of rule ~questions_can.27.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_do.top
     topic: 3  ~questions_do
         rule: 9  ~questions_do.0.0 ?: 
@@ -35685,6 +35735,11 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
           line: 663 0  # It may not be the largest city
           line: 664 107  # though I had always wanted to 
           Complexity of rule ~questions_what.88.0- ?: 1
+        rule: 667  ~questions_what.89.0 ?: 
+          line: 671 0  # I suppose my happiest memory w
+          line: 672 89  # before I had or even dreamed I
+          line: 673 179  # $$a_code = 
+          Complexity of rule ~questions_what.89.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_when.top
     topic: 3  ~questions_when
         rule: 7  ~questions_when.0.0 ?: 
@@ -36082,7 +36137,11 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
           Complexity of rule ~questions_why.20.3- a: 1
         rule: 195  ~questions_why.21.0 ?: 
           line: 203 0  # I had too many chores to do. C
+          line: 204 95  # ^addtopic ( ~chores ) 
           Complexity of rule ~questions_why.21.0- ?: 1
+        rule: 207  ~questions_why.22.0 ?: 
+          line: 211 0  # Isn't it more fun that way? Eh
+          Complexity of rule ~questions_why.22.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_gambits_rare.top
     topic: 3  ~gambits_rare
         rule: 10  ~gambits_rare.0.0 t: 
@@ -45452,731 +45511,734 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
           line: 76 0  # Ah, that's kind of dangerous. 
           Complexity of rule ~quibble_general.29.0- u: 1
         rule: 78  ~quibble_general.30.0 u: 
-          line: 78 0  # All of this calls for more mur
+          line: 78 0  # Dead? Hmm. 
           Complexity of rule ~quibble_general.30.0- u: 1
-        rule: 79  ~quibble_general.31.0 u: 
-          line: 79 0  # What specifically about the mu
+        rule: 80  ~quibble_general.31.0 u: 
+          line: 80 0  # All of this calls for more mur
           Complexity of rule ~quibble_general.31.0- u: 1
         rule: 81  ~quibble_general.32.0 u: 
-          line: 81 0  # '_0 ... Must you use that word
+          line: 81 0  # What specifically about the mu
           Complexity of rule ~quibble_general.32.0- u: 1
-        rule: 82  ~quibble_general.33.0 u: 
-          line: 82 0  # '_0 ? I wish I got that more o
+        rule: 83  ~quibble_general.33.0 u: 
+          line: 83 0  # '_0 ... Must you use that word
           Complexity of rule ~quibble_general.33.0- u: 1
         rule: 84  ~quibble_general.34.0 u: 
-          line: 85 0  # I don't know about sports team
-          line: 86 40  # ^addtopic ( ~her_sports ) 
+          line: 84 0  # '_0 ? I wish I got that more o
           Complexity of rule ~quibble_general.34.0- u: 1
-        rule: 88  ~quibble_general.35.0 u: 
-          line: 88 0  # Something you read in the news
+        rule: 86  ~quibble_general.35.0 u: 
+          line: 87 0  # I don't know about sports team
+          line: 88 40  # ^addtopic ( ~her_sports ) 
           Complexity of rule ~quibble_general.35.0- u: 1
         rule: 90  ~quibble_general.36.0 u: 
-          line: 90 0  # You're trying to say something
+          line: 90 0  # Something you read in the news
           Complexity of rule ~quibble_general.36.0- u: 1
         rule: 92  ~quibble_general.37.0 u: 
-          line: 92 0  # ^keep ( ) ^refine ( ) 
+          line: 92 0  # You're trying to say something
           Complexity of rule ~quibble_general.37.0- u: 1
-        rule: 93  ~quibble_general.37.1 a: 
-          line: 93 0  # Swimming, you mean? Hmm. 
-          Complexity of rule ~quibble_general.37.1- a: 1
-        rule: 94  ~quibble_general.37.2 a: 
-          line: 95 0  # [ You like sports too then. ] 
-          line: 96 30  # [ Are you good at that sport? 
-          line: 97 62  # [ That's a fun sport, I suppos
-          line: 98 97  # ^addtopic ( ~her_sports ) 
-          Complexity of rule ~quibble_general.37.2- a: 1
-        rule: 100  ~quibble_general.38.0 u: 
-          line: 100 0  # Did you find a nice '_0 for us
-          line: 101 64  # I would love to! Ehehe. 
+        rule: 94  ~quibble_general.38.0 u: 
+          line: 94 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~quibble_general.38.0- u: 1
-        rule: 107  ~quibble_general.39.0 u: 
-          line: 107 0  # Did something else happen in '
+        rule: 95  ~quibble_general.38.1 a: 
+          line: 95 0  # Swimming, you mean? Hmm. 
+          Complexity of rule ~quibble_general.38.1- a: 1
+        rule: 96  ~quibble_general.38.2 a: 
+          line: 97 0  # [ You like sports too then. ] 
+          line: 98 30  # [ Are you good at that sport? 
+          line: 99 62  # [ That's a fun sport, I suppos
+          line: 100 97  # ^addtopic ( ~her_sports ) 
+          Complexity of rule ~quibble_general.38.2- a: 1
+        rule: 102  ~quibble_general.39.0 u: 
+          line: 102 0  # Did you find a nice '_0 for us
+          line: 103 64  # I would love to! Ehehe. 
           Complexity of rule ~quibble_general.39.0- u: 1
-        rule: 108  ~quibble_general.40.0 u: 
-          line: 108 0  # What happens on '_0 ? 
+        rule: 109  ~quibble_general.40.0 u: 
+          line: 109 0  # Did something else happen in '
           Complexity of rule ~quibble_general.40.0- u: 1
-        rule: 113  ~quibble_general.41.0 u: 
-          line: 114 0  # Some mythical creatures really
-          line: 115 83  # ^addtopic ( ~creatures ) 
+        rule: 110  ~quibble_general.41.0 u: 
+          line: 110 0  # What happens on '_0 ? 
           Complexity of rule ~quibble_general.41.0- u: 1
-        rule: 119  ~quibble_general.42.0 u: 
-          line: 119 0  # You're saying something about 
+        rule: 115  ~quibble_general.42.0 u: 
+          line: 116 0  # Some mythical creatures really
+          line: 117 83  # ^addtopic ( ~creatures ) 
           Complexity of rule ~quibble_general.42.0- u: 1
         rule: 121  ~quibble_general.43.0 u: 
-          line: 121 0  # So we're talking about the wea
+          line: 121 0  # You're saying something about 
           Complexity of rule ~quibble_general.43.0- u: 1
-        rule: 125  ~quibble_general.44.0 u: 
-          line: 125 0  # ^refine ( ) 
+        rule: 123  ~quibble_general.44.0 u: 
+          line: 123 0  # So we're talking about the wea
           Complexity of rule ~quibble_general.44.0- u: 1
-        rule: 126  ~quibble_general.44.1 a: 
-          line: 126 0  # The moon as in The moon, eh. 
-          Complexity of rule ~quibble_general.44.1- a: 1
-        rule: 127  ~quibble_general.44.2 a: 
-          line: 127 0  # The moon of '_0 , eh. 
-          Complexity of rule ~quibble_general.44.2- a: 1
-        rule: 129  ~quibble_general.45.0 u: 
-          line: 129 0  # The ocean, you must mean. 
+        rule: 127  ~quibble_general.45.0 u: 
+          line: 127 0  # ^refine ( ) 
           Complexity of rule ~quibble_general.45.0- u: 1
+        rule: 128  ~quibble_general.45.1 a: 
+          line: 128 0  # The moon as in The moon, eh. 
+          Complexity of rule ~quibble_general.45.1- a: 1
+        rule: 129  ~quibble_general.45.2 a: 
+          line: 129 0  # The moon of '_0 , eh. 
+          Complexity of rule ~quibble_general.45.2- a: 1
         rule: 131  ~quibble_general.46.0 u: 
-          line: 131 0  # The river, you must mean. 
+          line: 131 0  # The ocean, you must mean. 
           Complexity of rule ~quibble_general.46.0- u: 1
         rule: 133  ~quibble_general.47.0 u: 
-          line: 133 0  # You must mean the sea. 
+          line: 133 0  # The river, you must mean. 
           Complexity of rule ~quibble_general.47.0- u: 1
         rule: 135  ~quibble_general.48.0 u: 
-          line: 135 0  # You must mean the famous landm
+          line: 135 0  # You must mean the sea. 
           Complexity of rule ~quibble_general.48.0- u: 1
-        rule: 139  ~quibble_general.49.0 u: 
-          line: 139 0  # You mean like a store? 
+        rule: 137  ~quibble_general.49.0 u: 
+          line: 137 0  # You must mean the famous landm
           Complexity of rule ~quibble_general.49.0- u: 1
         rule: 141  ~quibble_general.50.0 u: 
-          line: 141 0  # The degree, you must mean. 
+          line: 141 0  # You mean like a store? 
           Complexity of rule ~quibble_general.50.0- u: 1
         rule: 143  ~quibble_general.51.0 u: 
-          line: 143 0  # The aerial sport, huh. 
+          line: 143 0  # The degree, you must mean. 
           Complexity of rule ~quibble_general.51.0- u: 1
         rule: 145  ~quibble_general.52.0 u: 
-          line: 145 0  # You mean like some kind of rul
+          line: 145 0  # The aerial sport, huh. 
           Complexity of rule ~quibble_general.52.0- u: 1
         rule: 147  ~quibble_general.53.0 u: 
-          line: 147 0  # [ You wanna talk about liquor,
-          line: 148 84  # ^addtopic ( ~alcohol ) 
+          line: 147 0  # You mean like some kind of rul
           Complexity of rule ~quibble_general.53.0- u: 1
-        rule: 150  ~quibble_general.54.0 u: 
-          line: 150 0  # American Indians, huh. 
+        rule: 149  ~quibble_general.54.0 u: 
+          line: 149 0  # [ You wanna talk about liquor,
+          line: 150 84  # ^addtopic ( ~alcohol ) 
           Complexity of rule ~quibble_general.54.0- u: 1
         rule: 152  ~quibble_general.55.0 u: 
-          line: 152 0  # Maybe you want to talk about f
+          line: 152 0  # American Indians, huh. 
           Complexity of rule ~quibble_general.55.0- u: 1
         rule: 154  ~quibble_general.56.0 u: 
-          line: 154 0  # Maybe you want to talk about b
+          line: 154 0  # Maybe you want to talk about f
           Complexity of rule ~quibble_general.56.0- u: 1
-        rule: 159  ~quibble_general.57.0 u: 
-          line: 159 0  # Maybe you want to talk about r
+        rule: 156  ~quibble_general.57.0 u: 
+          line: 156 0  # Maybe you want to talk about b
           Complexity of rule ~quibble_general.57.0- u: 1
         rule: 161  ~quibble_general.58.0 u: 
-          line: 161 0  # Maybe you want to talk about b
+          line: 161 0  # Maybe you want to talk about r
           Complexity of rule ~quibble_general.58.0- u: 1
         rule: 163  ~quibble_general.59.0 u: 
-          line: 163 0  # So we're talking about applian
+          line: 163 0  # Maybe you want to talk about b
           Complexity of rule ~quibble_general.59.0- u: 1
         rule: 165  ~quibble_general.60.0 u: 
-          line: 165 0  # The architecture style? 
+          line: 165 0  # So we're talking about applian
           Complexity of rule ~quibble_general.60.0- u: 1
         rule: 167  ~quibble_general.61.0 u: 
-          line: 167 0  # Military talk now? 
+          line: 167 0  # The architecture style? 
           Complexity of rule ~quibble_general.61.0- u: 1
         rule: 169  ~quibble_general.62.0 u: 
-          line: 169 0  # You must be talking about art 
+          line: 169 0  # Military talk now? 
           Complexity of rule ~quibble_general.62.0- u: 1
         rule: 171  ~quibble_general.63.0 u: 
-          line: 171 0  # You must mean the art museum, 
+          line: 171 0  # You must be talking about art 
           Complexity of rule ~quibble_general.63.0- u: 1
         rule: 173  ~quibble_general.64.0 u: 
-          line: 173 0  # Textile crafts, huh. 
+          line: 173 0  # You must mean the art museum, 
           Complexity of rule ~quibble_general.64.0- u: 1
         rule: 175  ~quibble_general.65.0 u: 
-          line: 175 0  # Paper canvas crafts, huh. 
-          line: 176 26  # ^addtopic ( ~her_art ) 
+          line: 175 0  # Textile crafts, huh. 
           Complexity of rule ~quibble_general.65.0- u: 1
-        rule: 178  ~quibble_general.66.0 u: 
-          line: 178 0  # Oh, like a performance? 
+        rule: 177  ~quibble_general.66.0 u: 
+          line: 177 0  # Paper canvas crafts, huh. 
+          line: 178 26  # ^addtopic ( ~her_art ) 
           Complexity of rule ~quibble_general.66.0- u: 1
         rule: 180  ~quibble_general.67.0 u: 
-          line: 180 0  # Are we talking about art? Oh, 
-          line: 181 37  # ^addtopic ( ~her_art ) 
+          line: 180 0  # Oh, like a performance? 
           Complexity of rule ~quibble_general.67.0- u: 1
-        rule: 185  ~quibble_general.68.0 u: 
-          line: 185 0  # I'd hate to be confined in tha
+        rule: 182  ~quibble_general.68.0 u: 
+          line: 182 0  # Are we talking about art? Oh, 
+          line: 183 37  # ^addtopic ( ~her_art ) 
           Complexity of rule ~quibble_general.68.0- u: 1
-        rule: 189  ~quibble_general.69.0 u: 
-          line: 189 0  # You mean like decorations, huh
+        rule: 187  ~quibble_general.69.0 u: 
+          line: 187 0  # I'd hate to be confined in tha
           Complexity of rule ~quibble_general.69.0- u: 1
         rule: 191  ~quibble_general.70.0 u: 
-          line: 191 0  # You mean like fasteners, huh. 
+          line: 191 0  # You mean like decorations, huh
           Complexity of rule ~quibble_general.70.0- u: 1
-        rule: 192  ~quibble_general.71.0 u: 
-          line: 192 0  # Twine, eh? 
+        rule: 193  ~quibble_general.71.0 u: 
+          line: 193 0  # You mean like fasteners, huh. 
           Complexity of rule ~quibble_general.71.0- u: 1
         rule: 194  ~quibble_general.72.0 u: 
-          line: 194 0  # You must mean furniture. 
+          line: 194 0  # Twine, eh? 
           Complexity of rule ~quibble_general.72.0- u: 1
         rule: 196  ~quibble_general.73.0 u: 
-          line: 196 0  # For doing some cutting, huh. 
+          line: 196 0  # You must mean furniture. 
           Complexity of rule ~quibble_general.73.0- u: 1
         rule: 198  ~quibble_general.74.0 u: 
-          line: 198 0  # For recording, eh? 
+          line: 198 0  # For doing some cutting, huh. 
           Complexity of rule ~quibble_general.74.0- u: 1
         rule: 200  ~quibble_general.75.0 u: 
-          line: 200 0  # It's a surface, huh. 
+          line: 200 0  # For recording, eh? 
           Complexity of rule ~quibble_general.75.0- u: 1
         rule: 202  ~quibble_general.76.0 u: 
-          line: 202 0  # Well it can be traded. 
+          line: 202 0  # It's a surface, huh. 
           Complexity of rule ~quibble_general.76.0- u: 1
         rule: 204  ~quibble_general.77.0 u: 
-          line: 204 0  # Maybe you mean the vehicle. 
+          line: 204 0  # Well it can be traded. 
           Complexity of rule ~quibble_general.77.0- u: 1
         rule: 206  ~quibble_general.78.0 u: 
-          line: 206 0  # You must mean the instrument. 
+          line: 206 0  # Maybe you mean the vehicle. 
           Complexity of rule ~quibble_general.78.0- u: 1
         rule: 208  ~quibble_general.79.0 u: 
-          line: 208 0  # The astrology sign, you mean. 
+          line: 208 0  # You must mean the instrument. 
           Complexity of rule ~quibble_general.79.0- u: 1
         rule: 210  ~quibble_general.80.0 u: 
-          line: 210 0  # Astronautics? 
+          line: 210 0  # The astrology sign, you mean. 
           Complexity of rule ~quibble_general.80.0- u: 1
         rule: 212  ~quibble_general.81.0 u: 
-          line: 212 0  # You mean the award, huh. 
+          line: 212 0  # Astronautics? 
           Complexity of rule ~quibble_general.81.0- u: 1
         rule: 214  ~quibble_general.82.0 u: 
-          line: 214 0  # [ Well it could be. ] [ Perhap
+          line: 214 0  # You mean the award, huh. 
           Complexity of rule ~quibble_general.82.0- u: 1
         rule: 216  ~quibble_general.83.0 u: 
-          line: 216 0  # But I'm not good at math. 
+          line: 216 0  # [ Well it could be. ] [ Perhap
           Complexity of rule ~quibble_general.83.0- u: 1
         rule: 218  ~quibble_general.84.0 u: 
-          line: 218 0  # Something wet? 
+          line: 218 0  # But I'm not good at math. 
           Complexity of rule ~quibble_general.84.0- u: 1
         rule: 220  ~quibble_general.85.0 u: 
-          line: 220 0  # You mean the ^pos ( NOUN _0 SI
+          line: 220 0  # Something wet? 
           Complexity of rule ~quibble_general.85.0- u: 1
-        rule: 225  ~quibble_general.86.0 u: 
-          line: 225 0  # That kind of symptom, huh. 
-          line: 226 27  # ^addtopic ( ~illness ) 
+        rule: 222  ~quibble_general.86.0 u: 
+          line: 222 0  # You mean the ^pos ( NOUN _0 SI
           Complexity of rule ~quibble_general.86.0- u: 1
         rule: 227  ~quibble_general.87.0 u: 
-          line: 227 0  # Who wants a sickness like '_0 
-          line: 228 32  # ^addtopic ( ~illness ) 
+          line: 227 0  # That kind of symptom, huh. 
+          line: 228 27  # ^addtopic ( ~illness ) 
           Complexity of rule ~quibble_general.87.0- u: 1
         rule: 229  ~quibble_general.88.0 u: 
-          line: 229 0  # That's one treatment. 
-          line: 230 22  # ^addtopic ( ~illness ) 
+          line: 229 0  # Who wants a sickness like '_0 
+          line: 230 32  # ^addtopic ( ~illness ) 
           Complexity of rule ~quibble_general.88.0- u: 1
-        rule: 233  ~quibble_general.89.0 u: 
-          line: 233 0  # This is like auto talk, isn't 
+        rule: 231  ~quibble_general.89.0 u: 
+          line: 231 0  # That's one treatment. 
+          line: 232 22  # ^addtopic ( ~illness ) 
           Complexity of rule ~quibble_general.89.0- u: 1
         rule: 235  ~quibble_general.90.0 u: 
-          line: 235 0  # Something about a car? 
+          line: 235 0  # This is like auto talk, isn't 
           Complexity of rule ~quibble_general.90.0- u: 1
-        rule: 238  ~quibble_general.91.0 u: 
-          line: 238 0  # The soft drink? 
+        rule: 237  ~quibble_general.91.0 u: 
+          line: 237 0  # Something about a car? 
           Complexity of rule ~quibble_general.91.0- u: 1
         rule: 240  ~quibble_general.92.0 u: 
-          line: 240 0  # The milk drink? 
-          line: 241 16  # ^addtopic ( ~her_drink ) 
+          line: 240 0  # The soft drink? 
           Complexity of rule ~quibble_general.92.0- u: 1
-        rule: 243  ~quibble_general.93.0 u: 
-          line: 243 0  # The juice drink? 
-          line: 244 17  # ^addtopic ( ~her_drink ) 
+        rule: 242  ~quibble_general.93.0 u: 
+          line: 242 0  # The milk drink? 
+          line: 243 16  # ^addtopic ( ~her_drink ) 
           Complexity of rule ~quibble_general.93.0- u: 1
-        rule: 246  ~quibble_general.94.0 u: 
-          line: 246 0  # The coffee? 
-          line: 247 12  # ^addtopic ( ~her_drink ) 
+        rule: 245  ~quibble_general.94.0 u: 
+          line: 245 0  # The juice drink? 
+          line: 246 17  # ^addtopic ( ~her_drink ) 
           Complexity of rule ~quibble_general.94.0- u: 1
-        rule: 249  ~quibble_general.95.0 u: 
-          line: 249 0  # The caffinated drink? 
-          line: 250 22  # ^addtopic ( ~her_drink ) 
+        rule: 248  ~quibble_general.95.0 u: 
+          line: 248 0  # The coffee? 
+          line: 249 12  # ^addtopic ( ~her_drink ) 
           Complexity of rule ~quibble_general.95.0- u: 1
-        rule: 252  ~quibble_general.96.0 u: 
-          line: 252 0  # You must mean the birth defect
+        rule: 251  ~quibble_general.96.0 u: 
+          line: 251 0  # The caffinated drink? 
+          line: 252 22  # ^addtopic ( ~her_drink ) 
           Complexity of rule ~quibble_general.96.0- u: 1
         rule: 254  ~quibble_general.97.0 u: 
-          line: 254 0  # You mean the board game, right
-          line: 255 32  # ^addtopic ( ~her_games ) 
+          line: 254 0  # You must mean the birth defect
           Complexity of rule ~quibble_general.97.0- u: 1
-        rule: 257  ~quibble_general.98.0 u: 
-          line: 257 0  # So you mean the card game. 
-          line: 258 27  # ^addtopic ( ~her_games ) 
+        rule: 256  ~quibble_general.98.0 u: 
+          line: 256 0  # You mean the board game, right
+          line: 257 32  # ^addtopic ( ~her_games ) 
           Complexity of rule ~quibble_general.98.0- u: 1
-        rule: 260  ~quibble_general.99.0 u: 
-          line: 260 0  # You mean the bone, huh? 
+        rule: 259  ~quibble_general.99.0 u: 
+          line: 259 0  # So you mean the card game. 
+          line: 260 27  # ^addtopic ( ~her_games ) 
           Complexity of rule ~quibble_general.99.0- u: 1
         rule: 262  ~quibble_general.100.0 u: 
-          line: 262 0  # You must mean the book genre. 
-          line: 263 30  # ^addtopic ( ~her_books ) 
+          line: 262 0  # You mean the bone, huh? 
           Complexity of rule ~quibble_general.100.0- u: 1
-        rule: 265  ~quibble_general.101.0 u: 
-          line: 265 0  # Literary talk, okay. 
-          line: 266 21  # ^addtopic ( ~her_books ) 
+        rule: 264  ~quibble_general.101.0 u: 
+          line: 264 0  # You must mean the book genre. 
+          line: 265 30  # ^addtopic ( ~her_books ) 
           Complexity of rule ~quibble_general.101.0- u: 1
-        rule: 271  ~quibble_general.102.0 u: 
-          line: 271 0  # You must mean for the living r
+        rule: 267  ~quibble_general.102.0 u: 
+          line: 267 0  # Literary talk, okay. 
+          line: 268 21  # ^addtopic ( ~her_books ) 
           Complexity of rule ~quibble_general.102.0- u: 1
-        rule: 272  ~quibble_general.103.0 u: 
-          line: 272 0  # You must mean the kitchen item
+        rule: 273  ~quibble_general.103.0 u: 
+          line: 273 0  # You must mean for the living r
           Complexity of rule ~quibble_general.103.0- u: 1
-        rule: 273  ~quibble_general.104.0 u: 
-          line: 273 0  # You must mean the bathroom ite
+        rule: 274  ~quibble_general.104.0 u: 
+          line: 274 0  # You must mean the kitchen item
           Complexity of rule ~quibble_general.104.0- u: 1
-        rule: 274  ~quibble_general.105.0 u: 
-          line: 274 0  # You must mean for the bedroom.
+        rule: 275  ~quibble_general.105.0 u: 
+          line: 275 0  # You must mean the bathroom ite
           Complexity of rule ~quibble_general.105.0- u: 1
-        rule: 275  ~quibble_general.106.0 u: 
-          line: 275 0  # You must mean for the dining r
+        rule: 276  ~quibble_general.106.0 u: 
+          line: 276 0  # You must mean for the bedroom.
           Complexity of rule ~quibble_general.106.0- u: 1
-        rule: 281  ~quibble_general.107.0 u: 
-          line: 281 0  # Well that's a typical breakfas
+        rule: 277  ~quibble_general.107.0 u: 
+          line: 277 0  # You must mean for the dining r
           Complexity of rule ~quibble_general.107.0- u: 1
-        rule: 282  ~quibble_general.108.0 u: 
-          line: 282 0  # Well that's a typical lunch. 
+        rule: 283  ~quibble_general.108.0 u: 
+          line: 283 0  # Well that's a typical breakfas
           Complexity of rule ~quibble_general.108.0- u: 1
-        rule: 283  ~quibble_general.109.0 u: 
-          line: 283 0  # Oh. Meat. 
+        rule: 284  ~quibble_general.109.0 u: 
+          line: 284 0  # Well that's a typical lunch. 
           Complexity of rule ~quibble_general.109.0- u: 1
-        rule: 284  ~quibble_general.110.0 u: 
-          line: 284 0  # You mean the lolly, huh. 
+        rule: 285  ~quibble_general.110.0 u: 
+          line: 285 0  # Oh. Meat. 
           Complexity of rule ~quibble_general.110.0- u: 1
-        rule: 285  ~quibble_general.111.0 u: 
-          line: 285 0  # So you mean the cheese. 
+        rule: 286  ~quibble_general.111.0 u: 
+          line: 286 0  # You mean the lolly, huh. 
           Complexity of rule ~quibble_general.111.0- u: 1
-        rule: 286  ~quibble_general.112.0 u: 
-          line: 286 0  # The dairy food, right? 
+        rule: 287  ~quibble_general.112.0 u: 
+          line: 287 0  # So you mean the cheese. 
           Complexity of rule ~quibble_general.112.0- u: 1
-        rule: 287  ~quibble_general.113.0 u: 
-          line: 287 0  # I bet that's yummy. 
-          line: 288 20  # ^addtopic ( ~her_desserts ) 
+        rule: 288  ~quibble_general.113.0 u: 
+          line: 288 0  # The dairy food, right? 
           Complexity of rule ~quibble_general.113.0- u: 1
         rule: 289  ~quibble_general.114.0 u: 
-          line: 289 0  # A fine fruit! 
+          line: 289 0  # I bet that's yummy. 
+          line: 290 20  # ^addtopic ( ~her_desserts ) 
           Complexity of rule ~quibble_general.114.0- u: 1
-        rule: 290  ~quibble_general.115.0 u: 
-          line: 290 0  # You should eat your vegetables
-          line: 291 37  # ^addtopic ( ~veggies ) 
+        rule: 291  ~quibble_general.115.0 u: 
+          line: 291 0  # A fine fruit! 
           Complexity of rule ~quibble_general.115.0- u: 1
         rule: 292  ~quibble_general.116.0 u: 
-          line: 292 0  # Herbs and spices are nices. 
+          line: 292 0  # You should eat your vegetables
+          line: 293 37  # ^addtopic ( ~veggies ) 
           Complexity of rule ~quibble_general.116.0- u: 1
-        rule: 293  ~quibble_general.117.0 u: 
-          line: 293 0  # Junk food, I guess. 
+        rule: 294  ~quibble_general.117.0 u: 
+          line: 294 0  # Herbs and spices are nices. 
           Complexity of rule ~quibble_general.117.0- u: 1
-        rule: 298  ~quibble_general.118.0 u: 
-          line: 298 0  # Well, good to wear when cold. 
-          line: 299 30  # ^addtopic ( ~her_clothing ) 
+        rule: 295  ~quibble_general.118.0 u: 
+          line: 295 0  # Junk food, I guess. 
           Complexity of rule ~quibble_general.118.0- u: 1
         rule: 300  ~quibble_general.119.0 u: 
-          line: 300 0  # Well, good to wear when hot. 
-          line: 301 29  # ^addtopic ( ~her_clothing ) 
+          line: 300 0  # Well, good to wear when cold. 
+          line: 301 30  # ^addtopic ( ~her_clothing ) 
           Complexity of rule ~quibble_general.119.0- u: 1
         rule: 302  ~quibble_general.120.0 u: 
-          line: 302 0  # Well, good to wear when rainy.
-          line: 303 31  # ^addtopic ( ~her_clothing ) 
+          line: 302 0  # Well, good to wear when hot. 
+          line: 303 29  # ^addtopic ( ~her_clothing ) 
           Complexity of rule ~quibble_general.120.0- u: 1
         rule: 304  ~quibble_general.121.0 u: 
-          line: 304 0  # Anyway, I do like the dress I'
-          line: 305 60  # ^addtopic ( ~her_clothing ) 
+          line: 304 0  # Well, good to wear when rainy.
+          line: 305 31  # ^addtopic ( ~her_clothing ) 
           Complexity of rule ~quibble_general.121.0- u: 1
         rule: 306  ~quibble_general.122.0 u: 
-          line: 306 0  # Well, I could wear it instead 
-          line: 307 52  # ^addtopic ( ~her_clothing ) 
+          line: 306 0  # Anyway, I do like the dress I'
+          line: 307 60  # ^addtopic ( ~her_clothing ) 
           Complexity of rule ~quibble_general.122.0- u: 1
         rule: 308  ~quibble_general.123.0 u: 
-          line: 308 0  # Well I could wear it as jewelr
+          line: 308 0  # Well, I could wear it instead 
+          line: 309 52  # ^addtopic ( ~her_clothing ) 
           Complexity of rule ~quibble_general.123.0- u: 1
-        rule: 309  ~quibble_general.124.0 u: 
-          line: 309 0  # Are we talking about clothing?
+        rule: 310  ~quibble_general.124.0 u: 
+          line: 310 0  # Well I could wear it as jewelr
           Complexity of rule ~quibble_general.124.0- u: 1
-        rule: 314  ~quibble_general.125.0 u: 
-          line: 314 0  # Just like on a farm. 
-          line: 315 21  # ^addtopic ( ~her_animals ) 
+        rule: 311  ~quibble_general.125.0 u: 
+          line: 311 0  # Are we talking about clothing?
           Complexity of rule ~quibble_general.125.0- u: 1
         rule: 316  ~quibble_general.126.0 u: 
-          line: 316 0  # Oh, you mean the dinosaur. 
+          line: 316 0  # Just like on a farm. 
+          line: 317 21  # ^addtopic ( ~her_animals ) 
           Complexity of rule ~quibble_general.126.0- u: 1
-        rule: 317  ~quibble_general.127.0 u: 
-          line: 317 0  # You mean the pet cage. 
+        rule: 318  ~quibble_general.127.0 u: 
+          line: 318 0  # Oh, you mean the dinosaur. 
           Complexity of rule ~quibble_general.127.0- u: 1
-        rule: 322  ~quibble_general.128.0 u: 
-          line: 322 0  # Are you a skater too? Haha. 
-          line: 323 28  # ^addtopic ( ~her_sports ) 
+        rule: 319  ~quibble_general.128.0 u: 
+          line: 319 0  # You mean the pet cage. 
           Complexity of rule ~quibble_general.128.0- u: 1
         rule: 324  ~quibble_general.129.0 u: 
-          line: 324 0  # Mountain sports, huh. 
-          line: 325 22  # ^addtopic ( ~her_sports ) 
+          line: 324 0  # Are you a skater too? Haha. 
+          line: 325 28  # ^addtopic ( ~her_sports ) 
           Complexity of rule ~quibble_general.129.0- u: 1
         rule: 326  ~quibble_general.130.0 u: 
-          line: 326 0  # I don't do water sports myself
-          line: 327 32  # ^addtopic ( ~her_sports ) 
+          line: 326 0  # Mountain sports, huh. 
+          line: 327 22  # ^addtopic ( ~her_sports ) 
           Complexity of rule ~quibble_general.130.0- u: 1
         rule: 328  ~quibble_general.131.0 u: 
-          line: 328 0  # I guess if you like being outd
-          line: 329 46  # ^addtopic ( ~her_sports ) 
+          line: 328 0  # I don't do water sports myself
+          line: 329 32  # ^addtopic ( ~her_sports ) 
           Complexity of rule ~quibble_general.131.0- u: 1
         rule: 330  ~quibble_general.132.0 u: 
-          line: 330 0  # Don't give up the ball, hehe. 
-          line: 331 30  # ^addtopic ( ~her_sports ) 
+          line: 330 0  # I guess if you like being outd
+          line: 331 46  # ^addtopic ( ~her_sports ) 
           Complexity of rule ~quibble_general.132.0- u: 1
         rule: 332  ~quibble_general.133.0 u: 
-          line: 332 0  # Well, you can find that in a s
-          line: 333 50  # ^addtopic ( ~her_sports ) 
+          line: 332 0  # Don't give up the ball, hehe. 
+          line: 333 30  # ^addtopic ( ~her_sports ) 
           Complexity of rule ~quibble_general.133.0- u: 1
-        rule: 336  ~quibble_general.134.0 u: 
-          line: 336 0  # You're talking like a florist 
+        rule: 334  ~quibble_general.134.0 u: 
+          line: 334 0  # Well, you can find that in a s
+          line: 335 50  # ^addtopic ( ~her_sports ) 
           Complexity of rule ~quibble_general.134.0- u: 1
         rule: 338  ~quibble_general.135.0 u: 
-          line: 338 0  # You mean the browser? I know a
+          line: 338 0  # You're talking like a florist 
           Complexity of rule ~quibble_general.135.0- u: 1
         rule: 340  ~quibble_general.136.0 u: 
-          line: 340 0  # You mean the religious buildin
-          line: 341 33  # ^addtopic ( ~her_religion ) 
+          line: 340 0  # You mean the browser? I know a
           Complexity of rule ~quibble_general.136.0- u: 1
-        rule: 343  ~quibble_general.137.0 u: 
-          line: 343 0  # The building? 
+        rule: 342  ~quibble_general.137.0 u: 
+          line: 342 0  # You mean the religious buildin
+          line: 343 33  # ^addtopic ( ~her_religion ) 
           Complexity of rule ~quibble_general.137.0- u: 1
         rule: 345  ~quibble_general.138.0 u: 
-          line: 345 0  # Like what's used to make a bui
+          line: 345 0  # The building? 
           Complexity of rule ~quibble_general.138.0- u: 1
         rule: 347  ~quibble_general.139.0 u: 
-          line: 347 0  # So you mean the celestial body
+          line: 347 0  # Like what's used to make a bui
           Complexity of rule ~quibble_general.139.0- u: 1
         rule: 349  ~quibble_general.140.0 u: 
-          line: 349 0  # So you mean the chemical. 
+          line: 349 0  # So you mean the celestial body
           Complexity of rule ~quibble_general.140.0- u: 1
         rule: 351  ~quibble_general.141.0 u: 
-          line: 351 0  # Christmas talk. Nice. 
+          line: 351 0  # So you mean the chemical. 
           Complexity of rule ~quibble_general.141.0- u: 1
         rule: 353  ~quibble_general.142.0 u: 
-          line: 353 0  # In classrooms or other rooms? 
+          line: 353 0  # Christmas talk. Nice. 
           Complexity of rule ~quibble_general.142.0- u: 1
         rule: 355  ~quibble_general.143.0 u: 
-          line: 355 0  # Combat sports, huh. 
+          line: 355 0  # In classrooms or other rooms? 
           Complexity of rule ~quibble_general.143.0- u: 1
         rule: 357  ~quibble_general.144.0 u: 
-          line: 357 0  # '_0 the sound? 
+          line: 357 0  # Combat sports, huh. 
           Complexity of rule ~quibble_general.144.0- u: 1
-        rule: 361  ~quibble_general.145.0 u: 
-          line: 361 0  # You mean for cooking. 
+        rule: 359  ~quibble_general.145.0 u: 
+          line: 359 0  # '_0 the sound? 
           Complexity of rule ~quibble_general.145.0- u: 1
         rule: 363  ~quibble_general.146.0 u: 
-          line: 363 0  # You mean like for crafts. 
+          line: 363 0  # You mean for cooking. 
           Complexity of rule ~quibble_general.146.0- u: 1
         rule: 365  ~quibble_general.147.0 u: 
-          line: 365 0  # Crime will find a way. 
+          line: 365 0  # You mean like for crafts. 
           Complexity of rule ~quibble_general.147.0- u: 1
         rule: 367  ~quibble_general.148.0 u: 
-          line: 367 0  # Talk about dancing, huh. 
+          line: 367 0  # Crime will find a way. 
           Complexity of rule ~quibble_general.148.0- u: 1
         rule: 369  ~quibble_general.149.0 u: 
-          line: 369 0  # Dentistry talk, eh? 
+          line: 369 0  # Talk about dancing, huh. 
           Complexity of rule ~quibble_general.149.0- u: 1
         rule: 371  ~quibble_general.150.0 u: 
-          line: 371 0  # A lot of sand there. 
+          line: 371 0  # Dentistry talk, eh? 
           Complexity of rule ~quibble_general.150.0- u: 1
-        rule: 374  ~quibble_general.151.0 u: 
-          line: 374 0  # Oh, the doctor. 
+        rule: 373  ~quibble_general.151.0 u: 
+          line: 373 0  # A lot of sand there. 
           Complexity of rule ~quibble_general.151.0- u: 1
         rule: 376  ~quibble_general.152.0 u: 
-          line: 376 0  # Well, hair products are good. 
+          line: 376 0  # Oh, the doctor. 
           Complexity of rule ~quibble_general.152.0- u: 1
         rule: 378  ~quibble_general.153.0 u: 
-          line: 378 0  # People do eat there. 
+          line: 378 0  # Well, hair products are good. 
           Complexity of rule ~quibble_general.153.0- u: 1
         rule: 380  ~quibble_general.154.0 u: 
-          line: 380 0  # Well, electronic furniture is 
+          line: 380 0  # People do eat there. 
           Complexity of rule ~quibble_general.154.0- u: 1
         rule: 382  ~quibble_general.155.0 u: 
-          line: 382 0  # Another hobby? ^addtopic ( ~he
+          line: 382 0  # Well, electronic furniture is 
           Complexity of rule ~quibble_general.155.0- u: 1
         rule: 384  ~quibble_general.156.0 u: 
-          line: 384 0  # Music talk again, okay. 
-          line: 385 24  # ^addtopic ( ~her_music ) 
+          line: 384 0  # Another hobby? ^addtopic ( ~he
           Complexity of rule ~quibble_general.156.0- u: 1
-        rule: 387  ~quibble_general.157.0 u: 
-          line: 387 0  # Fitness is important, sure. 
+        rule: 386  ~quibble_general.157.0 u: 
+          line: 386 0  # Music talk again, okay. 
+          line: 387 24  # ^addtopic ( ~her_music ) 
           Complexity of rule ~quibble_general.157.0- u: 1
         rule: 389  ~quibble_general.158.0 u: 
-          line: 389 0  # Is there a fire? 
+          line: 389 0  # Fitness is important, sure. 
           Complexity of rule ~quibble_general.158.0- u: 1
         rule: 391  ~quibble_general.159.0 u: 
-          line: 391 0  # I like that flavor too. 
+          line: 391 0  # Is there a fire? 
           Complexity of rule ~quibble_general.159.0- u: 1
         rule: 393  ~quibble_general.160.0 u: 
-          line: 393 0  # Like the kids' game? 
-          line: 394 21  # ^addtopic ( ~her_games ) 
+          line: 393 0  # I like that flavor too. 
           Complexity of rule ~quibble_general.160.0- u: 1
-        rule: 396  ~quibble_general.161.0 u: 
-          line: 396 0  # Talk about gas stations now? 
+        rule: 395  ~quibble_general.161.0 u: 
+          line: 395 0  # Like the kids' game? 
+          line: 396 21  # ^addtopic ( ~her_games ) 
           Complexity of rule ~quibble_general.161.0- u: 1
         rule: 398  ~quibble_general.162.0 u: 
-          line: 398 0  # That's the mountain you mean, 
+          line: 398 0  # Talk about gas stations now? 
           Complexity of rule ~quibble_general.162.0- u: 1
-        rule: 402  ~quibble_general.163.0 u: 
-          line: 402 0  # You could use a holiday, I bet
+        rule: 400  ~quibble_general.163.0 u: 
+          line: 400 0  # That's the mountain you mean, 
           Complexity of rule ~quibble_general.163.0- u: 1
         rule: 404  ~quibble_general.164.0 u: 
-          line: 404 0  # Household chores. I've done my
-          line: 405 38  # ^addtopic ( ~chores ) 
+          line: 404 0  # You could use a holiday, I bet
           Complexity of rule ~quibble_general.164.0- u: 1
-        rule: 407  ~quibble_general.165.0 u: 
-          line: 407 0  # Someone can lie down on that. 
+        rule: 406  ~quibble_general.165.0 u: 
+          line: 406 0  # Household chores. I've done my
+          line: 407 38  # ^addtopic ( ~chores ) 
           Complexity of rule ~quibble_general.165.0- u: 1
         rule: 409  ~quibble_general.166.0 u: 
-          line: 409 0  # Ah, I don't feel good hearing 
+          line: 409 0  # Someone can lie down on that. 
           Complexity of rule ~quibble_general.166.0- u: 1
         rule: 411  ~quibble_general.167.0 u: 
-          line: 411 0  # Insurance talk? 
+          line: 411 0  # Ah, I don't feel good hearing 
           Complexity of rule ~quibble_general.167.0- u: 1
-        rule: 414  ~quibble_general.168.0 u: 
-          line: 414 0  # Laundry talk? 
+        rule: 413  ~quibble_general.168.0 u: 
+          line: 413 0  # Insurance talk? 
           Complexity of rule ~quibble_general.168.0- u: 1
         rule: 416  ~quibble_general.169.0 u: 
-          line: 416 0  # So luggage talk now, eh. 
+          line: 416 0  # Laundry talk? 
           Complexity of rule ~quibble_general.169.0- u: 1
         rule: 418  ~quibble_general.170.0 u: 
-          line: 418 0  # I can't talk about math. I jus
+          line: 418 0  # So luggage talk now, eh. 
           Complexity of rule ~quibble_general.170.0- u: 1
         rule: 420  ~quibble_general.171.0 u: 
-          line: 420 0  # Put some money in there for me
+          line: 420 0  # I can't talk about math. I jus
           Complexity of rule ~quibble_general.171.0- u: 1
         rule: 422  ~quibble_general.172.0 u: 
-          line: 422 0  # Are we talking about movies? 
-          line: 423 29  # ^addtopic ( ~her_movies ) 
+          line: 422 0  # Put some money in there for me
           Complexity of rule ~quibble_general.172.0- u: 1
-        rule: 425  ~quibble_general.173.0 u: 
-          line: 425 0  # We can talk about music some m
-          line: 426 35  # ^addtopic ( ~her_music ) 
+        rule: 424  ~quibble_general.173.0 u: 
+          line: 424 0  # Are we talking about movies? 
+          line: 425 29  # ^addtopic ( ~her_movies ) 
           Complexity of rule ~quibble_general.173.0- u: 1
-        rule: 428  ~quibble_general.174.0 u: 
-          line: 428 0  # I only ever played violin thou
-          line: 429 34  # ^addtopic ( ~instruments ) 
+        rule: 427  ~quibble_general.174.0 u: 
+          line: 427 0  # We can talk about music some m
+          line: 428 35  # ^addtopic ( ~her_music ) 
           Complexity of rule ~quibble_general.174.0- u: 1
-        rule: 431  ~quibble_general.175.0 u: 
-          line: 431 0  # I wish I could sing, but I'm b
+        rule: 430  ~quibble_general.175.0 u: 
+          line: 430 0  # I only ever played violin thou
+          line: 431 34  # ^addtopic ( ~instruments ) 
           Complexity of rule ~quibble_general.175.0- u: 1
         rule: 433  ~quibble_general.176.0 u: 
-          line: 433 0  # Sounds like really bad weather
+          line: 433 0  # I wish I could sing, but I'm b
           Complexity of rule ~quibble_general.176.0- u: 1
-        rule: 434  ~quibble_general.177.0 u: 
-          line: 434 0  # I'm scared of natural disaster
+        rule: 435  ~quibble_general.177.0 u: 
+          line: 435 0  # Sounds like really bad weather
           Complexity of rule ~quibble_general.177.0- u: 1
         rule: 436  ~quibble_general.178.0 u: 
-          line: 436 0  # Well, I'm kind of still a kid 
+          line: 436 0  # I'm scared of natural disaster
           Complexity of rule ~quibble_general.178.0- u: 1
-        rule: 439  ~quibble_general.179.0 u: 
-          line: 439 0  # So a lot of people. 
+        rule: 438  ~quibble_general.179.0 u: 
+          line: 438 0  # Well, I'm kind of still a kid 
           Complexity of rule ~quibble_general.179.0- u: 1
         rule: 441  ~quibble_general.180.0 u: 
-          line: 441 0  # Pet food? Heh. 
-          line: 442 15  # ^addtopic ( ~her_pets ) 
+          line: 441 0  # So a lot of people. 
           Complexity of rule ~quibble_general.180.0- u: 1
-        rule: 444  ~quibble_general.181.0 u: 
-          line: 444 0  # The type of phone? Oh. 
-          line: 445 23  # ^addtopic ( ~telephone ) 
+        rule: 443  ~quibble_general.181.0 u: 
+          line: 443 0  # Pet food? Heh. 
+          line: 444 15  # ^addtopic ( ~her_pets ) 
           Complexity of rule ~quibble_general.181.0- u: 1
-        rule: 447  ~quibble_general.182.0 u: 
-          line: 447 0  # Photography talk, heh. 
+        rule: 446  ~quibble_general.182.0 u: 
+          line: 446 0  # The type of phone? Oh. 
+          line: 447 23  # ^addtopic ( ~telephone ) 
           Complexity of rule ~quibble_general.182.0- u: 1
-        rule: 450  ~quibble_general.183.0 u: 
-          line: 450 0  # That's not my race. 
+        rule: 449  ~quibble_general.183.0 u: 
+          line: 449 0  # Photography talk, heh. 
           Complexity of rule ~quibble_general.183.0- u: 1
         rule: 452  ~quibble_general.184.0 u: 
-          line: 452 0  # Of course everyone likes some 
+          line: 452 0  # That's not my race. 
           Complexity of rule ~quibble_general.184.0- u: 1
         rule: 454  ~quibble_general.185.0 u: 
-          line: 454 0  # Who is living together? Ah, I'
+          line: 454 0  # Of course everyone likes some 
           Complexity of rule ~quibble_general.185.0- u: 1
         rule: 456  ~quibble_general.186.0 u: 
-          line: 456 0  # I wouldn't mind being a ^pos (
+          line: 456 0  # Who is living together? Ah, I'
           Complexity of rule ~quibble_general.186.0- u: 1
-        rule: 459  ~quibble_general.187.0 u: 
-          line: 459 0  # Well that's a nice season. 
+        rule: 458  ~quibble_general.187.0 u: 
+          line: 458 0  # I wouldn't mind being a ^pos (
           Complexity of rule ~quibble_general.187.0- u: 1
         rule: 461  ~quibble_general.188.0 u: 
-          line: 461 0  # I've never done drugs. Where w
+          line: 461 0  # Well that's a nice season. 
           Complexity of rule ~quibble_general.188.0- u: 1
-        rule: 462  ~quibble_general.189.0 u: 
-          line: 462 0  # Well that's a serious social i
+        rule: 463  ~quibble_general.189.0 u: 
+          line: 463 0  # I've never done drugs. Where w
           Complexity of rule ~quibble_general.189.0- u: 1
         rule: 464  ~quibble_general.190.0 u: 
-          line: 464 0  # Are you a Star Trek fan? 
+          line: 464 0  # Well that's a serious social i
           Complexity of rule ~quibble_general.190.0- u: 1
         rule: 466  ~quibble_general.191.0 u: 
-          line: 466 0  # I like nifty stationary, heh. 
+          line: 466 0  # Are you a Star Trek fan? 
           Complexity of rule ~quibble_general.191.0- u: 1
         rule: 468  ~quibble_general.192.0 u: 
-          line: 468 0  # ^refine ( ) 
+          line: 468 0  # I like nifty stationary, heh. 
           Complexity of rule ~quibble_general.192.0- u: 1
-        rule: 469  ~quibble_general.192.1 a: 
-          line: 469 0  # ^unmark ( ~stock_broker bond )
-          Complexity of rule ~quibble_general.192.1- a: 1
-        rule: 470  ~quibble_general.192.2 a: 
-          line: 470 0  # Financial talk, huh. 
-          Complexity of rule ~quibble_general.192.2- a: 1
-        rule: 474  ~quibble_general.193.0 u: 
-          line: 474 0  # That kind of texture, hmm. 
+        rule: 470  ~quibble_general.193.0 u: 
+          line: 470 0  # ^refine ( ) 
           Complexity of rule ~quibble_general.193.0- u: 1
+        rule: 471  ~quibble_general.193.1 a: 
+          line: 471 0  # ^unmark ( ~stock_broker bond )
+          Complexity of rule ~quibble_general.193.1- a: 1
+        rule: 472  ~quibble_general.193.2 a: 
+          line: 472 0  # Financial talk, huh. 
+          Complexity of rule ~quibble_general.193.2- a: 1
         rule: 476  ~quibble_general.194.0 u: 
-          line: 476 0  # Talk about US minorites? 
+          line: 476 0  # That kind of texture, hmm. 
           Complexity of rule ~quibble_general.194.0- u: 1
         rule: 478  ~quibble_general.195.0 u: 
-          line: 478 0  # Like a virtual pet? 
+          line: 478 0  # Talk about US minorites? 
           Complexity of rule ~quibble_general.195.0- u: 1
         rule: 480  ~quibble_general.196.0 u: 
-          line: 480 0  # You must mean ammo. 
+          line: 480 0  # Like a virtual pet? 
           Complexity of rule ~quibble_general.196.0- u: 1
         rule: 482  ~quibble_general.197.0 u: 
-          line: 482 0  # Right or wrong, I wouldn't kno
+          line: 482 0  # You must mean ammo. 
           Complexity of rule ~quibble_general.197.0- u: 1
-        rule: 491  ~quibble_general.198.0 u: 
-          line: 491 0  # Get there by flying, huh. 
+        rule: 484  ~quibble_general.198.0 u: 
+          line: 484 0  # Right or wrong, I wouldn't kno
           Complexity of rule ~quibble_general.198.0- u: 1
-        rule: 492  ~quibble_general.199.0 u: 
-          line: 492 0  # Get there by land, eh. 
+        rule: 493  ~quibble_general.199.0 u: 
+          line: 493 0  # Get there by flying, huh. 
           Complexity of rule ~quibble_general.199.0- u: 1
-        rule: 493  ~quibble_general.200.0 u: 
-          line: 493 0  # Get there by sea, huh. 
+        rule: 494  ~quibble_general.200.0 u: 
+          line: 494 0  # Get there by land, eh. 
           Complexity of rule ~quibble_general.200.0- u: 1
-        rule: 494  ~quibble_general.201.0 u: 
-          line: 494 0  # Space travel! Nice. 
+        rule: 495  ~quibble_general.201.0 u: 
+          line: 495 0  # Get there by sea, huh. 
           Complexity of rule ~quibble_general.201.0- u: 1
-        rule: 501  ~quibble_general.202.0 u: 
-          line: 501 0  # So some kind of bad guy. 
+        rule: 496  ~quibble_general.202.0 u: 
+          line: 496 0  # Space travel! Nice. 
           Complexity of rule ~quibble_general.202.0- u: 1
-        rule: 502  ~quibble_general.203.0 u: 
-          line: 502 0  # So like a good guy, huh. 
+        rule: 503  ~quibble_general.203.0 u: 
+          line: 503 0  # So some kind of bad guy. 
           Complexity of rule ~quibble_general.203.0- u: 1
-        rule: 503  ~quibble_general.204.0 u: 
-          line: 503 0  # Someone is buying something fr
+        rule: 504  ~quibble_general.204.0 u: 
+          line: 504 0  # So like a good guy, huh. 
           Complexity of rule ~quibble_general.204.0- u: 1
-        rule: 504  ~quibble_general.205.0 u: 
-          line: 504 0  # So someone in the know. 
+        rule: 505  ~quibble_general.205.0 u: 
+          line: 505 0  # Someone is buying something fr
           Complexity of rule ~quibble_general.205.0- u: 1
-        rule: 505  ~quibble_general.206.0 u: 
-          line: 505 0  # Some sort of hero? 
+        rule: 506  ~quibble_general.206.0 u: 
+          line: 506 0  # So someone in the know. 
           Complexity of rule ~quibble_general.206.0- u: 1
-        rule: 506  ~quibble_general.207.0 u: 
-          line: 506 0  # A friend or an ally or somethi
+        rule: 507  ~quibble_general.207.0 u: 
+          line: 507 0  # Some sort of hero? 
           Complexity of rule ~quibble_general.207.0- u: 1
-        rule: 507  ~quibble_general.208.0 u: 
-          line: 507 0  # So like an enemy. 
+        rule: 508  ~quibble_general.208.0 u: 
+          line: 508 0  # A friend or an ally or somethi
           Complexity of rule ~quibble_general.208.0- u: 1
-        rule: 508  ~quibble_general.209.0 u: 
-          line: 508 0  # So like a politican kind of. 
+        rule: 509  ~quibble_general.209.0 u: 
+          line: 509 0  # So like an enemy. 
           Complexity of rule ~quibble_general.209.0- u: 1
-        rule: 509  ~quibble_general.210.0 u: 
-          line: 509 0  # Having feelings for someone, h
+        rule: 510  ~quibble_general.210.0 u: 
+          line: 510 0  # So like a politican kind of. 
           Complexity of rule ~quibble_general.210.0- u: 1
-        rule: 510  ~quibble_general.211.0 u: 
-          line: 510 0  # Well everyone needs their fanb
+        rule: 511  ~quibble_general.211.0 u: 
+          line: 511 0  # Having feelings for someone, h
           Complexity of rule ~quibble_general.211.0- u: 1
-        rule: 511  ~quibble_general.212.0 u: 
-          line: 511 0  # I'm not sure I understood why 
+        rule: 512  ~quibble_general.212.0 u: 
+          line: 512 0  # Well everyone needs their fanb
           Complexity of rule ~quibble_general.212.0- u: 1
-        rule: 512  ~quibble_general.213.0 u: 
-          line: 512 0  # Like a religious follower. 
+        rule: 513  ~quibble_general.213.0 u: 
+          line: 513 0  # I'm not sure I understood why 
           Complexity of rule ~quibble_general.213.0- u: 1
-        rule: 513  ~quibble_general.214.0 u: 
-          line: 513 0  # Like a political member. 
+        rule: 514  ~quibble_general.214.0 u: 
+          line: 514 0  # Like a religious follower. 
           Complexity of rule ~quibble_general.214.0- u: 1
-        rule: 514  ~quibble_general.215.0 u: 
-          line: 514 0  # That's the nationality, isn't 
+        rule: 515  ~quibble_general.215.0 u: 
+          line: 515 0  # Like a political member. 
           Complexity of rule ~quibble_general.215.0- u: 1
-        rule: 521  ~quibble_general.216.0 u: 
-          line: 522 0  # [ What about the color '_0 ? ]
-          line: 523 31  # [ Something about the color '_
+        rule: 516  ~quibble_general.216.0 u: 
+          line: 516 0  # That's the nationality, isn't 
           Complexity of rule ~quibble_general.216.0- u: 1
-        rule: 529  ~quibble_general.217.0 u: 
-          line: 529 0  # That must be a decent career. 
-          line: 530 30  # ^addtopic ( ~work ) 
+        rule: 523  ~quibble_general.217.0 u: 
+          line: 524 0  # [ What about the color '_0 ? ]
+          line: 525 31  # [ Something about the color '_
           Complexity of rule ~quibble_general.217.0- u: 1
-        rule: 536  ~quibble_general.218.0 u: 
-          line: 536 0  # ^reuse ( ~her_food.MENTION_FOO
+        rule: 531  ~quibble_general.218.0 u: 
+          line: 531 0  # That must be a decent career. 
+          line: 532 30  # ^addtopic ( ~work ) 
           Complexity of rule ~quibble_general.218.0- u: 1
-        rule: 542  ~quibble_general.219.0 u: 
-          line: 542 0  # I can't talk about physics any
-          line: 543 66  # ^addtopic ( ~scientists ) 
+        rule: 538  ~quibble_general.219.0 u: 
+          line: 538 0  # ^reuse ( ~her_food.MENTION_FOO
           Complexity of rule ~quibble_general.219.0- u: 1
         rule: 544  ~quibble_general.220.0 u: 
-          line: 544 0  # I can't talk about geology any
+          line: 544 0  # I can't talk about physics any
           line: 545 66  # ^addtopic ( ~scientists ) 
           Complexity of rule ~quibble_general.220.0- u: 1
         rule: 546  ~quibble_general.221.0 u: 
-          line: 546 0  # I can't talk about the life sc
-          line: 547 76  # ^addtopic ( ~scientists ) 
+          line: 546 0  # I can't talk about geology any
+          line: 547 66  # ^addtopic ( ~scientists ) 
           Complexity of rule ~quibble_general.221.0- u: 1
         rule: 548  ~quibble_general.222.0 u: 
-          line: 548 0  # As in the social science, huh.
-          line: 549 31  # ^addtopic ( ~scientists ) 
+          line: 548 0  # I can't talk about the life sc
+          line: 549 76  # ^addtopic ( ~scientists ) 
           Complexity of rule ~quibble_general.222.0- u: 1
         rule: 550  ~quibble_general.223.0 u: 
-          line: 550 0  # You mean the science subject. 
-          line: 551 30  # ^addtopic ( ~scientists ) 
+          line: 550 0  # As in the social science, huh.
+          line: 551 31  # ^addtopic ( ~scientists ) 
           Complexity of rule ~quibble_general.223.0- u: 1
-        rule: 557  ~quibble_general.224.0 u: 
-          line: 557 0  # The school, you must mean. 
-          line: 558 27  # ^addtopic ( ~schools ) 
+        rule: 552  ~quibble_general.224.0 u: 
+          line: 552 0  # You mean the science subject. 
+          line: 553 30  # ^addtopic ( ~scientists ) 
           Complexity of rule ~quibble_general.224.0- u: 1
         rule: 559  ~quibble_general.225.0 u: 
-          line: 559 0  # I didn't learn that at school,
-          line: 560 52  # ^addtopic ( ~schools ) 
+          line: 559 0  # The school, you must mean. 
+          line: 560 27  # ^addtopic ( ~schools ) 
           Complexity of rule ~quibble_general.225.0- u: 1
-        rule: 568  ~quibble_general.226.0 u: 
-          line: 568 0  # That's some kind of force, huh
+        rule: 561  ~quibble_general.226.0 u: 
+          line: 561 0  # I didn't learn that at school,
+          line: 562 52  # ^addtopic ( ~schools ) 
           Complexity of rule ~quibble_general.226.0- u: 1
-        rule: 576  ~quibble_general.227.0 u: 
-          line: 576 0  # How nice it would be to travel
+        rule: 570  ~quibble_general.227.0 u: 
+          line: 570 0  # That's some kind of force, huh
           Complexity of rule ~quibble_general.227.0- u: 1
-        rule: 585  ~quibble_general.228.0 u: 
-          line: 585 0  # Are you at the hardware store?
+        rule: 578  ~quibble_general.228.0 u: 
+          line: 578 0  # How nice it would be to travel
           Complexity of rule ~quibble_general.228.0- u: 1
-        rule: 586  ~quibble_general.229.0 u: 
-          line: 586 0  # Are you at a health food shop?
+        rule: 587  ~quibble_general.229.0 u: 
+          line: 587 0  # Are you at the hardware store?
           Complexity of rule ~quibble_general.229.0- u: 1
-        rule: 587  ~quibble_general.230.0 u: 
-          line: 587 0  # This is like banking talk, huh
+        rule: 588  ~quibble_general.230.0 u: 
+          line: 588 0  # Are you at a health food shop?
           Complexity of rule ~quibble_general.230.0- u: 1
-        rule: 588  ~quibble_general.231.0 u: 
-          line: 588 0  # Does someone need a haircut? 
+        rule: 589  ~quibble_general.231.0 u: 
+          line: 589 0  # This is like banking talk, huh
           Complexity of rule ~quibble_general.231.0- u: 1
-        rule: 589  ~quibble_general.232.0 u: 
-          line: 589 0  # I think we don't have to talk 
+        rule: 590  ~quibble_general.232.0 u: 
+          line: 590 0  # Does someone need a haircut? 
           Complexity of rule ~quibble_general.232.0- u: 1
-        rule: 590  ~quibble_general.233.0 u: 
-          line: 590 0  # Shopping for a party? 
+        rule: 591  ~quibble_general.233.0 u: 
+          line: 591 0  # I think we don't have to talk 
           Complexity of rule ~quibble_general.233.0- u: 1
-        rule: 591  ~quibble_general.234.0 u: 
-          line: 591 0  # Are you at the post office or 
+        rule: 592  ~quibble_general.234.0 u: 
+          line: 592 0  # Shopping for a party? 
           Complexity of rule ~quibble_general.234.0- u: 1
-        rule: 592  ~quibble_general.235.0 u: 
-          line: 592 0  # Are we at a toy store? Haha. 
+        rule: 593  ~quibble_general.235.0 u: 
+          line: 593 0  # Are you at the post office or 
           Complexity of rule ~quibble_general.235.0- u: 1
-        rule: 597  ~quibble_general.236.0 u: 
-          line: 598 0  # In the scenery? 
+        rule: 594  ~quibble_general.236.0 u: 
+          line: 594 0  # Are we at a toy store? Haha. 
           Complexity of rule ~quibble_general.236.0- u: 1
-        rule: 604  ~quibble_general.237.0 u: 
-          line: 604 0  # I don't speak any French, sorr
-          line: 605 33  # ^addtopic ( ~foreign_languages
+        rule: 599  ~quibble_general.237.0 u: 
+          line: 600 0  # In the scenery? 
           Complexity of rule ~quibble_general.237.0- u: 1
         rule: 606  ~quibble_general.238.0 u: 
-          line: 606 0  # I don't speak any German, sorr
+          line: 606 0  # I don't speak any French, sorr
           line: 607 33  # ^addtopic ( ~foreign_languages
           Complexity of rule ~quibble_general.238.0- u: 1
         rule: 608  ~quibble_general.239.0 u: 
-          line: 608 0  # I don't speak any Japanese sor
-          line: 609 34  # ^addtopic ( ~foreign_languages
+          line: 608 0  # I don't speak any German, sorr
+          line: 609 33  # ^addtopic ( ~foreign_languages
           Complexity of rule ~quibble_general.239.0- u: 1
-        rule: 611  ~quibble_general.240.0 u: 
-          line: 611 0  # '_0 the language, maybe you me
-          line: 612 35  # ^addtopic ( ~foreign_languages
+        rule: 610  ~quibble_general.240.0 u: 
+          line: 610 0  # I don't speak any Japanese sor
+          line: 611 34  # ^addtopic ( ~foreign_languages
           Complexity of rule ~quibble_general.240.0- u: 1
-        rule: 616  ~quibble_general.241.0 u: 
-          line: 616 0  # ^fail ( TOPIC ) 
+        rule: 613  ~quibble_general.241.0 u: 
+          line: 613 0  # '_0 the language, maybe you me
+          line: 614 35  # ^addtopic ( ~foreign_languages
           Complexity of rule ~quibble_general.241.0- u: 1
         rule: 618  ~quibble_general.242.0 u: 
-          line: 618 0  # [ '_0 ? ] [ Who or what about 
+          line: 618 0  # ^fail ( TOPIC ) 
           Complexity of rule ~quibble_general.242.0- u: 1
-        rule: 619  ~quibble_general.243.0 u: 
-          line: 619 0  # [ '_0 ? ] [ Who or what about 
+        rule: 620  ~quibble_general.243.0 u: 
+          line: 620 0  # [ '_0 ? ] [ Who or what about 
           Complexity of rule ~quibble_general.243.0- u: 1
-        rule: 620  ~quibble_general.244.0 s: 
-          line: 620 0  # [ What are you saying about '_
-          Complexity of rule ~quibble_general.244.0- s: 1
-        rule: 626  ~quibble_general.245.0 u: 
-          line: 627 0  # [ That's when...? ] 
-          line: 628 20  # [ When? I'm confused. ] 
-          Complexity of rule ~quibble_general.245.0- u: 1
-        rule: 630  ~quibble_general.246.0 u: 
-          line: 630 0  # I suppose '_0 is a good place 
+        rule: 621  ~quibble_general.244.0 u: 
+          line: 621 0  # [ '_0 ? ] [ Who or what about 
+          Complexity of rule ~quibble_general.244.0- u: 1
+        rule: 622  ~quibble_general.245.0 s: 
+          line: 622 0  # [ What are you saying about '_
+          Complexity of rule ~quibble_general.245.0- s: 1
+        rule: 628  ~quibble_general.246.0 u: 
+          line: 629 0  # [ That's when...? ] 
+          line: 630 20  # [ When? I'm confused. ] 
           Complexity of rule ~quibble_general.246.0- u: 1
+        rule: 632  ~quibble_general.247.0 u: 
+          line: 632 0  # I suppose '_0 is a good place 
+          Complexity of rule ~quibble_general.247.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_idioms.top
     topic: 6  ~quibble_idioms
         rule: 9  ~quibble_idioms.0.0 u: 
@@ -51033,126 +51095,132 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/devil/devil_keywo
           line: 59 81  # [ You won't see her again eith
           Complexity of rule ~devil_keywordless.6.0- u: 1
         rule: 62  ~devil_keywordless.7.0 u: 
-          line: 73 0  # [ You wish, fuckface. ] 
-          line: 74 24  # [ No Charity for you. ] 
-          line: 75 48  # [ You won't ever see her again
+          line: 75 0  # [ You wish, fuckface. ] 
+          line: 76 24  # [ No Charity for you. ] 
+          line: 77 48  # [ You won't ever see her again
           Complexity of rule ~devil_keywordless.7.0- u: 1
-        rule: 78  ~devil_keywordless.8.0 s: 
-          line: 84 0  # Oh, don't worry your ass-faced
+        rule: 80  ~devil_keywordless.8.0 s: 
+          line: 86 0  # Oh, don't worry your ass-faced
           Complexity of rule ~devil_keywordless.8.0- s: 1
-        rule: 87  ~devil_keywordless.9.0 s: 
-          line: 90 0  # ^keep ( ) 
-          line: 91 10  # [ I know you are but what am I
-          line: 92 44  # [ Weak. Thoroughly pathetic. ]
-          line: 93 75  # [ Ooh, fighting back? ] 
+        rule: 89  ~devil_keywordless.9.0 s: 
+          line: 92 0  # ^keep ( ) 
+          line: 93 10  # [ I know you are but what am I
+          line: 94 44  # [ Weak. Thoroughly pathetic. ]
+          line: 95 75  # [ Ooh, fighting back? ] 
           Complexity of rule ~devil_keywordless.9.0- s: 1
-        rule: 96  ~devil_keywordless.10.0 s: 
-          line: 96 0  # Fuck you harder, fuckity fuckh
+        rule: 98  ~devil_keywordless.10.0 s: 
+          line: 98 0  # Fuck you harder, fuckity fuckh
           Complexity of rule ~devil_keywordless.10.0- s: 1
-        rule: 97  ~devil_keywordless.10.1 a: 
-          line: 97 0  # Fuck you a trillion times plus
+        rule: 99  ~devil_keywordless.10.1 a: 
+          line: 99 0  # Fuck you a trillion times plus
           Complexity of rule ~devil_keywordless.10.1- a: 1
-        rule: 101  ~devil_keywordless.11.0 s: 
-          line: 101 0  # The power of christ compels fu
+        rule: 103  ~devil_keywordless.11.0 s: 
+          line: 103 0  # The power of christ compels fu
           Complexity of rule ~devil_keywordless.11.0- s: 1
-        rule: 105  ~devil_keywordless.12.0 u: 
-          line: 110 0  # You and that other runt. The o
-          line: 111 54  # $they_pronoun = ^join ( AUTOSP
+        rule: 107  ~devil_keywordless.12.0 u: 
+          line: 112 0  # You and that other runt. The o
+          line: 113 54  # $they_pronoun = ^join ( AUTOSP
           Complexity of rule ~devil_keywordless.12.0- u: 1
-        rule: 112  ~devil_keywordless.12.1 a: 
-          line: 113 0  # Yes, and it will be so easy to
+        rule: 114  ~devil_keywordless.12.1 a: 
+          line: 115 0  # Yes, and it will be so easy to
           Complexity of rule ~devil_keywordless.12.1- a: 1
-        rule: 116  ~devil_keywordless.13.0 s: 
-          line: 120 0  # I am pleased to hear that. 
+        rule: 118  ~devil_keywordless.13.0 s: 
+          line: 122 0  # I am pleased to hear that. 
           Complexity of rule ~devil_keywordless.13.0- s: 1
-        rule: 123  ~devil_keywordless.14.0 s: 
-          line: 123 0  # And what I wish for will be mi
+        rule: 125  ~devil_keywordless.14.0 s: 
+          line: 125 0  # And what I wish for will be mi
           Complexity of rule ~devil_keywordless.14.0- s: 1
-        rule: 127  ~devil_keywordless.15.0 s: 
-          line: 127 0  # And how do you imagine a devil
+        rule: 129  ~devil_keywordless.15.0 s: 
+          line: 129 0  # And how do you imagine a devil
           Complexity of rule ~devil_keywordless.15.0- s: 1
-        rule: 130  ~devil_keywordless.16.0 s: 
-          line: 130 0  # But you won't. 
+        rule: 132  ~devil_keywordless.16.0 s: 
+          line: 132 0  # But you won't. 
           Complexity of rule ~devil_keywordless.16.0- s: 1
-        rule: 133  ~devil_keywordless.17.0 s: 
-          line: 133 0  # No, not enough. You're not Ani
+        rule: 135  ~devil_keywordless.17.0 s: 
+          line: 135 0  # No, not enough. You're not Ani
           Complexity of rule ~devil_keywordless.17.0- s: 1
-        rule: 136  ~devil_keywordless.18.0 u: 
-          line: 136 0  # Yes, I did do that. 
-          line: 137 20  # Or rather, I manipulated the s
+        rule: 138  ~devil_keywordless.18.0 u: 
+          line: 138 0  # Yes, I did do that. 
+          line: 139 20  # Or rather, I manipulated the s
           Complexity of rule ~devil_keywordless.18.0- u: 1
-        rule: 140  ~devil_keywordless.19.0 u: 
-          line: 140 0  # His death wasn't my doing. Onl
+        rule: 142  ~devil_keywordless.19.0 u: 
+          line: 142 0  # His death wasn't my doing. Onl
           Complexity of rule ~devil_keywordless.19.0- u: 1
-        rule: 143  ~devil_keywordless.20.0 u: 
-          line: 143 0  # She is the only one of her fam
+        rule: 145  ~devil_keywordless.20.0 u: 
+          line: 145 0  # She is the only one of her fam
           Complexity of rule ~devil_keywordless.20.0- u: 1
-        rule: 146  ~devil_keywordless.21.0 u: 
-          line: 146 0  # I did kill him. 
+        rule: 148  ~devil_keywordless.21.0 u: 
+          line: 148 0  # I did kill him. 
           Complexity of rule ~devil_keywordless.21.0- u: 1
-        rule: 149  ~devil_keywordless.22.0 u: 
-          line: 149 0  # Yes I did. She ought to have t
+        rule: 151  ~devil_keywordless.22.0 u: 
+          line: 151 0  # Yes I did. She ought to have t
           Complexity of rule ~devil_keywordless.22.0- u: 1
-        rule: 152  ~devil_keywordless.23.0 u: 
-          line: 152 0  # I could scare you for real if 
+        rule: 154  ~devil_keywordless.23.0 u: 
+          line: 154 0  # I could scare you for real if 
           Complexity of rule ~devil_keywordless.23.0- u: 1
-        rule: 155  ~devil_keywordless.24.0 u: 
-          line: 155 0  # Fear is good for you. No, I li
+        rule: 157  ~devil_keywordless.24.0 u: 
+          line: 157 0  # Fear is good for you. No, I li
           Complexity of rule ~devil_keywordless.24.0- u: 1
-        rule: 158  ~devil_keywordless.25.0 u: 
-          line: 158 0  # Haven't I already? 
+        rule: 160  ~devil_keywordless.25.0 u: 
+          line: 160 0  # Haven't I already? 
           Complexity of rule ~devil_keywordless.25.0- u: 1
-        rule: 161  ~devil_keywordless.26.0 u: 
-          line: 161 0  # But it's funny to me. 
+        rule: 163  ~devil_keywordless.26.0 u: 
+          line: 163 0  # But it's funny to me. 
           Complexity of rule ~devil_keywordless.26.0- u: 1
-        rule: 164  ~devil_keywordless.27.0 u: 
-          line: 164 0  # More so you, with your barf-co
+        rule: 166  ~devil_keywordless.27.0 u: 
+          line: 166 0  # More so you, with your barf-co
           Complexity of rule ~devil_keywordless.27.0- u: 1
-        rule: 167  ~devil_keywordless.28.0 s: 
-          line: 171 0  # I'm quite glad you think so. M
+        rule: 169  ~devil_keywordless.28.0 s: 
+          line: 173 0  # I'm quite glad you think so. M
           Complexity of rule ~devil_keywordless.28.0- s: 1
-        rule: 174  ~devil_keywordless.29.0 s: 
-          line: 178 0  # I know that you do have a body
+        rule: 176  ~devil_keywordless.29.0 s: 
+          line: 180 0  # I know that you do have a body
           Complexity of rule ~devil_keywordless.29.0- s: 1
-        rule: 181  ~devil_keywordless.30.0 s: 
-          line: 182 0  # Oh but you will die, and soon,
+        rule: 183  ~devil_keywordless.30.0 s: 
+          line: 184 0  # Oh but you will die, and soon,
           Complexity of rule ~devil_keywordless.30.0- s: 1
-        rule: 185  ~devil_keywordless.31.0 s: 
-          line: 189 0  # Dearest dumbfuck, a devil cann
+        rule: 187  ~devil_keywordless.31.0 s: 
+          line: 191 0  # Dearest dumbfuck, a devil cann
           Complexity of rule ~devil_keywordless.31.0- s: 1
-        rule: 192  ~devil_keywordless.32.0 u: 
-          line: 193 0  # Why the fuck should I care wha
+        rule: 194  ~devil_keywordless.32.0 u: 
+          line: 195 0  # Why the fuck should I care wha
           Complexity of rule ~devil_keywordless.32.0- u: 1
-        rule: 196  ~devil_keywordless.33.0 s: 
-          line: 196 0  # You know shit, and you are shi
+        rule: 198  ~devil_keywordless.33.0 s: 
+          line: 198 0  # You know shit, and you are shi
           Complexity of rule ~devil_keywordless.33.0- s: 1
-        rule: 199  ~devil_keywordless.34.0 u: 
-          line: 204 0  # I'll be as cruel as I please, 
+        rule: 201  ~devil_keywordless.34.0 u: 
+          line: 206 0  # I'll be as cruel as I please, 
           Complexity of rule ~devil_keywordless.34.0- u: 1
-        rule: 207  ~devil_keywordless.35.0 s: 
-          line: 207 0  # Do I give flying shit what the
+        rule: 209  ~devil_keywordless.35.0 s: 
+          line: 209 0  # Do I give flying shit what the
           Complexity of rule ~devil_keywordless.35.0- s: 1
-        rule: 210  ~devil_keywordless.36.0 u: 
-          line: 210 0  # You won't be remembering her f
+        rule: 212  ~devil_keywordless.36.0 u: 
+          line: 212 0  # You won't be remembering her f
           Complexity of rule ~devil_keywordless.36.0- u: 1
-        rule: 213  ~devil_keywordless.37.0 u: 
-          line: 213 0  # You wish that thinking about h
+        rule: 215  ~devil_keywordless.37.0 u: 
+          line: 215 0  # You wish that thinking about h
           Complexity of rule ~devil_keywordless.37.0- u: 1
-        rule: 216  ~devil_keywordless.38.0 u: 
-          line: 216 0  # You wish that you even could. 
+        rule: 218  ~devil_keywordless.38.0 u: 
+          line: 218 0  # You wish that you even could. 
           Complexity of rule ~devil_keywordless.38.0- u: 1
-        rule: 219  ~devil_keywordless.39.0 s: 
-          line: 219 0  # Phantakine power is mine. IT c
+        rule: 221  ~devil_keywordless.39.0 s: 
+          line: 221 0  # Phantakine power is mine. IT c
           Complexity of rule ~devil_keywordless.39.0- s: 1
-        rule: 222  ~devil_keywordless.40.0 u: 
-          line: 222 0  # You wish it could be as simple
+        rule: 224  ~devil_keywordless.40.0 u: 
+          line: 224 0  # You wish it could be as simple
           Complexity of rule ~devil_keywordless.40.0- u: 1
-        rule: 225  ~devil_keywordless.41.0 s: 
-          line: 225 0  # Oh you make me laugh. What goo
+        rule: 227  ~devil_keywordless.41.0 s: 
+          line: 227 0  # Oh you make me laugh. What goo
           Complexity of rule ~devil_keywordless.41.0- s: 1
-        rule: 228  ~devil_keywordless.42.0 s: 
-          line: 228 0  # Me. Me, me, me. And me 
+        rule: 230  ~devil_keywordless.42.0 s: 
+          line: 230 0  # Blessings are impotent. 
           Complexity of rule ~devil_keywordless.42.0- s: 1
+        rule: 233  ~devil_keywordless.43.0 s: 
+          line: 233 0  # Transcend? That's one thing Ch
+          Complexity of rule ~devil_keywordless.43.0- s: 1
+        rule: 236  ~devil_keywordless.44.0 s: 
+          line: 236 0  # Me. Me, me, me. And me 
+          Complexity of rule ~devil_keywordless.44.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/devil/devil_questions.top
     topic: 2  ~devil_questions
         rule: 4  ~devil_questions.0.0 t: 
