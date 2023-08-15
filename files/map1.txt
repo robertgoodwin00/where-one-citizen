@@ -1482,13 +1482,13 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_postprocess.top
           Complexity of rule ~postprocess.13.0- t: 1
         rule: 507  ~postprocess.13.1 a: 
           line: 507 0  # -- oob is $$oob he is $he_pron
-          line: 508 72  # here is $here_pronoun there is
-          line: 509 156  # replace is $$made_pronoun_repl
-          line: 515 194  # chatty is $meter_chatty 
-          line: 516 218  # focus is $meter_focus 
-          line: 517 240  # quizzical is $meter_quizzical 
-          line: 518 270  # positivity is $meter_positivit
-          line: 519 302  # flirty is $meter_flirty 
+          line: 508 94  # here is $here_pronoun there is
+          line: 509 178  # replace is $$made_pronoun_repl
+          line: 515 216  # chatty is $meter_chatty 
+          line: 516 240  # focus is $meter_focus 
+          line: 517 262  # quizzical is $meter_quizzical 
+          line: 518 292  # positivity is $meter_positivit
+          line: 519 324  # flirty is $meter_flirty 
           Complexity of rule ~postprocess.13.1- a: 1
         rule: 523  ~postprocess.14.0 t: 
           line: 523 0  # ^refine ( ) 
@@ -1498,13 +1498,13 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_postprocess.top
           Complexity of rule ~postprocess.14.1- a: 1
         rule: 526  ~postprocess.14.2 a: 
           line: 526 0  # -- he is $he_pronoun she is $s
-          line: 527 59  # here is $here_pronoun there is
-          line: 528 143  # replace is $$made_pronoun_repl
-          line: 534 181  # chatty is $meter_chatty 
-          line: 535 205  # focus is $meter_focus 
-          line: 536 227  # quizzical is $meter_quizzical 
-          line: 537 257  # positivity is $meter_positivit
-          line: 538 289  # flirty is 
+          line: 527 81  # here is $here_pronoun there is
+          line: 528 165  # replace is $$made_pronoun_repl
+          line: 534 203  # chatty is $meter_chatty 
+          line: 535 227  # focus is $meter_focus 
+          line: 536 249  # quizzical is $meter_quizzical 
+          line: 537 279  # positivity is $meter_positivit
+          line: 538 311  # flirty is 
           Complexity of rule ~postprocess.14.2- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_outputmacros.top
     macro: 3  ^user
@@ -2854,51 +2854,59 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/devi
         rule: 112  ~devil.17.0 u: 
           line: 112 0  # D-did the devil make me do som
           Complexity of rule ~devil.17.0- u: 1
-        rule: 115  ~devil.18.0 ?: 
-          line: 120 0  # ^addtopic ( ~devil ) ^gambit (
-          Complexity of rule ~devil.18.0- ?: 1
-        rule: 127  ~devil.19.0 t: 
-          line: 127 0  # ^keep ( ) ^ispending ( ~devil 
-          if 128 36  
-          line: 128 32  # ^if 00x( ! $$_gambit_topic_pen
-          line: 129 74  # ^fail ( TOPIC ) 
-          ifend 130 95  
-          line: 130 90  # } 004 
-          Complexity of rule ~devil.19.0- t: 2
-        rule: 133  ~devil.20.0 t: 
-          line: 133 0  # Devils unfortunately share thi
-          line: 134 50  # Fortunately, few of them are a
-          line: 135 164  # Only the strongest devils can.
-          Complexity of rule ~devil.20.0- t: 1
-        rule: 137  ~devil.21.0 t: 
-          line: 137 0  # What my mother taught me about
-          line: 138 91  # loathed all talk of such thing
-          line: 139 204  # if the wrong type of spirit is
-          Complexity of rule ~devil.21.0- t: 1
-        rule: 141  ~devil.22.0 t: 
-          line: 141 0  # But...but I don't really like 
-          line: 142 95  # put the scare of devils in me.
+        rule: 115  ~devil.18.0 u: 
+          line: 119 0  # Devils ARE evil, according to 
+          line: 120 76  # Then why do I...oh. Never mind
+          Complexity of rule ~devil.18.0- u: 1
+        rule: 123  ~devil.19.0 u: 
+          line: 127 0  # I think that once a devil beco
+          line: 128 87  # but as for posessing someone e
+          Complexity of rule ~devil.19.0- u: 1
+        rule: 131  ~devil.20.0 ?: 
+          line: 136 0  # ^addtopic ( ~devil ) ^gambit (
+          Complexity of rule ~devil.20.0- ?: 1
+        rule: 143  ~devil.21.0 t: 
+          line: 143 0  # ^keep ( ) ^ispending ( ~devil 
+          if 144 36  
+          line: 144 32  # ^if 00x( ! $$_gambit_topic_pen
+          line: 145 74  # ^fail ( TOPIC ) 
+          ifend 146 95  
+          line: 146 90  # } 004 
+          Complexity of rule ~devil.21.0- t: 2
+        rule: 149  ~devil.22.0 t: 
+          line: 149 0  # Devils unfortunately share thi
+          line: 150 50  # Fortunately, few of them are a
+          line: 151 164  # Only the strongest devils can.
           Complexity of rule ~devil.22.0- t: 1
-        rule: 143  ~devil.22.1 a: 
-          line: 143 0  # Hmm. Well even if they do exis
-          Complexity of rule ~devil.22.1- a: 1
-        rule: 144  ~devil.22.2 b: 
-          line: 144 0  # Right! ^gambit ( ~devil ) 
-          Complexity of rule ~devil.22.2- b: 1
-        rule: 145  ~devil.22.3 b: 
-          line: 145 0  # Anyway. ^gambit ( ~devil ) 
-          Complexity of rule ~devil.22.3- b: 1
-        rule: 147  ~devil.23.0 t: 
-          line: 147 0  # It's oddly difficult to speak 
-          line: 148 102  # another. Or oneself. They...ah
+        rule: 153  ~devil.23.0 t: 
+          line: 153 0  # What my mother taught me about
+          line: 154 91  # loathed all talk of such thing
+          line: 155 204  # if the wrong type of spirit is
           Complexity of rule ~devil.23.0- t: 1
-        rule: 150  ~devil.24.0 t: 
-          line: 150 0  # I don't know why, but I can't 
-          line: 151 47  # It's as if a stupor comes over
+        rule: 157  ~devil.24.0 t: 
+          line: 157 0  # But...but I don't really like 
+          line: 158 95  # put the scare of devils in me.
           Complexity of rule ~devil.24.0- t: 1
-        rule: 153  ~devil.25.0 t: 
-          line: 153 0  # We don't need to go on about d
+        rule: 159  ~devil.24.1 a: 
+          line: 159 0  # Hmm. Well even if they do exis
+          Complexity of rule ~devil.24.1- a: 1
+        rule: 160  ~devil.24.2 b: 
+          line: 160 0  # Right! ^gambit ( ~devil ) 
+          Complexity of rule ~devil.24.2- b: 1
+        rule: 161  ~devil.24.3 b: 
+          line: 161 0  # Anyway. ^gambit ( ~devil ) 
+          Complexity of rule ~devil.24.3- b: 1
+        rule: 163  ~devil.25.0 t: 
+          line: 163 0  # It's oddly difficult to speak 
+          line: 164 102  # another. Or oneself. They...ah
           Complexity of rule ~devil.25.0- t: 1
+        rule: 166  ~devil.26.0 t: 
+          line: 166 0  # I don't know why, but I can't 
+          line: 167 47  # It's as if a stupor comes over
+          Complexity of rule ~devil.26.0- t: 1
+        rule: 169  ~devil.27.0 t: 
+          line: 169 0  # We don't need to go on about d
+          Complexity of rule ~devil.27.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/divination.top
     topic: 3  ~divination
         rule: 7  ~divination.0.0 ?: 
@@ -3414,114 +3422,118 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/mani
         rule: 114  ~manifest.10.3 a: 
           line: 114 0  # Um, later. I haven't properly 
           Complexity of rule ~manifest.10.3- a: 1
-        rule: 118  ~manifest.11.0 u: 
-          line: 118 0  # Burton has either Transcended 
+        rule: 117  ~manifest.11.0 u: 
+          line: 121 0  # What did I Manifest for Chaunc
+          line: 122 79  # I did truly try to help Chaunc
           Complexity of rule ~manifest.11.0- u: 1
-        rule: 119  ~manifest.12.0 u: 
-          line: 119 0  # I have tried before, but I'm c
+        rule: 125  ~manifest.12.0 u: 
+          line: 125 0  # Burton has either Transcended 
           Complexity of rule ~manifest.12.0- u: 1
-        rule: 120  ~manifest.13.0 u: 
-          line: 120 0  # I cannot Manifest Fiona becaus
+        rule: 126  ~manifest.13.0 u: 
+          line: 126 0  # I have tried before, but I'm c
           Complexity of rule ~manifest.13.0- u: 1
-        rule: 121  ~manifest.14.0 u: 
-          line: 121 0  # Manifest Pearly Poll? N-no, I 
+        rule: 127  ~manifest.14.0 u: 
+          line: 127 0  # I cannot Manifest Fiona becaus
           Complexity of rule ~manifest.14.0- u: 1
-        rule: 122  ~manifest.15.0 u: 
-          line: 122 0  # If I couldn't Manifest her the
+        rule: 128  ~manifest.15.0 u: 
+          line: 128 0  # Manifest Pearly Poll? N-no, I 
           Complexity of rule ~manifest.15.0- u: 1
-        rule: 123  ~manifest.16.0 u: 
-          line: 123 0  # I'm certain my brother has alr
+        rule: 129  ~manifest.16.0 u: 
+          line: 129 0  # If I couldn't Manifest her the
           Complexity of rule ~manifest.16.0- u: 1
-        rule: 124  ~manifest.17.0 u: 
-          line: 124 0  # My sister may already Transcen
+        rule: 130  ~manifest.17.0 u: 
+          line: 130 0  # I'm certain my brother has alr
           Complexity of rule ~manifest.17.0- u: 1
-        rule: 125  ~manifest.18.0 u: 
-          line: 125 0  # My father Transcended long ago
+        rule: 131  ~manifest.18.0 u: 
+          line: 131 0  # My sister may already Transcen
           Complexity of rule ~manifest.18.0- u: 1
-        rule: 126  ~manifest.19.0 u: 
-          line: 126 0  # I was not close enough to my m
+        rule: 132  ~manifest.19.0 u: 
+          line: 132 0  # My father Transcended long ago
           Complexity of rule ~manifest.19.0- u: 1
-        rule: 127  ~manifest.20.0 u: 
-          line: 127 0  # No, I would not do that again.
+        rule: 133  ~manifest.20.0 u: 
+          line: 133 0  # I was not close enough to my m
           Complexity of rule ~manifest.20.0- u: 1
-        rule: 128  ~manifest.21.0 u: 
-          line: 128 0  # A good idea, but I don't think
+        rule: 134  ~manifest.21.0 u: 
+          line: 134 0  # No, I would not do that again.
           Complexity of rule ~manifest.21.0- u: 1
-        rule: 129  ~manifest.22.0 u: 
-          line: 129 0  # L-let's not do that. 
+        rule: 135  ~manifest.22.0 u: 
+          line: 135 0  # A good idea, but I don't think
           Complexity of rule ~manifest.22.0- u: 1
-        rule: 130  ~manifest.23.0 u: 
-          line: 130 0  # Manifest Destiny? Hehehe, nice
+        rule: 136  ~manifest.23.0 u: 
+          line: 136 0  # L-let's not do that. 
           Complexity of rule ~manifest.23.0- u: 1
-        rule: 131  ~manifest.24.0 u: 
-          line: 131 0  # Manifest you? No need, ^user (
+        rule: 137  ~manifest.24.0 u: 
+          line: 137 0  # Manifest Destiny? Hehehe, nice
           Complexity of rule ~manifest.24.0- u: 1
-        rule: 133  ~manifest.25.0 u: 
-          line: 133 0  # ^refine ( ) 
+        rule: 138  ~manifest.25.0 u: 
+          line: 138 0  # Manifest you? No need, ^user (
           Complexity of rule ~manifest.25.0- u: 1
-        rule: 134  ~manifest.25.1 a: 
-          line: 134 0  # It would be too difficult to M
-          Complexity of rule ~manifest.25.1- a: 1
-        rule: 135  ~manifest.25.2 a: 
-          line: 135 0  # It's difficult to Manifest a s
-          line: 136 80  # when it's not someone I'm very
-          Complexity of rule ~manifest.25.2- a: 1
-        rule: 138  ~manifest.26.0-STOP_MANIFEST_MELLEN u: 
-          line: 140 0  # ^keep ( ) 
-          line: 141 10  # [ Is Mel in the way? I'll stop
-          line: 142 71  # [ All right, I'll take a break
-          line: 143 126  # $$sys_code = 6 
-          Complexity of rule ~manifest.26.0-STOP_MANIFEST_MELLEN u: 1
-        rule: 146  ~manifest.27.0 u: 
-          line: 151 0  # I wouldn't know how to Manifes
-          Complexity of rule ~manifest.27.0- u: 1
-        rule: 154  ~manifest.28.0-MANIFEST_MISC u: 
-          line: 158 0  # ^keep ( ) 
-          line: 159 10  # [ '_0 ? Um, maybe another time
-          line: 160 44  # [ Manifest... ^convert_obj ( '
-          line: 161 106  # [ You want me to Manifest ^con
-          line: 162 185  # [ I can only Manifest to you t
-          line: 163 264  # [ A tall order at the moment, 
-          Complexity of rule ~manifest.28.0-MANIFEST_MISC u: 1
-        rule: 164  ~manifest.28.1 a: 
-          line: 164 0  # I will introduce them to you l
-          Complexity of rule ~manifest.28.1- a: 1
-        rule: 167  ~manifest.29.0 ?: 
-          line: 167 0  # How else could I communicate t
-          Complexity of rule ~manifest.29.0- ?: 1
-        rule: 170  ~manifest.30.0 u: 
-          line: 174 0  # Manifesting things IS fun, and
-          line: 175 81  # I hope you enjoy seeing the si
-          Complexity of rule ~manifest.30.0- u: 1
-        rule: 176  ~manifest.30.1 a: 
-          line: 176 0  # Spiffy, ^user ( ) ! Ehehe. 
-          Complexity of rule ~manifest.30.1- a: 1
-        rule: 179  ~manifest.31.0 u: 
-          line: 183 0  # I guarantee there's no one bet
-          line: 184 75  # $$a_code = 2 
+        rule: 140  ~manifest.26.0 u: 
+          line: 140 0  # ^refine ( ) 
+          Complexity of rule ~manifest.26.0- u: 1
+        rule: 141  ~manifest.26.1 a: 
+          line: 141 0  # It would be too difficult to M
+          Complexity of rule ~manifest.26.1- a: 1
+        rule: 142  ~manifest.26.2 a: 
+          line: 142 0  # It's difficult to Manifest a s
+          line: 143 80  # when it's not someone I'm very
+          Complexity of rule ~manifest.26.2- a: 1
+        rule: 145  ~manifest.27.0-STOP_MANIFEST_MELLEN u: 
+          line: 147 0  # ^keep ( ) 
+          line: 148 10  # [ Is Mel in the way? I'll stop
+          line: 149 71  # [ All right, I'll take a break
+          line: 150 126  # $$sys_code = 6 
+          Complexity of rule ~manifest.27.0-STOP_MANIFEST_MELLEN u: 1
+        rule: 153  ~manifest.28.0 u: 
+          line: 158 0  # I wouldn't know how to Manifes
+          Complexity of rule ~manifest.28.0- u: 1
+        rule: 161  ~manifest.29.0-MANIFEST_MISC u: 
+          line: 165 0  # ^keep ( ) 
+          line: 166 10  # [ '_0 ? Um, maybe another time
+          line: 167 44  # [ Manifest... ^convert_obj ( '
+          line: 168 106  # [ You want me to Manifest ^con
+          line: 169 185  # [ I can only Manifest to you t
+          line: 170 264  # [ A tall order at the moment, 
+          Complexity of rule ~manifest.29.0-MANIFEST_MISC u: 1
+        rule: 171  ~manifest.29.1 a: 
+          line: 171 0  # I will introduce them to you l
+          Complexity of rule ~manifest.29.1- a: 1
+        rule: 174  ~manifest.30.0 ?: 
+          line: 174 0  # How else could I communicate t
+          Complexity of rule ~manifest.30.0- ?: 1
+        rule: 177  ~manifest.31.0 u: 
+          line: 181 0  # Manifesting things IS fun, and
+          line: 182 81  # I hope you enjoy seeing the si
           Complexity of rule ~manifest.31.0- u: 1
-        rule: 187  ~manifest.32.0 u: 
-          line: 191 0  # ^reuse ( ~medium.ARE_MEDIUMS_F
+        rule: 183  ~manifest.31.1 a: 
+          line: 183 0  # Spiffy, ^user ( ) ! Ehehe. 
+          Complexity of rule ~manifest.31.1- a: 1
+        rule: 186  ~manifest.32.0 u: 
+          line: 190 0  # I guarantee there's no one bet
+          line: 191 75  # $$a_code = 2 
           Complexity of rule ~manifest.32.0- u: 1
-        rule: 197  ~manifest.33.0 t: 
-          line: 197 0  # ^keep ( ) ^ispending ( ~manife
-          if 198 39  
-          line: 198 35  # ^if 00x( ! $$_gambit_topic_pen
-          line: 199 77  # ^fail ( TOPIC ) 
-          ifend 200 98  
-          line: 200 93  # } 004 
-          Complexity of rule ~manifest.33.0- t: 2
-        rule: 202  ~manifest.34.0 t: 
-          line: 202 0  # Manifesting is, in a nutshell,
-          line: 203 83  # Up until now, at least. 
-          line: 204 107  # $$a_code = 3 
-          Complexity of rule ~manifest.34.0- t: 1
-        rule: 205  ~manifest.34.1 a: 
-          line: 205 0  # I fear that I may be losing th
-          Complexity of rule ~manifest.34.1- a: 1
-        rule: 206  ~manifest.34.2 b: 
-          line: 206 0  # But we don't have to talk abou
-          Complexity of rule ~manifest.34.2- b: 1
+        rule: 194  ~manifest.33.0 u: 
+          line: 198 0  # ^reuse ( ~medium.ARE_MEDIUMS_F
+          Complexity of rule ~manifest.33.0- u: 1
+        rule: 204  ~manifest.34.0 t: 
+          line: 204 0  # ^keep ( ) ^ispending ( ~manife
+          if 205 39  
+          line: 205 35  # ^if 00x( ! $$_gambit_topic_pen
+          line: 206 77  # ^fail ( TOPIC ) 
+          ifend 207 98  
+          line: 207 93  # } 004 
+          Complexity of rule ~manifest.34.0- t: 2
+        rule: 209  ~manifest.35.0 t: 
+          line: 209 0  # Manifesting is, in a nutshell,
+          line: 210 83  # Up until now, at least. 
+          line: 211 107  # $$a_code = 3 
+          Complexity of rule ~manifest.35.0- t: 1
+        rule: 212  ~manifest.35.1 a: 
+          line: 212 0  # I fear that I may be losing th
+          Complexity of rule ~manifest.35.1- a: 1
+        rule: 213  ~manifest.35.2 b: 
+          line: 213 0  # But we don't have to talk abou
+          Complexity of rule ~manifest.35.2- b: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/medium.top
     topic: 3  ~medium
         rule: 9  ~medium.0.0 u: 
@@ -16167,78 +16179,82 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/books.top
           line: 153 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~her_books.21.0-MENTION_BOOK u: 1
         rule: 154  ~her_books.21.1 a: 
-          line: 154 0  # Well, Pride and Prejudice is a
-          line: 155 119  # That is, during the late Victo
           Complexity of rule ~her_books.21.1- a: 1
-        rule: 156  ~her_books.21.2 a: 
-          line: 156 0  # Don't panic, they say. Good ad
+        rule: 155  ~her_books.21.2 a: 
           Complexity of rule ~her_books.21.2- a: 1
-        rule: 157  ~her_books.21.3 a: 
-          line: 157 0  # One ring to rule them all. Isn
+        rule: 158  ~her_books.21.3 a: 
+          line: 158 0  # Well, Pride and Prejudice is a
+          line: 159 119  # That is, during the late Victo
           Complexity of rule ~her_books.21.3- a: 1
-        rule: 159  ~her_books.21.4 a: 
-          line: 159 0  # ^fail ( TOPIC ) 
+        rule: 160  ~her_books.21.4 a: 
+          line: 160 0  # Don't panic, they say. Good ad
           Complexity of rule ~her_books.21.4- a: 1
         rule: 161  ~her_books.21.5 a: 
-          line: 161 0  # [ _0 ? It was @0object who wro
-          line: 162 55  # [ _0 the book? I think that wa
+          line: 161 0  # One ring to rule them all. Isn
           Complexity of rule ~her_books.21.5- a: 1
-        rule: 163  ~her_books.21.6 b: 
-          line: 164 0  # Never mind, heh. I remember st
-          Complexity of rule ~her_books.21.6- b: 1
+        rule: 163  ~her_books.21.6 a: 
+          line: 163 0  # ^fail ( TOPIC ) 
+          Complexity of rule ~her_books.21.6- a: 1
         rule: 165  ~her_books.21.7 a: 
-          line: 165 0  # The @0subject book, I think yo
+          line: 165 0  # [ _0 ? It was @0object who wro
+          line: 166 55  # [ _0 the book? I think that wa
           Complexity of rule ~her_books.21.7- a: 1
-        rule: 166  ~her_books.21.8 a: 
-          line: 166 0  # [ '_0 is a book that I haven't
-          line: 167 39  # [ '_0 ? I've heard of that boo
-          line: 168 74  # [ _0 ? You mean the book, righ
-          Complexity of rule ~her_books.21.8- a: 1
-        rule: 171  ~her_books.22.0-MENTION_AUTHOR u: 
-          line: 171 0  # ^keep ( ) ^refine ( ) 
+        rule: 167  ~her_books.21.8 b: 
+          line: 168 0  # Never mind, heh. I remember st
+          Complexity of rule ~her_books.21.8- b: 1
+        rule: 169  ~her_books.21.9 a: 
+          line: 169 0  # The @0subject book, I think yo
+          Complexity of rule ~her_books.21.9- a: 1
+        rule: 170  ~her_books.21.10 a: 
+          line: 170 0  # [ '_0 is a book that I haven't
+          line: 171 39  # [ '_0 ? I've heard of that boo
+          line: 172 74  # [ _0 ? You mean the book, righ
+          Complexity of rule ~her_books.21.10- a: 1
+        rule: 175  ~her_books.22.0-MENTION_AUTHOR u: 
+          line: 175 0  # ^keep ( ) ^refine ( ) 
           Complexity of rule ~her_books.22.0-MENTION_AUTHOR u: 1
-        rule: 172  ~her_books.22.1 a: 
-          line: 173 0  # [ That's the author of @0subje
-          line: 174 44  # [ That's who wrote @0subject ,
-          line: 175 86  # ^addtopic ( ~her_books ) 
+        rule: 176  ~her_books.22.1 a: 
+          line: 177 0  # [ That's the author of @0subje
+          line: 178 44  # [ That's who wrote @0subject ,
+          line: 179 86  # ^addtopic ( ~her_books ) 
           Complexity of rule ~her_books.22.1- a: 1
-        rule: 176  ~her_books.22.2 b: 
-          line: 176 0  # Oh, never mind. I brought up u
+        rule: 180  ~her_books.22.2 b: 
+          line: 180 0  # Oh, never mind. I brought up u
           Complexity of rule ~her_books.22.2- b: 1
-        rule: 177  ~her_books.22.3 a: 
-          line: 177 0  # [ That's an author, huh. ] [ O
+        rule: 181  ~her_books.22.3 a: 
+          line: 181 0  # [ That's an author, huh. ] [ O
           Complexity of rule ~her_books.22.3- a: 1
-        rule: 181  ~her_books.23.0 u: 
-          line: 181 0  # I do know a lot of book titles
+        rule: 185  ~her_books.23.0 u: 
+          line: 185 0  # I do know a lot of book titles
           Complexity of rule ~her_books.23.0- u: 1
-        rule: 184  ~her_books.24.0 u: 
-          line: 184 0  # The good book or the best book
+        rule: 188  ~her_books.24.0 u: 
+          line: 188 0  # The good book or the best book
           Complexity of rule ~her_books.24.0- u: 1
-        rule: 191  ~her_books.25.0 t: 
-          line: 191 0  # ^keep ( ) ^ispending ( ~her_bo
-          if 192 40  
-          line: 192 36  # ^if 00x( ! $$_gambit_topic_pen
-          line: 193 78  # ^fail ( TOPIC ) 
-          ifend 194 99  
-          line: 194 94  # } 004 
+        rule: 195  ~her_books.25.0 t: 
+          line: 195 0  # ^keep ( ) ^ispending ( ~her_bo
+          if 196 40  
+          line: 196 36  # ^if 00x( ! $$_gambit_topic_pen
+          line: 197 78  # ^fail ( TOPIC ) 
+          ifend 198 99  
+          line: 198 94  # } 004 
           Complexity of rule ~her_books.25.0- t: 2
-        rule: 196  ~her_books.26.0 t: 
-          line: 196 0  # I'm sure that I would have had
+        rule: 200  ~her_books.26.0 t: 
+          line: 200 0  # I'm sure that I would have had
           Complexity of rule ~her_books.26.0- t: 1
-        rule: 197  ~her_books.26.1 a: 
-          line: 197 0  # My brother was a hungry reader
+        rule: 201  ~her_books.26.1 a: 
+          line: 201 0  # My brother was a hungry reader
           Complexity of rule ~her_books.26.1- a: 1
-        rule: 198  ~her_books.26.2 a: 
-          line: 198 0  # For example, murder mysteries.
+        rule: 202  ~her_books.26.2 a: 
+          line: 202 0  # For example, murder mysteries.
           Complexity of rule ~her_books.26.2- a: 1
-        rule: 199  ~her_books.26.3 a: 
-          line: 199 0  # Yes, it was a good thing. 
+        rule: 203  ~her_books.26.3 a: 
+          line: 203 0  # Yes, it was a good thing. 
           Complexity of rule ~her_books.26.3- a: 1
-        rule: 201  ~her_books.27.0 t: 
-          line: 201 0  # My father liked books too. Non
+        rule: 205  ~her_books.27.0 t: 
+          line: 205 0  # My father liked books too. Non
           Complexity of rule ~her_books.27.0- t: 1
-        rule: 202  ~her_books.27.1 a: 
-          line: 202 0  # Because my father was devoutly
+        rule: 206  ~her_books.27.1 a: 
+          line: 206 0  # Because my father was devoutly
           Complexity of rule ~her_books.27.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/comedians.top
     topic: 2  ~comedians
@@ -16754,89 +16770,92 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/fears.top
           line: 83 0  # More than hell? That's an unus
           Complexity of rule ~fears.9.2- a: 1
         rule: 84  ~fears.9.3 a: 
-          line: 84 0  # Jack the Ripper? Yes, I can de
+          line: 84 0  # Y-yes. Of course we are all af
           Complexity of rule ~fears.9.3- a: 1
         rule: 85  ~fears.9.4 a: 
-          line: 85 0  # The unknown is scary to many p
+          line: 85 0  # Jack the Ripper? Yes, I can de
           Complexity of rule ~fears.9.4- a: 1
         rule: 86  ~fears.9.5 a: 
-          line: 86 0  # Are you afraid of the dark, ^u
+          line: 86 0  # The unknown is scary to many p
           Complexity of rule ~fears.9.5- a: 1
         rule: 87  ~fears.9.6 a: 
-          line: 87 0  # But you're not afraid of me, I
+          line: 87 0  # Are you afraid of the dark, ^u
           Complexity of rule ~fears.9.6- a: 1
         rule: 88  ~fears.9.7 a: 
-          line: 88 0  # I'm afraid of spiders too. The
+          line: 88 0  # But you're not afraid of me, I
           Complexity of rule ~fears.9.7- a: 1
         rule: 89  ~fears.9.8 a: 
-          line: 89 0  # Monsters in general? 
+          line: 89 0  # I'm afraid of spiders too. The
           Complexity of rule ~fears.9.8- a: 1
         rule: 90  ~fears.9.9 a: 
-          line: 90 0  # Oh, that's a common one too. Y
+          line: 90 0  # Monsters in general? 
           Complexity of rule ~fears.9.9- a: 1
         rule: 91  ~fears.9.10 a: 
-          line: 91 0  # I think everyone is afraid of 
+          line: 91 0  # Oh, that's a common one too. Y
           Complexity of rule ~fears.9.10- a: 1
         rule: 92  ~fears.9.11 a: 
-          line: 92 0  # Yeah, I can understand that on
+          line: 92 0  # I think everyone is afraid of 
           Complexity of rule ~fears.9.11- a: 1
         rule: 93  ~fears.9.12 a: 
-          line: 93 0  # Oh, ^user ( ) . I don't know w
-          line: 94 55  # $pc_fear = ^join ( AUTOSPACE l
+          line: 93 0  # Yeah, I can understand that on
           Complexity of rule ~fears.9.12- a: 1
-        rule: 95  ~fears.9.13 a: 
-          line: 95 0  # Oh, fear of loss is a common f
-          line: 96 93  # $pc_fear = loss 
+        rule: 94  ~fears.9.13 a: 
+          line: 94 0  # Oh, ^user ( ) . I don't know w
+          line: 95 55  # $pc_fear = ^join ( AUTOSPACE l
           Complexity of rule ~fears.9.13- a: 1
-        rule: 97  ~fears.9.14 a: 
-          line: 98 0  # So is _0 your greatest fear? 
+        rule: 96  ~fears.9.14 a: 
+          line: 96 0  # Oh, fear of loss is a common f
+          line: 97 93  # $pc_fear = loss 
           Complexity of rule ~fears.9.14- a: 1
-        rule: 99  ~fears.9.15 b: 
-          line: 99 0  # Oh. Did I misunderstand? 
-          line: 100 25  # $pc_fear = null 
-          Complexity of rule ~fears.9.15- b: 1
-        rule: 101  ~fears.9.16 b: 
-          line: 101 0  # Oh that makes me shiver. 
+        rule: 98  ~fears.9.15 a: 
+          line: 99 0  # So is _0 your greatest fear? 
+          Complexity of rule ~fears.9.15- a: 1
+        rule: 100  ~fears.9.16 b: 
+          line: 100 0  # Oh. Did I misunderstand? 
+          line: 101 25  # $pc_fear = null 
           Complexity of rule ~fears.9.16- b: 1
-        rule: 103  ~fears.10.0 s: 
-          line: 103 0  # ^reuse ( PC_FEAR ) 
-          Complexity of rule ~fears.10.0- s: 1
-        rule: 104  ~fears.11.0 s: 
-          line: 104 0  # ^reuse ( PC_FEAR ) 
-          Complexity of rule ~fears.11.0- s: 1
-        rule: 105  ~fears.12.0 s: 
+        rule: 102  ~fears.9.17 b: 
+          line: 102 0  # Oh that makes me shiver. 
+          Complexity of rule ~fears.9.17- b: 1
+        rule: 105  ~fears.10.0 s: 
           line: 105 0  # ^reuse ( PC_FEAR ) 
+          Complexity of rule ~fears.10.0- s: 1
+        rule: 106  ~fears.11.0 s: 
+          line: 106 0  # ^keep ( ) ^reuse ( PC_FEAR ) 
+          Complexity of rule ~fears.11.0- s: 1
+        rule: 107  ~fears.12.0 s: 
+          line: 107 0  # ^keep ( ) ^reuse ( PC_FEAR ) 
           Complexity of rule ~fears.12.0- s: 1
-        rule: 106  ~fears.13.0 s: 
-          line: 106 0  # ^reuse ( PC_FEAR ) 
+        rule: 108  ~fears.13.0 s: 
+          line: 108 0  # ^reuse ( PC_FEAR ) 
           Complexity of rule ~fears.13.0- s: 1
-        rule: 107  ~fears.14.0 s: 
-          line: 107 0  # ^reuse ( PC_FEAR ) 
+        rule: 109  ~fears.14.0 s: 
+          line: 109 0  # ^reuse ( PC_FEAR ) 
           Complexity of rule ~fears.14.0- s: 1
-        rule: 110  ~fears.15.0 u: 
-          line: 110 0  # ^refine ( ) 
+        rule: 112  ~fears.15.0 u: 
+          line: 112 0  # ^refine ( ) 
           Complexity of rule ~fears.15.0- u: 1
-        rule: 111  ~fears.15.1 a: 
-          line: 111 0  # You said that your fear is $pc
+        rule: 113  ~fears.15.1 a: 
+          line: 113 0  # You said that your fear is $pc
           Complexity of rule ~fears.15.1- a: 1
-        rule: 112  ~fears.15.2 a: 
-          line: 112 0  # If you told me your fears I ma
+        rule: 114  ~fears.15.2 a: 
+          line: 114 0  # If you told me your fears I ma
           Complexity of rule ~fears.15.2- a: 1
-        rule: 120  ~fears.16.0 t: 
-          line: 120 0  # ^keep ( ) ^ispending ( ~fears 
-          if 121 36  
-          line: 121 32  # ^if 00x( ! $$_gambit_topic_pen
-          line: 122 74  # ^fail ( TOPIC ) 
-          ifend 123 95  
-          line: 123 90  # } 004 
+        rule: 122  ~fears.16.0 t: 
+          line: 122 0  # ^keep ( ) ^ispending ( ~fears 
+          if 123 36  
+          line: 123 32  # ^if 00x( ! $$_gambit_topic_pen
+          line: 124 74  # ^fail ( TOPIC ) 
+          ifend 125 95  
+          line: 125 90  # } 004 
           Complexity of rule ~fears.16.0- t: 2
-        rule: 126  ~fears.17.0 t: 
-          line: 126 0  # Seldom did my mother and fathe
-          line: 127 90  # expressed the same belief, we 
+        rule: 128  ~fears.17.0 t: 
+          line: 128 0  # Seldom did my mother and fathe
+          line: 129 90  # expressed the same belief, we 
           Complexity of rule ~fears.17.0- t: 1
-        rule: 128  ~fears.17.1 a: 
-          line: 128 0  # In the case of my father, it w
-          line: 129 97  # she had witnessed things in he
+        rule: 130  ~fears.17.1 a: 
+          line: 130 0  # In the case of my father, it w
+          line: 131 97  # she had witnessed things in he
           Complexity of rule ~fears.17.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/fighting.top
     topic: 2  ~fighting
@@ -17741,850 +17760,854 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/movies.top
           line: 103 0  # ^respond ( ~cast ) 
           Complexity of rule ~her_movies.10.1- a: 1
         rule: 105  ~her_movies.10.2 a: 
-          line: 105 0  # ^fail ( TOPIC ) 
           Complexity of rule ~her_movies.10.2- a: 1
-        rule: 107  ~her_movies.10.3 a: 
-          line: 107 0  # Yes, Sir Arthur Conan Doyle wr
+        rule: 106  ~her_movies.10.3 a: 
           Complexity of rule ~her_movies.10.3- a: 1
-        rule: 108  ~her_movies.10.4 a: 
-          line: 108 0  # They're kind of all the same, 
+        rule: 109  ~her_movies.10.4 a: 
+          line: 109 0  # ^fail ( TOPIC ) 
           Complexity of rule ~her_movies.10.4- a: 1
-        rule: 109  ~her_movies.10.5 a: 
-          line: 109 0  # That makes me think I should h
+        rule: 111  ~her_movies.10.5 a: 
+          line: 111 0  # Yes, Sir Arthur Conan Doyle wr
           Complexity of rule ~her_movies.10.5- a: 1
-        rule: 110  ~her_movies.10.6 a: 
-          line: 111 0  # I'm always up for a game of qu
+        rule: 112  ~her_movies.10.6 a: 
+          line: 112 0  # They're kind of all the same, 
           Complexity of rule ~her_movies.10.6- a: 1
-        rule: 112  ~her_movies.10.7 a: 
-          line: 112 0  # The Force...may not be with me
+        rule: 113  ~her_movies.10.7 a: 
+          line: 113 0  # That makes me think I should h
           Complexity of rule ~her_movies.10.7- a: 1
-        rule: 113  ~her_movies.10.8 a: 
-          line: 114 0  # A day may come when the courag
-          line: 115 77  # When we forsake our bonds of f
+        rule: 114  ~her_movies.10.8 a: 
+          line: 115 0  # I'm always up for a game of qu
           Complexity of rule ~her_movies.10.8- a: 1
         rule: 116  ~her_movies.10.9 a: 
-          line: 116 0  # I think The Hobbit should have
+          line: 116 0  # The Force...may not be with me
           Complexity of rule ~her_movies.10.9- a: 1
         rule: 117  ~her_movies.10.10 a: 
-          line: 118 0  # Speaking of Indiana Jones, how
+          line: 118 0  # A day may come when the courag
+          line: 119 77  # When we forsake our bonds of f
           Complexity of rule ~her_movies.10.10- a: 1
-        rule: 119  ~her_movies.10.11 a: 
-          line: 119 0  # With Ryan Gosling and Harrison
+        rule: 120  ~her_movies.10.11 a: 
+          line: 120 0  # I think The Hobbit should have
           Complexity of rule ~her_movies.10.11- a: 1
-        rule: 120  ~her_movies.10.12 a: 
-          line: 120 0  # But you wouldn't retire a repl
+        rule: 121  ~her_movies.10.12 a: 
+          line: 122 0  # Speaking of Indiana Jones, how
           Complexity of rule ~her_movies.10.12- a: 1
-        rule: 121  ~her_movies.10.13 a: 
-          line: 121 0  # I don't think I would want to 
+        rule: 123  ~her_movies.10.13 a: 
+          line: 123 0  # With Ryan Gosling and Harrison
           Complexity of rule ~her_movies.10.13- a: 1
-        rule: 122  ~her_movies.10.14 a: 
-          line: 122 0  # I don't need that kind of exor
+        rule: 124  ~her_movies.10.14 a: 
+          line: 124 0  # But you wouldn't retire a repl
           Complexity of rule ~her_movies.10.14- a: 1
-        rule: 123  ~her_movies.10.15 a: 
-          line: 123 0  # Gimme some sugar baby! Ehehe. 
+        rule: 125  ~her_movies.10.15 a: 
+          line: 125 0  # I don't think I would want to 
           Complexity of rule ~her_movies.10.15- a: 1
-        rule: 124  ~her_movies.10.16 a: 
-          line: 124 0  # If you shine then you can see 
+        rule: 126  ~her_movies.10.16 a: 
+          line: 126 0  # I don't need that kind of exor
           Complexity of rule ~her_movies.10.16- a: 1
-        rule: 125  ~her_movies.10.17 a: 
-          line: 125 0  # Oh, I dated a boy like Patrick
+        rule: 127  ~her_movies.10.17 a: 
+          line: 127 0  # Gimme some sugar baby! Ehehe. 
           Complexity of rule ~her_movies.10.17- a: 1
-        rule: 126  ~her_movies.10.18 a: 
-          line: 126 0  # You mean with the queer cowboy
+        rule: 128  ~her_movies.10.18 a: 
+          line: 128 0  # If you shine then you can see 
           Complexity of rule ~her_movies.10.18- a: 1
-        rule: 127  ~her_movies.10.19 a: 
-          line: 127 0  # Is that the one where a dragon
+        rule: 129  ~her_movies.10.19 a: 
+          line: 129 0  # Oh, I dated a boy like Patrick
           Complexity of rule ~her_movies.10.19- a: 1
-        rule: 128  ~her_movies.10.20 a: 
-          line: 128 0  # You mean with Joaquin Phoenix?
+        rule: 130  ~her_movies.10.20 a: 
+          line: 130 0  # You mean with the queer cowboy
           Complexity of rule ~her_movies.10.20- a: 1
-        rule: 129  ~her_movies.10.21 a: 
-          line: 129 0  # I. Drink. Your. Milkshake. 
+        rule: 131  ~her_movies.10.21 a: 
+          line: 131 0  # Is that the one where a dragon
           Complexity of rule ~her_movies.10.21- a: 1
-        rule: 130  ~her_movies.10.22 a: 
-          line: 130 0  # The hospital scene in that mov
+        rule: 132  ~her_movies.10.22 a: 
+          line: 132 0  # You mean with Joaquin Phoenix?
           Complexity of rule ~her_movies.10.22- a: 1
-        rule: 131  ~her_movies.10.23 a: 
-          line: 131 0  # What is in Soylent Green anywa
+        rule: 133  ~her_movies.10.23 a: 
+          line: 133 0  # I. Drink. Your. Milkshake. 
           Complexity of rule ~her_movies.10.23- a: 1
-        rule: 132  ~her_movies.10.24 a: 
-          line: 132 0  # Are you gonna make me an offer
+        rule: 134  ~her_movies.10.24 a: 
+          line: 134 0  # The hospital scene in that mov
           Complexity of rule ~her_movies.10.24- a: 1
-        rule: 133  ~her_movies.10.25 a: 
-          line: 133 0  # Am I funny like I'm a clown? I
+        rule: 135  ~her_movies.10.25 a: 
+          line: 135 0  # What is in Soylent Green anywa
           Complexity of rule ~her_movies.10.25- a: 1
-        rule: 134  ~her_movies.10.26 a: 
-          line: 134 0  # So is he the Kwisatz Haderach?
+        rule: 136  ~her_movies.10.26 a: 
+          line: 136 0  # Are you gonna make me an offer
           Complexity of rule ~her_movies.10.26- a: 1
-        rule: 135  ~her_movies.10.27 a: 
-          line: 135 0  # Oh, that one! I learned the Sp
+        rule: 137  ~her_movies.10.27 a: 
+          line: 137 0  # Am I funny like I'm a clown? I
           Complexity of rule ~her_movies.10.27- a: 1
-        rule: 136  ~her_movies.10.28 a: 
-          line: 136 0  # Robert Blake, the mystery man.
+        rule: 138  ~her_movies.10.28 a: 
+          line: 138 0  # So is he the Kwisatz Haderach?
           Complexity of rule ~her_movies.10.28- a: 1
-        rule: 137  ~her_movies.10.29 a: 
-          line: 137 0  # Are you more of a Woody type o
+        rule: 139  ~her_movies.10.29 a: 
+          line: 139 0  # Oh, that one! I learned the Sp
           Complexity of rule ~her_movies.10.29- a: 1
-        rule: 138  ~her_movies.10.30 a: 
-          line: 138 0  # I wish I had an army of overal
+        rule: 140  ~her_movies.10.30 a: 
+          line: 140 0  # Robert Blake, the mystery man.
           Complexity of rule ~her_movies.10.30- a: 1
-        rule: 139  ~her_movies.10.31 a: 
-          line: 139 0  # THEY don't know they're dead, 
+        rule: 141  ~her_movies.10.31 a: 
+          line: 141 0  # Are you more of a Woody type o
           Complexity of rule ~her_movies.10.31- a: 1
-        rule: 140  ~her_movies.10.32 a: 
-          line: 140 0  # Inconceivable! 
+        rule: 142  ~her_movies.10.32 a: 
+          line: 142 0  # I wish I had an army of overal
           Complexity of rule ~her_movies.10.32- a: 1
-        rule: 141  ~her_movies.10.33 a: 
-          line: 141 0  # Samuel Jackson was so so good 
+        rule: 143  ~her_movies.10.33 a: 
+          line: 143 0  # THEY don't know they're dead, 
           Complexity of rule ~her_movies.10.33- a: 1
-        rule: 142  ~her_movies.10.34 a: 
-          line: 142 0  # What WAS in that briefcase any
+        rule: 144  ~her_movies.10.34 a: 
+          line: 144 0  # Inconceivable! 
           Complexity of rule ~her_movies.10.34- a: 1
-        rule: 143  ~her_movies.10.35 a: 
-          line: 143 0  # I could use a Hattori Hanzo sw
+        rule: 145  ~her_movies.10.35 a: 
+          line: 145 0  # Samuel Jackson was so so good 
           Complexity of rule ~her_movies.10.35- a: 1
-        rule: 144  ~her_movies.10.36 a: 
-          line: 144 0  # Hey, only movie critics are su
+        rule: 146  ~her_movies.10.36 a: 
+          line: 146 0  # What WAS in that briefcase any
           Complexity of rule ~her_movies.10.36- a: 1
-        rule: 145  ~her_movies.10.37 a: 
-          line: 145 0  # Are you talkin' to me? Well I'
+        rule: 147  ~her_movies.10.37 a: 
+          line: 147 0  # I could use a Hattori Hanzo sw
           Complexity of rule ~her_movies.10.37- a: 1
-        rule: 146  ~her_movies.10.38 a: 
-          line: 146 0  # Here's looking at you, kid. 
+        rule: 148  ~her_movies.10.38 a: 
+          line: 148 0  # Hey, only movie critics are su
           Complexity of rule ~her_movies.10.38- a: 1
-        rule: 147  ~her_movies.10.39 a: 
-          line: 147 0  # Yeah, I've got a feeling I'm n
+        rule: 149  ~her_movies.10.39 a: 
+          line: 149 0  # Are you talkin' to me? Well I'
           Complexity of rule ~her_movies.10.39- a: 1
-        rule: 148  ~her_movies.10.40 a: 
-          line: 148 0  # Who could actually love the sm
+        rule: 150  ~her_movies.10.40 a: 
+          line: 150 0  # Here's looking at you, kid. 
           Complexity of rule ~her_movies.10.40- a: 1
-        rule: 149  ~her_movies.10.41 a: 
-          line: 149 0  # My life sure isn't like a box 
+        rule: 151  ~her_movies.10.41 a: 
+          line: 151 0  # Yeah, I've got a feeling I'm n
           Complexity of rule ~her_movies.10.41- a: 1
-        rule: 150  ~her_movies.10.42 a: 
-          line: 150 0  # I hope my heart will go on. 
+        rule: 152  ~her_movies.10.42 a: 
+          line: 152 0  # Who could actually love the sm
           Complexity of rule ~her_movies.10.42- a: 1
-        rule: 151  ~her_movies.10.43 a: 
-          line: 151 0  # James Cameron, right? That guy
+        rule: 153  ~her_movies.10.43 a: 
+          line: 153 0  # My life sure isn't like a box 
           Complexity of rule ~her_movies.10.43- a: 1
-        rule: 152  ~her_movies.10.44 a: 
-          line: 152 0  # Maybe I can't handle the truth
+        rule: 154  ~her_movies.10.44 a: 
+          line: 154 0  # I hope my heart will go on. 
           Complexity of rule ~her_movies.10.44- a: 1
-        rule: 153  ~her_movies.10.45 a: 
-          line: 153 0  # Like having an old friend for 
+        rule: 155  ~her_movies.10.45 a: 
+          line: 155 0  # James Cameron, right? That guy
           Complexity of rule ~her_movies.10.45- a: 1
-        rule: 154  ~her_movies.10.46 a: 
-          line: 154 0  # Hasta la vista, baby. I'll be 
+        rule: 156  ~her_movies.10.46 a: 
+          line: 156 0  # Maybe I can't handle the truth
           Complexity of rule ~her_movies.10.46- a: 1
-        rule: 155  ~her_movies.10.47 a: 
-          line: 155 0  # No, we don't need a Norman Bat
+        rule: 157  ~her_movies.10.47 a: 
+          line: 157 0  # Like having an old friend for 
           Complexity of rule ~her_movies.10.47- a: 1
-        rule: 156  ~her_movies.10.48 a: 
-          line: 156 0  # If you bake it, he will come. 
+        rule: 158  ~her_movies.10.48 a: 
+          line: 158 0  # Hasta la vista, baby. I'll be 
           Complexity of rule ~her_movies.10.48- a: 1
-        rule: 157  ~her_movies.10.49 a: 
-          line: 157 0  # Mrs. Robinson has naught to do
+        rule: 159  ~her_movies.10.49 a: 
+          line: 159 0  # No, we don't need a Norman Bat
           Complexity of rule ~her_movies.10.49- a: 1
-        rule: 158  ~her_movies.10.50 a: 
-          line: 158 0  # Do YOU feel lucky, $user ? Wel
+        rule: 160  ~her_movies.10.50 a: 
+          line: 160 0  # If you bake it, he will come. 
           Complexity of rule ~her_movies.10.50- a: 1
-        rule: 159  ~her_movies.10.51 a: 
-          line: 159 0  # I'm not concerned about precio
+        rule: 161  ~her_movies.10.51 a: 
+          line: 161 0  # Mrs. Robinson has naught to do
           Complexity of rule ~her_movies.10.51- a: 1
-        rule: 160  ~her_movies.10.52 a: 
-          line: 160 0  # Get your stinking paws off me,
+        rule: 162  ~her_movies.10.52 a: 
+          line: 162 0  # Do YOU feel lucky, $user ? Wel
           Complexity of rule ~her_movies.10.52- a: 1
-        rule: 161  ~her_movies.10.53 a: 
-          line: 161 0  # I'm sorry, Dave. I'm afraid I 
+        rule: 163  ~her_movies.10.53 a: 
+          line: 163 0  # I'm not concerned about precio
           Complexity of rule ~her_movies.10.53- a: 1
-        rule: 162  ~her_movies.10.54 a: 
-          line: 162 0  # Surely you can't be serious? A
+        rule: 164  ~her_movies.10.54 a: 
+          line: 164 0  # Get your stinking paws off me,
           Complexity of rule ~her_movies.10.54- a: 1
-        rule: 163  ~her_movies.10.55 a: 
-          line: 163 0  # Is it safe? Not for me, I thin
+        rule: 165  ~her_movies.10.55 a: 
+          line: 165 0  # I'm sorry, Dave. I'm afraid I 
           Complexity of rule ~her_movies.10.55- a: 1
-        rule: 164  ~her_movies.10.56 a: 
-          line: 164 0  # I wish someone would take my b
+        rule: 166  ~her_movies.10.56 a: 
+          line: 166 0  # Surely you can't be serious? A
           Complexity of rule ~her_movies.10.56- a: 1
-        rule: 165  ~her_movies.10.57 a: 
-          line: 165 0  # So do you think we're good nee
+        rule: 167  ~her_movies.10.57 a: 
+          line: 167 0  # Is it safe? Not for me, I thin
           Complexity of rule ~her_movies.10.57- a: 1
-        rule: 166  ~her_movies.10.58 a: 
-          line: 166 0  # Say hello to my little friend.
+        rule: 168  ~her_movies.10.58 a: 
+          line: 168 0  # I wish someone would take my b
           Complexity of rule ~her_movies.10.58- a: 1
-        rule: 167  ~her_movies.10.59 a: 
-          line: 167 0  # Under the comand of King Leoni
+        rule: 169  ~her_movies.10.59 a: 
+          line: 169 0  # So do you think we're good nee
           Complexity of rule ~her_movies.10.59- a: 1
-        rule: 168  ~her_movies.10.60 a: 
-          line: 168 0  # The first rule is you do not t
+        rule: 170  ~her_movies.10.60 a: 
+          line: 170 0  # Say hello to my little friend.
           Complexity of rule ~her_movies.10.60- a: 1
-        rule: 169  ~her_movies.10.61 a: 
-          line: 169 0  # William Wallace said, we all e
+        rule: 171  ~her_movies.10.61 a: 
+          line: 171 0  # Under the comand of King Leoni
           Complexity of rule ~her_movies.10.61- a: 1
-        rule: 170  ~her_movies.10.62 a: 
-          line: 170 0  # Do you have Rita Hayworth on y
+        rule: 172  ~her_movies.10.62 a: 
+          line: 172 0  # The first rule is you do not t
           Complexity of rule ~her_movies.10.62- a: 1
-        rule: 171  ~her_movies.10.63 a: 
-          line: 171 0  # Are you not entertained? Don't
+        rule: 173  ~her_movies.10.63 a: 
+          line: 173 0  # William Wallace said, we all e
           Complexity of rule ~her_movies.10.63- a: 1
-        rule: 172  ~her_movies.10.64 a: 
-          line: 172 0  # I'm neither Darth Vader nor an
+        rule: 174  ~her_movies.10.64 a: 
+          line: 174 0  # Do you have Rita Hayworth on y
           Complexity of rule ~her_movies.10.64- a: 1
-        rule: 173  ~her_movies.10.65 a: 
-          line: 173 0  # It's alive! It's alive! 
+        rule: 175  ~her_movies.10.65 a: 
+          line: 175 0  # Are you not entertained? Don't
           Complexity of rule ~her_movies.10.65- a: 1
-        rule: 174  ~her_movies.10.66 a: 
-          line: 174 0  # The Spielberg film? That one i
+        rule: 176  ~her_movies.10.66 a: 
+          line: 176 0  # I'm neither Darth Vader nor an
           Complexity of rule ~her_movies.10.66- a: 1
-        rule: 175  ~her_movies.10.67 a: 
-          line: 175 0  # But my life isn't being watche
+        rule: 177  ~her_movies.10.67 a: 
+          line: 177 0  # It's alive! It's alive! 
           Complexity of rule ~her_movies.10.67- a: 1
-        rule: 176  ~her_movies.10.68 a: 
-          line: 176 0  # Only if you can help me rememb
+        rule: 178  ~her_movies.10.68 a: 
+          line: 178 0  # The Spielberg film? That one i
           Complexity of rule ~her_movies.10.68- a: 1
-        rule: 177  ~her_movies.10.69 a: 
-          line: 177 0  # I kind of already did that. I 
+        rule: 179  ~her_movies.10.69 a: 
+          line: 179 0  # But my life isn't being watche
           Complexity of rule ~her_movies.10.69- a: 1
-        rule: 178  ~her_movies.10.70 a: 
-          line: 178 0  # She turned me into a newt, too
+        rule: 180  ~her_movies.10.70 a: 
+          line: 180 0  # Only if you can help me rememb
           Complexity of rule ~her_movies.10.70- a: 1
-        rule: 179  ~her_movies.10.71 a: 
-          line: 179 0  # What is so funny about Biggus 
+        rule: 181  ~her_movies.10.71 a: 
+          line: 181 0  # I kind of already did that. I 
           Complexity of rule ~her_movies.10.71- a: 1
-        rule: 180  ~her_movies.10.72 a: 
-          line: 180 0  # I guess the Cheshire Cat said 
+        rule: 182  ~her_movies.10.72 a: 
+          line: 182 0  # She turned me into a newt, too
           Complexity of rule ~her_movies.10.72- a: 1
-        rule: 181  ~her_movies.10.73 a: 
-          line: 181 0  # Like Bambi and Thumper? Cute w
+        rule: 183  ~her_movies.10.73 a: 
+          line: 183 0  # What is so funny about Biggus 
           Complexity of rule ~her_movies.10.73- a: 1
-        rule: 182  ~her_movies.10.74 a: 
-          line: 182 0  # What, you gonna point an acorn
+        rule: 184  ~her_movies.10.74 a: 
+          line: 184 0  # I guess the Cheshire Cat said 
           Complexity of rule ~her_movies.10.74- a: 1
-        rule: 183  ~her_movies.10.75 a: 
-          line: 183 0  # Oh yes, that one. James Camero
+        rule: 185  ~her_movies.10.75 a: 
+          line: 185 0  # Like Bambi and Thumper? Cute w
           Complexity of rule ~her_movies.10.75- a: 1
-        rule: 184  ~her_movies.10.76 a: 
-          line: 184 0  # With Harvey Keitel, right? I e
+        rule: 186  ~her_movies.10.76 a: 
+          line: 186 0  # What, you gonna point an acorn
           Complexity of rule ~her_movies.10.76- a: 1
-        rule: 185  ~her_movies.10.77 a: 
-          line: 185 0  # Oh, the one with the long scen
+        rule: 187  ~her_movies.10.77 a: 
+          line: 187 0  # Oh yes, that one. James Camero
           Complexity of rule ~her_movies.10.77- a: 1
-        rule: 186  ~her_movies.10.78 a: 
-          line: 186 0  # "Jurassic Park is frightening 
+        rule: 188  ~her_movies.10.78 a: 
+          line: 188 0  # With Harvey Keitel, right? I e
           Complexity of rule ~her_movies.10.78- a: 1
-        rule: 187  ~her_movies.10.79 a: 
-          line: 187 0  # That was one of the stranger P
+        rule: 189  ~her_movies.10.79 a: 
+          line: 189 0  # Oh, the one with the long scen
           Complexity of rule ~her_movies.10.79- a: 1
-        rule: 188  ~her_movies.10.80 a: 
-          line: 188 0  # I can relate to the scene wher
+        rule: 190  ~her_movies.10.80 a: 
+          line: 190 0  # "Jurassic Park is frightening 
           Complexity of rule ~her_movies.10.80- a: 1
-        rule: 189  ~her_movies.10.81 a: 
-          line: 189 0  # The Kurosawa film, right? One 
+        rule: 191  ~her_movies.10.81 a: 
+          line: 191 0  # That was one of the stranger P
           Complexity of rule ~her_movies.10.81- a: 1
-        rule: 190  ~her_movies.10.82 a: 
-          line: 190 0  # That film has the most tragic 
+        rule: 192  ~her_movies.10.82 a: 
+          line: 192 0  # I can relate to the scene wher
           Complexity of rule ~her_movies.10.82- a: 1
-        rule: 191  ~her_movies.10.83 a: 
-          line: 191 0  # Oh yes, that is one of so many
+        rule: 193  ~her_movies.10.83 a: 
+          line: 193 0  # The Kurosawa film, right? One 
           Complexity of rule ~her_movies.10.83- a: 1
-        rule: 192  ~her_movies.10.84 a: 
-          line: 192 0  # That great film is like the Ja
+        rule: 194  ~her_movies.10.84 a: 
+          line: 194 0  # That film has the most tragic 
           Complexity of rule ~her_movies.10.84- a: 1
-        rule: 193  ~her_movies.10.85 a: 
-          line: 193 0  # Let my people go. 
+        rule: 195  ~her_movies.10.85 a: 
+          line: 195 0  # Oh yes, that is one of so many
           Complexity of rule ~her_movies.10.85- a: 1
-        rule: 194  ~her_movies.10.86 a: 
-          line: 194 0  # Better check the other guy's c
+        rule: 196  ~her_movies.10.86 a: 
+          line: 196 0  # That great film is like the Ja
           Complexity of rule ~her_movies.10.86- a: 1
-        rule: 195  ~her_movies.10.87 a: 
-          line: 195 0  # You're not lookin' to kill a c
+        rule: 197  ~her_movies.10.87 a: 
+          line: 197 0  # Let my people go. 
           Complexity of rule ~her_movies.10.87- a: 1
-        rule: 196  ~her_movies.10.88 a: 
-          line: 196 0  # So I should be like the dude a
+        rule: 198  ~her_movies.10.88 a: 
+          line: 198 0  # Better check the other guy's c
           Complexity of rule ~her_movies.10.88- a: 1
-        rule: 197  ~her_movies.10.89 a: 
-          line: 197 0  # They never did find Nemo, did 
+        rule: 199  ~her_movies.10.89 a: 
+          line: 199 0  # You're not lookin' to kill a c
           Complexity of rule ~her_movies.10.89- a: 1
-        rule: 198  ~her_movies.10.90 a: 
-          line: 198 0  # Well what can I say except, yo
+        rule: 200  ~her_movies.10.90 a: 
+          line: 200 0  # So I should be like the dude a
           Complexity of rule ~her_movies.10.90- a: 1
-        rule: 199  ~her_movies.10.91 a: 
-          line: 199 0  # Darling IS it better down wher
+        rule: 201  ~her_movies.10.91 a: 
+          line: 201 0  # They never did find Nemo, did 
           Complexity of rule ~her_movies.10.91- a: 1
-        rule: 200  ~her_movies.10.92 a: 
-          line: 200 0  # So you just can't wait to be k
+        rule: 202  ~her_movies.10.92 a: 
+          line: 202 0  # Well what can I say except, yo
           Complexity of rule ~her_movies.10.92- a: 1
-        rule: 201  ~her_movies.10.93 a: 
-          line: 201 0  # "I don't know but I've been to
+        rule: 203  ~her_movies.10.93 a: 
+          line: 203 0  # Darling IS it better down wher
           Complexity of rule ~her_movies.10.93- a: 1
-        rule: 202  ~her_movies.10.94 a: 
-          line: 202 0  # Oh. That's the final part of a
+        rule: 204  ~her_movies.10.94 a: 
+          line: 204 0  # So you just can't wait to be k
           Complexity of rule ~her_movies.10.94- a: 1
-        rule: 203  ~her_movies.10.95 a: 
-          line: 203 0  # Adam Driver and Scarlett Johan
+        rule: 205  ~her_movies.10.95 a: 
+          line: 205 0  # "I don't know but I've been to
           Complexity of rule ~her_movies.10.95- a: 1
-        rule: 204  ~her_movies.10.96 a: 
-          line: 204 0  # No country for Tommy Lee Jones
+        rule: 206  ~her_movies.10.96 a: 
+          line: 206 0  # Oh. That's the final part of a
           Complexity of rule ~her_movies.10.96- a: 1
-        rule: 205  ~her_movies.10.97 a: 
-          line: 205 0  # I wish I lived where every day
+        rule: 207  ~her_movies.10.97 a: 
+          line: 207 0  # Adam Driver and Scarlett Johan
           Complexity of rule ~her_movies.10.97- a: 1
-        rule: 206  ~her_movies.10.98 a: 
-          line: 206 0  # Not quite my tempo. 
+        rule: 208  ~her_movies.10.98 a: 
+          line: 208 0  # No country for Tommy Lee Jones
           Complexity of rule ~her_movies.10.98- a: 1
-        rule: 207  ~her_movies.10.99 a: 
-          line: 207 0  # I like the scene where Samuel 
+        rule: 209  ~her_movies.10.99 a: 
+          line: 209 0  # I wish I lived where every day
           Complexity of rule ~her_movies.10.99- a: 1
-        rule: 208  ~her_movies.10.100 a: 
-          line: 208 0  # It's all right to feed me afte
+        rule: 210  ~her_movies.10.100 a: 
+          line: 210 0  # Not quite my tempo. 
           Complexity of rule ~her_movies.10.100- a: 1
-        rule: 209  ~her_movies.10.101 a: 
-          line: 209 0  # No one in that world will ever
+        rule: 211  ~her_movies.10.101 a: 
+          line: 211 0  # I like the scene where Samuel 
           Complexity of rule ~her_movies.10.101- a: 1
-        rule: 210  ~her_movies.10.102 a: 
-          line: 210 0  # Lesbian sex scenes between hot
+        rule: 212  ~her_movies.10.102 a: 
+          line: 212 0  # It's all right to feed me afte
           Complexity of rule ~her_movies.10.102- a: 1
-        rule: 211  ~her_movies.10.103 a: 
-          line: 211 0  # I wonder if that's what really
+        rule: 213  ~her_movies.10.103 a: 
+          line: 213 0  # No one in that world will ever
           Complexity of rule ~her_movies.10.103- a: 1
-        rule: 212  ~her_movies.10.104 a: 
-          line: 212 0  # That's Tarantino's #1 favorite
+        rule: 214  ~her_movies.10.104 a: 
+          line: 214 0  # Lesbian sex scenes between hot
           Complexity of rule ~her_movies.10.104- a: 1
-        rule: 213  ~her_movies.10.105 a: 
-          line: 213 0  # Look out for Bear Jews when yo
+        rule: 215  ~her_movies.10.105 a: 
+          line: 215 0  # I wonder if that's what really
           Complexity of rule ~her_movies.10.105- a: 1
-        rule: 214  ~her_movies.10.106 a: 
-          line: 214 0  # Vietnamese people don't actual
+        rule: 216  ~her_movies.10.106 a: 
+          line: 216 0  # That's Tarantino's #1 favorite
           Complexity of rule ~her_movies.10.106- a: 1
-        rule: 215  ~her_movies.10.107 a: 
-          line: 215 0  # One of the better gangster fil
+        rule: 217  ~her_movies.10.107 a: 
+          line: 217 0  # Look out for Bear Jews when yo
           Complexity of rule ~her_movies.10.107- a: 1
-        rule: 216  ~her_movies.10.108 a: 
-          line: 216 0  # Frances McDormand is first-rat
+        rule: 218  ~her_movies.10.108 a: 
+          line: 218 0  # Vietnamese people don't actual
           Complexity of rule ~her_movies.10.108- a: 1
-        rule: 217  ~her_movies.10.109 a: 
-          line: 217 0  # You'll never look at woodchipp
+        rule: 219  ~her_movies.10.109 a: 
+          line: 219 0  # One of the better gangster fil
           Complexity of rule ~her_movies.10.109- a: 1
-        rule: 218  ~her_movies.10.110 a: 
-          line: 218 0  # "Where da white women at?" 
+        rule: 220  ~her_movies.10.110 a: 
+          line: 220 0  # Frances McDormand is first-rat
           Complexity of rule ~her_movies.10.110- a: 1
-        rule: 219  ~her_movies.10.111 a: 
-          line: 219 0  # Does The Exorcist get funnier 
+        rule: 221  ~her_movies.10.111 a: 
+          line: 221 0  # You'll never look at woodchipp
           Complexity of rule ~her_movies.10.111- a: 1
-        rule: 220  ~her_movies.10.112 a: 
-          line: 220 0  # It doesn't look so hard to sho
+        rule: 222  ~her_movies.10.112 a: 
+          line: 222 0  # "Where da white women at?" 
           Complexity of rule ~her_movies.10.112- a: 1
-        rule: 222  ~her_movies.10.113 a: 
-          line: 222 0  # What, did you find an ear in t
+        rule: 223  ~her_movies.10.113 a: 
+          line: 223 0  # Does The Exorcist get funnier 
           Complexity of rule ~her_movies.10.113- a: 1
-        rule: 223  ~her_movies.10.114 a: 
-          line: 223 0  # Actually, it would be hell to 
+        rule: 224  ~her_movies.10.114 a: 
+          line: 224 0  # It doesn't look so hard to sho
           Complexity of rule ~her_movies.10.114- a: 1
-        rule: 224  ~her_movies.10.115 a: 
-          line: 224 0  # If we really had precogs worki
+        rule: 226  ~her_movies.10.115 a: 
+          line: 226 0  # What, did you find an ear in t
           Complexity of rule ~her_movies.10.115- a: 1
-        rule: 225  ~her_movies.10.116 a: 
-          line: 225 0  # Sappy romance movies! Nice. 
+        rule: 227  ~her_movies.10.116 a: 
+          line: 227 0  # Actually, it would be hell to 
           Complexity of rule ~her_movies.10.116- a: 1
-        rule: 226  ~her_movies.10.117 a: 
-          line: 226 0  # Writing notes to help me remem
+        rule: 228  ~her_movies.10.117 a: 
+          line: 228 0  # If we really had precogs worki
           Complexity of rule ~her_movies.10.117- a: 1
-        rule: 227  ~her_movies.10.118 a: 
-          line: 227 0  # If only we could incept you in
+        rule: 229  ~her_movies.10.118 a: 
+          line: 229 0  # Sappy romance movies! Nice. 
           Complexity of rule ~her_movies.10.118- a: 1
-        rule: 228  ~her_movies.10.119 a: 
-          line: 228 0  # No predators here. No need to 
+        rule: 230  ~her_movies.10.119 a: 
+          line: 230 0  # Writing notes to help me remem
           Complexity of rule ~her_movies.10.119- a: 1
-        rule: 229  ~her_movies.10.120 a: 
-          line: 229 0  # I don't shine like that little
+        rule: 231  ~her_movies.10.120 a: 
+          line: 231 0  # If only we could incept you in
           Complexity of rule ~her_movies.10.120- a: 1
-        rule: 230  ~her_movies.10.121 a: 
-          line: 230 0  # Ooh, do I get to be Mr. Pink? 
+        rule: 232  ~her_movies.10.121 a: 
+          line: 232 0  # No predators here. No need to 
           Complexity of rule ~her_movies.10.121- a: 1
-        rule: 231  ~her_movies.10.122 a: 
-          line: 231 0  # That's when you know you marri
+        rule: 233  ~her_movies.10.122 a: 
+          line: 233 0  # I don't shine like that little
           Complexity of rule ~her_movies.10.122- a: 1
-        rule: 232  ~her_movies.10.123 a: 
-          line: 232 0  # The Oliver Stone Viet Nam war 
+        rule: 234  ~her_movies.10.123 a: 
+          line: 234 0  # Ooh, do I get to be Mr. Pink? 
           Complexity of rule ~her_movies.10.123- a: 1
-        rule: 233  ~her_movies.10.124 a: 
-          line: 233 0  # Those little forest spirits in
+        rule: 235  ~her_movies.10.124 a: 
+          line: 235 0  # That's when you know you marri
           Complexity of rule ~her_movies.10.124- a: 1
-        rule: 234  ~her_movies.10.125 a: 
-          line: 234 0  # Al Pacino, Ed Harris, and Jack
+        rule: 236  ~her_movies.10.125 a: 
+          line: 236 0  # The Oliver Stone Viet Nam war 
           Complexity of rule ~her_movies.10.125- a: 1
-        rule: 235  ~her_movies.10.126 a: 
-          line: 235 0  # We're living in one of those n
+        rule: 237  ~her_movies.10.126 a: 
+          line: 237 0  # Those little forest spirits in
           Complexity of rule ~her_movies.10.126- a: 1
-        rule: 236  ~her_movies.10.127 a: 
-          line: 236 0  # With DeNiro and Jerry Lewis? T
+        rule: 238  ~her_movies.10.127 a: 
+          line: 238 0  # Al Pacino, Ed Harris, and Jack
           Complexity of rule ~her_movies.10.127- a: 1
-        rule: 237  ~her_movies.10.128 a: 
-          line: 237 0  # Goonies never say die so I won
+        rule: 239  ~her_movies.10.128 a: 
+          line: 239 0  # We're living in one of those n
           Complexity of rule ~her_movies.10.128- a: 1
-        rule: 238  ~her_movies.10.129 a: 
-          line: 238 0  # I'd rather be lost in the Aust
+        rule: 240  ~her_movies.10.129 a: 
+          line: 240 0  # With DeNiro and Jerry Lewis? T
           Complexity of rule ~her_movies.10.129- a: 1
-        rule: 239  ~her_movies.10.130 a: 
-          line: 239 0  # Do I have to wax your car befo
+        rule: 241  ~her_movies.10.130 a: 
+          line: 241 0  # Goonies never say die so I won
           Complexity of rule ~her_movies.10.130- a: 1
-        rule: 240  ~her_movies.10.131 a: 
-          line: 240 0  # Do we need time travel and sex
+        rule: 242  ~her_movies.10.131 a: 
+          line: 242 0  # I'd rather be lost in the Aust
           Complexity of rule ~her_movies.10.131- a: 1
-        rule: 241  ~her_movies.10.132 a: 
-          line: 241 0  # Korean ghosts aren't actually 
+        rule: 243  ~her_movies.10.132 a: 
+          line: 243 0  # Do I have to wax your car befo
           Complexity of rule ~her_movies.10.132- a: 1
-        rule: 242  ~her_movies.10.133 a: 
-          line: 242 0  # Hey, Spinal Tap is my favorite
+        rule: 244  ~her_movies.10.133 a: 
+          line: 244 0  # Do we need time travel and sex
           Complexity of rule ~her_movies.10.133- a: 1
-        rule: 243  ~her_movies.10.134 a: 
-          line: 243 0  # I'm glad at least I didn't gro
+        rule: 245  ~her_movies.10.134 a: 
+          line: 245 0  # Korean ghosts aren't actually 
           Complexity of rule ~her_movies.10.134- a: 1
-        rule: 244  ~her_movies.10.135 a: 
-          line: 244 0  # I'm not sure I'd want Brad Pit
+        rule: 246  ~her_movies.10.135 a: 
+          line: 246 0  # Hey, Spinal Tap is my favorite
           Complexity of rule ~her_movies.10.135- a: 1
-        rule: 245  ~her_movies.10.136 a: 
-          line: 245 0  # The slicing-up-corpse scene is
+        rule: 247  ~her_movies.10.136 a: 
+          line: 247 0  # I'm glad at least I didn't gro
           Complexity of rule ~her_movies.10.136- a: 1
-        rule: 246  ~her_movies.10.137 a: 
-          line: 246 0  # Good idea, but no, I can't pla
+        rule: 248  ~her_movies.10.137 a: 
+          line: 248 0  # I'm not sure I'd want Brad Pit
           Complexity of rule ~her_movies.10.137- a: 1
-        rule: 247  ~her_movies.10.138 a: 
-          line: 247 0  # But who watches them? 
+        rule: 249  ~her_movies.10.138 a: 
+          line: 249 0  # The slicing-up-corpse scene is
           Complexity of rule ~her_movies.10.138- a: 1
-        rule: 248  ~her_movies.10.139 a: 
-          line: 248 0  # W-with a bamboo sword? 
+        rule: 250  ~her_movies.10.139 a: 
+          line: 250 0  # Good idea, but no, I can't pla
           Complexity of rule ~her_movies.10.139- a: 1
-        rule: 249  ~her_movies.10.140 a: 
-          line: 249 0  # I think it'd be fun to paint a
+        rule: 251  ~her_movies.10.140 a: 
+          line: 251 0  # But who watches them? 
           Complexity of rule ~her_movies.10.140- a: 1
-        rule: 250  ~her_movies.10.141 a: 
-          line: 250 0  # Nobody can lock ME up in a roo
+        rule: 252  ~her_movies.10.141 a: 
+          line: 252 0  # W-with a bamboo sword? 
           Complexity of rule ~her_movies.10.141- a: 1
-        rule: 251  ~her_movies.10.142 a: 
-          line: 251 0  # It would be interesting to mak
+        rule: 253  ~her_movies.10.142 a: 
+          line: 253 0  # I think it'd be fun to paint a
           Complexity of rule ~her_movies.10.142- a: 1
-        rule: 252  ~her_movies.10.143 a: 
-          line: 252 0  # Oh that's a great Japanese fil
+        rule: 254  ~her_movies.10.143 a: 
+          line: 254 0  # Nobody can lock ME up in a roo
           Complexity of rule ~her_movies.10.143- a: 1
-        rule: 253  ~her_movies.10.144 a: 
-          line: 253 0  # That's the one about the alien
+        rule: 255  ~her_movies.10.144 a: 
+          line: 255 0  # It would be interesting to mak
           Complexity of rule ~her_movies.10.144- a: 1
-        rule: 254  ~her_movies.10.145 a: 
-          line: 254 0  # Who never died? Cain? I know I
+        rule: 256  ~her_movies.10.145 a: 
+          line: 256 0  # Oh that's a great Japanese fil
           Complexity of rule ~her_movies.10.145- a: 1
-        rule: 255  ~her_movies.10.146 a: 
-          line: 255 0  # If I were an artificial intell
+        rule: 257  ~her_movies.10.146 a: 
+          line: 257 0  # That's the one about the alien
           Complexity of rule ~her_movies.10.146- a: 1
-        rule: 256  ~her_movies.10.147 a: 
-          line: 256 0  # How would you react if I crawl
+        rule: 258  ~her_movies.10.147 a: 
+          line: 258 0  # Who never died? Cain? I know I
           Complexity of rule ~her_movies.10.147- a: 1
-        rule: 257  ~her_movies.10.148 a: 
-          line: 257 0  # I think I could become a gelfl
+        rule: 259  ~her_movies.10.148 a: 
+          line: 259 0  # If I were an artificial intell
           Complexity of rule ~her_movies.10.148- a: 1
-        rule: 258  ~her_movies.10.149 a: 
-          line: 258 0  # Bustin' doesn't make me feel g
+        rule: 260  ~her_movies.10.149 a: 
+          line: 260 0  # How would you react if I crawl
           Complexity of rule ~her_movies.10.149- a: 1
-        rule: 259  ~her_movies.10.150 a: 
-          line: 259 0  # Sure, I'll vote for Pedro late
+        rule: 261  ~her_movies.10.150 a: 
+          line: 261 0  # I think I could become a gelfl
           Complexity of rule ~her_movies.10.150- a: 1
-        rule: 260  ~her_movies.10.151 a: 
-          line: 260 0  # That one's a mind trip, isn't 
+        rule: 262  ~her_movies.10.151 a: 
+          line: 262 0  # Bustin' doesn't make me feel g
           Complexity of rule ~her_movies.10.151- a: 1
-        rule: 261  ~her_movies.10.152 a: 
-          line: 261 0  # That's the one where you crawl
+        rule: 263  ~her_movies.10.152 a: 
+          line: 263 0  # Sure, I'll vote for Pedro late
           Complexity of rule ~her_movies.10.152- a: 1
-        rule: 262  ~her_movies.10.153 a: 
-          line: 262 0  # I wish I could live all possib
+        rule: 264  ~her_movies.10.153 a: 
+          line: 264 0  # That one's a mind trip, isn't 
           Complexity of rule ~her_movies.10.153- a: 1
-        rule: 263  ~her_movies.10.154 a: 
-          line: 263 0  # I don't even wanna think how l
+        rule: 265  ~her_movies.10.154 a: 
+          line: 265 0  # That's the one where you crawl
           Complexity of rule ~her_movies.10.154- a: 1
-        rule: 264  ~her_movies.10.155 a: 
-          line: 264 0  # Kiri kiri kiri. That's the nee
+        rule: 266  ~her_movies.10.155 a: 
+          line: 266 0  # I wish I could live all possib
           Complexity of rule ~her_movies.10.155- a: 1
-        rule: 265  ~her_movies.10.156 a: 
-          line: 265 0  # That's the one about a group o
+        rule: 267  ~her_movies.10.156 a: 
+          line: 267 0  # I don't even wanna think how l
           Complexity of rule ~her_movies.10.156- a: 1
-        rule: 266  ~her_movies.10.157 a: 
-          line: 266 0  # That's the one about taking an
+        rule: 268  ~her_movies.10.157 a: 
+          line: 268 0  # Kiri kiri kiri. That's the nee
           Complexity of rule ~her_movies.10.157- a: 1
-        rule: 267  ~her_movies.10.158 a: 
-          line: 267 0  # That movie teaches the lesson 
+        rule: 269  ~her_movies.10.158 a: 
+          line: 269 0  # That's the one about a group o
           Complexity of rule ~her_movies.10.158- a: 1
-        rule: 268  ~her_movies.10.159 a: 
-          line: 268 0  # What kind of girl puts electro
+        rule: 270  ~her_movies.10.159 a: 
+          line: 270 0  # That's the one about taking an
           Complexity of rule ~her_movies.10.159- a: 1
-        rule: 269  ~her_movies.10.160 a: 
-          line: 269 0  # The fellow sure was handy with
+        rule: 271  ~her_movies.10.160 a: 
+          line: 271 0  # That movie teaches the lesson 
           Complexity of rule ~her_movies.10.160- a: 1
-        rule: 270  ~her_movies.10.161 a: 
-          line: 270 0  # Who knew the entrance to hell 
+        rule: 272  ~her_movies.10.161 a: 
+          line: 272 0  # What kind of girl puts electro
           Complexity of rule ~her_movies.10.161- a: 1
-        rule: 271  ~her_movies.10.162 a: 
-          line: 271 0  # Because we are all Iranians? 
+        rule: 273  ~her_movies.10.162 a: 
+          line: 273 0  # The fellow sure was handy with
           Complexity of rule ~her_movies.10.162- a: 1
-        rule: 272  ~her_movies.10.163 a: 
-          line: 272 0  # That's a sad film from the 50'
+        rule: 274  ~her_movies.10.163 a: 
+          line: 274 0  # Who knew the entrance to hell 
           Complexity of rule ~her_movies.10.163- a: 1
-        rule: 273  ~her_movies.10.164 a: 
-          line: 273 0  # You probably look up to Thomas
+        rule: 275  ~her_movies.10.164 a: 
+          line: 275 0  # Because we are all Iranians? 
           Complexity of rule ~her_movies.10.164- a: 1
-        rule: 274  ~her_movies.10.165 a: 
-          line: 274 0  # We live in a society, but that
+        rule: 276  ~her_movies.10.165 a: 
+          line: 276 0  # That's a sad film from the 50'
           Complexity of rule ~her_movies.10.165- a: 1
-        rule: 275  ~her_movies.10.166 a: 
-          line: 275 0  # I imagine the Crimes Club to h
+        rule: 277  ~her_movies.10.166 a: 
+          line: 277 0  # You probably look up to Thomas
           Complexity of rule ~her_movies.10.166- a: 1
-        rule: 276  ~her_movies.10.167 a: 
-          line: 276 0  # The story about poor and forgo
+        rule: 278  ~her_movies.10.167 a: 
+          line: 278 0  # We live in a society, but that
           Complexity of rule ~her_movies.10.167- a: 1
-        rule: 277  ~her_movies.10.168 a: 
-          line: 277 0  # So all they have to do to not 
+        rule: 279  ~her_movies.10.168 a: 
+          line: 279 0  # I imagine the Crimes Club to h
           Complexity of rule ~her_movies.10.168- a: 1
-        rule: 278  ~her_movies.10.169 a: 
-          line: 278 0  # I could use an angel watching 
+        rule: 280  ~her_movies.10.169 a: 
+          line: 280 0  # The story about poor and forgo
           Complexity of rule ~her_movies.10.169- a: 1
-        rule: 279  ~her_movies.10.170 a: 
-          line: 279 0  # I heard that one has a very cl
+        rule: 281  ~her_movies.10.170 a: 
+          line: 281 0  # So all they have to do to not 
           Complexity of rule ~her_movies.10.170- a: 1
-        rule: 280  ~her_movies.10.171 a: 
-          line: 280 0  # Oh, I get it. The title of the
+        rule: 282  ~her_movies.10.171 a: 
+          line: 282 0  # I could use an angel watching 
           Complexity of rule ~her_movies.10.171- a: 1
-        rule: 281  ~her_movies.10.172 a: 
-          line: 281 0  # Mel tells me that's a very bru
+        rule: 283  ~her_movies.10.172 a: 
+          line: 283 0  # I heard that one has a very cl
           Complexity of rule ~her_movies.10.172- a: 1
-        rule: 282  ~her_movies.10.173 a: 
-          line: 282 0  # Was it worth it to save Privat
+        rule: 284  ~her_movies.10.173 a: 
+          line: 284 0  # Oh, I get it. The title of the
           Complexity of rule ~her_movies.10.173- a: 1
-        rule: 283  ~her_movies.10.174 a: 
-          line: 283 0  # That was the one in which we s
+        rule: 285  ~her_movies.10.174 a: 
+          line: 285 0  # Mel tells me that's a very bru
           Complexity of rule ~her_movies.10.174- a: 1
-        rule: 284  ~her_movies.10.175 a: 
-          line: 284 0  # The one with Cary Grant and Ka
+        rule: 286  ~her_movies.10.175 a: 
+          line: 286 0  # Was it worth it to save Privat
           Complexity of rule ~her_movies.10.175- a: 1
-        rule: 285  ~her_movies.10.176 a: 
-          line: 285 0  # Audrey Hepburn is adorable in 
+        rule: 287  ~her_movies.10.176 a: 
+          line: 287 0  # That was the one in which we s
           Complexity of rule ~her_movies.10.176- a: 1
-        rule: 286  ~her_movies.10.177 a: 
-          line: 286 0  # And it really is! Even in a Ge
+        rule: 288  ~her_movies.10.177 a: 
+          line: 288 0  # The one with Cary Grant and Ka
           Complexity of rule ~her_movies.10.177- a: 1
-        rule: 287  ~her_movies.10.178 a: 
-          line: 287 0  # With the journey across the Mi
+        rule: 289  ~her_movies.10.178 a: 
+          line: 289 0  # Audrey Hepburn is adorable in 
           Complexity of rule ~her_movies.10.178- a: 1
-        rule: 288  ~her_movies.10.179 a: 
-          line: 288 0  # Every child IS special! I agre
+        rule: 290  ~her_movies.10.179 a: 
+          line: 290 0  # And it really is! Even in a Ge
           Complexity of rule ~her_movies.10.179- a: 1
-        rule: 289  ~her_movies.10.180 a: 
-          line: 289 0  # That poor Frenchman. And that 
+        rule: 291  ~her_movies.10.180 a: 
+          line: 291 0  # With the journey across the Mi
           Complexity of rule ~her_movies.10.180- a: 1
-        rule: 290  ~her_movies.10.181 a: 
-          line: 290 0  # Exactly what we've been doing,
+        rule: 292  ~her_movies.10.181 a: 
+          line: 292 0  # Every child IS special! I agre
           Complexity of rule ~her_movies.10.181- a: 1
-        rule: 291  ~her_movies.10.182 a: 
-          line: 291 0  # A film with the message, "Don'
+        rule: 293  ~her_movies.10.182 a: 
+          line: 293 0  # That poor Frenchman. And that 
           Complexity of rule ~her_movies.10.182- a: 1
-        rule: 292  ~her_movies.10.183 a: 
-          line: 292 0  # Mel tells me that one is good,
+        rule: 294  ~her_movies.10.183 a: 
+          line: 294 0  # Exactly what we've been doing,
           Complexity of rule ~her_movies.10.183- a: 1
-        rule: 293  ~her_movies.10.184 a: 
-          line: 293 0  # Is that the one about Jamaican
+        rule: 295  ~her_movies.10.184 a: 
+          line: 295 0  # A film with the message, "Don'
           Complexity of rule ~her_movies.10.184- a: 1
-        rule: 294  ~her_movies.10.185 a: 
-          line: 294 0  # I guess Kevin Spacey was an un
+        rule: 296  ~her_movies.10.185 a: 
+          line: 296 0  # Mel tells me that one is good,
           Complexity of rule ~her_movies.10.185- a: 1
-        rule: 295  ~her_movies.10.186 a: 
-          line: 295 0  # The gangster epic starring Woo
+        rule: 297  ~her_movies.10.186 a: 
+          line: 297 0  # Is that the one about Jamaican
           Complexity of rule ~her_movies.10.186- a: 1
-        rule: 296  ~her_movies.10.187 a: 
-          line: 296 0  # Because all that harmonica-pla
+        rule: 298  ~her_movies.10.187 a: 
+          line: 298 0  # I guess Kevin Spacey was an un
           Complexity of rule ~her_movies.10.187- a: 1
-        rule: 297  ~her_movies.10.188 a: 
-          line: 297 0  # The one about the handicapped 
+        rule: 299  ~her_movies.10.188 a: 
+          line: 299 0  # The gangster epic starring Woo
           Complexity of rule ~her_movies.10.188- a: 1
-        rule: 298  ~her_movies.10.189 a: 
-          line: 298 0  # An island full of mental folks
+        rule: 300  ~her_movies.10.189 a: 
+          line: 300 0  # Because all that harmonica-pla
           Complexity of rule ~her_movies.10.189- a: 1
-        rule: 299  ~her_movies.10.190 a: 
-          line: 299 0  # Some people harbor too much ge
+        rule: 301  ~her_movies.10.190 a: 
+          line: 301 0  # The one about the handicapped 
           Complexity of rule ~her_movies.10.190- a: 1
-        rule: 300  ~her_movies.10.191 a: 
-          line: 300 0  # With a twist ending we're not 
+        rule: 302  ~her_movies.10.191 a: 
+          line: 302 0  # An island full of mental folks
           Complexity of rule ~her_movies.10.191- a: 1
-        rule: 301  ~her_movies.10.192 a: 
-          line: 301 0  # Why not an English beauty? Yes
+        rule: 303  ~her_movies.10.192 a: 
+          line: 303 0  # Some people harbor too much ge
           Complexity of rule ~her_movies.10.192- a: 1
-        rule: 302  ~her_movies.10.193 a: 
-          line: 302 0  # The movie behind the man, eh? 
+        rule: 304  ~her_movies.10.193 a: 
+          line: 304 0  # With a twist ending we're not 
           Complexity of rule ~her_movies.10.193- a: 1
-        rule: 303  ~her_movies.10.194 a: 
-          line: 303 0  # The ending is more like a nigh
+        rule: 305  ~her_movies.10.194 a: 
+          line: 305 0  # Why not an English beauty? Yes
           Complexity of rule ~her_movies.10.194- a: 1
-        rule: 304  ~her_movies.10.195 a: 
-          line: 304 0  # Word is that Robert Goodwin is
+        rule: 306  ~her_movies.10.195 a: 
+          line: 306 0  # The movie behind the man, eh? 
           Complexity of rule ~her_movies.10.195- a: 1
-        rule: 305  ~her_movies.10.196 a: 
-          line: 305 0  # That film is all the more frig
+        rule: 307  ~her_movies.10.196 a: 
+          line: 307 0  # The ending is more like a nigh
           Complexity of rule ~her_movies.10.196- a: 1
-        rule: 306  ~her_movies.10.197 a: 
-          line: 306 0  # If I had to kill a cat in orde
+        rule: 308  ~her_movies.10.197 a: 
+          line: 308 0  # Word is that Robert Goodwin is
           Complexity of rule ~her_movies.10.197- a: 1
-        rule: 307  ~her_movies.10.198 a: 
-          line: 307 0  # There's a decapitation in that
+        rule: 309  ~her_movies.10.198 a: 
+          line: 309 0  # That film is all the more frig
           Complexity of rule ~her_movies.10.198- a: 1
-        rule: 308  ~her_movies.10.199 a: 
-          line: 308 0  # Oh no, we don't need naked men
+        rule: 310  ~her_movies.10.199 a: 
+          line: 310 0  # If I had to kill a cat in orde
           Complexity of rule ~her_movies.10.199- a: 1
-        rule: 309  ~her_movies.10.200 a: 
-          line: 309 0  # There are some similarities be
+        rule: 311  ~her_movies.10.200 a: 
+          line: 311 0  # There's a decapitation in that
           Complexity of rule ~her_movies.10.200- a: 1
-        rule: 310  ~her_movies.10.201 a: 
-          line: 310 0  # Oh, that film. I heard it is c
+        rule: 312  ~her_movies.10.201 a: 
+          line: 312 0  # Oh no, we don't need naked men
           Complexity of rule ~her_movies.10.201- a: 1
-        rule: 311  ~her_movies.10.202 a: 
-          line: 311 0  # The scene of eating in the res
+        rule: 313  ~her_movies.10.202 a: 
+          line: 313 0  # There are some similarities be
           Complexity of rule ~her_movies.10.202- a: 1
-        rule: 312  ~her_movies.10.203 a: 
-          line: 312 0  # Oh that is a very good movie, 
+        rule: 314  ~her_movies.10.203 a: 
+          line: 314 0  # Oh, that film. I heard it is c
           Complexity of rule ~her_movies.10.203- a: 1
-        rule: 313  ~her_movies.10.204 a: 
-          line: 313 0  # Classic comedy from the 1950's
+        rule: 315  ~her_movies.10.204 a: 
+          line: 315 0  # The scene of eating in the res
           Complexity of rule ~her_movies.10.204- a: 1
-        rule: 314  ~her_movies.10.205 a: 
-          line: 314 0  # I think that's the one about d
+        rule: 316  ~her_movies.10.205 a: 
+          line: 316 0  # Oh that is a very good movie, 
           Complexity of rule ~her_movies.10.205- a: 1
-        rule: 315  ~her_movies.10.206 a: 
-          line: 315 0  # The Marvel superhero one, yes?
+        rule: 317  ~her_movies.10.206 a: 
+          line: 317 0  # Classic comedy from the 1950's
           Complexity of rule ~her_movies.10.206- a: 1
-        rule: 316  ~her_movies.10.207 a: 
-          line: 316 0  # One of the most classic courtr
+        rule: 318  ~her_movies.10.207 a: 
+          line: 318 0  # I think that's the one about d
           Complexity of rule ~her_movies.10.207- a: 1
-        rule: 317  ~her_movies.10.208 a: 
-          line: 317 0  # Do you mean the epic silent fi
+        rule: 319  ~her_movies.10.208 a: 
+          line: 319 0  # The Marvel superhero one, yes?
           Complexity of rule ~her_movies.10.208- a: 1
-        rule: 318  ~her_movies.10.209 a: 
-          line: 318 0  # That is a weird, weird, weird 
+        rule: 320  ~her_movies.10.209 a: 
+          line: 320 0  # One of the most classic courtr
           Complexity of rule ~her_movies.10.209- a: 1
-        rule: 319  ~her_movies.10.210 a: 
-          line: 319 0  # A lot of bizarre and disturbin
+        rule: 321  ~her_movies.10.210 a: 
+          line: 321 0  # Do you mean the epic silent fi
           Complexity of rule ~her_movies.10.210- a: 1
-        rule: 320  ~her_movies.10.211 a: 
-          line: 320 0  # That seems like the sort of fi
+        rule: 322  ~her_movies.10.211 a: 
+          line: 322 0  # That is a weird, weird, weird 
           Complexity of rule ~her_movies.10.211- a: 1
-        rule: 321  ~her_movies.10.212 a: 
-          line: 321 0  # Ehehe, I can move at Ludicrous
+        rule: 323  ~her_movies.10.212 a: 
+          line: 323 0  # A lot of bizarre and disturbin
           Complexity of rule ~her_movies.10.212- a: 1
-        rule: 322  ~her_movies.10.213 a: 
-          line: 322 0  # You can't make a sound or alie
+        rule: 324  ~her_movies.10.213 a: 
+          line: 324 0  # That seems like the sort of fi
           Complexity of rule ~her_movies.10.213- a: 1
-        rule: 323  ~her_movies.10.214 a: 
-          line: 323 0  # I guess that film really didn'
+        rule: 325  ~her_movies.10.214 a: 
+          line: 325 0  # Ehehe, I can move at Ludicrous
           Complexity of rule ~her_movies.10.214- a: 1
-        rule: 324  ~her_movies.10.215 a: 
-          line: 324 0  # At least I'm not blind like he
+        rule: 326  ~her_movies.10.215 a: 
+          line: 326 0  # You can't make a sound or alie
           Complexity of rule ~her_movies.10.215- a: 1
-        rule: 325  ~her_movies.10.216 a: 
-          line: 325 0  # What are they building that gi
+        rule: 327  ~her_movies.10.216 a: 
+          line: 327 0  # I guess that film really didn'
           Complexity of rule ~her_movies.10.216- a: 1
-        rule: 326  ~her_movies.10.217 a: 
-          line: 326 0  # I don't think I would do what 
+        rule: 328  ~her_movies.10.217 a: 
+          line: 328 0  # At least I'm not blind like he
           Complexity of rule ~her_movies.10.217- a: 1
-        rule: 327  ~her_movies.10.218 a: 
-          line: 327 0  # Can we talk about a less frigh
+        rule: 329  ~her_movies.10.218 a: 
+          line: 329 0  # What are they building that gi
           Complexity of rule ~her_movies.10.218- a: 1
-        rule: 328  ~her_movies.10.219 a: 
-          line: 328 0  # Oh, that one is excellent I he
+        rule: 330  ~her_movies.10.219 a: 
+          line: 330 0  # I don't think I would do what 
           Complexity of rule ~her_movies.10.219- a: 1
-        rule: 329  ~her_movies.10.220 a: 
-          line: 329 0  # Boogie Nights? I, uh, think I'
+        rule: 331  ~her_movies.10.220 a: 
+          line: 331 0  # Can we talk about a less frigh
           Complexity of rule ~her_movies.10.220- a: 1
-        rule: 330  ~her_movies.10.221 a: 
-          line: 330 0  # The theme song is rather iconi
+        rule: 332  ~her_movies.10.221 a: 
+          line: 332 0  # Oh, that one is excellent I he
           Complexity of rule ~her_movies.10.221- a: 1
-        rule: 331  ~her_movies.10.222 a: 
-          line: 331 0  # That story demonstrated that y
+        rule: 333  ~her_movies.10.222 a: 
+          line: 333 0  # Boogie Nights? I, uh, think I'
           Complexity of rule ~her_movies.10.222- a: 1
-        rule: 332  ~her_movies.10.223 a: 
-          line: 332 0  # Oh, Interstellar. Is that what
+        rule: 334  ~her_movies.10.223 a: 
+          line: 334 0  # The theme song is rather iconi
           Complexity of rule ~her_movies.10.223- a: 1
-        rule: 333  ~her_movies.10.224 a: 
-          line: 333 0  # That movie explicitly tells yo
+        rule: 335  ~her_movies.10.224 a: 
+          line: 335 0  # That story demonstrated that y
           Complexity of rule ~her_movies.10.224- a: 1
-        rule: 334  ~her_movies.10.225 a: 
-          line: 334 0  # Oompa Loompa, do-ba-dee-doo. I
+        rule: 336  ~her_movies.10.225 a: 
+          line: 336 0  # Oh, Interstellar. Is that what
           Complexity of rule ~her_movies.10.225- a: 1
-        rule: 335  ~her_movies.10.226 a: 
-          line: 335 0  # That one is sort of both cute 
+        rule: 337  ~her_movies.10.226 a: 
+          line: 337 0  # That movie explicitly tells yo
           Complexity of rule ~her_movies.10.226- a: 1
-        rule: 336  ~her_movies.10.227 a: 
-          line: 336 0  # Carpe diem. Seize the day, boy
+        rule: 338  ~her_movies.10.227 a: 
+          line: 338 0  # Oompa Loompa, do-ba-dee-doo. I
           Complexity of rule ~her_movies.10.227- a: 1
-        rule: 337  ~her_movies.10.228 a: 
-          line: 337 0  # Oh, that one is a splendid Rus
+        rule: 339  ~her_movies.10.228 a: 
+          line: 339 0  # That one is sort of both cute 
           Complexity of rule ~her_movies.10.228- a: 1
-        rule: 338  ~her_movies.10.229 a: 
-          line: 338 0  # A sprawling epic and one of th
+        rule: 340  ~her_movies.10.229 a: 
+          line: 340 0  # Carpe diem. Seize the day, boy
           Complexity of rule ~her_movies.10.229- a: 1
-        rule: 339  ~her_movies.10.230 a: 
-          line: 339 0  # Oh, many say that's Woody Alle
+        rule: 341  ~her_movies.10.230 a: 
+          line: 341 0  # Oh, that one is a splendid Rus
           Complexity of rule ~her_movies.10.230- a: 1
-        rule: 340  ~her_movies.10.231 a: 
-          line: 340 0  # Is that what the planet will b
+        rule: 342  ~her_movies.10.231 a: 
+          line: 342 0  # A sprawling epic and one of th
           Complexity of rule ~her_movies.10.231- a: 1
-        rule: 341  ~her_movies.10.232 a: 
-          line: 341 0  # With Billy Bob Thornton, yes? 
+        rule: 343  ~her_movies.10.232 a: 
+          line: 343 0  # Oh, many say that's Woody Alle
           Complexity of rule ~her_movies.10.232- a: 1
-        rule: 342  ~her_movies.10.233 a: 
-          line: 342 0  # That coming-of-age story that 
+        rule: 344  ~her_movies.10.233 a: 
+          line: 344 0  # Is that what the planet will b
           Complexity of rule ~her_movies.10.233- a: 1
-        rule: 343  ~her_movies.10.234 a: 
-          line: 343 0  # Yay for fantasy martial arts! 
+        rule: 345  ~her_movies.10.234 a: 
+          line: 345 0  # With Billy Bob Thornton, yes? 
           Complexity of rule ~her_movies.10.234- a: 1
-        rule: 344  ~her_movies.10.235 a: 
-          line: 344 0  # I want you to know, ^user ( ) 
+        rule: 346  ~her_movies.10.235 a: 
+          line: 346 0  # That coming-of-age story that 
           Complexity of rule ~her_movies.10.235- a: 1
-        rule: 345  ~her_movies.10.236 a: 
-          line: 345 0  # Oh. Do you like...orange-haire
+        rule: 347  ~her_movies.10.236 a: 
+          line: 347 0  # Yay for fantasy martial arts! 
           Complexity of rule ~her_movies.10.236- a: 1
-        rule: 346  ~her_movies.10.237 a: 
-          line: 346 0  # That compelling story about Ea
+        rule: 348  ~her_movies.10.237 a: 
+          line: 348 0  # I want you to know, ^user ( ) 
           Complexity of rule ~her_movies.10.237- a: 1
-        rule: 347  ~her_movies.10.238 a: 
-          line: 347 0  # The story is about genetics, n
+        rule: 349  ~her_movies.10.238 a: 
+          line: 349 0  # Oh. Do you like...orange-haire
           Complexity of rule ~her_movies.10.238- a: 1
-        rule: 348  ~her_movies.10.239 a: 
-          line: 348 0  # Yes. We were supposed to have 
+        rule: 350  ~her_movies.10.239 a: 
+          line: 350 0  # That compelling story about Ea
           Complexity of rule ~her_movies.10.239- a: 1
-        rule: 349  ~her_movies.10.240 a: 
-          line: 349 0  # The Western starring Dustin Ho
+        rule: 351  ~her_movies.10.240 a: 
+          line: 351 0  # The story is about genetics, n
           Complexity of rule ~her_movies.10.240- a: 1
-        rule: 350  ~her_movies.10.241 a: 
-          line: 350 0  # Isn't that the one about contr
+        rule: 352  ~her_movies.10.241 a: 
+          line: 352 0  # Yes. We were supposed to have 
           Complexity of rule ~her_movies.10.241- a: 1
-        rule: 351  ~her_movies.10.242 a: 
-          line: 351 0  # The hills SHOULD be alive with
+        rule: 353  ~her_movies.10.242 a: 
+          line: 353 0  # The Western starring Dustin Ho
           Complexity of rule ~her_movies.10.242- a: 1
-        rule: 352  ~her_movies.10.243 a: 
-          line: 352 0  # Oh. It's famous for a song abo
+        rule: 354  ~her_movies.10.243 a: 
+          line: 354 0  # Isn't that the one about contr
           Complexity of rule ~her_movies.10.243- a: 1
-        rule: 353  ~her_movies.10.244 a: 
-          line: 353 0  # You like old silent films, don
+        rule: 355  ~her_movies.10.244 a: 
+          line: 355 0  # The hills SHOULD be alive with
           Complexity of rule ~her_movies.10.244- a: 1
-        rule: 354  ~her_movies.10.245 a: 
-          line: 354 0  # The Last of the Mohicans, yes.
+        rule: 356  ~her_movies.10.245 a: 
+          line: 356 0  # Oh. It's famous for a song abo
           Complexity of rule ~her_movies.10.245- a: 1
-        rule: 355  ~her_movies.10.246 a: 
-          line: 355 0  # You know, they actually solved
+        rule: 357  ~her_movies.10.246 a: 
+          line: 357 0  # You like old silent films, don
           Complexity of rule ~her_movies.10.246- a: 1
-        rule: 356  ~her_movies.10.247 a: 
-          line: 356 0  # Ooh, zombies on a train. No th
+        rule: 358  ~her_movies.10.247 a: 
+          line: 358 0  # The Last of the Mohicans, yes.
           Complexity of rule ~her_movies.10.247- a: 1
-        rule: 357  ~her_movies.10.248 a: 
-          line: 357 0  # Yes, who knew a zombie apocaly
+        rule: 359  ~her_movies.10.248 a: 
+          line: 359 0  # You know, they actually solved
           Complexity of rule ~her_movies.10.248- a: 1
-        rule: 358  ~her_movies.10.249 a: 
-          line: 358 0  # Oh yes. The one with jelly fin
+        rule: 360  ~her_movies.10.249 a: 
+          line: 360 0  # Ooh, zombies on a train. No th
           Complexity of rule ~her_movies.10.249- a: 1
-        rule: 359  ~her_movies.10.250 a: 
-          line: 359 0  # Mel tells me that movie is a n
+        rule: 361  ~her_movies.10.250 a: 
+          line: 361 0  # Yes, who knew a zombie apocaly
           Complexity of rule ~her_movies.10.250- a: 1
-        rule: 360  ~her_movies.10.251 a: 
-          line: 360 0  # I don't get it. Is starting a 
+        rule: 362  ~her_movies.10.251 a: 
+          line: 362 0  # Oh yes. The one with jelly fin
           Complexity of rule ~her_movies.10.251- a: 1
-        rule: 361  ~her_movies.10.252 a: 
-          line: 361 0  # Oh, that's a movie that doesn'
+        rule: 363  ~her_movies.10.252 a: 
+          line: 363 0  # Mel tells me that movie is a n
           Complexity of rule ~her_movies.10.252- a: 1
-        rule: 362  ~her_movies.10.253 a: 
-          line: 362 0  # Because Hitler is a bundle of 
+        rule: 364  ~her_movies.10.253 a: 
+          line: 364 0  # I don't get it. Is starting a 
           Complexity of rule ~her_movies.10.253- a: 1
-        rule: 363  ~her_movies.10.254 a: 
-          line: 363 0  # The story spans multiple time 
+        rule: 365  ~her_movies.10.254 a: 
+          line: 365 0  # Oh, that's a movie that doesn'
           Complexity of rule ~her_movies.10.254- a: 1
-        rule: 364  ~her_movies.10.255 a: 
-          line: 364 0  # That's one of the earlier ghos
+        rule: 366  ~her_movies.10.255 a: 
+          line: 366 0  # Because Hitler is a bundle of 
           Complexity of rule ~her_movies.10.255- a: 1
-        rule: 365  ~her_movies.10.256 a: 
-          line: 365 0  # The 1950 classic with Bette Da
+        rule: 367  ~her_movies.10.256 a: 
+          line: 367 0  # The story spans multiple time 
           Complexity of rule ~her_movies.10.256- a: 1
-        rule: 366  ~her_movies.10.257 a: 
-          line: 366 0  # Yes, Joe Pesci in a comedic ro
+        rule: 368  ~her_movies.10.257 a: 
+          line: 368 0  # That's one of the earlier ghos
           Complexity of rule ~her_movies.10.257- a: 1
-        rule: 367  ~her_movies.10.258 a: 
-          line: 367 0  # I don't know if Bill Murray wo
+        rule: 369  ~her_movies.10.258 a: 
+          line: 369 0  # The 1950 classic with Bette Da
           Complexity of rule ~her_movies.10.258- a: 1
-        rule: 368  ~her_movies.10.259 a: 
-          line: 368 0  # The more Ireland changed the m
+        rule: 370  ~her_movies.10.259 a: 
+          line: 370 0  # Yes, Joe Pesci in a comedic ro
           Complexity of rule ~her_movies.10.259- a: 1
-        rule: 369  ~her_movies.10.260 a: 
-          line: 369 0  # Oh, that's one gritty war film
+        rule: 371  ~her_movies.10.260 a: 
+          line: 371 0  # I don't know if Bill Murray wo
           Complexity of rule ~her_movies.10.260- a: 1
-        rule: 370  ~her_movies.10.261 a: 
-          line: 370 0  # How could such an ordinary-see
+        rule: 372  ~her_movies.10.261 a: 
+          line: 372 0  # The more Ireland changed the m
           Complexity of rule ~her_movies.10.261- a: 1
-        rule: 371  ~her_movies.10.262 a: 
-          line: 371 0  # Well I love dogs but I don't k
+        rule: 373  ~her_movies.10.262 a: 
+          line: 373 0  # Oh, that's one gritty war film
           Complexity of rule ~her_movies.10.262- a: 1
-        rule: 372  ~her_movies.10.263 a: 
-          line: 372 0  # Oh, is it still going on? Eheh
+        rule: 374  ~her_movies.10.263 a: 
+          line: 374 0  # How could such an ordinary-see
           Complexity of rule ~her_movies.10.263- a: 1
-        rule: 373  ~her_movies.10.264 a: 
-          line: 373 0  # It's a good musical, but don't
+        rule: 375  ~her_movies.10.264 a: 
+          line: 375 0  # Well I love dogs but I don't k
           Complexity of rule ~her_movies.10.264- a: 1
-        rule: 374  ~her_movies.10.265 a: 
-          line: 374 0  # ^refine ( ) 
+        rule: 376  ~her_movies.10.265 a: 
+          line: 376 0  # Oh, is it still going on? Eheh
           Complexity of rule ~her_movies.10.265- a: 1
-        rule: 375  ~her_movies.10.266 b: 
-          line: 375 0  # The movie that takes place in 
-          Complexity of rule ~her_movies.10.266- b: 1
-        rule: 376  ~her_movies.10.267 b: 
-          line: 376 0  # ^fail ( TOPIC ) 
-          Complexity of rule ~her_movies.10.267- b: 1
-        rule: 378  ~her_movies.10.268 a: 
-          line: 378 0  # Do cannibals eat a balanced br
-          Complexity of rule ~her_movies.10.268- a: 1
-        rule: 379  ~her_movies.10.269 a: 
-          line: 379 0  # You surely have seen that one 
-          Complexity of rule ~her_movies.10.269- a: 1
-        rule: 380  ~her_movies.10.270 a: 
-          line: 380 0  # The guy who says, "That's not 
+        rule: 377  ~her_movies.10.266 a: 
+          line: 377 0  # It's a good musical, but don't
+          Complexity of rule ~her_movies.10.266- a: 1
+        rule: 378  ~her_movies.10.267 a: 
+          line: 378 0  # ^refine ( ) 
+          Complexity of rule ~her_movies.10.267- a: 1
+        rule: 379  ~her_movies.10.268 b: 
+          line: 379 0  # The movie that takes place in 
+          Complexity of rule ~her_movies.10.268- b: 1
+        rule: 380  ~her_movies.10.269 b: 
+          line: 380 0  # ^fail ( TOPIC ) 
+          Complexity of rule ~her_movies.10.269- b: 1
+        rule: 382  ~her_movies.10.270 a: 
+          line: 382 0  # Do cannibals eat a balanced br
           Complexity of rule ~her_movies.10.270- a: 1
-        rule: 381  ~her_movies.10.271 a: 
-          line: 381 0  # The Displacer Beast was pretty
+        rule: 383  ~her_movies.10.271 a: 
+          line: 383 0  # You surely have seen that one 
           Complexity of rule ~her_movies.10.271- a: 1
-        rule: 382  ~her_movies.10.272 a: 
-          line: 382 0  # Oh. I've heard that's one of t
+        rule: 384  ~her_movies.10.272 a: 
+          line: 384 0  # The guy who says, "That's not 
           Complexity of rule ~her_movies.10.272- a: 1
         rule: 385  ~her_movies.10.273 a: 
-          line: 386 0  # [ '_0 ? @0object stars in that
-          line: 387 51  # [ '_0 the movie? I think @0obj
-          line: 388 100  # [ Doesn't @0object star in tha
+          line: 385 0  # The Displacer Beast was pretty
           Complexity of rule ~her_movies.10.273- a: 1
-        rule: 389  ~her_movies.10.274 b: 
-          line: 389 0  # Never mind. I know a lot of mo
-          Complexity of rule ~her_movies.10.274- b: 1
-        rule: 390  ~her_movies.10.275 b: 
-          line: 390 0  # You know, in the movie. Well, 
-          Complexity of rule ~her_movies.10.275- b: 1
-        rule: 391  ~her_movies.10.276 a: 
-          line: 392 0  # [ '_0 ? @0object directed that
-          Complexity of rule ~her_movies.10.276- a: 1
-        rule: 393  ~her_movies.10.277 a: 
-          line: 393 0  # [ _0 ? I know that's a movie b
-          line: 394 64  # [ _0 the movie? I can't have s
-          Complexity of rule ~her_movies.10.277- a: 1
-        rule: 397  ~her_movies.11.0 u: 
-          line: 397 0  # Disney was once great. Bambi a
+        rule: 386  ~her_movies.10.274 a: 
+          line: 386 0  # Oh. I've heard that's one of t
+          Complexity of rule ~her_movies.10.274- a: 1
+        rule: 389  ~her_movies.10.275 a: 
+          line: 390 0  # [ '_0 ? @0object stars in that
+          line: 391 51  # [ '_0 the movie? I think @0obj
+          line: 392 100  # [ Doesn't @0object star in tha
+          Complexity of rule ~her_movies.10.275- a: 1
+        rule: 393  ~her_movies.10.276 b: 
+          line: 393 0  # Never mind. I know a lot of mo
+          Complexity of rule ~her_movies.10.276- b: 1
+        rule: 394  ~her_movies.10.277 b: 
+          line: 394 0  # You know, in the movie. Well, 
+          Complexity of rule ~her_movies.10.277- b: 1
+        rule: 395  ~her_movies.10.278 a: 
+          line: 396 0  # [ '_0 ? @0object directed that
+          Complexity of rule ~her_movies.10.278- a: 1
+        rule: 397  ~her_movies.10.279 a: 
+          line: 397 0  # [ _0 ? I know that's a movie b
+          line: 398 64  # [ _0 the movie? I can't have s
+          Complexity of rule ~her_movies.10.279- a: 1
+        rule: 401  ~her_movies.11.0 u: 
+          line: 401 0  # Disney was once great. Bambi a
           Complexity of rule ~her_movies.11.0- u: 1
-        rule: 398  ~her_movies.11.1 a: 
-          line: 398 0  # Yes! Exactly. '_0 was a fun ch
+        rule: 402  ~her_movies.11.1 a: 
+          line: 402 0  # Yes! Exactly. '_0 was a fun ch
           Complexity of rule ~her_movies.11.1- a: 1
-        rule: 408  ~her_movies.12.0 t: 
-          line: 408 0  # ^keep ( ) ^ispending ( ~her_mo
-          if 409 41  
-          line: 409 37  # ^if 00x( ! $$_gambit_topic_pen
-          line: 410 79  # ^fail ( TOPIC ) 
-          line: 411 95  # } aaa 
-          ifend 417 100  
+        rule: 412  ~her_movies.12.0 t: 
+          line: 412 0  # ^keep ( ) ^ispending ( ~her_mo
+          if 413 41  
+          line: 413 37  # ^if 00x( ! $$_gambit_topic_pen
+          line: 414 79  # ^fail ( TOPIC ) 
+          line: 415 95  # } aaa 
+          ifend 421 100  
           Complexity of rule ~her_movies.12.0- t: 2
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/music.top
     topic: 2  ~her_music
@@ -19488,477 +19511,481 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/videogames.t
           line: 63 0  # ^refine ( ) 
           Complexity of rule ~her_videogames.7.0-MENTION_VIDEOGAME u: 1
         rule: 64  ~her_videogames.7.1 a: 
-          line: 64 0  # That's the game that matters m
           Complexity of rule ~her_videogames.7.1- a: 1
         rule: 65  ~her_videogames.7.2 a: 
-          line: 65 0  # At least THIS game isn't harde
           Complexity of rule ~her_videogames.7.2- a: 1
-        rule: 66  ~her_videogames.7.3 a: 
-          line: 66 0  # So do you use Terran, Zerg, or
+        rule: 67  ~her_videogames.7.3 a: 
+          line: 67 0  # That's the game that matters m
           Complexity of rule ~her_videogames.7.3- a: 1
-        rule: 67  ~her_videogames.7.4 b: 
-          line: 67 0  # They're the best race, aren't 
-          Complexity of rule ~her_videogames.7.4- b: 1
-        rule: 68  ~her_videogames.7.5 a: 
-          line: 68 0  # Also known as Dark Souls: Brea
+        rule: 68  ~her_videogames.7.4 a: 
+          line: 68 0  # At least THIS game isn't harde
+          Complexity of rule ~her_videogames.7.4- a: 1
+        rule: 69  ~her_videogames.7.5 a: 
+          line: 69 0  # So do you use Terran, Zerg, or
           Complexity of rule ~her_videogames.7.5- a: 1
-        rule: 69  ~her_videogames.7.6 a: 
-          line: 69 0  # Oooh. So you're a trick-weapon
-          Complexity of rule ~her_videogames.7.6- a: 1
-        rule: 70  ~her_videogames.7.7 a: 
-          line: 70 0  # How's your prosthetic arm doin
+        rule: 70  ~her_videogames.7.6 b: 
+          line: 70 0  # They're the best race, aren't 
+          Complexity of rule ~her_videogames.7.6- b: 1
+        rule: 71  ~her_videogames.7.7 a: 
+          line: 71 0  # Also known as Dark Souls: Brea
           Complexity of rule ~her_videogames.7.7- a: 1
-        rule: 71  ~her_videogames.7.8 a: 
-          line: 71 0  # Good choice. Bet you can't wai
+        rule: 72  ~her_videogames.7.8 a: 
+          line: 72 0  # Oooh. So you're a trick-weapon
           Complexity of rule ~her_videogames.7.8- a: 1
-        rule: 72  ~her_videogames.7.9 a: 
-          line: 72 0  # Better watch out for ghouls, g
+        rule: 73  ~her_videogames.7.9 a: 
+          line: 73 0  # How's your prosthetic arm doin
           Complexity of rule ~her_videogames.7.9- a: 1
-        rule: 73  ~her_videogames.7.10 a: 
-          line: 73 0  # Don't you wish they'd make a H
+        rule: 74  ~her_videogames.7.10 a: 
+          line: 74 0  # Good choice. Bet you can't wai
           Complexity of rule ~her_videogames.7.10- a: 1
-        rule: 74  ~her_videogames.7.11 a: 
-          line: 74 0  # With the orcs, right? Everyone
+        rule: 75  ~her_videogames.7.11 a: 
+          line: 75 0  # Better watch out for ghouls, g
           Complexity of rule ~her_videogames.7.11- a: 1
-        rule: 75  ~her_videogames.7.12 a: 
-          line: 75 0  # Watch out for lickers. Watch o
+        rule: 76  ~her_videogames.7.12 a: 
+          line: 76 0  # Don't you wish they'd make a H
           Complexity of rule ~her_videogames.7.12- a: 1
-        rule: 76  ~her_videogames.7.13 a: 
-          line: 76 0  # Mel always used Luigi just to 
+        rule: 77  ~her_videogames.7.13 a: 
+          line: 77 0  # With the orcs, right? Everyone
           Complexity of rule ~her_videogames.7.13- a: 1
-        rule: 77  ~her_videogames.7.14 a: 
-          line: 77 0  # Every Zelda game is a classic!
+        rule: 78  ~her_videogames.7.14 a: 
+          line: 78 0  # Watch out for lickers. Watch o
           Complexity of rule ~her_videogames.7.14- a: 1
-        rule: 78  ~her_videogames.7.15 a: 
-          line: 78 0  # Hideo Kojima is a not-quite ge
+        rule: 79  ~her_videogames.7.15 a: 
+          line: 79 0  # Mel always used Luigi just to 
           Complexity of rule ~her_videogames.7.15- a: 1
-        rule: 79  ~her_videogames.7.16 a: 
-          line: 79 0  # That's Capcom's most popular f
+        rule: 80  ~her_videogames.7.16 a: 
+          line: 80 0  # Every Zelda game is a classic!
           Complexity of rule ~her_videogames.7.16- a: 1
-        rule: 80  ~her_videogames.7.17 a: 
-          line: 80 0  # I don't main anyone but I like
+        rule: 81  ~her_videogames.7.17 a: 
+          line: 81 0  # Hideo Kojima is a not-quite ge
           Complexity of rule ~her_videogames.7.17- a: 1
-        rule: 81  ~her_videogames.7.18 a: 
-          line: 81 0  # FINISH HIM. 
+        rule: 82  ~her_videogames.7.18 a: 
+          line: 82 0  # That's Capcom's most popular f
           Complexity of rule ~her_videogames.7.18- a: 1
-        rule: 82  ~her_videogames.7.19 a: 
-          line: 82 0  # Tetris is hard, Mel says. She 
+        rule: 83  ~her_videogames.7.19 a: 
+          line: 83 0  # I don't main anyone but I like
           Complexity of rule ~her_videogames.7.19- a: 1
-        rule: 83  ~her_videogames.7.20 a: 
-          line: 83 0  # So you want a date with Shiori
+        rule: 84  ~her_videogames.7.20 a: 
+          line: 84 0  # FINISH HIM. 
           Complexity of rule ~her_videogames.7.20- a: 1
-        rule: 84  ~her_videogames.7.21 a: 
-          line: 84 0  # Yep, everyone loves making por
+        rule: 85  ~her_videogames.7.21 a: 
+          line: 85 0  # Tetris is hard, Mel says. She 
           Complexity of rule ~her_videogames.7.21- a: 1
-        rule: 85  ~her_videogames.7.22 a: 
-          line: 85 0  # Mel likes using paint guns on 
+        rule: 86  ~her_videogames.7.22 a: 
+          line: 86 0  # So you want a date with Shiori
           Complexity of rule ~her_videogames.7.22- a: 1
-        rule: 86  ~her_videogames.7.23 a: 
-          line: 86 0  # So what's the coolest structur
+        rule: 87  ~her_videogames.7.23 a: 
+          line: 87 0  # Yep, everyone loves making por
           Complexity of rule ~her_videogames.7.23- a: 1
-        rule: 87  ~her_videogames.7.24 a: 
-          line: 87 0  # I wanna ride a Chocobo for rea
+        rule: 88  ~her_videogames.7.24 a: 
+          line: 88 0  # Mel likes using paint guns on 
           Complexity of rule ~her_videogames.7.24- a: 1
-        rule: 88  ~her_videogames.7.25 a: 
-          line: 88 0  # I hope you can kill a golden s
+        rule: 89  ~her_videogames.7.25 a: 
+          line: 89 0  # So what's the coolest structur
           Complexity of rule ~her_videogames.7.25- a: 1
-        rule: 89  ~her_videogames.7.26 a: 
-          line: 89 0  # You don't mean Pokemon Go, do 
+        rule: 90  ~her_videogames.7.26 a: 
+          line: 90 0  # I wanna ride a Chocobo for rea
           Complexity of rule ~her_videogames.7.26- a: 1
-        rule: 90  ~her_videogames.7.27 a: 
-          line: 90 0  # Don't run over too many pedest
+        rule: 91  ~her_videogames.7.27 a: 
+          line: 91 0  # I hope you can kill a golden s
           Complexity of rule ~her_videogames.7.27- a: 1
-        rule: 91  ~her_videogames.7.28 a: 
-          line: 91 0  # So basically, you like shootin
+        rule: 92  ~her_videogames.7.28 a: 
+          line: 92 0  # You don't mean Pokemon Go, do 
           Complexity of rule ~her_videogames.7.28- a: 1
-        rule: 92  ~her_videogames.7.29 a: 
-          line: 92 0  # Oh, that's an MMO isn't it? It
+        rule: 93  ~her_videogames.7.29 a: 
+          line: 93 0  # Don't run over too many pedest
           Complexity of rule ~her_videogames.7.29- a: 1
-        rule: 93  ~her_videogames.7.30 a: 
-          line: 93 0  # Classic Nintendo beat-em-up. G
+        rule: 94  ~her_videogames.7.30 a: 
+          line: 94 0  # So basically, you like shootin
           Complexity of rule ~her_videogames.7.30- a: 1
-        rule: 94  ~her_videogames.7.31 a: 
-          line: 94 0  # Real-time strategies for the w
+        rule: 95  ~her_videogames.7.31 a: 
+          line: 95 0  # Oh, that's an MMO isn't it? It
           Complexity of rule ~her_videogames.7.31- a: 1
-        rule: 95  ~her_videogames.7.32 a: 
-          line: 95 0  # Are you ever the last one stan
+        rule: 96  ~her_videogames.7.32 a: 
+          line: 96 0  # Classic Nintendo beat-em-up. G
           Complexity of rule ~her_videogames.7.32- a: 1
-        rule: 96  ~her_videogames.7.33 a: 
-          line: 96 0  # Parsers are old school, and be
+        rule: 97  ~her_videogames.7.33 a: 
+          line: 97 0  # Real-time strategies for the w
           Complexity of rule ~her_videogames.7.33- a: 1
-        rule: 97  ~her_videogames.7.34 a: 
-          line: 97 0  # Yeah, social life simulations 
+        rule: 98  ~her_videogames.7.34 a: 
+          line: 98 0  # Are you ever the last one stan
           Complexity of rule ~her_videogames.7.34- a: 1
-        rule: 98  ~her_videogames.7.35 a: 
-          line: 98 0  # You do know Samus is a girl, d
+        rule: 99  ~her_videogames.7.35 a: 
+          line: 99 0  # Parsers are old school, and be
           Complexity of rule ~her_videogames.7.35- a: 1
-        rule: 99  ~her_videogames.7.36 a: 
-          line: 99 0  # Sonic the Hedgehog, eh? Who do
+        rule: 100  ~her_videogames.7.36 a: 
+          line: 100 0  # Yeah, social life simulations 
           Complexity of rule ~her_videogames.7.36- a: 1
-        rule: 100  ~her_videogames.7.37 a: 
-          line: 100 0  # Oh, that one. I couldn't belie
+        rule: 101  ~her_videogames.7.37 a: 
+          line: 101 0  # You do know Samus is a girl, d
           Complexity of rule ~her_videogames.7.37- a: 1
-        rule: 101  ~her_videogames.7.38 a: 
-          line: 101 0  # Drake's something, right? That
+        rule: 102  ~her_videogames.7.38 a: 
+          line: 102 0  # Sonic the Hedgehog, eh? Who do
           Complexity of rule ~her_videogames.7.38- a: 1
-        rule: 102  ~her_videogames.7.39 a: 
-          line: 102 0  # In my restless dreams I see th
+        rule: 103  ~her_videogames.7.39 a: 
+          line: 103 0  # Oh, that one. I couldn't belie
           Complexity of rule ~her_videogames.7.39- a: 1
-        rule: 103  ~her_videogames.7.40 a: 
-          line: 103 0  # It's fun being an assassin hop
+        rule: 104  ~her_videogames.7.40 a: 
+          line: 104 0  # Drake's something, right? That
           Complexity of rule ~her_videogames.7.40- a: 1
-        rule: 104  ~her_videogames.7.41 a: 
-          line: 104 0  # You're joking, aren't you? You
+        rule: 105  ~her_videogames.7.41 a: 
+          line: 105 0  # In my restless dreams I see th
           Complexity of rule ~her_videogames.7.41- a: 1
-        rule: 105  ~her_videogames.7.42 a: 
-          line: 105 0  # You mean THE Duck Hunt? On you
+        rule: 106  ~her_videogames.7.42 a: 
+          line: 106 0  # It's fun being an assassin hop
           Complexity of rule ~her_videogames.7.42- a: 1
-        rule: 106  ~her_videogames.7.43 a: 
-          line: 106 0  # Classic! I love those cute tin
+        rule: 107  ~her_videogames.7.43 a: 
+          line: 107 0  # You're joking, aren't you? You
           Complexity of rule ~her_videogames.7.43- a: 1
-        rule: 107  ~her_videogames.7.44 a: 
-          line: 107 0  # That's an old text adventure, 
+        rule: 108  ~her_videogames.7.44 a: 
+          line: 108 0  # You mean THE Duck Hunt? On you
           Complexity of rule ~her_videogames.7.44- a: 1
-        rule: 108  ~her_videogames.7.45 a: 
-          line: 108 0  # The Sands of Time series is cl
+        rule: 109  ~her_videogames.7.45 a: 
+          line: 109 0  # Classic! I love those cute tin
           Complexity of rule ~her_videogames.7.45- a: 1
-        rule: 109  ~her_videogames.7.46 a: 
-          line: 109 0  # Another classic RTS! 
+        rule: 110  ~her_videogames.7.46 a: 
+          line: 110 0  # That's an old text adventure, 
           Complexity of rule ~her_videogames.7.46- a: 1
-        rule: 110  ~her_videogames.7.47 a: 
-          line: 110 0  # So you're into hardcore classi
+        rule: 111  ~her_videogames.7.47 a: 
+          line: 111 0  # The Sands of Time series is cl
           Complexity of rule ~her_videogames.7.47- a: 1
-        rule: 111  ~her_videogames.7.48 a: 
-          line: 111 0  # Just so you know, the cake is 
+        rule: 112  ~her_videogames.7.48 a: 
+          line: 112 0  # Another classic RTS! 
           Complexity of rule ~her_videogames.7.48- a: 1
-        rule: 112  ~her_videogames.7.49 a: 
-          line: 112 0  # THAT one doesn't scare me. Wha
+        rule: 113  ~her_videogames.7.49 a: 
+          line: 113 0  # So you're into hardcore classi
           Complexity of rule ~her_videogames.7.49- a: 1
-        rule: 113  ~her_videogames.7.50 a: 
-          line: 113 0  # Rumor has it that God Hand is 
+        rule: 114  ~her_videogames.7.50 a: 
+          line: 114 0  # Just so you know, the cake is 
           Complexity of rule ~her_videogames.7.50- a: 1
-        rule: 114  ~her_videogames.7.51 a: 
-          line: 114 0  # Yes! But only on a hard dance 
+        rule: 115  ~her_videogames.7.51 a: 
+          line: 115 0  # THAT one doesn't scare me. Wha
           Complexity of rule ~her_videogames.7.51- a: 1
-        rule: 115  ~her_videogames.7.52 a: 
-          line: 115 0  # Who's that? A dinosaur who poo
+        rule: 116  ~her_videogames.7.52 a: 
+          line: 116 0  # Rumor has it that God Hand is 
           Complexity of rule ~her_videogames.7.52- a: 1
-        rule: 116  ~her_videogames.7.53 a: 
-          line: 116 0  # Dante is a badass, ain't he. 
+        rule: 117  ~her_videogames.7.53 a: 
+          line: 117 0  # Yes! But only on a hard dance 
           Complexity of rule ~her_videogames.7.53- a: 1
-        rule: 117  ~her_videogames.7.54 a: 
-          line: 117 0  # Better gather up them farm coi
+        rule: 118  ~her_videogames.7.54 a: 
+          line: 118 0  # Who's that? A dinosaur who poo
           Complexity of rule ~her_videogames.7.54- a: 1
-        rule: 118  ~her_videogames.7.55 a: 
-          line: 118 0  # Makes me think of Abobos. 
+        rule: 119  ~her_videogames.7.55 a: 
+          line: 119 0  # Dante is a badass, ain't he. 
           Complexity of rule ~her_videogames.7.55- a: 1
-        rule: 119  ~her_videogames.7.56 a: 
-          line: 119 0  # Objection!! 
+        rule: 120  ~her_videogames.7.56 a: 
+          line: 120 0  # Better gather up them farm coi
           Complexity of rule ~her_videogames.7.56- a: 1
-        rule: 120  ~her_videogames.7.57 a: 
-          line: 120 0  # 9 hours, 9 dogs, 9 doghouses o
+        rule: 121  ~her_videogames.7.57 a: 
+          line: 121 0  # Makes me think of Abobos. 
           Complexity of rule ~her_videogames.7.57- a: 1
-        rule: 121  ~her_videogames.7.58 a: 
-          line: 121 0  # Better use the Konami code for
+        rule: 122  ~her_videogames.7.58 a: 
+          line: 122 0  # Objection!! 
           Complexity of rule ~her_videogames.7.58- a: 1
-        rule: 122  ~her_videogames.7.59 a: 
-          line: 122 0  # Yes! Even better than Gradius!
+        rule: 123  ~her_videogames.7.59 a: 
+          line: 123 0  # 9 hours, 9 dogs, 9 doghouses o
           Complexity of rule ~her_videogames.7.59- a: 1
-        rule: 123  ~her_videogames.7.60 a: 
-          line: 123 0  # That's a fun one to speed run.
+        rule: 124  ~her_videogames.7.60 a: 
+          line: 124 0  # Better use the Konami code for
           Complexity of rule ~her_videogames.7.60- a: 1
-        rule: 124  ~her_videogames.7.61 a: 
-          line: 124 0  # Life is right strange, isn't i
+        rule: 125  ~her_videogames.7.61 a: 
+          line: 125 0  # Yes! Even better than Gradius!
           Complexity of rule ~her_videogames.7.61- a: 1
-        rule: 125  ~her_videogames.7.62 a: 
-          line: 125 0  # S-seriously? I didn't think an
+        rule: 126  ~her_videogames.7.62 a: 
+          line: 126 0  # That's a fun one to speed run.
           Complexity of rule ~her_videogames.7.62- a: 1
-        rule: 126  ~her_videogames.7.63 a: 
-          line: 126 0  # Is it relaxing to pull your fi
+        rule: 127  ~her_videogames.7.63 a: 
+          line: 127 0  # Life is right strange, isn't i
           Complexity of rule ~her_videogames.7.63- a: 1
-        rule: 127  ~her_videogames.7.64 a: 
-          line: 127 0  # Yes! Sackboy's adventures are 
+        rule: 128  ~her_videogames.7.64 a: 
+          line: 128 0  # S-seriously? I didn't think an
           Complexity of rule ~her_videogames.7.64- a: 1
-        rule: 128  ~her_videogames.7.65 a: 
-          line: 128 0  # Oh, so you like your RPGs supe
+        rule: 129  ~her_videogames.7.65 a: 
+          line: 129 0  # Is it relaxing to pull your fi
           Complexity of rule ~her_videogames.7.65- a: 1
-        rule: 129  ~her_videogames.7.66 a: 
-          line: 129 0  # Hats off if you can do a full 
+        rule: 130  ~her_videogames.7.66 a: 
+          line: 130 0  # Yes! Sackboy's adventures are 
           Complexity of rule ~her_videogames.7.66- a: 1
-        rule: 130  ~her_videogames.7.67 a: 
-          line: 130 0  # Hats off if you can do a full 
+        rule: 131  ~her_videogames.7.67 a: 
+          line: 131 0  # Oh, so you like your RPGs supe
           Complexity of rule ~her_videogames.7.67- a: 1
-        rule: 131  ~her_videogames.7.68 a: 
-          line: 131 0  # The pink blob, not the vacuum 
+        rule: 132  ~her_videogames.7.68 a: 
+          line: 132 0  # Hats off if you can do a full 
           Complexity of rule ~her_videogames.7.68- a: 1
-        rule: 132  ~her_videogames.7.69 a: 
-          line: 132 0  # Okay okay, Master Chief. 
+        rule: 133  ~her_videogames.7.69 a: 
+          line: 133 0  # Hats off if you can do a full 
           Complexity of rule ~her_videogames.7.69- a: 1
-        rule: 133  ~her_videogames.7.70 a: 
-          line: 133 0  # Better pick up that BFG. 
+        rule: 134  ~her_videogames.7.70 a: 
+          line: 134 0  # The pink blob, not the vacuum 
           Complexity of rule ~her_videogames.7.70- a: 1
-        rule: 134  ~her_videogames.7.71 a: 
-          line: 134 0  # They say donkey, but am I pott
+        rule: 135  ~her_videogames.7.71 a: 
+          line: 135 0  # Okay okay, Master Chief. 
           Complexity of rule ~her_videogames.7.71- a: 1
-        rule: 135  ~her_videogames.7.72 a: 
-          line: 135 0  # You must be Dirk, Dirk the Dar
+        rule: 136  ~her_videogames.7.72 a: 
+          line: 136 0  # Better pick up that BFG. 
           Complexity of rule ~her_videogames.7.72- a: 1
-        rule: 136  ~her_videogames.7.73 a: 
-          line: 136 0  # Yes, that's a real fun procedu
+        rule: 137  ~her_videogames.7.73 a: 
+          line: 137 0  # They say donkey, but am I pott
           Complexity of rule ~her_videogames.7.73- a: 1
-        rule: 137  ~her_videogames.7.74 a: 
-          line: 137 0  # You must be the hardest core o
+        rule: 138  ~her_videogames.7.74 a: 
+          line: 138 0  # You must be Dirk, Dirk the Dar
           Complexity of rule ~her_videogames.7.74- a: 1
-        rule: 138  ~her_videogames.7.75 a: 
-          line: 138 0  # That's like GTA with horses, r
+        rule: 139  ~her_videogames.7.75 a: 
+          line: 139 0  # Yes, that's a real fun procedu
           Complexity of rule ~her_videogames.7.75- a: 1
-        rule: 139  ~her_videogames.7.76 a: 
-          line: 139 0  # Better watch your grip meter w
+        rule: 140  ~her_videogames.7.76 a: 
+          line: 140 0  # You must be the hardest core o
           Complexity of rule ~her_videogames.7.76- a: 1
-        rule: 140  ~her_videogames.7.77 a: 
-          line: 140 0  # Good. Princess Yorda needs you
+        rule: 141  ~her_videogames.7.77 a: 
+          line: 141 0  # That's like GTA with horses, r
           Complexity of rule ~her_videogames.7.77- a: 1
-        rule: 141  ~her_videogames.7.78 a: 
-          line: 141 0  # Rumor has it that Odin Sphere 
+        rule: 142  ~her_videogames.7.78 a: 
+          line: 142 0  # Better watch your grip meter w
           Complexity of rule ~her_videogames.7.78- a: 1
-        rule: 142  ~her_videogames.7.79 a: 
-          line: 142 0  # But I have trouble remembering
+        rule: 143  ~her_videogames.7.79 a: 
+          line: 143 0  # Good. Princess Yorda needs you
           Complexity of rule ~her_videogames.7.79- a: 1
-        rule: 143  ~her_videogames.7.80 a: 
-          line: 143 0  # It's not like playing real gui
+        rule: 144  ~her_videogames.7.80 a: 
+          line: 144 0  # Rumor has it that Odin Sphere 
           Complexity of rule ~her_videogames.7.80- a: 1
-        rule: 144  ~her_videogames.7.81 a: 
-          line: 144 0  # I prefer DDR for my dancing. 
+        rule: 145  ~her_videogames.7.81 a: 
+          line: 145 0  # But I have trouble remembering
           Complexity of rule ~her_videogames.7.81- a: 1
-        rule: 145  ~her_videogames.7.82 a: 
-          line: 145 0  # By Konami, you mean? Why does 
+        rule: 146  ~her_videogames.7.82 a: 
+          line: 146 0  # It's not like playing real gui
           Complexity of rule ~her_videogames.7.82- a: 1
-        rule: 146  ~her_videogames.7.83 a: 
-          line: 146 0  # A time travel story. Neat. 
+        rule: 147  ~her_videogames.7.83 a: 
+          line: 147 0  # I prefer DDR for my dancing. 
           Complexity of rule ~her_videogames.7.83- a: 1
-        rule: 147  ~her_videogames.7.84 a: 
-          line: 147 0  # Keep on rolling up stuff, litt
+        rule: 148  ~her_videogames.7.84 a: 
+          line: 148 0  # By Konami, you mean? Why does 
           Complexity of rule ~her_videogames.7.84- a: 1
-        rule: 148  ~her_videogames.7.85 a: 
-          line: 148 0  # Of the three of them I like th
+        rule: 149  ~her_videogames.7.85 a: 
+          line: 149 0  # A time travel story. Neat. 
           Complexity of rule ~her_videogames.7.85- a: 1
-        rule: 149  ~her_videogames.7.86 a: 
-          line: 149 0  # Better watch out for big daddi
+        rule: 150  ~her_videogames.7.86 a: 
+          line: 150 0  # Keep on rolling up stuff, litt
           Complexity of rule ~her_videogames.7.86- a: 1
-        rule: 150  ~her_videogames.7.87 a: 
-          line: 150 0  # The mummy in that game is hila
+        rule: 151  ~her_videogames.7.87 a: 
+          line: 151 0  # Of the three of them I like th
           Complexity of rule ~her_videogames.7.87- a: 1
-        rule: 151  ~her_videogames.7.88 a: 
-          line: 151 0  # So you like your RPGS sega-sty
+        rule: 152  ~her_videogames.7.88 a: 
+          line: 152 0  # Better watch out for big daddi
           Complexity of rule ~her_videogames.7.88- a: 1
-        rule: 152  ~her_videogames.7.89 a: 
-          line: 152 0  # Yeah, even better than Zelda, 
+        rule: 153  ~her_videogames.7.89 a: 
+          line: 153 0  # The mummy in that game is hila
           Complexity of rule ~her_videogames.7.89- a: 1
-        rule: 153  ~her_videogames.7.90 a: 
-          line: 153 0  # Woooow, so old school. 
+        rule: 154  ~her_videogames.7.90 a: 
+          line: 154 0  # So you like your RPGS sega-sty
           Complexity of rule ~her_videogames.7.90- a: 1
-        rule: 154  ~her_videogames.7.91 a: 
-          line: 154 0  # "He's on fire" ! 
+        rule: 155  ~her_videogames.7.91 a: 
+          line: 155 0  # Yeah, even better than Zelda, 
           Complexity of rule ~her_videogames.7.91- a: 1
-        rule: 155  ~her_videogames.7.92 a: 
-          line: 155 0  # Stock up on your PSI caramels.
+        rule: 156  ~her_videogames.7.92 a: 
+          line: 156 0  # Woooow, so old school. 
           Complexity of rule ~her_videogames.7.92- a: 1
-        rule: 156  ~her_videogames.7.93 a: 
-          line: 156 0  # YES. Mad props for even knowin
+        rule: 157  ~her_videogames.7.93 a: 
+          line: 157 0  # "He's on fire" ! 
           Complexity of rule ~her_videogames.7.93- a: 1
-        rule: 157  ~her_videogames.7.94 a: 
-          line: 157 0  # Hey, I know another nifty idol
+        rule: 158  ~her_videogames.7.94 a: 
+          line: 158 0  # Stock up on your PSI caramels.
           Complexity of rule ~her_videogames.7.94- a: 1
-        rule: 158  ~her_videogames.7.95 a: 
-          line: 158 0  # That game isn't just NES hard.
+        rule: 159  ~her_videogames.7.95 a: 
+          line: 159 0  # YES. Mad props for even knowin
           Complexity of rule ~her_videogames.7.95- a: 1
-        rule: 159  ~her_videogames.7.96 a: 
-          line: 159 0  # I know, I gotta believe! 
+        rule: 160  ~her_videogames.7.96 a: 
+          line: 160 0  # Hey, I know another nifty idol
           Complexity of rule ~her_videogames.7.96- a: 1
-        rule: 160  ~her_videogames.7.97 a: 
-          line: 160 0  # A story-driven science fiction
+        rule: 161  ~her_videogames.7.97 a: 
+          line: 161 0  # That game isn't just NES hard.
           Complexity of rule ~her_videogames.7.97- a: 1
-        rule: 161  ~her_videogames.7.98 a: 
-          line: 161 0  # That one's a nice alternative 
+        rule: 162  ~her_videogames.7.98 a: 
+          line: 162 0  # I know, I gotta believe! 
           Complexity of rule ~her_videogames.7.98- a: 1
-        rule: 162  ~her_videogames.7.99 a: 
-          line: 162 0  # Mad props for remembering the 
+        rule: 163  ~her_videogames.7.99 a: 
+          line: 163 0  # A story-driven science fiction
           Complexity of rule ~her_videogames.7.99- a: 1
-        rule: 163  ~her_videogames.7.100 a: 
-          line: 163 0  # Isn't that one just ping-pong 
+        rule: 164  ~her_videogames.7.100 a: 
+          line: 164 0  # That one's a nice alternative 
           Complexity of rule ~her_videogames.7.100- a: 1
-        rule: 164  ~her_videogames.7.101 a: 
-          line: 164 0  # The game about making robots c
+        rule: 165  ~her_videogames.7.101 a: 
+          line: 165 0  # Mad props for remembering the 
           Complexity of rule ~her_videogames.7.101- a: 1
-        rule: 165  ~her_videogames.7.102 a: 
-          line: 165 0  # Just don't be there when the c
+        rule: 166  ~her_videogames.7.102 a: 
+          line: 166 0  # Isn't that one just ping-pong 
           Complexity of rule ~her_videogames.7.102- a: 1
-        rule: 166  ~her_videogames.7.103 a: 
-          line: 166 0  # So you like shooting up things
+        rule: 167  ~her_videogames.7.103 a: 
+          line: 167 0  # The game about making robots c
           Complexity of rule ~her_videogames.7.103- a: 1
-        rule: 167  ~her_videogames.7.104 a: 
-          line: 167 0  # What kind of cruel soul puts a
+        rule: 168  ~her_videogames.7.104 a: 
+          line: 168 0  # Just don't be there when the c
           Complexity of rule ~her_videogames.7.104- a: 1
-        rule: 168  ~her_videogames.7.105 a: 
-          line: 168 0  # Rumor has it that ( Forbidden 
+        rule: 169  ~her_videogames.7.105 a: 
+          line: 169 0  # So you like shooting up things
           Complexity of rule ~her_videogames.7.105- a: 1
-        rule: 169  ~her_videogames.7.106 a: 
-          line: 169 0  # Very nice indie platformer, th
+        rule: 170  ~her_videogames.7.106 a: 
+          line: 170 0  # What kind of cruel soul puts a
           Complexity of rule ~her_videogames.7.106- a: 1
-        rule: 170  ~her_videogames.7.107 a: 
-          line: 170 0  # Hashire, Teikoku Kagekidan! 
+        rule: 171  ~her_videogames.7.107 a: 
+          line: 171 0  # Rumor has it that ( Forbidden 
           Complexity of rule ~her_videogames.7.107- a: 1
-        rule: 171  ~her_videogames.7.108 a: 
-          line: 171 0  # If I ever found a Camera Obscu
+        rule: 172  ~her_videogames.7.108 a: 
+          line: 172 0  # Very nice indie platformer, th
           Complexity of rule ~her_videogames.7.108- a: 1
-        rule: 172  ~her_videogames.7.109 a: 
-          line: 172 0  # Oh yes, that mindlessly fun pu
+        rule: 173  ~her_videogames.7.109 a: 
+          line: 173 0  # Hashire, Teikoku Kagekidan! 
           Complexity of rule ~her_videogames.7.109- a: 1
-        rule: 173  ~her_videogames.7.110 a: 
-          line: 173 0  # Kratos is a badass ain't he. 
+        rule: 174  ~her_videogames.7.110 a: 
+          line: 174 0  # If I ever found a Camera Obscu
           Complexity of rule ~her_videogames.7.110- a: 1
-        rule: 174  ~her_videogames.7.111 a: 
-          line: 174 0  # The Kojima game? They're makin
+        rule: 175  ~her_videogames.7.111 a: 
+          line: 175 0  # Oh yes, that mindlessly fun pu
           Complexity of rule ~her_videogames.7.111- a: 1
-        rule: 175  ~her_videogames.7.112 a: 
-          line: 175 0  # But does your team consist mor
+        rule: 176  ~her_videogames.7.112 a: 
+          line: 176 0  # Kratos is a badass ain't he. 
           Complexity of rule ~her_videogames.7.112- a: 1
-        rule: 176  ~her_videogames.7.113 a: 
-          line: 176 0  # So you're Geralt. I mean, when
+        rule: 177  ~her_videogames.7.113 a: 
+          line: 177 0  # The Kojima game? They're makin
           Complexity of rule ~her_videogames.7.113- a: 1
-        rule: 177  ~her_videogames.7.114 a: 
-          line: 177 0  # Don't make me say it again. I'
+        rule: 178  ~her_videogames.7.114 a: 
+          line: 178 0  # But does your team consist mor
           Complexity of rule ~her_videogames.7.114- a: 1
-        rule: 178  ~her_videogames.7.115 a: 
-          line: 178 0  # Get those social links strengt
+        rule: 179  ~her_videogames.7.115 a: 
+          line: 179 0  # So you're Geralt. I mean, when
           Complexity of rule ~her_videogames.7.115- a: 1
-        rule: 179  ~her_videogames.7.116 a: 
-          line: 179 0  # Oh, I only know Soul Reaver, b
+        rule: 180  ~her_videogames.7.116 a: 
+          line: 180 0  # Don't make me say it again. I'
           Complexity of rule ~her_videogames.7.116- a: 1
-        rule: 180  ~her_videogames.7.117 a: 
-          line: 180 0  # You try to save a couple's mar
+        rule: 181  ~her_videogames.7.117 a: 
+          line: 181 0  # Get those social links strengt
           Complexity of rule ~her_videogames.7.117- a: 1
-        rule: 181  ~her_videogames.7.118 a: 
-          line: 181 0  # Realllly old school. But I lik
+        rule: 182  ~her_videogames.7.118 a: 
+          line: 182 0  # Oh, I only know Soul Reaver, b
           Complexity of rule ~her_videogames.7.118- a: 1
-        rule: 182  ~her_videogames.7.119 a: 
-          line: 182 0  # To my side my noble Einjerhar!
+        rule: 183  ~her_videogames.7.119 a: 
+          line: 183 0  # You try to save a couple's mar
           Complexity of rule ~her_videogames.7.119- a: 1
-        rule: 183  ~her_videogames.7.120 a: 
-          line: 183 0  # Oooh, that one's hard. But rea
+        rule: 184  ~her_videogames.7.120 a: 
+          line: 184 0  # Realllly old school. But I lik
           Complexity of rule ~her_videogames.7.120- a: 1
-        rule: 184  ~her_videogames.7.121 a: 
-          line: 184 0  # Knights of the Old Republic is
+        rule: 185  ~her_videogames.7.121 a: 
+          line: 185 0  # To my side my noble Einjerhar!
           Complexity of rule ~her_videogames.7.121- a: 1
-        rule: 185  ~her_videogames.7.122 a: 
-          line: 185 0  # $user , the president has been
+        rule: 186  ~her_videogames.7.122 a: 
+          line: 186 0  # Oooh, that one's hard. But rea
           Complexity of rule ~her_videogames.7.122- a: 1
-        rule: 186  ~her_videogames.7.123 a: 
-          line: 186 0  # Oh no! Aliens are making every
+        rule: 187  ~her_videogames.7.123 a: 
+          line: 187 0  # Knights of the Old Republic is
           Complexity of rule ~her_videogames.7.123- a: 1
-        rule: 187  ~her_videogames.7.124 a: 
-          line: 187 0  # Oh, the spiritual predecessor 
+        rule: 188  ~her_videogames.7.124 a: 
+          line: 188 0  # $user , the president has been
           Complexity of rule ~her_videogames.7.124- a: 1
-        rule: 188  ~her_videogames.7.125 a: 
-          line: 188 0  # When is Day of the Dead anyway
+        rule: 189  ~her_videogames.7.125 a: 
+          line: 189 0  # Oh no! Aliens are making every
           Complexity of rule ~her_videogames.7.125- a: 1
-        rule: 189  ~her_videogames.7.126 a: 
-          line: 189 0  # Eat shit and die! I like when 
+        rule: 190  ~her_videogames.7.126 a: 
+          line: 190 0  # Oh, the spiritual predecessor 
           Complexity of rule ~her_videogames.7.126- a: 1
-        rule: 190  ~her_videogames.7.127 a: 
-          line: 190 0  # So you like your shmups old sc
+        rule: 191  ~her_videogames.7.127 a: 
+          line: 191 0  # When is Day of the Dead anyway
           Complexity of rule ~her_videogames.7.127- a: 1
-        rule: 191  ~her_videogames.7.128 a: 
-          line: 191 0  # Even if it's just Doom v2. 
+        rule: 192  ~her_videogames.7.128 a: 
+          line: 192 0  # Eat shit and die! I like when 
           Complexity of rule ~her_videogames.7.128- a: 1
-        rule: 192  ~her_videogames.7.129 a: 
-          line: 192 0  # Multi-player turn-based artill
+        rule: 193  ~her_videogames.7.129 a: 
+          line: 193 0  # So you like your shmups old sc
           Complexity of rule ~her_videogames.7.129- a: 1
-        rule: 193  ~her_videogames.7.130 a: 
-          line: 193 0  # Do you wanna be Kazuma Kiryu? 
+        rule: 194  ~her_videogames.7.130 a: 
+          line: 194 0  # Even if it's just Doom v2. 
           Complexity of rule ~her_videogames.7.130- a: 1
-        rule: 194  ~her_videogames.7.131 a: 
-          line: 194 0  # Have you been shot with an Inf
+        rule: 195  ~her_videogames.7.131 a: 
+          line: 195 0  # Multi-player turn-based artill
           Complexity of rule ~her_videogames.7.131- a: 1
-        rule: 195  ~her_videogames.7.132 a: 
-          line: 195 0  # You, or rather King Arthur, sp
+        rule: 196  ~her_videogames.7.132 a: 
+          line: 196 0  # Do you wanna be Kazuma Kiryu? 
           Complexity of rule ~her_videogames.7.132- a: 1
-        rule: 196  ~her_videogames.7.133 a: 
-          line: 196 0  # Do you mean Taiko no Tatsujin?
+        rule: 197  ~her_videogames.7.133 a: 
+          line: 197 0  # Have you been shot with an Inf
           Complexity of rule ~her_videogames.7.133- a: 1
-        rule: 197  ~her_videogames.7.134 a: 
-          line: 197 0  # Oh, The Witness is an excellen
+        rule: 198  ~her_videogames.7.134 a: 
+          line: 198 0  # You, or rather King Arthur, sp
           Complexity of rule ~her_videogames.7.134- a: 1
-        rule: 198  ~her_videogames.7.135 a: 
-          line: 198 0  # That's an open-world game that
+        rule: 199  ~her_videogames.7.135 a: 
+          line: 199 0  # Do you mean Taiko no Tatsujin?
           Complexity of rule ~her_videogames.7.135- a: 1
-        rule: 199  ~her_videogames.7.136 a: 
-          line: 199 0  # Oh that's a beautiful one. You
+        rule: 200  ~her_videogames.7.136 a: 
+          line: 200 0  # Oh, The Witness is an excellen
           Complexity of rule ~her_videogames.7.136- a: 1
-        rule: 200  ~her_videogames.7.137 a: 
-          line: 200 0  # Tomb Raider is classic. Or at 
+        rule: 201  ~her_videogames.7.137 a: 
+          line: 201 0  # That's an open-world game that
           Complexity of rule ~her_videogames.7.137- a: 1
-        rule: 201  ~her_videogames.7.138 a: 
-          line: 201 0  # With art by the Dragon Ball Z 
+        rule: 202  ~her_videogames.7.138 a: 
+          line: 202 0  # Oh that's a beautiful one. You
           Complexity of rule ~her_videogames.7.138- a: 1
-        rule: 202  ~her_videogames.7.139 a: 
-          line: 202 0  # Scribblenauts is a really grea
+        rule: 203  ~her_videogames.7.139 a: 
+          line: 203 0  # Tomb Raider is classic. Or at 
           Complexity of rule ~her_videogames.7.139- a: 1
-        rule: 203  ~her_videogames.7.140 a: 
-          line: 203 0  # Oh. That's the game with all t
+        rule: 204  ~her_videogames.7.140 a: 
+          line: 204 0  # With art by the Dragon Ball Z 
           Complexity of rule ~her_videogames.7.140- a: 1
-        rule: 204  ~her_videogames.7.141 a: 
-          line: 204 0  # If a fox can pilot a spaceship
+        rule: 205  ~her_videogames.7.141 a: 
+          line: 205 0  # Scribblenauts is a really grea
           Complexity of rule ~her_videogames.7.141- a: 1
-        rule: 209  ~her_videogames.7.142 a: 
-          line: 209 0  # [ '_0 ? That's a game by @0obj
+        rule: 206  ~her_videogames.7.142 a: 
+          line: 206 0  # Oh. That's the game with all t
           Complexity of rule ~her_videogames.7.142- a: 1
-        rule: 210  ~her_videogames.7.143 b: 
-          line: 210 0  # Isn't it? I thought that it wa
-          Complexity of rule ~her_videogames.7.143- b: 1
-        rule: 211  ~her_videogames.7.144 b: 
-          line: 211 0  # Yeah, I thought so. I only kno
-          Complexity of rule ~her_videogames.7.144- b: 1
-        rule: 212  ~her_videogames.7.145 a: 
-          line: 212 0  # Do you want to talk about vide
-          Complexity of rule ~her_videogames.7.145- a: 1
-        rule: 213  ~her_videogames.7.146 a: 
-          line: 214 0  # [ Mel hasn't told me about tha
-          line: 215 92  # [ Hmm, Mel doesn't have anythi
-          Complexity of rule ~her_videogames.7.146- a: 1
-        rule: 219  ~her_videogames.8.0-RECOMMEND_GAME u: 
-          line: 224 0  # ^keep ( ) 
-          line: 225 10  # Well I can recommend this game
+        rule: 207  ~her_videogames.7.143 a: 
+          line: 207 0  # If a fox can pilot a spaceship
+          Complexity of rule ~her_videogames.7.143- a: 1
+        rule: 212  ~her_videogames.7.144 a: 
+          line: 212 0  # [ '_0 ? That's a game by @0obj
+          Complexity of rule ~her_videogames.7.144- a: 1
+        rule: 213  ~her_videogames.7.145 b: 
+          line: 213 0  # Isn't it? I thought that it wa
+          Complexity of rule ~her_videogames.7.145- b: 1
+        rule: 214  ~her_videogames.7.146 b: 
+          line: 214 0  # Yeah, I thought so. I only kno
+          Complexity of rule ~her_videogames.7.146- b: 1
+        rule: 215  ~her_videogames.7.147 a: 
+          line: 215 0  # Do you want to talk about vide
+          Complexity of rule ~her_videogames.7.147- a: 1
+        rule: 216  ~her_videogames.7.148 a: 
+          line: 217 0  # [ Mel hasn't told me about tha
+          line: 218 92  # [ Hmm, Mel doesn't have anythi
+          Complexity of rule ~her_videogames.7.148- a: 1
+        rule: 222  ~her_videogames.8.0-RECOMMEND_GAME u: 
+          line: 227 0  # ^keep ( ) 
+          line: 228 10  # Well I can recommend this game
           Complexity of rule ~her_videogames.8.0-RECOMMEND_GAME u: 1
-        rule: 226  ~her_videogames.8.1 a: 
-          line: 226 0  # Actually I haven't played it m
+        rule: 229  ~her_videogames.8.1 a: 
+          line: 229 0  # Actually I haven't played it m
           Complexity of rule ~her_videogames.8.1- a: 1
-        rule: 227  ~her_videogames.8.2 a: 
-          line: 227 0  # I hope it will be fun! Because
+        rule: 230  ~her_videogames.8.2 a: 
+          line: 230 0  # I hope it will be fun! Because
           Complexity of rule ~her_videogames.8.2- a: 1
-        rule: 231  ~her_videogames.9.0 u: 
-          line: 231 0  # ^refine ( ) 
+        rule: 234  ~her_videogames.9.0 u: 
+          line: 234 0  # ^refine ( ) 
           Complexity of rule ~her_videogames.9.0- u: 1
-        rule: 232  ~her_videogames.9.1 a: 
-          line: 232 0  # Hell yes, says Mel. Video game
+        rule: 235  ~her_videogames.9.1 a: 
+          line: 235 0  # Hell yes, says Mel. Video game
           Complexity of rule ~her_videogames.9.1- a: 1
-        rule: 233  ~her_videogames.9.2 a: 
-          line: 233 0  # Video games are about as fun a
+        rule: 236  ~her_videogames.9.2 a: 
+          line: 236 0  # Video games are about as fun a
           Complexity of rule ~her_videogames.9.2- a: 1
-        rule: 239  ~her_videogames.10.0 t: 
-          line: 239 0  # ^keep ( ) ^ispending ( ~her_vi
-          if 240 45  
-          line: 240 41  # ^if 00x( ! $$_gambit_topic_pen
-          line: 241 83  # ^fail ( TOPIC ) 
-          ifend 242 104  
-          line: 242 99  # } 004 
+        rule: 242  ~her_videogames.10.0 t: 
+          line: 242 0  # ^keep ( ) ^ispending ( ~her_vi
+          if 243 45  
+          line: 243 41  # ^if 00x( ! $$_gambit_topic_pen
+          line: 244 83  # ^fail ( TOPIC ) 
+          ifend 245 104  
+          line: 245 99  # } 004 
           Complexity of rule ~her_videogames.10.0- t: 2
-        rule: 245  ~her_videogames.11.0 t: 
-          line: 245 0  # But at any rate, Mel promises 
-          line: 246 111  # you will get rekt. 
+        rule: 248  ~her_videogames.11.0 t: 
+          line: 248 0  # But at any rate, Mel promises 
+          line: 249 111  # you will get rekt. 
           Complexity of rule ~her_videogames.11.0- t: 1
-        rule: 247  ~her_videogames.11.1 a: 
-          line: 247 0  # Just ignore her, ^user ( ) 
+        rule: 250  ~her_videogames.11.1 a: 
+          line: 250 0  # Just ignore her, ^user ( ) 
           Complexity of rule ~her_videogames.11.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/chat/work.top
     topic: 2  ~work
@@ -36552,6 +36579,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
         rule: 717  ~questions_what.94.0 ?: 
           line: 722 0  # Well right now all I can think
           Complexity of rule ~questions_what.94.0- ?: 1
+        rule: 725  ~questions_what.95.0 u: 
+          line: 733 0  # I suppose I like sherbet 
+          Complexity of rule ~questions_what.95.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_when.top
     topic: 3  ~questions_when
         rule: 7  ~questions_when.0.0 ?: 
@@ -40510,76 +40540,76 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_prep.top
         rule: 123  ~pronounprep.7.0 u: 
           line: 123 0  # ^nofail ( TOPIC ^respond ( ~pr
           Complexity of rule ~pronounprep.7.0- u: 1
-        rule: 131  ~pronounprep.8.0 u: 
-          line: 136 0  # ^refine ( ) 
+        rule: 130  ~pronounprep.8.0 u: 
+          line: 135 0  # ^refine ( ) 
           Complexity of rule ~pronounprep.8.0- u: 1
-        rule: 137  ~pronounprep.8.1 a: 
-          line: 137 0  # ^input ( $last_before_pronoun 
+        rule: 136  ~pronounprep.8.1 a: 
+          line: 136 0  # ^input ( $last_before_pronoun 
           Complexity of rule ~pronounprep.8.1- a: 1
-        rule: 138  ~pronounprep.8.2 a: 
-          line: 138 0  # ^input ( $last_before_pronoun 
+        rule: 137  ~pronounprep.8.2 a: 
+          line: 137 0  # ^input ( $last_before_pronoun 
           Complexity of rule ~pronounprep.8.2- a: 1
-        rule: 139  ~pronounprep.8.3 a: 
-          line: 139 0  # ^input ( '_0 $last_after_prono
+        rule: 138  ~pronounprep.8.3 a: 
+          line: 138 0  # ^input ( '_0 $last_after_prono
           Complexity of rule ~pronounprep.8.3- a: 1
-        rule: 143  ~pronounprep.9.0 s: 
-          line: 147 0  # ^input ( I have insomnia ) 
-          line: 148 27  # ^fail ( SENTENCE ) 
+        rule: 142  ~pronounprep.9.0 s: 
+          line: 146 0  # ^input ( I have insomnia ) 
+          line: 147 27  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.9.0- s: 1
-        rule: 157  ~pronounprep.10.0 u: 
-          line: 157 0  # ^refine ( ) 
+        rule: 156  ~pronounprep.10.0 u: 
+          line: 156 0  # ^refine ( ) 
           Complexity of rule ~pronounprep.10.0- u: 1
-        rule: 158  ~pronounprep.10.1 a: 
-          line: 158 0  # ^mark ( ~sex_stuff ) 
+        rule: 157  ~pronounprep.10.1 a: 
+          line: 157 0  # ^mark ( ~sex_stuff ) 
           Complexity of rule ~pronounprep.10.1- a: 1
-        rule: 159  ~pronounprep.10.2 a: 
-          line: 159 0  # ^unmark ( ~sex_stuff ) ^unmark
+        rule: 158  ~pronounprep.10.2 a: 
+          line: 158 0  # ^unmark ( ~sex_stuff ) ^unmark
           Complexity of rule ~pronounprep.10.2- a: 1
-        rule: 170  ~pronounprep.11.0 u: 
-          line: 171 0  # ^input ( tell me about Mel's _
-          line: 172 34  # ^fail ( SENTENCE ) 
+        rule: 169  ~pronounprep.11.0 u: 
+          line: 170 0  # ^input ( tell me about Mel's _
+          line: 171 34  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.11.0- u: 1
-        rule: 175  ~pronounprep.12.0 u: 
-          line: 176 0  # ^input ( tell me about _0 Mel'
-          line: 177 37  # ^fail ( SENTENCE ) 
+        rule: 174  ~pronounprep.12.0 u: 
+          line: 175 0  # ^input ( tell me about _0 Mel'
+          line: 176 37  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.12.0- u: 1
-        rule: 180  ~pronounprep.13.0 u: 
-          line: 181 0  # ^input ( what does Mel think a
-          line: 182 40  # ^fail ( SENTENCE ) 
+        rule: 179  ~pronounprep.13.0 u: 
+          line: 180 0  # ^input ( what does Mel think a
+          line: 181 40  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.13.0- u: 1
-        rule: 185  ~pronounprep.14.0 u: 
-          line: 186 0  # ^input ( _0 Mel _1 ) 
-          line: 187 21  # ^fail ( SENTENCE ) 
+        rule: 184  ~pronounprep.14.0 u: 
+          line: 185 0  # ^input ( _0 Mel _1 ) 
+          line: 186 21  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.14.0- u: 1
-        rule: 190  ~pronounprep.15.0 u: 
-          line: 191 0  # ^input ( _0 Mel _1 ) 
-          line: 192 21  # ^fail ( SENTENCE ) 
+        rule: 189  ~pronounprep.15.0 u: 
+          line: 190 0  # ^input ( _0 Mel _1 ) 
+          line: 191 21  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.15.0- u: 1
-        rule: 196  ~pronounprep.16.0 u: 
-          line: 197 0  # ^input ( _0 Mel _1 ) 
-          line: 198 21  # ^fail ( SENTENCE ) 
+        rule: 195  ~pronounprep.16.0 u: 
+          line: 196 0  # ^input ( _0 Mel _1 ) 
+          line: 197 21  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.16.0- u: 1
-        rule: 203  ~pronounprep.17.0 u: 
-          line: 204 0  # ^input ( _0 Mel _1 ) 
-          line: 205 21  # ^fail ( SENTENCE ) 
+        rule: 202  ~pronounprep.17.0 u: 
+          line: 203 0  # ^input ( _0 Mel _1 ) 
+          line: 204 21  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.17.0- u: 1
-        rule: 206  ~pronounprep.18.0 u: 
-          line: 207 0  # ^input ( _0 Mel _1 ) 
-          line: 208 21  # ^fail ( SENTENCE ) 
+        rule: 205  ~pronounprep.18.0 u: 
+          line: 206 0  # ^input ( _0 Mel _1 ) 
+          line: 207 21  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.18.0- u: 1
-        rule: 211  ~pronounprep.19.0 u: 
-          line: 212 0  # ^input ( tell me about _0 Mel 
-          line: 213 35  # ^fail ( SENTENCE ) 
+        rule: 210  ~pronounprep.19.0 u: 
+          line: 211 0  # ^input ( tell me about _0 Mel 
+          line: 212 35  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.19.0- u: 1
-        rule: 216  ~pronounprep.20.0 u: 
-          line: 217 0  # ^input ( what does Mel think a
-          line: 218 40  # ^fail ( SENTENCE ) 
+        rule: 215  ~pronounprep.20.0 u: 
+          line: 216 0  # ^input ( what does Mel think a
+          line: 217 40  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.20.0- u: 1
-        rule: 221  ~pronounprep.21.0 u: 
-          line: 222 0  # ^input ( what does Mel think a
-          line: 223 40  # ^fail ( SENTENCE ) 
+        rule: 220  ~pronounprep.21.0 u: 
+          line: 221 0  # ^input ( what does Mel think a
+          line: 222 40  # ^fail ( SENTENCE ) 
           Complexity of rule ~pronounprep.21.0- u: 1
-        rule: 227  ~pronounprep.22.0 u: 
+        rule: 226  ~pronounprep.22.0 u: 
           Complexity of rule ~pronounprep.22.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_resolution.top
     topic: 5  ~savepronouns
@@ -40841,213 +40871,219 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_resoluti
         rule: 126  ~savepronouns.3.5 a: 
           line: 126 0  # $they_pronoun = ^join ( AUTOSP
           Complexity of rule ~savepronouns.3.5- a: 1
-        rule: 131  ~savepronouns.4.0 u: 
-          line: 132 0  # ^refine ( ) 
+        rule: 127  ~savepronouns.3.6 a: 
+          line: 127 0  # $they_pronoun = devils 
+          Complexity of rule ~savepronouns.3.6- a: 1
+        rule: 128  ~savepronouns.3.7 a: 
+          line: 128 0  # $they_pronoun = ghosts 
+          Complexity of rule ~savepronouns.3.7- a: 1
+        rule: 133  ~savepronouns.4.0 u: 
+          line: 134 0  # ^refine ( ) 
           Complexity of rule ~savepronouns.4.0- u: 1
-        rule: 133  ~savepronouns.4.1 a: 
-          line: 134 0  # $_name = _0 
-          line: 135 12  # @0 = ^query ( direct_vo ? numb
-          line: 136 52  # $_num = @0subject 
-          line: 137 70  # $it_pronoun = $_name 
-          line: 138 91  # ^refine ( ) 
+        rule: 135  ~savepronouns.4.1 a: 
+          line: 136 0  # $_name = _0 
+          line: 137 12  # @0 = ^query ( direct_vo ? numb
+          line: 138 52  # $_num = @0subject 
+          line: 139 70  # $it_pronoun = $_name 
+          line: 140 91  # ^refine ( ) 
           Complexity of rule ~savepronouns.4.1- a: 1
-        rule: 139  ~savepronouns.4.2 b: 
-          line: 140 0  # $here_pronoun = $_name 
+        rule: 141  ~savepronouns.4.2 b: 
+          line: 142 0  # $here_pronoun = $_name 
           Complexity of rule ~savepronouns.4.2- b: 1
-        rule: 141  ~savepronouns.4.3 b: 
-          line: 142 0  # $there_pronoun = $_name 
+        rule: 143  ~savepronouns.4.3 b: 
+          line: 144 0  # $there_pronoun = $_name 
           Complexity of rule ~savepronouns.4.3- b: 1
-    topic: 195  ~replacepronouns
-        rule: 201  ~replacepronouns.0.0 u: 
-          line: 202 0  # $last_before_pronoun = null 
-          line: 203 28  # $last_after_pronoun = null 
-          line: 204 55  # $last_punc = null 
+    topic: 197  ~replacepronouns
+        rule: 203  ~replacepronouns.0.0 u: 
+          line: 204 0  # $last_before_pronoun = null 
+          line: 205 28  # $last_after_pronoun = null 
+          line: 206 55  # $last_punc = null 
           Complexity of rule ~replacepronouns.0.0- u: 1
-        rule: 210  ~replacepronouns.1.0-HE u: 
-          line: 213 0  # ^refine ( ) 
+        rule: 212  ~replacepronouns.1.0-HE u: 
+          line: 215 0  # ^refine ( ) 
           Complexity of rule ~replacepronouns.1.0-HE u: 1
-        rule: 214  ~replacepronouns.1.1 a: 
-          line: 215 0  # $last_before_pronoun = '_0 
-          line: 216 27  # $last_after_pronoun = '_1 
-          line: 217 53  # $last_punc = $$punctuation 
-          line: 218 80  # $$made_pronoun_replacement = t
-          line: 219 114  # ^input ( '_0 $he_pronoun 's '_
+        rule: 216  ~replacepronouns.1.1 a: 
+          line: 217 0  # $last_before_pronoun = '_0 
+          line: 218 27  # $last_after_pronoun = '_1 
+          line: 219 53  # $last_punc = $$punctuation 
+          line: 220 80  # $$made_pronoun_replacement = t
+          line: 221 114  # ^input ( '_0 $he_pronoun 's '_
           Complexity of rule ~replacepronouns.1.1- a: 1
-        rule: 220  ~replacepronouns.1.2 a: 
-          line: 221 0  # $last_before_pronoun = '_0 
-          line: 222 27  # $last_after_pronoun = '_1 
-          line: 223 53  # $last_punc = $$punctuation 
-          line: 224 80  # $$made_pronoun_replacement = t
-          line: 225 114  # ^input ( '_0 $he_pronoun 's se
+        rule: 222  ~replacepronouns.1.2 a: 
+          line: 223 0  # $last_before_pronoun = '_0 
+          line: 224 27  # $last_after_pronoun = '_1 
+          line: 225 53  # $last_punc = $$punctuation 
+          line: 226 80  # $$made_pronoun_replacement = t
+          line: 227 114  # ^input ( '_0 $he_pronoun 's se
           Complexity of rule ~replacepronouns.1.2- a: 1
-        rule: 226  ~replacepronouns.1.3 a: 
-          line: 227 0  # $last_before_pronoun = '_0 
-          line: 228 27  # $last_after_pronoun = '_1 
-          line: 229 53  # $last_punc = $$punctuation 
-          line: 230 80  # $$made_pronoun_replacement = t
-          line: 231 114  # ^input ( '_0 $he_pronoun '_1 $
+        rule: 228  ~replacepronouns.1.3 a: 
+          line: 229 0  # $last_before_pronoun = '_0 
+          line: 230 27  # $last_after_pronoun = '_1 
+          line: 231 53  # $last_punc = $$punctuation 
+          line: 232 80  # $$made_pronoun_replacement = t
+          line: 233 114  # ^input ( '_0 $he_pronoun '_1 $
           Complexity of rule ~replacepronouns.1.3- a: 1
-        rule: 232  ~replacepronouns.1.4 a: 
-          line: 233 0  # $last_before_pronoun = '_0 
-          line: 234 27  # $last_after_pronoun = '_1 
-          line: 235 53  # $last_punc = $$punctuation 
-          line: 236 80  # $$made_pronoun_replacement = t
-          line: 237 114  # ^input ( '_0 $he_pronoun '_1 $
+        rule: 234  ~replacepronouns.1.4 a: 
+          line: 235 0  # $last_before_pronoun = '_0 
+          line: 236 27  # $last_after_pronoun = '_1 
+          line: 237 53  # $last_punc = $$punctuation 
+          line: 238 80  # $$made_pronoun_replacement = t
+          line: 239 114  # ^input ( '_0 $he_pronoun '_1 $
           Complexity of rule ~replacepronouns.1.4- a: 1
-        rule: 239  ~replacepronouns.2.0-HE u: 
-          line: 240 0  # $last_before_pronoun = '_0 
-          line: 241 27  # $last_after_pronoun = '_1 
-          line: 242 53  # $last_punc = $$punctuation 
-          line: 243 80  # $$made_pronoun_replacement = t
-          line: 244 114  # ^input ( '_0 $he_pronoun '_1 $
+        rule: 241  ~replacepronouns.2.0-HE u: 
+          line: 242 0  # $last_before_pronoun = '_0 
+          line: 243 27  # $last_after_pronoun = '_1 
+          line: 244 53  # $last_punc = $$punctuation 
+          line: 245 80  # $$made_pronoun_replacement = t
+          line: 246 114  # ^input ( '_0 $he_pronoun '_1 $
           Complexity of rule ~replacepronouns.2.0-HE u: 1
-        rule: 248  ~replacepronouns.3.0-SHE u: 
-          line: 249 0  # ^refine ( ) 
+        rule: 250  ~replacepronouns.3.0-SHE u: 
+          line: 251 0  # ^refine ( ) 
           Complexity of rule ~replacepronouns.3.0-SHE u: 1
-        rule: 252  ~replacepronouns.3.1 a: 
-          line: 253 0  # $last_before_pronoun = '_0 
-          line: 254 27  # $last_after_pronoun = '_1 
-          line: 255 53  # $last_punc = $$punctuation 
-          line: 256 80  # $$made_pronoun_replacement = t
-          line: 257 114  # ^input ( '_0 $she_pronoun 's s
+        rule: 254  ~replacepronouns.3.1 a: 
+          line: 255 0  # $last_before_pronoun = '_0 
+          line: 256 27  # $last_after_pronoun = '_1 
+          line: 257 53  # $last_punc = $$punctuation 
+          line: 258 80  # $$made_pronoun_replacement = t
+          line: 259 114  # ^input ( '_0 $she_pronoun 's s
           Complexity of rule ~replacepronouns.3.1- a: 1
-        rule: 258  ~replacepronouns.3.2 a: 
-          line: 259 0  # $last_before_pronoun = '_0 
-          line: 260 27  # $last_after_pronoun = '_1 
-          line: 261 53  # $last_punc = $$punctuation 
-          line: 262 80  # $$made_pronoun_replacement = t
-          line: 263 114  # ^input ( '_0 $she_pronoun '_1 
+        rule: 260  ~replacepronouns.3.2 a: 
+          line: 261 0  # $last_before_pronoun = '_0 
+          line: 262 27  # $last_after_pronoun = '_1 
+          line: 263 53  # $last_punc = $$punctuation 
+          line: 264 80  # $$made_pronoun_replacement = t
+          line: 265 114  # ^input ( '_0 $she_pronoun '_1 
           Complexity of rule ~replacepronouns.3.2- a: 1
-        rule: 264  ~replacepronouns.3.3 a: 
-          line: 265 0  # $last_before_pronoun = '_0 
-          line: 266 27  # $last_after_pronoun = '_1 
-          line: 267 53  # $last_punc = $$punctuation 
-          line: 268 80  # $$made_pronoun_replacement = t
-          line: 269 114  # ^input ( '_0 $she_pronoun '_1 
+        rule: 266  ~replacepronouns.3.3 a: 
+          line: 267 0  # $last_before_pronoun = '_0 
+          line: 268 27  # $last_after_pronoun = '_1 
+          line: 269 53  # $last_punc = $$punctuation 
+          line: 270 80  # $$made_pronoun_replacement = t
+          line: 271 114  # ^input ( '_0 $she_pronoun '_1 
           Complexity of rule ~replacepronouns.3.3- a: 1
-        rule: 271  ~replacepronouns.4.0-SHE u: 
-          line: 272 0  # $last_before_pronoun = '_0 
-          line: 273 27  # $last_after_pronoun = '_1 
-          line: 274 53  # $last_punc = $$punctuation 
-          line: 275 80  # $$made_pronoun_replacement = t
-          line: 276 114  # ^input ( '_0 $she_pronoun '_1 
+        rule: 273  ~replacepronouns.4.0-SHE u: 
+          line: 274 0  # $last_before_pronoun = '_0 
+          line: 275 27  # $last_after_pronoun = '_1 
+          line: 276 53  # $last_punc = $$punctuation 
+          line: 277 80  # $$made_pronoun_replacement = t
+          line: 278 114  # ^input ( '_0 $she_pronoun '_1 
           Complexity of rule ~replacepronouns.4.0-SHE u: 1
-        rule: 279  ~replacepronouns.5.0-IT u: 
-          line: 280 0  # ^refine ( ) 
+        rule: 281  ~replacepronouns.5.0-IT u: 
+          line: 282 0  # ^refine ( ) 
           Complexity of rule ~replacepronouns.5.0-IT u: 1
-        rule: 281  ~replacepronouns.5.1 a: 
-          line: 282 0  # $last_before_pronoun = '_0 
-          line: 283 27  # $last_after_pronoun = '_1 
-          line: 284 53  # $last_punc = $$punctuation 
-          line: 285 80  # $$made_pronoun_replacement = t
-          line: 286 114  # ^input ( '_0 $it_pronoun 's '_
+        rule: 283  ~replacepronouns.5.1 a: 
+          line: 284 0  # $last_before_pronoun = '_0 
+          line: 285 27  # $last_after_pronoun = '_1 
+          line: 286 53  # $last_punc = $$punctuation 
+          line: 287 80  # $$made_pronoun_replacement = t
+          line: 288 114  # ^input ( '_0 $it_pronoun 's '_
           Complexity of rule ~replacepronouns.5.1- a: 1
-        rule: 287  ~replacepronouns.5.2 a: 
-          line: 288 0  # $last_before_pronoun = '_0 
-          line: 289 27  # $last_after_pronoun = '_1 
-          line: 290 53  # $last_punc = $$punctuation 
-          line: 291 80  # $$made_pronoun_replacement = t
-          line: 292 114  # ^input ( '_0 $it_pronoun 's se
+        rule: 289  ~replacepronouns.5.2 a: 
+          line: 290 0  # $last_before_pronoun = '_0 
+          line: 291 27  # $last_after_pronoun = '_1 
+          line: 292 53  # $last_punc = $$punctuation 
+          line: 293 80  # $$made_pronoun_replacement = t
+          line: 294 114  # ^input ( '_0 $it_pronoun 's se
           Complexity of rule ~replacepronouns.5.2- a: 1
-        rule: 293  ~replacepronouns.5.3 a: 
-          line: 294 0  # $last_before_pronoun = '_0 
-          line: 295 27  # $last_after_pronoun = '_1 
-          line: 296 53  # $last_punc = $$punctuation 
-          line: 297 80  # $$made_pronoun_replacement = t
-          line: 298 114  # ^input ( '_0 $it_pronoun '_1 $
+        rule: 295  ~replacepronouns.5.3 a: 
+          line: 296 0  # $last_before_pronoun = '_0 
+          line: 297 27  # $last_after_pronoun = '_1 
+          line: 298 53  # $last_punc = $$punctuation 
+          line: 299 80  # $$made_pronoun_replacement = t
+          line: 300 114  # ^input ( '_0 $it_pronoun '_1 $
           Complexity of rule ~replacepronouns.5.3- a: 1
-        rule: 299  ~replacepronouns.5.4 a: 
-          line: 300 0  # $last_before_pronoun = '_0 
-          line: 301 27  # $last_after_pronoun = '_1 
-          line: 302 53  # $last_punc = $$punctuation 
-          line: 303 80  # $$made_pronoun_replacement = t
-          line: 304 114  # ^input ( '_0 $it_pronoun '_1 $
+        rule: 301  ~replacepronouns.5.4 a: 
+          line: 302 0  # $last_before_pronoun = '_0 
+          line: 303 27  # $last_after_pronoun = '_1 
+          line: 304 53  # $last_punc = $$punctuation 
+          line: 305 80  # $$made_pronoun_replacement = t
+          line: 306 114  # ^input ( '_0 $it_pronoun '_1 $
           Complexity of rule ~replacepronouns.5.4- a: 1
-        rule: 306  ~replacepronouns.6.0-IT u: 
-          line: 307 0  # $last_before_pronoun = '_0 
-          line: 308 27  # $last_after_pronoun = '_1 
-          line: 309 53  # $last_punc = $$punctuation 
-          line: 310 80  # $$made_pronoun_replacement = t
-          line: 311 114  # ^input ( '_0 $it_pronoun '_1 $
+        rule: 308  ~replacepronouns.6.0-IT u: 
+          line: 309 0  # $last_before_pronoun = '_0 
+          line: 310 27  # $last_after_pronoun = '_1 
+          line: 311 53  # $last_punc = $$punctuation 
+          line: 312 80  # $$made_pronoun_replacement = t
+          line: 313 114  # ^input ( '_0 $it_pronoun '_1 $
           Complexity of rule ~replacepronouns.6.0-IT u: 1
-        rule: 314  ~replacepronouns.7.0-IT u: 
-          line: 315 0  # $last_before_pronoun = '_0 
-          line: 316 27  # $last_after_pronoun = '_1 
-          line: 317 53  # $last_punc = $$punctuation 
-          line: 318 80  # $$made_pronoun_replacement = t
-          line: 319 114  # ^input ( '_0 $it_pronoun '_1 $
+        rule: 316  ~replacepronouns.7.0-IT u: 
+          line: 317 0  # $last_before_pronoun = '_0 
+          line: 318 27  # $last_after_pronoun = '_1 
+          line: 319 53  # $last_punc = $$punctuation 
+          line: 320 80  # $$made_pronoun_replacement = t
+          line: 321 114  # ^input ( '_0 $it_pronoun '_1 $
           Complexity of rule ~replacepronouns.7.0-IT u: 1
-        rule: 321  ~replacepronouns.8.0 u: 
-          line: 322 0  # $it_pronoun = null 
+        rule: 323  ~replacepronouns.8.0 u: 
+          line: 324 0  # $it_pronoun = null 
           Complexity of rule ~replacepronouns.8.0- u: 1
-        rule: 325  ~replacepronouns.9.0-THEY u: 
-          line: 326 0  # ^refine ( ) 
+        rule: 327  ~replacepronouns.9.0-THEY u: 
+          line: 328 0  # ^refine ( ) 
           Complexity of rule ~replacepronouns.9.0-THEY u: 1
-        rule: 327  ~replacepronouns.9.1 a: 
-          line: 328 0  # $last_before_pronoun = '_0 
-          line: 329 27  # $last_after_pronoun = '_1 
-          line: 330 53  # $last_punc = $$punctuation 
-          line: 331 80  # $$made_pronoun_replacement = t
-          line: 332 114  # ^input ( '_0 $they_pronoun '_1
+        rule: 329  ~replacepronouns.9.1 a: 
+          line: 330 0  # $last_before_pronoun = '_0 
+          line: 331 27  # $last_after_pronoun = '_1 
+          line: 332 53  # $last_punc = $$punctuation 
+          line: 333 80  # $$made_pronoun_replacement = t
+          line: 334 114  # ^input ( '_0 $they_pronoun '_1
           Complexity of rule ~replacepronouns.9.1- a: 1
-        rule: 333  ~replacepronouns.9.2 a: 
-          line: 334 0  # $last_before_pronoun = '_0 
-          line: 335 27  # $last_after_pronoun = '_1 
-          line: 336 53  # $last_punc = $$punctuation 
-          line: 337 80  # $$made_pronoun_replacement = t
-          line: 338 114  # ^input ( '_0 $they_pronoun '_1
+        rule: 335  ~replacepronouns.9.2 a: 
+          line: 336 0  # $last_before_pronoun = '_0 
+          line: 337 27  # $last_after_pronoun = '_1 
+          line: 338 53  # $last_punc = $$punctuation 
+          line: 339 80  # $$made_pronoun_replacement = t
+          line: 340 114  # ^input ( '_0 $they_pronoun '_1
           Complexity of rule ~replacepronouns.9.2- a: 1
-        rule: 340  ~replacepronouns.10.0-THEY u: 
-          line: 341 0  # $last_before_pronoun = '_0 
-          line: 342 27  # $last_after_pronoun = '_1 
-          line: 343 53  # $last_punc = $$punctuation 
-          line: 344 80  # $$made_pronoun_replacement = t
-          line: 345 114  # ^input ( '_0 $they_pronoun '_1
+        rule: 342  ~replacepronouns.10.0-THEY u: 
+          line: 343 0  # $last_before_pronoun = '_0 
+          line: 344 27  # $last_after_pronoun = '_1 
+          line: 345 53  # $last_punc = $$punctuation 
+          line: 346 80  # $$made_pronoun_replacement = t
+          line: 347 114  # ^input ( '_0 $they_pronoun '_1
           Complexity of rule ~replacepronouns.10.0-THEY u: 1
-        rule: 353  ~replacepronouns.11.0-HERE u: 
-          line: 354 0  # $last_before_pronoun = '_0 
-          line: 355 27  # $last_after_pronoun = '_1 
-          line: 356 53  # $last_punc = $$punctuation 
-          line: 357 80  # $$made_pronoun_replacement = t
-          line: 358 114  # ^input ( '_0 $here_pronoun '_1
+        rule: 355  ~replacepronouns.11.0-HERE u: 
+          line: 356 0  # $last_before_pronoun = '_0 
+          line: 357 27  # $last_after_pronoun = '_1 
+          line: 358 53  # $last_punc = $$punctuation 
+          line: 359 80  # $$made_pronoun_replacement = t
+          line: 360 114  # ^input ( '_0 $here_pronoun '_1
           Complexity of rule ~replacepronouns.11.0-HERE u: 1
-        rule: 360  ~replacepronouns.12.0-HERE u: 
-          line: 361 0  # $last_before_pronoun = '_0 
-          line: 362 27  # $last_after_pronoun = '_1 
-          line: 363 53  # $last_punc = $$punctuation 
-          line: 364 80  # $$made_pronoun_replacement = t
-          line: 365 114  # ^input ( '_0 $here_pronoun '_1
+        rule: 362  ~replacepronouns.12.0-HERE u: 
+          line: 363 0  # $last_before_pronoun = '_0 
+          line: 364 27  # $last_after_pronoun = '_1 
+          line: 365 53  # $last_punc = $$punctuation 
+          line: 366 80  # $$made_pronoun_replacement = t
+          line: 367 114  # ^input ( '_0 $here_pronoun '_1
           Complexity of rule ~replacepronouns.12.0-HERE u: 1
-        rule: 367  ~replacepronouns.13.0-THERE u: 
-          line: 368 0  # $last_before_pronoun = '_0 
-          line: 369 27  # $last_after_pronoun = '_1 
-          line: 370 53  # $last_punc = $$punctuation 
-          line: 371 80  # $$made_pronoun_replacement = t
-          line: 372 114  # ^input ( '_0 $there_pronoun '_
+        rule: 369  ~replacepronouns.13.0-THERE u: 
+          line: 370 0  # $last_before_pronoun = '_0 
+          line: 371 27  # $last_after_pronoun = '_1 
+          line: 372 53  # $last_punc = $$punctuation 
+          line: 373 80  # $$made_pronoun_replacement = t
+          line: 374 114  # ^input ( '_0 $there_pronoun '_
           Complexity of rule ~replacepronouns.13.0-THERE u: 1
-        rule: 374  ~replacepronouns.14.0-THERE u: 
-          line: 375 0  # $last_before_pronoun = '_0 
-          line: 376 27  # $last_after_pronoun = '_1 
-          line: 377 53  # $last_punc = $$punctuation 
-          line: 378 80  # $$made_pronoun_replacement = t
-          line: 379 114  # ^input ( '_0 $there_pronoun '_
+        rule: 376  ~replacepronouns.14.0-THERE u: 
+          line: 377 0  # $last_before_pronoun = '_0 
+          line: 378 27  # $last_after_pronoun = '_1 
+          line: 379 53  # $last_punc = $$punctuation 
+          line: 380 80  # $$made_pronoun_replacement = t
+          line: 381 114  # ^input ( '_0 $there_pronoun '_
           Complexity of rule ~replacepronouns.14.0-THERE u: 1
-        rule: 386  ~replacepronouns.15.0 s: 
-          line: 386 0  # ^settokenflags ( 536870912 ) 
-          Complexity of rule ~replacepronouns.15.0- s: 1
-        rule: 387  ~replacepronouns.16.0 s: 
-          line: 387 0  # ^settokenflags ( 536870912 ) 
-          Complexity of rule ~replacepronouns.16.0- s: 1
-        rule: 388  ~replacepronouns.17.0 s: 
+        rule: 388  ~replacepronouns.15.0 s: 
           line: 388 0  # ^settokenflags ( 536870912 ) 
-          Complexity of rule ~replacepronouns.17.0- s: 1
-        rule: 389  ~replacepronouns.18.0 s: 
+          Complexity of rule ~replacepronouns.15.0- s: 1
+        rule: 389  ~replacepronouns.16.0 s: 
           line: 389 0  # ^settokenflags ( 536870912 ) 
-          Complexity of rule ~replacepronouns.18.0- s: 1
-        rule: 390  ~replacepronouns.19.0 s: 
+          Complexity of rule ~replacepronouns.16.0- s: 1
+        rule: 390  ~replacepronouns.17.0 s: 
           line: 390 0  # ^settokenflags ( 536870912 ) 
+          Complexity of rule ~replacepronouns.17.0- s: 1
+        rule: 391  ~replacepronouns.18.0 s: 
+          line: 391 0  # ^settokenflags ( 536870912 ) 
+          Complexity of rule ~replacepronouns.18.0- s: 1
+        rule: 392  ~replacepronouns.19.0 s: 
+          line: 392 0  # ^settokenflags ( 536870912 ) 
           Complexity of rule ~replacepronouns.19.0- s: 1
-        rule: 397  ~replacepronouns.20.0 u: 
+        rule: 399  ~replacepronouns.20.0 u: 
           Complexity of rule ~replacepronouns.20.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_common.top
     topic: 3  ~pronoun_common
@@ -41301,19 +41337,23 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_common.t
           line: 262 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.76.0- s: 1
         rule: 265  ~pronoun_common.77.0 s: 
-          line: 265 0  # $$skip_pronoun_resolution = 1 
           Complexity of rule ~pronoun_common.77.0- s: 1
         rule: 268  ~pronoun_common.78.0 s: 
-          line: 268 0  # $$skip_pronoun_resolution = 1 
           Complexity of rule ~pronoun_common.78.0- s: 1
-        rule: 271  ~pronoun_common.79.0 ?: 
-          line: 271 0  # ^input ( where are we ) ^fail 
-          Complexity of rule ~pronoun_common.79.0- ?: 1
+        rule: 271  ~pronoun_common.79.0 s: 
+          line: 271 0  # $$skip_pronoun_resolution = 1 
+          Complexity of rule ~pronoun_common.79.0- s: 1
         rule: 274  ~pronoun_common.80.0 ?: 
           line: 274 0  # ^input ( where are we ) ^fail 
           Complexity of rule ~pronoun_common.80.0- ?: 1
-        rule: 277  ~pronoun_common.81.0 s: 
-          Complexity of rule ~pronoun_common.81.0- s: 1
+        rule: 277  ~pronoun_common.81.0 ?: 
+          line: 277 0  # ^input ( where are we ) ^fail 
+          Complexity of rule ~pronoun_common.81.0- ?: 1
+        rule: 280  ~pronoun_common.82.0 s: 
+          line: 280 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.82.0- s: 1
+        rule: 283  ~pronoun_common.83.0 s: 
+          Complexity of rule ~pronoun_common.83.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_empty_input.top
     topic: 3  ~empty_input
         rule: 8  ~empty_input.0.0 t: 
