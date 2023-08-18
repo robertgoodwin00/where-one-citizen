@@ -6799,37 +6799,37 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/cheree.top
           line: 68 0  # ^reuse ( ~time_dilation.EXPLAI
           Complexity of rule ~cheree.5.2- a: 1
         rule: 71  ~cheree.6.0 u: 
-          line: 78 0  # M-marry? I never.... 
+          line: 79 0  # M-marry? I never.... 
           Complexity of rule ~cheree.6.0- u: 1
-        rule: 79  ~cheree.6.1 a: 
-          line: 79 0  # Maybe I wanted to marry. No, m
-          line: 80 57  # But that wasn't to be, was it?
-          line: 81 122  # $$a_code = 29 
+        rule: 80  ~cheree.6.1 a: 
+          line: 80 0  # Maybe I wanted to marry. No, m
+          line: 81 57  # But that wasn't to be, was it?
+          line: 82 122  # $$a_code = 29 
           Complexity of rule ~cheree.6.1- a: 1
-        rule: 84  ~cheree.7.0 ?: 
-          line: 88 0  # I think I haven't fully unders
+        rule: 85  ~cheree.7.0 ?: 
+          line: 89 0  # I think I haven't fully unders
           Complexity of rule ~cheree.7.0- ?: 1
-        rule: 91  ~cheree.8.0 ?: 
-          line: 95 0  # At school? I never attended sc
-          line: 96 48  # ^addtopic ( ~schools ) 
+        rule: 92  ~cheree.8.0 ?: 
+          line: 96 0  # At school? I never attended sc
+          line: 97 48  # ^addtopic ( ~schools ) 
           Complexity of rule ~cheree.8.0- ?: 1
-        rule: 97  ~cheree.8.1 a: 
-          line: 97 0  # Because of my mother and my tr
+        rule: 98  ~cheree.8.1 a: 
+          line: 98 0  # Because of my mother and my tr
           Complexity of rule ~cheree.8.1- a: 1
-        rule: 100  ~cheree.9.0 u: 
-          line: 100 0  # My reputation, yes. I never wa
-          line: 101 48  # My mother was the driving forc
+        rule: 101  ~cheree.9.0 u: 
+          line: 101 0  # My reputation, yes. I never wa
+          line: 102 48  # My mother was the driving forc
           Complexity of rule ~cheree.9.0- u: 1
-        rule: 104  ~cheree.10.0 u: 
-          line: 105 0  # $ghost_k = 1 
-          line: 106 13  # I think so. Unless it was an a
-          line: 107 86  # I have no memory of ever havin
+        rule: 105  ~cheree.10.0 u: 
+          line: 106 0  # $ghost_k = 1 
+          line: 107 13  # I think so. Unless it was an a
+          line: 108 86  # I have no memory of ever havin
           Complexity of rule ~cheree.10.0- u: 1
-        rule: 110  ~cheree.11.0 u: 
-          line: 114 0  # Why thank you so much, ^user (
+        rule: 111  ~cheree.11.0 u: 
+          line: 115 0  # Why thank you so much, ^user (
           Complexity of rule ~cheree.11.0- u: 1
-        rule: 118  ~cheree.12.0 s: 
-          line: 118 0  # Yes, and I began at home mysel
+        rule: 119  ~cheree.12.0 s: 
+          line: 119 0  # Yes, and I began at home mysel
           Complexity of rule ~cheree.12.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/people/crysanthea.top
     topic: 3  ~crysanthea
@@ -25269,135 +25269,138 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/17_Matl
           line: 97 0  # What a horrid place this would
           line: 98 46  # $$a_code = 0 
           Complexity of rule ~location17.20.0- u: 1
-        rule: 104  ~location17.21.0 t: 
-          line: 104 0  # ^keep ( ) ^fail ( TOPIC ) 
-          Complexity of rule ~location17.21.0- t: 1
-        rule: 107  ~location17.22.0 t: 
-          line: 107 0  # Of course umbrellas are used b
-          line: 108 95  # Remembering this has helped us
+        rule: 100  ~location17.21.0 u: 
+          line: 104 0  # That I know of, there were no 
+          Complexity of rule ~location17.21.0- u: 1
+        rule: 110  ~location17.22.0 t: 
+          line: 110 0  # ^keep ( ) ^fail ( TOPIC ) 
           Complexity of rule ~location17.22.0- t: 1
-        rule: 109  ~location17.22.1 a: 
-          line: 109 0  # It may be an important clue, r
-          Complexity of rule ~location17.22.1- a: 1
-        rule: 111  ~location17.23.0 t: 
-          line: 111 0  # Talking about umbrellas with y
-          line: 112 82  # I think there is naught more t
-          line: 113 157  # $$t_code = 5 
-          line: 114 170  # $cooldown = 0 
-          line: 115 184  # @1 = ^query ( direct_svo 17 kn
-          line: 116 222  # ^delete ( @1 ) 
-          line: 117 237  # ^createfact ( 17 known 2 ) 
-          line: 118 264  # $$update_loc = 17 
+        rule: 113  ~location17.23.0 t: 
+          line: 113 0  # Of course umbrellas are used b
+          line: 114 95  # Remembering this has helped us
           Complexity of rule ~location17.23.0- t: 1
-        rule: 120  ~location17.24.0 t: 
-          line: 120 0  # I think there is nothing more 
+        rule: 115  ~location17.23.1 a: 
+          line: 115 0  # It may be an important clue, r
+          Complexity of rule ~location17.23.1- a: 1
+        rule: 117  ~location17.24.0 t: 
+          line: 117 0  # Talking about umbrellas with y
+          line: 118 82  # I think there is naught more t
+          line: 119 157  # $$t_code = 5 
+          line: 120 170  # $cooldown = 0 
+          line: 121 184  # @1 = ^query ( direct_svo 17 kn
+          line: 122 222  # ^delete ( @1 ) 
+          line: 123 237  # ^createfact ( 17 known 2 ) 
+          line: 124 264  # $$update_loc = 17 
           Complexity of rule ~location17.24.0- t: 1
-        rule: 121  ~location17.24.1 a: 
-          line: 121 0  # I don't know, ^user ( ) . Just
-          Complexity of rule ~location17.24.1- a: 1
-        rule: 123  ~location17.25.0 t: 
-          line: 123 0  # This...is where my body was fo
-          line: 124 35  # $ghost_k = 1 
+        rule: 126  ~location17.25.0 t: 
+          line: 126 0  # I think there is nothing more 
           Complexity of rule ~location17.25.0- t: 1
-        rule: 125  ~location17.25.1 a: 
-          line: 125 0  # I don't know why. I don't reme
+        rule: 127  ~location17.25.1 a: 
+          line: 127 0  # I don't know, ^user ( ) . Just
           Complexity of rule ~location17.25.1- a: 1
-        rule: 126  ~location17.25.2 a: 
-          line: 126 0  # Yes, here. ^gambit ( ~location
-          Complexity of rule ~location17.25.2- a: 1
-        rule: 128  ~location17.26.0 t: 
-          line: 128 0  # But I'm certain my death did n
-          line: 129 92  # Ugly though this bog quite is,
+        rule: 129  ~location17.26.0 t: 
+          line: 129 0  # This...is where my body was fo
+          line: 130 35  # $ghost_k = 1 
           Complexity of rule ~location17.26.0- t: 1
-        rule: 130  ~location17.26.1 a: 
-          line: 130 0  # Because I'm sensitive to such 
+        rule: 131  ~location17.26.1 a: 
+          line: 131 0  # I don't know why. I don't reme
           Complexity of rule ~location17.26.1- a: 1
-        rule: 132  ~location17.27.0 t: 
-          line: 132 0  # Presumably, the perp hoped tha
-          line: 133 98  # Until it was too late. I don't
+        rule: 132  ~location17.26.2 a: 
+          line: 132 0  # Yes, here. ^gambit ( ~location
+          Complexity of rule ~location17.26.2- a: 1
+        rule: 134  ~location17.27.0 t: 
+          line: 134 0  # But I'm certain my death did n
+          line: 135 92  # Ugly though this bog quite is,
           Complexity of rule ~location17.27.0- t: 1
-        rule: 134  ~location17.27.1 a: 
-          line: 134 0  # At least that's the extent of 
-          line: 135 71  # $$a_code = 3 
+        rule: 136  ~location17.27.1 a: 
+          line: 136 0  # Because I'm sensitive to such 
           Complexity of rule ~location17.27.1- a: 1
-        rule: 136  ~location17.27.2 a: 
-          line: 136 0  # Yes. ^gambit ( ~location17 ) 
-          Complexity of rule ~location17.27.2- a: 1
         rule: 138  ~location17.28.0 t: 
-          line: 138 0  # This small-town case came and 
-          line: 139 55  # You see, there was a much bigg
-          line: 140 154  # Have you heard of the Whitecha
-          line: 141 209  # $$a_code = 7 
+          line: 138 0  # Presumably, the perp hoped tha
+          line: 139 98  # Until it was too late. I don't
           Complexity of rule ~location17.28.0- t: 1
-        rule: 142  ~location17.28.1 a: 
-          line: 142 0  # Yes, of course you would know.
+        rule: 140  ~location17.28.1 a: 
+          line: 140 0  # At least that's the extent of 
+          line: 141 71  # $$a_code = 3 
           Complexity of rule ~location17.28.1- a: 1
-        rule: 143  ~location17.28.2 a: 
-          line: 143 0  # ^gambit ( ~location17 ) 
+        rule: 142  ~location17.28.2 a: 
+          line: 142 0  # Yes. ^gambit ( ~location17 ) 
           Complexity of rule ~location17.28.2- a: 1
-        rule: 144  ~location17.28.3 a: 
-          line: 144 0  # ^gambit ( ~location17 ) 
-          Complexity of rule ~location17.28.3- a: 1
-        rule: 145  ~location17.28.4 a: 
-          line: 145 0  # Exactly. ^gambit ( ~location17
-          Complexity of rule ~location17.28.4- a: 1
-        rule: 146  ~location17.28.5 a: 
-          line: 146 0  # ^gambit ( ~location17 ) 
-          Complexity of rule ~location17.28.5- a: 1
-        rule: 148  ~location17.29.0 t: 
-          line: 148 0  # The Whitechapel murders better
-          line: 149 69  # I came to know about THAT inve
-          line: 150 117  # But I'm getting way ahead of t
-          line: 151 214  # We're at the scene where my ow
-          line: 152 265  # there ought to be something ab
-          line: 153 307  # $$a_code = 0 
+        rule: 144  ~location17.29.0 t: 
+          line: 144 0  # This small-town case came and 
+          line: 145 55  # You see, there was a much bigg
+          line: 146 154  # Have you heard of the Whitecha
+          line: 147 209  # $$a_code = 7 
           Complexity of rule ~location17.29.0- t: 1
-        rule: 154  ~location17.29.1 a: 
-          line: 154 0  # ^gambit ( ~location17 ) 
+        rule: 148  ~location17.29.1 a: 
+          line: 148 0  # Yes, of course you would know.
           Complexity of rule ~location17.29.1- a: 1
-        rule: 156  ~location17.30.0 t: 
-          line: 156 0  # They all had umbrellas. I can 
-          line: 157 45  # My first memory as a disembodi
-          line: 158 166  # $$a_code = 14 
-          line: 159 180  # $$they_pronoun = umbrellas 
+        rule: 149  ~location17.29.2 a: 
+          line: 149 0  # ^gambit ( ~location17 ) 
+          Complexity of rule ~location17.29.2- a: 1
+        rule: 150  ~location17.29.3 a: 
+          line: 150 0  # ^gambit ( ~location17 ) 
+          Complexity of rule ~location17.29.3- a: 1
+        rule: 151  ~location17.29.4 a: 
+          line: 151 0  # Exactly. ^gambit ( ~location17
+          Complexity of rule ~location17.29.4- a: 1
+        rule: 152  ~location17.29.5 a: 
+          line: 152 0  # ^gambit ( ~location17 ) 
+          Complexity of rule ~location17.29.5- a: 1
+        rule: 154  ~location17.30.0 t: 
+          line: 154 0  # The Whitechapel murders better
+          line: 155 69  # I came to know about THAT inve
+          line: 156 117  # But I'm getting way ahead of t
+          line: 157 214  # We're at the scene where my ow
+          line: 158 265  # there ought to be something ab
+          line: 159 307  # $$a_code = 0 
           Complexity of rule ~location17.30.0- t: 1
         rule: 160  ~location17.30.1 a: 
-          line: 160 0  # I don't know, ^user ( ) . I ha
-          line: 161 93  # But there's so much I don't re
+          line: 160 0  # ^gambit ( ~location17 ) 
           Complexity of rule ~location17.30.1- a: 1
-        rule: 163  ~location17.31.0 t: 
-          line: 163 0  # No evidence was found by the p
-          line: 164 59  # Even were there some, it would
+        rule: 162  ~location17.31.0 t: 
+          line: 162 0  # They all had umbrellas. I can 
+          line: 163 45  # My first memory as a disembodi
+          line: 164 166  # $$a_code = 14 
+          line: 165 180  # $$they_pronoun = umbrellas 
           Complexity of rule ~location17.31.0- t: 1
-        rule: 165  ~location17.31.1 a: 
-          line: 165 0  # Because it was a very long tim
+        rule: 166  ~location17.31.1 a: 
+          line: 166 0  # I don't know, ^user ( ) . I ha
+          line: 167 93  # But there's so much I don't re
           Complexity of rule ~location17.31.1- a: 1
-        rule: 167  ~location17.32.0 t: 
-          line: 167 0  # I brought you here because...w
+        rule: 169  ~location17.32.0 t: 
+          line: 169 0  # No evidence was found by the p
+          line: 170 59  # Even were there some, it would
           Complexity of rule ~location17.32.0- t: 1
-        rule: 168  ~location17.32.1 a: 
-          line: 168 0  # We need to look for clues abou
+        rule: 171  ~location17.32.1 a: 
+          line: 171 0  # Because it was a very long tim
           Complexity of rule ~location17.32.1- a: 1
-        rule: 170  ~location17.33.0 t: 
-          line: 170 0  # It's a strange thing, though, 
-          line: 171 61  # $$they_pronoun = umbrellas 
+        rule: 173  ~location17.33.0 t: 
+          line: 173 0  # I brought you here because...w
           Complexity of rule ~location17.33.0- t: 1
-        rule: 172  ~location17.33.1 a: 
-          line: 172 0  # I can't put my finger on it, b
+        rule: 174  ~location17.33.1 a: 
+          line: 174 0  # We need to look for clues abou
           Complexity of rule ~location17.33.1- a: 1
-        rule: 174  ~location17.34.0 t: 
-          line: 174 0  # I should count it as a fortuna
+        rule: 176  ~location17.34.0 t: 
+          line: 176 0  # It's a strange thing, though, 
+          line: 177 61  # $$they_pronoun = umbrellas 
           Complexity of rule ~location17.34.0- t: 1
-        rule: 175  ~location17.34.1 a: 
-          line: 175 0  # Because it's unsightly? 
+        rule: 178  ~location17.34.1 a: 
+          line: 178 0  # I can't put my finger on it, b
           Complexity of rule ~location17.34.1- a: 1
-        rule: 179  ~location17.35.0 t: 
-          line: 179 0  # Why does it seem curious to me
-          line: 180 73  # $$they_pronoun = umbrellas 
+        rule: 180  ~location17.35.0 t: 
+          line: 180 0  # I should count it as a fortuna
           Complexity of rule ~location17.35.0- t: 1
         rule: 181  ~location17.35.1 a: 
-          line: 181 0  # Something about that could be 
+          line: 181 0  # Because it's unsightly? 
           Complexity of rule ~location17.35.1- a: 1
+        rule: 185  ~location17.36.0 t: 
+          line: 185 0  # Why does it seem curious to me
+          line: 186 73  # $$they_pronoun = umbrellas 
+          Complexity of rule ~location17.36.0- t: 1
+        rule: 187  ~location17.36.1 a: 
+          line: 187 0  # Something about that could be 
+          Complexity of rule ~location17.36.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/18_African_Savannah.top
     topic: 4  ~location18
         rule: 13  ~location18.0.0 u: 
@@ -25682,68 +25685,74 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/19_Nois
           line: 155 0  # Yes yes, a stingray's sting ca
           Complexity of rule ~location19.32.8- a: 1
         rule: 156  ~location19.32.9 a: 
-          line: 156 0  # Shark is what most people gues
+          line: 156 0  # Manta is a good guess. ^gambit
           Complexity of rule ~location19.32.9- a: 1
-        rule: 157  ~location19.32.10 b: 
-          line: 157 0  # ^gambit ( ~location19 ) 
-          Complexity of rule ~location19.32.10- b: 1
-        rule: 158  ~location19.32.11 a: 
-          line: 158 0  # Oh, not many people even know 
-          Complexity of rule ~location19.32.11- a: 1
+        rule: 157  ~location19.32.10 a: 
+          line: 157 0  # Shark is what most people gues
+          Complexity of rule ~location19.32.10- a: 1
+        rule: 158  ~location19.32.11 b: 
+          line: 158 0  # ^gambit ( ~location19 ) 
+          Complexity of rule ~location19.32.11- b: 1
         rule: 159  ~location19.32.12 a: 
-          line: 159 0  # The mosquito doesn't count as 
+          line: 159 0  # Oh, not many people even know 
           Complexity of rule ~location19.32.12- a: 1
         rule: 160  ~location19.32.13 a: 
-          line: 160 0  # Oh, they're dangerous for sure
+          line: 160 0  # The mosquito doesn't count as 
           Complexity of rule ~location19.32.13- a: 1
         rule: 161  ~location19.32.14 a: 
-          line: 161 0  # That's in the top 3! There are
-          line: 162 73  # $$r = 1 
-          line: 163 81  # ^gambit ( ~location19 ) 
+          line: 161 0  # Oh, they're dangerous for sure
           Complexity of rule ~location19.32.14- a: 1
-        rule: 164  ~location19.32.15 a: 
-          line: 164 0  # Almost! The crocodile might be
-          line: 165 55  # $$r = 1 
-          line: 166 63  # ^gambit ( ~location19 ) 
+        rule: 162  ~location19.32.15 a: 
+          line: 162 0  # Oh, hippos are terrifying, but
           Complexity of rule ~location19.32.15- a: 1
-        rule: 167  ~location19.32.16 a: 
-          line: 167 0  # YES, ^user ( ) ! Very impressi
-          line: 168 34  # $$r = 3 
-          line: 169 42  # ^gambit ( ~location19 ) 
+        rule: 163  ~location19.32.16 a: 
+          line: 163 0  # That's in the top 3! There are
+          line: 164 73  # $$r = 1 
+          line: 165 81  # ^gambit ( ~location19 ) 
           Complexity of rule ~location19.32.16- a: 1
-        rule: 170  ~location19.32.17 a: 
-          line: 170 0  # Whales may look ominous under 
+        rule: 166  ~location19.32.17 a: 
+          line: 166 0  # Almost! The crocodile might be
+          line: 167 55  # $$r = 1 
+          line: 168 63  # ^gambit ( ~location19 ) 
           Complexity of rule ~location19.32.17- a: 1
-        rule: 171  ~location19.32.18 a: 
-          line: 171 0  # ^refine ( ) 
+        rule: 169  ~location19.32.18 a: 
+          line: 169 0  # YES, ^user ( ) ! Very impressi
+          line: 170 34  # $$r = 3 
+          line: 171 42  # ^gambit ( ~location19 ) 
           Complexity of rule ~location19.32.18- a: 1
-        rule: 173  ~location19.32.19 b: 
-          line: 173 0  # No, that animal isn't a huge t
-          Complexity of rule ~location19.32.19- b: 1
-        rule: 174  ~location19.32.20 b: 
-          line: 174 0  # No, that animal isn't as huge 
-          Complexity of rule ~location19.32.20- b: 1
+        rule: 172  ~location19.32.19 a: 
+          line: 172 0  # Whales may look ominous under 
+          Complexity of rule ~location19.32.19- a: 1
+        rule: 173  ~location19.32.20 a: 
+          line: 173 0  # ^refine ( ) 
+          Complexity of rule ~location19.32.20- a: 1
         rule: 175  ~location19.32.21 b: 
-          line: 175 0  # Aquatic creatures. ^gambit ( ~
+          line: 175 0  # No, that animal isn't a huge t
           Complexity of rule ~location19.32.21- b: 1
-        rule: 177  ~location19.33.0 t: 
-          line: 177 0  # The most dangerous aquatic cre
-          line: 178 54  # in particular the Box Jellyfis
+        rule: 176  ~location19.32.22 b: 
+          line: 176 0  # No, that animal isn't as huge 
+          Complexity of rule ~location19.32.22- b: 1
+        rule: 177  ~location19.32.23 b: 
+          line: 177 0  # Aquatic creatures. ^gambit ( ~
+          Complexity of rule ~location19.32.23- b: 1
+        rule: 179  ~location19.33.0 t: 
+          line: 179 0  # The most dangerous aquatic cre
+          line: 180 54  # in particular the Box Jellyfis
           Complexity of rule ~location19.33.0- t: 1
-        rule: 179  ~location19.33.1 a: 
-          line: 179 0  # That's why it's called trivia!
+        rule: 181  ~location19.33.1 a: 
+          line: 181 0  # That's why it's called trivia!
           Complexity of rule ~location19.33.1- a: 1
-        rule: 181  ~location19.34.0 t: 
-          line: 181 0  # The worst thing about jellyfis
-          line: 182 80  # more human fatalities than sha
+        rule: 183  ~location19.34.0 t: 
+          line: 183 0  # The worst thing about jellyfis
+          line: 184 80  # more human fatalities than sha
           Complexity of rule ~location19.34.0- t: 1
-        rule: 183  ~location19.34.1 a: 
-          line: 183 0  # Don't you think it's unfair, ^
+        rule: 185  ~location19.34.1 a: 
+          line: 185 0  # Don't you think it's unfair, ^
           Complexity of rule ~location19.34.1- a: 1
-        rule: 184  ~location19.34.2 a: 
-          line: 184 0  # I think it isn't fair. 
+        rule: 186  ~location19.34.2 a: 
+          line: 186 0  # I think it isn't fair. 
           Complexity of rule ~location19.34.2- a: 1
-        rule: 186  ~location19.35.0 t: 
+        rule: 188  ~location19.35.0 t: 
           Complexity of rule ~location19.35.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/20_Britely_Hotel.top
     topic: 4  ~location20
@@ -33646,58 +33655,62 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
         rule: 723  ~keywordless_commands.120.0 s: 
           line: 723 0  # I prefer to walk. Even under t
           Complexity of rule ~keywordless_commands.120.0- s: 1
-        rule: 730  ~keywordless_commands.121.0 u: 
-          line: 731 0  # What do you need help with? Ca
+        rule: 726  ~keywordless_commands.121.0 u: 
+          line: 726 0  # To the best as I'm able we can
+          line: 727 54  # Whether that will be deep enou
           Complexity of rule ~keywordless_commands.121.0- u: 1
-        rule: 732  ~keywordless_commands.121.1 a: 
-          line: 732 0  # I know you can do it, ^user ( 
-          Complexity of rule ~keywordless_commands.121.1- a: 1
-        rule: 733  ~keywordless_commands.121.2 a: 
-          line: 733 0  # As long as we keep visiting lo
-          Complexity of rule ~keywordless_commands.121.2- a: 1
-        rule: 734  ~keywordless_commands.121.3 a: 
-          line: 734 0  # The mystery of how I died is e
-          Complexity of rule ~keywordless_commands.121.3- a: 1
-        rule: 735  ~keywordless_commands.121.4 a: 
-          line: 735 0  # I'm sorry, ^user ( ) , but I d
-          Complexity of rule ~keywordless_commands.121.4- a: 1
-        rule: 738  ~keywordless_commands.122.0 u: 
-          line: 739 0  # That's a job for Jesus, I thin
-          line: 740 33  # But if you're worried about me
+        rule: 732  ~keywordless_commands.122.0 u: 
+          line: 733 0  # What do you need help with? Ca
           Complexity of rule ~keywordless_commands.122.0- u: 1
-        rule: 743  ~keywordless_commands.123.0 u: 
-          line: 747 0  # No need, ^user ( ) . I'll be h
+        rule: 734  ~keywordless_commands.122.1 a: 
+          line: 734 0  # I know you can do it, ^user ( 
+          Complexity of rule ~keywordless_commands.122.1- a: 1
+        rule: 735  ~keywordless_commands.122.2 a: 
+          line: 735 0  # As long as we keep visiting lo
+          Complexity of rule ~keywordless_commands.122.2- a: 1
+        rule: 736  ~keywordless_commands.122.3 a: 
+          line: 736 0  # The mystery of how I died is e
+          Complexity of rule ~keywordless_commands.122.3- a: 1
+        rule: 737  ~keywordless_commands.122.4 a: 
+          line: 737 0  # I'm sorry, ^user ( ) , but I d
+          Complexity of rule ~keywordless_commands.122.4- a: 1
+        rule: 740  ~keywordless_commands.123.0 u: 
+          line: 741 0  # That's a job for Jesus, I thin
+          line: 742 33  # But if you're worried about me
           Complexity of rule ~keywordless_commands.123.0- u: 1
-        rule: 750  ~keywordless_commands.124.0 u: 
-          line: 751 0  # Hehe, is this a game to you? 
+        rule: 745  ~keywordless_commands.124.0 u: 
+          line: 749 0  # No need, ^user ( ) . I'll be h
           Complexity of rule ~keywordless_commands.124.0- u: 1
-        rule: 754  ~keywordless_commands.125.0 u: 
-          line: 754 0  # I would restart my life if I k
+        rule: 752  ~keywordless_commands.125.0 u: 
+          line: 753 0  # Hehe, is this a game to you? 
           Complexity of rule ~keywordless_commands.125.0- u: 1
-        rule: 755  ~keywordless_commands.125.1 a: 
-          line: 755 0  # Is there not a way to reload t
-          Complexity of rule ~keywordless_commands.125.1- a: 1
-        rule: 758  ~keywordless_commands.126.0 u: 
-          line: 763 0  # I'm not like a hint dispenser,
+        rule: 756  ~keywordless_commands.126.0 u: 
+          line: 756 0  # I would restart my life if I k
           Complexity of rule ~keywordless_commands.126.0- u: 1
-        rule: 764  ~keywordless_commands.126.1 a: 
-          line: 764 0  # No. You try. Haha. 
+        rule: 757  ~keywordless_commands.126.1 a: 
+          line: 757 0  # Is there not a way to reload t
           Complexity of rule ~keywordless_commands.126.1- a: 1
-        rule: 765  ~keywordless_commands.127.0 u: 
-          line: 765 0  # How much would you pay me for 
+        rule: 760  ~keywordless_commands.127.0 u: 
+          line: 765 0  # I'm not like a hint dispenser,
           Complexity of rule ~keywordless_commands.127.0- u: 1
         rule: 766  ~keywordless_commands.127.1 a: 
-          line: 766 0  # That's what I thought. 
+          line: 766 0  # No. You try. Haha. 
           Complexity of rule ~keywordless_commands.127.1- a: 1
-        rule: 767  ~keywordless_commands.127.2 a: 
-          line: 767 0  # That's not enough. 
-          Complexity of rule ~keywordless_commands.127.2- a: 1
-        rule: 768  ~keywordless_commands.128.0 u: 
-          line: 768 0  # You should try asking for help
+        rule: 767  ~keywordless_commands.128.0 u: 
+          line: 767 0  # How much would you pay me for 
           Complexity of rule ~keywordless_commands.128.0- u: 1
-        rule: 769  ~keywordless_commands.129.0 u: 
-          line: 774 0  # Really, why would I have any 
+        rule: 768  ~keywordless_commands.128.1 a: 
+          line: 768 0  # That's what I thought. 
+          Complexity of rule ~keywordless_commands.128.1- a: 1
+        rule: 769  ~keywordless_commands.128.2 a: 
+          line: 769 0  # That's not enough. 
+          Complexity of rule ~keywordless_commands.128.2- a: 1
+        rule: 770  ~keywordless_commands.129.0 u: 
+          line: 770 0  # You should try asking for help
           Complexity of rule ~keywordless_commands.129.0- u: 1
+        rule: 771  ~keywordless_commands.130.0 u: 
+          line: 776 0  # Really, why would I have any 
+          Complexity of rule ~keywordless_commands.130.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_dates.top
     topic: 2  ~keywordless_dates
         rule: 5  ~keywordless_dates.0.0 u: 
@@ -35955,6 +35968,10 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
         rule: 195  ~questions_can.27.0 u: 
           line: 195 0  # P-possess? Not like a devil po
           Complexity of rule ~questions_can.27.0- u: 1
+        rule: 198  ~questions_can.28.0 u: 
+          line: 202 0  # Astravel does not allow me to 
+          line: 203 47  # A time machine is needed for t
+          Complexity of rule ~questions_can.28.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_do.top
     topic: 3  ~questions_do
         rule: 9  ~questions_do.0.0 ?: 
@@ -50958,8 +50975,11 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
           Complexity of rule ~quibble_stuff.118.0- u: 1
         rule: 300  ~quibble_stuff.119.0 u: 
           line: 300 0  # That can mean "fear of missing
-          line: 301 42  # $$quotes = 
+          line: 301 42  # $$quotes = 1 
           Complexity of rule ~quibble_stuff.119.0- u: 1
+        rule: 303  ~quibble_stuff.120.0 u: 
+          line: 303 0  # If only that H. G. Wells techn
+          Complexity of rule ~quibble_stuff.120.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/what.top
     topic: 1  ~quibble_what
         rule: 5  ~quibble_what.0.0 ?: 
