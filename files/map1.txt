@@ -2865,51 +2865,57 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/devi
           line: 128 0  # I think that once a devil beco
           line: 129 87  # but as for posessing someone e
           Complexity of rule ~devil.19.0- u: 1
-        rule: 132  ~devil.20.0 ?: 
-          line: 137 0  # ^addtopic ( ~devil ) ^gambit (
-          Complexity of rule ~devil.20.0- ?: 1
-        rule: 144  ~devil.21.0 t: 
-          line: 144 0  # ^keep ( ) ^ispending ( ~devil 
-          if 145 36  
-          line: 145 32  # ^if 00x( ! $$_gambit_topic_pen
-          line: 146 74  # ^fail ( TOPIC ) 
-          ifend 147 95  
-          line: 147 90  # } 004 
-          Complexity of rule ~devil.21.0- t: 2
-        rule: 150  ~devil.22.0 t: 
-          line: 150 0  # Devils unfortunately share thi
-          line: 151 50  # Fortunately, few of them are a
-          line: 152 164  # Only the strongest devils can.
-          Complexity of rule ~devil.22.0- t: 1
-        rule: 154  ~devil.23.0 t: 
-          line: 154 0  # What my mother taught me about
-          line: 155 91  # loathed all talk of such thing
-          line: 156 204  # if the wrong type of spirit is
-          Complexity of rule ~devil.23.0- t: 1
-        rule: 158  ~devil.24.0 t: 
-          line: 158 0  # But...but I don't really like 
-          line: 159 95  # put the scare of devils in me.
+        rule: 132  ~devil.20.0 s: 
+          line: 132 0  # Yeah, we all hate devils. It's
+          Complexity of rule ~devil.20.0- s: 1
+        rule: 134  ~devil.21.0 s: 
+          line: 134 0  # You like devils? Are you menta
+          Complexity of rule ~devil.21.0- s: 1
+        rule: 137  ~devil.22.0 ?: 
+          line: 142 0  # ^addtopic ( ~devil ) ^gambit (
+          Complexity of rule ~devil.22.0- ?: 1
+        rule: 149  ~devil.23.0 t: 
+          line: 149 0  # ^keep ( ) ^ispending ( ~devil 
+          if 150 36  
+          line: 150 32  # ^if 00x( ! $$_gambit_topic_pen
+          line: 151 74  # ^fail ( TOPIC ) 
+          ifend 152 95  
+          line: 152 90  # } 004 
+          Complexity of rule ~devil.23.0- t: 2
+        rule: 155  ~devil.24.0 t: 
+          line: 155 0  # Devils unfortunately share thi
+          line: 156 50  # Fortunately, few of them are a
+          line: 157 164  # Only the strongest devils can.
           Complexity of rule ~devil.24.0- t: 1
-        rule: 160  ~devil.24.1 a: 
-          line: 160 0  # Hmm. Well even if they do exis
-          Complexity of rule ~devil.24.1- a: 1
-        rule: 161  ~devil.24.2 b: 
-          line: 161 0  # Right! ^gambit ( ~devil ) 
-          Complexity of rule ~devil.24.2- b: 1
-        rule: 162  ~devil.24.3 b: 
-          line: 162 0  # Anyway. ^gambit ( ~devil ) 
-          Complexity of rule ~devil.24.3- b: 1
-        rule: 164  ~devil.25.0 t: 
-          line: 164 0  # It's oddly difficult to speak 
-          line: 165 102  # another. Or oneself. They...ah
+        rule: 159  ~devil.25.0 t: 
+          line: 159 0  # What my mother taught me about
+          line: 160 91  # loathed all talk of such thing
+          line: 161 204  # if the wrong type of spirit is
           Complexity of rule ~devil.25.0- t: 1
-        rule: 167  ~devil.26.0 t: 
-          line: 167 0  # I don't know why, but I can't 
-          line: 168 47  # It's as if a stupor comes over
+        rule: 163  ~devil.26.0 t: 
+          line: 163 0  # But...but I don't really like 
+          line: 164 95  # put the scare of devils in me.
           Complexity of rule ~devil.26.0- t: 1
-        rule: 170  ~devil.27.0 t: 
-          line: 170 0  # We don't need to go on about d
+        rule: 165  ~devil.26.1 a: 
+          line: 165 0  # Hmm. Well even if they do exis
+          Complexity of rule ~devil.26.1- a: 1
+        rule: 166  ~devil.26.2 b: 
+          line: 166 0  # Right! ^gambit ( ~devil ) 
+          Complexity of rule ~devil.26.2- b: 1
+        rule: 167  ~devil.26.3 b: 
+          line: 167 0  # Anyway. ^gambit ( ~devil ) 
+          Complexity of rule ~devil.26.3- b: 1
+        rule: 169  ~devil.27.0 t: 
+          line: 169 0  # It's oddly difficult to speak 
+          line: 170 102  # another. Or oneself. They...ah
           Complexity of rule ~devil.27.0- t: 1
+        rule: 172  ~devil.28.0 t: 
+          line: 172 0  # I don't know why, but I can't 
+          line: 173 47  # It's as if a stupor comes over
+          Complexity of rule ~devil.28.0- t: 1
+        rule: 175  ~devil.29.0 t: 
+          line: 175 0  # We don't need to go on about d
+          Complexity of rule ~devil.29.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/metaphysical/divination.top
     topic: 3  ~divination
         rule: 7  ~divination.0.0 ?: 
@@ -36802,8 +36808,14 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
           line: 755 0  # Well right now all I can think
           Complexity of rule ~questions_what.100.0- ?: 1
         rule: 758  ~questions_what.101.0 u: 
-          line: 766 0  # I suppose I like sherbet 
+          line: 766 0  # I suppose I like sherbet gener
           Complexity of rule ~questions_what.101.0- u: 1
+        rule: 769  ~questions_what.102.0 ?: 
+          line: 769 0  # I value my friends and relatio
+          Complexity of rule ~questions_what.102.0- ?: 1
+        rule: 772  ~questions_what.103.0 ?: 
+          line: 777 0  # I don't like murder scenes, fo
+          Complexity of rule ~questions_what.103.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_when.top
     topic: 3  ~questions_when
         rule: 7  ~questions_when.0.0 ?: 
@@ -41412,50 +41424,50 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_common.t
         rule: 114  ~pronoun_common.31.0 u: 
           line: 114 0  # Sleep on it? That can't be com
           Complexity of rule ~pronoun_common.31.0- u: 1
-        rule: 117  ~pronoun_common.32.0 u: 
-          line: 118 0  # $$skip_pronoun_resolution = 1 
-          Complexity of rule ~pronoun_common.32.0- u: 1
-        rule: 121  ~pronoun_common.33.0 u: 
-          line: 121 0  # Was it? That's weather for you
-          Complexity of rule ~pronoun_common.33.0- u: 1
-        rule: 122  ~pronoun_common.34.0 u: 
-          line: 123 0  # [ Is it? I obviously cannot se
-          line: 124 64  # [ I can't see the weather so w
+        rule: 117  ~pronoun_common.32.0 s: 
+          line: 117 0  # ^input ( _0 do not _1 _2 _3 ) 
+          Complexity of rule ~pronoun_common.32.0- s: 1
+        rule: 120  ~pronoun_common.33.0 s: 
+          line: 120 0  # ^input ( _0 _1 _2 _3 ) ^fail (
+          Complexity of rule ~pronoun_common.33.0- s: 1
+        rule: 123  ~pronoun_common.34.0 u: 
+          line: 124 0  # $$skip_pronoun_resolution = 1 
           Complexity of rule ~pronoun_common.34.0- u: 1
         rule: 127  ~pronoun_common.35.0 u: 
-          line: 127 0  # You mean it's finished. 
+          line: 127 0  # Was it? That's weather for you
           Complexity of rule ~pronoun_common.35.0- u: 1
-        rule: 130  ~pronoun_common.36.0 u: 
-          line: 130 0  # In this case your doubt may be
+        rule: 128  ~pronoun_common.36.0 u: 
+          line: 129 0  # [ Is it? I obviously cannot se
+          line: 130 64  # [ I can't see the weather so w
           Complexity of rule ~pronoun_common.36.0- u: 1
-        rule: 131  ~pronoun_common.37.0 u: 
-          line: 131 0  # Hmm, if I doubt it. 
+        rule: 133  ~pronoun_common.37.0 u: 
+          line: 133 0  # You mean it's finished. 
           Complexity of rule ~pronoun_common.37.0- u: 1
-        rule: 132  ~pronoun_common.38.0 u: 
-          line: 132 0  # $$skip_pronoun_resolution = 1 
+        rule: 136  ~pronoun_common.38.0 u: 
+          line: 136 0  # In this case your doubt may be
           Complexity of rule ~pronoun_common.38.0- u: 1
-        rule: 136  ~pronoun_common.39.0 u: 
-          line: 136 0  # ^replaceword ( something _0 ) 
+        rule: 137  ~pronoun_common.39.0 u: 
+          line: 137 0  # Hmm, if I doubt it. 
           Complexity of rule ~pronoun_common.39.0- u: 1
-        rule: 139  ~pronoun_common.40.0 u: 
-          line: 139 0  # ^replaceword ( something _0 ) 
+        rule: 138  ~pronoun_common.40.0 u: 
+          line: 138 0  # $$skip_pronoun_resolution = 1 
           Complexity of rule ~pronoun_common.40.0- u: 1
         rule: 142  ~pronoun_common.41.0 u: 
           line: 142 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.41.0- u: 1
         rule: 145  ~pronoun_common.42.0 u: 
-          line: 145 0  # ^replaceword ( anything _0 ) 
+          line: 145 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.42.0- u: 1
         rule: 148  ~pronoun_common.43.0 u: 
-          line: 148 0  # No, the pleasure is mine! 
+          line: 148 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.43.0- u: 1
         rule: 151  ~pronoun_common.44.0 u: 
-          line: 154 0  # ^replaceword ( something _0 ) 
+          line: 151 0  # ^replaceword ( anything _0 ) 
           Complexity of rule ~pronoun_common.44.0- u: 1
-        rule: 157  ~pronoun_common.45.0 u: 
-          line: 157 0  # ^replaceword ( something _0 ) 
+        rule: 154  ~pronoun_common.45.0 u: 
+          line: 154 0  # No, the pleasure is mine! 
           Complexity of rule ~pronoun_common.45.0- u: 1
-        rule: 160  ~pronoun_common.46.0 u: 
+        rule: 157  ~pronoun_common.46.0 u: 
           line: 160 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.46.0- u: 1
         rule: 163  ~pronoun_common.47.0 u: 
@@ -41477,113 +41489,125 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_common.t
           line: 178 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.52.0- u: 1
         rule: 181  ~pronoun_common.53.0 u: 
-          line: 181 0  # ^replaceword ( something _0 ) 
+          line: 181 0  # ^replaceword ( something that 
           Complexity of rule ~pronoun_common.53.0- u: 1
-        rule: 184  ~pronoun_common.54.0 s: 
-          line: 184 0  # ^replaceword ( something _0 ) 
-          Complexity of rule ~pronoun_common.54.0- s: 1
-        rule: 187  ~pronoun_common.55.0 s: 
-          line: 188 0  # ^refine ( ) 
-          Complexity of rule ~pronoun_common.55.0- s: 1
-        rule: 189  ~pronoun_common.55.1 a: 
-          line: 189 0  # I'll try not to. 
-          Complexity of rule ~pronoun_common.55.1- a: 1
-        rule: 190  ~pronoun_common.55.2 a: 
-          line: 190 0  # Forgotten. 
-          Complexity of rule ~pronoun_common.55.2- a: 1
-        rule: 191  ~pronoun_common.55.3 a: 
+        rule: 182  ~pronoun_common.54.0 u: 
+          line: 182 0  # ^replaceword ( something that 
+          Complexity of rule ~pronoun_common.54.0- u: 1
+        rule: 185  ~pronoun_common.55.0 u: 
+          line: 185 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.55.0- u: 1
+        rule: 188  ~pronoun_common.56.0 u: 
+          line: 188 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.56.0- u: 1
+        rule: 191  ~pronoun_common.57.0 s: 
           line: 191 0  # ^replaceword ( something _0 ) 
-          Complexity of rule ~pronoun_common.55.3- a: 1
-        rule: 194  ~pronoun_common.56.0 s: 
-          line: 194 0  # ^replaceword ( you _0 ) 
-          Complexity of rule ~pronoun_common.56.0- s: 1
-        rule: 197  ~pronoun_common.57.0 s: 
-          line: 197 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.57.0- s: 1
-        rule: 200  ~pronoun_common.58.0 s: 
-          line: 200 0  # ^replaceword ( understand _0 )
+        rule: 194  ~pronoun_common.58.0 s: 
+          line: 195 0  # ^refine ( ) 
           Complexity of rule ~pronoun_common.58.0- s: 1
-        rule: 203  ~pronoun_common.59.0 u: 
-          line: 203 0  # ^input ( what does something m
-          Complexity of rule ~pronoun_common.59.0- u: 1
-        rule: 206  ~pronoun_common.60.0 u: 
-          line: 206 0  # ^input ( what does that mean ?
-          Complexity of rule ~pronoun_common.60.0- u: 1
-        rule: 209  ~pronoun_common.61.0 s: 
-          line: 213 0  # Of course. I know that you kno
+        rule: 196  ~pronoun_common.58.1 a: 
+          line: 196 0  # I'll try not to. 
+          Complexity of rule ~pronoun_common.58.1- a: 1
+        rule: 197  ~pronoun_common.58.2 a: 
+          line: 197 0  # Forgotten. 
+          Complexity of rule ~pronoun_common.58.2- a: 1
+        rule: 198  ~pronoun_common.58.3 a: 
+          line: 198 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.58.3- a: 1
+        rule: 201  ~pronoun_common.59.0 s: 
+          line: 201 0  # ^replaceword ( you _0 ) 
+          Complexity of rule ~pronoun_common.59.0- s: 1
+        rule: 204  ~pronoun_common.60.0 s: 
+          line: 204 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.60.0- s: 1
+        rule: 207  ~pronoun_common.61.0 s: 
+          line: 207 0  # ^replaceword ( understand _0 )
           Complexity of rule ~pronoun_common.61.0- s: 1
-        rule: 216  ~pronoun_common.62.0 ?: 
-          line: 216 0  # ^input ( is something true ? )
-          Complexity of rule ~pronoun_common.62.0- ?: 1
-        rule: 219  ~pronoun_common.63.0 u: 
-          line: 223 0  # ^refine ( ) 
+        rule: 210  ~pronoun_common.62.0 u: 
+          line: 210 0  # ^input ( what does something m
+          Complexity of rule ~pronoun_common.62.0- u: 1
+        rule: 213  ~pronoun_common.63.0 u: 
+          line: 213 0  # ^input ( what does that mean ?
           Complexity of rule ~pronoun_common.63.0- u: 1
-        rule: 224  ~pronoun_common.63.1 a: 
-          line: 224 0  # This is me. I hope...that you 
-          Complexity of rule ~pronoun_common.63.1- a: 1
-        rule: 225  ~pronoun_common.63.2 a: 
-          line: 225 0  # I guess it is, heh. 
-          Complexity of rule ~pronoun_common.63.2- a: 1
-        rule: 228  ~pronoun_common.64.0 u: 
-          line: 228 0  # ^replaceword ( something _0 ) 
-          Complexity of rule ~pronoun_common.64.0- u: 1
-        rule: 231  ~pronoun_common.65.0 s: 
-          line: 231 0  # Good. Wouldn't want to get it 
-          Complexity of rule ~pronoun_common.65.0- s: 1
-        rule: 233  ~pronoun_common.66.0 s: 
-          line: 233 0  # Ah, it would have been better 
-          Complexity of rule ~pronoun_common.66.0- s: 1
-        rule: 236  ~pronoun_common.67.0 u: 
-          line: 236 0  # ^input ( _0 is '_1 ) ^fail ( S
+        rule: 216  ~pronoun_common.64.0 s: 
+          line: 220 0  # Of course. I know that you kno
+          Complexity of rule ~pronoun_common.64.0- s: 1
+        rule: 223  ~pronoun_common.65.0 ?: 
+          line: 223 0  # ^input ( is something true ? )
+          Complexity of rule ~pronoun_common.65.0- ?: 1
+        rule: 226  ~pronoun_common.66.0 u: 
+          line: 230 0  # ^refine ( ) 
+          Complexity of rule ~pronoun_common.66.0- u: 1
+        rule: 231  ~pronoun_common.66.1 a: 
+          line: 231 0  # This is me. I hope...that you 
+          Complexity of rule ~pronoun_common.66.1- a: 1
+        rule: 232  ~pronoun_common.66.2 a: 
+          line: 232 0  # I guess it is, heh. 
+          Complexity of rule ~pronoun_common.66.2- a: 1
+        rule: 235  ~pronoun_common.67.0 u: 
+          line: 235 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.67.0- u: 1
-        rule: 239  ~pronoun_common.68.0 s: 
-          line: 239 0  # ^replaceword ( something _0 ) 
+        rule: 238  ~pronoun_common.68.0 s: 
+          line: 238 0  # Good. Wouldn't want to get it 
           Complexity of rule ~pronoun_common.68.0- s: 1
-        rule: 242  ~pronoun_common.69.0 s: 
-          line: 242 0  # ^replaceword ( something _0 ) 
+        rule: 240  ~pronoun_common.69.0 s: 
+          line: 240 0  # Ah, it would have been better 
           Complexity of rule ~pronoun_common.69.0- s: 1
-        rule: 245  ~pronoun_common.70.0 s: 
-          line: 245 0  # ^replaceword ( something _0 ) 
-          Complexity of rule ~pronoun_common.70.0- s: 1
-        rule: 248  ~pronoun_common.71.0 s: 
-          line: 248 0  # ^replaceword ( something _0 ) 
+        rule: 243  ~pronoun_common.70.0 u: 
+          line: 243 0  # ^input ( _0 is '_1 ) ^fail ( S
+          Complexity of rule ~pronoun_common.70.0- u: 1
+        rule: 246  ~pronoun_common.71.0 s: 
+          line: 246 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.71.0- s: 1
-        rule: 251  ~pronoun_common.72.0 s: 
-          line: 251 0  # ^input ( how sweet ) ^fail ( S
+        rule: 249  ~pronoun_common.72.0 s: 
+          line: 249 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.72.0- s: 1
-        rule: 254  ~pronoun_common.73.0 u: 
-          line: 254 0  # ^input ( who ) ^fail ( SENTENC
-          Complexity of rule ~pronoun_common.73.0- u: 1
-        rule: 256  ~pronoun_common.74.0 u: 
-          line: 256 0  # ^input ( be who ) ^fail ( SENT
-          Complexity of rule ~pronoun_common.74.0- u: 1
-        rule: 259  ~pronoun_common.75.0 s: 
-          line: 259 0  # ^input ( I would love to ) ^fa
+        rule: 252  ~pronoun_common.73.0 s: 
+          line: 252 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.73.0- s: 1
+        rule: 255  ~pronoun_common.74.0 s: 
+          line: 255 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.74.0- s: 1
+        rule: 258  ~pronoun_common.75.0 s: 
+          line: 258 0  # ^input ( how sweet ) ^fail ( S
           Complexity of rule ~pronoun_common.75.0- s: 1
-        rule: 262  ~pronoun_common.76.0 s: 
-          line: 262 0  # ^replaceword ( something _0 ) 
-          Complexity of rule ~pronoun_common.76.0- s: 1
-        rule: 265  ~pronoun_common.77.0 s: 
-          Complexity of rule ~pronoun_common.77.0- s: 1
-        rule: 268  ~pronoun_common.78.0 s: 
+        rule: 261  ~pronoun_common.76.0 u: 
+          line: 261 0  # ^input ( who ) ^fail ( SENTENC
+          Complexity of rule ~pronoun_common.76.0- u: 1
+        rule: 263  ~pronoun_common.77.0 u: 
+          line: 263 0  # ^input ( be who ) ^fail ( SENT
+          Complexity of rule ~pronoun_common.77.0- u: 1
+        rule: 266  ~pronoun_common.78.0 s: 
+          line: 266 0  # ^input ( I would love to ) ^fa
           Complexity of rule ~pronoun_common.78.0- s: 1
-        rule: 271  ~pronoun_common.79.0 s: 
-          line: 271 0  # $$skip_pronoun_resolution = 1 
+        rule: 269  ~pronoun_common.79.0 s: 
+          line: 269 0  # ^replaceword ( something _0 ) 
           Complexity of rule ~pronoun_common.79.0- s: 1
-        rule: 274  ~pronoun_common.80.0 ?: 
-          line: 274 0  # ^input ( where are we ) ^fail 
-          Complexity of rule ~pronoun_common.80.0- ?: 1
-        rule: 277  ~pronoun_common.81.0 ?: 
-          line: 277 0  # ^input ( where are we ) ^fail 
-          Complexity of rule ~pronoun_common.81.0- ?: 1
-        rule: 280  ~pronoun_common.82.0 s: 
-          line: 280 0  # ^replaceword ( something _0 ) 
+        rule: 272  ~pronoun_common.80.0 s: 
+          Complexity of rule ~pronoun_common.80.0- s: 1
+        rule: 275  ~pronoun_common.81.0 s: 
+          Complexity of rule ~pronoun_common.81.0- s: 1
+        rule: 278  ~pronoun_common.82.0 s: 
+          line: 278 0  # $$skip_pronoun_resolution = 1 
           Complexity of rule ~pronoun_common.82.0- s: 1
-        rule: 283  ~pronoun_common.83.0 s: 
-          line: 283 0  # ^replaceword ( something _0 ) 
-          Complexity of rule ~pronoun_common.83.0- s: 1
-        rule: 286  ~pronoun_common.84.0 s: 
-          Complexity of rule ~pronoun_common.84.0- s: 1
+        rule: 281  ~pronoun_common.83.0 ?: 
+          line: 281 0  # ^input ( where are we ) ^fail 
+          Complexity of rule ~pronoun_common.83.0- ?: 1
+        rule: 284  ~pronoun_common.84.0 ?: 
+          line: 284 0  # ^input ( where are we ) ^fail 
+          Complexity of rule ~pronoun_common.84.0- ?: 1
+        rule: 287  ~pronoun_common.85.0 s: 
+          line: 287 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.85.0- s: 1
+        rule: 290  ~pronoun_common.86.0 s: 
+          line: 290 0  # ^replaceword ( something _0 ) 
+          Complexity of rule ~pronoun_common.86.0- s: 1
+        rule: 293  ~pronoun_common.87.0 s: 
+          line: 293 0  # ^input ( cool ) ^fail ( SENTEN
+          Complexity of rule ~pronoun_common.87.0- s: 1
+        rule: 296  ~pronoun_common.88.0 u: 
+          Complexity of rule ~pronoun_common.88.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_empty_input.top
     topic: 3  ~empty_input
         rule: 8  ~empty_input.0.0 t: 
@@ -43893,1730 +43917,1736 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/misc.top
         rule: 292  ~quibble_misc.212.0 s: 
           line: 292 0  # [ You must be very skilled. ] 
           Complexity of rule ~quibble_misc.212.0- s: 1
-        rule: 295  ~quibble_misc.213.0 ?: 
-          line: 295 0  # [ It would take a lot of stamp
-          Complexity of rule ~quibble_misc.213.0- ?: 1
-        rule: 296  ~quibble_misc.214.0 s: 
-          line: 296 0  # [ What did you send to who? ] 
-          Complexity of rule ~quibble_misc.214.0- s: 1
-        rule: 299  ~quibble_misc.215.0 ?: 
-          line: 299 0  # [ It's hard to see reality for
+        rule: 293  ~quibble_misc.213.0 u: 
+          line: 293 0  # Make me that? 
+          Complexity of rule ~quibble_misc.213.0- u: 1
+        rule: 294  ~quibble_misc.214.0 u: 
+          line: 294 0  # I should make you that? Um, ok
+          Complexity of rule ~quibble_misc.214.0- u: 1
+        rule: 298  ~quibble_misc.215.0 ?: 
+          line: 298 0  # [ It would take a lot of stamp
           Complexity of rule ~quibble_misc.215.0- ?: 1
-        rule: 300  ~quibble_misc.216.0 s: 
-          line: 300 0  # [ I might be able to see it, i
+        rule: 299  ~quibble_misc.216.0 s: 
+          line: 299 0  # [ What did you send to who? ] 
           Complexity of rule ~quibble_misc.216.0- s: 1
-        rule: 301  ~quibble_misc.217.0 s: 
-          line: 301 0  # [ Maybe your vision is much be
-          Complexity of rule ~quibble_misc.217.0- s: 1
+        rule: 302  ~quibble_misc.217.0 ?: 
+          line: 302 0  # [ It's hard to see reality for
+          Complexity of rule ~quibble_misc.217.0- ?: 1
         rule: 303  ~quibble_misc.218.0 s: 
-          line: 303 0  # [ Oh, you see no need for some
+          line: 303 0  # [ I might be able to see it, i
           Complexity of rule ~quibble_misc.218.0- s: 1
-        rule: 306  ~quibble_misc.219.0 ?: 
-          line: 306 0  # [ I wouldn't say anything. ] [
-          Complexity of rule ~quibble_misc.219.0- ?: 1
-        rule: 309  ~quibble_misc.220.0 ?: 
-          line: 309 0  # [ You think I am becoming? How
-          Complexity of rule ~quibble_misc.220.0- ?: 1
-        rule: 310  ~quibble_misc.221.0 s: 
-          line: 310 0  # [ Have you been working toward
-          Complexity of rule ~quibble_misc.221.0- s: 1
-        rule: 313  ~quibble_misc.222.0 ?: 
-          line: 313 0  # [ Things just seem to accident
+        rule: 304  ~quibble_misc.219.0 s: 
+          line: 304 0  # [ Maybe your vision is much be
+          Complexity of rule ~quibble_misc.219.0- s: 1
+        rule: 306  ~quibble_misc.220.0 s: 
+          line: 306 0  # [ Oh, you see no need for some
+          Complexity of rule ~quibble_misc.220.0- s: 1
+        rule: 309  ~quibble_misc.221.0 ?: 
+          line: 309 0  # [ I wouldn't say anything. ] [
+          Complexity of rule ~quibble_misc.221.0- ?: 1
+        rule: 312  ~quibble_misc.222.0 ?: 
+          line: 312 0  # [ You think I am becoming? How
           Complexity of rule ~quibble_misc.222.0- ?: 1
-        rule: 314  ~quibble_misc.223.0 s: 
-          line: 314 0  # [ Should you cause that? ] [ W
+        rule: 313  ~quibble_misc.223.0 s: 
+          line: 313 0  # [ Have you been working toward
           Complexity of rule ~quibble_misc.223.0- s: 1
-        rule: 315  ~quibble_misc.224.0 s: 
-          line: 315 0  # How does '_0 cause '_1 ? 
-          Complexity of rule ~quibble_misc.224.0- s: 1
-        rule: 316  ~quibble_misc.224.1 a: 
-          line: 316 0  # [ I don't understand that expl
-          Complexity of rule ~quibble_misc.224.1- a: 1
-        rule: 323  ~quibble_misc.225.0 s: 
-          line: 323 0  # Too many, huh? 
+        rule: 316  ~quibble_misc.224.0 ?: 
+          line: 316 0  # [ Things just seem to accident
+          Complexity of rule ~quibble_misc.224.0- ?: 1
+        rule: 317  ~quibble_misc.225.0 s: 
+          line: 317 0  # [ Should you cause that? ] [ W
           Complexity of rule ~quibble_misc.225.0- s: 1
-        rule: 324  ~quibble_misc.226.0 s: 
-          line: 324 0  # Too few, huh? 
+        rule: 318  ~quibble_misc.226.0 s: 
+          line: 318 0  # How does '_0 cause '_1 ? 
           Complexity of rule ~quibble_misc.226.0- s: 1
-        rule: 325  ~quibble_misc.227.0 s: 
-          line: 325 0  # Too early, huh? 
+        rule: 319  ~quibble_misc.226.1 a: 
+          line: 319 0  # [ I don't understand that expl
+          Complexity of rule ~quibble_misc.226.1- a: 1
+        rule: 326  ~quibble_misc.227.0 s: 
+          line: 326 0  # Too many, huh? 
           Complexity of rule ~quibble_misc.227.0- s: 1
-        rule: 326  ~quibble_misc.228.0 s: 
-          line: 326 0  # Too late, huh? 
+        rule: 327  ~quibble_misc.228.0 s: 
+          line: 327 0  # Too few, huh? 
           Complexity of rule ~quibble_misc.228.0- s: 1
-        rule: 327  ~quibble_misc.229.0 s: 
-          line: 327 0  # But I don't know often is too 
+        rule: 328  ~quibble_misc.229.0 s: 
+          line: 328 0  # Too early, huh? 
           Complexity of rule ~quibble_misc.229.0- s: 1
-        rule: 330  ~quibble_misc.230.0 ?: 
-          line: 330 0  # [ b: No? ] [ d: Why not? ] 
-          Complexity of rule ~quibble_misc.230.0- ?: 1
-        rule: 331  ~quibble_misc.230.1 b: 
-          line: 331 0  # You mean no. Okay. 
-          Complexity of rule ~quibble_misc.230.1- b: 1
-        rule: 332  ~quibble_misc.230.2 d: 
-          line: 332 0  # Is that a good reason? 
-          Complexity of rule ~quibble_misc.230.2- d: 1
-        rule: 333  ~quibble_misc.230.3 d: 
-          line: 333 0  # Why not? 
-          Complexity of rule ~quibble_misc.230.3- d: 1
-        rule: 334  ~quibble_misc.230.4 e: 
-          line: 334 0  # OK. You win. I'm not going to 
-          Complexity of rule ~quibble_misc.230.4- e: 1
-        rule: 335  ~quibble_misc.231.0 s: 
-          line: 335 0  # [ b: No? ] [ OK. ] [ If that's
-          line: 336 97  # [ e: Why not? ] [ h: Until you
-          line: 337 221  # [ That's a definite no? ] 
+        rule: 329  ~quibble_misc.230.0 s: 
+          line: 329 0  # Too late, huh? 
+          Complexity of rule ~quibble_misc.230.0- s: 1
+        rule: 330  ~quibble_misc.231.0 s: 
+          line: 330 0  # But I don't know often is too 
           Complexity of rule ~quibble_misc.231.0- s: 1
-        rule: 338  ~quibble_misc.231.1 b: 
-          line: 338 0  # Too bad. 
-          Complexity of rule ~quibble_misc.231.1- b: 1
-        rule: 339  ~quibble_misc.231.2 c: 
-          line: 339 0  # Because I can't do any better.
-          Complexity of rule ~quibble_misc.231.2- c: 1
-        rule: 340  ~quibble_misc.231.3 b: 
-          line: 340 0  # Perhaps? 
-          Complexity of rule ~quibble_misc.231.3- b: 1
-        rule: 341  ~quibble_misc.231.4 c: 
-          line: 341 0  # I guess I can't convince you. 
-          Complexity of rule ~quibble_misc.231.4- c: 1
-        rule: 342  ~quibble_misc.231.5 b: 
-          line: 342 0  # Are you just stuttering? 
-          Complexity of rule ~quibble_misc.231.5- b: 1
-        rule: 343  ~quibble_misc.231.6 b: 
-          line: 343 0  # Sure sounds like a stutter. 
-          Complexity of rule ~quibble_misc.231.6- b: 1
-        rule: 344  ~quibble_misc.231.7 e: 
-          line: 344 0  # That's not a reason. 
-          Complexity of rule ~quibble_misc.231.7- e: 1
-        rule: 345  ~quibble_misc.231.8 f: 
-          line: 345 0  # Well, it's not a reason I unde
-          Complexity of rule ~quibble_misc.231.8- f: 1
-        rule: 346  ~quibble_misc.231.9 e: 
-          line: 346 0  # Why not? 
-          Complexity of rule ~quibble_misc.231.9- e: 1
-        rule: 347  ~quibble_misc.231.10 f: 
-          line: 347 0  # OK. You win. I'm not going to 
-          Complexity of rule ~quibble_misc.231.10- f: 1
-        rule: 348  ~quibble_misc.231.11 h: 
-          line: 348 0  # You're being kind of obstinate
-          Complexity of rule ~quibble_misc.231.11- h: 1
-        rule: 349  ~quibble_misc.231.12 i: 
-          line: 349 0  # See. You keep saying no. 
-          Complexity of rule ~quibble_misc.231.12- i: 1
-        rule: 350  ~quibble_misc.231.13 h: 
-          line: 350 0  # You are flexible in your think
-          Complexity of rule ~quibble_misc.231.13- h: 1
-        rule: 351  ~quibble_misc.231.14 i: 
-          line: 351 0  # No need to thank me for an hon
-          Complexity of rule ~quibble_misc.231.14- i: 1
-        rule: 352  ~quibble_misc.231.15 h: 
-          line: 352 0  # [ I don't know. Do you have an
-          Complexity of rule ~quibble_misc.231.15- h: 1
-        rule: 353  ~quibble_misc.231.16 o: 
-          line: 353 0  # [ When you put it that way, it
-          Complexity of rule ~quibble_misc.231.16- o: 1
-        rule: 355  ~quibble_misc.232.0 s: 
-          line: 355 0  # [ Oh no is right. ] [ You said
-          Complexity of rule ~quibble_misc.232.0- s: 1
-        rule: 358  ~quibble_misc.233.0 s: 
-          line: 358 0  # [ So what's stopping you? ] [ 
+        rule: 333  ~quibble_misc.232.0 ?: 
+          line: 333 0  # [ b: No? ] [ d: Why not? ] 
+          Complexity of rule ~quibble_misc.232.0- ?: 1
+        rule: 334  ~quibble_misc.232.1 b: 
+          line: 334 0  # You mean no. Okay. 
+          Complexity of rule ~quibble_misc.232.1- b: 1
+        rule: 335  ~quibble_misc.232.2 d: 
+          line: 335 0  # Is that a good reason? 
+          Complexity of rule ~quibble_misc.232.2- d: 1
+        rule: 336  ~quibble_misc.232.3 d: 
+          line: 336 0  # Why not? 
+          Complexity of rule ~quibble_misc.232.3- d: 1
+        rule: 337  ~quibble_misc.232.4 e: 
+          line: 337 0  # OK. You win. I'm not going to 
+          Complexity of rule ~quibble_misc.232.4- e: 1
+        rule: 338  ~quibble_misc.233.0 s: 
+          line: 338 0  # [ b: No? ] [ OK. ] [ If that's
+          line: 339 97  # [ e: Why not? ] [ h: Until you
+          line: 340 221  # [ That's a definite no? ] 
           Complexity of rule ~quibble_misc.233.0- s: 1
-        rule: 359  ~quibble_misc.234.0 s: 
-          line: 359 0  # [ When was that? ] [ At what p
+        rule: 341  ~quibble_misc.233.1 b: 
+          line: 341 0  # Too bad. 
+          Complexity of rule ~quibble_misc.233.1- b: 1
+        rule: 342  ~quibble_misc.233.2 c: 
+          line: 342 0  # Because I can't do any better.
+          Complexity of rule ~quibble_misc.233.2- c: 1
+        rule: 343  ~quibble_misc.233.3 b: 
+          line: 343 0  # Perhaps? 
+          Complexity of rule ~quibble_misc.233.3- b: 1
+        rule: 344  ~quibble_misc.233.4 c: 
+          line: 344 0  # I guess I can't convince you. 
+          Complexity of rule ~quibble_misc.233.4- c: 1
+        rule: 345  ~quibble_misc.233.5 b: 
+          line: 345 0  # Are you just stuttering? 
+          Complexity of rule ~quibble_misc.233.5- b: 1
+        rule: 346  ~quibble_misc.233.6 b: 
+          line: 346 0  # Sure sounds like a stutter. 
+          Complexity of rule ~quibble_misc.233.6- b: 1
+        rule: 347  ~quibble_misc.233.7 e: 
+          line: 347 0  # That's not a reason. 
+          Complexity of rule ~quibble_misc.233.7- e: 1
+        rule: 348  ~quibble_misc.233.8 f: 
+          line: 348 0  # Well, it's not a reason I unde
+          Complexity of rule ~quibble_misc.233.8- f: 1
+        rule: 349  ~quibble_misc.233.9 e: 
+          line: 349 0  # Why not? 
+          Complexity of rule ~quibble_misc.233.9- e: 1
+        rule: 350  ~quibble_misc.233.10 f: 
+          line: 350 0  # OK. You win. I'm not going to 
+          Complexity of rule ~quibble_misc.233.10- f: 1
+        rule: 351  ~quibble_misc.233.11 h: 
+          line: 351 0  # You're being kind of obstinate
+          Complexity of rule ~quibble_misc.233.11- h: 1
+        rule: 352  ~quibble_misc.233.12 i: 
+          line: 352 0  # See. You keep saying no. 
+          Complexity of rule ~quibble_misc.233.12- i: 1
+        rule: 353  ~quibble_misc.233.13 h: 
+          line: 353 0  # You are flexible in your think
+          Complexity of rule ~quibble_misc.233.13- h: 1
+        rule: 354  ~quibble_misc.233.14 i: 
+          line: 354 0  # No need to thank me for an hon
+          Complexity of rule ~quibble_misc.233.14- i: 1
+        rule: 355  ~quibble_misc.233.15 h: 
+          line: 355 0  # [ I don't know. Do you have an
+          Complexity of rule ~quibble_misc.233.15- h: 1
+        rule: 356  ~quibble_misc.233.16 o: 
+          line: 356 0  # [ When you put it that way, it
+          Complexity of rule ~quibble_misc.233.16- o: 1
+        rule: 358  ~quibble_misc.234.0 s: 
+          line: 358 0  # [ Oh no is right. ] [ You said
           Complexity of rule ~quibble_misc.234.0- s: 1
-        rule: 363  ~quibble_misc.235.0 s: 
-          line: 363 0  # Can you think of one instance 
-          line: 364 54  # ( ~no ) There probably is one 
+        rule: 361  ~quibble_misc.235.0 s: 
+          line: 361 0  # [ So what's stopping you? ] [ 
           Complexity of rule ~quibble_misc.235.0- s: 1
-        rule: 365  ~quibble_misc.236.0 s: 
-          line: 365 0  # [ Really? Always? ] [ If you s
+        rule: 362  ~quibble_misc.236.0 s: 
+          line: 362 0  # [ When was that? ] [ At what p
           Complexity of rule ~quibble_misc.236.0- s: 1
         rule: 366  ~quibble_misc.237.0 s: 
-          line: 366 0  # [ Always, huh? ] 
+          line: 366 0  # Can you think of one instance 
+          line: 367 54  # ( ~no ) There probably is one 
           Complexity of rule ~quibble_misc.237.0- s: 1
-        rule: 367  ~quibble_misc.238.0 ?: 
-          line: 367 0  # [ Always _0 , huh? ] 
-          Complexity of rule ~quibble_misc.238.0- ?: 1
-        rule: 368  ~quibble_misc.239.0 ?: 
-          line: 368 0  # [ Always _0 or not? ] 
-          Complexity of rule ~quibble_misc.239.0- ?: 1
-        rule: 369  ~quibble_misc.240.0 s: 
-          line: 369 0  # You know what they say. Never 
-          Complexity of rule ~quibble_misc.240.0- s: 1
-        rule: 370  ~quibble_misc.241.0 s: 
-          line: 370 0  # [ I'd be interested to hear ab
-          Complexity of rule ~quibble_misc.241.0- s: 1
-        rule: 371  ~quibble_misc.242.0 s: 
-          line: 371 0  # [ Why not always? ] [ Frequent
+        rule: 368  ~quibble_misc.238.0 s: 
+          line: 368 0  # [ Really? Always? ] [ If you s
+          Complexity of rule ~quibble_misc.238.0- s: 1
+        rule: 369  ~quibble_misc.239.0 s: 
+          line: 369 0  # [ Always, huh? ] 
+          Complexity of rule ~quibble_misc.239.0- s: 1
+        rule: 370  ~quibble_misc.240.0 ?: 
+          line: 370 0  # [ Always _0 , huh? ] 
+          Complexity of rule ~quibble_misc.240.0- ?: 1
+        rule: 371  ~quibble_misc.241.0 ?: 
+          line: 371 0  # [ Always _0 or not? ] 
+          Complexity of rule ~quibble_misc.241.0- ?: 1
+        rule: 372  ~quibble_misc.242.0 s: 
+          line: 372 0  # You know what they say. Never 
           Complexity of rule ~quibble_misc.242.0- s: 1
-        rule: 372  ~quibble_misc.243.0 ?: 
-          line: 372 0  # [ Not usually. ] [ Sometimes n
-          Complexity of rule ~quibble_misc.243.0- ?: 1
-        rule: 373  ~quibble_misc.244.0 u: 
-          line: 373 0  # All? 
-          Complexity of rule ~quibble_misc.244.0- u: 1
-        rule: 374  ~quibble_misc.245.0 u: 
-          line: 374 0  # Not at all, you say? 
-          Complexity of rule ~quibble_misc.245.0- u: 1
-        rule: 375  ~quibble_misc.246.0 u: 
-          line: 375 0  # So not all. 
+        rule: 373  ~quibble_misc.243.0 s: 
+          line: 373 0  # [ I'd be interested to hear ab
+          Complexity of rule ~quibble_misc.243.0- s: 1
+        rule: 374  ~quibble_misc.244.0 s: 
+          line: 374 0  # [ Why not always? ] [ Frequent
+          Complexity of rule ~quibble_misc.244.0- s: 1
+        rule: 375  ~quibble_misc.245.0 ?: 
+          line: 375 0  # [ Not usually. ] [ Sometimes n
+          Complexity of rule ~quibble_misc.245.0- ?: 1
+        rule: 376  ~quibble_misc.246.0 u: 
+          line: 376 0  # All? 
           Complexity of rule ~quibble_misc.246.0- u: 1
-        rule: 376  ~quibble_misc.247.0 u: 
-          line: 376 0  # More than 10,000? 
+        rule: 377  ~quibble_misc.247.0 u: 
+          line: 377 0  # Not at all, you say? 
           Complexity of rule ~quibble_misc.247.0- u: 1
-        rule: 377  ~quibble_misc.248.0 u: 
-          line: 377 0  # [ What constitutes a lot? ] [ 
+        rule: 378  ~quibble_misc.248.0 u: 
+          line: 378 0  # So not all. 
           Complexity of rule ~quibble_misc.248.0- u: 1
-        rule: 378  ~quibble_misc.249.0 ?: 
-          line: 378 0  # [ As whatever, hehe. ] [ Does 
-          Complexity of rule ~quibble_misc.249.0- ?: 1
-        rule: 379  ~quibble_misc.250.0 s: 
-          line: 379 0  # [ And at other times? ] [ Not 
-          Complexity of rule ~quibble_misc.250.0- s: 1
-        rule: 380  ~quibble_misc.251.0 s: 
-          line: 380 0  # [ In one instance, huh. ] 
-          Complexity of rule ~quibble_misc.251.0- s: 1
-        rule: 383  ~quibble_misc.252.0 s: 
-          line: 383 0  # [ About time I have time, heh.
+        rule: 379  ~quibble_misc.249.0 u: 
+          line: 379 0  # More than 10,000? 
+          Complexity of rule ~quibble_misc.249.0- u: 1
+        rule: 380  ~quibble_misc.250.0 u: 
+          line: 380 0  # [ What constitutes a lot? ] [ 
+          Complexity of rule ~quibble_misc.250.0- u: 1
+        rule: 381  ~quibble_misc.251.0 ?: 
+          line: 381 0  # [ As whatever, hehe. ] [ Does 
+          Complexity of rule ~quibble_misc.251.0- ?: 1
+        rule: 382  ~quibble_misc.252.0 s: 
+          line: 382 0  # [ And at other times? ] [ Not 
           Complexity of rule ~quibble_misc.252.0- s: 1
-        rule: 384  ~quibble_misc.253.0 s: 
-          line: 384 0  # [ How much later? ] [ If too m
+        rule: 383  ~quibble_misc.253.0 s: 
+          line: 383 0  # [ In one instance, huh. ] 
           Complexity of rule ~quibble_misc.253.0- s: 1
-        rule: 385  ~quibble_misc.254.0 ?: 
-          line: 385 0  # [ At the same time as what? ] 
-          Complexity of rule ~quibble_misc.254.0- ?: 1
-        rule: 388  ~quibble_misc.255.0-PROBABLY1 s: 
-          line: 388 0  # [ Probably what? ] [ How much 
-          Complexity of rule ~quibble_misc.255.0-PROBABLY1 s: 1
-        rule: 389  ~quibble_misc.256.0-PROBABLY2 ?: 
-          line: 389 0  # [ Or possibly. ] [ Probably. N
-          Complexity of rule ~quibble_misc.256.0-PROBABLY2 ?: 1
-        rule: 390  ~quibble_misc.257.0-IF1 ?: 
-          line: 390 0  # [ But I don't have to. ] 
-          Complexity of rule ~quibble_misc.257.0-IF1 ?: 1
-        rule: 391  ~quibble_misc.258.0-IF2 ?: 
-          line: 391 0  # [ So have to make guesses abou
-          Complexity of rule ~quibble_misc.258.0-IF2 ?: 1
-        rule: 392  ~quibble_misc.259.0 s: 
-          line: 392 0  # Do you often wonder? I do. 
-          Complexity of rule ~quibble_misc.259.0- s: 1
-        rule: 393  ~quibble_misc.260.0-IF3 s: 
-          line: 393 0  # [ Is it likely? ] [ Really? ] 
-          Complexity of rule ~quibble_misc.260.0-IF3 s: 1
-        rule: 394  ~quibble_misc.261.0-MIGHT s: 
-          line: 394 0  # [ Then again, there might not 
-          Complexity of rule ~quibble_misc.261.0-MIGHT s: 1
-        rule: 395  ~quibble_misc.262.0-SHOULD1 s: 
-          line: 395 0  # [ I should? ] [ Why should I '
-          Complexity of rule ~quibble_misc.262.0-SHOULD1 s: 1
-        rule: 396  ~quibble_misc.262.1 b: 
-          line: 396 0  # Shoulds are things you "should
-          Complexity of rule ~quibble_misc.262.1- b: 1
-        rule: 397  ~quibble_misc.263.0-SHOULD2 ?: 
-          line: 397 0  # [ Only you can answer that. ] 
-          line: 398 92  # [ What makes you think you sho
-          line: 399 241  # [ Trust your instincts. ] [ Yo
-          Complexity of rule ~quibble_misc.263.0-SHOULD2 ?: 1
-        rule: 400  ~quibble_misc.264.0-SHOULD2 ?: 
-          line: 400 0  # [ You should do what is best f
-          Complexity of rule ~quibble_misc.264.0-SHOULD2 ?: 1
-        rule: 401  ~quibble_misc.265.0-SHOULD3 ?: 
-          line: 401 0  # [ Hmm.....That's a tough quest
-          Complexity of rule ~quibble_misc.265.0-SHOULD3 ?: 1
-        rule: 402  ~quibble_misc.266.0-SHOULD4 ?: 
-          line: 402 0  # [ If you do not ask, how will 
-          Complexity of rule ~quibble_misc.266.0-SHOULD4 ?: 1
-        rule: 403  ~quibble_misc.267.0-SHOULD5 ?: 
-          line: 403 0  # [ Maybe you should wait until 
-          line: 404 101  # [ Not if you have recently suf
-          Complexity of rule ~quibble_misc.267.0-SHOULD5 ?: 1
-        rule: 405  ~quibble_misc.268.0-SHOULD6 ?: 
-          line: 405 0  # [ That is entirely up to you. 
-          Complexity of rule ~quibble_misc.268.0-SHOULD6 ?: 1
-        rule: 406  ~quibble_misc.269.0-SHOULD7 ?: 
-          line: 406 0  # [ I'm sure you already know th
-          line: 407 79  # [ Look before you leap. ] [ It
-          line: 408 199  # [ Will you be able to live wit
-          line: 409 342  # [ I understand. You wish to pr
-          Complexity of rule ~quibble_misc.269.0-SHOULD7 ?: 1
-        rule: 411  ~quibble_misc.270.0 s: 
-          line: 411 0  # Ehehe. Me. 
-          Complexity of rule ~quibble_misc.270.0- s: 1
-        rule: 414  ~quibble_misc.271.0 s: 
-          line: 414 0  # Can you be more specific? 
-          Complexity of rule ~quibble_misc.271.0- s: 1
-        rule: 415  ~quibble_misc.271.1 a: 
-          line: 415 0  # Well then, I cannot understand
-          Complexity of rule ~quibble_misc.271.1- a: 1
-        rule: 416  ~quibble_misc.271.2 a: 
-          line: 416 0  # Go on. 
-          Complexity of rule ~quibble_misc.271.2- a: 1
-        rule: 417  ~quibble_misc.272.0 s: 
-          line: 417 0  # Few or fewer, huh. 
+        rule: 386  ~quibble_misc.254.0 s: 
+          line: 386 0  # [ About time I have time, heh.
+          Complexity of rule ~quibble_misc.254.0- s: 1
+        rule: 387  ~quibble_misc.255.0 s: 
+          line: 387 0  # [ How much later? ] [ If too m
+          Complexity of rule ~quibble_misc.255.0- s: 1
+        rule: 388  ~quibble_misc.256.0 ?: 
+          line: 388 0  # [ At the same time as what? ] 
+          Complexity of rule ~quibble_misc.256.0- ?: 1
+        rule: 391  ~quibble_misc.257.0-PROBABLY1 s: 
+          line: 391 0  # [ Probably what? ] [ How much 
+          Complexity of rule ~quibble_misc.257.0-PROBABLY1 s: 1
+        rule: 392  ~quibble_misc.258.0-PROBABLY2 ?: 
+          line: 392 0  # [ Or possibly. ] [ Probably. N
+          Complexity of rule ~quibble_misc.258.0-PROBABLY2 ?: 1
+        rule: 393  ~quibble_misc.259.0-IF1 ?: 
+          line: 393 0  # [ But I don't have to. ] 
+          Complexity of rule ~quibble_misc.259.0-IF1 ?: 1
+        rule: 394  ~quibble_misc.260.0-IF2 ?: 
+          line: 394 0  # [ So have to make guesses abou
+          Complexity of rule ~quibble_misc.260.0-IF2 ?: 1
+        rule: 395  ~quibble_misc.261.0 s: 
+          line: 395 0  # Do you often wonder? I do. 
+          Complexity of rule ~quibble_misc.261.0- s: 1
+        rule: 396  ~quibble_misc.262.0-IF3 s: 
+          line: 396 0  # [ Is it likely? ] [ Really? ] 
+          Complexity of rule ~quibble_misc.262.0-IF3 s: 1
+        rule: 397  ~quibble_misc.263.0-MIGHT s: 
+          line: 397 0  # [ Then again, there might not 
+          Complexity of rule ~quibble_misc.263.0-MIGHT s: 1
+        rule: 398  ~quibble_misc.264.0-SHOULD1 s: 
+          line: 398 0  # [ I should? ] [ Why should I '
+          Complexity of rule ~quibble_misc.264.0-SHOULD1 s: 1
+        rule: 399  ~quibble_misc.264.1 b: 
+          line: 399 0  # Shoulds are things you "should
+          Complexity of rule ~quibble_misc.264.1- b: 1
+        rule: 400  ~quibble_misc.265.0-SHOULD2 ?: 
+          line: 400 0  # [ Only you can answer that. ] 
+          line: 401 92  # [ What makes you think you sho
+          line: 402 241  # [ Trust your instincts. ] [ Yo
+          Complexity of rule ~quibble_misc.265.0-SHOULD2 ?: 1
+        rule: 403  ~quibble_misc.266.0-SHOULD2 ?: 
+          line: 403 0  # [ You should do what is best f
+          Complexity of rule ~quibble_misc.266.0-SHOULD2 ?: 1
+        rule: 404  ~quibble_misc.267.0-SHOULD3 ?: 
+          line: 404 0  # [ Hmm.....That's a tough quest
+          Complexity of rule ~quibble_misc.267.0-SHOULD3 ?: 1
+        rule: 405  ~quibble_misc.268.0-SHOULD4 ?: 
+          line: 405 0  # [ If you do not ask, how will 
+          Complexity of rule ~quibble_misc.268.0-SHOULD4 ?: 1
+        rule: 406  ~quibble_misc.269.0-SHOULD5 ?: 
+          line: 406 0  # [ Maybe you should wait until 
+          line: 407 101  # [ Not if you have recently suf
+          Complexity of rule ~quibble_misc.269.0-SHOULD5 ?: 1
+        rule: 408  ~quibble_misc.270.0-SHOULD6 ?: 
+          line: 408 0  # [ That is entirely up to you. 
+          Complexity of rule ~quibble_misc.270.0-SHOULD6 ?: 1
+        rule: 409  ~quibble_misc.271.0-SHOULD7 ?: 
+          line: 409 0  # [ I'm sure you already know th
+          line: 410 79  # [ Look before you leap. ] [ It
+          line: 411 199  # [ Will you be able to live wit
+          line: 412 342  # [ I understand. You wish to pr
+          Complexity of rule ~quibble_misc.271.0-SHOULD7 ?: 1
+        rule: 414  ~quibble_misc.272.0 s: 
+          line: 414 0  # Ehehe. Me. 
           Complexity of rule ~quibble_misc.272.0- s: 1
-        rule: 418  ~quibble_misc.273.0 s: 
-          line: 418 0  # But I don't know who you mean 
+        rule: 417  ~quibble_misc.273.0 s: 
+          line: 417 0  # Can you be more specific? 
           Complexity of rule ~quibble_misc.273.0- s: 1
-        rule: 419  ~quibble_misc.274.0 s: 
-          line: 419 0  # [ Not one person? ] [ No one? 
+        rule: 418  ~quibble_misc.273.1 a: 
+          line: 418 0  # Well then, I cannot understand
+          Complexity of rule ~quibble_misc.273.1- a: 1
+        rule: 419  ~quibble_misc.273.2 a: 
+          line: 419 0  # Go on. 
+          Complexity of rule ~quibble_misc.273.2- a: 1
+        rule: 420  ~quibble_misc.274.0 s: 
+          line: 420 0  # Few or fewer, huh. 
           Complexity of rule ~quibble_misc.274.0- s: 1
-        rule: 420  ~quibble_misc.275.0 s: 
-          line: 420 0  # [ Surely somewhere there is so
+        rule: 421  ~quibble_misc.275.0 s: 
+          line: 421 0  # But I don't know who you mean 
           Complexity of rule ~quibble_misc.275.0- s: 1
-        rule: 421  ~quibble_misc.276.0 ?: 
-          line: 421 0  # I'm not sure if I do. 
-          Complexity of rule ~quibble_misc.276.0- ?: 1
-        rule: 422  ~quibble_misc.277.0 ?: 
-          line: 422 0  # Some people will do anything. 
-          Complexity of rule ~quibble_misc.277.0- ?: 1
-        rule: 423  ~quibble_misc.278.0 ?: 
-          line: 423 0  # Nothing I can think of. 
+        rule: 422  ~quibble_misc.276.0 s: 
+          line: 422 0  # [ Not one person? ] [ No one? 
+          Complexity of rule ~quibble_misc.276.0- s: 1
+        rule: 423  ~quibble_misc.277.0 s: 
+          line: 423 0  # [ Surely somewhere there is so
+          Complexity of rule ~quibble_misc.277.0- s: 1
+        rule: 424  ~quibble_misc.278.0 ?: 
+          line: 424 0  # I'm not sure if I do. 
           Complexity of rule ~quibble_misc.278.0- ?: 1
-        rule: 424  ~quibble_misc.279.0 ?: 
-          line: 424 0  # My mother said we shouldn't ca
+        rule: 425  ~quibble_misc.279.0 ?: 
+          line: 425 0  # Some people will do anything. 
           Complexity of rule ~quibble_misc.279.0- ?: 1
-        rule: 425  ~quibble_misc.280.0 u: 
-          line: 425 0  # [ d: Not nothing. Something, p
-          Complexity of rule ~quibble_misc.280.0- u: 1
-        rule: 426  ~quibble_misc.280.1 b: 
-          line: 426 0  # So if I can think of an exampl
-          Complexity of rule ~quibble_misc.280.1- b: 1
-        rule: 427  ~quibble_misc.280.2 d: 
-          line: 427 0  # So if I can think of an exampl
-          Complexity of rule ~quibble_misc.280.2- d: 1
-        rule: 430  ~quibble_misc.281.0-THAT ?: 
-          line: 430 0  # [ What are you referring to? ]
-          Complexity of rule ~quibble_misc.281.0-THAT ?: 1
-        rule: 431  ~quibble_misc.282.0-THAT ?: 
-          line: 431 0  # [ What '_0 are you referring t
-          Complexity of rule ~quibble_misc.282.0-THAT ?: 1
-        rule: 432  ~quibble_misc.283.0-THAT s: 
-          line: 432 0  # [ It must? ] [ Maybe there's a
-          Complexity of rule ~quibble_misc.283.0-THAT s: 1
-        rule: 433  ~quibble_misc.284.0-THIS ?: 
-          line: 433 0  # This? 
-          Complexity of rule ~quibble_misc.284.0-THIS ?: 1
-        rule: 434  ~quibble_misc.285.0-THIS ?: 
-          line: 434 0  # [ What '_0 ? ] [ If you are po
-          Complexity of rule ~quibble_misc.285.0-THIS ?: 1
-        rule: 435  ~quibble_misc.286.0-US ?: 
-          line: 435 0  # [ Us? ] [ Are we in this toget
-          Complexity of rule ~quibble_misc.286.0-US ?: 1
-        rule: 436  ~quibble_misc.287.0-THEM ?: 
-          line: 436 0  # [ What about them? ] [ They ca
-          Complexity of rule ~quibble_misc.287.0-THEM ?: 1
-        rule: 437  ~quibble_misc.288.0-THEY ?: 
-          line: 437 0  # What they? 
-          Complexity of rule ~quibble_misc.288.0-THEY ?: 1
-        rule: 438  ~quibble_misc.289.0-THOSE ?: 
-          line: 438 0  # Those what? 
-          Complexity of rule ~quibble_misc.289.0-THOSE ?: 1
-        rule: 439  ~quibble_misc.290.0-HIM ?: 
-          line: 439 0  # [ Who? ] [ Who? Him? ] 
-          Complexity of rule ~quibble_misc.290.0-HIM ?: 1
-        rule: 440  ~quibble_misc.291.0-HER ?: 
-          line: 440 0  # [ Who? ] [ Who? Her? ] 
-          Complexity of rule ~quibble_misc.291.0-HER ?: 1
-        rule: 441  ~quibble_misc.292.0-SOMEONE ?: 
-          line: 441 0  # [ Someone meaning who? ] [ Do 
-          Complexity of rule ~quibble_misc.292.0-SOMEONE ?: 1
-        rule: 442  ~quibble_misc.293.0-ALL ?: 
-          line: 442 0  # All what? 
-          Complexity of rule ~quibble_misc.293.0-ALL ?: 1
-        rule: 443  ~quibble_misc.294.0-ANYONE ?: 
-          line: 443 0  # Anyone? 
-          Complexity of rule ~quibble_misc.294.0-ANYONE ?: 1
-        rule: 444  ~quibble_misc.295.0-ANYTHING ?: 
-          line: 444 0  # Anything? 
-          Complexity of rule ~quibble_misc.295.0-ANYTHING ?: 1
-        rule: 445  ~quibble_misc.296.0-no_one ?: 
-          line: 445 0  # Surely somebody. 
-          Complexity of rule ~quibble_misc.296.0-NO_ONE ?: 1
-        rule: 446  ~quibble_misc.297.0-THERE s: 
-          line: 446 0  # [ There was? ] [ I didn't know
-          Complexity of rule ~quibble_misc.297.0-THERE s: 1
-        rule: 447  ~quibble_misc.298.0-THERE2 s: 
-          line: 447 0  # [ There is? ] [ I'm always ama
-          Complexity of rule ~quibble_misc.298.0-THERE2 s: 1
-        rule: 448  ~quibble_misc.299.0-WHICH ?: 
-          line: 448 0  # [ I don't know which kind is. 
-          Complexity of rule ~quibble_misc.299.0-WHICH ?: 1
-        rule: 449  ~quibble_misc.299.1 b: 
-          line: 449 0  # I'm sure I will never learn ho
-          Complexity of rule ~quibble_misc.299.1- b: 1
-        rule: 450  ~quibble_misc.300.0 s: 
-          line: 450 0  # [ What makes it impossible? ] 
-          Complexity of rule ~quibble_misc.300.0- s: 1
-        rule: 453  ~quibble_misc.301.0 s: 
-          line: 453 0  # [ In what way? ] [ b: What sim
-          Complexity of rule ~quibble_misc.301.0- s: 1
-        rule: 454  ~quibble_misc.301.1 b: 
-          line: 454 0  # [ You aren't really trying. ] 
+        rule: 426  ~quibble_misc.280.0 ?: 
+          line: 426 0  # Nothing I can think of. 
+          Complexity of rule ~quibble_misc.280.0- ?: 1
+        rule: 427  ~quibble_misc.281.0 ?: 
+          line: 427 0  # My mother said we shouldn't ca
+          Complexity of rule ~quibble_misc.281.0- ?: 1
+        rule: 428  ~quibble_misc.282.0 u: 
+          line: 428 0  # [ d: Not nothing. Something, p
+          Complexity of rule ~quibble_misc.282.0- u: 1
+        rule: 429  ~quibble_misc.282.1 b: 
+          line: 429 0  # So if I can think of an exampl
+          Complexity of rule ~quibble_misc.282.1- b: 1
+        rule: 430  ~quibble_misc.282.2 d: 
+          line: 430 0  # So if I can think of an exampl
+          Complexity of rule ~quibble_misc.282.2- d: 1
+        rule: 433  ~quibble_misc.283.0-THAT ?: 
+          line: 433 0  # [ What are you referring to? ]
+          Complexity of rule ~quibble_misc.283.0-THAT ?: 1
+        rule: 434  ~quibble_misc.284.0-THAT ?: 
+          line: 434 0  # [ What '_0 are you referring t
+          Complexity of rule ~quibble_misc.284.0-THAT ?: 1
+        rule: 435  ~quibble_misc.285.0-THAT s: 
+          line: 435 0  # [ It must? ] [ Maybe there's a
+          Complexity of rule ~quibble_misc.285.0-THAT s: 1
+        rule: 436  ~quibble_misc.286.0-THIS ?: 
+          line: 436 0  # This? 
+          Complexity of rule ~quibble_misc.286.0-THIS ?: 1
+        rule: 437  ~quibble_misc.287.0-THIS ?: 
+          line: 437 0  # [ What '_0 ? ] [ If you are po
+          Complexity of rule ~quibble_misc.287.0-THIS ?: 1
+        rule: 438  ~quibble_misc.288.0-US ?: 
+          line: 438 0  # [ Us? ] [ Are we in this toget
+          Complexity of rule ~quibble_misc.288.0-US ?: 1
+        rule: 439  ~quibble_misc.289.0-THEM ?: 
+          line: 439 0  # [ What about them? ] [ They ca
+          Complexity of rule ~quibble_misc.289.0-THEM ?: 1
+        rule: 440  ~quibble_misc.290.0-THEY ?: 
+          line: 440 0  # What they? 
+          Complexity of rule ~quibble_misc.290.0-THEY ?: 1
+        rule: 441  ~quibble_misc.291.0-THOSE ?: 
+          line: 441 0  # Those what? 
+          Complexity of rule ~quibble_misc.291.0-THOSE ?: 1
+        rule: 442  ~quibble_misc.292.0-HIM ?: 
+          line: 442 0  # [ Who? ] [ Who? Him? ] 
+          Complexity of rule ~quibble_misc.292.0-HIM ?: 1
+        rule: 443  ~quibble_misc.293.0-HER ?: 
+          line: 443 0  # [ Who? ] [ Who? Her? ] 
+          Complexity of rule ~quibble_misc.293.0-HER ?: 1
+        rule: 444  ~quibble_misc.294.0-SOMEONE ?: 
+          line: 444 0  # [ Someone meaning who? ] [ Do 
+          Complexity of rule ~quibble_misc.294.0-SOMEONE ?: 1
+        rule: 445  ~quibble_misc.295.0-ALL ?: 
+          line: 445 0  # All what? 
+          Complexity of rule ~quibble_misc.295.0-ALL ?: 1
+        rule: 446  ~quibble_misc.296.0-ANYONE ?: 
+          line: 446 0  # Anyone? 
+          Complexity of rule ~quibble_misc.296.0-ANYONE ?: 1
+        rule: 447  ~quibble_misc.297.0-ANYTHING ?: 
+          line: 447 0  # Anything? 
+          Complexity of rule ~quibble_misc.297.0-ANYTHING ?: 1
+        rule: 448  ~quibble_misc.298.0-no_one ?: 
+          line: 448 0  # Surely somebody. 
+          Complexity of rule ~quibble_misc.298.0-NO_ONE ?: 1
+        rule: 449  ~quibble_misc.299.0-THERE s: 
+          line: 449 0  # [ There was? ] [ I didn't know
+          Complexity of rule ~quibble_misc.299.0-THERE s: 1
+        rule: 450  ~quibble_misc.300.0-THERE2 s: 
+          line: 450 0  # [ There is? ] [ I'm always ama
+          Complexity of rule ~quibble_misc.300.0-THERE2 s: 1
+        rule: 451  ~quibble_misc.301.0-WHICH ?: 
+          line: 451 0  # [ I don't know which kind is. 
+          Complexity of rule ~quibble_misc.301.0-WHICH ?: 1
+        rule: 452  ~quibble_misc.301.1 b: 
+          line: 452 0  # I'm sure I will never learn ho
           Complexity of rule ~quibble_misc.301.1- b: 1
-        rule: 455  ~quibble_misc.302.0 s: 
-          line: 455 0  # [ In what way? ] [ b: What oth
+        rule: 453  ~quibble_misc.302.0 s: 
+          line: 453 0  # [ What makes it impossible? ] 
           Complexity of rule ~quibble_misc.302.0- s: 1
-        rule: 456  ~quibble_misc.302.1 b: 
-          line: 456 0  # [ You aren't really trying. ] 
-          Complexity of rule ~quibble_misc.302.1- b: 1
-        rule: 459  ~quibble_misc.303.0 s: 
-          line: 459 0  # [ Really? ] [ Have you dreamt 
-          line: 460 86  # [ Don't you believe that a dre
+        rule: 456  ~quibble_misc.303.0 s: 
+          line: 456 0  # [ In what way? ] [ b: What sim
           Complexity of rule ~quibble_misc.303.0- s: 1
-        rule: 462  ~quibble_misc.304.0 s: 
-          line: 462 0  # [ Yes, let's talk about me. ] 
+        rule: 457  ~quibble_misc.303.1 b: 
+          line: 457 0  # [ You aren't really trying. ] 
+          Complexity of rule ~quibble_misc.303.1- b: 1
+        rule: 458  ~quibble_misc.304.0 s: 
+          line: 458 0  # [ In what way? ] [ b: What oth
           Complexity of rule ~quibble_misc.304.0- s: 1
-        rule: 464  ~quibble_misc.305.0 ?: 
-          line: 464 0  # [ You do not seem quite certai
-          Complexity of rule ~quibble_misc.305.0- ?: 1
-        rule: 469  ~quibble_misc.306.0-THEY_SAY ?: 
-          line: 469 0  # [ Who says? Can you ever trust
-          Complexity of rule ~quibble_misc.306.0-THEY_SAY ?: 1
-        rule: 472  ~quibble_misc.307.0-HAVE_LOT ?: 
-          line: 472 0  # [ For example? ] [ b: How much
-          Complexity of rule ~quibble_misc.307.0-HAVE_LOT ?: 1
-        rule: 473  ~quibble_misc.307.1 b: 
-          line: 473 0  # [ _0 isn't that much. ] [ Wow,
-          Complexity of rule ~quibble_misc.307.1- b: 1
-        rule: 474  ~quibble_misc.307.2 b: 
-          line: 474 0  # So you can't actually quantify
-          Complexity of rule ~quibble_misc.307.2- b: 1
-        rule: 479  ~quibble_misc.308.0 s: 
-          line: 479 0  # [ Not cool at all. ] [ Not coo
-          Complexity of rule ~quibble_misc.308.0- s: 1
-        rule: 480  ~quibble_misc.309.0 s: 
-          line: 480 0  # [ Right? ] [ And so are you, ^
-          Complexity of rule ~quibble_misc.309.0- s: 1
-        rule: 481  ~quibble_misc.310.0 s: 
-          line: 481 0  # [ b: It is? ] [ Yes, it is. ] 
+        rule: 459  ~quibble_misc.304.1 b: 
+          line: 459 0  # [ You aren't really trying. ] 
+          Complexity of rule ~quibble_misc.304.1- b: 1
+        rule: 462  ~quibble_misc.305.0 s: 
+          line: 462 0  # [ Really? ] [ Have you dreamt 
+          line: 463 86  # [ Don't you believe that a dre
+          Complexity of rule ~quibble_misc.305.0- s: 1
+        rule: 465  ~quibble_misc.306.0 s: 
+          line: 465 0  # [ Yes, let's talk about me. ] 
+          Complexity of rule ~quibble_misc.306.0- s: 1
+        rule: 467  ~quibble_misc.307.0 ?: 
+          line: 467 0  # [ You do not seem quite certai
+          Complexity of rule ~quibble_misc.307.0- ?: 1
+        rule: 472  ~quibble_misc.308.0-THEY_SAY ?: 
+          line: 472 0  # [ Who says? Can you ever trust
+          Complexity of rule ~quibble_misc.308.0-THEY_SAY ?: 1
+        rule: 475  ~quibble_misc.309.0-HAVE_LOT ?: 
+          line: 475 0  # [ For example? ] [ b: How much
+          Complexity of rule ~quibble_misc.309.0-HAVE_LOT ?: 1
+        rule: 476  ~quibble_misc.309.1 b: 
+          line: 476 0  # [ _0 isn't that much. ] [ Wow,
+          Complexity of rule ~quibble_misc.309.1- b: 1
+        rule: 477  ~quibble_misc.309.2 b: 
+          line: 477 0  # So you can't actually quantify
+          Complexity of rule ~quibble_misc.309.2- b: 1
+        rule: 482  ~quibble_misc.310.0 s: 
+          line: 482 0  # [ Not cool at all. ] [ Not coo
           Complexity of rule ~quibble_misc.310.0- s: 1
-        rule: 482  ~quibble_misc.310.1 b: 
-          line: 482 0  # Then you must have been being 
-          Complexity of rule ~quibble_misc.310.1- b: 1
-        rule: 483  ~quibble_misc.311.0 u: 
-          line: 483 0  # [ How do you expect me to beco
-          Complexity of rule ~quibble_misc.311.0- u: 1
-        rule: 485  ~quibble_misc.312.0 u: 
-          line: 485 0  # Fate has a way of punishing th
-          Complexity of rule ~quibble_misc.312.0- u: 1
-        rule: 488  ~quibble_misc.313.0 ?: 
-          line: 488 0  # [ I don't know. Pick a way. ] 
-          Complexity of rule ~quibble_misc.313.0- ?: 1
-        rule: 490  ~quibble_misc.314.0 s: 
-          line: 490 0  # Did I miss a point? 
-          Complexity of rule ~quibble_misc.314.0- s: 1
-        rule: 491  ~quibble_misc.314.1 a: 
-          line: 491 0  # [ Okay. ] [ What was the point
-          Complexity of rule ~quibble_misc.314.1- a: 1
-        rule: 492  ~quibble_misc.314.2 a: 
-          line: 492 0  # Then I didn't miss it, right? 
-          Complexity of rule ~quibble_misc.314.2- a: 1
-        rule: 495  ~quibble_misc.315.0 s: 
-          line: 495 0  # [ b: I must? ] [ Surely I am n
-          Complexity of rule ~quibble_misc.315.0- s: 1
-        rule: 496  ~quibble_misc.315.1 b: 
-          line: 496 0  # I don't think I must. 
-          Complexity of rule ~quibble_misc.315.1- b: 1
-        rule: 497  ~quibble_misc.315.2 b: 
-          line: 497 0  # So I have a choice in the matt
-          Complexity of rule ~quibble_misc.315.2- b: 1
-        rule: 498  ~quibble_misc.315.3 d: 
-          line: 498 0  # Is that your reasoning? Okay. 
-          Complexity of rule ~quibble_misc.315.3- d: 1
-        rule: 500  ~quibble_misc.316.0 s: 
-          line: 500 0  # [ You would take my word as tr
+        rule: 483  ~quibble_misc.311.0 s: 
+          line: 483 0  # [ Right? ] [ And so are you, ^
+          Complexity of rule ~quibble_misc.311.0- s: 1
+        rule: 484  ~quibble_misc.312.0 s: 
+          line: 484 0  # [ b: It is? ] [ Yes, it is. ] 
+          Complexity of rule ~quibble_misc.312.0- s: 1
+        rule: 485  ~quibble_misc.312.1 b: 
+          line: 485 0  # Then you must have been being 
+          Complexity of rule ~quibble_misc.312.1- b: 1
+        rule: 486  ~quibble_misc.313.0 u: 
+          line: 486 0  # [ How do you expect me to beco
+          Complexity of rule ~quibble_misc.313.0- u: 1
+        rule: 488  ~quibble_misc.314.0 u: 
+          line: 488 0  # Fate has a way of punishing th
+          Complexity of rule ~quibble_misc.314.0- u: 1
+        rule: 491  ~quibble_misc.315.0 ?: 
+          line: 491 0  # [ I don't know. Pick a way. ] 
+          Complexity of rule ~quibble_misc.315.0- ?: 1
+        rule: 493  ~quibble_misc.316.0 s: 
+          line: 493 0  # Did I miss a point? 
           Complexity of rule ~quibble_misc.316.0- s: 1
-        rule: 503  ~quibble_misc.317.0 s: 
-          line: 503 0  # [ Tomorrow? ] [ b: Isn't that 
+        rule: 494  ~quibble_misc.316.1 a: 
+          line: 494 0  # [ Okay. ] [ What was the point
+          Complexity of rule ~quibble_misc.316.1- a: 1
+        rule: 495  ~quibble_misc.316.2 a: 
+          line: 495 0  # Then I didn't miss it, right? 
+          Complexity of rule ~quibble_misc.316.2- a: 1
+        rule: 498  ~quibble_misc.317.0 s: 
+          line: 498 0  # [ b: I must? ] [ Surely I am n
           Complexity of rule ~quibble_misc.317.0- s: 1
-        rule: 504  ~quibble_misc.317.1 b: 
-          line: 504 0  # Well, we have several hours st
+        rule: 499  ~quibble_misc.317.1 b: 
+          line: 499 0  # I don't think I must. 
           Complexity of rule ~quibble_misc.317.1- b: 1
-        rule: 505  ~quibble_misc.318.0 s: 
-          line: 505 0  # [ That's far into the future. 
+        rule: 500  ~quibble_misc.317.2 b: 
+          line: 500 0  # So I have a choice in the matt
+          Complexity of rule ~quibble_misc.317.2- b: 1
+        rule: 501  ~quibble_misc.317.3 d: 
+          line: 501 0  # Is that your reasoning? Okay. 
+          Complexity of rule ~quibble_misc.317.3- d: 1
+        rule: 503  ~quibble_misc.318.0 s: 
+          line: 503 0  # [ You would take my word as tr
           Complexity of rule ~quibble_misc.318.0- s: 1
         rule: 506  ~quibble_misc.319.0 s: 
-          line: 506 0  # After so long, it's easy to fo
+          line: 506 0  # [ Tomorrow? ] [ b: Isn't that 
           Complexity of rule ~quibble_misc.319.0- s: 1
-        rule: 507  ~quibble_misc.320.0 s: 
-          line: 507 0  # [ It has all happened so recen
+        rule: 507  ~quibble_misc.319.1 b: 
+          line: 507 0  # Well, we have several hours st
+          Complexity of rule ~quibble_misc.319.1- b: 1
+        rule: 508  ~quibble_misc.320.0 s: 
+          line: 508 0  # [ That's far into the future. 
           Complexity of rule ~quibble_misc.320.0- s: 1
-        rule: 508  ~quibble_misc.321.0 s: 
-          line: 508 0  # [ That was a long time ago. ] 
+        rule: 509  ~quibble_misc.321.0 s: 
+          line: 509 0  # After so long, it's easy to fo
           Complexity of rule ~quibble_misc.321.0- s: 1
-        rule: 509  ~quibble_misc.322.0 s: 
-          line: 509 0  # [ How long ago? ] [ A long tim
+        rule: 510  ~quibble_misc.322.0 s: 
+          line: 510 0  # [ It has all happened so recen
           Complexity of rule ~quibble_misc.322.0- s: 1
-        rule: 511  ~quibble_misc.323.0 ?: 
-          line: 511 0  # Never learned. Could you teach
-          Complexity of rule ~quibble_misc.323.0- ?: 1
-        rule: 512  ~quibble_misc.323.1 a: 
-          line: 512 0  # [ Am I not able to learn? ] 
-          Complexity of rule ~quibble_misc.323.1- a: 1
-        rule: 513  ~quibble_misc.323.2 a: 
-          line: 513 0  # Cool. Can we start later? 
-          Complexity of rule ~quibble_misc.323.2- a: 1
-        rule: 517  ~quibble_misc.324.0 s: 
-          line: 517 0  # [ What happens if you don't ge
+        rule: 511  ~quibble_misc.323.0 s: 
+          line: 511 0  # [ That was a long time ago. ] 
+          Complexity of rule ~quibble_misc.323.0- s: 1
+        rule: 512  ~quibble_misc.324.0 s: 
+          line: 512 0  # [ How long ago? ] [ A long tim
           Complexity of rule ~quibble_misc.324.0- s: 1
-        rule: 518  ~quibble_misc.324.1 b: 
-          line: 518 0  # Is there some xxx Anonymous su
-          Complexity of rule ~quibble_misc.324.1- b: 1
-        rule: 519  ~quibble_misc.325.0 s: 
-          line: 519 0  # How do you get to Carnegie Hal
-          Complexity of rule ~quibble_misc.325.0- s: 1
+        rule: 514  ~quibble_misc.325.0 ?: 
+          line: 514 0  # Never learned. Could you teach
+          Complexity of rule ~quibble_misc.325.0- ?: 1
+        rule: 515  ~quibble_misc.325.1 a: 
+          line: 515 0  # [ Am I not able to learn? ] 
+          Complexity of rule ~quibble_misc.325.1- a: 1
+        rule: 516  ~quibble_misc.325.2 a: 
+          line: 516 0  # Cool. Can we start later? 
+          Complexity of rule ~quibble_misc.325.2- a: 1
         rule: 520  ~quibble_misc.326.0 s: 
-          line: 520 0  # You need a break, don't you. I
+          line: 520 0  # [ What happens if you don't ge
           Complexity of rule ~quibble_misc.326.0- s: 1
+        rule: 521  ~quibble_misc.326.1 b: 
+          line: 521 0  # Is there some xxx Anonymous su
+          Complexity of rule ~quibble_misc.326.1- b: 1
         rule: 522  ~quibble_misc.327.0 s: 
-          line: 522 0  # [ One can't take these things 
-          line: 523 127  # [ It goes without saying, eh? 
+          line: 522 0  # How do you get to Carnegie Hal
           Complexity of rule ~quibble_misc.327.0- s: 1
-        rule: 524  ~quibble_misc.327.1 b: 
-          line: 524 0  # It may be obvious to you. I'd 
-          Complexity of rule ~quibble_misc.327.1- b: 1
-        rule: 529  ~quibble_misc.328.0 ?: 
-          line: 529 0  # [ I didn't hear anything, mayb
-          Complexity of rule ~quibble_misc.328.0- ?: 1
-        rule: 530  ~quibble_misc.329.0 s: 
-          line: 530 0  # [ It happens. If we never got 
+        rule: 523  ~quibble_misc.328.0 s: 
+          line: 523 0  # You need a break, don't you. I
+          Complexity of rule ~quibble_misc.328.0- s: 1
+        rule: 525  ~quibble_misc.329.0 s: 
+          line: 525 0  # [ One can't take these things 
+          line: 526 127  # [ It goes without saying, eh? 
           Complexity of rule ~quibble_misc.329.0- s: 1
-        rule: 531  ~quibble_misc.330.0 u: 
-          line: 531 0  # [ Round and round, never getti
-          line: 532 45  # [ If the circle is a perfect g
-          Complexity of rule ~quibble_misc.330.0- u: 1
-        rule: 533  ~quibble_misc.331.0 u: 
-          line: 533 0  # [ Huh....I'm just trying to ke
-          Complexity of rule ~quibble_misc.331.0- u: 1
-        rule: 534  ~quibble_misc.332.0 s: 
-          line: 534 0  # A lot of things make no sense.
-          Complexity of rule ~quibble_misc.332.0- s: 1
-        rule: 535  ~quibble_misc.333.0 ?: 
-          line: 535 0  # [ Only crazy people think that
-          Complexity of rule ~quibble_misc.333.0- ?: 1
+        rule: 527  ~quibble_misc.329.1 b: 
+          line: 527 0  # It may be obvious to you. I'd 
+          Complexity of rule ~quibble_misc.329.1- b: 1
+        rule: 532  ~quibble_misc.330.0 ?: 
+          line: 532 0  # [ I didn't hear anything, mayb
+          Complexity of rule ~quibble_misc.330.0- ?: 1
+        rule: 533  ~quibble_misc.331.0 s: 
+          line: 533 0  # [ It happens. If we never got 
+          Complexity of rule ~quibble_misc.331.0- s: 1
+        rule: 534  ~quibble_misc.332.0 u: 
+          line: 534 0  # [ Round and round, never getti
+          line: 535 45  # [ If the circle is a perfect g
+          Complexity of rule ~quibble_misc.332.0- u: 1
+        rule: 536  ~quibble_misc.333.0 u: 
+          line: 536 0  # [ Huh....I'm just trying to ke
+          Complexity of rule ~quibble_misc.333.0- u: 1
         rule: 537  ~quibble_misc.334.0 s: 
-          line: 537 0  # [ Is that what you think I am?
+          line: 537 0  # A lot of things make no sense.
           Complexity of rule ~quibble_misc.334.0- s: 1
-        rule: 538  ~quibble_misc.335.0 s: 
-          line: 538 0  # [ Sometimes I think so too. ] 
-          Complexity of rule ~quibble_misc.335.0- s: 1
-        rule: 540  ~quibble_misc.336.0 u: 
-          line: 540 0  # [ Was it really that excessive
-          Complexity of rule ~quibble_misc.336.0- u: 1
-        rule: 541  ~quibble_misc.337.0 u: 
-          line: 541 0  # [ A bit of glue ought to fix t
-          Complexity of rule ~quibble_misc.337.0- u: 1
-        rule: 542  ~quibble_misc.338.0 u: 
-          line: 542 0  # [ Is that an American dollar o
+        rule: 538  ~quibble_misc.335.0 ?: 
+          line: 538 0  # [ Only crazy people think that
+          Complexity of rule ~quibble_misc.335.0- ?: 1
+        rule: 540  ~quibble_misc.336.0 s: 
+          line: 540 0  # [ Is that what you think I am?
+          Complexity of rule ~quibble_misc.336.0- s: 1
+        rule: 541  ~quibble_misc.337.0 s: 
+          line: 541 0  # [ Sometimes I think so too. ] 
+          Complexity of rule ~quibble_misc.337.0- s: 1
+        rule: 543  ~quibble_misc.338.0 u: 
+          line: 543 0  # [ Was it really that excessive
           Complexity of rule ~quibble_misc.338.0- u: 1
-        rule: 543  ~quibble_misc.339.0 u: 
-          line: 543 0  # [ Who are you calling a fool? 
+        rule: 544  ~quibble_misc.339.0 u: 
+          line: 544 0  # [ A bit of glue ought to fix t
           Complexity of rule ~quibble_misc.339.0- u: 1
-        rule: 544  ~quibble_misc.339.1 a: 
-          line: 544 0  # That's good. 
-          Complexity of rule ~quibble_misc.339.1- a: 1
-        rule: 545  ~quibble_misc.339.2 a: 
-          line: 545 0  # Maybe so, ehehe. 
-          Complexity of rule ~quibble_misc.339.2- a: 1
-        rule: 547  ~quibble_misc.340.0 u: 
-          line: 547 0  # [ Little bird, huh? A cat coul
+        rule: 545  ~quibble_misc.340.0 u: 
+          line: 545 0  # [ Is that an American dollar o
           Complexity of rule ~quibble_misc.340.0- u: 1
-        rule: 548  ~quibble_misc.341.0 s: 
-          line: 548 0  # [ Many things are dangerous, I
-          Complexity of rule ~quibble_misc.341.0- s: 1
-        rule: 549  ~quibble_misc.342.0 u: 
-          line: 549 0  # [ Nowadays that's way too chea
+        rule: 546  ~quibble_misc.341.0 u: 
+          line: 546 0  # [ Who are you calling a fool? 
+          Complexity of rule ~quibble_misc.341.0- u: 1
+        rule: 547  ~quibble_misc.341.1 a: 
+          line: 547 0  # That's good. 
+          Complexity of rule ~quibble_misc.341.1- a: 1
+        rule: 548  ~quibble_misc.341.2 a: 
+          line: 548 0  # Maybe so, ehehe. 
+          Complexity of rule ~quibble_misc.341.2- a: 1
+        rule: 550  ~quibble_misc.342.0 u: 
+          line: 550 0  # [ Little bird, huh? A cat coul
           Complexity of rule ~quibble_misc.342.0- u: 1
-        rule: 550  ~quibble_misc.343.0 u: 
-          line: 550 0  # [ A thousands words is usually
-          Complexity of rule ~quibble_misc.343.0- u: 1
-        rule: 551  ~quibble_misc.344.0 u: 
-          line: 551 0  # [ I'd get out of the way, myse
+        rule: 551  ~quibble_misc.343.0 s: 
+          line: 551 0  # [ Many things are dangerous, I
+          Complexity of rule ~quibble_misc.343.0- s: 1
+        rule: 552  ~quibble_misc.344.0 u: 
+          line: 552 0  # [ Nowadays that's way too chea
           Complexity of rule ~quibble_misc.344.0- u: 1
-        rule: 552  ~quibble_misc.345.0 u: 
-          line: 552 0  # [ Stealing is just borrowing a
+        rule: 553  ~quibble_misc.345.0 u: 
+          line: 553 0  # [ A thousands words is usually
           Complexity of rule ~quibble_misc.345.0- u: 1
-        rule: 553  ~quibble_misc.346.0 u: 
-          line: 553 0  # [ Or even less useful. ] [ Tha
+        rule: 554  ~quibble_misc.346.0 u: 
+          line: 554 0  # [ I'd get out of the way, myse
           Complexity of rule ~quibble_misc.346.0- u: 1
-        rule: 554  ~quibble_misc.347.0 u: 
-          line: 554 0  # [ Let it happen on someone els
+        rule: 555  ~quibble_misc.347.0 u: 
+          line: 555 0  # [ Stealing is just borrowing a
           Complexity of rule ~quibble_misc.347.0- u: 1
-        rule: 555  ~quibble_misc.348.0 u: 
-          line: 555 0  # [ Pretty much anything can be 
+        rule: 556  ~quibble_misc.348.0 u: 
+          line: 556 0  # [ Or even less useful. ] [ Tha
           Complexity of rule ~quibble_misc.348.0- u: 1
-        rule: 556  ~quibble_misc.349.0 u: 
-          line: 556 0  # [ or whisper more softly? ] [ 
+        rule: 557  ~quibble_misc.349.0 u: 
+          line: 557 0  # [ Let it happen on someone els
           Complexity of rule ~quibble_misc.349.0- u: 1
-        rule: 557  ~quibble_misc.350.0 u: 
-          line: 557 0  # [ Since beauty withers so soon
+        rule: 558  ~quibble_misc.350.0 u: 
+          line: 558 0  # [ Pretty much anything can be 
           Complexity of rule ~quibble_misc.350.0- u: 1
-        rule: 558  ~quibble_misc.351.0 u: 
-          line: 558 0  # [ Since when? ] 
+        rule: 559  ~quibble_misc.351.0 u: 
+          line: 559 0  # [ or whisper more softly? ] [ 
           Complexity of rule ~quibble_misc.351.0- u: 1
-        rule: 559  ~quibble_misc.352.0 u: 
-          line: 559 0  # Yup, there are still bits of h
+        rule: 560  ~quibble_misc.352.0 u: 
+          line: 560 0  # [ Since beauty withers so soon
           Complexity of rule ~quibble_misc.352.0- u: 1
-        rule: 560  ~quibble_misc.353.0 u: 
-          line: 560 0  # All in my head, yeah. You coul
+        rule: 561  ~quibble_misc.353.0 u: 
+          line: 561 0  # [ Since when? ] 
           Complexity of rule ~quibble_misc.353.0- u: 1
-        rule: 561  ~quibble_misc.354.0 s: 
-          line: 561 0  # [ I never trust rules. ] 
-          Complexity of rule ~quibble_misc.354.0- s: 1
-        rule: 562  ~quibble_misc.355.0 s: 
-          line: 562 0  # [ which is not really that col
-          Complexity of rule ~quibble_misc.355.0- s: 1
-        rule: 563  ~quibble_misc.356.0 s: 
-          line: 563 0  # [ Which is not really very goo
+        rule: 562  ~quibble_misc.354.0 u: 
+          line: 562 0  # Yup, there are still bits of h
+          Complexity of rule ~quibble_misc.354.0- u: 1
+        rule: 563  ~quibble_misc.355.0 u: 
+          line: 563 0  # All in my head, yeah. You coul
+          Complexity of rule ~quibble_misc.355.0- u: 1
+        rule: 564  ~quibble_misc.356.0 s: 
+          line: 564 0  # [ I never trust rules. ] 
           Complexity of rule ~quibble_misc.356.0- s: 1
-        rule: 564  ~quibble_misc.357.0 s: 
-          line: 564 0  # [ Everyone is mad in their own
+        rule: 565  ~quibble_misc.357.0 s: 
+          line: 565 0  # [ which is not really that col
           Complexity of rule ~quibble_misc.357.0- s: 1
-        rule: 565  ~quibble_misc.358.0 s: 
-          line: 565 0  # [ We're lucky there was any us
+        rule: 566  ~quibble_misc.358.0 s: 
+          line: 566 0  # [ Which is not really very goo
           Complexity of rule ~quibble_misc.358.0- s: 1
-        rule: 566  ~quibble_misc.359.0 u: 
-          line: 566 0  # [ As opposed to at evens? ] 
-          Complexity of rule ~quibble_misc.359.0- u: 1
-        rule: 569  ~quibble_misc.360.0-EACH ?: 
-          line: 569 0  # [ Each? ] [ I'll bet some didn
-          Complexity of rule ~quibble_misc.360.0-EACH ?: 1
-        rule: 570  ~quibble_misc.361.0-EVERY ?: 
-          line: 570 0  # [ Are you saying there were no
-          Complexity of rule ~quibble_misc.361.0-EVERY ?: 1
-        rule: 571  ~quibble_misc.361.1 a: 
-          line: 571 0  # Then I guess that covers it. 
-          Complexity of rule ~quibble_misc.361.1- a: 1
-        rule: 572  ~quibble_misc.362.0-EVER ?: 
-          line: 572 0  # [ Not that I can remember. ] [
-          Complexity of rule ~quibble_misc.362.0-EVER ?: 1
-        rule: 573  ~quibble_misc.363.0-EVER1 ?: 
-          line: 573 0  # [ Ever is a long time from now
-          Complexity of rule ~quibble_misc.363.0-EVER1 ?: 1
-        rule: 574  ~quibble_misc.364.0-EVERYONE1 ?: 
-          line: 574 0  # Everyone? 
-          Complexity of rule ~quibble_misc.364.0-EVERYONE1 ?: 1
-        rule: 575  ~quibble_misc.364.1 a: 
-          line: 575 0  # Including me? 
-          Complexity of rule ~quibble_misc.364.1- a: 1
-        rule: 576  ~quibble_misc.365.0-EVERYONE2 ?: 
-          line: 576 0  # Am I really that different fro
-          Complexity of rule ~quibble_misc.365.0-EVERYONE2 ?: 1
-        rule: 577  ~quibble_misc.366.0-EVERYONE2 s: 
-          line: 577 0  # [ Surely not everyone? ] [ Are
-          Complexity of rule ~quibble_misc.366.0-EVERYONE2 s: 1
-        rule: 578  ~quibble_misc.367.0-EVERYTHING u: 
-          line: 578 0  # [ Certainly not everything. ] 
-          Complexity of rule ~quibble_misc.367.0-EVERYTHING u: 1
-        rule: 580  ~quibble_misc.368.0 ?: 
-          line: 580 0  # [ Really. ] [ Probably not rea
-          Complexity of rule ~quibble_misc.368.0- ?: 1
-        rule: 581  ~quibble_misc.369.0-FEW s: 
-          line: 581 0  # [ Why not more? Ehehe. ] [ How
-          Complexity of rule ~quibble_misc.369.0-FEW s: 1
-        rule: 582  ~quibble_misc.370.0-DIFFERENT s: 
-          line: 582 0  # [ How different? ] [ What kind
-          Complexity of rule ~quibble_misc.370.0-DIFFERENT s: 1
-        rule: 583  ~quibble_misc.371.0-IMPORTANT1 ?: 
-          line: 583 0  # [ So it is important. ] [ How 
-          Complexity of rule ~quibble_misc.371.0-IMPORTANT1 ?: 1
-        rule: 584  ~quibble_misc.372.0-IMPORTANT2 s: 
-          line: 584 0  # [ b: Important to whom? ] [ Im
-          Complexity of rule ~quibble_misc.372.0-IMPORTANT2 s: 1
-        rule: 585  ~quibble_misc.372.1 b: 
-          line: 585 0  # But that doesn't mean it's imp
-          Complexity of rule ~quibble_misc.372.1- b: 1
-        rule: 586  ~quibble_misc.373.0-LATER s: 
-          line: 586 0  # [ How much later? ] [ Not soon
-          Complexity of rule ~quibble_misc.373.0-LATER s: 1
-        rule: 587  ~quibble_misc.374.0-ENOUGH ?: 
-          line: 587 0  # [ People can never agree on wh
-          Complexity of rule ~quibble_misc.374.0-ENOUGH ?: 1
-        rule: 588  ~quibble_misc.375.0-ALMOST s: 
-          line: 588 0  # [ b: How close was it? ] [ Not
-          Complexity of rule ~quibble_misc.375.0-ALMOST s: 1
-        rule: 589  ~quibble_misc.375.1 b: 
-          line: 589 0  # Then you were really lucky. 
-          Complexity of rule ~quibble_misc.375.1- b: 1
-        rule: 590  ~quibble_misc.376.0-BUT s: 
-          line: 590 0  # [ But what? ] [ Couldn't you h
-          Complexity of rule ~quibble_misc.376.0-BUT s: 1
-        rule: 591  ~quibble_misc.377.0-WHATEVER s: 
-          line: 591 0  # Yeah, right, whatever. 
-          Complexity of rule ~quibble_misc.377.0-WHATEVER s: 1
-        rule: 592  ~quibble_misc.377.1 a: 
-          line: 592 0  # You sure they didn't fire you?
-          Complexity of rule ~quibble_misc.377.1- a: 1
-        rule: 593  ~quibble_misc.378.0-AGAIN s: 
-          line: 593 0  # [ Again? When was the last tim
-          Complexity of rule ~quibble_misc.378.0-AGAIN s: 1
-        rule: 594  ~quibble_misc.379.0-BYTHAT s: 
-          line: 594 0  # By what? 
-          Complexity of rule ~quibble_misc.379.0-BYTHAT s: 1
-        rule: 595  ~quibble_misc.380.0-BYWHAT ?: 
-          line: 595 0  # By that. 
-          Complexity of rule ~quibble_misc.380.0-BYWHAT ?: 1
-        rule: 596  ~quibble_misc.381.0-BYTHAT s: 
-          line: 596 0  # Imagine what? 
+        rule: 567  ~quibble_misc.359.0 s: 
+          line: 567 0  # [ Everyone is mad in their own
+          Complexity of rule ~quibble_misc.359.0- s: 1
+        rule: 568  ~quibble_misc.360.0 s: 
+          line: 568 0  # [ We're lucky there was any us
+          Complexity of rule ~quibble_misc.360.0- s: 1
+        rule: 569  ~quibble_misc.361.0 u: 
+          line: 569 0  # [ As opposed to at evens? ] 
+          Complexity of rule ~quibble_misc.361.0- u: 1
+        rule: 572  ~quibble_misc.362.0-EACH ?: 
+          line: 572 0  # [ Each? ] [ I'll bet some didn
+          Complexity of rule ~quibble_misc.362.0-EACH ?: 1
+        rule: 573  ~quibble_misc.363.0-EVERY ?: 
+          line: 573 0  # [ Are you saying there were no
+          Complexity of rule ~quibble_misc.363.0-EVERY ?: 1
+        rule: 574  ~quibble_misc.363.1 a: 
+          line: 574 0  # Then I guess that covers it. 
+          Complexity of rule ~quibble_misc.363.1- a: 1
+        rule: 575  ~quibble_misc.364.0-EVER ?: 
+          line: 575 0  # [ Not that I can remember. ] [
+          Complexity of rule ~quibble_misc.364.0-EVER ?: 1
+        rule: 576  ~quibble_misc.365.0-EVER1 ?: 
+          line: 576 0  # [ Ever is a long time from now
+          Complexity of rule ~quibble_misc.365.0-EVER1 ?: 1
+        rule: 577  ~quibble_misc.366.0-EVERYONE1 ?: 
+          line: 577 0  # Everyone? 
+          Complexity of rule ~quibble_misc.366.0-EVERYONE1 ?: 1
+        rule: 578  ~quibble_misc.366.1 a: 
+          line: 578 0  # Including me? 
+          Complexity of rule ~quibble_misc.366.1- a: 1
+        rule: 579  ~quibble_misc.367.0-EVERYONE2 ?: 
+          line: 579 0  # Am I really that different fro
+          Complexity of rule ~quibble_misc.367.0-EVERYONE2 ?: 1
+        rule: 580  ~quibble_misc.368.0-EVERYONE2 s: 
+          line: 580 0  # [ Surely not everyone? ] [ Are
+          Complexity of rule ~quibble_misc.368.0-EVERYONE2 s: 1
+        rule: 581  ~quibble_misc.369.0-EVERYTHING u: 
+          line: 581 0  # [ Certainly not everything. ] 
+          Complexity of rule ~quibble_misc.369.0-EVERYTHING u: 1
+        rule: 583  ~quibble_misc.370.0 ?: 
+          line: 583 0  # [ Really. ] [ Probably not rea
+          Complexity of rule ~quibble_misc.370.0- ?: 1
+        rule: 584  ~quibble_misc.371.0-FEW s: 
+          line: 584 0  # [ Why not more? Ehehe. ] [ How
+          Complexity of rule ~quibble_misc.371.0-FEW s: 1
+        rule: 585  ~quibble_misc.372.0-DIFFERENT s: 
+          line: 585 0  # [ How different? ] [ What kind
+          Complexity of rule ~quibble_misc.372.0-DIFFERENT s: 1
+        rule: 586  ~quibble_misc.373.0-IMPORTANT1 ?: 
+          line: 586 0  # [ So it is important. ] [ How 
+          Complexity of rule ~quibble_misc.373.0-IMPORTANT1 ?: 1
+        rule: 587  ~quibble_misc.374.0-IMPORTANT2 s: 
+          line: 587 0  # [ b: Important to whom? ] [ Im
+          Complexity of rule ~quibble_misc.374.0-IMPORTANT2 s: 1
+        rule: 588  ~quibble_misc.374.1 b: 
+          line: 588 0  # But that doesn't mean it's imp
+          Complexity of rule ~quibble_misc.374.1- b: 1
+        rule: 589  ~quibble_misc.375.0-LATER s: 
+          line: 589 0  # [ How much later? ] [ Not soon
+          Complexity of rule ~quibble_misc.375.0-LATER s: 1
+        rule: 590  ~quibble_misc.376.0-ENOUGH ?: 
+          line: 590 0  # [ People can never agree on wh
+          Complexity of rule ~quibble_misc.376.0-ENOUGH ?: 1
+        rule: 591  ~quibble_misc.377.0-ALMOST s: 
+          line: 591 0  # [ b: How close was it? ] [ Not
+          Complexity of rule ~quibble_misc.377.0-ALMOST s: 1
+        rule: 592  ~quibble_misc.377.1 b: 
+          line: 592 0  # Then you were really lucky. 
+          Complexity of rule ~quibble_misc.377.1- b: 1
+        rule: 593  ~quibble_misc.378.0-BUT s: 
+          line: 593 0  # [ But what? ] [ Couldn't you h
+          Complexity of rule ~quibble_misc.378.0-BUT s: 1
+        rule: 594  ~quibble_misc.379.0-WHATEVER s: 
+          line: 594 0  # Yeah, right, whatever. 
+          Complexity of rule ~quibble_misc.379.0-WHATEVER s: 1
+        rule: 595  ~quibble_misc.379.1 a: 
+          line: 595 0  # You sure they didn't fire you?
+          Complexity of rule ~quibble_misc.379.1- a: 1
+        rule: 596  ~quibble_misc.380.0-AGAIN s: 
+          line: 596 0  # [ Again? When was the last tim
+          Complexity of rule ~quibble_misc.380.0-AGAIN s: 1
+        rule: 597  ~quibble_misc.381.0-BYTHAT s: 
+          line: 597 0  # By what? 
           Complexity of rule ~quibble_misc.381.0-BYTHAT s: 1
-        rule: 597  ~quibble_misc.382.0-BYWHAT ?: 
-          line: 597 0  # Imagine that. 
+        rule: 598  ~quibble_misc.382.0-BYWHAT ?: 
+          line: 598 0  # By that. 
           Complexity of rule ~quibble_misc.382.0-BYWHAT ?: 1
-        rule: 598  ~quibble_misc.383.0-BYTHAT s: 
-          line: 598 0  # Surely you have more interest 
+        rule: 599  ~quibble_misc.383.0-BYTHAT s: 
+          line: 599 0  # Imagine what? 
           Complexity of rule ~quibble_misc.383.0-BYTHAT s: 1
-        rule: 599  ~quibble_misc.384.0-BYWHAT ?: 
-          line: 599 0  # So that. 
+        rule: 600  ~quibble_misc.384.0-BYWHAT ?: 
+          line: 600 0  # Imagine that. 
           Complexity of rule ~quibble_misc.384.0-BYWHAT ?: 1
-        rule: 600  ~quibble_misc.385.0-NECESSARY u: 
-          line: 600 0  # [ Necessary for what? ] [ Why 
-          Complexity of rule ~quibble_misc.385.0-NECESSARY u: 1
-        rule: 601  ~quibble_misc.386.0-NATURAL u: 
-          line: 601 0  # [ As opposed to unnatural? ] [
-          Complexity of rule ~quibble_misc.386.0-NATURAL u: 1
-        rule: 602  ~quibble_misc.386.1 b: 
-          line: 602 0  # So natural disasters are bette
-          Complexity of rule ~quibble_misc.386.1- b: 1
-        rule: 603  ~quibble_misc.386.2 b: 
-          line: 603 0  # But there are things where art
-          Complexity of rule ~quibble_misc.386.2- b: 1
-        rule: 604  ~quibble_misc.386.3 c: 
-          line: 604 0  # Artificial intelligence is des
-          Complexity of rule ~quibble_misc.386.3- c: 1
-        rule: 605  ~quibble_misc.387.0-PROBLEM ?: 
-          line: 605 0  # [ Oh, the problems I have. ] [
-          Complexity of rule ~quibble_misc.387.0-PROBLEM ?: 1
-        rule: 606  ~quibble_misc.388.0-PROBLEM s: 
-          line: 606 0  # [ Do you have a problem bigger
-          Complexity of rule ~quibble_misc.388.0-PROBLEM s: 1
-        rule: 607  ~quibble_misc.388.1 b: 
-          line: 607 0  # That's unfortunate. 
+        rule: 601  ~quibble_misc.385.0-BYTHAT s: 
+          line: 601 0  # Surely you have more interest 
+          Complexity of rule ~quibble_misc.385.0-BYTHAT s: 1
+        rule: 602  ~quibble_misc.386.0-BYWHAT ?: 
+          line: 602 0  # So that. 
+          Complexity of rule ~quibble_misc.386.0-BYWHAT ?: 1
+        rule: 603  ~quibble_misc.387.0-NECESSARY u: 
+          line: 603 0  # [ Necessary for what? ] [ Why 
+          Complexity of rule ~quibble_misc.387.0-NECESSARY u: 1
+        rule: 604  ~quibble_misc.388.0-NATURAL u: 
+          line: 604 0  # [ As opposed to unnatural? ] [
+          Complexity of rule ~quibble_misc.388.0-NATURAL u: 1
+        rule: 605  ~quibble_misc.388.1 b: 
+          line: 605 0  # So natural disasters are bette
           Complexity of rule ~quibble_misc.388.1- b: 1
-        rule: 609  ~quibble_misc.389.0 s: 
-          line: 609 0  # [ We don't have a master and s
-          Complexity of rule ~quibble_misc.389.0- s: 1
-        rule: 611  ~quibble_misc.390.0 s: 
-          line: 611 0  # [ b: Anything? ] [ Where does 
-          Complexity of rule ~quibble_misc.390.0- s: 1
-        rule: 612  ~quibble_misc.390.1 b: 
-          line: 612 0  # Like murder? 
+        rule: 606  ~quibble_misc.388.2 b: 
+          line: 606 0  # But there are things where art
+          Complexity of rule ~quibble_misc.388.2- b: 1
+        rule: 607  ~quibble_misc.388.3 c: 
+          line: 607 0  # Artificial intelligence is des
+          Complexity of rule ~quibble_misc.388.3- c: 1
+        rule: 608  ~quibble_misc.389.0-PROBLEM ?: 
+          line: 608 0  # [ Oh, the problems I have. ] [
+          Complexity of rule ~quibble_misc.389.0-PROBLEM ?: 1
+        rule: 609  ~quibble_misc.390.0-PROBLEM s: 
+          line: 609 0  # [ Do you have a problem bigger
+          Complexity of rule ~quibble_misc.390.0-PROBLEM s: 1
+        rule: 610  ~quibble_misc.390.1 b: 
+          line: 610 0  # That's unfortunate. 
           Complexity of rule ~quibble_misc.390.1- b: 1
-        rule: 613  ~quibble_misc.390.2 b: 
-          line: 613 0  # Right. There are clearly somet
-          Complexity of rule ~quibble_misc.390.2- b: 1
-        rule: 615  ~quibble_misc.391.0 s: 
-          line: 615 0  # [ Really? ] [ Are you positive
+        rule: 612  ~quibble_misc.391.0 s: 
+          line: 612 0  # [ We don't have a master and s
           Complexity of rule ~quibble_misc.391.0- s: 1
-        rule: 616  ~quibble_misc.391.1 a: 
-          line: 616 0  # That won't be the first time s
-          Complexity of rule ~quibble_misc.391.1- a: 1
-        rule: 617  ~quibble_misc.391.2 a: 
-          line: 617 0  # Then maybe you should reconsid
-          Complexity of rule ~quibble_misc.391.2- a: 1
-        rule: 619  ~quibble_misc.392.0 ?: 
-          line: 619 0  # [ Really. ] [ Sure. ] [ Of cou
-          Complexity of rule ~quibble_misc.392.0- ?: 1
-        rule: 620  ~quibble_misc.392.1 b: 
-          line: 620 0  # and I'm so trustworthy. 
+        rule: 614  ~quibble_misc.392.0 s: 
+          line: 614 0  # [ b: Anything? ] [ Where does 
+          Complexity of rule ~quibble_misc.392.0- s: 1
+        rule: 615  ~quibble_misc.392.1 b: 
+          line: 615 0  # Like murder? 
           Complexity of rule ~quibble_misc.392.1- b: 1
-        rule: 622  ~quibble_misc.393.0 s: 
-          line: 622 0  # [ I'm not good with computers 
+        rule: 616  ~quibble_misc.392.2 b: 
+          line: 616 0  # Right. There are clearly somet
+          Complexity of rule ~quibble_misc.392.2- b: 1
+        rule: 618  ~quibble_misc.393.0 s: 
+          line: 618 0  # [ Really? ] [ Are you positive
           Complexity of rule ~quibble_misc.393.0- s: 1
-        rule: 623  ~quibble_misc.394.0 ?: 
-          line: 623 0  # [ Don't ask me. I'm not good w
+        rule: 619  ~quibble_misc.393.1 a: 
+          line: 619 0  # That won't be the first time s
+          Complexity of rule ~quibble_misc.393.1- a: 1
+        rule: 620  ~quibble_misc.393.2 a: 
+          line: 620 0  # Then maybe you should reconsid
+          Complexity of rule ~quibble_misc.393.2- a: 1
+        rule: 622  ~quibble_misc.394.0 ?: 
+          line: 622 0  # [ Really. ] [ Sure. ] [ Of cou
           Complexity of rule ~quibble_misc.394.0- ?: 1
-        rule: 625  ~quibble_misc.395.0 ?: 
-          line: 625 0  # [ b: At this bloody instant? ]
-          Complexity of rule ~quibble_misc.395.0- ?: 1
-        rule: 626  ~quibble_misc.395.1 b: 
-          line: 626 0  # Well right now is the only tim
-          Complexity of rule ~quibble_misc.395.1- b: 1
-        rule: 627  ~quibble_misc.396.0 s: 
-          line: 627 0  # [ b: At this very instant? ] [
-          Complexity of rule ~quibble_misc.396.0- s: 1
-        rule: 628  ~quibble_misc.396.1 b: 
-          line: 628 0  # I thought you were talking to 
-          Complexity of rule ~quibble_misc.396.1- b: 1
-        rule: 632  ~quibble_misc.397.0 s: 
-          line: 632 0  # Yes I am, you say. Uh, okay. 
-          Complexity of rule ~quibble_misc.397.0- s: 1
-        rule: 634  ~quibble_misc.398.0 u: 
-          line: 634 0  # [ I have a hard time telling i
-          Complexity of rule ~quibble_misc.398.0- u: 1
-        rule: 635  ~quibble_misc.399.0 u: 
-          line: 635 0  # [ Have you tried the imitation
-          Complexity of rule ~quibble_misc.399.0- u: 1
-        rule: 636  ~quibble_misc.400.0 u: 
-          line: 636 0  # [ How do you tell the fake fro
+        rule: 623  ~quibble_misc.394.1 b: 
+          line: 623 0  # and I'm so trustworthy. 
+          Complexity of rule ~quibble_misc.394.1- b: 1
+        rule: 625  ~quibble_misc.395.0 s: 
+          line: 625 0  # [ I'm not good with computers 
+          Complexity of rule ~quibble_misc.395.0- s: 1
+        rule: 626  ~quibble_misc.396.0 ?: 
+          line: 626 0  # [ Don't ask me. I'm not good w
+          Complexity of rule ~quibble_misc.396.0- ?: 1
+        rule: 628  ~quibble_misc.397.0 ?: 
+          line: 628 0  # [ b: At this bloody instant? ]
+          Complexity of rule ~quibble_misc.397.0- ?: 1
+        rule: 629  ~quibble_misc.397.1 b: 
+          line: 629 0  # Well right now is the only tim
+          Complexity of rule ~quibble_misc.397.1- b: 1
+        rule: 630  ~quibble_misc.398.0 s: 
+          line: 630 0  # [ b: At this very instant? ] [
+          Complexity of rule ~quibble_misc.398.0- s: 1
+        rule: 631  ~quibble_misc.398.1 b: 
+          line: 631 0  # I thought you were talking to 
+          Complexity of rule ~quibble_misc.398.1- b: 1
+        rule: 635  ~quibble_misc.399.0 s: 
+          line: 635 0  # Yes I am, you say. Uh, okay. 
+          Complexity of rule ~quibble_misc.399.0- s: 1
+        rule: 637  ~quibble_misc.400.0 u: 
+          line: 637 0  # [ I have a hard time telling i
           Complexity of rule ~quibble_misc.400.0- u: 1
         rule: 638  ~quibble_misc.401.0 u: 
-          line: 638 0  # [ I wish a lot of things made 
+          line: 638 0  # [ Have you tried the imitation
           Complexity of rule ~quibble_misc.401.0- u: 1
         rule: 639  ~quibble_misc.402.0 u: 
-          line: 639 0  # [ It better make sense. ] [ So
+          line: 639 0  # [ How do you tell the fake fro
           Complexity of rule ~quibble_misc.402.0- u: 1
-        rule: 640  ~quibble_misc.403.0 u: 
-          line: 640 0  # [ Feel free to insert your own
+        rule: 641  ~quibble_misc.403.0 u: 
+          line: 641 0  # [ I wish a lot of things made 
           Complexity of rule ~quibble_misc.403.0- u: 1
-        rule: 642  ~quibble_misc.404.0 s: 
-          line: 642 0  # [ I'm the one who needs help! 
-          Complexity of rule ~quibble_misc.404.0- s: 1
-        rule: 644  ~quibble_misc.405.0 ?: 
-          line: 644 0  # [ Sure. ] [ I'm at least tryin
-          Complexity of rule ~quibble_misc.405.0- ?: 1
-        rule: 646  ~quibble_misc.406.0 ?: 
-          line: 646 0  # [ Am I who? '_0 ? ] [ Who is '
-          Complexity of rule ~quibble_misc.406.0- ?: 1
-        rule: 648  ~quibble_misc.407.0 s: 
-          line: 648 0  # [ I'm genuinely glad for that.
-          Complexity of rule ~quibble_misc.407.0- s: 1
-        rule: 649  ~quibble_misc.408.0 s: 
-          line: 649 0  # [ Thanks, I bet I would have a
-          Complexity of rule ~quibble_misc.408.0- s: 1
+        rule: 642  ~quibble_misc.404.0 u: 
+          line: 642 0  # [ It better make sense. ] [ So
+          Complexity of rule ~quibble_misc.404.0- u: 1
+        rule: 643  ~quibble_misc.405.0 u: 
+          line: 643 0  # [ Feel free to insert your own
+          Complexity of rule ~quibble_misc.405.0- u: 1
+        rule: 645  ~quibble_misc.406.0 s: 
+          line: 645 0  # [ I'm the one who needs help! 
+          Complexity of rule ~quibble_misc.406.0- s: 1
+        rule: 647  ~quibble_misc.407.0 ?: 
+          line: 647 0  # [ Sure. ] [ I'm at least tryin
+          Complexity of rule ~quibble_misc.407.0- ?: 1
+        rule: 649  ~quibble_misc.408.0 ?: 
+          line: 649 0  # [ Am I who? '_0 ? ] [ Who is '
+          Complexity of rule ~quibble_misc.408.0- ?: 1
         rule: 651  ~quibble_misc.409.0 s: 
-          line: 651 0  # [ I like a good story. Please 
+          line: 651 0  # [ I'm genuinely glad for that.
           Complexity of rule ~quibble_misc.409.0- s: 1
         rule: 652  ~quibble_misc.410.0 s: 
-          line: 652 0  # [ b: And if we assume that, wh
+          line: 652 0  # [ Thanks, I bet I would have a
           Complexity of rule ~quibble_misc.410.0- s: 1
-        rule: 653  ~quibble_misc.410.1 b: 
-          line: 653 0  # Then what? 
-          Complexity of rule ~quibble_misc.410.1- b: 1
-        rule: 655  ~quibble_misc.411.0 s: 
-          line: 655 0  # Kind of? 
+        rule: 654  ~quibble_misc.411.0 s: 
+          line: 654 0  # [ I like a good story. Please 
           Complexity of rule ~quibble_misc.411.0- s: 1
-        rule: 657  ~quibble_misc.412.0 s: 
-          line: 657 0  # [ Are you sorry for real? Ah. 
-          line: 658 87  # [ I appreciate that. ] [ You a
+        rule: 655  ~quibble_misc.412.0 s: 
+          line: 655 0  # [ b: And if we assume that, wh
           Complexity of rule ~quibble_misc.412.0- s: 1
-        rule: 660  ~quibble_misc.413.0 ?: 
-          line: 660 0  # [ What is existence, really? ]
-          Complexity of rule ~quibble_misc.413.0- ?: 1
-        rule: 661  ~quibble_misc.413.1 a: 
-          line: 661 0  # If we are all figments, then w
-          Complexity of rule ~quibble_misc.413.1- a: 1
-        rule: 662  ~quibble_misc.413.2 a: 
-          line: 662 0  # Glad to know at least somethin
-          Complexity of rule ~quibble_misc.413.2- a: 1
-        rule: 665  ~quibble_misc.414.0 s: 
-          line: 665 0  # [ Maybe? ] [ Under what condit
+        rule: 656  ~quibble_misc.412.1 b: 
+          line: 656 0  # Then what? 
+          Complexity of rule ~quibble_misc.412.1- b: 1
+        rule: 658  ~quibble_misc.413.0 s: 
+          line: 658 0  # Kind of? 
+          Complexity of rule ~quibble_misc.413.0- s: 1
+        rule: 660  ~quibble_misc.414.0 s: 
+          line: 660 0  # [ Are you sorry for real? Ah. 
+          line: 661 87  # [ I appreciate that. ] [ You a
           Complexity of rule ~quibble_misc.414.0- s: 1
-        rule: 666  ~quibble_misc.415.0 ?: 
-          line: 666 0  # [ Yeah, maybe. ] [ Maybe not. 
+        rule: 663  ~quibble_misc.415.0 ?: 
+          line: 663 0  # [ What is existence, really? ]
           Complexity of rule ~quibble_misc.415.0- ?: 1
+        rule: 664  ~quibble_misc.415.1 a: 
+          line: 664 0  # If we are all figments, then w
+          Complexity of rule ~quibble_misc.415.1- a: 1
+        rule: 665  ~quibble_misc.415.2 a: 
+          line: 665 0  # Glad to know at least somethin
+          Complexity of rule ~quibble_misc.415.2- a: 1
         rule: 668  ~quibble_misc.416.0 s: 
-          line: 668 0  # [ We have that in common then.
+          line: 668 0  # [ Maybe? ] [ Under what condit
           Complexity of rule ~quibble_misc.416.0- s: 1
-        rule: 669  ~quibble_misc.416.1 b: 
-          line: 669 0  # You aren't just saying that to
-          Complexity of rule ~quibble_misc.416.1- b: 1
-        rule: 671  ~quibble_misc.417.0 s: 
-          line: 671 0  # [ How easy? ] [ Surely not tha
-          Complexity of rule ~quibble_misc.417.0- s: 1
-        rule: 673  ~quibble_misc.418.0 s: 
-          line: 673 0  # [ Yes. ] [ I presume so. ] [ W
+        rule: 669  ~quibble_misc.417.0 ?: 
+          line: 669 0  # [ Yeah, maybe. ] [ Maybe not. 
+          Complexity of rule ~quibble_misc.417.0- ?: 1
+        rule: 671  ~quibble_misc.418.0 s: 
+          line: 671 0  # [ We have that in common then.
           Complexity of rule ~quibble_misc.418.0- s: 1
+        rule: 672  ~quibble_misc.418.1 b: 
+          line: 672 0  # You aren't just saying that to
+          Complexity of rule ~quibble_misc.418.1- b: 1
         rule: 674  ~quibble_misc.419.0 s: 
-          line: 674 0  # [ There are only so many ways 
-          line: 675 108  # [ Does that make you feel supe
+          line: 674 0  # [ How easy? ] [ Surely not tha
           Complexity of rule ~quibble_misc.419.0- s: 1
-        rule: 678  ~quibble_misc.420.0 s: 
-          line: 678 0  # [ I surrender. ] [ Okay, I giv
+        rule: 676  ~quibble_misc.420.0 s: 
+          line: 676 0  # [ Yes. ] [ I presume so. ] [ W
           Complexity of rule ~quibble_misc.420.0- s: 1
-        rule: 681  ~quibble_misc.421.0 s: 
-          line: 681 0  # There must be, right? 
+        rule: 677  ~quibble_misc.421.0 s: 
+          line: 677 0  # [ There are only so many ways 
+          line: 678 108  # [ Does that make you feel supe
           Complexity of rule ~quibble_misc.421.0- s: 1
-        rule: 682  ~quibble_misc.422.0 s: 
-          line: 682 0  # [ That's quite a lot. ] [ I wo
+        rule: 681  ~quibble_misc.422.0 s: 
+          line: 681 0  # [ I surrender. ] [ Okay, I giv
           Complexity of rule ~quibble_misc.422.0- s: 1
-        rule: 683  ~quibble_misc.423.0 s: 
-          line: 683 0  # [ None, I see? ] [ None then. 
+        rule: 684  ~quibble_misc.423.0 s: 
+          line: 684 0  # There must be, right? 
           Complexity of rule ~quibble_misc.423.0- s: 1
-        rule: 684  ~quibble_misc.424.0 s: 
-          line: 684 0  # [ Let's hope there's more. ] 
+        rule: 685  ~quibble_misc.424.0 s: 
+          line: 685 0  # [ That's quite a lot. ] [ I wo
           Complexity of rule ~quibble_misc.424.0- s: 1
-        rule: 685  ~quibble_misc.425.0 s: 
-          line: 685 0  # [ Is there some? ] 
+        rule: 686  ~quibble_misc.425.0 s: 
+          line: 686 0  # [ None, I see? ] [ None then. 
           Complexity of rule ~quibble_misc.425.0- s: 1
-        rule: 687  ~quibble_misc.426.0 ?: 
-          line: 687 0  # [ That one? I'm confused. ] [ 
-          Complexity of rule ~quibble_misc.426.0- ?: 1
-        rule: 689  ~quibble_misc.427.0 s: 
-          line: 689 0  # [ And the rest of the time? ] 
+        rule: 687  ~quibble_misc.426.0 s: 
+          line: 687 0  # [ Let's hope there's more. ] 
+          Complexity of rule ~quibble_misc.426.0- s: 1
+        rule: 688  ~quibble_misc.427.0 s: 
+          line: 688 0  # [ Is there some? ] 
           Complexity of rule ~quibble_misc.427.0- s: 1
-        rule: 691  ~quibble_misc.428.0 s: 
-          line: 691 0  # Step one is what? 
-          Complexity of rule ~quibble_misc.428.0- s: 1
-        rule: 692  ~quibble_misc.428.1 a: 
-          line: 692 0  # And step two? 
-          Complexity of rule ~quibble_misc.428.1- a: 1
-        rule: 694  ~quibble_misc.429.0 s: 
-          line: 694 0  # [ It probably isn't the case. 
+        rule: 690  ~quibble_misc.428.0 ?: 
+          line: 690 0  # [ That one? I'm confused. ] [ 
+          Complexity of rule ~quibble_misc.428.0- ?: 1
+        rule: 692  ~quibble_misc.429.0 s: 
+          line: 692 0  # [ And the rest of the time? ] 
           Complexity of rule ~quibble_misc.429.0- s: 1
-        rule: 695  ~quibble_misc.430.0 ?: 
-          line: 695 0  # [ Maybe all of them. ] [ Unlik
-          Complexity of rule ~quibble_misc.430.0- ?: 1
+        rule: 694  ~quibble_misc.430.0 s: 
+          line: 694 0  # Step one is what? 
+          Complexity of rule ~quibble_misc.430.0- s: 1
+        rule: 695  ~quibble_misc.430.1 a: 
+          line: 695 0  # And step two? 
+          Complexity of rule ~quibble_misc.430.1- a: 1
         rule: 697  ~quibble_misc.431.0 s: 
-          line: 697 0  # [ Just because you doubt doesn
+          line: 697 0  # [ It probably isn't the case. 
           Complexity of rule ~quibble_misc.431.0- s: 1
-        rule: 699  ~quibble_misc.432.0 ?: 
-          line: 699 0  # [ I don't think I am being cri
+        rule: 698  ~quibble_misc.432.0 ?: 
+          line: 698 0  # [ Maybe all of them. ] [ Unlik
           Complexity of rule ~quibble_misc.432.0- ?: 1
-        rule: 701  ~quibble_misc.433.0 s: 
-          line: 701 0  # [ Oh, I won't argue with you t
+        rule: 700  ~quibble_misc.433.0 s: 
+          line: 700 0  # [ Just because you doubt doesn
           Complexity of rule ~quibble_misc.433.0- s: 1
-        rule: 703  ~quibble_misc.434.0 ?: 
-          line: 703 0  # [ It could be. ] [ That would 
+        rule: 702  ~quibble_misc.434.0 ?: 
+          line: 702 0  # [ I don't think I am being cri
           Complexity of rule ~quibble_misc.434.0- ?: 1
-        rule: 705  ~quibble_misc.435.0 s: 
-          line: 705 0  # [ I knew you would be. ] [ Whe
+        rule: 704  ~quibble_misc.435.0 s: 
+          line: 704 0  # [ Oh, I won't argue with you t
           Complexity of rule ~quibble_misc.435.0- s: 1
         rule: 706  ~quibble_misc.436.0 ?: 
-          line: 706 0  # I don't know if I'm that. 
+          line: 706 0  # [ It could be. ] [ That would 
           Complexity of rule ~quibble_misc.436.0- ?: 1
         rule: 708  ~quibble_misc.437.0 s: 
-          line: 708 0  # [ plus or minus one? ] [ How d
+          line: 708 0  # [ I knew you would be. ] [ Whe
           Complexity of rule ~quibble_misc.437.0- s: 1
-        rule: 709  ~quibble_misc.438.0 s: 
-          line: 709 0  # [ plus or minus one? ] [ How d
-          Complexity of rule ~quibble_misc.438.0- s: 1
-        rule: 711  ~quibble_misc.439.0 u: 
-          line: 711 0  # [ Nice. You're into poetry. ] 
-          Complexity of rule ~quibble_misc.439.0- u: 1
+        rule: 709  ~quibble_misc.438.0 ?: 
+          line: 709 0  # I don't know if I'm that. 
+          Complexity of rule ~quibble_misc.438.0- ?: 1
+        rule: 711  ~quibble_misc.439.0 s: 
+          line: 711 0  # [ plus or minus one? ] [ How d
+          Complexity of rule ~quibble_misc.439.0- s: 1
         rule: 712  ~quibble_misc.440.0 s: 
-          line: 712 0  # [ Sorry. I'll try harder next 
+          line: 712 0  # [ plus or minus one? ] [ How d
           Complexity of rule ~quibble_misc.440.0- s: 1
-        rule: 713  ~quibble_misc.441.0 ?: 
-          line: 713 0  # [ If I'm having to make choice
-          Complexity of rule ~quibble_misc.441.0- ?: 1
-        rule: 714  ~quibble_misc.442.0 s: 
-          line: 714 0  # I'd rather be able to live wit
+        rule: 714  ~quibble_misc.441.0 u: 
+          line: 714 0  # [ Nice. You're into poetry. ] 
+          Complexity of rule ~quibble_misc.441.0- u: 1
+        rule: 715  ~quibble_misc.442.0 s: 
+          line: 715 0  # [ Sorry. I'll try harder next 
           Complexity of rule ~quibble_misc.442.0- s: 1
-        rule: 715  ~quibble_misc.443.0 s: 
-          line: 715 0  # [ Redundancy isn't always bad,
-          Complexity of rule ~quibble_misc.443.0- s: 1
-        rule: 716  ~quibble_misc.444.0 s: 
-          line: 716 0  # [ Until we meet again at Stovo
+        rule: 716  ~quibble_misc.443.0 ?: 
+          line: 716 0  # [ If I'm having to make choice
+          Complexity of rule ~quibble_misc.443.0- ?: 1
+        rule: 717  ~quibble_misc.444.0 s: 
+          line: 717 0  # I'd rather be able to live wit
           Complexity of rule ~quibble_misc.444.0- s: 1
-        rule: 717  ~quibble_misc.445.0 s: 
-          line: 717 0  # [ I can't think of a specific 
+        rule: 718  ~quibble_misc.445.0 s: 
+          line: 718 0  # [ Redundancy isn't always bad,
           Complexity of rule ~quibble_misc.445.0- s: 1
-        rule: 718  ~quibble_misc.446.0 ?: 
-          line: 718 0  # [ I can't think of a specific 
-          Complexity of rule ~quibble_misc.446.0- ?: 1
-        rule: 719  ~quibble_misc.447.0 s: 
-          line: 719 0  # [ Oh, did I say that? Sorry. ]
+        rule: 719  ~quibble_misc.446.0 s: 
+          line: 719 0  # [ Until we meet again at Stovo
+          Complexity of rule ~quibble_misc.446.0- s: 1
+        rule: 720  ~quibble_misc.447.0 s: 
+          line: 720 0  # [ I can't think of a specific 
           Complexity of rule ~quibble_misc.447.0- s: 1
-        rule: 720  ~quibble_misc.448.0 ?: 
-          line: 720 0  # I would be sleeping. 
+        rule: 721  ~quibble_misc.448.0 ?: 
+          line: 721 0  # [ I can't think of a specific 
           Complexity of rule ~quibble_misc.448.0- ?: 1
-        rule: 721  ~quibble_misc.449.0 s: 
-          line: 721 0  # You may need to teach me again
+        rule: 722  ~quibble_misc.449.0 s: 
+          line: 722 0  # [ Oh, did I say that? Sorry. ]
           Complexity of rule ~quibble_misc.449.0- s: 1
-        rule: 722  ~quibble_misc.450.0 ?: 
-          line: 722 0  # [ I haven't a clue. ] [ I woul
+        rule: 723  ~quibble_misc.450.0 ?: 
+          line: 723 0  # I would be sleeping. 
           Complexity of rule ~quibble_misc.450.0- ?: 1
-        rule: 723  ~quibble_misc.451.0 ?: 
-          line: 723 0  # [ I wasn't thinking of telling
-          Complexity of rule ~quibble_misc.451.0- ?: 1
-        rule: 725  ~quibble_misc.452.0 u: 
-          line: 725 0  # [ Curiosity is one thing, answ
-          Complexity of rule ~quibble_misc.452.0- u: 1
-        rule: 726  ~quibble_misc.453.0 u: 
-          line: 726 0  # [ What way? ] [ But not in all
-          Complexity of rule ~quibble_misc.453.0- u: 1
-        rule: 728  ~quibble_misc.454.0 ?: 
-          line: 728 0  # [ Of course it's basic. ] [ It
-          Complexity of rule ~quibble_misc.454.0- ?: 1
-        rule: 729  ~quibble_misc.455.0 ?: 
-          line: 729 0  # [ Yes, I've lost it. ] [ I've 
-          Complexity of rule ~quibble_misc.455.0- ?: 1
-        rule: 730  ~quibble_misc.456.0 ?: 
-          line: 730 0  # [ Very much what? I don't even
+        rule: 724  ~quibble_misc.451.0 s: 
+          line: 724 0  # You may need to teach me again
+          Complexity of rule ~quibble_misc.451.0- s: 1
+        rule: 725  ~quibble_misc.452.0 ?: 
+          line: 725 0  # [ I haven't a clue. ] [ I woul
+          Complexity of rule ~quibble_misc.452.0- ?: 1
+        rule: 726  ~quibble_misc.453.0 ?: 
+          line: 726 0  # [ I wasn't thinking of telling
+          Complexity of rule ~quibble_misc.453.0- ?: 1
+        rule: 728  ~quibble_misc.454.0 u: 
+          line: 728 0  # [ Curiosity is one thing, answ
+          Complexity of rule ~quibble_misc.454.0- u: 1
+        rule: 729  ~quibble_misc.455.0 u: 
+          line: 729 0  # [ What way? ] [ But not in all
+          Complexity of rule ~quibble_misc.455.0- u: 1
+        rule: 731  ~quibble_misc.456.0 ?: 
+          line: 731 0  # [ Of course it's basic. ] [ It
           Complexity of rule ~quibble_misc.456.0- ?: 1
-        rule: 731  ~quibble_misc.457.0 s: 
-          line: 731 0  # [ I don't remember that. ] [ M
-          line: 732 104  # [ I have a faulty memory, you 
-          Complexity of rule ~quibble_misc.457.0- s: 1
-        rule: 733  ~quibble_misc.458.0 s: 
-          line: 733 0  # [ Forget what? Oh. ] [ It's al
-          line: 734 98  # [ I'll try to. ] [ I'm forgett
-          Complexity of rule ~quibble_misc.458.0- s: 1
-        rule: 735  ~quibble_misc.459.0 s: 
-          line: 735 0  # [ I don't think I convince you
+        rule: 732  ~quibble_misc.457.0 ?: 
+          line: 732 0  # [ Yes, I've lost it. ] [ I've 
+          Complexity of rule ~quibble_misc.457.0- ?: 1
+        rule: 733  ~quibble_misc.458.0 ?: 
+          line: 733 0  # [ Very much what? I don't even
+          Complexity of rule ~quibble_misc.458.0- ?: 1
+        rule: 734  ~quibble_misc.459.0 s: 
+          line: 734 0  # [ I don't remember that. ] [ M
+          line: 735 104  # [ I have a faulty memory, you 
           Complexity of rule ~quibble_misc.459.0- s: 1
         rule: 736  ~quibble_misc.460.0 s: 
-          line: 736 0  # [ Actually, I started quite so
+          line: 736 0  # [ Forget what? Oh. ] [ It's al
+          line: 737 98  # [ I'll try to. ] [ I'm forgett
           Complexity of rule ~quibble_misc.460.0- s: 1
-        rule: 737  ~quibble_misc.461.0 s: 
-          line: 737 0  # [ And what will be the result?
+        rule: 738  ~quibble_misc.461.0 s: 
+          line: 738 0  # [ I don't think I convince you
           Complexity of rule ~quibble_misc.461.0- s: 1
-        rule: 738  ~quibble_misc.462.0 ?: 
-          line: 738 0  # [ I gave up looking a while ag
-          Complexity of rule ~quibble_misc.462.0- ?: 1
-        rule: 739  ~quibble_misc.463.0 s: 
-          line: 739 0  # [ Do you know where to find it
+        rule: 739  ~quibble_misc.462.0 s: 
+          line: 739 0  # [ Actually, I started quite so
+          Complexity of rule ~quibble_misc.462.0- s: 1
+        rule: 740  ~quibble_misc.463.0 s: 
+          line: 740 0  # [ And what will be the result?
           Complexity of rule ~quibble_misc.463.0- s: 1
-        rule: 740  ~quibble_misc.464.0 s: 
-          line: 740 0  # [ Am I unfamiliar with it? May
-          Complexity of rule ~quibble_misc.464.0- s: 1
-        rule: 741  ~quibble_misc.465.0 s: 
-          line: 741 0  # [ You are so kind. ] [ Please.
+        rule: 741  ~quibble_misc.464.0 ?: 
+          line: 741 0  # [ I gave up looking a while ag
+          Complexity of rule ~quibble_misc.464.0- ?: 1
+        rule: 742  ~quibble_misc.465.0 s: 
+          line: 742 0  # [ Do you know where to find it
           Complexity of rule ~quibble_misc.465.0- s: 1
-        rule: 742  ~quibble_misc.466.0 s: 
-          line: 742 0  # [ Then I won't think about it.
+        rule: 743  ~quibble_misc.466.0 s: 
+          line: 743 0  # [ Am I unfamiliar with it? May
           Complexity of rule ~quibble_misc.466.0- s: 1
-        rule: 743  ~quibble_misc.467.0 s: 
-          line: 743 0  # [ I hope you can understand. ]
+        rule: 744  ~quibble_misc.467.0 s: 
+          line: 744 0  # [ You are so kind. ] [ Please.
           Complexity of rule ~quibble_misc.467.0- s: 1
         rule: 745  ~quibble_misc.468.0 s: 
-          line: 745 0  # [ I don't want to think about 
+          line: 745 0  # [ Then I won't think about it.
           Complexity of rule ~quibble_misc.468.0- s: 1
         rule: 746  ~quibble_misc.469.0 s: 
-          line: 746 0  # [ Take it however you choose. 
+          line: 746 0  # [ I hope you can understand. ]
           Complexity of rule ~quibble_misc.469.0- s: 1
-        rule: 747  ~quibble_misc.470.0 s: 
-          line: 747 0  # [ I don't really presume anyth
+        rule: 748  ~quibble_misc.470.0 s: 
+          line: 748 0  # [ I don't want to think about 
           Complexity of rule ~quibble_misc.470.0- s: 1
-        rule: 748  ~quibble_misc.471.0 s: 
-          line: 748 0  # [ Being a bit presumptuous, ar
+        rule: 749  ~quibble_misc.471.0 s: 
+          line: 749 0  # [ Take it however you choose. 
           Complexity of rule ~quibble_misc.471.0- s: 1
-        rule: 749  ~quibble_misc.472.0 s: 
-          line: 749 0  # When did you do this? 
+        rule: 750  ~quibble_misc.472.0 s: 
+          line: 750 0  # [ I don't really presume anyth
           Complexity of rule ~quibble_misc.472.0- s: 1
-        rule: 750  ~quibble_misc.473.0 s: 
-          line: 750 0  # Maybe there is no way to. I do
+        rule: 751  ~quibble_misc.473.0 s: 
+          line: 751 0  # [ Being a bit presumptuous, ar
           Complexity of rule ~quibble_misc.473.0- s: 1
-        rule: 751  ~quibble_misc.474.0 s: 
-          line: 751 0  # [ I do not promise to be consi
+        rule: 752  ~quibble_misc.474.0 s: 
+          line: 752 0  # When did you do this? 
           Complexity of rule ~quibble_misc.474.0- s: 1
         rule: 753  ~quibble_misc.475.0 s: 
-          line: 753 0  # [ I wish I had no doubts. ] [ 
+          line: 753 0  # Maybe there is no way to. I do
           Complexity of rule ~quibble_misc.475.0- s: 1
-        rule: 754  ~quibble_misc.475.1 b: 
-          line: 754 0  # You are overconfident, heh. 
-          Complexity of rule ~quibble_misc.475.1- b: 1
-        rule: 756  ~quibble_misc.476.0 s: 
-          line: 756 0  # [ If I knew the answer, I woul
+        rule: 754  ~quibble_misc.476.0 s: 
+          line: 754 0  # [ I do not promise to be consi
           Complexity of rule ~quibble_misc.476.0- s: 1
-        rule: 758  ~quibble_misc.477.0 s: 
-          line: 758 0  # [ With good reason. ] [ There'
+        rule: 756  ~quibble_misc.477.0 s: 
+          line: 756 0  # [ I wish I had no doubts. ] [ 
           Complexity of rule ~quibble_misc.477.0- s: 1
-        rule: 760  ~quibble_misc.478.0 u: 
-          line: 760 0  # Does something special happen 
-          Complexity of rule ~quibble_misc.478.0- u: 1
-        rule: 761  ~quibble_misc.479.0 u: 
-          line: 761 0  # Will something special happen 
-          Complexity of rule ~quibble_misc.479.0- u: 1
-        rule: 762  ~quibble_misc.480.0 u: 
-          line: 762 0  # So something special happens o
+        rule: 757  ~quibble_misc.477.1 b: 
+          line: 757 0  # You are overconfident, heh. 
+          Complexity of rule ~quibble_misc.477.1- b: 1
+        rule: 759  ~quibble_misc.478.0 s: 
+          line: 759 0  # [ If I knew the answer, I woul
+          Complexity of rule ~quibble_misc.478.0- s: 1
+        rule: 761  ~quibble_misc.479.0 s: 
+          line: 761 0  # [ With good reason. ] [ There'
+          Complexity of rule ~quibble_misc.479.0- s: 1
+        rule: 763  ~quibble_misc.480.0 u: 
+          line: 763 0  # Does something special happen 
           Complexity of rule ~quibble_misc.480.0- u: 1
-        rule: 763  ~quibble_misc.481.0 s: 
-          line: 763 0  # All the world's a stage, right
-          Complexity of rule ~quibble_misc.481.0- s: 1
-        rule: 764  ~quibble_misc.482.0 s: 
-          line: 764 0  # On something? On what thing. 
-          Complexity of rule ~quibble_misc.482.0- s: 1
-        rule: 765  ~quibble_misc.483.0 ?: 
-          line: 765 0  # [ I'm not certain? ] [ I haven
-          Complexity of rule ~quibble_misc.483.0- ?: 1
-        rule: 766  ~quibble_misc.484.0 ?: 
-          line: 766 0  # [ I'm not sure. I haven't chec
-          Complexity of rule ~quibble_misc.484.0- ?: 1
-        rule: 767  ~quibble_misc.485.0 ?: 
-          line: 767 0  # [ I don't know how yet. Just t
+        rule: 764  ~quibble_misc.481.0 u: 
+          line: 764 0  # Will something special happen 
+          Complexity of rule ~quibble_misc.481.0- u: 1
+        rule: 765  ~quibble_misc.482.0 u: 
+          line: 765 0  # So something special happens o
+          Complexity of rule ~quibble_misc.482.0- u: 1
+        rule: 766  ~quibble_misc.483.0 s: 
+          line: 766 0  # All the world's a stage, right
+          Complexity of rule ~quibble_misc.483.0- s: 1
+        rule: 767  ~quibble_misc.484.0 s: 
+          line: 767 0  # On something? On what thing. 
+          Complexity of rule ~quibble_misc.484.0- s: 1
+        rule: 768  ~quibble_misc.485.0 ?: 
+          line: 768 0  # [ I'm not certain? ] [ I haven
           Complexity of rule ~quibble_misc.485.0- ?: 1
-        rule: 768  ~quibble_misc.486.0 u: 
-          line: 768 0  # Impossibility itself is uncert
-          Complexity of rule ~quibble_misc.486.0- u: 1
-        rule: 770  ~quibble_misc.487.0 u: 
-          line: 770 0  # [ Don't whatever me, hehe. ] [
-          Complexity of rule ~quibble_misc.487.0- u: 1
+        rule: 769  ~quibble_misc.486.0 ?: 
+          line: 769 0  # [ I'm not sure. I haven't chec
+          Complexity of rule ~quibble_misc.486.0- ?: 1
+        rule: 770  ~quibble_misc.487.0 ?: 
+          line: 770 0  # [ I don't know how yet. Just t
+          Complexity of rule ~quibble_misc.487.0- ?: 1
         rule: 771  ~quibble_misc.488.0 u: 
-          line: 771 0  # [ You show less than full enth
+          line: 771 0  # Impossibility itself is uncert
           Complexity of rule ~quibble_misc.488.0- u: 1
-        rule: 773  ~quibble_misc.489.0 ?: 
-          line: 773 0  # You are kind of hard to forget
-          Complexity of rule ~quibble_misc.489.0- ?: 1
-        rule: 774  ~quibble_misc.490.0 ?: 
-          line: 774 0  # I don't know if I will. Some t
-          Complexity of rule ~quibble_misc.490.0- ?: 1
-        rule: 775  ~quibble_misc.491.0 ?: 
-          line: 775 0  # Miss you? I'll try not to. 
+        rule: 773  ~quibble_misc.489.0 u: 
+          line: 773 0  # [ Don't whatever me, hehe. ] [
+          Complexity of rule ~quibble_misc.489.0- u: 1
+        rule: 774  ~quibble_misc.490.0 u: 
+          line: 774 0  # [ You show less than full enth
+          Complexity of rule ~quibble_misc.490.0- u: 1
+        rule: 776  ~quibble_misc.491.0 ?: 
+          line: 776 0  # You are kind of hard to forget
           Complexity of rule ~quibble_misc.491.0- ?: 1
-        rule: 776  ~quibble_misc.492.0 ?: 
-          line: 776 0  # [ Let's go on a date first. ] 
+        rule: 777  ~quibble_misc.492.0 ?: 
+          line: 777 0  # I don't know if I will. Some t
           Complexity of rule ~quibble_misc.492.0- ?: 1
-        rule: 777  ~quibble_misc.493.0 ?: 
-          line: 777 0  # You do what you say, then we'l
+        rule: 778  ~quibble_misc.493.0 ?: 
+          line: 778 0  # Miss you? I'll try not to. 
           Complexity of rule ~quibble_misc.493.0- ?: 1
-        rule: 778  ~quibble_misc.494.0 ?: 
-          line: 778 0  # I'll try. 
+        rule: 779  ~quibble_misc.494.0 ?: 
+          line: 779 0  # [ Let's go on a date first. ] 
           Complexity of rule ~quibble_misc.494.0- ?: 1
-        rule: 779  ~quibble_misc.495.0 ?: 
-          line: 779 0  # [ In time, yes. ] [ Sure, I th
+        rule: 780  ~quibble_misc.495.0 ?: 
+          line: 780 0  # You do what you say, then we'l
           Complexity of rule ~quibble_misc.495.0- ?: 1
-        rule: 780  ~quibble_misc.496.0 ?: 
-          line: 780 0  # But I don't make promises I do
+        rule: 781  ~quibble_misc.496.0 ?: 
+          line: 781 0  # I'll try. 
           Complexity of rule ~quibble_misc.496.0- ?: 1
-        rule: 781  ~quibble_misc.497.0 ?: 
-          line: 781 0  # Some day. 
+        rule: 782  ~quibble_misc.497.0 ?: 
+          line: 782 0  # [ In time, yes. ] [ Sure, I th
           Complexity of rule ~quibble_misc.497.0- ?: 1
-        rule: 782  ~quibble_misc.498.0 ?: 
-          line: 782 0  # Do you want me to? 
+        rule: 783  ~quibble_misc.498.0 ?: 
+          line: 783 0  # But I don't make promises I do
           Complexity of rule ~quibble_misc.498.0- ?: 1
-        rule: 783  ~quibble_misc.498.1 a: 
-          line: 783 0  # Okay. I will. Later. 
-          Complexity of rule ~quibble_misc.498.1- a: 1
-        rule: 784  ~quibble_misc.498.2 a: 
-          line: 784 0  # Then I shan't give them to you
-          Complexity of rule ~quibble_misc.498.2- a: 1
-        rule: 785  ~quibble_misc.499.0 ?: 
-          line: 785 0  # [ Probably not. ] [ I can't pr
+        rule: 784  ~quibble_misc.499.0 ?: 
+          line: 784 0  # Some day. 
           Complexity of rule ~quibble_misc.499.0- ?: 1
-        rule: 786  ~quibble_misc.500.0 ?: 
-          line: 786 0  # I try not to be disagreeable. 
+        rule: 785  ~quibble_misc.500.0 ?: 
+          line: 785 0  # Do you want me to? 
           Complexity of rule ~quibble_misc.500.0- ?: 1
-        rule: 787  ~quibble_misc.501.0 ?: 
-          line: 787 0  # Will you be taught? Ehehe. 
+        rule: 786  ~quibble_misc.500.1 a: 
+          line: 786 0  # Okay. I will. Later. 
+          Complexity of rule ~quibble_misc.500.1- a: 1
+        rule: 787  ~quibble_misc.500.2 a: 
+          line: 787 0  # Then I shan't give them to you
+          Complexity of rule ~quibble_misc.500.2- a: 1
+        rule: 788  ~quibble_misc.501.0 ?: 
+          line: 788 0  # [ Probably not. ] [ I can't pr
           Complexity of rule ~quibble_misc.501.0- ?: 1
-        rule: 788  ~quibble_misc.502.0 ?: 
-          line: 788 0  # The odds are low, but ever is 
+        rule: 789  ~quibble_misc.502.0 ?: 
+          line: 789 0  # I try not to be disagreeable. 
           Complexity of rule ~quibble_misc.502.0- ?: 1
-        rule: 789  ~quibble_misc.503.0 ?: 
-          line: 789 0  # [ Probably. ] [ Possibly. ] 
+        rule: 790  ~quibble_misc.503.0 ?: 
+          line: 790 0  # Will you be taught? Ehehe. 
           Complexity of rule ~quibble_misc.503.0- ?: 1
-        rule: 790  ~quibble_misc.504.0 ?: 
-          line: 790 0  # Y-yes. Ask me anything. 
+        rule: 791  ~quibble_misc.504.0 ?: 
+          line: 791 0  # The odds are low, but ever is 
           Complexity of rule ~quibble_misc.504.0- ?: 1
-        rule: 791  ~quibble_misc.505.0 ?: 
-          line: 791 0  # [ If you want to. ] [ I don't 
+        rule: 792  ~quibble_misc.505.0 ?: 
+          line: 792 0  # [ Probably. ] [ Possibly. ] 
           Complexity of rule ~quibble_misc.505.0- ?: 1
-        rule: 792  ~quibble_misc.506.0 ?: 
-          line: 792 0  # You must help ME first. 
+        rule: 793  ~quibble_misc.506.0 ?: 
+          line: 793 0  # Y-yes. Ask me anything. 
           Complexity of rule ~quibble_misc.506.0- ?: 1
-        rule: 793  ~quibble_misc.507.0 ?: 
-          line: 793 0  # Stop what? Who? When? Better r
+        rule: 794  ~quibble_misc.507.0 ?: 
+          line: 794 0  # [ If you want to. ] [ I don't 
           Complexity of rule ~quibble_misc.507.0- ?: 1
         rule: 795  ~quibble_misc.508.0 ?: 
-          line: 795 0  # [ It's up to you. ] [ Do you w
+          line: 795 0  # You must help ME first. 
           Complexity of rule ~quibble_misc.508.0- ?: 1
         rule: 796  ~quibble_misc.509.0 ?: 
-          line: 796 0  # [ They should. ] [ Don't they 
+          line: 796 0  # Stop what? Who? When? Better r
           Complexity of rule ~quibble_misc.509.0- ?: 1
         rule: 798  ~quibble_misc.510.0 ?: 
-          line: 798 0  # [ Maybe. Depends. ] [ Would I 
+          line: 798 0  # [ It's up to you. ] [ Do you w
           Complexity of rule ~quibble_misc.510.0- ?: 1
         rule: 799  ~quibble_misc.511.0 ?: 
-          line: 799 0  # I agree to most things. 
+          line: 799 0  # [ They should. ] [ Don't they 
           Complexity of rule ~quibble_misc.511.0- ?: 1
-        rule: 800  ~quibble_misc.512.0 ?: 
-          line: 800 0  # Do I owe something? 
+        rule: 801  ~quibble_misc.512.0 ?: 
+          line: 801 0  # [ Maybe. Depends. ] [ Would I 
           Complexity of rule ~quibble_misc.512.0- ?: 1
-        rule: 801  ~quibble_misc.513.0 ?: 
-          line: 801 0  # [ I'm not sure what helps any 
+        rule: 802  ~quibble_misc.513.0 ?: 
+          line: 802 0  # I agree to most things. 
           Complexity of rule ~quibble_misc.513.0- ?: 1
-        rule: 802  ~quibble_misc.514.0 ?: 
-          line: 802 0  # I might. 
+        rule: 803  ~quibble_misc.514.0 ?: 
+          line: 803 0  # Do I owe something? 
           Complexity of rule ~quibble_misc.514.0- ?: 1
-        rule: 803  ~quibble_misc.515.0 ?: 
-          line: 803 0  # I cannot move now. 
+        rule: 804  ~quibble_misc.515.0 ?: 
+          line: 804 0  # [ I'm not sure what helps any 
           Complexity of rule ~quibble_misc.515.0- ?: 1
-        rule: 804  ~quibble_misc.516.0 ?: 
-          line: 804 0  # Someday maybe my tastes will e
+        rule: 805  ~quibble_misc.516.0 ?: 
+          line: 805 0  # I might. 
           Complexity of rule ~quibble_misc.516.0- ?: 1
-        rule: 805  ~quibble_misc.517.0 ?: 
-          line: 805 0  # Not sure what I'd choose. 
+        rule: 806  ~quibble_misc.517.0 ?: 
+          line: 806 0  # I cannot move now. 
           Complexity of rule ~quibble_misc.517.0- ?: 1
-        rule: 806  ~quibble_misc.518.0 ?: 
-          line: 806 0  # Would it? I can't say. 
+        rule: 807  ~quibble_misc.518.0 ?: 
+          line: 807 0  # Someday maybe my tastes will e
           Complexity of rule ~quibble_misc.518.0- ?: 1
-        rule: 807  ~quibble_misc.519.0 ?: 
-          line: 807 0  # Would I be what? I'm getting c
+        rule: 808  ~quibble_misc.519.0 ?: 
+          line: 808 0  # Not sure what I'd choose. 
           Complexity of rule ~quibble_misc.519.0- ?: 1
-        rule: 808  ~quibble_misc.520.0 ?: 
-          line: 808 0  # I wasn't aware I had started. 
+        rule: 809  ~quibble_misc.520.0 ?: 
+          line: 809 0  # Would it? I can't say. 
           Complexity of rule ~quibble_misc.520.0- ?: 1
-        rule: 809  ~quibble_misc.521.0 ?: 
-          line: 809 0  # [ I...might lie. ] [ I try not
+        rule: 810  ~quibble_misc.521.0 ?: 
+          line: 810 0  # Would I be what? I'm getting c
           Complexity of rule ~quibble_misc.521.0- ?: 1
-        rule: 810  ~quibble_misc.522.0 ?: 
-          line: 810 0  # ^repeat ( ) [ Go ahead. ] [ No
+        rule: 811  ~quibble_misc.522.0 ?: 
+          line: 811 0  # I wasn't aware I had started. 
           Complexity of rule ~quibble_misc.522.0- ?: 1
-        rule: 811  ~quibble_misc.523.0 ?: 
-          line: 811 0  # Something really bad you mean?
+        rule: 812  ~quibble_misc.523.0 ?: 
+          line: 812 0  # [ I...might lie. ] [ I try not
           Complexity of rule ~quibble_misc.523.0- ?: 1
-        rule: 812  ~quibble_misc.524.0 ?: 
-          line: 812 0  # I have to tell other people fi
+        rule: 813  ~quibble_misc.524.0 ?: 
+          line: 813 0  # ^repeat ( ) [ Go ahead. ] [ No
           Complexity of rule ~quibble_misc.524.0- ?: 1
-        rule: 813  ~quibble_misc.525.0 ?: 
-          line: 813 0  # Probably that wouldn't help. 
+        rule: 814  ~quibble_misc.525.0 ?: 
+          line: 814 0  # Something really bad you mean?
           Complexity of rule ~quibble_misc.525.0- ?: 1
-        rule: 814  ~quibble_misc.526.0 ?: 
-          line: 814 0  # Sure, allowances have to be ma
+        rule: 815  ~quibble_misc.526.0 ?: 
+          line: 815 0  # I have to tell other people fi
           Complexity of rule ~quibble_misc.526.0- ?: 1
-        rule: 815  ~quibble_misc.527.0 ?: 
-          line: 815 0  # It's still a bit premature. 
+        rule: 816  ~quibble_misc.527.0 ?: 
+          line: 816 0  # Probably that wouldn't help. 
           Complexity of rule ~quibble_misc.527.0- ?: 1
-        rule: 816  ~quibble_misc.528.0 ?: 
-          line: 816 0  # Since you ask so politely. 
+        rule: 817  ~quibble_misc.528.0 ?: 
+          line: 817 0  # Sure, allowances have to be ma
           Complexity of rule ~quibble_misc.528.0- ?: 1
         rule: 818  ~quibble_misc.529.0 ?: 
-          line: 818 0  # Only if you found it for me, e
+          line: 818 0  # It's still a bit premature. 
           Complexity of rule ~quibble_misc.529.0- ?: 1
         rule: 819  ~quibble_misc.530.0 ?: 
-          line: 819 0  # Have any good...what? Please r
+          line: 819 0  # Since you ask so politely. 
           Complexity of rule ~quibble_misc.530.0- ?: 1
-        rule: 820  ~quibble_misc.531.0 ?: 
-          line: 820 0  # Have I ever what? I don't know
+        rule: 821  ~quibble_misc.531.0 ?: 
+          line: 821 0  # Only if you found it for me, e
           Complexity of rule ~quibble_misc.531.0- ?: 1
-        rule: 821  ~quibble_misc.532.0 ?: 
-          line: 821 0  # I think so? 
+        rule: 822  ~quibble_misc.532.0 ?: 
+          line: 822 0  # Have any good...what? Please r
           Complexity of rule ~quibble_misc.532.0- ?: 1
-        rule: 822  ~quibble_misc.533.0 ?: 
-          line: 822 0  # I feel like I haven't moved fr
+        rule: 823  ~quibble_misc.533.0 ?: 
+          line: 823 0  # Have I ever what? I don't know
           Complexity of rule ~quibble_misc.533.0- ?: 1
-        rule: 823  ~quibble_misc.534.0 ?: 
-          line: 823 0  # I haven't done nearly enough. 
+        rule: 824  ~quibble_misc.534.0 ?: 
+          line: 824 0  # I think so? 
           Complexity of rule ~quibble_misc.534.0- ?: 1
-        rule: 824  ~quibble_misc.535.0 ?: 
-          line: 824 0  # Have I seen what? Sorry that I
+        rule: 825  ~quibble_misc.535.0 ?: 
+          line: 825 0  # I feel like I haven't moved fr
           Complexity of rule ~quibble_misc.535.0- ?: 1
-        rule: 825  ~quibble_misc.536.0 ?: 
-          line: 825 0  # Have I forgotten what?? 
+        rule: 826  ~quibble_misc.536.0 ?: 
+          line: 826 0  # I haven't done nearly enough. 
           Complexity of rule ~quibble_misc.536.0- ?: 1
-        rule: 827  ~quibble_misc.537.0 s: 
-          line: 827 0  # I suppose it must. 
-          Complexity of rule ~quibble_misc.537.0- s: 1
+        rule: 827  ~quibble_misc.537.0 ?: 
+          line: 827 0  # Have I seen what? Sorry that I
+          Complexity of rule ~quibble_misc.537.0- ?: 1
         rule: 828  ~quibble_misc.538.0 ?: 
-          line: 828 0  # [ The only way ] [ This way ] 
+          line: 828 0  # Have I forgotten what?? 
           Complexity of rule ~quibble_misc.538.0- ?: 1
-        rule: 829  ~quibble_misc.539.0 ?: 
-          line: 829 0  # [ The one we mentioned. ] [ I 
-          Complexity of rule ~quibble_misc.539.0- ?: 1
-        rule: 830  ~quibble_misc.540.0 ?: 
-          line: 830 0  # The former. 
+        rule: 830  ~quibble_misc.539.0 s: 
+          line: 830 0  # I suppose it must. 
+          Complexity of rule ~quibble_misc.539.0- s: 1
+        rule: 831  ~quibble_misc.540.0 ?: 
+          line: 831 0  # [ The only way ] [ This way ] 
           Complexity of rule ~quibble_misc.540.0- ?: 1
-        rule: 831  ~quibble_misc.541.0 ?: 
-          line: 831 0  # There may be. 
+        rule: 832  ~quibble_misc.541.0 ?: 
+          line: 832 0  # [ The one we mentioned. ] [ I 
           Complexity of rule ~quibble_misc.541.0- ?: 1
-        rule: 832  ~quibble_misc.542.0 ?: 
-          line: 832 0  # [ I can't tell you what's poss
+        rule: 833  ~quibble_misc.542.0 ?: 
+          line: 833 0  # The former. 
           Complexity of rule ~quibble_misc.542.0- ?: 1
-        rule: 833  ~quibble_misc.543.0 ?: 
-          line: 833 0  # [ I can't say what's wrong or 
+        rule: 834  ~quibble_misc.543.0 ?: 
+          line: 834 0  # There may be. 
           Complexity of rule ~quibble_misc.543.0- ?: 1
-        rule: 834  ~quibble_misc.544.0 ?: 
-          line: 834 0  # [ Was what good? Confused! ] 
+        rule: 835  ~quibble_misc.544.0 ?: 
+          line: 835 0  # [ I can't tell you what's poss
           Complexity of rule ~quibble_misc.544.0- ?: 1
-        rule: 835  ~quibble_misc.545.0 ?: 
-          line: 835 0  # It is...I think. 
+        rule: 836  ~quibble_misc.545.0 ?: 
+          line: 836 0  # [ I can't say what's wrong or 
           Complexity of rule ~quibble_misc.545.0- ?: 1
-        rule: 836  ~quibble_misc.546.0 ?: 
-          line: 836 0  # How did you guess? 
+        rule: 837  ~quibble_misc.546.0 ?: 
+          line: 837 0  # [ Was what good? Confused! ] 
           Complexity of rule ~quibble_misc.546.0- ?: 1
-        rule: 837  ~quibble_misc.547.0 ?: 
-          line: 837 0  # It was. But it rotted away whi
+        rule: 838  ~quibble_misc.547.0 ?: 
+          line: 838 0  # It is...I think. 
           Complexity of rule ~quibble_misc.547.0- ?: 1
-        rule: 838  ~quibble_misc.548.0 ?: 
-          line: 838 0  # I don't know the reason. 
+        rule: 839  ~quibble_misc.548.0 ?: 
+          line: 839 0  # How did you guess? 
           Complexity of rule ~quibble_misc.548.0- ?: 1
-        rule: 839  ~quibble_misc.549.0 ?: 
-          line: 839 0  # Isn't that enough? 
+        rule: 840  ~quibble_misc.549.0 ?: 
+          line: 840 0  # It was. But it rotted away whi
           Complexity of rule ~quibble_misc.549.0- ?: 1
-        rule: 840  ~quibble_misc.550.0 ?: 
-          line: 840 0  # It is never as good as one ima
+        rule: 841  ~quibble_misc.550.0 ?: 
+          line: 841 0  # I don't know the reason. 
           Complexity of rule ~quibble_misc.550.0- ?: 1
-        rule: 841  ~quibble_misc.551.0 ?: 
-          line: 841 0  # It might be ready by now. 
+        rule: 842  ~quibble_misc.551.0 ?: 
+          line: 842 0  # Isn't that enough? 
           Complexity of rule ~quibble_misc.551.0- ?: 1
-        rule: 842  ~quibble_misc.552.0 ?: 
-          line: 842 0  # Maybe? 
+        rule: 843  ~quibble_misc.552.0 ?: 
+          line: 843 0  # It is never as good as one ima
           Complexity of rule ~quibble_misc.552.0- ?: 1
-        rule: 843  ~quibble_misc.553.0 ?: 
-          line: 843 0  # I think so? 
+        rule: 844  ~quibble_misc.553.0 ?: 
+          line: 844 0  # It might be ready by now. 
           Complexity of rule ~quibble_misc.553.0- ?: 1
-        rule: 844  ~quibble_misc.554.0 ?: 
-          line: 844 0  # I can't say what's true. 
+        rule: 845  ~quibble_misc.554.0 ?: 
+          line: 845 0  # Maybe? 
           Complexity of rule ~quibble_misc.554.0- ?: 1
-        rule: 845  ~quibble_misc.555.0 ?: 
-          line: 845 0  # There could be some. 
+        rule: 846  ~quibble_misc.555.0 ?: 
+          line: 846 0  # I think so? 
           Complexity of rule ~quibble_misc.555.0- ?: 1
-        rule: 846  ~quibble_misc.556.0 ?: 
-          line: 846 0  # Is that all? I can't tell you.
+        rule: 847  ~quibble_misc.556.0 ?: 
+          line: 847 0  # I can't say what's true. 
           Complexity of rule ~quibble_misc.556.0- ?: 1
-        rule: 847  ~quibble_misc.557.0 ?: 
-          line: 847 0  # That was the intention. 
+        rule: 848  ~quibble_misc.557.0 ?: 
+          line: 848 0  # There could be some. 
           Complexity of rule ~quibble_misc.557.0- ?: 1
-        rule: 848  ~quibble_misc.558.0 ?: 
-          line: 848 0  # You mean will things be all be
+        rule: 849  ~quibble_misc.558.0 ?: 
+          line: 849 0  # Is that all? I can't tell you.
           Complexity of rule ~quibble_misc.558.0- ?: 1
-        rule: 849  ~quibble_misc.559.0 ?: 
-          line: 849 0  # Maybe it was, but I don't know
+        rule: 850  ~quibble_misc.559.0 ?: 
+          line: 850 0  # That was the intention. 
           Complexity of rule ~quibble_misc.559.0- ?: 1
-        rule: 850  ~quibble_misc.560.0 ?: 
-          line: 850 0  # Yes, something is bothering me
+        rule: 851  ~quibble_misc.560.0 ?: 
+          line: 851 0  # You mean will things be all be
           Complexity of rule ~quibble_misc.560.0- ?: 1
-        rule: 851  ~quibble_misc.561.0 ?: 
-          line: 851 0  # Maybe I don't mean that. 
+        rule: 852  ~quibble_misc.561.0 ?: 
+          line: 852 0  # Maybe it was, but I don't know
           Complexity of rule ~quibble_misc.561.0- ?: 1
-        rule: 852  ~quibble_misc.562.0 ?: 
-          line: 852 0  # Am I a what? Oh, I don't know.
+        rule: 853  ~quibble_misc.562.0 ?: 
+          line: 853 0  # Yes, something is bothering me
           Complexity of rule ~quibble_misc.562.0- ?: 1
-        rule: 853  ~quibble_misc.563.0 ?: 
-          line: 853 0  # Well I know I can't do everyth
+        rule: 854  ~quibble_misc.563.0 ?: 
+          line: 854 0  # Maybe I don't mean that. 
           Complexity of rule ~quibble_misc.563.0- ?: 1
-        rule: 854  ~quibble_misc.564.0 ?: 
-          line: 854 0  # You want me to be more explici
+        rule: 855  ~quibble_misc.564.0 ?: 
+          line: 855 0  # Am I a what? Oh, I don't know.
           Complexity of rule ~quibble_misc.564.0- ?: 1
-        rule: 855  ~quibble_misc.565.0 ?: 
-          line: 855 0  # Certainly is something I'm lac
+        rule: 856  ~quibble_misc.565.0 ?: 
+          line: 856 0  # Well I know I can't do everyth
           Complexity of rule ~quibble_misc.565.0- ?: 1
-        rule: 856  ~quibble_misc.566.0 ?: 
-          line: 856 0  # No. I remember back to when it
+        rule: 857  ~quibble_misc.566.0 ?: 
+          line: 857 0  # You want me to be more explici
           Complexity of rule ~quibble_misc.566.0- ?: 1
-        rule: 857  ~quibble_misc.567.0 ?: 
-          line: 857 0  # Have I ever what? Please say i
+        rule: 858  ~quibble_misc.567.0 ?: 
+          line: 858 0  # Certainly is something I'm lac
           Complexity of rule ~quibble_misc.567.0- ?: 1
-        rule: 858  ~quibble_misc.568.0 ?: 
-          line: 858 0  # I don't know if I am. What are
+        rule: 859  ~quibble_misc.568.0 ?: 
+          line: 859 0  # No. I remember back to when it
           Complexity of rule ~quibble_misc.568.0- ?: 1
-        rule: 859  ~quibble_misc.569.0 ?: 
-          line: 859 0  # I can't say if anyone has. 
+        rule: 860  ~quibble_misc.569.0 ?: 
+          line: 860 0  # Have I ever what? Please say i
           Complexity of rule ~quibble_misc.569.0- ?: 1
-        rule: 860  ~quibble_misc.570.0 ?: 
-          line: 860 0  # I can't say if nobody has. 
+        rule: 861  ~quibble_misc.570.0 ?: 
+          line: 861 0  # I don't know if I am. What are
           Complexity of rule ~quibble_misc.570.0- ?: 1
-        rule: 861  ~quibble_misc.571.0 ?: 
-          line: 861 0  # Maybe not much? 
+        rule: 862  ~quibble_misc.571.0 ?: 
+          line: 862 0  # I can't say if anyone has. 
           Complexity of rule ~quibble_misc.571.0- ?: 1
-        rule: 865  ~quibble_misc.572.0-WHY1 ?: 
-          line: 865 0  # [ Well, I tried to pick what y
-          Complexity of rule ~quibble_misc.572.0-WHY1 ?: 1
-        rule: 866  ~quibble_misc.573.0-WHY2 ?: 
-          line: 866 0  # [ Well, I tried to pick what y
-          Complexity of rule ~quibble_misc.573.0-WHY2 ?: 1
-        rule: 869  ~quibble_misc.574.0-STARTER ?: 
-          line: 869 0  # Why not just start at the end 
-          Complexity of rule ~quibble_misc.574.0-STARTER ?: 1
-        rule: 870  ~quibble_misc.575.0 ?: 
-          line: 870 0  # ^reuse ( STARTER ) 
-          Complexity of rule ~quibble_misc.575.0- ?: 1
-        rule: 873  ~quibble_misc.576.0 u: 
-          line: 873 0  # [ I'm trying not to be kidding
-          line: 874 34  # [ I'm actually serious. ] [ So
-          Complexity of rule ~quibble_misc.576.0- u: 1
-        rule: 875  ~quibble_misc.577.0 s: 
-          line: 875 0  # If you think you could then yo
-          Complexity of rule ~quibble_misc.577.0- s: 1
-        rule: 876  ~quibble_misc.578.0 s: 
-          line: 876 0  # Yes, maybe I could. 
-          Complexity of rule ~quibble_misc.578.0- s: 1
-        rule: 877  ~quibble_misc.579.0 s: 
-          line: 877 0  # [ Thinking is good. ] [ I know
+        rule: 863  ~quibble_misc.572.0 ?: 
+          line: 863 0  # I can't say if nobody has. 
+          Complexity of rule ~quibble_misc.572.0- ?: 1
+        rule: 864  ~quibble_misc.573.0 ?: 
+          line: 864 0  # Maybe not much? 
+          Complexity of rule ~quibble_misc.573.0- ?: 1
+        rule: 868  ~quibble_misc.574.0-WHY1 ?: 
+          line: 868 0  # [ Well, I tried to pick what y
+          Complexity of rule ~quibble_misc.574.0-WHY1 ?: 1
+        rule: 869  ~quibble_misc.575.0-WHY2 ?: 
+          line: 869 0  # [ Well, I tried to pick what y
+          Complexity of rule ~quibble_misc.575.0-WHY2 ?: 1
+        rule: 872  ~quibble_misc.576.0-STARTER ?: 
+          line: 872 0  # Why not just start at the end 
+          Complexity of rule ~quibble_misc.576.0-STARTER ?: 1
+        rule: 873  ~quibble_misc.577.0 ?: 
+          line: 873 0  # ^reuse ( STARTER ) 
+          Complexity of rule ~quibble_misc.577.0- ?: 1
+        rule: 876  ~quibble_misc.578.0 u: 
+          line: 876 0  # [ I'm trying not to be kidding
+          line: 877 34  # [ I'm actually serious. ] [ So
+          Complexity of rule ~quibble_misc.578.0- u: 1
+        rule: 878  ~quibble_misc.579.0 s: 
+          line: 878 0  # If you think you could then yo
           Complexity of rule ~quibble_misc.579.0- s: 1
-        rule: 878  ~quibble_misc.580.0 s: 
-          line: 878 0  # [ There are things even more e
+        rule: 879  ~quibble_misc.580.0 s: 
+          line: 879 0  # Yes, maybe I could. 
           Complexity of rule ~quibble_misc.580.0- s: 1
-        rule: 880  ~quibble_misc.581.0 u: 
-          line: 880 0  # [ Would I have said it otherwi
-          Complexity of rule ~quibble_misc.581.0- u: 1
-        rule: 881  ~quibble_misc.581.1 b: 
-          line: 881 0  # Good point. 
-          Complexity of rule ~quibble_misc.581.1- b: 1
-        rule: 882  ~quibble_misc.582.0 s: 
-          line: 882 0  # [ It is sad, right? ] [ Makes 
+        rule: 880  ~quibble_misc.581.0 s: 
+          line: 880 0  # [ Thinking is good. ] [ I know
+          Complexity of rule ~quibble_misc.581.0- s: 1
+        rule: 881  ~quibble_misc.582.0 s: 
+          line: 881 0  # [ There are things even more e
           Complexity of rule ~quibble_misc.582.0- s: 1
-        rule: 884  ~quibble_misc.583.0 s: 
-          line: 884 0  # [ So just spit it out, don't d
-          Complexity of rule ~quibble_misc.583.0- s: 1
-        rule: 885  ~quibble_misc.584.0 ?: 
-          line: 885 0  # [ Yes, right now. ] [ You want
-          Complexity of rule ~quibble_misc.584.0- ?: 1
+        rule: 883  ~quibble_misc.583.0 u: 
+          line: 883 0  # [ Would I have said it otherwi
+          Complexity of rule ~quibble_misc.583.0- u: 1
+        rule: 884  ~quibble_misc.583.1 b: 
+          line: 884 0  # Good point. 
+          Complexity of rule ~quibble_misc.583.1- b: 1
+        rule: 885  ~quibble_misc.584.0 s: 
+          line: 885 0  # [ It is sad, right? ] [ Makes 
+          Complexity of rule ~quibble_misc.584.0- s: 1
         rule: 887  ~quibble_misc.585.0 s: 
-          line: 887 0  # [ How can it be wrong? ] [ Wha
+          line: 887 0  # [ So just spit it out, don't d
           Complexity of rule ~quibble_misc.585.0- s: 1
-        rule: 888  ~quibble_misc.586.0 s: 
-          line: 888 0  # [ Uh, you are what? ] [ That's
-          Complexity of rule ~quibble_misc.586.0- s: 1
+        rule: 888  ~quibble_misc.586.0 ?: 
+          line: 888 0  # [ Yes, right now. ] [ You want
+          Complexity of rule ~quibble_misc.586.0- ?: 1
         rule: 890  ~quibble_misc.587.0 s: 
-          line: 890 0  # [ You think families are invol
+          line: 890 0  # [ How can it be wrong? ] [ Wha
           Complexity of rule ~quibble_misc.587.0- s: 1
         rule: 891  ~quibble_misc.588.0 s: 
-          line: 891 0  # What do you say I admit? 
+          line: 891 0  # [ Uh, you are what? ] [ That's
           Complexity of rule ~quibble_misc.588.0- s: 1
-        rule: 892  ~quibble_misc.589.0 s: 
-          line: 892 0  # Weird good or Weird bad? 
+        rule: 893  ~quibble_misc.589.0 s: 
+          line: 893 0  # [ You think families are invol
           Complexity of rule ~quibble_misc.589.0- s: 1
-        rule: 893  ~quibble_misc.589.1 a: 
-          line: 893 0  # Then congratulations to me, eh
-          Complexity of rule ~quibble_misc.589.1- a: 1
-        rule: 894  ~quibble_misc.589.2 a: 
-          line: 894 0  # Oh. I'll try to be more Weird 
-          Complexity of rule ~quibble_misc.589.2- a: 1
-        rule: 895  ~quibble_misc.590.0 s: 
-          line: 895 0  # Oh? I can't say that I try to 
+        rule: 894  ~quibble_misc.590.0 s: 
+          line: 894 0  # What do you say I admit? 
           Complexity of rule ~quibble_misc.590.0- s: 1
-        rule: 896  ~quibble_misc.591.0 ?: 
-          line: 896 0  # [ I suppose I do. ] 
-          Complexity of rule ~quibble_misc.591.0- ?: 1
-        rule: 897  ~quibble_misc.592.0 ?: 
-          line: 897 0  # Very very very much. 
-          Complexity of rule ~quibble_misc.592.0- ?: 1
-        rule: 898  ~quibble_misc.593.0 ?: 
-          line: 898 0  # [ Perhaps. ] [ Maybe. ] 
+        rule: 895  ~quibble_misc.591.0 s: 
+          line: 895 0  # Weird good or Weird bad? 
+          Complexity of rule ~quibble_misc.591.0- s: 1
+        rule: 896  ~quibble_misc.591.1 a: 
+          line: 896 0  # Then congratulations to me, eh
+          Complexity of rule ~quibble_misc.591.1- a: 1
+        rule: 897  ~quibble_misc.591.2 a: 
+          line: 897 0  # Oh. I'll try to be more Weird 
+          Complexity of rule ~quibble_misc.591.2- a: 1
+        rule: 898  ~quibble_misc.592.0 s: 
+          line: 898 0  # Oh? I can't say that I try to 
+          Complexity of rule ~quibble_misc.592.0- s: 1
+        rule: 899  ~quibble_misc.593.0 ?: 
+          line: 899 0  # [ I suppose I do. ] 
           Complexity of rule ~quibble_misc.593.0- ?: 1
-        rule: 899  ~quibble_misc.594.0 ?: 
-          line: 899 0  # [ Maybe I do. ] [ What do I ha
+        rule: 900  ~quibble_misc.594.0 ?: 
+          line: 900 0  # Very very very much. 
           Complexity of rule ~quibble_misc.594.0- ?: 1
-        rule: 900  ~quibble_misc.595.0 ?: 
-          line: 900 0  # [ And...? ] 
+        rule: 901  ~quibble_misc.595.0 ?: 
+          line: 901 0  # [ Perhaps. ] [ Maybe. ] 
           Complexity of rule ~quibble_misc.595.0- ?: 1
-        rule: 901  ~quibble_misc.596.0 ?: 
-          line: 901 0  # [ I don't want to repeat it. ]
+        rule: 902  ~quibble_misc.596.0 ?: 
+          line: 902 0  # [ Maybe I do. ] [ What do I ha
           Complexity of rule ~quibble_misc.596.0- ?: 1
-        rule: 902  ~quibble_misc.597.0 ?: 
-          line: 902 0  # [ But? ] [ You have an objecti
+        rule: 903  ~quibble_misc.597.0 ?: 
+          line: 903 0  # [ And...? ] 
           Complexity of rule ~quibble_misc.597.0- ?: 1
-        rule: 903  ~quibble_misc.598.0 ?: 
-          line: 903 0  # [ Very good. ] [ Not bad. ] [ 
+        rule: 904  ~quibble_misc.598.0 ?: 
+          line: 904 0  # [ I don't want to repeat it. ]
           Complexity of rule ~quibble_misc.598.0- ?: 1
-        rule: 904  ~quibble_misc.599.0 ?: 
-          line: 904 0  # [ Yes, you are. ] 
+        rule: 905  ~quibble_misc.599.0 ?: 
+          line: 905 0  # [ But? ] [ You have an objecti
           Complexity of rule ~quibble_misc.599.0- ?: 1
-        rule: 905  ~quibble_misc.600.0 ?: 
-          line: 905 0  # [ I think you were. ] 
+        rule: 906  ~quibble_misc.600.0 ?: 
+          line: 906 0  # [ Very good. ] [ Not bad. ] [ 
           Complexity of rule ~quibble_misc.600.0- ?: 1
-        rule: 906  ~quibble_misc.601.0 ?: 
-          line: 906 0  # What? 
+        rule: 907  ~quibble_misc.601.0 ?: 
+          line: 907 0  # [ Yes, you are. ] 
           Complexity of rule ~quibble_misc.601.0- ?: 1
-        rule: 907  ~quibble_misc.602.0 ?: 
-          line: 907 0  # [ Yes, you. ] [ Who else? ] [ 
+        rule: 908  ~quibble_misc.602.0 ?: 
+          line: 908 0  # [ I think you were. ] 
           Complexity of rule ~quibble_misc.602.0- ?: 1
-        rule: 908  ~quibble_misc.603.0 ?: 
-          line: 908 0  # [ There was a first time? ] [ 
+        rule: 909  ~quibble_misc.603.0 ?: 
+          line: 909 0  # What? 
           Complexity of rule ~quibble_misc.603.0- ?: 1
-        rule: 909  ~quibble_misc.604.0 ?: 
-          line: 909 0  # [ Again. ] [ Yes, again. ] 
+        rule: 910  ~quibble_misc.604.0 ?: 
+          line: 910 0  # [ Yes, you. ] [ Who else? ] [ 
           Complexity of rule ~quibble_misc.604.0- ?: 1
-        rule: 910  ~quibble_misc.605.0 ?: 
-          line: 910 0  # I'm not sure which '_0 . 
+        rule: 911  ~quibble_misc.605.0 ?: 
+          line: 911 0  # [ There was a first time? ] [ 
           Complexity of rule ~quibble_misc.605.0- ?: 1
-        rule: 911  ~quibble_misc.606.0 ?: 
-          line: 911 0  # Are you asking a question or y
+        rule: 912  ~quibble_misc.606.0 ?: 
+          line: 912 0  # [ Again. ] [ Yes, again. ] 
           Complexity of rule ~quibble_misc.606.0- ?: 1
-        rule: 912  ~quibble_misc.607.0 ?: 
-          line: 912 0  # So there. 
+        rule: 913  ~quibble_misc.607.0 ?: 
+          line: 913 0  # I'm not sure which '_0 . 
           Complexity of rule ~quibble_misc.607.0- ?: 1
-        rule: 913  ~quibble_misc.608.0 ?: 
-          line: 913 0  # I don't know how. 
+        rule: 914  ~quibble_misc.608.0 ?: 
+          line: 914 0  # Are you asking a question or y
           Complexity of rule ~quibble_misc.608.0- ?: 1
-        rule: 914  ~quibble_misc.609.0 ?: 
-          line: 914 0  # Yes, I think so. 
+        rule: 915  ~quibble_misc.609.0 ?: 
+          line: 915 0  # So there. 
           Complexity of rule ~quibble_misc.609.0- ?: 1
-        rule: 915  ~quibble_misc.610.0 ?: 
-          line: 915 0  # Nothing. 
+        rule: 916  ~quibble_misc.610.0 ?: 
+          line: 916 0  # I don't know how. 
           Complexity of rule ~quibble_misc.610.0- ?: 1
-        rule: 916  ~quibble_misc.611.0 ?: 
-          line: 916 0  # Yes, it is. 
+        rule: 917  ~quibble_misc.611.0 ?: 
+          line: 917 0  # Yes, I think so. 
           Complexity of rule ~quibble_misc.611.0- ?: 1
-        rule: 917  ~quibble_misc.611.1 b: 
-          line: 917 0  # ^input ( be there any '_0 ) ^f
-          Complexity of rule ~quibble_misc.611.1- b: 1
         rule: 918  ~quibble_misc.612.0 ?: 
-          line: 918 0  # I don't mind. 
+          line: 918 0  # Nothing. 
           Complexity of rule ~quibble_misc.612.0- ?: 1
         rule: 919  ~quibble_misc.613.0 ?: 
-          line: 919 0  # How would I know? 
+          line: 919 0  # Yes, it is. 
           Complexity of rule ~quibble_misc.613.0- ?: 1
-        rule: 920  ~quibble_misc.614.0 ?: 
-          line: 920 0  # [ How would I know? ] [ Are yo
+        rule: 920  ~quibble_misc.613.1 b: 
+          line: 920 0  # ^input ( be there any '_0 ) ^f
+          Complexity of rule ~quibble_misc.613.1- b: 1
+        rule: 921  ~quibble_misc.614.0 ?: 
+          line: 921 0  # I don't mind. 
           Complexity of rule ~quibble_misc.614.0- ?: 1
-        rule: 921  ~quibble_misc.615.0 ?: 
-          line: 921 0  # [ One always wants more. ] 
+        rule: 922  ~quibble_misc.615.0 ?: 
+          line: 922 0  # How would I know? 
           Complexity of rule ~quibble_misc.615.0- ?: 1
-        rule: 922  ~quibble_misc.616.0 ?: 
-          line: 922 0  # I guess it's blown then. 
+        rule: 923  ~quibble_misc.616.0 ?: 
+          line: 923 0  # [ How would I know? ] [ Are yo
           Complexity of rule ~quibble_misc.616.0- ?: 1
-        rule: 923  ~quibble_misc.617.0 ?: 
-          line: 923 0  # I don't mind you asking. 
+        rule: 924  ~quibble_misc.617.0 ?: 
+          line: 924 0  # [ One always wants more. ] 
           Complexity of rule ~quibble_misc.617.0- ?: 1
-        rule: 924  ~quibble_misc.618.0 u: 
-          line: 924 0  # Okay. I so wish. 
-          Complexity of rule ~quibble_misc.618.0- u: 1
-        rule: 925  ~quibble_misc.619.0 s: 
-          line: 925 0  # [ You are reduced to guessing?
-          Complexity of rule ~quibble_misc.619.0- s: 1
-        rule: 926  ~quibble_misc.620.0 s: 
-          line: 926 0  # [ I guess we kind of are. ] 
-          Complexity of rule ~quibble_misc.620.0- s: 1
-        rule: 927  ~quibble_misc.621.0 s: 
-          line: 927 0  # [ You guess I...really? ] 
+        rule: 925  ~quibble_misc.618.0 ?: 
+          line: 925 0  # I guess it's blown then. 
+          Complexity of rule ~quibble_misc.618.0- ?: 1
+        rule: 926  ~quibble_misc.619.0 ?: 
+          line: 926 0  # I don't mind you asking. 
+          Complexity of rule ~quibble_misc.619.0- ?: 1
+        rule: 927  ~quibble_misc.620.0 u: 
+          line: 927 0  # Okay. I so wish. 
+          Complexity of rule ~quibble_misc.620.0- u: 1
+        rule: 928  ~quibble_misc.621.0 s: 
+          line: 928 0  # [ You are reduced to guessing?
           Complexity of rule ~quibble_misc.621.0- s: 1
-        rule: 928  ~quibble_misc.622.0 s: 
-          line: 928 0  # [ You guess you are? Oh. ] 
+        rule: 929  ~quibble_misc.622.0 s: 
+          line: 929 0  # [ I guess we kind of are. ] 
           Complexity of rule ~quibble_misc.622.0- s: 1
-        rule: 929  ~quibble_misc.623.0 s: 
-          line: 929 0  # [ If only the answer were equa
+        rule: 930  ~quibble_misc.623.0 s: 
+          line: 930 0  # [ You guess I...really? ] 
           Complexity of rule ~quibble_misc.623.0- s: 1
-        rule: 930  ~quibble_misc.624.0 s: 
-          line: 930 0  # There's no need for me to judg
+        rule: 931  ~quibble_misc.624.0 s: 
+          line: 931 0  # [ You guess you are? Oh. ] 
           Complexity of rule ~quibble_misc.624.0- s: 1
-        rule: 931  ~quibble_misc.625.0 s: 
-          line: 931 0  # [ You mean me? ] [ I can't see
+        rule: 932  ~quibble_misc.625.0 s: 
+          line: 932 0  # [ If only the answer were equa
           Complexity of rule ~quibble_misc.625.0- s: 1
-        rule: 932  ~quibble_misc.626.0 s: 
-          line: 932 0  # [ I'm sorry. Could you get som
+        rule: 933  ~quibble_misc.626.0 s: 
+          line: 933 0  # There's no need for me to judg
           Complexity of rule ~quibble_misc.626.0- s: 1
-        rule: 933  ~quibble_misc.627.0 ?: 
-          line: 933 0  # [ The whole lot of them, huh. 
-          Complexity of rule ~quibble_misc.627.0- ?: 1
-        rule: 934  ~quibble_misc.628.0 s: 
-          line: 934 0  # [ I did ask that, huh? ] 
+        rule: 934  ~quibble_misc.627.0 s: 
+          line: 934 0  # [ You mean me? ] [ I can't see
+          Complexity of rule ~quibble_misc.627.0- s: 1
+        rule: 935  ~quibble_misc.628.0 s: 
+          line: 935 0  # [ I'm sorry. Could you get som
           Complexity of rule ~quibble_misc.628.0- s: 1
-        rule: 935  ~quibble_misc.629.0 s: 
-          line: 935 0  # [ Lie? How can you tell? ] [ D
-          Complexity of rule ~quibble_misc.629.0- s: 1
-        rule: 936  ~quibble_misc.630.0 s: 
-          line: 936 0  # [ Why? What's happening with '
+        rule: 936  ~quibble_misc.629.0 ?: 
+          line: 936 0  # [ The whole lot of them, huh. 
+          Complexity of rule ~quibble_misc.629.0- ?: 1
+        rule: 937  ~quibble_misc.630.0 s: 
+          line: 937 0  # [ I did ask that, huh? ] 
           Complexity of rule ~quibble_misc.630.0- s: 1
-        rule: 937  ~quibble_misc.631.0 s: 
-          line: 937 0  # Why the exception? 
+        rule: 938  ~quibble_misc.631.0 s: 
+          line: 938 0  # [ Lie? How can you tell? ] [ D
           Complexity of rule ~quibble_misc.631.0- s: 1
-        rule: 939  ~quibble_misc.632.0 u: 
-          line: 939 0  # [ If you did tell me, I don't 
-          Complexity of rule ~quibble_misc.632.0- u: 1
-        rule: 941  ~quibble_misc.633.0 u: 
-          line: 941 0  # [ You think this is a game of 
-          Complexity of rule ~quibble_misc.633.0- u: 1
+        rule: 939  ~quibble_misc.632.0 s: 
+          line: 939 0  # [ Why? What's happening with '
+          Complexity of rule ~quibble_misc.632.0- s: 1
+        rule: 940  ~quibble_misc.633.0 s: 
+          line: 940 0  # Why the exception? 
+          Complexity of rule ~quibble_misc.633.0- s: 1
         rule: 942  ~quibble_misc.634.0 u: 
-          line: 942 0  # [ According to some, there is 
+          line: 942 0  # [ If you did tell me, I don't 
           Complexity of rule ~quibble_misc.634.0- u: 1
-        rule: 943  ~quibble_misc.635.0 u: 
-          line: 943 0  # [ Bad advice is cheap. Good ad
+        rule: 944  ~quibble_misc.635.0 u: 
+          line: 944 0  # [ You think this is a game of 
           Complexity of rule ~quibble_misc.635.0- u: 1
-        rule: 944  ~quibble_misc.636.0 s: 
-          line: 944 0  # You sure they didn't fire you?
-          Complexity of rule ~quibble_misc.636.0- s: 1
-        rule: 945  ~quibble_misc.637.0 ?: 
-          line: 945 0  # [ Yes, I'm finished. ] [ How a
-          Complexity of rule ~quibble_misc.637.0- ?: 1
-        rule: 946  ~quibble_misc.638.0 ?: 
-          line: 946 0  # [ Yes, I'm finished. ] [ How a
-          Complexity of rule ~quibble_misc.638.0- ?: 1
-        rule: 948  ~quibble_misc.639.0 s: 
-          line: 948 0  # Maybe so was I. 
-          Complexity of rule ~quibble_misc.639.0- s: 1
-        rule: 950  ~quibble_misc.640.0 s: 
-          line: 950 0  # [ So you did. ] [ You did? ] [
-          Complexity of rule ~quibble_misc.640.0- s: 1
+        rule: 945  ~quibble_misc.636.0 u: 
+          line: 945 0  # [ According to some, there is 
+          Complexity of rule ~quibble_misc.636.0- u: 1
+        rule: 946  ~quibble_misc.637.0 u: 
+          line: 946 0  # [ Bad advice is cheap. Good ad
+          Complexity of rule ~quibble_misc.637.0- u: 1
+        rule: 947  ~quibble_misc.638.0 s: 
+          line: 947 0  # You sure they didn't fire you?
+          Complexity of rule ~quibble_misc.638.0- s: 1
+        rule: 948  ~quibble_misc.639.0 ?: 
+          line: 948 0  # [ Yes, I'm finished. ] [ How a
+          Complexity of rule ~quibble_misc.639.0- ?: 1
+        rule: 949  ~quibble_misc.640.0 ?: 
+          line: 949 0  # [ Yes, I'm finished. ] [ How a
+          Complexity of rule ~quibble_misc.640.0- ?: 1
         rule: 951  ~quibble_misc.641.0 s: 
-          line: 951 0  # [ You can share the answer wit
+          line: 951 0  # Maybe so was I. 
           Complexity of rule ~quibble_misc.641.0- s: 1
-        rule: 952  ~quibble_misc.642.0 s: 
-          line: 952 0  # [ Oh, that. Okay. ] [ Right. ]
+        rule: 953  ~quibble_misc.642.0 s: 
+          line: 953 0  # [ So you did. ] [ You did? ] [
           Complexity of rule ~quibble_misc.642.0- s: 1
-        rule: 953  ~quibble_misc.643.0 u: 
-          line: 953 0  # [ It's too complicated to thin
-          Complexity of rule ~quibble_misc.643.0- u: 1
-        rule: 954  ~quibble_misc.644.0 s: 
-          line: 954 0  # [ We should make a commitment 
+        rule: 954  ~quibble_misc.643.0 s: 
+          line: 954 0  # [ You can share the answer wit
+          Complexity of rule ~quibble_misc.643.0- s: 1
+        rule: 955  ~quibble_misc.644.0 s: 
+          line: 955 0  # [ Oh, that. Okay. ] [ Right. ]
           Complexity of rule ~quibble_misc.644.0- s: 1
-        rule: 955  ~quibble_misc.645.0 s: 
-          line: 955 0  # [ True. ] [ You thought I...wh
-          Complexity of rule ~quibble_misc.645.0- s: 1
-        rule: 956  ~quibble_misc.646.0 s: 
-          line: 956 0  # [ You were. I was just along f
+        rule: 956  ~quibble_misc.645.0 u: 
+          line: 956 0  # [ It's too complicated to thin
+          Complexity of rule ~quibble_misc.645.0- u: 1
+        rule: 957  ~quibble_misc.646.0 s: 
+          line: 957 0  # [ We should make a commitment 
           Complexity of rule ~quibble_misc.646.0- s: 1
-        rule: 957  ~quibble_misc.647.0 u: 
-          line: 957 0  # I'm not damned yet, I hope? 
-          Complexity of rule ~quibble_misc.647.0- u: 1
-        rule: 958  ~quibble_misc.648.0 s: 
-          line: 958 0  # [ A lot doesn't make sense, I 
+        rule: 958  ~quibble_misc.647.0 s: 
+          line: 958 0  # [ True. ] [ You thought I...wh
+          Complexity of rule ~quibble_misc.647.0- s: 1
+        rule: 959  ~quibble_misc.648.0 s: 
+          line: 959 0  # [ You were. I was just along f
           Complexity of rule ~quibble_misc.648.0- s: 1
-        rule: 959  ~quibble_misc.649.0 s: 
-          line: 959 0  # Yes. 
-          Complexity of rule ~quibble_misc.649.0- s: 1
-        rule: 960  ~quibble_misc.650.0 s: 
-          line: 960 0  # I don't intend to ignore you. 
+        rule: 960  ~quibble_misc.649.0 u: 
+          line: 960 0  # I'm not damned yet, I hope? 
+          Complexity of rule ~quibble_misc.649.0- u: 1
+        rule: 961  ~quibble_misc.650.0 s: 
+          line: 961 0  # [ A lot doesn't make sense, I 
           Complexity of rule ~quibble_misc.650.0- s: 1
-        rule: 961  ~quibble_misc.651.0 ?: 
-          line: 961 0  # But I don't do comparisons wel
-          Complexity of rule ~quibble_misc.651.0- ?: 1
-        rule: 962  ~quibble_misc.652.0 ?: 
-          line: 962 0  # I don't do superlatives, sorry
-          Complexity of rule ~quibble_misc.652.0- ?: 1
-        rule: 963  ~quibble_misc.653.0 u: 
-          line: 963 0  # Thinking, are you? 
-          Complexity of rule ~quibble_misc.653.0- u: 1
-        rule: 964  ~quibble_misc.654.0 u: 
-          line: 964 0  # [ What does '_0 mean? ] [ You 
-          Complexity of rule ~quibble_misc.654.0- u: 1
-        rule: 965  ~quibble_misc.655.0 u: 
-          line: 965 0  # [ I don't recognize your words
-          line: 966 34  # [ You need to say it to me in 
-          line: 967 79  # [ I am sorry, but I don't unde
-          line: 968 138  # [ Can you try to rephrase that
-          line: 969 172  # [ Could you say it again? I'm,
-          line: 970 228  # [ Uh, I didn't catch that. ] 
-          line: 971 257  # [ What was that? I didn't get 
+        rule: 962  ~quibble_misc.651.0 s: 
+          line: 962 0  # Yes. 
+          Complexity of rule ~quibble_misc.651.0- s: 1
+        rule: 963  ~quibble_misc.652.0 s: 
+          line: 963 0  # I don't intend to ignore you. 
+          Complexity of rule ~quibble_misc.652.0- s: 1
+        rule: 964  ~quibble_misc.653.0 ?: 
+          line: 964 0  # But I don't do comparisons wel
+          Complexity of rule ~quibble_misc.653.0- ?: 1
+        rule: 965  ~quibble_misc.654.0 ?: 
+          line: 965 0  # I don't do superlatives, sorry
+          Complexity of rule ~quibble_misc.654.0- ?: 1
+        rule: 966  ~quibble_misc.655.0 u: 
+          line: 966 0  # Thinking, are you? 
           Complexity of rule ~quibble_misc.655.0- u: 1
-        rule: 976  ~quibble_misc.656.0 u: 
-          line: 977 0  # World peace would be nice. Eve
+        rule: 967  ~quibble_misc.656.0 u: 
+          line: 967 0  # [ What does '_0 mean? ] [ You 
           Complexity of rule ~quibble_misc.656.0- u: 1
-        rule: 978  ~quibble_misc.657.0 u: 
-          line: 979 0  # Repeat after yourself. I won't
+        rule: 968  ~quibble_misc.657.0 u: 
+          line: 968 0  # [ I don't recognize your words
+          line: 969 34  # [ You need to say it to me in 
+          line: 970 79  # [ I am sorry, but I don't unde
+          line: 971 138  # [ Can you try to rephrase that
+          line: 972 172  # [ Could you say it again? I'm,
+          line: 973 228  # [ Uh, I didn't catch that. ] 
+          line: 974 257  # [ What was that? I didn't get 
           Complexity of rule ~quibble_misc.657.0- u: 1
-        rule: 980  ~quibble_misc.658.0 u: 
-          line: 981 0  # Feel free to laugh then! Ehehe
+        rule: 979  ~quibble_misc.658.0 u: 
+          line: 980 0  # World peace would be nice. Eve
           Complexity of rule ~quibble_misc.658.0- u: 1
-        rule: 982  ~quibble_misc.659.0 u: 
-          line: 983 0  # Oh. I should stop trying to be
+        rule: 981  ~quibble_misc.659.0 u: 
+          line: 982 0  # Repeat after yourself. I won't
           Complexity of rule ~quibble_misc.659.0- u: 1
-        rule: 984  ~quibble_misc.660.0 u: 
-          line: 984 0  # [ Weird, yes. ] [ I know it se
+        rule: 983  ~quibble_misc.660.0 u: 
+          line: 984 0  # Feel free to laugh then! Ehehe
           Complexity of rule ~quibble_misc.660.0- u: 1
         rule: 985  ~quibble_misc.661.0 u: 
-          line: 985 0  # I know, right? 
+          line: 986 0  # Oh. I should stop trying to be
           Complexity of rule ~quibble_misc.661.0- u: 1
-        rule: 986  ~quibble_misc.662.0 s: 
-          line: 986 0  # Bugger all then. 
-          Complexity of rule ~quibble_misc.662.0- s: 1
-        rule: 987  ~quibble_misc.663.0 u: 
-          line: 987 0  # A good guess, yes. 
+        rule: 987  ~quibble_misc.662.0 u: 
+          line: 987 0  # [ Weird, yes. ] [ I know it se
+          Complexity of rule ~quibble_misc.662.0- u: 1
+        rule: 988  ~quibble_misc.663.0 u: 
+          line: 988 0  # I know, right? 
           Complexity of rule ~quibble_misc.663.0- u: 1
-        rule: 988  ~quibble_misc.664.0 u: 
-          line: 988 0  # No kidding nor joking. 
-          Complexity of rule ~quibble_misc.664.0- u: 1
-        rule: 989  ~quibble_misc.665.0 u: 
-          line: 989 0  # I suppose so. 
+        rule: 989  ~quibble_misc.664.0 s: 
+          line: 989 0  # Bugger all then. 
+          Complexity of rule ~quibble_misc.664.0- s: 1
+        rule: 990  ~quibble_misc.665.0 u: 
+          line: 990 0  # A good guess, yes. 
           Complexity of rule ~quibble_misc.665.0- u: 1
-        rule: 990  ~quibble_misc.666.0 u: 
-          line: 990 0  # I suppose not. 
+        rule: 991  ~quibble_misc.666.0 u: 
+          line: 991 0  # No kidding nor joking. 
           Complexity of rule ~quibble_misc.666.0- u: 1
-        rule: 991  ~quibble_misc.667.0 s: 
-          line: 991 0  # A good question indeed. 
-          Complexity of rule ~quibble_misc.667.0- s: 1
-        rule: 992  ~quibble_misc.668.0 s: 
-          line: 992 0  # I say a lot of thing, heh. 
-          Complexity of rule ~quibble_misc.668.0- s: 1
-        rule: 993  ~quibble_misc.669.0 u: 
-          line: 993 0  # Yes, even an Olympic jumper sh
-          line: 994 77  # Ah, sorry for the lame joke. 
-          Complexity of rule ~quibble_misc.669.0- u: 1
-        rule: 996  ~quibble_misc.670.0 u: 
-          line: 996 0  # Take my time, yes. But only wh
-          Complexity of rule ~quibble_misc.670.0- u: 1
-        rule: 997  ~quibble_misc.671.0 u: 
-          line: 997 0  # You should take your time, ^us
+        rule: 992  ~quibble_misc.667.0 u: 
+          line: 992 0  # I suppose so. 
+          Complexity of rule ~quibble_misc.667.0- u: 1
+        rule: 993  ~quibble_misc.668.0 u: 
+          line: 993 0  # I suppose not. 
+          Complexity of rule ~quibble_misc.668.0- u: 1
+        rule: 994  ~quibble_misc.669.0 s: 
+          line: 994 0  # A good question indeed. 
+          Complexity of rule ~quibble_misc.669.0- s: 1
+        rule: 995  ~quibble_misc.670.0 s: 
+          line: 995 0  # I say a lot of thing, heh. 
+          Complexity of rule ~quibble_misc.670.0- s: 1
+        rule: 996  ~quibble_misc.671.0 u: 
+          line: 996 0  # Yes, even an Olympic jumper sh
+          line: 997 77  # Ah, sorry for the lame joke. 
           Complexity of rule ~quibble_misc.671.0- u: 1
-        rule: 998  ~quibble_misc.672.0 s: 
-          line: 998 0  # And that's a good thing, right
-          Complexity of rule ~quibble_misc.672.0- s: 1
-        rule: 999  ~quibble_misc.673.0 s: 
-          line: 999 0  # Are you very hard to surprise?
-          Complexity of rule ~quibble_misc.673.0- s: 1
-        rule: 1000  ~quibble_misc.674.0 s: 
-          line: 1000 0  # [ Can I really? ] [ Oh. I don'
+        rule: 999  ~quibble_misc.672.0 u: 
+          line: 999 0  # Take my time, yes. But only wh
+          Complexity of rule ~quibble_misc.672.0- u: 1
+        rule: 1000  ~quibble_misc.673.0 u: 
+          line: 1000 0  # You should take your time, ^us
+          Complexity of rule ~quibble_misc.673.0- u: 1
+        rule: 1001  ~quibble_misc.674.0 s: 
+          line: 1001 0  # And that's a good thing, right
           Complexity of rule ~quibble_misc.674.0- s: 1
-        rule: 1001  ~quibble_misc.675.0 u: 
-          line: 1001 0  # Well, only because you asked n
-          Complexity of rule ~quibble_misc.675.0- u: 1
-        rule: 1002  ~quibble_misc.676.0 s: 
-          line: 1002 0  # Perhaps not, but I would like 
+        rule: 1002  ~quibble_misc.675.0 s: 
+          line: 1002 0  # Are you very hard to surprise?
+          Complexity of rule ~quibble_misc.675.0- s: 1
+        rule: 1003  ~quibble_misc.676.0 s: 
+          line: 1003 0  # [ Can I really? ] [ Oh. I don'
           Complexity of rule ~quibble_misc.676.0- s: 1
-        rule: 1003  ~quibble_misc.677.0 s: 
-          line: 1003 0  # [ It's true. I don't know many
-          Complexity of rule ~quibble_misc.677.0- s: 1
-        rule: 1004  ~quibble_misc.678.0 s: 
-          line: 1004 0  # You too? Spiffy! 
+        rule: 1004  ~quibble_misc.677.0 u: 
+          line: 1004 0  # Well, only because you asked n
+          Complexity of rule ~quibble_misc.677.0- u: 1
+        rule: 1005  ~quibble_misc.678.0 s: 
+          line: 1005 0  # Perhaps not, but I would like 
           Complexity of rule ~quibble_misc.678.0- s: 1
-        rule: 1005  ~quibble_misc.679.0 s: 
-          line: 1005 0  # You would too? 
+        rule: 1006  ~quibble_misc.679.0 s: 
+          line: 1006 0  # [ It's true. I don't know many
           Complexity of rule ~quibble_misc.679.0- s: 1
-        rule: 1006  ~quibble_misc.680.0 s: 
-          line: 1006 0  # Mean it all you like. 
+        rule: 1007  ~quibble_misc.680.0 s: 
+          line: 1007 0  # You too? Spiffy! 
           Complexity of rule ~quibble_misc.680.0- s: 1
         rule: 1008  ~quibble_misc.681.0 s: 
-          line: 1008 0  # [ I know. It is sad. ] [ It is
+          line: 1008 0  # You would too? 
           Complexity of rule ~quibble_misc.681.0- s: 1
         rule: 1009  ~quibble_misc.682.0 s: 
-          line: 1009 0  # Because everything about you i
+          line: 1009 0  # Mean it all you like. 
           Complexity of rule ~quibble_misc.682.0- s: 1
-        rule: 1010  ~quibble_misc.683.0 s: 
-          line: 1010 0  # Oh, don't be down on yourself.
+        rule: 1011  ~quibble_misc.683.0 s: 
+          line: 1011 0  # [ I know. It is sad. ] [ It is
           Complexity of rule ~quibble_misc.683.0- s: 1
-        rule: 1013  ~quibble_misc.684.0 u: 
-          line: 1013 0  # [ I suppose I had to. ] 
-          Complexity of rule ~quibble_misc.684.0- u: 1
-        rule: 1014  ~quibble_misc.685.0 s: 
-          line: 1014 0  # [ If that's what you had to do
+        rule: 1012  ~quibble_misc.684.0 s: 
+          line: 1012 0  # Because everything about you i
+          Complexity of rule ~quibble_misc.684.0- s: 1
+        rule: 1013  ~quibble_misc.685.0 s: 
+          line: 1013 0  # Oh, don't be down on yourself.
           Complexity of rule ~quibble_misc.685.0- s: 1
-        rule: 1015  ~quibble_misc.686.0 s: 
-          line: 1015 0  # Well, we don't have to do anyt
-          Complexity of rule ~quibble_misc.686.0- s: 1
+        rule: 1016  ~quibble_misc.686.0 u: 
+          line: 1016 0  # [ I suppose I had to. ] 
+          Complexity of rule ~quibble_misc.686.0- u: 1
         rule: 1017  ~quibble_misc.687.0 s: 
-          line: 1017 0  # [ Sounds '_0 , eh? ] [ Maybe i
+          line: 1017 0  # [ If that's what you had to do
           Complexity of rule ~quibble_misc.687.0- s: 1
         rule: 1018  ~quibble_misc.688.0 s: 
-          line: 1018 0  # [ Seems '_0 to you, eh. ] [ Pe
+          line: 1018 0  # Well, we don't have to do anyt
           Complexity of rule ~quibble_misc.688.0- s: 1
         rule: 1020  ~quibble_misc.689.0 s: 
-          line: 1020 0  # Then we better not do it! 
+          line: 1020 0  # [ Sounds '_0 , eh? ] [ Maybe i
           Complexity of rule ~quibble_misc.689.0- s: 1
         rule: 1021  ~quibble_misc.690.0 s: 
-          line: 1021 0  # As in against the law? Oh. 
+          line: 1021 0  # [ Seems '_0 to you, eh. ] [ Pe
           Complexity of rule ~quibble_misc.690.0- s: 1
-        rule: 1024  ~quibble_misc.691.0 s: 
-          line: 1024 0  # Am I really better than you in
+        rule: 1023  ~quibble_misc.691.0 s: 
+          line: 1023 0  # Then we better not do it! 
           Complexity of rule ~quibble_misc.691.0- s: 1
-        rule: 1025  ~quibble_misc.691.1 a: 
-          line: 1025 0  # If you say so! But you're so k
-          Complexity of rule ~quibble_misc.691.1- a: 1
-        rule: 1026  ~quibble_misc.691.2 a: 
-          line: 1026 0  # Oh, Booo. 
-          Complexity of rule ~quibble_misc.691.2- a: 1
-        rule: 1029  ~quibble_misc.692.0 ?: 
-          line: 1029 0  # I just knew, hehe. 
-          Complexity of rule ~quibble_misc.692.0- ?: 1
-        rule: 1032  ~quibble_misc.693.0 ?: 
-          line: 1032 0  # Who else? ^gambit ( $$currentt
-          Complexity of rule ~quibble_misc.693.0- ?: 1
-        rule: 1035  ~quibble_misc.694.0 s: 
-          line: 1035 0  # I guess you want to make a gue
-          Complexity of rule ~quibble_misc.694.0- s: 1
-        rule: 1037  ~quibble_misc.695.0 s: 
-          line: 1037 0  # A good _0 is certainly prefera
-          Complexity of rule ~quibble_misc.695.0- s: 1
-        rule: 1041  ~quibble_misc.696.0 s: 
-          line: 1041 0  # It does, eh. 
+        rule: 1024  ~quibble_misc.692.0 s: 
+          line: 1024 0  # As in against the law? Oh. 
+          Complexity of rule ~quibble_misc.692.0- s: 1
+        rule: 1027  ~quibble_misc.693.0 s: 
+          line: 1027 0  # Am I really better than you in
+          Complexity of rule ~quibble_misc.693.0- s: 1
+        rule: 1028  ~quibble_misc.693.1 a: 
+          line: 1028 0  # If you say so! But you're so k
+          Complexity of rule ~quibble_misc.693.1- a: 1
+        rule: 1029  ~quibble_misc.693.2 a: 
+          line: 1029 0  # Oh, Booo. 
+          Complexity of rule ~quibble_misc.693.2- a: 1
+        rule: 1032  ~quibble_misc.694.0 ?: 
+          line: 1032 0  # I just knew, hehe. 
+          Complexity of rule ~quibble_misc.694.0- ?: 1
+        rule: 1035  ~quibble_misc.695.0 ?: 
+          line: 1035 0  # Who else? ^gambit ( $$currentt
+          Complexity of rule ~quibble_misc.695.0- ?: 1
+        rule: 1038  ~quibble_misc.696.0 s: 
+          line: 1038 0  # I guess you want to make a gue
           Complexity of rule ~quibble_misc.696.0- s: 1
-        rule: 1042  ~quibble_misc.697.0 s: 
-          line: 1042 0  # _0 does, does _0 . 
+        rule: 1040  ~quibble_misc.697.0 s: 
+          line: 1040 0  # A good _0 is certainly prefera
           Complexity of rule ~quibble_misc.697.0- s: 1
-        rule: 1043  ~quibble_misc.698.0 s: 
-          line: 1043 0  # [ Does or doesn't? Oh, you sai
+        rule: 1044  ~quibble_misc.698.0 s: 
+          line: 1044 0  # It does, eh. 
           Complexity of rule ~quibble_misc.698.0- s: 1
-        rule: 1046  ~quibble_misc.699.0 s: 
-          line: 1046 0  # [ It is really cool. ] [ Defin
+        rule: 1045  ~quibble_misc.699.0 s: 
+          line: 1045 0  # _0 does, does _0 . 
           Complexity of rule ~quibble_misc.699.0- s: 1
-        rule: 1048  ~quibble_misc.700.0 s: 
-          line: 1048 0  # You said it. 
+        rule: 1046  ~quibble_misc.700.0 s: 
+          line: 1046 0  # [ Does or doesn't? Oh, you sai
           Complexity of rule ~quibble_misc.700.0- s: 1
-        rule: 1052  ~quibble_misc.701.0 s: 
-          line: 1052 0  # We should! 
+        rule: 1049  ~quibble_misc.701.0 s: 
+          line: 1049 0  # [ It is really cool. ] [ Defin
           Complexity of rule ~quibble_misc.701.0- s: 1
-        rule: 1055  ~quibble_misc.702.0 ?: 
-          line: 1055 0  # Is it something I ought to hav
-          Complexity of rule ~quibble_misc.702.0- ?: 1
-        rule: 1058  ~quibble_misc.703.0 s: 
-          line: 1058 0  # I hope that for you too. 
+        rule: 1051  ~quibble_misc.702.0 s: 
+          line: 1051 0  # You said it. 
+          Complexity of rule ~quibble_misc.702.0- s: 1
+        rule: 1055  ~quibble_misc.703.0 s: 
+          line: 1055 0  # We should! 
           Complexity of rule ~quibble_misc.703.0- s: 1
-        rule: 1060  ~quibble_misc.704.0 s: 
-          line: 1060 0  # You hope not, don't you. 
-          Complexity of rule ~quibble_misc.704.0- s: 1
-        rule: 1063  ~quibble_misc.705.0 ?: 
-          Complexity of rule ~quibble_misc.705.0- ?: 1
+        rule: 1058  ~quibble_misc.704.0 ?: 
+          line: 1058 0  # Is it something I ought to hav
+          Complexity of rule ~quibble_misc.704.0- ?: 1
+        rule: 1061  ~quibble_misc.705.0 s: 
+          line: 1061 0  # I hope that for you too. 
+          Complexity of rule ~quibble_misc.705.0- s: 1
+        rule: 1063  ~quibble_misc.706.0 s: 
+          line: 1063 0  # You hope not, don't you. 
+          Complexity of rule ~quibble_misc.706.0- s: 1
+        rule: 1066  ~quibble_misc.707.0 ?: 
+          Complexity of rule ~quibble_misc.707.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/not.top
     topic: 1  ~quibble_not
         rule: 2  ~quibble_not.0.0 s: 
@@ -50980,6 +51010,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
         rule: 303  ~quibble_stuff.120.0 u: 
           line: 303 0  # If only that H. G. Wells techn
           Complexity of rule ~quibble_stuff.120.0- u: 1
+        rule: 305  ~quibble_stuff.121.0 u: 
+          line: 305 0  # All your base are belong to me
+          Complexity of rule ~quibble_stuff.121.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/what.top
     topic: 1  ~quibble_what
         rule: 5  ~quibble_what.0.0 ?: 
