@@ -26677,86 +26677,86 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/24_Cent
         rule: 80  ~location24.14.0 u: 
           line: 80 0  # I couldn't tell you about the 
           Complexity of rule ~location24.14.0- u: 1
-        rule: 83  ~location24.15.0 ?: 
-          line: 95 0  # ^reuse ( ~her_sister.WHO_FIANC
-          Complexity of rule ~location24.15.0- ?: 1
-        rule: 101  ~location24.16.0 t: 
-          line: 101 0  # ^fail ( TOPIC ) 
+        rule: 83  ~location24.15.0 u: 
+          line: 96 0  # ^reuse ( ~her_sister.WHO_FIANC
+          Complexity of rule ~location24.15.0- u: 1
+        rule: 102  ~location24.16.0 t: 
+          line: 102 0  # ^fail ( TOPIC ) 
           Complexity of rule ~location24.16.0- t: 1
-        rule: 105  ~location24.17.0 t: 
-          line: 105 0  # Here we are in Ireland. Is tha
-          line: 106 66  # There's no leprechaun at the e
+        rule: 106  ~location24.17.0 t: 
+          line: 106 0  # Here we are in Ireland. Is tha
+          line: 107 66  # There's no leprechaun at the e
           Complexity of rule ~location24.17.0- t: 1
-        rule: 107  ~location24.17.1 a: 
-          line: 107 0  # Well, you at least believe me 
+        rule: 108  ~location24.17.1 a: 
+          line: 108 0  # Well, you at least believe me 
           Complexity of rule ~location24.17.1- a: 1
-        rule: 109  ~location24.18.0 t: 
-          line: 109 0  # My sister Faith spent the autu
-          line: 110 76  # It was the year before she bro
-          line: 111 161  # $he_pronoun = Burton 
-          line: 112 182  # $she_pronoun = Faith 
+        rule: 110  ~location24.18.0 t: 
+          line: 110 0  # My sister Faith spent the autu
+          line: 111 76  # It was the year before she bro
+          line: 112 161  # $he_pronoun = Burton 
+          line: 113 182  # $she_pronoun = Faith 
           Complexity of rule ~location24.18.0- t: 1
-        rule: 113  ~location24.18.1 a: 
-          line: 113 0  # Faith was making decisions for
-          line: 114 79  # I...I mean she.... 
+        rule: 114  ~location24.18.1 a: 
+          line: 114 0  # Faith was making decisions for
+          line: 115 79  # I...I mean she.... 
           Complexity of rule ~location24.18.1- a: 1
-        rule: 115  ~location24.18.2 a: 
-          line: 115 0  # ^reuse ( ~her_sister.WHO_FIANC
+        rule: 116  ~location24.18.2 a: 
+          line: 116 0  # ^reuse ( ~her_sister.WHO_FIANC
           Complexity of rule ~location24.18.2- a: 1
-        rule: 117  ~location24.19.0 t: 
-          line: 117 0  # Faith had gone away to London 
-          line: 118 91  # We were all terrified, you see
+        rule: 118  ~location24.19.0 t: 
+          line: 118 0  # Faith had gone away to London 
+          line: 119 91  # We were all terrified, you see
           Complexity of rule ~location24.19.0- t: 1
-        rule: 119  ~location24.19.1 a: 
-          line: 119 0  # It was the latter half of 1888
+        rule: 120  ~location24.19.1 a: 
+          line: 120 0  # It was the latter half of 1888
           Complexity of rule ~location24.19.1- a: 1
-        rule: 121  ~location24.20.0 t: 
-          line: 121 0  # My sister Faith eventually did
-          line: 122 72  # However, I did not live long e
-          line: 123 129  # $he_pronoun = Burton 
-          line: 124 150  # $they_pronoun = ^join ( AUTOSP
+        rule: 122  ~location24.20.0 t: 
+          line: 122 0  # My sister Faith eventually did
+          line: 123 72  # However, I did not live long e
+          line: 124 129  # $he_pronoun = Burton 
+          line: 125 150  # $they_pronoun = ^join ( AUTOSP
           Complexity of rule ~location24.20.0- t: 1
-        rule: 125  ~location24.20.1 a: 
-          line: 125 0  # We will get to that later, I t
+        rule: 126  ~location24.20.1 a: 
+          line: 126 0  # We will get to that later, I t
           Complexity of rule ~location24.20.1- a: 1
-        rule: 126  ~location24.20.2 a: 
-          line: 126 0  # ^reuse ( ~her_sister.WHO_FIANC
+        rule: 127  ~location24.20.2 a: 
+          line: 127 0  # ^reuse ( ~her_sister.WHO_FIANC
           Complexity of rule ~location24.20.2- a: 1
-        rule: 129  ~location24.21.0 t: 
-          line: 129 0  # I don't think there's much mor
-          line: 130 78  # $cooldown = 0 
-          line: 131 92  # @1 = ^query ( direct_svo 24 kn
-          line: 132 130  # ^delete ( @1 ) 
-          line: 133 145  # ^createfact ( 24 known 2 ) 
-          line: 134 172  # $$update_loc = 24 
+        rule: 130  ~location24.21.0 t: 
+          line: 130 0  # I don't think there's much mor
+          line: 131 78  # $cooldown = 0 
+          line: 132 92  # @1 = ^query ( direct_svo 24 kn
+          line: 133 130  # ^delete ( @1 ) 
+          line: 134 145  # ^createfact ( 24 known 2 ) 
+          line: 135 172  # $$update_loc = 24 
           Complexity of rule ~location24.21.0- t: 1
-        rule: 137  ~location24.22.0 t: 
-          line: 137 0  # Mel says that she CAN'T be lik
-          line: 138 105  # then she wouldn't be Mel. I su
+        rule: 138  ~location24.22.0 t: 
+          line: 138 0  # Mel says that she CAN'T be lik
+          line: 139 105  # then she wouldn't be Mel. I su
           Complexity of rule ~location24.22.0- t: 1
-        rule: 139  ~location24.22.1 a: 
-          line: 139 0  # In some ways Mel is your typic
+        rule: 140  ~location24.22.1 a: 
+          line: 140 0  # In some ways Mel is your typic
           Complexity of rule ~location24.22.1- a: 1
-        rule: 141  ~location24.23.0 t: 
-          line: 141 0  # Faith's fiance...I got to know
-          line: 142 36  # $he_pronoun = Burton 
+        rule: 142  ~location24.23.0 t: 
+          line: 142 0  # Faith's fiance...I got to know
+          line: 143 36  # $he_pronoun = Burton 
           Complexity of rule ~location24.23.0- t: 1
-        rule: 143  ~location24.23.1 a: 
-          line: 143 0  # I met him when she brought him
+        rule: 144  ~location24.23.1 a: 
+          line: 144 0  # I met him when she brought him
           Complexity of rule ~location24.23.1- a: 1
-        rule: 144  ~location24.23.2 a: 
-          line: 144 0  # ^reuse ( ~her_sister.WHO_FIANC
+        rule: 145  ~location24.23.2 a: 
+          line: 145 0  # ^reuse ( ~her_sister.WHO_FIANC
           Complexity of rule ~location24.23.2- a: 1
-        rule: 146  ~location24.24.0 t: 
-          line: 146 0  # My sister's fiance had a name.
+        rule: 147  ~location24.24.0 t: 
+          line: 147 0  # My sister's fiance had a name.
           Complexity of rule ~location24.24.0- t: 1
-        rule: 147  ~location24.24.1 a: 
-          line: 147 0  # ^reuse ( ~her_sister.WHO_FIANC
-          line: 148 34  # $he_pronoun = Burton 
+        rule: 148  ~location24.24.1 a: 
+          line: 148 0  # ^reuse ( ~her_sister.WHO_FIANC
+          line: 149 34  # $he_pronoun = Burton 
           Complexity of rule ~location24.24.1- a: 1
-        rule: 152  ~location24.25.0 t: 
-          line: 152 0  # I met him several times. My si
-          line: 153 48  # $he_pronoun = 
+        rule: 153  ~location24.25.0 t: 
+          line: 153 0  # I met him several times. My si
+          line: 154 48  # $he_pronoun = 
           Complexity of rule ~location24.25.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/25_Skies_above.top
     topic: 4  ~location25
@@ -32161,10 +32161,10 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/_reques
           line: 69 0  # ^dogo ( ) $await_loc = 32 
           Complexity of rule ~request_location.19.0- u: 1
         rule: 70  ~request_location.20.0 u: 
-          line: 70 0  # ^dogo ( ) $await_loc = 08 
+          line: 70 0  # ^dogo ( ) $await_loc = 35 
           Complexity of rule ~request_location.20.0- u: 1
         rule: 71  ~request_location.21.0 u: 
-          line: 71 0  # ^dogo ( ) $await_loc = 35 
+          line: 71 0  # ^dogo ( ) $await_loc = 08 
           Complexity of rule ~request_location.21.0- u: 1
         rule: 72  ~request_location.22.0 u: 
           line: 72 0  # ^dogo ( ) $await_loc = 12 
