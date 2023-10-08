@@ -1615,30 +1615,30 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_topic_control.to
           line: 81 84  # ^cleartopics ( ) 
           Complexity of rule ~topic_control.2.0- u: 1
         rule: 86  ~topic_control.3.0 u: 
-          line: 126 0  # ^refine ( ) 
+          line: 127 0  # ^refine ( ) 
           Complexity of rule ~topic_control.3.0- u: 1
-        rule: 127  ~topic_control.3.1 a: 
-          line: 127 0  # We will be going many places v
+        rule: 128  ~topic_control.3.1 a: 
+          line: 128 0  # We will be going many places v
           Complexity of rule ~topic_control.3.1- a: 1
-        rule: 128  ~topic_control.3.2 a: 
-          line: 129 0  # [ We will soon... ] 
-          line: 130 20  # [ But before we go elsewhere..
-          line: 131 55  # [ We will be going somewhere n
-          line: 132 96  # ^gambit ( ~location02 ) 
+        rule: 129  ~topic_control.3.2 a: 
+          line: 130 0  # [ We will soon... ] 
+          line: 131 20  # [ But before we go elsewhere..
+          line: 132 55  # [ We will be going somewhere n
+          line: 133 96  # ^gambit ( ~location02 ) 
           Complexity of rule ~topic_control.3.2- a: 1
-        rule: 133  ~topic_control.3.3 a: 
-          line: 133 0  # $cooldown = 0 
-          line: 134 14  # ^nofail ( TOPIC ^gambit ( ~gam
-          if 135 67  
-          line: 135 63  # ^if 00m( %response == 0 ) aaa{
-          line: 136 94  # [ Tell me where you would like
-          line: 137 227  # [ Just tell me where. You can 
-          line: 138 328  # [ We can leave any time. Tell 
-          line: 139 459  # [ If you like, you can decide 
-          line: 140 588  # [ Let me think. Hmm, for now y
-          line: 141 718  # [ Well, if you would like to s
-          line: 142 857  # } aaa 
-          ifend 149 862  
+        rule: 134  ~topic_control.3.3 a: 
+          line: 134 0  # $cooldown = 0 
+          line: 135 14  # ^nofail ( TOPIC ^gambit ( ~gam
+          if 136 67  
+          line: 136 63  # ^if 00m( %response == 0 ) aaa{
+          line: 137 94  # [ Tell me where you would like
+          line: 138 227  # [ Just tell me where. You can 
+          line: 139 328  # [ We can leave any time. Tell 
+          line: 140 459  # [ If you like, you can decide 
+          line: 141 588  # [ Let me think. Hmm, for now y
+          line: 142 718  # [ Well, if you would like to s
+          line: 143 857  # } aaa 
+          ifend 150 862  
           Complexity of rule ~topic_control.3.3- a: 2
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_tables.top
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/opening.top
@@ -13307,51 +13307,51 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/qualities/fashion
           line: 206 0  # ^usercap ( ) , is there a colo
           line: 207 80  # $$halt = 1 
           Complexity of rule ~her_fashion.28.0-ASK_PC_WEAR_COLOR t: 1
-        rule: 208  ~her_fashion.28.1 a: 
-          line: 208 0  # So you like to play the full r
-          Complexity of rule ~her_fashion.28.1- a: 1
-        rule: 210  ~her_fashion.28.2-CHOOSE_WEAR_COLOR a: 
-          line: 211 0  # $pc_wear_color = _0 
-          line: 212 20  # ^refine ( ) 
-          Complexity of rule ~her_fashion.28.2-CHOOSE_WEAR_COLOR a: 1
-        rule: 213  ~her_fashion.28.3 b: 
-          line: 213 0  # Just like me? Ah! So we both l
-          line: 214 49  # We would match well. 
-          line: 215 70  # $pc_wear_color = null 
+        rule: 209  ~her_fashion.28.1-CHOOSE_WEAR_COLOR a: 
+          line: 210 0  # $pc_wear_color = _0 
+          line: 211 20  # ^refine ( ) 
+          Complexity of rule ~her_fashion.28.1-CHOOSE_WEAR_COLOR a: 1
+        rule: 212  ~her_fashion.28.2 b: 
+          line: 212 0  # Just like me? Ah! So we both l
+          line: 213 49  # We would match well. 
+          line: 214 70  # $pc_wear_color = null 
+          Complexity of rule ~her_fashion.28.2- b: 1
+        rule: 215  ~her_fashion.28.3 b: 
+          line: 215 0  # White? Just like the angel you
           Complexity of rule ~her_fashion.28.3- b: 1
         rule: 216  ~her_fashion.28.4 b: 
-          line: 216 0  # White? Just like the angel you
+          line: 216 0  # Red is a strong color! It's a 
           Complexity of rule ~her_fashion.28.4- b: 1
         rule: 217  ~her_fashion.28.5 b: 
-          line: 217 0  # Red is a strong color! It's a 
+          line: 217 0  # Very nice, ^user ( ) . Blue is
           Complexity of rule ~her_fashion.28.5- b: 1
         rule: 218  ~her_fashion.28.6 b: 
-          line: 218 0  # Very nice, ^user ( ) . Blue is
+          line: 218 0  # Green is a natural color. Eheh
           Complexity of rule ~her_fashion.28.6- b: 1
         rule: 219  ~her_fashion.28.7 b: 
-          line: 219 0  # Green is a natural color. Eheh
+          line: 219 0  # Pink is my favorite color afte
           Complexity of rule ~her_fashion.28.7- b: 1
         rule: 220  ~her_fashion.28.8 b: 
-          line: 220 0  # Pink is my favorite color afte
+          line: 220 0  # Yellow is a peculiar choice! Y
           Complexity of rule ~her_fashion.28.8- b: 1
         rule: 221  ~her_fashion.28.9 b: 
-          line: 221 0  # Yellow is a peculiar choice! Y
+          line: 221 0  # Orange is an unsual color to w
           Complexity of rule ~her_fashion.28.9- b: 1
         rule: 222  ~her_fashion.28.10 b: 
-          line: 222 0  # Orange is an unsual color to w
+          line: 222 0  # One thing we can say about gra
+          line: 223 71  # Ah, that was a lame joke. I do
           Complexity of rule ~her_fashion.28.10- b: 1
-        rule: 223  ~her_fashion.28.11 b: 
-          line: 223 0  # One thing we can say about gra
-          line: 224 71  # Ah, that was a lame joke. I do
+        rule: 225  ~her_fashion.28.11 b: 
+          line: 225 0  # $pc_wear_color ? This isn't a 
+          line: 226 71  # say about that, but it's inter
           Complexity of rule ~her_fashion.28.11- b: 1
-        rule: 226  ~her_fashion.28.12 b: 
-          line: 226 0  # $pc_wear_color ? This isn't a 
-          line: 227 71  # say about that, but it's inter
-          Complexity of rule ~her_fashion.28.12- b: 1
-        rule: 230  ~her_fashion.28.13 a: 
-          line: 230 0  # Yes? There is? 
+        rule: 228  ~her_fashion.28.12 a: 
+          line: 228 0  # So you like to play the full r
+          Complexity of rule ~her_fashion.28.12- a: 1
+        rule: 229  ~her_fashion.28.13 a: 
+          line: 229 0  # Yes? There is? 
           Complexity of rule ~her_fashion.28.13- a: 1
-        rule: 233  ~her_fashion.29.0 t: 
+        rule: 232  ~her_fashion.29.0 t: 
           Complexity of rule ~her_fashion.29.0- t: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/qualities/foreign_languages.top
     topic: 2  ~foreign_languages
@@ -43112,7 +43112,7 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/how.top
           line: 90 0  # How often what? I don't unders
           Complexity of rule ~quibble_how.47.0- ?: 1
         rule: 91  ~quibble_how.48.0 ?: 
-          line: 91 0  # [ Can't you figure it out? It'
+          line: 91 0  # [ Can't you figure it out? ] 
           Complexity of rule ~quibble_how.48.0- ?: 1
         rule: 92  ~quibble_how.49.0 ?: 
           line: 92 0  # I wouldn't be here if I didn't
@@ -48780,104 +48780,105 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
           line: 274 37  # [ I'm not wild about that myse
           Complexity of rule ~intent_response.26.0- u: 1
         rule: 278  ~intent_response.27.0 u: 
-          line: 278 0  # [ I don't think so. Sorry. ] [
-          line: 279 50  # [ Maybe some other time. ] [ M
-          line: 280 154  # [ But I can't do that now. ] 
+          line: 278 0  # ^refine ( ) 
+          line: 279 12  # [ I don't think so. Sorry. ] [
+          line: 280 62  # [ Maybe some other time. ] [ M
+          line: 281 166  # [ But I can't do that now. ] 
           Complexity of rule ~intent_response.27.0- u: 1
-        rule: 282  ~intent_response.28.0 u: 
-          line: 282 0  # [ How would I even know? ] [ D
-          line: 283 74  # [ I'm sorry. I don't know why.
+        rule: 283  ~intent_response.28.0 u: 
+          line: 283 0  # [ How would I even know? ] [ D
+          line: 284 74  # [ I'm sorry. I don't know why.
           Complexity of rule ~intent_response.28.0- u: 1
-        rule: 285  ~intent_response.29.0 ?: 
-          line: 285 0  # [ I'm sorry. I don't know when
-          line: 286 65  # [ When what now? I don't under
+        rule: 286  ~intent_response.29.0 ?: 
+          line: 286 0  # [ I'm sorry. I don't know when
+          line: 287 65  # [ When what now? I don't under
           Complexity of rule ~intent_response.29.0- ?: 1
-        rule: 288  ~intent_response.30.0 ?: 
-          line: 288 0  # [ Maybe somewhere? Ehehe. ] [ 
-          line: 289 54  # [ I'm sorry. I don't know were
+        rule: 289  ~intent_response.30.0 ?: 
+          line: 289 0  # [ Maybe somewhere? Ehehe. ] [ 
+          line: 290 54  # [ I'm sorry. I don't know were
           Complexity of rule ~intent_response.30.0- ?: 1
-        rule: 291  ~intent_response.31.0 u: 
-          line: 291 0  # [ Who what? Um. ] [ Who? What?
-          line: 292 51  # [ I'm sorry. I don't know who.
+        rule: 292  ~intent_response.31.0 u: 
+          line: 292 0  # [ Who what? Um. ] [ Who? What?
+          line: 293 51  # [ I'm sorry. I don't know who.
           Complexity of rule ~intent_response.31.0- u: 1
-        rule: 294  ~intent_response.32.0 u: 
-          line: 294 0  # [ Uh, why would I know anythin
-          line: 295 46  # [ I'm sorry. I don't have an o
-          line: 296 131  # [ I'm not sure I have an opini
+        rule: 295  ~intent_response.32.0 u: 
+          line: 295 0  # [ Uh, why would I know anythin
+          line: 296 46  # [ I'm sorry. I don't have an o
+          line: 297 131  # [ I'm not sure I have an opini
           Complexity of rule ~intent_response.32.0- u: 1
-        rule: 298  ~intent_response.33.0 ?: 
-          line: 298 0  # [ Maybe I don't know. ] [ Mayb
-          line: 299 52  # [ You think I should know? ] [
-          line: 300 125  # [ I'm sorry. I don't really kn
-          line: 301 187  # [ You should ask me another ti
+        rule: 299  ~intent_response.33.0 ?: 
+          line: 299 0  # [ Maybe I don't know. ] [ Mayb
+          line: 300 52  # [ You think I should know? ] [
+          line: 301 125  # [ I'm sorry. I don't really kn
+          line: 302 187  # [ You should ask me another ti
           Complexity of rule ~intent_response.33.0- ?: 1
-        rule: 303  ~intent_response.34.0 ?: 
-          line: 303 0  # [ I'm sorry but I don't know. 
-          line: 304 32  # [ I guess I don't really keep 
-          line: 305 113  # [ I'm not sure. Sorry. ] 
+        rule: 304  ~intent_response.34.0 ?: 
+          line: 304 0  # [ I'm sorry but I don't know. 
+          line: 305 32  # [ I guess I don't really keep 
+          line: 306 113  # [ I'm not sure. Sorry. ] 
           Complexity of rule ~intent_response.34.0- ?: 1
-        rule: 307  ~intent_response.35.0 u: 
-          line: 307 0  # [ So we are alike there. ] 
-          line: 308 27  # [ We're similar, huh? ] 
+        rule: 308  ~intent_response.35.0 u: 
+          line: 308 0  # [ So we are alike there. ] 
+          line: 309 27  # [ We're similar, huh? ] 
           Complexity of rule ~intent_response.35.0- u: 1
-        rule: 312  ~intent_response.36.0 ?: 
-          line: 313 0  # [ I don't know. ] 
-          line: 314 18  # [ I'll have to think about tha
-          line: 315 53  # [ I don't know anything about 
-          line: 316 91  # [ I don't remember. ] [ I forg
-          line: 317 127  # [ Maybe I don't quite know. ] 
-          line: 318 157  # [ I'm sorry. I don't know. ] 
-          line: 319 186  # [ That's hard to say. ] 
-          line: 320 210  # [ I can't quite say. ] 
+        rule: 313  ~intent_response.36.0 ?: 
+          line: 314 0  # [ I don't know. ] 
+          line: 315 18  # [ I'll have to think about tha
+          line: 316 53  # [ I don't know anything about 
+          line: 317 91  # [ I don't remember. ] [ I forg
+          line: 318 127  # [ Maybe I don't quite know. ] 
+          line: 319 157  # [ I'm sorry. I don't know. ] 
+          line: 320 186  # [ That's hard to say. ] 
+          line: 321 210  # [ I can't quite say. ] 
           Complexity of rule ~intent_response.36.0- ?: 1
-        rule: 322  ~intent_response.37.0 s: 
-          line: 322 0  # ^reuse ( GRUNT ) 
+        rule: 323  ~intent_response.37.0 s: 
+          line: 323 0  # ^reuse ( GRUNT ) 
           Complexity of rule ~intent_response.37.0- s: 1
-        rule: 326  ~intent_response.38.0 s: 
-          line: 327 0  # [ What is it you don't underst
-          line: 328 37  # [ I'm not sure I can be cleare
-          line: 329 79  # [ I'm sorry. I can't explain i
+        rule: 327  ~intent_response.38.0 s: 
+          line: 328 0  # [ What is it you don't underst
+          line: 329 37  # [ I'm not sure I can be cleare
+          line: 330 79  # [ I'm sorry. I can't explain i
           Complexity of rule ~intent_response.38.0- s: 1
-        rule: 331  ~intent_response.39.0 s: 
-          line: 331 0  # [ So I changed my mind. ] [ b:
+        rule: 332  ~intent_response.39.0 s: 
+          line: 332 0  # [ So I changed my mind. ] [ b:
           Complexity of rule ~intent_response.39.0- s: 1
-        rule: 332  ~intent_response.39.1 b: 
-          line: 332 0  # That's not fair. 
+        rule: 333  ~intent_response.39.1 b: 
+          line: 333 0  # That's not fair. 
           Complexity of rule ~intent_response.39.1- b: 1
-        rule: 333  ~intent_response.39.2 b: 
-          line: 333 0  # Thank you. You are very kind. 
+        rule: 334  ~intent_response.39.2 b: 
+          line: 334 0  # Thank you. You are very kind. 
           Complexity of rule ~intent_response.39.2- b: 1
-        rule: 335  ~intent_response.40.0 u: 
-          line: 335 0  # [ Why do you doubt this? ] 
+        rule: 336  ~intent_response.40.0 u: 
+          line: 336 0  # [ Why do you doubt this? ] 
           Complexity of rule ~intent_response.40.0- u: 1
-        rule: 337  ~intent_response.41.0 u: 
-          line: 337 0  # [ Oh, you're welcome. ] 
+        rule: 338  ~intent_response.41.0 u: 
+          line: 338 0  # [ Oh, you're welcome. ] 
           Complexity of rule ~intent_response.41.0- u: 1
-        rule: 339  ~intent_response.42.0 u: 
-          line: 339 0  # [ But you don't need to beg. ]
+        rule: 340  ~intent_response.42.0 u: 
+          line: 340 0  # [ But you don't need to beg. ]
           Complexity of rule ~intent_response.42.0- u: 1
-        rule: 341  ~intent_response.43.0 u: 
-          line: 341 0  # [ There's a lot we don't know,
+        rule: 342  ~intent_response.43.0 u: 
+          line: 342 0  # [ There's a lot we don't know,
           Complexity of rule ~intent_response.43.0- u: 1
-        rule: 343  ~intent_response.44.0 u: 
-          line: 343 0  # [ You don't need to apologise 
+        rule: 344  ~intent_response.44.0 u: 
+          line: 344 0  # [ You don't need to apologise 
           Complexity of rule ~intent_response.44.0- u: 1
-        rule: 345  ~intent_response.45.0 u: 
-          line: 345 0  # [ Truly. ] [ Yeah. ] [ Pretty 
+        rule: 346  ~intent_response.45.0 u: 
+          line: 346 0  # [ Truly. ] [ Yeah. ] [ Pretty 
           Complexity of rule ~intent_response.45.0- u: 1
-        rule: 347  ~intent_response.46.0 u: 
+        rule: 348  ~intent_response.46.0 u: 
           Complexity of rule ~intent_response.46.0- u: 1
-        rule: 349  ~intent_response.47.0 u: 
+        rule: 350  ~intent_response.47.0 u: 
           Complexity of rule ~intent_response.47.0- u: 1
-        rule: 351  ~intent_response.48.0-GRUNT u: 
-          line: 351 0  # [ All right. ] [ Indeed. ] [ F
+        rule: 352  ~intent_response.48.0-GRUNT u: 
+          line: 352 0  # [ All right. ] [ Indeed. ] [ F
           Complexity of rule ~intent_response.48.0-GRUNT u: 1
-        rule: 355  ~intent_response.49.0 s: 
-          line: 355 0  # [ You're getting excited, eh. 
-          line: 356 32  # [ I know! ] 
-          line: 357 44  # [ Exciting, isn't it? ] 
-          line: 358 68  # [ Right! ] 
-          line: 359 79  # [ Yeah! ] 
+        rule: 356  ~intent_response.49.0 s: 
+          line: 356 0  # [ You're getting excited, eh. 
+          line: 357 32  # [ I know! ] 
+          line: 358 44  # [ Exciting, isn't it? ] 
+          line: 359 68  # [ Right! ] 
+          line: 360 79  # [ Yeah! ] 
           Complexity of rule ~intent_response.49.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_last_ditch.top
     topic: 7  ~quibble_last_ditch
@@ -51414,8 +51415,11 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/quibble_
           line: 315 0  # Gaff as in a home, yes? 
           Complexity of rule ~quibble_stuff.126.0- u: 1
         rule: 317  ~quibble_stuff.127.0 u: 
-          line: 317 0  # Magic words. I wish I knew a 
+          line: 317 0  # Magic words. I wish I knew a f
           Complexity of rule ~quibble_stuff.127.0- u: 1
+        rule: 319  ~quibble_stuff.128.0 u: 
+          line: 319 0  # Vr as in Virtual reality? Is t
+          Complexity of rule ~quibble_stuff.128.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/quibbles/what.top
     topic: 1  ~quibble_what
         rule: 5  ~quibble_what.0.0 ?: 
