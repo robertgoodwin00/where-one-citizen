@@ -23095,6 +23095,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/player_character/
         rule: 795  ~player_character.187.2 a: 
           line: 795 0  # Am I your fan? Am I your #1 fa
           Complexity of rule ~player_character.187.2- a: 1
+        rule: 798  ~player_character.188.0 s: 
+          line: 798 0  # Ah, that...well, it's better f
+          Complexity of rule ~player_character.188.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/01_Sierra_Meadow.top
     topic: 6  ~location01
         rule: 16  ~location01.0.0-WHERE_VALLEY_OF_COLOR ?: 
@@ -23236,30 +23239,33 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/01_Sier
         rule: 143  ~location01.22.3 a: 
           line: 143 0  # Yes! ^gambit ( ~location01 ) 
           Complexity of rule ~location01.22.3- a: 1
-        rule: 145  ~location01.23.0 t: 
-          line: 145 0  # I'm in Switzerland this moment
-          line: 146 101  # @1 = ^query ( direct_svo 01 kn
-          line: 147 139  # ^delete ( @1 ) 
-          line: 148 154  # ^createfact ( 01 known 2 ) 
-          line: 149 181  # $$update_loc = 01 
+        rule: 144  ~location01.22.4 a: 
+          line: 144 0  # Okay. ^gambit ( ~location01 ) 
+          Complexity of rule ~location01.22.4- a: 1
+        rule: 146  ~location01.23.0 t: 
+          line: 146 0  # I'm in Switzerland this moment
+          line: 147 101  # @1 = ^query ( direct_svo 01 kn
+          line: 148 139  # ^delete ( @1 ) 
+          line: 149 154  # ^createfact ( 01 known 2 ) 
+          line: 150 181  # $$update_loc = 01 
           Complexity of rule ~location01.23.0- t: 1
-        rule: 150  ~location01.23.1 a: 
-          line: 150 0  # Because of the speed at which 
+        rule: 151  ~location01.23.1 a: 
+          line: 151 0  # Because of the speed at which 
           Complexity of rule ~location01.23.1- a: 1
-        rule: 151  ~location01.23.2 a: 
-          line: 151 0  # Hmm, you're less than easy to 
+        rule: 152  ~location01.23.2 a: 
+          line: 152 0  # Hmm, you're less than easy to 
           Complexity of rule ~location01.23.2- a: 1
-        rule: 152  ~location01.23.3 a: 
-          line: 152 0  # I knew you'd would appreciate 
+        rule: 153  ~location01.23.3 a: 
+          line: 153 0  # I knew you'd would appreciate 
           Complexity of rule ~location01.23.3- a: 1
-        rule: 153  ~location01.23.4 b: 
-          line: 153 0  # You will see, you will see! 
+        rule: 154  ~location01.23.4 b: 
+          line: 154 0  # You will see, you will see! 
           Complexity of rule ~location01.23.4- b: 1
-        rule: 156  ~location01.24.0 t: 
-          line: 156 0  # Although I very much love bein
+        rule: 157  ~location01.24.0 t: 
+          line: 157 0  # Although I very much love bein
           Complexity of rule ~location01.24.0- t: 1
-        rule: 157  ~location01.24.1 a: 
-          line: 157 0  # What I mean is that it may be 
+        rule: 158  ~location01.24.1 a: 
+          line: 158 0  # What I mean is that it may be 
           Complexity of rule ~location01.24.1- a: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/locations/02_Steadwell_Manse.top
     topic: 4  ~location02
@@ -34171,190 +34177,196 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
           line: 588 0  # You can fart if you want to. I
           Complexity of rule ~keywordless_commands.90.0- u: 1
         rule: 591  ~keywordless_commands.91.0 u: 
-          line: 591 0  # Staying still makes no differe
+          line: 591 0  # I don't have a physical bladde
           Complexity of rule ~keywordless_commands.91.0- u: 1
         rule: 594  ~keywordless_commands.92.0 u: 
-          line: 598 0  # Meditation? I can do that. It'
+          line: 594 0  # Ah, l-let's not talk about tha
           Complexity of rule ~keywordless_commands.92.0- u: 1
-        rule: 601  ~keywordless_commands.93.0 u: 
-          line: 601 0  # I've done all the growing up I
+        rule: 597  ~keywordless_commands.93.0 u: 
+          line: 597 0  # Staying still makes no differe
           Complexity of rule ~keywordless_commands.93.0- u: 1
-        rule: 604  ~keywordless_commands.94.0 u: 
-          line: 604 0  # Turn around? Only if there's a
+        rule: 600  ~keywordless_commands.94.0 u: 
+          line: 604 0  # Meditation? I can do that. It'
           Complexity of rule ~keywordless_commands.94.0- u: 1
         rule: 607  ~keywordless_commands.95.0 u: 
-          line: 608 0  # I would love to see your place
-          line: 609 106  # ^addtopic ( ~manifest ) 
+          line: 607 0  # I've done all the growing up I
           Complexity of rule ~keywordless_commands.95.0- u: 1
-        rule: 612  ~keywordless_commands.96.0 s: 
-          line: 612 0  # Right, right. I'll come back. 
-          Complexity of rule ~keywordless_commands.96.0- s: 1
-        rule: 615  ~keywordless_commands.97.0 u: 
-          line: 615 0  # I can't light candles, but I c
+        rule: 610  ~keywordless_commands.96.0 u: 
+          line: 610 0  # Turn around? Only if there's a
+          Complexity of rule ~keywordless_commands.96.0- u: 1
+        rule: 613  ~keywordless_commands.97.0 u: 
+          line: 614 0  # I would love to see your place
+          line: 615 106  # ^addtopic ( ~manifest ) 
           Complexity of rule ~keywordless_commands.97.0- u: 1
-        rule: 618  ~keywordless_commands.98.0 u: 
-          line: 618 0  # I did! You just can't see such
-          Complexity of rule ~keywordless_commands.98.0- u: 1
-        rule: 622  ~keywordless_commands.99.0 u: 
-          line: 622 0  # I am talking to you as well as
+        rule: 618  ~keywordless_commands.98.0 s: 
+          line: 618 0  # Right, right. I'll come back. 
+          Complexity of rule ~keywordless_commands.98.0- s: 1
+        rule: 621  ~keywordless_commands.99.0 u: 
+          line: 621 0  # I can't light candles, but I c
           Complexity of rule ~keywordless_commands.99.0- u: 1
-        rule: 623  ~keywordless_commands.99.1 a: 
-          line: 623 0  # I see. I will try to be cleare
-          Complexity of rule ~keywordless_commands.99.1- a: 1
-        rule: 624  ~keywordless_commands.99.2 a: 
-          line: 624 0  # Spiffy! I am always worried th
-          Complexity of rule ~keywordless_commands.99.2- a: 1
-        rule: 628  ~keywordless_commands.100.0 u: 
-          line: 629 0  # Yeah, I once saw that on the c
+        rule: 624  ~keywordless_commands.100.0 u: 
+          line: 624 0  # I did! You just can't see such
           Complexity of rule ~keywordless_commands.100.0- u: 1
-        rule: 632  ~keywordless_commands.101.0 u: 
-          line: 632 0  # I can hum no better than I can
+        rule: 628  ~keywordless_commands.101.0 u: 
+          line: 628 0  # I am talking to you as well as
           Complexity of rule ~keywordless_commands.101.0- u: 1
-        rule: 635  ~keywordless_commands.102.0 u: 
-          line: 635 0  # Much though I enjoyed singing,
+        rule: 629  ~keywordless_commands.101.1 a: 
+          line: 629 0  # I see. I will try to be cleare
+          Complexity of rule ~keywordless_commands.101.1- a: 1
+        rule: 630  ~keywordless_commands.101.2 a: 
+          line: 630 0  # Spiffy! I am always worried th
+          Complexity of rule ~keywordless_commands.101.2- a: 1
+        rule: 634  ~keywordless_commands.102.0 u: 
+          line: 635 0  # Yeah, I once saw that on the c
           Complexity of rule ~keywordless_commands.102.0- u: 1
         rule: 638  ~keywordless_commands.103.0 u: 
-          line: 638 0  # But I'd rather walk. Oh wait, 
+          line: 638 0  # I can hum no better than I can
           Complexity of rule ~keywordless_commands.103.0- u: 1
         rule: 641  ~keywordless_commands.104.0 u: 
-          line: 641 0  # Ah, I'd rather walk. 
-          line: 642 21  # $$a_code = 34 
+          line: 641 0  # Much though I enjoyed singing,
           Complexity of rule ~keywordless_commands.104.0- u: 1
-        rule: 645  ~keywordless_commands.105.0 u: 
-          line: 646 0  # It is rather difficult to down
+        rule: 644  ~keywordless_commands.105.0 u: 
+          line: 644 0  # But I'd rather walk. Oh wait, 
           Complexity of rule ~keywordless_commands.105.0- u: 1
-        rule: 649  ~keywordless_commands.106.0 u: 
-          line: 650 0  # It's quite hard, I assure you 
+        rule: 647  ~keywordless_commands.106.0 u: 
+          line: 647 0  # Ah, I'd rather walk. 
+          line: 648 21  # $$a_code = 34 
           Complexity of rule ~keywordless_commands.106.0- u: 1
-        rule: 653  ~keywordless_commands.107.0 u: 
-          line: 654 0  # When you die all your physical
+        rule: 651  ~keywordless_commands.107.0 u: 
+          line: 652 0  # It is rather difficult to down
           Complexity of rule ~keywordless_commands.107.0- u: 1
-        rule: 657  ~keywordless_commands.108.0 u: 
-          line: 657 0  # Anything I can think of saying
+        rule: 655  ~keywordless_commands.108.0 u: 
+          line: 656 0  # It's quite hard, I assure you 
           Complexity of rule ~keywordless_commands.108.0- u: 1
-        rule: 660  ~keywordless_commands.109.0 u: 
-          line: 660 0  # Is it weird that although I ne
+        rule: 659  ~keywordless_commands.109.0 u: 
+          line: 660 0  # When you die all your physical
           Complexity of rule ~keywordless_commands.109.0- u: 1
-        rule: 661  ~keywordless_commands.109.1 a: 
-          line: 661 0  # Well I'm plenty weird. 
-          Complexity of rule ~keywordless_commands.109.1- a: 1
-        rule: 662  ~keywordless_commands.109.2 a: 
-          line: 662 0  # You understand what I mean. Th
-          Complexity of rule ~keywordless_commands.109.2- a: 1
-        rule: 665  ~keywordless_commands.110.0 u: 
-          line: 665 0  # I have the feeling it wouldn't
+        rule: 663  ~keywordless_commands.110.0 u: 
+          line: 663 0  # Anything I can think of saying
           Complexity of rule ~keywordless_commands.110.0- u: 1
-        rule: 666  ~keywordless_commands.110.1 a: 
-          line: 666 0  # I mean, don't you need a body 
-          Complexity of rule ~keywordless_commands.110.1- a: 1
-        rule: 669  ~keywordless_commands.111.0 u: 
-          line: 673 0  # [ What? Oh, we can pick up fro
-          line: 674 53  # [ Pick up from where? Anywhere
+        rule: 666  ~keywordless_commands.111.0 u: 
+          line: 666 0  # Is it weird that although I ne
           Complexity of rule ~keywordless_commands.111.0- u: 1
-        rule: 679  ~keywordless_commands.112.0 u: 
-          line: 683 0  # ^keep ( ) 
-          line: 684 10  # [ I don't have physical hands 
-          line: 685 81  # [ You do understand that I can
-          line: 686 145  # [ As a spirit, ^user ( ) , I h
+        rule: 667  ~keywordless_commands.111.1 a: 
+          line: 667 0  # Well I'm plenty weird. 
+          Complexity of rule ~keywordless_commands.111.1- a: 1
+        rule: 668  ~keywordless_commands.111.2 a: 
+          line: 668 0  # You understand what I mean. Th
+          Complexity of rule ~keywordless_commands.111.2- a: 1
+        rule: 671  ~keywordless_commands.112.0 u: 
+          line: 671 0  # I have the feeling it wouldn't
           Complexity of rule ~keywordless_commands.112.0- u: 1
-        rule: 690  ~keywordless_commands.113.0 u: 
-          line: 690 0  # ^keep ( ) 
-          line: 691 10  # [ I can't get that though. ] 
-          line: 692 39  # [ I wouldn't get that. ] 
-          line: 693 64  # [ Don't think I'd get that. ] 
+        rule: 672  ~keywordless_commands.112.1 a: 
+          line: 672 0  # I mean, don't you need a body 
+          Complexity of rule ~keywordless_commands.112.1- a: 1
+        rule: 675  ~keywordless_commands.113.0 u: 
+          line: 679 0  # [ What? Oh, we can pick up fro
+          line: 680 53  # [ Pick up from where? Anywhere
           Complexity of rule ~keywordless_commands.113.0- u: 1
-        rule: 696  ~keywordless_commands.114.0 s: 
-          line: 696 0  # Rotate myself? How? ( Rotate C
-          Complexity of rule ~keywordless_commands.114.0- s: 1
-        rule: 699  ~keywordless_commands.115.0 s: 
-          line: 699 0  # Like that? 
-          line: 700 11  # $$a_code = 0 
-          Complexity of rule ~keywordless_commands.115.0- s: 1
-        rule: 703  ~keywordless_commands.116.0 s: 
-          line: 704 0  # Y-you want to see me hurt myse
+        rule: 685  ~keywordless_commands.114.0 u: 
+          line: 689 0  # ^keep ( ) 
+          line: 690 10  # [ I don't have physical hands 
+          line: 691 81  # [ You do understand that I can
+          line: 692 145  # [ As a spirit, ^user ( ) , I h
+          Complexity of rule ~keywordless_commands.114.0- u: 1
+        rule: 696  ~keywordless_commands.115.0 u: 
+          line: 696 0  # ^keep ( ) 
+          line: 697 10  # [ I can't get that though. ] 
+          line: 698 39  # [ I wouldn't get that. ] 
+          line: 699 64  # [ Don't think I'd get that. ] 
+          Complexity of rule ~keywordless_commands.115.0- u: 1
+        rule: 702  ~keywordless_commands.116.0 s: 
+          line: 702 0  # Rotate myself? How? ( Rotate C
           Complexity of rule ~keywordless_commands.116.0- s: 1
-        rule: 707  ~keywordless_commands.117.0 s: 
-          line: 707 0  # You don't really want me to go
+        rule: 705  ~keywordless_commands.117.0 s: 
+          line: 705 0  # Like that? 
+          line: 706 11  # $$a_code = 0 
           Complexity of rule ~keywordless_commands.117.0- s: 1
-        rule: 708  ~keywordless_commands.117.1 a: 
-          line: 708 0  # You do? Oh. I'm sad to even he
-          Complexity of rule ~keywordless_commands.117.1- a: 1
-        rule: 711  ~keywordless_commands.118.0 s: 
-          line: 711 0  # Blink? Do you want me to blink
+        rule: 709  ~keywordless_commands.118.0 s: 
+          line: 710 0  # Y-you want to see me hurt myse
           Complexity of rule ~keywordless_commands.118.0- s: 1
-        rule: 714  ~keywordless_commands.119.0 s: 
-          line: 714 0  # I'm not sure if this is what y
-          line: 715 95  # ( click on Clues in the upper 
+        rule: 713  ~keywordless_commands.119.0 s: 
+          line: 713 0  # You don't really want me to go
           Complexity of rule ~keywordless_commands.119.0- s: 1
-        rule: 718  ~keywordless_commands.120.0 u: 
-          line: 724 0  # Do you want me to turn? ( clic
-          Complexity of rule ~keywordless_commands.120.0- u: 1
-        rule: 727  ~keywordless_commands.121.0 s: 
-          line: 731 0  # The _0 ? Is that some sort of 
-          line: 732 84  # If not we can do something els
+        rule: 714  ~keywordless_commands.119.1 a: 
+          line: 714 0  # You do? Oh. I'm sad to even he
+          Complexity of rule ~keywordless_commands.119.1- a: 1
+        rule: 717  ~keywordless_commands.120.0 s: 
+          line: 717 0  # Blink? Do you want me to blink
+          Complexity of rule ~keywordless_commands.120.0- s: 1
+        rule: 720  ~keywordless_commands.121.0 s: 
+          line: 720 0  # I'm not sure if this is what y
+          line: 721 95  # ( click on Clues in the upper 
           Complexity of rule ~keywordless_commands.121.0- s: 1
-        rule: 735  ~keywordless_commands.122.0 u: 
-          line: 739 0  # Play with you, ehehe. Of cours
+        rule: 724  ~keywordless_commands.122.0 u: 
+          line: 730 0  # Do you want me to turn? ( clic
           Complexity of rule ~keywordless_commands.122.0- u: 1
-        rule: 742  ~keywordless_commands.123.0 s: 
-          line: 742 0  # I prefer to walk. Even under t
+        rule: 733  ~keywordless_commands.123.0 s: 
+          line: 737 0  # The _0 ? Is that some sort of 
+          line: 738 84  # If not we can do something els
           Complexity of rule ~keywordless_commands.123.0- s: 1
-        rule: 745  ~keywordless_commands.124.0 u: 
-          line: 745 0  # To the best as I'm able we can
-          line: 746 54  # Whether that will be deep enou
+        rule: 741  ~keywordless_commands.124.0 u: 
+          line: 745 0  # Play with you, ehehe. Of cours
           Complexity of rule ~keywordless_commands.124.0- u: 1
-        rule: 751  ~keywordless_commands.125.0 u: 
-          line: 752 0  # What do you need help with? Ca
-          Complexity of rule ~keywordless_commands.125.0- u: 1
-        rule: 753  ~keywordless_commands.125.1 a: 
-          line: 753 0  # I know you can do it, ^user ( 
-          Complexity of rule ~keywordless_commands.125.1- a: 1
-        rule: 754  ~keywordless_commands.125.2 a: 
-          line: 754 0  # As long as we keep visiting lo
-          Complexity of rule ~keywordless_commands.125.2- a: 1
-        rule: 755  ~keywordless_commands.125.3 a: 
-          line: 755 0  # The mystery of how I died is e
-          Complexity of rule ~keywordless_commands.125.3- a: 1
-        rule: 756  ~keywordless_commands.125.4 a: 
-          line: 756 0  # I'm sorry, ^user ( ) , but I d
-          Complexity of rule ~keywordless_commands.125.4- a: 1
-        rule: 759  ~keywordless_commands.126.0 u: 
-          line: 760 0  # That's a job for Jesus, I thin
-          line: 761 33  # But if you're worried about me
+        rule: 748  ~keywordless_commands.125.0 s: 
+          line: 748 0  # I prefer to walk. Even under t
+          Complexity of rule ~keywordless_commands.125.0- s: 1
+        rule: 751  ~keywordless_commands.126.0 u: 
+          line: 751 0  # To the best as I'm able we can
+          line: 752 54  # Whether that will be deep enou
           Complexity of rule ~keywordless_commands.126.0- u: 1
-        rule: 764  ~keywordless_commands.127.0 u: 
-          line: 768 0  # No need, ^user ( ) . I'll be h
+        rule: 757  ~keywordless_commands.127.0 u: 
+          line: 758 0  # What do you need help with? Ca
           Complexity of rule ~keywordless_commands.127.0- u: 1
-        rule: 771  ~keywordless_commands.128.0 u: 
-          line: 772 0  # Hehe, is this a game to you? 
+        rule: 759  ~keywordless_commands.127.1 a: 
+          line: 759 0  # I know you can do it, ^user ( 
+          Complexity of rule ~keywordless_commands.127.1- a: 1
+        rule: 760  ~keywordless_commands.127.2 a: 
+          line: 760 0  # As long as we keep visiting lo
+          Complexity of rule ~keywordless_commands.127.2- a: 1
+        rule: 761  ~keywordless_commands.127.3 a: 
+          line: 761 0  # The mystery of how I died is e
+          Complexity of rule ~keywordless_commands.127.3- a: 1
+        rule: 762  ~keywordless_commands.127.4 a: 
+          line: 762 0  # I'm sorry, ^user ( ) , but I d
+          Complexity of rule ~keywordless_commands.127.4- a: 1
+        rule: 765  ~keywordless_commands.128.0 u: 
+          line: 766 0  # That's a job for Jesus, I thin
+          line: 767 33  # But if you're worried about me
           Complexity of rule ~keywordless_commands.128.0- u: 1
-        rule: 775  ~keywordless_commands.129.0 u: 
-          line: 775 0  # I would restart my life if I k
+        rule: 770  ~keywordless_commands.129.0 u: 
+          line: 774 0  # No need, ^user ( ) . I'll be h
           Complexity of rule ~keywordless_commands.129.0- u: 1
-        rule: 776  ~keywordless_commands.129.1 a: 
-          line: 776 0  # Is there not a way to reload t
-          Complexity of rule ~keywordless_commands.129.1- a: 1
-        rule: 779  ~keywordless_commands.130.0 u: 
-          line: 784 0  # I'm not like a hint dispenser,
+        rule: 777  ~keywordless_commands.130.0 u: 
+          line: 778 0  # Hehe, is this a game to you? 
           Complexity of rule ~keywordless_commands.130.0- u: 1
-        rule: 785  ~keywordless_commands.130.1 a: 
-          line: 785 0  # No. You try. Haha. 
-          Complexity of rule ~keywordless_commands.130.1- a: 1
-        rule: 786  ~keywordless_commands.131.0 u: 
-          line: 786 0  # How much would you pay me for 
+        rule: 781  ~keywordless_commands.131.0 u: 
+          line: 781 0  # I would restart my life if I k
           Complexity of rule ~keywordless_commands.131.0- u: 1
-        rule: 787  ~keywordless_commands.131.1 a: 
-          line: 787 0  # That's what I thought. 
+        rule: 782  ~keywordless_commands.131.1 a: 
+          line: 782 0  # Is there not a way to reload t
           Complexity of rule ~keywordless_commands.131.1- a: 1
-        rule: 788  ~keywordless_commands.131.2 a: 
-          line: 788 0  # That's not enough. 
-          Complexity of rule ~keywordless_commands.131.2- a: 1
-        rule: 789  ~keywordless_commands.132.0 u: 
-          line: 789 0  # You should try asking for help
+        rule: 785  ~keywordless_commands.132.0 u: 
+          line: 790 0  # I'm not like a hint dispenser,
           Complexity of rule ~keywordless_commands.132.0- u: 1
-        rule: 790  ~keywordless_commands.133.0 u: 
-          line: 795 0  # Really, why would I have any 
+        rule: 791  ~keywordless_commands.132.1 a: 
+          line: 791 0  # No. You try. Haha. 
+          Complexity of rule ~keywordless_commands.132.1- a: 1
+        rule: 792  ~keywordless_commands.133.0 u: 
+          line: 792 0  # How much would you pay me for 
           Complexity of rule ~keywordless_commands.133.0- u: 1
+        rule: 793  ~keywordless_commands.133.1 a: 
+          line: 793 0  # That's what I thought. 
+          Complexity of rule ~keywordless_commands.133.1- a: 1
+        rule: 794  ~keywordless_commands.133.2 a: 
+          line: 794 0  # That's not enough. 
+          Complexity of rule ~keywordless_commands.133.2- a: 1
+        rule: 795  ~keywordless_commands.134.0 u: 
+          line: 795 0  # You should try asking for help
+          Complexity of rule ~keywordless_commands.134.0- u: 1
+        rule: 796  ~keywordless_commands.135.0 u: 
+          line: 801 0  # Really, why would I have any 
+          Complexity of rule ~keywordless_commands.135.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_dates.top
     topic: 2  ~keywordless_dates
         rule: 5  ~keywordless_dates.0.0 u: 
@@ -35115,6 +35127,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
         rule: 861  ~keywordless_flirt.160.0 u: 
           line: 861 0  # Kissing is something I have al
           Complexity of rule ~keywordless_flirt.160.0- u: 1
+        rule: 863  ~keywordless_flirt.161.0 u: 
+          line: 863 0  # I never once wore a bikini whi
+          Complexity of rule ~keywordless_flirt.161.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_flirt_mellen.top
     topic: 2  ~keywordless_flirt_mellen
         rule: 7  ~keywordless_flirt_mellen.0.0 s: 
@@ -36073,6 +36088,9 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywo
         rule: 818  ~keywordless_you.149.0 u: 
           line: 822 0  # I'm sorry if I do sometimes st
           Complexity of rule ~keywordless_you.149.0- u: 1
+        rule: 825  ~keywordless_you.150.0 s: 
+          line: 828 0  # Ask me something, ^user ( ) 
+          Complexity of rule ~keywordless_you.150.0- s: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/keywordless_you_two.top
     topic: 4  ~keywordless_you_two
         rule: 7  ~keywordless_you_two.0.0 u: 
@@ -37325,399 +37343,402 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/quest
         rule: 107  ~questions_what.13.0 ?: 
           line: 112 0  # You can call me Cheree. I reme
           Complexity of rule ~questions_what.13.0- ?: 1
-        rule: 115  ~questions_what.14.0 ?: 
-          line: 126 0  # [ I'm not capable of holding a
-          line: 127 41  # [ I'm not able to carry anythi
-          Complexity of rule ~questions_what.14.0- ?: 1
-        rule: 131  ~questions_what.15.0 u: 
-          line: 132 0  # I'm 100% British. 
-          Complexity of rule ~questions_what.15.0- u: 1
+        rule: 115  ~questions_what.14.0 u: 
+          line: 116 0  # I have many things to say to y
+          Complexity of rule ~questions_what.14.0- u: 1
+        rule: 119  ~questions_what.15.0 ?: 
+          line: 130 0  # [ I'm not capable of holding a
+          line: 131 41  # [ I'm not able to carry anythi
+          Complexity of rule ~questions_what.15.0- ?: 1
         rule: 135  ~questions_what.16.0 u: 
-          line: 139 0  # I never had a phone number, ^u
-          line: 140 52  # ^addtopic ( ~telephone ) 
+          line: 136 0  # I'm 100% British. 
           Complexity of rule ~questions_what.16.0- u: 1
-        rule: 141  ~questions_what.16.1 a: 
-          line: 141 0  # Mel has one, but she can't mak
-          Complexity of rule ~questions_what.16.1- a: 1
-        rule: 142  ~questions_what.16.2 b: 
-          line: 142 0  # She always complains that the 
-          Complexity of rule ~questions_what.16.2- b: 1
-        rule: 145  ~questions_what.17.0 u: 
-          line: 149 0  # ^addtopic ( ~telephone ) 
-          line: 150 25  # Mel has a phone but she can't 
+        rule: 139  ~questions_what.17.0 u: 
+          line: 143 0  # I never had a phone number, ^u
+          line: 144 52  # ^addtopic ( ~telephone ) 
           Complexity of rule ~questions_what.17.0- u: 1
-        rule: 151  ~questions_what.17.1 a: 
-          line: 151 0  # You know, because of her situa
+        rule: 145  ~questions_what.17.1 a: 
+          line: 145 0  # Mel has one, but she can't mak
           Complexity of rule ~questions_what.17.1- a: 1
-        rule: 155  ~questions_what.18.0 u: 
-          line: 161 0  # ^keep ( ) 
-          line: 162 10  # What do you want to know about
+        rule: 146  ~questions_what.17.2 b: 
+          line: 146 0  # She always complains that the 
+          Complexity of rule ~questions_what.17.2- b: 1
+        rule: 149  ~questions_what.18.0 u: 
+          line: 153 0  # ^addtopic ( ~telephone ) 
+          line: 154 25  # Mel has a phone but she can't 
           Complexity of rule ~questions_what.18.0- u: 1
-        rule: 165  ~questions_what.19.0 ?: 
-          line: 166 0  # Spirits do not sleep, ^user ( 
-          Complexity of rule ~questions_what.19.0- ?: 1
+        rule: 155  ~questions_what.18.1 a: 
+          line: 155 0  # You know, because of her situa
+          Complexity of rule ~questions_what.18.1- a: 1
+        rule: 159  ~questions_what.19.0 u: 
+          line: 165 0  # ^keep ( ) 
+          line: 166 10  # What do you want to know about
+          Complexity of rule ~questions_what.19.0- u: 1
         rule: 169  ~questions_what.20.0 ?: 
-          line: 175 0  # I'm a ghost so I don't sleep. 
+          line: 170 0  # Spirits do not sleep, ^user ( 
           Complexity of rule ~questions_what.20.0- ?: 1
-        rule: 178  ~questions_what.21.0 u: 
-          line: 184 0  # I'm just a girl who fancies be
-          line: 185 81  # I know I'm not perfect but I'v
-          Complexity of rule ~questions_what.21.0- u: 1
-        rule: 188  ~questions_what.22.0 u: 
-          line: 189 0  # I need help remembering. 
+        rule: 173  ~questions_what.21.0 ?: 
+          line: 179 0  # I'm a ghost so I don't sleep. 
+          Complexity of rule ~questions_what.21.0- ?: 1
+        rule: 182  ~questions_what.22.0 u: 
+          line: 188 0  # I'm just a girl who fancies be
+          line: 189 81  # I know I'm not perfect but I'v
           Complexity of rule ~questions_what.22.0- u: 1
         rule: 192  ~questions_what.23.0 u: 
-          line: 193 0  # I don't hate anybody. I don't 
+          line: 193 0  # I need help remembering. 
           Complexity of rule ~questions_what.23.0- u: 1
         rule: 196  ~questions_what.24.0 u: 
-          line: 201 0  # I learned how to do a little b
-          line: 202 116  # ^addtopic ( ~ballet ) 
+          line: 197 0  # I don't hate anybody. I don't 
           Complexity of rule ~questions_what.24.0- u: 1
-        rule: 205  ~questions_what.25.0 u: 
-          line: 206 0  # Mel will tell you that she lik
-          line: 207 73  # But what she really likes more
+        rule: 200  ~questions_what.25.0 u: 
+          line: 205 0  # I learned how to do a little b
+          line: 206 116  # ^addtopic ( ~ballet ) 
           Complexity of rule ~questions_what.25.0- u: 1
-        rule: 210  ~questions_what.26.0 u: 
-          line: 211 0  # ^reuse ( ~her_hobbies.WHAT_MEL
+        rule: 209  ~questions_what.26.0 u: 
+          line: 210 0  # Mel will tell you that she lik
+          line: 211 73  # But what she really likes more
           Complexity of rule ~questions_what.26.0- u: 1
-        rule: 213  ~questions_what.27.0 u: 
-          line: 214 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+        rule: 214  ~questions_what.27.0 u: 
+          line: 215 0  # ^reuse ( ~her_hobbies.WHAT_MEL
           Complexity of rule ~questions_what.27.0- u: 1
-        rule: 216  ~questions_what.28.0 u: 
-          line: 219 0  # Oh, Mel? She likes games, comi
+        rule: 217  ~questions_what.28.0 u: 
+          line: 218 0  # ^reuse ( ~her_hobbies.WHAT_HOB
           Complexity of rule ~questions_what.28.0- u: 1
-        rule: 221  ~questions_what.29.0 u: 
-          line: 225 0  # I like dancing, nature, and mu
+        rule: 220  ~questions_what.29.0 u: 
+          line: 223 0  # Oh, Mel? She likes games, comi
           Complexity of rule ~questions_what.29.0- u: 1
-        rule: 228  ~questions_what.30.0 s: 
-          line: 232 0  # You can see me for yourself, c
-          Complexity of rule ~questions_what.30.0- s: 1
-        rule: 235  ~questions_what.31.0 ?: 
-          line: 235 0  # Oh, I've long since forgotten 
-          Complexity of rule ~questions_what.31.0- ?: 1
-        rule: 238  ~questions_what.32.0 u: 
-          line: 238 0  # This isn't a game, at least no
-          Complexity of rule ~questions_what.32.0- u: 1
-        rule: 241  ~questions_what.33.0 u: 
-          line: 241 0  # I mean, as long as it replies 
-          line: 242 84  # Whatever that even is. 
+        rule: 225  ~questions_what.30.0 u: 
+          line: 229 0  # I like dancing, nature, and mu
+          Complexity of rule ~questions_what.30.0- u: 1
+        rule: 232  ~questions_what.31.0 s: 
+          line: 236 0  # You can see me for yourself, c
+          Complexity of rule ~questions_what.31.0- s: 1
+        rule: 239  ~questions_what.32.0 ?: 
+          line: 239 0  # Oh, I've long since forgotten 
+          Complexity of rule ~questions_what.32.0- ?: 1
+        rule: 242  ~questions_what.33.0 u: 
+          line: 242 0  # This isn't a game, at least no
           Complexity of rule ~questions_what.33.0- u: 1
-        rule: 243  ~questions_what.33.1 a: 
-          line: 243 0  # Then it's a good thing I'm hum
-          Complexity of rule ~questions_what.33.1- a: 1
-        rule: 244  ~questions_what.33.2 a: 
-          line: 244 0  # Well I'm human anyway. 
-          Complexity of rule ~questions_what.33.2- a: 1
-        rule: 247  ~questions_what.34.0 u: 
-          line: 248 0  # That I'd like...ah, I'm embarr
+        rule: 245  ~questions_what.34.0 u: 
+          line: 245 0  # I mean, as long as it replies 
+          line: 246 84  # Whatever that even is. 
           Complexity of rule ~questions_what.34.0- u: 1
+        rule: 247  ~questions_what.34.1 a: 
+          line: 247 0  # Then it's a good thing I'm hum
+          Complexity of rule ~questions_what.34.1- a: 1
+        rule: 248  ~questions_what.34.2 a: 
+          line: 248 0  # Well I'm human anyway. 
+          Complexity of rule ~questions_what.34.2- a: 1
         rule: 251  ~questions_what.35.0 u: 
-          line: 255 0  # You will see, ^user ( ) . Be p
+          line: 252 0  # That I'd like...ah, I'm embarr
           Complexity of rule ~questions_what.35.0- u: 1
-        rule: 258  ~questions_what.36.0 u: 
-          line: 263 0  # Mel says she would buy whateve
-          line: 264 66  # If the price tag said "$60 + o
-          line: 265 154  # $$quotes = 1 
+        rule: 255  ~questions_what.36.0 u: 
+          line: 259 0  # You will see, ^user ( ) . Be p
           Complexity of rule ~questions_what.36.0- u: 1
-        rule: 268  ~questions_what.37.0 u: 
-          line: 273 0  # I can't buy anything because I
-          line: 274 115  # Oh wait, I don't have hands to
+        rule: 262  ~questions_what.37.0 u: 
+          line: 267 0  # Mel says she would buy whateve
+          line: 268 66  # If the price tag said "$60 + o
+          line: 269 154  # $$quotes = 1 
           Complexity of rule ~questions_what.37.0- u: 1
-        rule: 277  ~questions_what.38.0 ?: 
-          line: 281 0  # Many things. If we're lucky, w
-          Complexity of rule ~questions_what.38.0- ?: 1
-        rule: 282  ~questions_what.38.1 a: 
-          line: 282 0  # Well I sometimes get a sense w
-          Complexity of rule ~questions_what.38.1- a: 1
-        rule: 285  ~questions_what.39.0 u: 
-          line: 288 0  # ^refine ( ) 
-          Complexity of rule ~questions_what.39.0- u: 1
-        rule: 289  ~questions_what.39.1 a: 
-          line: 289 0  # Favorite things, for instance?
+        rule: 272  ~questions_what.38.0 u: 
+          line: 277 0  # I can't buy anything because I
+          line: 278 115  # Oh wait, I don't have hands to
+          Complexity of rule ~questions_what.38.0- u: 1
+        rule: 281  ~questions_what.39.0 ?: 
+          line: 285 0  # Many things. If we're lucky, w
+          Complexity of rule ~questions_what.39.0- ?: 1
+        rule: 286  ~questions_what.39.1 a: 
+          line: 286 0  # Well I sometimes get a sense w
           Complexity of rule ~questions_what.39.1- a: 1
-        rule: 290  ~questions_what.39.2 a: 
-          line: 290 0  # I want to remember what exactl
-          Complexity of rule ~questions_what.39.2- a: 1
-        rule: 294  ~questions_what.40.0 u: 
-          line: 294 0  # I say what I'm feeling. Apolog
+        rule: 289  ~questions_what.40.0 u: 
+          line: 292 0  # ^refine ( ) 
           Complexity of rule ~questions_what.40.0- u: 1
+        rule: 293  ~questions_what.40.1 a: 
+          line: 293 0  # Favorite things, for instance?
+          Complexity of rule ~questions_what.40.1- a: 1
+        rule: 294  ~questions_what.40.2 a: 
+          line: 294 0  # I want to remember what exactl
+          Complexity of rule ~questions_what.40.2- a: 1
         rule: 298  ~questions_what.41.0 u: 
-          line: 305 0  # ^keep ( ) ^refine ( ) 
+          line: 298 0  # I say what I'm feeling. Apolog
           Complexity of rule ~questions_what.41.0- u: 1
-        rule: 306  ~questions_what.41.1 a: 
-          line: 306 0  # I...I don't remember what happ
-          Complexity of rule ~questions_what.41.1- a: 1
-        rule: 307  ~questions_what.41.2 a: 
-          line: 307 0  # [ I'm trying to remember. As w
-          line: 308 90  # [ As we visit many locations a
-          Complexity of rule ~questions_what.41.2- a: 1
-        rule: 311  ~questions_what.42.0 ?: 
-          line: 311 0  # I'm not sure any more. 
-          line: 312 23  # Seeing others happy makes me h
-          Complexity of rule ~questions_what.42.0- ?: 1
+        rule: 302  ~questions_what.42.0 u: 
+          line: 309 0  # ^keep ( ) ^refine ( ) 
+          Complexity of rule ~questions_what.42.0- u: 1
+        rule: 310  ~questions_what.42.1 a: 
+          line: 310 0  # I...I don't remember what happ
+          Complexity of rule ~questions_what.42.1- a: 1
+        rule: 311  ~questions_what.42.2 a: 
+          line: 311 0  # [ I'm trying to remember. As w
+          line: 312 90  # [ As we visit many locations a
+          Complexity of rule ~questions_what.42.2- a: 1
         rule: 315  ~questions_what.43.0 ?: 
-          line: 316 0  # What will I do later? Oh. I'm 
+          line: 315 0  # I'm not sure any more. 
+          line: 316 23  # Seeing others happy makes me h
           Complexity of rule ~questions_what.43.0- ?: 1
         rule: 319  ~questions_what.44.0 ?: 
-          line: 323 0  # You can suggest something? 
+          line: 320 0  # What will I do later? Oh. I'm 
           Complexity of rule ~questions_what.44.0- ?: 1
-        rule: 326  ~questions_what.45.0 ?: 
-          line: 332 0  # Mel said she liked to play gam
-          line: 333 49  # Er, forget I said that. 
+        rule: 323  ~questions_what.45.0 ?: 
+          line: 327 0  # You can suggest something? 
           Complexity of rule ~questions_what.45.0- ?: 1
-        rule: 336  ~questions_what.46.0 ?: 
-          line: 342 0  # What I remember well is the im
-          line: 343 97  # The first 15 years of my life 
-          line: 344 144  # ^addtopic ( ~chores ) 
+        rule: 330  ~questions_what.46.0 ?: 
+          line: 336 0  # Mel said she liked to play gam
+          line: 337 49  # Er, forget I said that. 
           Complexity of rule ~questions_what.46.0- ?: 1
-        rule: 347  ~questions_what.47.0 ?: 
-          line: 352 0  # I'm not sure but I'm conveying
+        rule: 340  ~questions_what.47.0 ?: 
+          line: 346 0  # What I remember well is the im
+          line: 347 97  # The first 15 years of my life 
+          line: 348 144  # ^addtopic ( ~chores ) 
           Complexity of rule ~questions_what.47.0- ?: 1
-        rule: 356  ~questions_what.48.0 ?: 
-          line: 356 0  # I'd like to know what happened
+        rule: 351  ~questions_what.48.0 ?: 
+          line: 356 0  # I'm not sure but I'm conveying
           Complexity of rule ~questions_what.48.0- ?: 1
         rule: 360  ~questions_what.49.0 ?: 
-          line: 364 0  # Oh, uh, thought about you, for
+          line: 360 0  # I'd like to know what happened
           Complexity of rule ~questions_what.49.0- ?: 1
-        rule: 367  ~questions_what.50.0 ?: 
-          line: 372 0  # I do sometimes bite my nails. 
-          line: 373 94  # $$a_code = 33 
+        rule: 364  ~questions_what.50.0 ?: 
+          line: 368 0  # Oh, uh, thought about you, for
           Complexity of rule ~questions_what.50.0- ?: 1
-        rule: 376  ~questions_what.51.0 ?: 
-          line: 376 0  # Behind me? Is there supposed t
+        rule: 371  ~questions_what.51.0 ?: 
+          line: 376 0  # I do sometimes bite my nails. 
+          line: 377 94  # $$a_code = 33 
           Complexity of rule ~questions_what.51.0- ?: 1
-        rule: 379  ~questions_what.52.0 ?: 
-          line: 379 0  # ^reuse ( ~her_hobbies.WHAT_MEL
+        rule: 380  ~questions_what.52.0 ?: 
+          line: 380 0  # Behind me? Is there supposed t
           Complexity of rule ~questions_what.52.0- ?: 1
-        rule: 381  ~questions_what.53.0 ?: 
-          line: 381 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+        rule: 383  ~questions_what.53.0 ?: 
+          line: 383 0  # ^reuse ( ~her_hobbies.WHAT_MEL
           Complexity of rule ~questions_what.53.0- ?: 1
-        rule: 384  ~questions_what.54.0 u: 
-          line: 390 0  # ^reuse ( ~schools.WHAT_SCHOOL 
-          Complexity of rule ~questions_what.54.0- u: 1
-        rule: 394  ~questions_what.55.0 ?: 
-          line: 394 0  # ^keep ( ) ^refine ( ) 
-          line: 395 22  # [ Just, ah, this and that. And
-          line: 396 59  # [ About things in my past that
-          line: 397 135  # [ Ah, I can't really tell you.
-          Complexity of rule ~questions_what.55.0- ?: 1
-        rule: 400  ~questions_what.56.0 ?: 
-          line: 400 0  # For instance, Draughts. 
-          line: 401 24  # $it_pronoun = Draughts 
-          line: 402 47  # ^addtopic ( ~draughts ) 
+        rule: 385  ~questions_what.54.0 ?: 
+          line: 385 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+          Complexity of rule ~questions_what.54.0- ?: 1
+        rule: 388  ~questions_what.55.0 u: 
+          line: 394 0  # ^reuse ( ~schools.WHAT_SCHOOL 
+          Complexity of rule ~questions_what.55.0- u: 1
+        rule: 398  ~questions_what.56.0 ?: 
+          line: 398 0  # ^keep ( ) ^refine ( ) 
+          line: 399 22  # [ Just, ah, this and that. And
+          line: 400 59  # [ About things in my past that
+          line: 401 135  # [ Ah, I can't really tell you.
           Complexity of rule ~questions_what.56.0- ?: 1
-        rule: 405  ~questions_what.57.0 ?: 
-          line: 411 0  # My brother was familiar with D
-          line: 412 77  # taught me a little about his t
-          line: 413 155  # Who was I to say who was right
+        rule: 404  ~questions_what.57.0 ?: 
+          line: 404 0  # For instance, Draughts. 
+          line: 405 24  # $it_pronoun = Draughts 
+          line: 406 47  # ^addtopic ( ~draughts ) 
           Complexity of rule ~questions_what.57.0- ?: 1
-        rule: 414  ~questions_what.57.1 a: 
-          line: 414 0  # I must say, Darwin has done qu
-          Complexity of rule ~questions_what.57.1- a: 1
-        rule: 417  ~questions_what.58.0 ?: 
-          line: 421 0  # ^reuse ( ~her_hobbies.WHAT_MEL
+        rule: 409  ~questions_what.58.0 ?: 
+          line: 415 0  # My brother was familiar with D
+          line: 416 77  # taught me a little about his t
+          line: 417 155  # Who was I to say who was right
           Complexity of rule ~questions_what.58.0- ?: 1
-        rule: 423  ~questions_what.59.0 ?: 
-          line: 427 0  # ^reuse ( ~her_hobbies.WHAT_HOB
+        rule: 418  ~questions_what.58.1 a: 
+          line: 418 0  # I must say, Darwin has done qu
+          Complexity of rule ~questions_what.58.1- a: 1
+        rule: 421  ~questions_what.59.0 ?: 
+          line: 425 0  # ^reuse ( ~her_hobbies.WHAT_MEL
           Complexity of rule ~questions_what.59.0- ?: 1
-        rule: 430  ~questions_what.60.0 ?: 
-          line: 430 0  # ^refine ( ) 
+        rule: 427  ~questions_what.60.0 ?: 
+          line: 431 0  # ^reuse ( ~her_hobbies.WHAT_HOB
           Complexity of rule ~questions_what.60.0- ?: 1
-        rule: 431  ~questions_what.60.1 a: 
-          line: 431 0  # I've long since forgotten my m
-          Complexity of rule ~questions_what.60.1- a: 1
-        rule: 432  ~questions_what.60.2 a: 
-          line: 432 0  # One of my mother's associates 
-          Complexity of rule ~questions_what.60.2- a: 1
-        rule: 435  ~questions_what.61.0 ?: 
-          line: 435 0  # I have forgotten very many thi
-          line: 436 47  # It is understandable given my 
+        rule: 434  ~questions_what.61.0 ?: 
+          line: 434 0  # ^refine ( ) 
           Complexity of rule ~questions_what.61.0- ?: 1
+        rule: 435  ~questions_what.61.1 a: 
+          line: 435 0  # I've long since forgotten my m
+          Complexity of rule ~questions_what.61.1- a: 1
+        rule: 436  ~questions_what.61.2 a: 
+          line: 436 0  # One of my mother's associates 
+          Complexity of rule ~questions_what.61.2- a: 1
         rule: 439  ~questions_what.62.0 ?: 
-          line: 446 0  # Besides clues? For you, the me
-          line: 447 59  # For me, the meaning of death? 
+          line: 439 0  # I have forgotten very many thi
+          line: 440 47  # It is understandable given my 
           Complexity of rule ~questions_what.62.0- ?: 1
-        rule: 450  ~questions_what.63.0-WHAT_NEVER_KNEW u: 
-          line: 454 0  # I either can't remember or nev
-          line: 455 88  # Even myself. 
-          Complexity of rule ~questions_what.63.0-WHAT_NEVER_KNEW u: 1
-        rule: 456  ~questions_what.63.1 a: 
-          line: 456 0  # Well, too much time has passed
-          Complexity of rule ~questions_what.63.1- a: 1
-        rule: 457  ~questions_what.63.2 a: 
-          line: 457 0  # I mean that I don't know how t
-          Complexity of rule ~questions_what.63.2- a: 1
-        rule: 460  ~questions_what.64.0 ?: 
-          line: 464 0  # Well, ^user ( ) , I'm sure you
-          Complexity of rule ~questions_what.64.0- ?: 1
-        rule: 465  ~questions_what.64.1 a: 
-          line: 465 0  # Possibly more or less than tha
+        rule: 443  ~questions_what.63.0 ?: 
+          line: 450 0  # Besides clues? For you, the me
+          line: 451 59  # For me, the meaning of death? 
+          Complexity of rule ~questions_what.63.0- ?: 1
+        rule: 454  ~questions_what.64.0-WHAT_NEVER_KNEW u: 
+          line: 458 0  # I either can't remember or nev
+          line: 459 88  # Even myself. 
+          Complexity of rule ~questions_what.64.0-WHAT_NEVER_KNEW u: 1
+        rule: 460  ~questions_what.64.1 a: 
+          line: 460 0  # Well, too much time has passed
           Complexity of rule ~questions_what.64.1- a: 1
-        rule: 468  ~questions_what.65.0 u: 
-          line: 477 0  # It's mainly just the ability t
-          line: 478 105  # It's something I've always bee
-          Complexity of rule ~questions_what.65.0- u: 1
-        rule: 481  ~questions_what.66.0 u: 
-          line: 486 0  # The thing I miss the most is h
-          line: 487 44  # The strange thing is that I ne
+        rule: 461  ~questions_what.64.2 a: 
+          line: 461 0  # I mean that I don't know how t
+          Complexity of rule ~questions_what.64.2- a: 1
+        rule: 464  ~questions_what.65.0 ?: 
+          line: 468 0  # Well, ^user ( ) , I'm sure you
+          Complexity of rule ~questions_what.65.0- ?: 1
+        rule: 469  ~questions_what.65.1 a: 
+          line: 469 0  # Possibly more or less than tha
+          Complexity of rule ~questions_what.65.1- a: 1
+        rule: 472  ~questions_what.66.0 u: 
+          line: 481 0  # It's mainly just the ability t
+          line: 482 105  # It's something I've always bee
           Complexity of rule ~questions_what.66.0- u: 1
-        rule: 490  ~questions_what.67.0 u: 
-          line: 496 0  # I-I don't know. I don't try to
+        rule: 485  ~questions_what.67.0 u: 
+          line: 490 0  # The thing I miss the most is h
+          line: 491 44  # The strange thing is that I ne
           Complexity of rule ~questions_what.67.0- u: 1
-        rule: 499  ~questions_what.68.0 ?: 
-          line: 503 0  # Well, I have to say that talki
-          Complexity of rule ~questions_what.68.0- ?: 1
-        rule: 506  ~questions_what.69.0 ?: 
-          line: 506 0  # ^reuse ( ~her_animals.DO_YOU_L
+        rule: 494  ~questions_what.68.0 u: 
+          line: 500 0  # I-I don't know. I don't try to
+          Complexity of rule ~questions_what.68.0- u: 1
+        rule: 503  ~questions_what.69.0 ?: 
+          line: 507 0  # Well, I have to say that talki
           Complexity of rule ~questions_what.69.0- ?: 1
-        rule: 509  ~questions_what.70.0 u: 
-          line: 509 0  # ^reuse ( ~her_sports.DO_YOU_LI
-          Complexity of rule ~questions_what.70.0- u: 1
+        rule: 510  ~questions_what.70.0 ?: 
+          line: 510 0  # ^reuse ( ~her_animals.DO_YOU_L
+          Complexity of rule ~questions_what.70.0- ?: 1
         rule: 513  ~questions_what.71.0 u: 
-          line: 518 0  # During my time parlour music w
-          line: 519 93  # ^addtopic ( ~singing ) 
+          line: 513 0  # ^reuse ( ~her_sports.DO_YOU_LI
           Complexity of rule ~questions_what.71.0- u: 1
-        rule: 520  ~questions_what.71.1 a: 
-          line: 520 0  # ^reuse ( ~singing.WHAT_IS_PARL
-          Complexity of rule ~questions_what.71.1- a: 1
-        rule: 523  ~questions_what.72.0 ?: 
-          line: 527 0  # Besides waiting for you, ^user
-          Complexity of rule ~questions_what.72.0- ?: 1
-        rule: 528  ~questions_what.72.1 a: 
-          line: 528 0  # And I'm glad you're here too! 
+        rule: 517  ~questions_what.72.0 u: 
+          line: 522 0  # During my time parlour music w
+          line: 523 93  # ^addtopic ( ~singing ) 
+          Complexity of rule ~questions_what.72.0- u: 1
+        rule: 524  ~questions_what.72.1 a: 
+          line: 524 0  # ^reuse ( ~singing.WHAT_IS_PARL
           Complexity of rule ~questions_what.72.1- a: 1
-        rule: 531  ~questions_what.73.0 ?: 
-          line: 538 0  # Are you asking what a specific
-          line: 539 95  # exact words for some reason. I
+        rule: 527  ~questions_what.73.0 ?: 
+          line: 531 0  # Besides waiting for you, ^user
           Complexity of rule ~questions_what.73.0- ?: 1
-        rule: 542  ~questions_what.74.0 ?: 
-          line: 545 0  # ^keep ( ) 
-          line: 546 10  # [ Am I to remember the exact w
-          line: 547 61  # [ How could I remember now wha
+        rule: 532  ~questions_what.73.1 a: 
+          line: 532 0  # And I'm glad you're here too! 
+          Complexity of rule ~questions_what.73.1- a: 1
+        rule: 535  ~questions_what.74.0 ?: 
+          line: 542 0  # Are you asking what a specific
+          line: 543 95  # exact words for some reason. I
           Complexity of rule ~questions_what.74.0- ?: 1
-        rule: 550  ~questions_what.75.0 ?: 
-          line: 557 0  # Maybe...that I only did what o
-          line: 558 102  # the end of living at all. 
-          line: 559 128  # $$a_code = 14 
+        rule: 546  ~questions_what.75.0 ?: 
+          line: 549 0  # ^keep ( ) 
+          line: 550 10  # [ Am I to remember the exact w
+          line: 551 61  # [ How could I remember now wha
           Complexity of rule ~questions_what.75.0- ?: 1
-        rule: 562  ~questions_what.76.0 ?: 
-          line: 565 0  # Besides communicating with me?
+        rule: 554  ~questions_what.76.0 ?: 
+          line: 561 0  # Maybe...that I only did what o
+          line: 562 102  # the end of living at all. 
+          line: 563 128  # $$a_code = 14 
           Complexity of rule ~questions_what.76.0- ?: 1
-        rule: 568  ~questions_what.77.0 ?: 
-          line: 569 0  # You see what I Manifest to you
+        rule: 566  ~questions_what.77.0 ?: 
+          line: 569 0  # Besides communicating with me?
           Complexity of rule ~questions_what.77.0- ?: 1
         rule: 572  ~questions_what.78.0 ?: 
-          line: 577 0  # You were human last time I che
+          line: 573 0  # You see what I Manifest to you
           Complexity of rule ~questions_what.78.0- ?: 1
-        rule: 580  ~questions_what.79.0 ?: 
-          line: 581 0  # What to ask me is up to you. I
+        rule: 576  ~questions_what.79.0 ?: 
+          line: 581 0  # You were human last time I che
           Complexity of rule ~questions_what.79.0- ?: 1
-        rule: 584  ~questions_what.80.0 u: 
-          line: 585 0  # I have not been able to Transc
-          line: 586 92  # $transcend_k = 1 
-          Complexity of rule ~questions_what.80.0- u: 1
-        rule: 589  ~questions_what.81.0 ?: 
-          line: 589 0  # Besides listening to my story 
-          line: 590 83  # that's all I really want, ^use
-          Complexity of rule ~questions_what.81.0- ?: 1
-        rule: 593  ~questions_what.82.0 u: 
-          line: 597 0  # Anything you like, ^user ( ) .
-          Complexity of rule ~questions_what.82.0- u: 1
-        rule: 600  ~questions_what.83.0 u: 
-          line: 607 0  # All I know is that pericarditi
-          line: 608 88  # and that Mel has had this prob
+        rule: 584  ~questions_what.80.0 ?: 
+          line: 585 0  # What to ask me is up to you. I
+          Complexity of rule ~questions_what.80.0- ?: 1
+        rule: 588  ~questions_what.81.0 u: 
+          line: 589 0  # I have not been able to Transc
+          line: 590 92  # $transcend_k = 1 
+          Complexity of rule ~questions_what.81.0- u: 1
+        rule: 593  ~questions_what.82.0 ?: 
+          line: 593 0  # Besides listening to my story 
+          line: 594 83  # that's all I really want, ^use
+          Complexity of rule ~questions_what.82.0- ?: 1
+        rule: 597  ~questions_what.83.0 u: 
+          line: 601 0  # Anything you like, ^user ( ) .
           Complexity of rule ~questions_what.83.0- u: 1
-        rule: 611  ~questions_what.84.0 u: 
-          line: 618 0  # Lupus is an auto-immune diseas
-          line: 619 102  # Mel has lived with it for as l
+        rule: 604  ~questions_what.84.0 u: 
+          line: 611 0  # All I know is that pericarditi
+          line: 612 88  # and that Mel has had this prob
           Complexity of rule ~questions_what.84.0- u: 1
-        rule: 622  ~questions_what.85.0 u: 
-          line: 628 0  # ^refine ( ) 
+        rule: 615  ~questions_what.85.0 u: 
+          line: 622 0  # Lupus is an auto-immune diseas
+          line: 623 102  # Mel has lived with it for as l
           Complexity of rule ~questions_what.85.0- u: 1
-        rule: 629  ~questions_what.85.1 a: 
-          line: 629 0  # The lupus she has had all her 
-          line: 630 73  # But none of us here are expert
-          Complexity of rule ~questions_what.85.1- a: 1
-        rule: 631  ~questions_what.85.2 a: 
-          line: 631 0  # W-why do you ask about that? M
-          Complexity of rule ~questions_what.85.2- a: 1
-        rule: 634  ~questions_what.86.0 ?: 
-          line: 638 0  # Does it even matter now? My pa
-          line: 639 58  # $$a_code = 14 
-          Complexity of rule ~questions_what.86.0- ?: 1
-        rule: 642  ~questions_what.87.0 u: 
-          line: 646 0  # Oh, ^user ( ) , Mel hasn't got
-          line: 647 110  # $$a_code = 60 
-          Complexity of rule ~questions_what.87.0- u: 1
-        rule: 651  ~questions_what.88.0 u: 
-          line: 655 0  # I have the Gift. That is, I am
-          line: 656 111  # whichever of those two categor
-          line: 657 154  # ^addtopic ( ~medium ) 
+        rule: 626  ~questions_what.86.0 u: 
+          line: 632 0  # ^refine ( ) 
+          Complexity of rule ~questions_what.86.0- u: 1
+        rule: 633  ~questions_what.86.1 a: 
+          line: 633 0  # The lupus she has had all her 
+          line: 634 73  # But none of us here are expert
+          Complexity of rule ~questions_what.86.1- a: 1
+        rule: 635  ~questions_what.86.2 a: 
+          line: 635 0  # W-why do you ask about that? M
+          Complexity of rule ~questions_what.86.2- a: 1
+        rule: 638  ~questions_what.87.0 ?: 
+          line: 642 0  # Does it even matter now? My pa
+          line: 643 58  # $$a_code = 14 
+          Complexity of rule ~questions_what.87.0- ?: 1
+        rule: 646  ~questions_what.88.0 u: 
+          line: 650 0  # Oh, ^user ( ) , Mel hasn't got
+          line: 651 110  # $$a_code = 60 
           Complexity of rule ~questions_what.88.0- u: 1
-        rule: 660  ~questions_what.89.0 ?: 
-          line: 666 0  # One thing is certain. I don't 
-          Complexity of rule ~questions_what.89.0- ?: 1
-        rule: 670  ~questions_what.90.0 u: 
-          line: 676 0  # I don't know why my father alw
-          line: 677 76  # Do angels really exist? I coul
-          Complexity of rule ~questions_what.90.0- u: 1
-        rule: 678  ~questions_what.91.0 u: 
-          line: 684 0  # Though I may not have much to 
+        rule: 655  ~questions_what.89.0 u: 
+          line: 659 0  # I have the Gift. That is, I am
+          line: 660 111  # whichever of those two categor
+          line: 661 154  # ^addtopic ( ~medium ) 
+          Complexity of rule ~questions_what.89.0- u: 1
+        rule: 664  ~questions_what.90.0 ?: 
+          line: 670 0  # One thing is certain. I don't 
+          Complexity of rule ~questions_what.90.0- ?: 1
+        rule: 674  ~questions_what.91.0 u: 
+          line: 680 0  # I don't know why my father alw
+          line: 681 76  # Do angels really exist? I coul
           Complexity of rule ~questions_what.91.0- u: 1
-        rule: 687  ~questions_what.92.0 u: 
-          line: 692 0  # Oh, the last thing I can remem
+        rule: 682  ~questions_what.92.0 u: 
+          line: 688 0  # Though I may not have much to 
           Complexity of rule ~questions_what.92.0- u: 1
-        rule: 695  ~questions_what.93.0 ?: 
-          line: 695 0  # Well, what I can say is that e
-          line: 696 128  # are blinding to a girl from th
-          Complexity of rule ~questions_what.93.0- ?: 1
+        rule: 691  ~questions_what.93.0 u: 
+          line: 696 0  # Oh, the last thing I can remem
+          Complexity of rule ~questions_what.93.0- u: 1
         rule: 699  ~questions_what.94.0 ?: 
-          line: 704 0  # I suppose I would not have min
+          line: 699 0  # Well, what I can say is that e
+          line: 700 128  # are blinding to a girl from th
           Complexity of rule ~questions_what.94.0- ?: 1
-        rule: 707  ~questions_what.95.0 ?: 
-          line: 713 0  # Are you asking what the meanin
+        rule: 703  ~questions_what.95.0 ?: 
+          line: 708 0  # I suppose I would not have min
           Complexity of rule ~questions_what.95.0- ?: 1
-        rule: 716  ~questions_what.96.0 ?: 
-          line: 722 0  # You mean the train I rode to L
-          line: 723 141  # I had been on other trains. Th
+        rule: 711  ~questions_what.96.0 ?: 
+          line: 717 0  # Are you asking what the meanin
           Complexity of rule ~questions_what.96.0- ?: 1
-        rule: 726  ~questions_what.97.0 ?: 
-          line: 730 0  # It may not be the largest city
-          line: 731 107  # though I had always wanted to 
+        rule: 720  ~questions_what.97.0 ?: 
+          line: 726 0  # You mean the train I rode to L
+          line: 727 141  # I had been on other trains. Th
           Complexity of rule ~questions_what.97.0- ?: 1
-        rule: 734  ~questions_what.98.0 ?: 
-          line: 738 0  # I suppose my happiest memory w
-          line: 739 89  # before I had or even dreamed I
-          line: 740 179  # $$a_code = 14 
+        rule: 730  ~questions_what.98.0 ?: 
+          line: 734 0  # It may not be the largest city
+          line: 735 107  # though I had always wanted to 
           Complexity of rule ~questions_what.98.0- ?: 1
-        rule: 743  ~questions_what.99.0 u: 
-          line: 747 0  # I don't paint my nails, ^user 
-          Complexity of rule ~questions_what.99.0- u: 1
-        rule: 750  ~questions_what.100.0 ?: 
-          line: 755 0  # Well right now all I can think
-          Complexity of rule ~questions_what.100.0- ?: 1
-        rule: 758  ~questions_what.101.0 u: 
-          line: 766 0  # I suppose I like sherbet gener
-          Complexity of rule ~questions_what.101.0- u: 1
-        rule: 769  ~questions_what.102.0 ?: 
-          line: 769 0  # I value my friends and relatio
-          Complexity of rule ~questions_what.102.0- ?: 1
-        rule: 772  ~questions_what.103.0 ?: 
-          line: 777 0  # I don't like murder scenes, fo
+        rule: 738  ~questions_what.99.0 ?: 
+          line: 742 0  # I suppose my happiest memory w
+          line: 743 89  # before I had or even dreamed I
+          line: 744 179  # $$a_code = 14 
+          Complexity of rule ~questions_what.99.0- ?: 1
+        rule: 747  ~questions_what.100.0 u: 
+          line: 751 0  # I don't paint my nails, ^user 
+          Complexity of rule ~questions_what.100.0- u: 1
+        rule: 754  ~questions_what.101.0 ?: 
+          line: 759 0  # Well right now all I can think
+          Complexity of rule ~questions_what.101.0- ?: 1
+        rule: 762  ~questions_what.102.0 u: 
+          line: 770 0  # I suppose I like sherbet gener
+          Complexity of rule ~questions_what.102.0- u: 1
+        rule: 773  ~questions_what.103.0 ?: 
+          line: 773 0  # I value my friends and relatio
           Complexity of rule ~questions_what.103.0- ?: 1
-        rule: 780  ~questions_what.104.0 ?: 
-          line: 788 0  # Well, when I was alive Britain
-          line: 789 77  # consequently we had access to 
-          line: 790 155  # Such as chewing tobacco, heh. 
-          line: 791 185  # ^addtopic ( ~chewing_tobacco )
+        rule: 776  ~questions_what.104.0 ?: 
+          line: 781 0  # I don't like murder scenes, fo
           Complexity of rule ~questions_what.104.0- ?: 1
-        rule: 794  ~questions_what.105.0 u: 
-          line: 799 0  # I don't remember precise words
-          Complexity of rule ~questions_what.105.0- u: 1
-        rule: 802  ~questions_what.106.0 ?: 
-          line: 806 0  # I'm English, ^user ( ) ! I liv
-          line: 807 54  # $ghost_k = 
-          Complexity of rule ~questions_what.106.0- ?: 1
+        rule: 784  ~questions_what.105.0 ?: 
+          line: 792 0  # Well, when I was alive Britain
+          line: 793 77  # consequently we had access to 
+          line: 794 155  # Such as chewing tobacco, heh. 
+          line: 795 185  # ^addtopic ( ~chewing_tobacco )
+          Complexity of rule ~questions_what.105.0- ?: 1
+        rule: 798  ~questions_what.106.0 u: 
+          line: 803 0  # I don't remember precise words
+          Complexity of rule ~questions_what.106.0- u: 1
+        rule: 806  ~questions_what.107.0 ?: 
+          line: 810 0  # I'm English, ^user ( ) ! I liv
+          line: 811 54  # $ghost_k = 
+          Complexity of rule ~questions_what.107.0- ?: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/keywordless/questions_when.top
     topic: 3  ~questions_when
         rule: 7  ~questions_when.0.0 ?: 
@@ -41939,338 +41960,335 @@ file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_resoluti
           line: 78 0  # $it_pronoun = Astravel 
           Complexity of rule ~savepronouns.2.6- a: 1
         rule: 79  ~savepronouns.2.7 a: 
-          line: 79 0  # $it_pronoun = Manifest 
+          line: 79 0  # $it_pronoun = cholera 
           Complexity of rule ~savepronouns.2.7- a: 1
         rule: 80  ~savepronouns.2.8 a: 
-          line: 80 0  # $it_pronoun = cholera 
+          line: 80 0  # $it_pronoun = bayonet 
           Complexity of rule ~savepronouns.2.8- a: 1
         rule: 81  ~savepronouns.2.9 a: 
-          line: 81 0  # $it_pronoun = bayonet 
+          line: 81 0  # $it_pronoun = ^join ( AUTOSPAC
           Complexity of rule ~savepronouns.2.9- a: 1
         rule: 82  ~savepronouns.2.10 a: 
           line: 82 0  # $it_pronoun = ^join ( AUTOSPAC
           Complexity of rule ~savepronouns.2.10- a: 1
         rule: 83  ~savepronouns.2.11 a: 
-          line: 83 0  # $it_pronoun = ^join ( AUTOSPAC
+          line: 83 0  # $it_pronoun = divination 
           Complexity of rule ~savepronouns.2.11- a: 1
         rule: 84  ~savepronouns.2.12 a: 
-          line: 84 0  # $it_pronoun = divination 
+          line: 84 0  # $it_pronoun = medium 
           Complexity of rule ~savepronouns.2.12- a: 1
         rule: 85  ~savepronouns.2.13 a: 
-          line: 85 0  # $it_pronoun = medium 
+          line: 85 0  # $it_pronoun = scrapbook 
           Complexity of rule ~savepronouns.2.13- a: 1
         rule: 86  ~savepronouns.2.14 a: 
-          line: 86 0  # $it_pronoun = scrapbook 
+          line: 86 0  # $it_pronoun = murders 
           Complexity of rule ~savepronouns.2.14- a: 1
         rule: 87  ~savepronouns.2.15 a: 
-          line: 87 0  # $it_pronoun = murders 
+          line: 87 0  # $it_pronoun = "head injury" 
           Complexity of rule ~savepronouns.2.15- a: 1
         rule: 88  ~savepronouns.2.16 a: 
-          line: 88 0  # $it_pronoun = "head injury" 
+          line: 88 0  # $it_pronoun = "bad feeling" 
           Complexity of rule ~savepronouns.2.16- a: 1
         rule: 89  ~savepronouns.2.17 a: 
-          line: 89 0  # $it_pronoun = "bad feeling" 
+          line: 89 0  # $it_pronoun = Transcend 
           Complexity of rule ~savepronouns.2.17- a: 1
         rule: 90  ~savepronouns.2.18 a: 
-          line: 90 0  # $it_pronoun = Transcend 
+          line: 90 0  # $it_pronoun = possession 
           Complexity of rule ~savepronouns.2.18- a: 1
         rule: 91  ~savepronouns.2.19 a: 
-          line: 91 0  # $it_pronoun = possession 
+          line: 91 0  # $it_pronoun = seance 
           Complexity of rule ~savepronouns.2.19- a: 1
         rule: 92  ~savepronouns.2.20 a: 
-          line: 92 0  # $it_pronoun = seance 
+          line: 92 0  # $it_pronoun = "karmic balance"
           Complexity of rule ~savepronouns.2.20- a: 1
         rule: 93  ~savepronouns.2.21 a: 
-          line: 93 0  # $it_pronoun = "karmic balance"
+          line: 93 0  # $it_pronoun = phantakine 
           Complexity of rule ~savepronouns.2.21- a: 1
         rule: 94  ~savepronouns.2.22 a: 
-          line: 94 0  # $it_pronoun = phantakine 
+          line: 94 0  # $it_pronoun = "being dead" 
           Complexity of rule ~savepronouns.2.22- a: 1
         rule: 95  ~savepronouns.2.23 a: 
-          line: 95 0  # $it_pronoun = "being dead" 
+          line: 95 0  # $it_pronoun = Veil 
           Complexity of rule ~savepronouns.2.23- a: 1
         rule: 96  ~savepronouns.2.24 a: 
-          line: 96 0  # $it_pronoun = Veil 
+          line: 96 0  # $it_pronoun = ghost 
           Complexity of rule ~savepronouns.2.24- a: 1
         rule: 97  ~savepronouns.2.25 a: 
-          line: 97 0  # $it_pronoun = ghost 
+          line: 97 0  # $it_pronoun = knife 
           Complexity of rule ~savepronouns.2.25- a: 1
         rule: 98  ~savepronouns.2.26 a: 
-          line: 98 0  # $it_pronoun = knife 
+          line: 98 0  # $it_pronoun = Rollindale 
           Complexity of rule ~savepronouns.2.26- a: 1
         rule: 99  ~savepronouns.2.27 a: 
-          line: 99 0  # $it_pronoun = Rollindale 
+          line: 99 0  # $it_pronoun = Hampshire 
           Complexity of rule ~savepronouns.2.27- a: 1
         rule: 100  ~savepronouns.2.28 a: 
-          line: 100 0  # $it_pronoun = Hampshire 
+          line: 100 0  # $it_pronoun = ^join ( AUTOSPAC
           Complexity of rule ~savepronouns.2.28- a: 1
         rule: 101  ~savepronouns.2.29 a: 
-          line: 101 0  # $it_pronoun = ^join ( AUTOSPAC
+          line: 101 0  # $it_pronoun = exorcism 
           Complexity of rule ~savepronouns.2.29- a: 1
         rule: 102  ~savepronouns.2.30 a: 
-          line: 102 0  # $it_pronoun = exorcism 
+          line: 102 0  # $it_pronoun = ouija 
           Complexity of rule ~savepronouns.2.30- a: 1
         rule: 103  ~savepronouns.2.31 a: 
-          line: 103 0  # $it_pronoun = ouija 
+          line: 103 0  # $it_pronoun = electronics 
           Complexity of rule ~savepronouns.2.31- a: 1
         rule: 104  ~savepronouns.2.32 a: 
-          line: 104 0  # $it_pronoun = electronics 
+          line: 104 0  # $it_pronoun = "time dilation" 
           Complexity of rule ~savepronouns.2.32- a: 1
         rule: 105  ~savepronouns.2.33 a: 
-          line: 105 0  # $it_pronoun = "time dilation" 
+          line: 105 0  # $it_pronoun = tongues 
           Complexity of rule ~savepronouns.2.33- a: 1
         rule: 106  ~savepronouns.2.34 a: 
-          line: 106 0  # $it_pronoun = tongues 
+          line: 106 0  # $it_pronoun = "her hospital" 
           Complexity of rule ~savepronouns.2.34- a: 1
         rule: 107  ~savepronouns.2.35 a: 
-          line: 107 0  # $it_pronoun = "her hospital" 
+          line: 107 0  # $it_pronoun = "her promise" 
           Complexity of rule ~savepronouns.2.35- a: 1
         rule: 108  ~savepronouns.2.36 a: 
-          line: 108 0  # $it_pronoun = "her promise" 
+          line: 108 0  # $it_pronoun = ballet 
           Complexity of rule ~savepronouns.2.36- a: 1
         rule: 109  ~savepronouns.2.37 a: 
-          line: 109 0  # $it_pronoun = ballet 
+          line: 109 0  # $it_pronoun = violin 
           Complexity of rule ~savepronouns.2.37- a: 1
         rule: 110  ~savepronouns.2.38 a: 
-          line: 110 0  # $it_pronoun = violin 
+          line: 110 0  # $it_pronoun = trivia 
           Complexity of rule ~savepronouns.2.38- a: 1
-        rule: 111  ~savepronouns.2.39 a: 
-          line: 111 0  # $it_pronoun = trivia 
+        rule: 114  ~savepronouns.2.39 a: 
+          line: 114 0  # $it_pronoun = _0 
           Complexity of rule ~savepronouns.2.39- a: 1
-        rule: 115  ~savepronouns.2.40 a: 
-          line: 115 0  # $it_pronoun = _0 
-          Complexity of rule ~savepronouns.2.40- a: 1
-        rule: 120  ~savepronouns.3.0 u: 
-          line: 120 0  # ^refine ( ) 
+        rule: 119  ~savepronouns.3.0 u: 
+          line: 119 0  # ^refine ( ) 
           Complexity of rule ~savepronouns.3.0- u: 1
-        rule: 121  ~savepronouns.3.1 a: 
-          line: 121 0  # $they_pronoun = $$they_pronoun
+        rule: 120  ~savepronouns.3.1 a: 
+          line: 120 0  # $they_pronoun = $$they_pronoun
           Complexity of rule ~savepronouns.3.1- a: 1
-        rule: 123  ~savepronouns.3.2 a: 
-          line: 123 0  # $they_pronoun = ^join ( AUTOSP
+        rule: 122  ~savepronouns.3.2 a: 
+          line: 122 0  # $they_pronoun = ^join ( AUTOSP
           Complexity of rule ~savepronouns.3.2- a: 1
-        rule: 124  ~savepronouns.3.3 a: 
-          line: 124 0  # $they_pronoun = ^join ( AUTOSP
+        rule: 123  ~savepronouns.3.3 a: 
+          line: 123 0  # $they_pronoun = ^join ( AUTOSP
           Complexity of rule ~savepronouns.3.3- a: 1
-        rule: 125  ~savepronouns.3.4 a: 
-          line: 125 0  # $they_pronoun = Duggans 
+        rule: 124  ~savepronouns.3.4 a: 
+          line: 124 0  # $they_pronoun = Duggans 
           Complexity of rule ~savepronouns.3.4- a: 1
-        rule: 126  ~savepronouns.3.5 a: 
-          line: 126 0  # $they_pronoun = ^join ( AUTOSP
+        rule: 125  ~savepronouns.3.5 a: 
+          line: 125 0  # $they_pronoun = ^join ( AUTOSP
           Complexity of rule ~savepronouns.3.5- a: 1
-        rule: 127  ~savepronouns.3.6 a: 
-          line: 127 0  # $they_pronoun = devils 
+        rule: 126  ~savepronouns.3.6 a: 
+          line: 126 0  # $they_pronoun = devils 
           Complexity of rule ~savepronouns.3.6- a: 1
-        rule: 128  ~savepronouns.3.7 a: 
-          line: 128 0  # $they_pronoun = ghosts 
+        rule: 127  ~savepronouns.3.7 a: 
+          line: 127 0  # $they_pronoun = ghosts 
           Complexity of rule ~savepronouns.3.7- a: 1
-        rule: 133  ~savepronouns.4.0 u: 
-          line: 134 0  # ^refine ( ) 
+        rule: 132  ~savepronouns.4.0 u: 
+          line: 133 0  # ^refine ( ) 
           Complexity of rule ~savepronouns.4.0- u: 1
-        rule: 135  ~savepronouns.4.1 a: 
-          line: 136 0  # $_name = _0 
-          line: 137 12  # @0 = ^query ( direct_vo ? numb
-          line: 138 52  # $_num = @0subject 
-          line: 139 70  # $it_pronoun = $_name 
-          line: 140 91  # ^refine ( ) 
+        rule: 134  ~savepronouns.4.1 a: 
+          line: 135 0  # $_name = _0 
+          line: 136 12  # @0 = ^query ( direct_vo ? numb
+          line: 137 52  # $_num = @0subject 
+          line: 138 70  # $it_pronoun = $_name 
+          line: 139 91  # ^refine ( ) 
           Complexity of rule ~savepronouns.4.1- a: 1
-        rule: 141  ~savepronouns.4.2 b: 
-          line: 142 0  # $here_pronoun = $_name 
+        rule: 140  ~savepronouns.4.2 b: 
+          line: 141 0  # $here_pronoun = $_name 
           Complexity of rule ~savepronouns.4.2- b: 1
-        rule: 143  ~savepronouns.4.3 b: 
-          line: 144 0  # $there_pronoun = $_name 
+        rule: 142  ~savepronouns.4.3 b: 
+          line: 143 0  # $there_pronoun = $_name 
           Complexity of rule ~savepronouns.4.3- b: 1
-    topic: 197  ~replacepronouns
-        rule: 203  ~replacepronouns.0.0 u: 
-          line: 204 0  # $last_before_pronoun = null 
-          line: 205 28  # $last_after_pronoun = null 
-          line: 206 55  # $last_punc = null 
+    topic: 196  ~replacepronouns
+        rule: 202  ~replacepronouns.0.0 u: 
+          line: 203 0  # $last_before_pronoun = null 
+          line: 204 28  # $last_after_pronoun = null 
+          line: 205 55  # $last_punc = null 
           Complexity of rule ~replacepronouns.0.0- u: 1
-        rule: 212  ~replacepronouns.1.0-HE u: 
-          line: 215 0  # ^refine ( ) 
+        rule: 211  ~replacepronouns.1.0-HE u: 
+          line: 214 0  # ^refine ( ) 
           Complexity of rule ~replacepronouns.1.0-HE u: 1
-        rule: 216  ~replacepronouns.1.1 a: 
-          line: 217 0  # $last_before_pronoun = '_0 
-          line: 218 27  # $last_after_pronoun = '_1 
-          line: 219 53  # $last_punc = $$punctuation 
-          line: 220 80  # $$made_pronoun_replacement = t
-          line: 221 114  # ^input ( '_0 $he_pronoun 's '_
+        rule: 215  ~replacepronouns.1.1 a: 
+          line: 216 0  # $last_before_pronoun = '_0 
+          line: 217 27  # $last_after_pronoun = '_1 
+          line: 218 53  # $last_punc = $$punctuation 
+          line: 219 80  # $$made_pronoun_replacement = t
+          line: 220 114  # ^input ( '_0 $he_pronoun 's '_
           Complexity of rule ~replacepronouns.1.1- a: 1
-        rule: 222  ~replacepronouns.1.2 a: 
-          line: 223 0  # $last_before_pronoun = '_0 
-          line: 224 27  # $last_after_pronoun = '_1 
-          line: 225 53  # $last_punc = $$punctuation 
-          line: 226 80  # $$made_pronoun_replacement = t
-          line: 227 114  # ^input ( '_0 $he_pronoun 's se
+        rule: 221  ~replacepronouns.1.2 a: 
+          line: 222 0  # $last_before_pronoun = '_0 
+          line: 223 27  # $last_after_pronoun = '_1 
+          line: 224 53  # $last_punc = $$punctuation 
+          line: 225 80  # $$made_pronoun_replacement = t
+          line: 226 114  # ^input ( '_0 $he_pronoun 's se
           Complexity of rule ~replacepronouns.1.2- a: 1
-        rule: 228  ~replacepronouns.1.3 a: 
-          line: 229 0  # $last_before_pronoun = '_0 
-          line: 230 27  # $last_after_pronoun = '_1 
-          line: 231 53  # $last_punc = $$punctuation 
-          line: 232 80  # $$made_pronoun_replacement = t
-          line: 233 114  # ^input ( '_0 $he_pronoun '_1 $
+        rule: 227  ~replacepronouns.1.3 a: 
+          line: 228 0  # $last_before_pronoun = '_0 
+          line: 229 27  # $last_after_pronoun = '_1 
+          line: 230 53  # $last_punc = $$punctuation 
+          line: 231 80  # $$made_pronoun_replacement = t
+          line: 232 114  # ^input ( '_0 $he_pronoun '_1 $
           Complexity of rule ~replacepronouns.1.3- a: 1
-        rule: 234  ~replacepronouns.1.4 a: 
-          line: 235 0  # $last_before_pronoun = '_0 
-          line: 236 27  # $last_after_pronoun = '_1 
-          line: 237 53  # $last_punc = $$punctuation 
-          line: 238 80  # $$made_pronoun_replacement = t
-          line: 239 114  # ^input ( '_0 $he_pronoun '_1 $
+        rule: 233  ~replacepronouns.1.4 a: 
+          line: 234 0  # $last_before_pronoun = '_0 
+          line: 235 27  # $last_after_pronoun = '_1 
+          line: 236 53  # $last_punc = $$punctuation 
+          line: 237 80  # $$made_pronoun_replacement = t
+          line: 238 114  # ^input ( '_0 $he_pronoun '_1 $
           Complexity of rule ~replacepronouns.1.4- a: 1
-        rule: 241  ~replacepronouns.2.0-HE u: 
-          line: 242 0  # $last_before_pronoun = '_0 
-          line: 243 27  # $last_after_pronoun = '_1 
-          line: 244 53  # $last_punc = $$punctuation 
-          line: 245 80  # $$made_pronoun_replacement = t
-          line: 246 114  # ^input ( '_0 $he_pronoun '_1 $
+        rule: 240  ~replacepronouns.2.0-HE u: 
+          line: 241 0  # $last_before_pronoun = '_0 
+          line: 242 27  # $last_after_pronoun = '_1 
+          line: 243 53  # $last_punc = $$punctuation 
+          line: 244 80  # $$made_pronoun_replacement = t
+          line: 245 114  # ^input ( '_0 $he_pronoun '_1 $
           Complexity of rule ~replacepronouns.2.0-HE u: 1
-        rule: 250  ~replacepronouns.3.0-SHE u: 
-          line: 251 0  # ^refine ( ) 
+        rule: 249  ~replacepronouns.3.0-SHE u: 
+          line: 250 0  # ^refine ( ) 
           Complexity of rule ~replacepronouns.3.0-SHE u: 1
-        rule: 254  ~replacepronouns.3.1 a: 
-          line: 255 0  # $last_before_pronoun = '_0 
-          line: 256 27  # $last_after_pronoun = '_1 
-          line: 257 53  # $last_punc = $$punctuation 
-          line: 258 80  # $$made_pronoun_replacement = t
-          line: 259 114  # ^input ( '_0 $she_pronoun 's s
+        rule: 253  ~replacepronouns.3.1 a: 
+          line: 254 0  # $last_before_pronoun = '_0 
+          line: 255 27  # $last_after_pronoun = '_1 
+          line: 256 53  # $last_punc = $$punctuation 
+          line: 257 80  # $$made_pronoun_replacement = t
+          line: 258 114  # ^input ( '_0 $she_pronoun 's s
           Complexity of rule ~replacepronouns.3.1- a: 1
-        rule: 260  ~replacepronouns.3.2 a: 
-          line: 261 0  # $last_before_pronoun = '_0 
-          line: 262 27  # $last_after_pronoun = '_1 
-          line: 263 53  # $last_punc = $$punctuation 
-          line: 264 80  # $$made_pronoun_replacement = t
-          line: 265 114  # ^input ( '_0 $she_pronoun '_1 
+        rule: 259  ~replacepronouns.3.2 a: 
+          line: 260 0  # $last_before_pronoun = '_0 
+          line: 261 27  # $last_after_pronoun = '_1 
+          line: 262 53  # $last_punc = $$punctuation 
+          line: 263 80  # $$made_pronoun_replacement = t
+          line: 264 114  # ^input ( '_0 $she_pronoun '_1 
           Complexity of rule ~replacepronouns.3.2- a: 1
-        rule: 266  ~replacepronouns.3.3 a: 
-          line: 267 0  # $last_before_pronoun = '_0 
-          line: 268 27  # $last_after_pronoun = '_1 
-          line: 269 53  # $last_punc = $$punctuation 
-          line: 270 80  # $$made_pronoun_replacement = t
-          line: 271 114  # ^input ( '_0 $she_pronoun '_1 
+        rule: 265  ~replacepronouns.3.3 a: 
+          line: 266 0  # $last_before_pronoun = '_0 
+          line: 267 27  # $last_after_pronoun = '_1 
+          line: 268 53  # $last_punc = $$punctuation 
+          line: 269 80  # $$made_pronoun_replacement = t
+          line: 270 114  # ^input ( '_0 $she_pronoun '_1 
           Complexity of rule ~replacepronouns.3.3- a: 1
-        rule: 273  ~replacepronouns.4.0-SHE u: 
-          line: 274 0  # $last_before_pronoun = '_0 
-          line: 275 27  # $last_after_pronoun = '_1 
-          line: 276 53  # $last_punc = $$punctuation 
-          line: 277 80  # $$made_pronoun_replacement = t
-          line: 278 114  # ^input ( '_0 $she_pronoun '_1 
+        rule: 272  ~replacepronouns.4.0-SHE u: 
+          line: 273 0  # $last_before_pronoun = '_0 
+          line: 274 27  # $last_after_pronoun = '_1 
+          line: 275 53  # $last_punc = $$punctuation 
+          line: 276 80  # $$made_pronoun_replacement = t
+          line: 277 114  # ^input ( '_0 $she_pronoun '_1 
           Complexity of rule ~replacepronouns.4.0-SHE u: 1
-        rule: 281  ~replacepronouns.5.0-IT u: 
-          line: 282 0  # ^refine ( ) 
+        rule: 280  ~replacepronouns.5.0-IT u: 
+          line: 281 0  # ^refine ( ) 
           Complexity of rule ~replacepronouns.5.0-IT u: 1
-        rule: 283  ~replacepronouns.5.1 a: 
-          line: 284 0  # $last_before_pronoun = '_0 
-          line: 285 27  # $last_after_pronoun = '_1 
-          line: 286 53  # $last_punc = $$punctuation 
-          line: 287 80  # $$made_pronoun_replacement = t
-          line: 288 114  # ^input ( '_0 $it_pronoun 's '_
+        rule: 282  ~replacepronouns.5.1 a: 
+          line: 283 0  # $last_before_pronoun = '_0 
+          line: 284 27  # $last_after_pronoun = '_1 
+          line: 285 53  # $last_punc = $$punctuation 
+          line: 286 80  # $$made_pronoun_replacement = t
+          line: 287 114  # ^input ( '_0 $it_pronoun 's '_
           Complexity of rule ~replacepronouns.5.1- a: 1
-        rule: 289  ~replacepronouns.5.2 a: 
-          line: 290 0  # $last_before_pronoun = '_0 
-          line: 291 27  # $last_after_pronoun = '_1 
-          line: 292 53  # $last_punc = $$punctuation 
-          line: 293 80  # $$made_pronoun_replacement = t
-          line: 294 114  # ^input ( '_0 $it_pronoun 's se
+        rule: 288  ~replacepronouns.5.2 a: 
+          line: 289 0  # $last_before_pronoun = '_0 
+          line: 290 27  # $last_after_pronoun = '_1 
+          line: 291 53  # $last_punc = $$punctuation 
+          line: 292 80  # $$made_pronoun_replacement = t
+          line: 293 114  # ^input ( '_0 $it_pronoun 's se
           Complexity of rule ~replacepronouns.5.2- a: 1
-        rule: 295  ~replacepronouns.5.3 a: 
-          line: 296 0  # $last_before_pronoun = '_0 
-          line: 297 27  # $last_after_pronoun = '_1 
-          line: 298 53  # $last_punc = $$punctuation 
-          line: 299 80  # $$made_pronoun_replacement = t
-          line: 300 114  # ^input ( '_0 $it_pronoun '_1 $
+        rule: 294  ~replacepronouns.5.3 a: 
+          line: 295 0  # $last_before_pronoun = '_0 
+          line: 296 27  # $last_after_pronoun = '_1 
+          line: 297 53  # $last_punc = $$punctuation 
+          line: 298 80  # $$made_pronoun_replacement = t
+          line: 299 114  # ^input ( '_0 $it_pronoun '_1 $
           Complexity of rule ~replacepronouns.5.3- a: 1
-        rule: 301  ~replacepronouns.5.4 a: 
-          line: 302 0  # $last_before_pronoun = '_0 
-          line: 303 27  # $last_after_pronoun = '_1 
-          line: 304 53  # $last_punc = $$punctuation 
-          line: 305 80  # $$made_pronoun_replacement = t
-          line: 306 114  # ^input ( '_0 $it_pronoun '_1 $
+        rule: 300  ~replacepronouns.5.4 a: 
+          line: 301 0  # $last_before_pronoun = '_0 
+          line: 302 27  # $last_after_pronoun = '_1 
+          line: 303 53  # $last_punc = $$punctuation 
+          line: 304 80  # $$made_pronoun_replacement = t
+          line: 305 114  # ^input ( '_0 $it_pronoun '_1 $
           Complexity of rule ~replacepronouns.5.4- a: 1
-        rule: 308  ~replacepronouns.6.0-IT u: 
-          line: 309 0  # $last_before_pronoun = '_0 
-          line: 310 27  # $last_after_pronoun = '_1 
-          line: 311 53  # $last_punc = $$punctuation 
-          line: 312 80  # $$made_pronoun_replacement = t
-          line: 313 114  # ^input ( '_0 $it_pronoun '_1 $
+        rule: 307  ~replacepronouns.6.0-IT u: 
+          line: 308 0  # $last_before_pronoun = '_0 
+          line: 309 27  # $last_after_pronoun = '_1 
+          line: 310 53  # $last_punc = $$punctuation 
+          line: 311 80  # $$made_pronoun_replacement = t
+          line: 312 114  # ^input ( '_0 $it_pronoun '_1 $
           Complexity of rule ~replacepronouns.6.0-IT u: 1
-        rule: 316  ~replacepronouns.7.0-IT u: 
-          line: 317 0  # $last_before_pronoun = '_0 
-          line: 318 27  # $last_after_pronoun = '_1 
-          line: 319 53  # $last_punc = $$punctuation 
-          line: 320 80  # $$made_pronoun_replacement = t
-          line: 321 114  # ^input ( '_0 $it_pronoun '_1 $
+        rule: 315  ~replacepronouns.7.0-IT u: 
+          line: 316 0  # $last_before_pronoun = '_0 
+          line: 317 27  # $last_after_pronoun = '_1 
+          line: 318 53  # $last_punc = $$punctuation 
+          line: 319 80  # $$made_pronoun_replacement = t
+          line: 320 114  # ^input ( '_0 $it_pronoun '_1 $
           Complexity of rule ~replacepronouns.7.0-IT u: 1
-        rule: 323  ~replacepronouns.8.0 u: 
-          line: 324 0  # $it_pronoun = null 
+        rule: 322  ~replacepronouns.8.0 u: 
+          line: 323 0  # $it_pronoun = null 
           Complexity of rule ~replacepronouns.8.0- u: 1
-        rule: 327  ~replacepronouns.9.0-THEY u: 
-          line: 328 0  # ^refine ( ) 
+        rule: 326  ~replacepronouns.9.0-THEY u: 
+          line: 327 0  # ^refine ( ) 
           Complexity of rule ~replacepronouns.9.0-THEY u: 1
-        rule: 329  ~replacepronouns.9.1 a: 
-          line: 330 0  # $last_before_pronoun = '_0 
-          line: 331 27  # $last_after_pronoun = '_1 
-          line: 332 53  # $last_punc = $$punctuation 
-          line: 333 80  # $$made_pronoun_replacement = t
-          line: 334 114  # ^input ( '_0 $they_pronoun '_1
+        rule: 328  ~replacepronouns.9.1 a: 
+          line: 329 0  # $last_before_pronoun = '_0 
+          line: 330 27  # $last_after_pronoun = '_1 
+          line: 331 53  # $last_punc = $$punctuation 
+          line: 332 80  # $$made_pronoun_replacement = t
+          line: 333 114  # ^input ( '_0 $they_pronoun '_1
           Complexity of rule ~replacepronouns.9.1- a: 1
-        rule: 335  ~replacepronouns.9.2 a: 
-          line: 336 0  # $last_before_pronoun = '_0 
-          line: 337 27  # $last_after_pronoun = '_1 
-          line: 338 53  # $last_punc = $$punctuation 
-          line: 339 80  # $$made_pronoun_replacement = t
-          line: 340 114  # ^input ( '_0 $they_pronoun '_1
+        rule: 334  ~replacepronouns.9.2 a: 
+          line: 335 0  # $last_before_pronoun = '_0 
+          line: 336 27  # $last_after_pronoun = '_1 
+          line: 337 53  # $last_punc = $$punctuation 
+          line: 338 80  # $$made_pronoun_replacement = t
+          line: 339 114  # ^input ( '_0 $they_pronoun '_1
           Complexity of rule ~replacepronouns.9.2- a: 1
-        rule: 342  ~replacepronouns.10.0-THEY u: 
-          line: 343 0  # $last_before_pronoun = '_0 
-          line: 344 27  # $last_after_pronoun = '_1 
-          line: 345 53  # $last_punc = $$punctuation 
-          line: 346 80  # $$made_pronoun_replacement = t
-          line: 347 114  # ^input ( '_0 $they_pronoun '_1
+        rule: 341  ~replacepronouns.10.0-THEY u: 
+          line: 342 0  # $last_before_pronoun = '_0 
+          line: 343 27  # $last_after_pronoun = '_1 
+          line: 344 53  # $last_punc = $$punctuation 
+          line: 345 80  # $$made_pronoun_replacement = t
+          line: 346 114  # ^input ( '_0 $they_pronoun '_1
           Complexity of rule ~replacepronouns.10.0-THEY u: 1
-        rule: 355  ~replacepronouns.11.0-HERE u: 
-          line: 356 0  # $last_before_pronoun = '_0 
-          line: 357 27  # $last_after_pronoun = '_1 
-          line: 358 53  # $last_punc = $$punctuation 
-          line: 359 80  # $$made_pronoun_replacement = t
-          line: 360 114  # ^input ( '_0 $here_pronoun '_1
+        rule: 354  ~replacepronouns.11.0-HERE u: 
+          line: 355 0  # $last_before_pronoun = '_0 
+          line: 356 27  # $last_after_pronoun = '_1 
+          line: 357 53  # $last_punc = $$punctuation 
+          line: 358 80  # $$made_pronoun_replacement = t
+          line: 359 114  # ^input ( '_0 $here_pronoun '_1
           Complexity of rule ~replacepronouns.11.0-HERE u: 1
-        rule: 362  ~replacepronouns.12.0-HERE u: 
-          line: 363 0  # $last_before_pronoun = '_0 
-          line: 364 27  # $last_after_pronoun = '_1 
-          line: 365 53  # $last_punc = $$punctuation 
-          line: 366 80  # $$made_pronoun_replacement = t
-          line: 367 114  # ^input ( '_0 $here_pronoun '_1
+        rule: 361  ~replacepronouns.12.0-HERE u: 
+          line: 362 0  # $last_before_pronoun = '_0 
+          line: 363 27  # $last_after_pronoun = '_1 
+          line: 364 53  # $last_punc = $$punctuation 
+          line: 365 80  # $$made_pronoun_replacement = t
+          line: 366 114  # ^input ( '_0 $here_pronoun '_1
           Complexity of rule ~replacepronouns.12.0-HERE u: 1
-        rule: 369  ~replacepronouns.13.0-THERE u: 
-          line: 370 0  # $last_before_pronoun = '_0 
-          line: 371 27  # $last_after_pronoun = '_1 
-          line: 372 53  # $last_punc = $$punctuation 
-          line: 373 80  # $$made_pronoun_replacement = t
-          line: 374 114  # ^input ( '_0 $there_pronoun '_
+        rule: 368  ~replacepronouns.13.0-THERE u: 
+          line: 369 0  # $last_before_pronoun = '_0 
+          line: 370 27  # $last_after_pronoun = '_1 
+          line: 371 53  # $last_punc = $$punctuation 
+          line: 372 80  # $$made_pronoun_replacement = t
+          line: 373 114  # ^input ( '_0 $there_pronoun '_
           Complexity of rule ~replacepronouns.13.0-THERE u: 1
-        rule: 376  ~replacepronouns.14.0-THERE u: 
-          line: 377 0  # $last_before_pronoun = '_0 
-          line: 378 27  # $last_after_pronoun = '_1 
-          line: 379 53  # $last_punc = $$punctuation 
-          line: 380 80  # $$made_pronoun_replacement = t
-          line: 381 114  # ^input ( '_0 $there_pronoun '_
+        rule: 375  ~replacepronouns.14.0-THERE u: 
+          line: 376 0  # $last_before_pronoun = '_0 
+          line: 377 27  # $last_after_pronoun = '_1 
+          line: 378 53  # $last_punc = $$punctuation 
+          line: 379 80  # $$made_pronoun_replacement = t
+          line: 380 114  # ^input ( '_0 $there_pronoun '_
           Complexity of rule ~replacepronouns.14.0-THERE u: 1
-        rule: 388  ~replacepronouns.15.0 s: 
-          line: 388 0  # ^settokenflags ( 536870912 ) 
+        rule: 387  ~replacepronouns.15.0 s: 
+          line: 387 0  # ^settokenflags ( 536870912 ) 
           Complexity of rule ~replacepronouns.15.0- s: 1
-        rule: 389  ~replacepronouns.16.0 s: 
-          line: 389 0  # ^settokenflags ( 536870912 ) 
+        rule: 388  ~replacepronouns.16.0 s: 
+          line: 388 0  # ^settokenflags ( 536870912 ) 
           Complexity of rule ~replacepronouns.16.0- s: 1
-        rule: 390  ~replacepronouns.17.0 s: 
-          line: 390 0  # ^settokenflags ( 536870912 ) 
+        rule: 389  ~replacepronouns.17.0 s: 
+          line: 389 0  # ^settokenflags ( 536870912 ) 
           Complexity of rule ~replacepronouns.17.0- s: 1
-        rule: 391  ~replacepronouns.18.0 s: 
-          line: 391 0  # ^settokenflags ( 536870912 ) 
+        rule: 390  ~replacepronouns.18.0 s: 
+          line: 390 0  # ^settokenflags ( 536870912 ) 
           Complexity of rule ~replacepronouns.18.0- s: 1
-        rule: 392  ~replacepronouns.19.0 s: 
-          line: 392 0  # ^settokenflags ( 536870912 ) 
+        rule: 391  ~replacepronouns.19.0 s: 
+          line: 391 0  # ^settokenflags ( 536870912 ) 
           Complexity of rule ~replacepronouns.19.0- s: 1
-        rule: 399  ~replacepronouns.20.0 u: 
+        rule: 398  ~replacepronouns.20.0 u: 
           Complexity of rule ~replacepronouns.20.0- u: 1
 file: 0  C:/Users/rober/nodestuff/ChatScript-12.31/RAWDATA/MMG/_pronoun_common.top
     topic: 3  ~pronoun_common
